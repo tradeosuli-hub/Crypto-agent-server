@@ -1,0 +1,117 @@
+{
+  "name": "hamid_method",
+  "version": "3.0",
+  "updated": "2026-09-26",
+  "prompt_file": "docs/HAMID_METHOD_V3_PROMPT.txt",
+  "note_fa": "این فقط بخش کوچکی از تحلیل حمید است — هر چه اینجا نیست، هنوز یاد گرفته نشده. قوانین برای همهٔ ارزها یکسان است.",
+  "applies_to": "all_symbols",
+  "sources": [
+    "video NOFD2555 (ADA, 17m)",
+    "video QAZNE8198 (SOL, 32m)",
+    "video DDTK6727 (SOL + USDT.D, 9m)",
+    "verbal clarifications 2026-09-16 and 2026-09-17"
+  ],
+  "cascade": {
+    "order": ["dominance", "4h", "1h", "15m", "5m", "dominance"],
+    "master_timeframe": "1h",
+    "execution_timeframe": "15m",
+    "trigger_timeframe": "5m",
+    "master_note_fa": "خطوط و اوردر بلاک‌های اصلی در ۱ساعته‌اند؛ ۱۵دقیقه تأییدی بر همان تحلیل است",
+    "decide_only_on": "15m"
+  },
+  "timeframe_weights": {
+    "4h": 0.35,
+    "1h": 0.30,
+    "15m": 0.25,
+    "5m": 0.10
+  },
+  "order_block": {
+    "body_dominant": true,
+    "walkback": 6,
+    "merge_consecutive": true,
+    "band_mode": true,
+    "min_historical_reactions": 1,
+    "reaction_gap_candles": 5,
+    "reaction_min_atr": 1.0,
+    "reaction_touch_pct_of_band": 0.25,
+    "live_walls_only": true,
+    "require_h1_anchor": true,
+    "anchor_atr": 0.5,
+    "tradeable_wall_verdicts": ["solid", "hammer_dulling"]
+  },
+  "trigger": {
+    "entry_needs_wick_rejection": true,
+    "min_shadow_to_body_ratio": 1.0,
+    "min_penetration_pct_of_band": 0.2,
+    "lookback_candles": 2
+  },
+  "channel": {
+    "lookbacks": [240, 120, 60, 30],
+    "reentry_rule": {"unconditional": true},
+    "outer_channel_wins": true
+  },
+  "params": {
+    "min_score": 6,
+    "min_visible": 7,
+    "ob_min_tests_for_param7": 3,
+    "list": [
+      "dxy",
+      "trendline",
+      "dominance_align",
+      "ob_channel_align",
+      "bos_choch",
+      "fvg_inside_ob",
+      "ob_historical_tests",
+      "history_rsi_div",
+      "volume",
+      "news_events"
+    ]
+  },
+  "stop": {
+    "conditions_all_required": [
+      "behind the order block band",
+      "outside the liquidity cluster",
+      "inside the channel",
+      "beyond the previous swing of THAT timeframe (short: above the previous high, long: below the previous low)"
+    ],
+    "liquidity_source_preferred": "CoinGlass liquidation heatmap",
+    "liquidity_source_fallback": "ta.liquidation_map",
+    "cluster_buffer_atr": 0.25,
+    "min_stop_atr": 0.5,
+    "size_is_adjusted_not_the_stop": true
+  },
+  "targets": {
+    "source": "structure",
+    "min_rr_for_target_1": 1.0,
+    "never_reach_last": true,
+    "trail_after_target_1": true
+  },
+  "entry": {
+    "edge_offset_atr": 0.05,
+    "prefer_shorter_stop": true
+  },
+  "risk": {
+    "risk_pct": 1.0,
+    "leverage_min": 1,
+    "leverage_max": 20
+  },
+  "fvg": {
+    "touch_decay": 0.5,
+    "spent_below": 0.3
+  },
+  "break_confirm_candles": 2,
+  "follow_by_pct": 2.0,
+  "not_yet_implemented": [
+    "real CoinGlass liquidation heatmap (needs an API key)",
+    "live news/events feed",
+    "live DXY feed (optional; blind when missing)"
+  ],
+  "guessed_not_confirmed_by_hamid": [
+    "channel lookbacks 240/120/60/30",
+    "timeframe weights 0.35/0.30/0.25/0.10",
+    "OB walkback=6",
+    "anchor_atr=0.5",
+    "min_stop_atr=0.5",
+    "liquidation cluster_buffer_atr=0.25"
+  ]
+}
