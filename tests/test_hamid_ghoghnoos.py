@@ -6,7 +6,6 @@ import sys
 
 import numpy as np
 import pandas as pd
-import pytest
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, ROOT)
@@ -150,3 +149,33 @@ def test_liquidation_fallback():
     clusters = ta.liquidation_map(df)
     assert isinstance(clusters, list)
     assert clusters
+
+
+def test_live_walls_prefers_tradeable_and_never_setup_on_young_wall():
+    """دیوار young/untested فقط bias می‌دهد؛ setup فقط روی دیوار قابل‌معامله."""
+    mk = lambda lo, hi, verdict: ta.OrderBlock(low=lo, high=hi, mid=(lo + hi) / 2, index=0, bullish_impulse=True, verdict=verdict)  # noqa: E731
+    blocks = [mk(90, 92, "young"), mk(94, 95, "solid"), mk(105, 106, "untested"), mk(108, 110, "hammer_dulling")]
+    w = ta.live_walls(blocks, price=100.0, tradeable={"solid", "hammer_dulling"})
+    assert w["below"].verdict == "solid"
+    assert w["above"].verdict == "hammer_dulling"
+    w_all = ta.live_walls(blocks, price=100.0)
+    assert w_all["below"].verdict == "solid" and w_all["above"].verdict == "untested"
+
+
+def test_compact_summary_counts_and_order():
+    from phoenix.panel import compact_summary
+
+    summary = {
+        "symbols_scanned": 3,
+        "setups": 1,
+        "watches": 1,
+        "results": [
+            {"symbol": "A", "verdict": "FLAT", "confidence": 0.1},
+            {"symbol": "B", "verdict": "SETUP", "confidence": 0.9, "params": {"score": 7}},
+            {"symbol": "C", "verdict": "WATCH", "confidence": 0.5},
+        ],
+    }
+    light = compact_summary(summary)
+    assert light["flats"] == 1 and light["blinds"] == 0
+    assert [r["symbol"] for r in light["results"]] == ["B", "C", "A"]
+    assert light["results"][0]["params"]["score"] == 7

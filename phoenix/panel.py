@@ -4,7 +4,6 @@ from __future__ import annotations
 import json
 import os
 import sys
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from typing import Any, Callable
@@ -13,7 +12,7 @@ _ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if _ROOT not in sys.path:
     sys.path.insert(0, _ROOT)
 
-from phoenix.ghoghnoos import confirm, evaluate_symbol  # noqa: E402
+from phoenix.ghoghnoos import evaluate_symbol  # noqa: E402
 from phoenix.market_data import (  # noqa: E402
     fetch_dominance_proxy,
     fetch_multi_tf,
@@ -117,6 +116,53 @@ class PhoenixPanel:
         return summary
 
 
+def compact_summary(summary: dict[str, Any] | None) -> dict[str, Any] | None:
+    """نسخهٔ سبک برای مرورگر/آیپد — بدون کندل‌ها و تایم‌فریم‌های حجیم."""
+    if not summary:
+        return None
+    results_light = []
+    for r in summary.get("results") or []:
+        results_light.append(
+            {
+                "ok": r.get("ok", True),
+                "symbol": r.get("symbol"),
+                "verdict": r.get("verdict"),
+                "direction": r.get("direction"),
+                "score": r.get("score"),
+                "confidence": r.get("confidence"),
+                "why_fa": (r.get("why_fa") or [])[:4],
+                "alarms": r.get("alarms"),
+                "geometry": r.get("geometry"),
+                "params": {
+                    "score": (r.get("params") or {}).get("score"),
+                    "visible": (r.get("params") or {}).get("visible"),
+                    "passed_names": (r.get("params") or {}).get("passed_names"),
+                    "failed_names": (r.get("params") or {}).get("failed_names"),
+                    "blind_names": (r.get("params") or {}).get("blind_names"),
+                },
+                "trigger": r.get("trigger"),
+                "wall": r.get("wall"),
+                "error": r.get("error"),
+            }
+        )
+    order = {"SETUP": 0, "WATCH": 1, "FLAT": 2, "BLIND": 3}
+    results_light.sort(key=lambda x: (order.get(x.get("verdict"), 9), -(x.get("confidence") or 0)))
+    return {
+        "started_at": summary.get("started_at"),
+        "finished_at": summary.get("finished_at"),
+        "method": summary.get("method"),
+        "symbols_scanned": summary.get("symbols_scanned"),
+        "setups": summary.get("setups"),
+        "watches": summary.get("watches"),
+        "flats": sum(1 for r in results_light if r.get("verdict") == "FLAT"),
+        "blinds": sum(1 for r in results_light if r.get("verdict") == "BLIND"),
+        "dominance": summary.get("dominance"),
+        "signals": summary.get("signals"),
+        "watch_list": summary.get("watch_list"),
+        "results": results_light,
+    }
+
+
 def save_cycle(summary: dict[str, Any], path: str | None = None) -> str:
     os.makedirs(ARTIFACTS, exist_ok=True)
     if path is None:
@@ -133,7 +179,10 @@ def print_summary_fa(summary: dict[str, Any]) -> None:
     print("پنل ققنوس · متد حمید نسخهٔ ۳ · قوانین برای همهٔ ارزها یکسان")
     print("=" * 60)
     print(f"اسکن: {summary['symbols_scanned']} ارز")
-    print(f"SETUP: {summary['setups']} · WATCH: {summary['watches']}")
+    results = summary.get("results") or []
+    flats = sum(1 for r in results if r.get("verdict") == "FLAT")
+    blinds = sum(1 for r in results if r.get("verdict") == "BLIND")
+    print(f"SETUP: {summary['setups']} · WATCH: {summary['watches']} · FLAT: {flats} · BLIND: {blinds}")
     dom = summary.get("dominance") or {}
     print(f"دامیننس (پروکسی): {dom.get('bias')} — {dom.get('root_fa')}")
     print("-" * 60)

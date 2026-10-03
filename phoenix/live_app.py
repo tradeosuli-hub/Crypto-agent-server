@@ -11,14 +11,13 @@ from datetime import datetime, timezone
 from typing import Any
 
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from fastapi.responses import FileResponse, HTMLResponse
-from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
-from phoenix.panel import PhoenixPanel, save_cycle  # noqa: E402
+from phoenix.panel import PhoenixPanel, compact_summary, save_cycle  # noqa: E402
 from strategies.hamid_method import SPEC, gates  # noqa: E402
 
 WEB_DIR = os.path.join(os.path.dirname(__file__), "web")
@@ -66,41 +65,7 @@ class LiveMonitor:
 
     @staticmethod
     def _compact(summary: dict[str, Any] | None) -> dict[str, Any] | None:
-        if not summary:
-            return None
-        results_light = []
-        for r in summary.get("results") or []:
-            results_light.append(
-                {
-                    "symbol": r.get("symbol"),
-                    "verdict": r.get("verdict"),
-                    "direction": r.get("direction"),
-                    "score": r.get("score"),
-                    "why_fa": (r.get("why_fa") or [])[:4],
-                    "alarms": r.get("alarms"),
-                    "geometry": r.get("geometry"),
-                    "params": {
-                        "score": (r.get("params") or {}).get("score"),
-                        "visible": (r.get("params") or {}).get("visible"),
-                        "passed_names": (r.get("params") or {}).get("passed_names"),
-                        "failed_names": (r.get("params") or {}).get("failed_names"),
-                        "blind_names": (r.get("params") or {}).get("blind_names"),
-                    },
-                    "trigger": r.get("trigger"),
-                    "wall": r.get("wall"),
-                }
-            )
-        return {
-            "started_at": summary.get("started_at"),
-            "finished_at": summary.get("finished_at"),
-            "symbols_scanned": summary.get("symbols_scanned"),
-            "setups": summary.get("setups"),
-            "watches": summary.get("watches"),
-            "dominance": summary.get("dominance"),
-            "signals": summary.get("signals"),
-            "watch_list": summary.get("watch_list"),
-            "results": results_light,
-        }
+        return compact_summary(summary)
 
     def _push_event(self, kind: str, payload: dict[str, Any]) -> None:
         ev = {
