@@ -11,7 +11,7 @@ on:
         default: "30"
         required: false
   push:
-    branches: [main]
+    branches: [main, cursor/phoenix-signal-panel-69df]
     paths:
       - ".github/workflows/phoenix-pages.yml"
       - "site/**"
