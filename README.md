@@ -5,7 +5,16 @@
 
 قوانین برای **همهٔ ارزها یکسان** است. سولانا/کاردانو فقط مثال ویدیو بودند.
 
-## داشبورد لایو (کروم)
+## آیپد / همیشه روشن / بدون هزینه (پیشنهادی)
+
+GitHub Actions هر ۱۰ دقیقه اسکن می‌کند و نتیجه را روی GitHub Pages منتشر می‌کند؛
+آیپد فقط صفحه را باز می‌کند، هیچ کدی اجرا نمی‌کند، هیچ VPS لازم نیست.
+
+- راهنما: [`docs/IPAD_ZERO_COST.md`](docs/IPAD_ZERO_COST.md)
+- صفحه: `https://tradeosuli-hub.github.io/Crypto-agent-server/`
+- Workflow: `.github/workflows/phoenix-pages.yml` · خروجی: `scripts/export_static.py` · UI: `site/`
+
+## داشبورد لایو (کروم، روی سرور خودت)
 
 ```bash
 pip install -r requirements.txt

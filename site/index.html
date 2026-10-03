@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="ققنوس" />
+  <meta name="theme-color" content="#0e1412" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <title>ققنوس · متد حمید ۳ · پایش دائمی (آیپد)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg0:#0e1412; --bg1:#15201c; --bg2:#1c2b25; --line:#2a3d34;
+      --text:#e8f0ea; --muted:#8aa396; --accent:#d4a017; --teal:#2d8c6e;
+      --good:#3dba7a; --warn:#e0a24a; --bad:#d45b5b; --flat:#6d7f76;
+    }
+    * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+    body {
+      margin:0; min-height:100vh; font-family:"Vazirmatn",system-ui,sans-serif; color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 90% -10%, rgba(212,160,23,.12), transparent 55%),
+        radial-gradient(900px 500px at -10% 110%, rgba(45,140,110,.14), transparent 50%),
+        linear-gradient(160deg,#0b100e,#121a17 40%,#0e1412);
+      padding-top: env(safe-area-inset-top);
+    }
+    .wrap { max-width:1180px; margin:0 auto; padding:18px 16px 56px; }
+    header { display:grid; gap:10px; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:16px; }
+    .brand { margin:0; font-size:clamp(1.5rem,3vw,2.1rem); font-weight:800; color:var(--accent); letter-spacing:-.02em; }
+    .sub { margin:0; color:var(--muted); font-size:.92rem; }
+    .badges { display:flex; flex-wrap:wrap; gap:8px; }
+    .badge { font-size:.76rem; padding:4px 10px; border:1px solid var(--line); background:var(--bg2); color:var(--muted); border-radius:999px; }
+    .badge.live { border-color:var(--good); color:var(--good); }
+    .badge.stale { border-color:var(--warn); color:var(--warn); }
+    .badge.dead { border-color:var(--bad); color:var(--bad); }
+    .mono { font-family:"IBM Plex Mono",ui-monospace,monospace; }
+    .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px; margin-bottom:16px; }
+    .kpi { background:var(--bg1); border:1px solid var(--line); border-radius:12px; padding:12px 14px; }
+    .kpi .l { color:var(--muted); font-size:.78rem; }
+    .kpi .v { font-size:1.6rem; font-weight:800; margin-top:4px; }
+    .kpi.setup .v { color:var(--good); } .kpi.watch .v { color:var(--warn); } .kpi.flat .v { color:var(--flat); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; }
+    .card { background:var(--bg1); border:1px solid var(--line); border-radius:14px; padding:14px; }
+    .card.setup { border-color:var(--good); box-shadow:0 0 0 1px rgba(61,186,122,.25), 0 12px 30px rgba(61,186,122,.12); }
+    .card.watch { border-color:rgba(224,162,74,.5); }
+    .card.flat, .card.blind { opacity:.72; }
+    .head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:8px; }
+    .sym { font-weight:800; font-size:1.1rem; }
+    .pill { font-size:.74rem; font-weight:700; padding:3px 10px; border-radius:999px; }
+    .pill.SETUP { background:rgba(61,186,122,.18); color:var(--good); }
+    .pill.WATCH { background:rgba(224,162,74,.18); color:var(--warn); }
+    .pill.FLAT { background:rgba(109,127,118,.2); color:var(--flat); }
+    .pill.BLIND { background:rgba(212,91,91,.18); color:var(--bad); }
+    .dir { font-size:.8rem; color:var(--muted); }
+    .dir.long { color:var(--good); } .dir.short { color:var(--bad); }
+    .row { display:flex; justify-content:space-between; gap:8px; font-size:.84rem; padding:3px 0; border-bottom:1px dashed rgba(42,61,52,.6); }
+    .row:last-child { border-bottom:0; }
+    .row .k { color:var(--muted); }
+    .why { margin:8px 0 0; padding:0 18px 0 0; color:var(--muted); font-size:.8rem; line-height:1.7; }
+    .params { display:flex; flex-wrap:wrap; gap:4px; margin-top:8px; }
+    .p { font-size:.68rem; padding:2px 7px; border-radius:6px; border:1px solid var(--line); color:var(--muted); }
+    .p.ok { color:var(--good); border-color:rgba(61,186,122,.5); }
+    .p.no { color:var(--bad); border-color:rgba(212,91,91,.45); }
+    .p.blind { color:var(--muted); border-style:dashed; }
+    h2 { font-size:1rem; color:var(--accent); margin:20px 0 10px; }
+    .hist { display:flex; gap:3px; align-items:flex-end; height:46px; margin-top:6px; }
+    .hist i { flex:1; min-width:2px; background:var(--bg2); border-radius:2px 2px 0 0; }
+    .hist i.s { background:var(--good); } .hist i.w { background:rgba(224,162,74,.55); }
+    .ledger { width:100%; border-collapse:collapse; font-size:.82rem; }
+    .ledger th,.ledger td { text-align:right; padding:7px 6px; border-bottom:1px solid var(--line); }
+    .ledger th { color:var(--muted); font-weight:600; }
+    .empty { color:var(--muted); font-size:.9rem; padding:16px; border:1px dashed var(--line); border-radius:12px; text-align:center; }
+    .foot { color:var(--muted); font-size:.78rem; margin-top:24px; line-height:1.8; }
+    .controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    button { font-family:inherit; font-size:.84rem; padding:7px 14px; border-radius:10px; border:1px solid var(--line); background:var(--bg2); color:var(--text); }
+    button:active { transform:scale(.98); }
+    select { font-family:inherit; font-size:.84rem; padding:7px 10px; border-radius:10px; border:1px solid var(--line); background:var(--bg2); color:var(--text); }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="brand">ققنوس · متد حمید ۳</h1>
+    <p class="sub">پایش دائمی همهٔ ارزها · بدون سرور · اسکن توسط GitHub Actions · این صفحه خودش هر ۶۰ ثانیه تازه می‌شود</p>
+    <div class="badges">
+      <span class="badge" id="b-status">در حال بارگذاری…</span>
+      <span class="badge" id="b-time">—</span>
+      <span class="badge" id="b-dom">دامیننس: —</span>
+      <span class="badge">قانون: بدون SETUP روی ۱۵دقیقه → سیگنال نیست</span>
+      <span class="badge">حد نصاب ≥ ۶/۱۰ · استاپ ۴شرطی · R:R ≥ ۱</span>
+    </div>
+    <div class="controls">
+      <button id="btn-refresh">تازه‌سازی</button>
+      <select id="filter">
+        <option value="all">همه</option>
+        <option value="SETUP">فقط SETUP</option>
+        <option value="WATCH">فقط WATCH</option>
+        <option value="FLAT">فقط FLAT</option>
+      </select>
+      <span class="badge" id="b-next">—</span>
+    </div>
+  </header>
+
+  <section class="kpis">
+    <div class="kpi setup"><div class="l">SETUP (سیگنال)</div><div class="v" id="k-setup">—</div></div>
+    <div class="kpi watch"><div class="l">WATCH (آلارم)</div><div class="v" id="k-watch">—</div></div>
+    <div class="kpi flat"><div class="l">FLAT</div><div class="v" id="k-flat">—</div></div>
+    <div class="kpi"><div class="l">ارز اسکن‌شده</div><div class="v" id="k-scan">—</div></div>
+    <div class="kpi"><div class="l">چرخه‌های اخیر (۴۸ ساعت)</div><div class="hist" id="hist"></div></div>
+  </section>
+
+  <h2>سیگنال‌های فعال</h2>
+  <div class="grid" id="signals"></div>
+
+  <h2>همهٔ ارزها</h2>
+  <div class="grid" id="cards"></div>
+
+  <h2>دفترچهٔ سیگنال‌ها (آخرین‌ها)</h2>
+  <div id="ledger"></div>
+
+  <p class="foot">
+    منبع داده: Binance Vision (عمومی) · هر ۱۰ دقیقه یک اسکن کامل در GitHub Actions اجرا و اینجا منتشر می‌شود.<br/>
+    برای نصب روی آیپد: Share → Add to Home Screen. برای اعلان فوری، تلگرام را در تنظیمات ریپو فعال کن (docs/IPAD_ZERO_COST.md).<br/>
+    این پنل کاملاً مستقل است و هیچ پنل دیگری را تغییر نمی‌دهد.
+  </p>
+</div>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const fmt = (x, d = 6) => (x === null || x === undefined || x === "" ? "—" : (typeof x === "number" ? Number(x.toPrecision(d)) : x));
+  const REFRESH_MS = 60000;
+  let state = null, history = [], ledger = [];
+  let nextAt = Date.now() + REFRESH_MS;
+
+  const PARAM_FA = {
+    dxy: "شاخص دلار", trendline: "ترندلاین/کانال", ob_channel_align: "اردربلاک∩کانال", fvg_inside_ob: "FVG داخل OB",
+    bos_choch: "BOS/CHoCH", history_rsi_div: "تاریخچه+RSI+واگرایی", volume: "حجم", dominance_align: "دامیننس",
+    news_events: "خبر/رویداد", ob_historical_tests: "تست تاریخی دیوار (قانون ۸)",
+  };
+  const pfa = (k) => PARAM_FA[k] || k;
+
+  async function getJSON(name) {
+    const r = await fetch(`data/${name}?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(name + " " + r.status);
+    return r.json();
+  }
+
+  function ago(iso) {
+    if (!iso) return "—";
+    const m = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (m < 1) return "همین الان";
+    if (m < 60) return `${m} دقیقه پیش`;
+    const h = Math.floor(m / 60);
+    return `${h} ساعت و ${m % 60} دقیقه پیش`;
+  }
+
+  function statusBadge(iso) {
+    const b = $("b-status");
+    const m = iso ? (Date.now() - new Date(iso).getTime()) / 60000 : 1e9;
+    b.className = "badge " + (m <= 20 ? "live" : m <= 60 ? "stale" : "dead");
+    b.textContent = m <= 20 ? "● زنده — اسکن تازه" : m <= 60 ? "● تأخیر در اسکن" : "● اسکن متوقف — Actions را چک کن";
+  }
+
+  function card(r) {
+    const v = r.verdict || "FLAT";
+    const g = r.geometry || {};
+    const a = r.alarms || {};
+    const p = r.params || {};
+    const tgs = g.targets || [];
+    const rows = v === "SETUP"
+      ? `<div class="row"><span class="k">ورود</span><span class="mono">${fmt(g.entry)}</span></div>
+         <div class="row"><span class="k">استاپ (۴شرطی)</span><span class="mono">${fmt(g.stop)}</span></div>
+         <div class="row"><span class="k">تارگت۱ / تارگت۲</span><span class="mono">${fmt(tgs[0])} / ${fmt(tgs[1])}</span></div>
+         <div class="row"><span class="k">R:R · اهرم</span><span class="mono">${fmt(g.rr1,3)} · ${fmt(g.leverage,3)}x</span></div>`
+      : `<div class="row"><span class="k">آلارم ۱</span><span class="mono">${fmt(a.alarm_1)}</span></div>
+         <div class="row"><span class="k">آلارم ۲</span><span class="mono">${fmt(a.alarm_2)}</span></div>
+         <div class="row"><span class="k">پارامترها (پاس/قابل‌بررسی → امتیاز)</span><span class="mono">${(p.passed_names||[]).length}/${fmt(p.visible)} → ${fmt(p.score)}/10</span></div>`;
+    const why = (r.why_fa || []).map((w) => `<li>${w}</li>`).join("");
+    const params = [
+      ...(p.passed_names || []).map((k) => `<span class="p ok">✓ ${pfa(k)}</span>`),
+      ...(p.failed_names || []).map((k) => `<span class="p no">✗ ${pfa(k)}</span>`),
+      ...(p.blind_names || []).map((k) => `<span class="p blind">؟ ${pfa(k)}</span>`),
+    ].join("");
+    return `<article class="card ${v.toLowerCase()}">
+      <div class="head">
+        <span class="sym">${r.symbol}</span>
+        <span class="dir ${r.direction || ""}">${r.direction === "long" ? "▲ لانگ" : r.direction === "short" ? "▼ شورت" : "— بی‌جهت"}</span>
+        <span class="pill ${v}">${v}</span>
+      </div>
+      ${rows}
+      ${why ? `<ul class="why">${why}</ul>` : ""}
+      ${params ? `<div class="params">${params}</div>` : ""}
+    </article>`;
+  }
+
+  function render() {
+    if (!state) return;
+    statusBadge(state.generated_at || state.finished_at);
+    $("b-time").textContent = "آخرین اسکن: " + ago(state.generated_at || state.finished_at);
+    const dom = state.dominance || {};
+    $("b-dom").textContent = `دامیننس: ${dom.bias || "—"} · ${dom.root_fa || ""}`;
+    $("k-setup").textContent = state.setups ?? "—";
+    $("k-watch").textContent = state.watches ?? "—";
+    $("k-flat").textContent = state.flats ?? "—";
+    $("k-scan").textContent = state.symbols_scanned ?? "—";
+
+    const results = state.results || [];
+    const f = $("filter").value;
+    const setups = results.filter((r) => r.verdict === "SETUP");
+    $("signals").innerHTML = setups.length ? setups.map(card).join("")
+      : `<div class="empty">سیگنالی نیست — آلارم بگذار و برو ارز بعدی. (قانون: بدون SETUP روی ۱۵دقیقه سیگنال صادر نمی‌شود)</div>`;
+    const list = f === "all" ? results.filter((r) => r.verdict !== "SETUP") : results.filter((r) => r.verdict === f);
+    $("cards").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">موردی نیست</div>`;
+
+    const mx = Math.max(1, ...history.map((h) => (h.setups || 0) + (h.watches || 0)));
+    $("hist").innerHTML = history.slice(-72).map((h) => {
+      const tot = (h.setups || 0) + (h.watches || 0);
+      const cls = h.setups ? "s" : (h.watches ? "w" : "");
+      return `<i class="${cls}" style="height:${Math.max(6, (tot / mx) * 100)}%" title="${h.ts} · SETUP ${h.setups} · WATCH ${h.watches}"></i>`;
+    }).join("");
+
+    const led = ledger.slice(-25).reverse();
+    $("ledger").innerHTML = led.length
+      ? `<table class="ledger"><thead><tr><th>زمان</th><th>ارز</th><th>جهت</th><th>ورود</th><th>استاپ</th><th>R:R</th></tr></thead><tbody>${
+          led.map((s) => { const g = s.geometry || {}; return `<tr><td>${ago(s.first_seen)}</td><td>${s.symbol}</td><td class="dir ${s.direction}">${s.direction}</td><td class="mono">${fmt(g.entry)}</td><td class="mono">${fmt(g.stop)}</td><td class="mono">${fmt(g.rr1,3)}</td></tr>`; }).join("")
+        }</tbody></table>`
+      : `<div class="empty">هنوز سیگنالی ثبت نشده</div>`;
+  }
+
+  async function load() {
+    try {
+      const [s, h, l] = await Promise.all([
+        getJSON("latest.json"),
+        getJSON("history.json").catch(() => []),
+        getJSON("signals.json").catch(() => []),
+      ]);
+      state = s; history = Array.isArray(h) ? h : []; ledger = Array.isArray(l) ? l : [];
+      render();
+    } catch (e) {
+      $("b-status").className = "badge dead";
+      $("b-status").textContent = "دادهٔ اسکن هنوز منتشر نشده — Actions را یک‌بار اجرا کن";
+    }
+    nextAt = Date.now() + REFRESH_MS;
+  }
+
+  $("btn-refresh").addEventListener("click", load);
+  $("filter").addEventListener("change", render);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
+  setInterval(load, REFRESH_MS);
+  setInterval(() => {
+    const s = Math.max(0, Math.round((nextAt - Date.now()) / 1000));
+    $("b-next").textContent = `تازه‌سازی بعدی: ${s}s`;
+    if (state) $("b-time").textContent = "آخرین اسکن: " + ago(state.generated_at || state.finished_at);
+  }, 1000);
+  load();
+</script>
+</body>
+</html>
