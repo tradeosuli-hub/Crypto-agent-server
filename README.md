@@ -38,10 +38,12 @@ python3 main.py scan --symbols BTCUSDT,ETHUSDT,SOLUSDT --json
 ## ساختار (فقط همین پنل)
 
 ```
-phoenix/          موتور + لایو اپ مستقل
-phoenix/web/      داشبورد کروم
+phoenix/          موتور (ta, ghoghnoos, market_data, panel) + لایو اپ مستقل
+phoenix/web/      داشبورد کروم (حالت سرور زنده / WebSocket)
+site/             داشبورد استاتیک GitHub Pages (حالت آیپد، بدون سرور)
+scripts/          export_static.py (Actions) · watchdog_forever.py (سرور)
 strategies/       اسپک و پرامپت متد حمید v3
-docs/             پرامپت‌ها
+docs/             پرامپت‌ها · IPAD_ZERO_COST · ALWAYS_ON
 main.py           CLI / live
 ```
 
