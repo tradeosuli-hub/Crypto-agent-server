@@ -61,9 +61,21 @@ jobs:
           ls -la memory || true
 
       # اگر Pages هنوز در Settings فعال نشده باشد، اسکن/حافظه/تلگرام همچنان اجرا می‌شوند
+      - name: Check Pages enabled
+        id: pages_check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::GitHub Pages فعال نیست → Settings → Pages → Source: GitHub Actions. اسکن و حافظه همچنان انجام می‌شود."
+          fi
+
       - name: Configure Pages
         id: pages
-        continue-on-error: true
+        if: steps.pages_check.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
 
       - name: Run Phoenix organization cycle
@@ -72,7 +84,7 @@ jobs:
           PHOENIX_WORKERS: "6"
           PHOENIX_CLOSE: ${{ github.event.inputs.close || '' }}
           PHOENIX_MEMORY_DIR: ${{ github.workspace }}/memory
-          PHOENIX_PAGES_URL: ${{ steps.pages.outputs.base_url }}
+          PHOENIX_PAGES_URL: ${{ steps.pages.outputs.base_url || '' }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/export_static.py
@@ -88,9 +100,11 @@ jobs:
           git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "HEAD:refs/heads/$MEMORY_BRANCH"
 
       - uses: actions/upload-pages-artifact@v3
+        if: steps.pages_check.outputs.enabled == 'true'
         with:
           path: site
 
       - name: Deploy
         id: deploy
+        if: steps.pages_check.outputs.enabled == 'true'
         uses: actions/deploy-pages@v4
