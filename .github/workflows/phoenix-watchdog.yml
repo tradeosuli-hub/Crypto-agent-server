@@ -1,0 +1,63 @@
+name: "Phoenix 3 · Watchdog (self-healing)"
+
+# ایجنت عیب‌یابی (هر ۱۵ دقیقه): سلامت اسکن/اطلاعات/حافظه/Pages → تشخیص از لاگ + تجربه + مغز (اختیاری)
+# → ترمیم (اجرای مجدد، کاهش بار، Issue برای خطای کد) → هشدار تلگرام → فرمان‌های تلگرام (/status /signals /close)
+on:
+  schedule:
+    - cron: "3,18,33,48 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, cursor/phoenix-signal-panel-69df]
+    paths:
+      - ".github/workflows/phoenix-watchdog.yml"
+      - "scripts/run_watchdog.py"
+      - "phoenix/watchdog.py"
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+concurrency:
+  group: phoenix-watchdog
+  cancel-in-progress: false
+
+env:
+  MEMORY_BRANCH: phoenix-memory
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -q requests pandas numpy
+      - name: Restore permanent memory
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh restore memory
+      - name: Pages URL (if enabled)
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "url=$(gh api repos/${{ github.repository }}/pages --jq .html_url 2>/dev/null || true)" >> "$GITHUB_OUTPUT"
+      - name: Run watchdog agent
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PHOENIX_MEMORY_DIR: ${{ github.workspace }}/memory
+          PHOENIX_PAGES_URL: ${{ steps.pages.outputs.url }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/run_watchdog.py
+      - name: Persist memory (only this workflow's files)
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh persist memory incidents.json health.json notify_watchdog.json

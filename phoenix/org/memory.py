@@ -16,6 +16,13 @@ FILES = {
     "experience": [],    # درس‌های ریشه‌یابی‌شده
     "audits": [],        # ممیزی هر ۱۰/۱۰۰/۱۰۰۰
     "counters": {"signals": 0, "closed": 0, "tp": 0, "sl": 0, "expired": 0},
+    # هر Workflow فقط فایل‌های خودش را می‌نویسد (بدون رقابت روی یک فایل):
+    "intel": {},             # [intel]    خبر/رویداد/سوشال
+    "notify_intel": {},      # [intel]    ضدتکرار تلگرام
+    "incidents": [],         # [watchdog] رخدادها، تشخیص، اقدام
+    "health": {},            # [watchdog] آخرین وضعیت سلامت
+    "notify_watchdog": {},   # [watchdog] ضدتکرار + offset فرمان‌ها + pending_closes
+    "notify_scan": {},       # [scan]     ضدتکرار تلگرام
 }
 
 DECISIONS_KEEP = 400
@@ -43,10 +50,18 @@ class Memory:
         except Exception:  # noqa: BLE001
             return json.loads(json.dumps(default))
 
+    ORG_FILES = ("decisions", "accuracy", "experience", "audits", "counters")
+
     def save(self) -> None:
+        """فقط فایل‌های سازمان (چرخهٔ اسکن). فایل‌های workflowهای دیگر دست نمی‌خورند."""
+        self.save_only(*self.ORG_FILES)
+
+    def save_only(self, *names: str) -> None:
         self.data["decisions"] = self._trim_decisions(self.data["decisions"])
         self.data["experience"] = self.data["experience"][-EXPERIENCE_KEEP:]
-        for name in FILES:
+        for name in names:
+            if name not in FILES:
+                raise KeyError(name)
             with open(self._path(name), "w", encoding="utf-8") as fh:
                 json.dump(self.data[name], fh, ensure_ascii=False, indent=1, default=str)
 

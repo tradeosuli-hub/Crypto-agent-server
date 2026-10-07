@@ -1,0 +1,57 @@
+name: "Phoenix 2 · Intel (news · events · social)"
+
+# ایجنت اطلاعات (هر ۳۰ دقیقه): RSS معتبر + اعلان‌های رسمی بایننس + CoinGecko/ترس‌وطمع + X از طریق Grok (اختیاری)
+# خروجی: intel.json در حافظهٔ دائمی → دپارتمان خبر/سوشال در چرخهٔ اسکن + تلگرام برای رویدادهای مهم
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, cursor/phoenix-signal-panel-69df]
+    paths:
+      - ".github/workflows/phoenix-intel.yml"
+      - "scripts/run_intel.py"
+      - "phoenix/intel/**"
+      - "phoenix/brain.py"
+      - "phoenix/notify.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phoenix-intel
+  cancel-in-progress: false
+
+env:
+  MEMORY_BRANCH: phoenix-memory
+
+jobs:
+  intel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -q numpy pandas requests
+      - name: Restore permanent memory
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh restore memory
+      - name: Run intel agent
+        env:
+          PHOENIX_TOP: "30"
+          PHOENIX_MEMORY_DIR: ${{ github.workspace }}/memory
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/run_intel.py
+      - name: Persist memory (only this workflow's files)
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh persist memory intel.json notify_intel.json

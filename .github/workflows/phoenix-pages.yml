@@ -1,6 +1,7 @@
-name: Phoenix org → GitHub Pages (always-on, zero cost)
+name: "Phoenix 1 · Scan + Organization → Pages"
 
-# زمان‌بندی فقط روی شاخهٔ پیش‌فرض (main) اجرا می‌شود.
+# چرخهٔ اصلی (هر ۱۰ دقیقه): اسکن ارزها → ۹ دپارتمان → اجماع → A34 → تصمیم → قاضی نتیجه → حافظه → انتشار صفحه
+# زمان‌بندی فقط روی شاخهٔ پیش‌فرض (main) اجرا می‌شود. تنها Workflow ای که Pages را منتشر می‌کند.
 on:
   schedule:
     - cron: "*/10 * * * *"
@@ -20,6 +21,7 @@ on:
       - ".github/workflows/phoenix-pages.yml"
       - "site/**"
       - "scripts/export_static.py"
+      - "scripts/memory_sync.sh"
       - "phoenix/**"
 
 permissions:
@@ -28,7 +30,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: phoenix-pages
+  group: phoenix-scan
   cancel-in-progress: false
 
 env:
@@ -52,15 +54,11 @@ jobs:
       - name: Install
         run: pip install -q numpy pandas requests
 
-      # حافظهٔ دائمی سازمان روی شاخهٔ جداگانه (رایگان، بدون دیتابیس)
       - name: Restore permanent memory
-        run: |
-          git fetch origin "$MEMORY_BRANCH" --depth=1 2>/dev/null && \
-            git --work-tree=memory checkout "origin/$MEMORY_BRANCH" -- . 2>/dev/null || mkdir -p memory
-          git reset -q || true
-          ls -la memory || true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh restore memory
 
-      # اگر Pages هنوز در Settings فعال نشده باشد، اسکن/حافظه/تلگرام همچنان اجرا می‌شوند
       - name: Check Pages enabled
         id: pages_check
         env:
@@ -78,7 +76,7 @@ jobs:
         if: steps.pages_check.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
 
-      - name: Run Phoenix organization cycle
+      - name: Run scan + organization cycle
         env:
           PHOENIX_TOP: ${{ github.event.inputs.top || '30' }}
           PHOENIX_WORKERS: "6"
@@ -87,17 +85,15 @@ jobs:
           PHOENIX_PAGES_URL: ${{ steps.pages.outputs.base_url || '' }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/export_static.py
 
-      - name: Persist memory
-        run: |
-          cd memory
-          git init -q -b "$MEMORY_BRANCH"
-          git config user.name "phoenix-org"
-          git config user.email "phoenix-org@users.noreply.github.com"
-          git add -A
-          git commit -q -m "memory: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || exit 0
-          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "HEAD:refs/heads/$MEMORY_BRANCH"
+      - name: Persist memory (only this workflow's files)
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh persist memory decisions.json accuracy.json experience.json audits.json counters.json notify_scan.json
 
       - uses: actions/upload-pages-artifact@v3
         if: steps.pages_check.outputs.enabled == 'true'

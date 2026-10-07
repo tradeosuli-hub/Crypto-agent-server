@@ -129,14 +129,55 @@ def dept_volume(result: dict[str, Any]) -> dict[str, Any]:
     return _rep("volume", "flat", 0.1, flags=["weak_volume"], note_fa=vol.get("fa", "حجم ضعیف"))
 
 
-def dept_news(result: dict[str, Any]) -> dict[str, Any]:
-    items = (result.get("params") or {}).get("items") or {}
-    n = items.get("news_events")
-    if not n or n.get("blind"):
-        return _rep("news", silent=True, note_fa="فید خبر وصل نیست (A08–A17)")
-    if not n.get("ok"):
-        return _rep("news", "flat", 0.0, flags=["high_risk_news"], note_fa="رویداد پرریسک")
-    return _rep("news", result.get("direction") or "flat", 0.3, note_fa="خبر سازگار")
+INTEL_MAX_AGE_H = 6  # اگر ایجنت اطلاعات بیش از این عقب باشد، خبر/سوشال خاموش می‌شوند (کور ≠ رد)
+HIGH_RISK = 0.7
+
+
+def _intel_fresh(memory: Memory) -> dict[str, Any] | None:
+    intel = memory.data.get("intel") or {}
+    ts = intel.get("updated_at")
+    if not ts:
+        return None
+    try:
+        from datetime import datetime, timezone
+        age_h = (datetime.now(timezone.utc) - datetime.fromisoformat(ts.replace("Z", "+00:00"))).total_seconds() / 3600
+    except Exception:  # noqa: BLE001
+        return None
+    return intel if age_h <= INTEL_MAX_AGE_H else None
+
+
+def dept_news(result: dict[str, Any], memory: Memory | None = None) -> dict[str, Any]:
+    """خبر و رویداد توکنی از ایجنت اطلاعات (لیستینگ/دی‌لیست/آنلاک/سوزاندن/هک/قانون/کلان)."""
+    intel = _intel_fresh(memory) if memory else None
+    if not intel:
+        return _rep("news", silent=True, note_fa="ایجنت اطلاعات تازه نیست → خاموش")
+    node = (intel.get("symbols") or {}).get(result.get("symbol", ""))
+    market = intel.get("market") or {}
+    flags: list[str] = []
+    if node and node.get("risk", 0) >= HIGH_RISK:
+        flags.append("high_risk_news")
+    if not node:
+        # بدون خبر اختصاصی: نبض کلی بازار (ترس‌وطمع) با قدرت کم
+        fg = market.get("fear_greed")
+        if fg is None:
+            return _rep("news", "flat", 0.1, note_fa="بدون خبر اختصاصی")
+        if fg <= 20:
+            return _rep("news", "long", 0.25, note_fa=f"ترس شدید ({fg}) — contrarian ملایم")
+        if fg >= 80:
+            return _rep("news", "short", 0.25, note_fa=f"طمع شدید ({fg}) — contrarian ملایم")
+        return _rep("news", "flat", 0.1, note_fa=f"ترس‌وطمع {fg} خنثی")
+    sent = float(node.get("sentiment", 0))
+    events = "، ".join(KIND_FA_SHORT.get(e, e) for e in node.get("events") or []) or "خبر"
+    if flags:
+        return _rep("news", "flat", 0.0, flags=flags, note_fa=f"رویداد پرریسک: {events}")
+    if abs(sent) < 0.15:
+        return _rep("news", "flat", 0.15, note_fa=f"{events} · خنثی")
+    return _rep("news", "long" if sent > 0 else "short", min(1.0, abs(sent)), flags=[f"news_{e}" for e in node.get("events") or []],
+                note_fa=f"{events} · احساس {sent:+.2f}")
+
+
+KIND_FA_SHORT = {"listing": "لیستینگ", "delisting": "دی‌لیست", "token_unlock": "آنلاک", "token_burn": "سوزاندن",
+                 "security": "هک", "regulation": "قانون", "macro": "کلان", "project": "پروژه", "market": "جریان"}
 
 
 def dept_order_block(result: dict[str, Any]) -> dict[str, Any]:
@@ -171,8 +212,19 @@ def dept_pattern(result: dict[str, Any]) -> dict[str, Any]:
     return _rep("pattern", direction, 0.25 * hits, flags=flags, note_fa=f"{hits} الگوی هم‌جهت")
 
 
-def dept_social(_: dict[str, Any]) -> dict[str, Any]:
-    return _rep("social", silent=True, note_fa="فید سوشال وصل نیست")
+def dept_social(result: dict[str, Any], memory: Memory | None = None) -> dict[str, Any]:
+    """نبض X از Grok (ایجنت اطلاعات). بدون کلید یا داده: خاموش."""
+    intel = _intel_fresh(memory) if memory else None
+    node = ((intel or {}).get("social") or {}).get(result.get("symbol", ""))
+    if not node:
+        return _rep("social", silent=True, note_fa="سوشال بی‌داده (Grok وصل نیست یا این ارز پوشش ندارد)")
+    sent = float(node.get("sentiment", 0))
+    if abs(sent) < 0.2:
+        return _rep("social", "flat", 0.1, note_fa=node.get("note_fa") or "خنثی")
+    # سوشال داغ + یک‌طرفه = ریسک شلوغی؛ قدرت را سقف می‌زنیم
+    strength = min(0.7, abs(sent)) * (0.8 if node.get("hot") else 1.0)
+    return _rep("social", "long" if sent > 0 else "short", strength,
+                flags=["social_hot"] if node.get("hot") else [], note_fa=node.get("note_fa") or "")
 
 
 def dept_historical_memory(result: dict[str, Any], memory: Memory, regime: str) -> dict[str, Any]:
@@ -200,10 +252,10 @@ def department_reports(result: dict[str, Any], memory: Memory) -> tuple[str, lis
         dept_structure(result),
         dept_liquidity(result),
         dept_volume(result),
-        dept_news(result),
+        dept_news(result, memory),
         dept_order_block(result),
         dept_pattern(result),
-        dept_social(result),
+        dept_social(result, memory),
         dept_historical_memory(result, memory, regime),
     ]
     return regime, reports

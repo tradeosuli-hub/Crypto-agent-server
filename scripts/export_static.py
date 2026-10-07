@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
-خروجی استاتیک برای GitHub Pages (آیپد، بدون سرور، بدون هزینه).
+چرخهٔ اسکن + سازمان → خروجی استاتیک برای GitHub Pages (آیپد، بدون سرور، بدون هزینه).
 
-یک چرخهٔ کامل ققنوس را اجرا می‌کند و سه فایل سبک می‌نویسد:
-  site/data/latest.json   — آخرین اسکن (همان چیزی که داشبورد می‌خواند)
-  site/data/history.json  — خلاصهٔ چرخه‌های اخیر (برای نوار روند)
-  site/data/signals.json  — دفترچهٔ سیگنال‌های SETUP (بدون تکرار)
+می‌نویسد (site/data/):
+  latest.json    آخرین اسکن + رأی شورا روی هر ارز
+  org.json       تابلوی سازمان، تصمیم‌ها، تجربه‌ها، ممیزی‌ها
+  history.json   خلاصهٔ چرخه‌های اخیر
+  signals.json   دفترچهٔ سیگنال‌های نهایی
+  intel.json     خبر/رویداد/سوشال (از ایجنت اطلاعات، فقط کپی)
+  health.json    سلامت + رخدادهای عیب‌یابی (از واچ‌داگ، فقط کپی)
 
-اگر PHOENIX_PAGES_URL ست شده باشد، history/signals قبلی از Pages دانلود و ادغام می‌شود
-تا حافظه بین اجراهای Actions حفظ بماند. اگر TELEGRAM_BOT_TOKEN و TELEGRAM_CHAT_ID
-ست باشند، سیگنال‌های تازه به تلگرام می‌روند.
+حافظهٔ دائمی: PHOENIX_MEMORY_DIR (در Actions از شاخهٔ phoenix-memory بازیابی/ذخیره می‌شود).
+این Workflow فقط فایل‌های سازمان و notify_scan را می‌نویسد.
 """
 from __future__ import annotations
 
@@ -26,8 +28,10 @@ if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
 from phoenix.market_data import klines  # noqa: E402
+from phoenix.notify import Notifier, fmt_decision, fmt_learned  # noqa: E402
 from phoenix.org.memory import Memory  # noqa: E402
 from phoenix.org.office import run_org_cycle  # noqa: E402
+from phoenix.org.outcomes import manual_close  # noqa: E402
 from phoenix.panel import PhoenixPanel, compact_summary  # noqa: E402
 from strategies.hamid_method import SPEC, gates  # noqa: E402
 
@@ -63,41 +67,23 @@ def _load_previous(name: str) -> Any:
     return None
 
 
-def _telegram(text: str) -> bool:
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat = os.environ.get("TELEGRAM_CHAT_ID")
-    if not token or not chat:
-        return False
-    try:
-        r = requests.post(
-            f"https://api.telegram.org/bot{token}/sendMessage",
-            json={"chat_id": chat, "text": text, "parse_mode": "HTML", "disable_web_page_preview": True},
-            timeout=15,
-        )
-        return bool(r.ok)
-    except Exception:  # noqa: BLE001
-        return False
-
-
-def _fmt_decision_fa(d: dict[str, Any]) -> str:
-    targets = d.get("targets") or []
-    tp1 = targets[0] if targets else None
-    why = "\n".join(f"• {w}" for w in (d.get("why_fa") or [])[:4])
-    votes = d.get("votes") or {}
-    agree = [k for k, v in votes.items() if not v.get("silent") and v.get("direction") == d.get("direction")]
-    return (
-        f"<b>SIGNAL سازمان ققنوس</b> · {d.get('symbol')} · <b>{str(d.get('direction')).upper()}</b> @15m\n"
-        f"شناسه: <code>{d.get('id')}</code> · رژیم: {d.get('regime')}\n"
-        f"ورود: <code>{d.get('entry')}</code>\n"
-        f"استاپ: <code>{d.get('stop')}</code>\n"
-        f"تارگت۱: <code>{tp1}</code> · R:R={d.get('rr1')}\n"
-        f"اهرم پیشنهادی: {d.get('leverage')} · اطمینان شورا: {d.get('confidence')}\n"
-        f"موافق: {'، '.join(agree) or '—'}\n{why}"
-    )
-
-
-def _fmt_learned_fa(exp: dict[str, Any]) -> str:
-    return f"<b>تجربهٔ تازه</b> · {exp.get('outcome')} ({exp.get('pnl_r')}R)\n{exp.get('lesson_fa')}"
+def _apply_pending_closes(memory: Memory) -> list[dict[str, Any]]:
+    """فرمان‌های /close که واچ‌داگ از تلگرام گرفته (و ورودی دستی Workflow) — این‌جا اعمال و ریشه‌یابی می‌شوند."""
+    specs: list[str] = list((memory.data.get("notify_watchdog") or {}).get("pending_closes") or [])
+    manual = os.environ.get("PHOENIX_CLOSE", "").strip()
+    if manual:
+        specs.append(manual)
+    learned = []
+    for spec in specs:
+        parts = spec.split(":")
+        if len(parts) < 2:
+            continue
+        exp = manual_close(memory, parts[0].strip(), parts[1].strip(),
+                           float(parts[2]) if len(parts) > 2 and parts[2].strip() else None)
+        if exp:
+            exp["via"] = "telegram" if spec != manual else "workflow_input"
+            learned.append(exp)
+    return learned
 
 
 def main() -> int:
@@ -107,7 +93,7 @@ def main() -> int:
     symbols = [s.strip().upper() for s in symbols_env.split(",") if s.strip()] or None
 
     panel = PhoenixPanel(symbols=symbols, top_n=None if symbols else top, workers=workers)
-    print(f"ققنوس · خروجی استاتیک · {len(panel.symbols)} ارز · متد {SPEC['version']}")
+    print(f"ققنوس · چرخهٔ اسکن + سازمان · {len(panel.symbols)} ارز · متد {SPEC['version']}")
     summary = panel.run_cycle()
     light = compact_summary(summary) or {}
     now = datetime.now(timezone.utc).isoformat()
@@ -118,34 +104,23 @@ def main() -> int:
 
     os.makedirs(SITE_DATA, exist_ok=True)
 
-    # history
     history = _load_previous("history.json") or []
     if not isinstance(history, list):
         history = []
-    history.append(
-        {
-            "ts": now,
-            "scanned": light.get("symbols_scanned"),
-            "setups": light.get("setups"),
-            "watches": light.get("watches"),
-            "flats": light.get("flats"),
-            "blinds": light.get("blinds"),
-            "dominance": (light.get("dominance") or {}).get("bias"),
-        }
-    )
+    history.append({
+        "ts": now, "scanned": light.get("symbols_scanned"), "setups": light.get("setups"), "watches": light.get("watches"),
+        "flats": light.get("flats"), "blinds": light.get("blinds"), "dominance": (light.get("dominance") or {}).get("bias"),
+    })
     history = history[-HISTORY_KEEP:]
 
-    # ---- سازمان: دپارتمان‌ها → اجماع → A34 → دروازهٔ ریسک → تصمیم → قاضی نتیجه → تجربه ----
+    # ---- سازمان ----
     memory = Memory()
-    org = run_org_cycle(
-        summary.get("results") or [],
-        memory,
-        fetch_klines=klines,
-        manual_close_spec=os.environ.get("PHOENIX_CLOSE") or None,
-    )
+    memory.data.setdefault("notify_scan", {})
+    learned_manual = _apply_pending_closes(memory)
+    org = run_org_cycle(summary.get("results") or [], memory, fetch_klines=klines)
+    org["learned_now"] = learned_manual + org["learned_now"]
     memory.save()
 
-    # دفترچهٔ سیگنال‌ها = تصمیم‌های دفتر نهایی (نه SETUP خام)
     ledger = _load_previous("signals.json") or []
     if not isinstance(ledger, list):
         ledger = []
@@ -155,14 +130,14 @@ def main() -> int:
         ledger.append({**d, "first_seen": now})
     ledger = ledger[-SIGNALS_KEEP:]
 
-    sent = 0
+    notifier = Notifier(memory.data["notify_scan"])
     for d in new_decisions:
-        if _telegram(_fmt_decision_fa(d)):
-            sent += 1
+        notifier.send(fmt_decision(d), category="signal", dedupe_text=d["id"])
     for exp in org["learned_now"]:
-        if _telegram(_fmt_learned_fa(exp)):
-            sent += 1
-    light["telegram_sent"] = sent
+        notifier.send(fmt_learned(exp), category="learned", dedupe_text=str(exp.get("decision_id")) + str(exp.get("outcome")))
+    memory.save_only("notify_scan")
+
+    light["telegram_sent"] = notifier.sent_now
     light["new_signals"] = len(new_decisions)
     light["org"] = {
         "signals": len(org["signals"]),
@@ -171,22 +146,28 @@ def main() -> int:
         "learned_now": len(org["learned_now"]),
         "counters": memory.data["counters"],
     }
-    # رأی شورا کنار هر کارت
     council = {r["symbol"]: r for r in org["rows"]}
     for r in light.get("results") or []:
         c = council.get(r.get("symbol"))
         if c:
-            r["council"] = {k: c.get(k) for k in ("final", "direction", "strength", "confidence", "vetoes", "gate_fa", "regime", "decision_id")}
+            r["council"] = {k: c.get(k) for k in ("final", "direction", "strength", "confidence", "vetoes", "gate_fa", "regime", "decision_id", "votes")}
 
-    outputs = (("latest.json", light), ("history.json", history), ("signals.json", ledger), ("org.json", org))
+    # کپی خروجی ایجنت‌های دیگر برای تب‌ها (فقط خواندن)
+    intel = memory.data.get("intel") or {}
+    health = {**(memory.data.get("health") or {}), "incidents": (memory.data.get("incidents") or [])[-60:]}
+    light["intel_updated_at"] = intel.get("updated_at")
+    light["market"] = intel.get("market")
+
+    outputs = (("latest.json", light), ("history.json", history), ("signals.json", ledger), ("org.json", org),
+               ("intel.json", intel), ("health.json", health))
     for name, payload in outputs:
         with open(os.path.join(SITE_DATA, name), "w", encoding="utf-8") as fh:
             json.dump(payload, fh, ensure_ascii=False, default=str)
 
     print(
-        f"SETUP {light.get('setups')} · WATCH {light.get('watches')} · FLAT {light.get('flats')} · "
-        f"BLIND {light.get('blinds')} · SIGNAL سازمان {len(org['signals'])} · وتو {light['org']['vetoes']} · "
-        f"تصمیم باز {light['org']['open_decisions']} · تجربهٔ تازه {len(org['learned_now'])} · تلگرام {sent}"
+        f"SETUP {light.get('setups')} · WATCH {light.get('watches')} · FLAT {light.get('flats')} · BLIND {light.get('blinds')} · "
+        f"SIGNAL سازمان {len(org['signals'])} · وتو/نگه‌دار {light['org']['vetoes']} · تصمیم باز {light['org']['open_decisions']} · "
+        f"تجربهٔ تازه {len(org['learned_now'])} · تلگرام {notifier.sent_now} · اطلاعات {intel.get('updated_at') or 'ندارد'}"
     )
     return 0
 
