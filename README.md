@@ -11,6 +11,7 @@ GitHub Actions هر ۱۰ دقیقه اسکن می‌کند و نتیجه را ر
 آیپد فقط صفحه را باز می‌کند، هیچ کدی اجرا نمی‌کند، هیچ VPS لازم نیست.
 
 - راهنما: [`docs/IPAD_ZERO_COST.md`](docs/IPAD_ZERO_COST.md)
+- سازمان ایجنت‌ها و حافظهٔ دائمی: [`docs/ORGANIZATION.md`](docs/ORGANIZATION.md)
 - صفحه: `https://tradeosuli-hub.github.io/Crypto-agent-server/`
 - Workflow: `.github/workflows/phoenix-pages.yml` · خروجی: `scripts/export_static.py` · UI: `site/`
 
@@ -39,6 +40,7 @@ python3 main.py scan --symbols BTCUSDT,ETHUSDT,SOLUSDT --json
 
 ```
 phoenix/          موتور (ta, ghoghnoos, market_data, panel) + لایو اپ مستقل
+phoenix/org/      سازمان: ۹ دپارتمان · اجماع · A34 · دروازهٔ ریسک · قاضی نتیجه · حافظه
 phoenix/web/      داشبورد کروم (حالت سرور زنده / WebSocket)
 site/             داشبورد استاتیک GitHub Pages (حالت آیپد، بدون سرور)
 scripts/          export_static.py (Actions) · watchdog_forever.py (سرور)

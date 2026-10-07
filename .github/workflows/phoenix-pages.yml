@@ -60,8 +60,10 @@ jobs:
           git reset -q || true
           ls -la memory || true
 
+      # اگر Pages هنوز در Settings فعال نشده باشد، اسکن/حافظه/تلگرام همچنان اجرا می‌شوند
       - name: Configure Pages
         id: pages
+        continue-on-error: true
         uses: actions/configure-pages@v5
 
       - name: Run Phoenix organization cycle
