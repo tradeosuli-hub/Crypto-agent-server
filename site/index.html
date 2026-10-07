@@ -115,11 +115,23 @@
     <div class="kpi"><div class="l">چرخه‌های اخیر (۴۸ ساعت)</div><div class="hist" id="hist"></div></div>
   </section>
 
-  <h2>سیگنال‌های فعال</h2>
+  <h2>سازمان · ۹ دپارتمان → اجماع وزنی → وکیل مدافع شیطان (A34) → دروازهٔ ریسک → تصمیم نهایی</h2>
+  <div class="card" style="padding:10px 14px">
+    <div class="badges" id="org-kpis"></div>
+    <table class="ledger" id="board"></table>
+  </div>
+
+  <h2>سیگنال‌های نهایی سازمان</h2>
   <div class="grid" id="signals"></div>
+
+  <h2>معاملات باز (زیر نظر قاضی نتیجه)</h2>
+  <div id="open"></div>
 
   <h2>همهٔ ارزها</h2>
   <div class="grid" id="cards"></div>
+
+  <h2>تجربه‌های حافظهٔ دائمی (ریشه‌یابی هر معاملهٔ بسته)</h2>
+  <div id="exp"></div>
 
   <h2>دفترچهٔ سیگنال‌ها (آخرین‌ها)</h2>
   <div id="ledger"></div>
@@ -135,7 +147,10 @@
   const $ = (id) => document.getElementById(id);
   const fmt = (x, d = 6) => (x === null || x === undefined || x === "" ? "—" : (typeof x === "number" ? Number(x.toPrecision(d)) : x));
   const REFRESH_MS = 60000;
-  let state = null, history = [], ledger = [];
+  let state = null, history = [], ledger = [], org = null;
+  const DEPT_FA = { dominance:"دامیننس", structure:"ساختار", liquidity:"لیکوئیدیتی", volume:"حجم", news:"خبر",
+    order_block:"اردربلاک", pattern:"الگو", social:"سوشال", historical_memory:"حافظهٔ تاریخی" };
+  const FINAL_FA = { SIGNAL:"سیگنال نهایی", VETO:"وتوی A34", HOLD:"نگه‌دار (دروازه)", WATCH:"پایش", FLAT:"بی‌جهت", BLIND:"کور" };
   let nextAt = Date.now() + REFRESH_MS;
 
   const PARAM_FA = {
@@ -181,6 +196,9 @@
       : `<div class="row"><span class="k">آلارم ۱</span><span class="mono">${fmt(a.alarm_1)}</span></div>
          <div class="row"><span class="k">آلارم ۲</span><span class="mono">${fmt(a.alarm_2)}</span></div>
          <div class="row"><span class="k">پارامترها (پاس/قابل‌بررسی → امتیاز)</span><span class="mono">${(p.passed_names||[]).length}/${fmt(p.visible)} → ${fmt(p.score)}/10</span></div>`;
+    const c = r.council;
+    const council = c ? `<div class="row"><span class="k">شورا</span><span class="mono">${FINAL_FA[c.final] || c.final} · ${c.direction} · قدرت ${fmt(c.strength,2)} · اطمینان ${fmt(c.confidence,2)}</span></div>
+      ${(c.vetoes||[]).length ? `<div class="row"><span class="k">A34</span><span style="color:var(--bad);font-size:.78rem">${c.vetoes.slice(0,2).join(" · ")}</span></div>` : ""}` : "";
     const why = (r.why_fa || []).map((w) => `<li>${w}</li>`).join("");
     const params = [
       ...(p.passed_names || []).map((k) => `<span class="p ok">✓ ${pfa(k)}</span>`),
@@ -194,6 +212,7 @@
         <span class="pill ${v}">${v}</span>
       </div>
       ${rows}
+      ${council}
       ${why ? `<ul class="why">${why}</ul>` : ""}
       ${params ? `<div class="params">${params}</div>` : ""}
     </article>`;
@@ -212,10 +231,36 @@
 
     const results = state.results || [];
     const f = $("filter").value;
-    const setups = results.filter((r) => r.verdict === "SETUP");
-    $("signals").innerHTML = setups.length ? setups.map(card).join("")
-      : `<div class="empty">سیگنالی نیست — آلارم بگذار و برو ارز بعدی. (قانون: بدون SETUP روی ۱۵دقیقه سیگنال صادر نمی‌شود)</div>`;
-    const list = f === "all" ? results.filter((r) => r.verdict !== "SETUP") : results.filter((r) => r.verdict === f);
+    const finals = results.filter((r) => r.council && r.council.final === "SIGNAL");
+    $("signals").innerHTML = finals.length ? finals.map(card).join("")
+      : `<div class="empty">سیگنال نهایی نیست — ${state.setups ? `${state.setups} ستاپ ققنوس بود ولی شورا/A34 عبور نداد` : "ققنوس ستاپی ندارد"}. آلارم بگذار و برو ارز بعدی.</div>`;
+    const list = f === "all" ? results.filter((r) => !(r.council && r.council.final === "SIGNAL")) : results.filter((r) => r.verdict === f);
+
+    if (org) {
+      const b = org.board || {};
+      const cnt = b.counters || {};
+      const so = state.org || {};
+      $("org-kpis").innerHTML = [
+        `سیگنال نهایی این چرخه: ${so.signals ?? 0}`, `وتو/نگه‌دار: ${so.vetoes ?? 0}`, `معاملات باز: ${so.open_decisions ?? 0}`,
+        `کل سیگنال‌ها: ${cnt.signals ?? 0}`, `بسته: ${cnt.closed ?? 0} (TP ${cnt.tp ?? 0} · SL ${cnt.sl ?? 0})`,
+        `تجربهٔ تازه این چرخه: ${so.learned_now ?? 0}`,
+      ].map((t) => `<span class="badge">${t}</span>`).join("");
+      $("board").innerHTML = `<thead><tr><th>دپارتمان</th><th>وزن پایه</th><th>دقت غلتان</th><th>نمونه</th><th>رأی‌ها در این چرخه</th></tr></thead><tbody>${
+        (b.departments || []).map((d) => {
+          const votes = (org.rows || []).filter((r) => r.votes && r.votes[d.dept] && !r.votes[d.dept].silent);
+          const l = votes.filter((r) => r.votes[d.dept].direction === "long").length;
+          const s = votes.filter((r) => r.votes[d.dept].direction === "short").length;
+          const silent = (org.rows || []).length - votes.length;
+          return `<tr><td>${d.fa}</td><td class="mono">${Math.round(d.base_weight*100)}٪</td><td class="mono">${fmt(d.accuracy_avg,3)}</td><td class="mono">${d.samples}</td><td class="mono"><span class="dir long">▲${l}</span> <span class="dir short">▼${s}</span> <span class="dir">خاموش ${silent}</span></td></tr>`;
+        }).join("")}</tbody>`;
+      const open = b.open_decisions || [];
+      $("open").innerHTML = open.length ? `<table class="ledger"><thead><tr><th>شناسه</th><th>ارز</th><th>جهت</th><th>ورود</th><th>استاپ</th><th>تارگت۱</th><th>اطمینان</th><th>صدور</th></tr></thead><tbody>${
+        open.map((d) => `<tr><td class="mono">${d.id}</td><td>${d.symbol}</td><td class="dir ${d.direction}">${d.direction}</td><td class="mono">${fmt(d.entry)}</td><td class="mono">${fmt(d.stop)}</td><td class="mono">${fmt((d.targets||[])[0])}</td><td class="mono">${fmt(d.confidence,2)}</td><td>${ago(d.ts)}</td></tr>`).join("")
+      }</tbody></table>` : `<div class="empty">معاملهٔ بازی نیست</div>`;
+      const exps = (b.experience_recent || []).slice(-15).reverse();
+      $("exp").innerHTML = exps.length ? exps.map((e) => `<div class="card ${e.outcome === "TP" ? "setup" : e.outcome === "SL" ? "watch" : "flat"}" style="margin-bottom:8px"><div class="head"><span class="sym">${e.symbol}</span><span class="pill ${e.outcome === "TP" ? "SETUP" : e.outcome === "SL" ? "BLIND" : "FLAT"}">${e.outcome} ${fmt(e.pnl_r,2)}R</span></div><div class="why" style="padding:0">${e.lesson_fa}</div></div>`).join("")
+        : `<div class="empty">هنوز معامله‌ای بسته نشده — اولین تجربه بعد از اولین TP/SL ثبت می‌شود</div>`;
+    }
     $("cards").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">موردی نیست</div>`;
 
     const mx = Math.max(1, ...history.map((h) => (h.setups || 0) + (h.watches || 0)));
@@ -228,19 +273,20 @@
     const led = ledger.slice(-25).reverse();
     $("ledger").innerHTML = led.length
       ? `<table class="ledger"><thead><tr><th>زمان</th><th>ارز</th><th>جهت</th><th>ورود</th><th>استاپ</th><th>R:R</th></tr></thead><tbody>${
-          led.map((s) => { const g = s.geometry || {}; return `<tr><td>${ago(s.first_seen)}</td><td>${s.symbol}</td><td class="dir ${s.direction}">${s.direction}</td><td class="mono">${fmt(g.entry)}</td><td class="mono">${fmt(g.stop)}</td><td class="mono">${fmt(g.rr1,3)}</td></tr>`; }).join("")
+          led.map((s) => { const g = s.geometry || s; return `<tr><td>${ago(s.first_seen)}</td><td>${s.symbol}</td><td class="dir ${s.direction}">${s.direction}</td><td class="mono">${fmt(g.entry)}</td><td class="mono">${fmt(g.stop)}</td><td class="mono">${fmt(g.rr1,3)}</td></tr>`; }).join("")
         }</tbody></table>`
       : `<div class="empty">هنوز سیگنالی ثبت نشده</div>`;
   }
 
   async function load() {
     try {
-      const [s, h, l] = await Promise.all([
+      const [s, h, l, o] = await Promise.all([
         getJSON("latest.json"),
         getJSON("history.json").catch(() => []),
         getJSON("signals.json").catch(() => []),
+        getJSON("org.json").catch(() => null),
       ]);
-      state = s; history = Array.isArray(h) ? h : []; ledger = Array.isArray(l) ? l : [];
+      state = s; history = Array.isArray(h) ? h : []; ledger = Array.isArray(l) ? l : []; org = o;
       render();
     } catch (e) {
       $("b-status").className = "badge dead";

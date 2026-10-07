@@ -1,4 +1,4 @@
-name: Phoenix scan → GitHub Pages (always-on, zero cost)
+name: Phoenix org → GitHub Pages (always-on, zero cost)
 
 # زمان‌بندی فقط روی شاخهٔ پیش‌فرض (main) اجرا می‌شود.
 on:
@@ -10,15 +10,20 @@ on:
         description: "تعداد ارز برتر برای اسکن"
         default: "30"
         required: false
+      close:
+        description: "ثبت دستی نتیجهٔ معامله: DECISION_ID:TP|SL:pnl_r (مثلاً D1a2b3c4d5:TP:1.8)"
+        default: ""
+        required: false
   push:
     branches: [main, cursor/phoenix-signal-panel-69df]
     paths:
       - ".github/workflows/phoenix-pages.yml"
       - "site/**"
       - "scripts/export_static.py"
+      - "phoenix/**"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -26,10 +31,13 @@ concurrency:
   group: phoenix-pages
   cancel-in-progress: false
 
+env:
+  MEMORY_BRANCH: phoenix-memory
+
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -44,20 +52,38 @@ jobs:
       - name: Install
         run: pip install -q numpy pandas requests
 
+      # حافظهٔ دائمی سازمان روی شاخهٔ جداگانه (رایگان، بدون دیتابیس)
+      - name: Restore permanent memory
+        run: |
+          git fetch origin "$MEMORY_BRANCH" --depth=1 2>/dev/null && \
+            git --work-tree=memory checkout "origin/$MEMORY_BRANCH" -- . 2>/dev/null || mkdir -p memory
+          git reset -q || true
+          ls -la memory || true
+
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
-      - name: Run Phoenix cycle and export static data
+      - name: Run Phoenix organization cycle
         env:
           PHOENIX_TOP: ${{ github.event.inputs.top || '30' }}
           PHOENIX_WORKERS: "6"
+          PHOENIX_CLOSE: ${{ github.event.inputs.close || '' }}
+          PHOENIX_MEMORY_DIR: ${{ github.workspace }}/memory
           PHOENIX_PAGES_URL: ${{ steps.pages.outputs.base_url }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/export_static.py
+
+      - name: Persist memory
+        run: |
+          cd memory
+          git init -q -b "$MEMORY_BRANCH"
+          git config user.name "phoenix-org"
+          git config user.email "phoenix-org@users.noreply.github.com"
+          git add -A
+          git commit -q -m "memory: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || exit 0
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "HEAD:refs/heads/$MEMORY_BRANCH"
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -25,6 +25,9 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
+from phoenix.market_data import klines  # noqa: E402
+from phoenix.org.memory import Memory  # noqa: E402
+from phoenix.org.office import run_org_cycle  # noqa: E402
 from phoenix.panel import PhoenixPanel, compact_summary  # noqa: E402
 from strategies.hamid_method import SPEC, gates  # noqa: E402
 
@@ -60,11 +63,6 @@ def _load_previous(name: str) -> Any:
     return None
 
 
-def _signal_key(sig: dict[str, Any]) -> str:
-    g = sig.get("geometry") or {}
-    return f"{sig.get('symbol')}|{sig.get('direction')}|{g.get('entry')}|{g.get('stop')}"
-
-
 def _telegram(text: str) -> bool:
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = os.environ.get("TELEGRAM_CHAT_ID")
@@ -81,18 +79,25 @@ def _telegram(text: str) -> bool:
         return False
 
 
-def _fmt_signal_fa(sig: dict[str, Any]) -> str:
-    g = sig.get("geometry") or {}
-    targets = g.get("targets") or []
+def _fmt_decision_fa(d: dict[str, Any]) -> str:
+    targets = d.get("targets") or []
     tp1 = targets[0] if targets else None
-    why = "\n".join(f"• {w}" for w in (sig.get("why_fa") or [])[:4])
+    why = "\n".join(f"• {w}" for w in (d.get("why_fa") or [])[:4])
+    votes = d.get("votes") or {}
+    agree = [k for k, v in votes.items() if not v.get("silent") and v.get("direction") == d.get("direction")]
     return (
-        f"<b>SETUP ققنوس</b> · {sig.get('symbol')} · <b>{str(sig.get('direction')).upper()}</b> @15m\n"
-        f"ورود: <code>{g.get('entry')}</code>\n"
-        f"استاپ: <code>{g.get('stop')}</code>\n"
-        f"تارگت۱: <code>{tp1}</code> · R:R={g.get('rr1')}\n"
-        f"اهرم پیشنهادی: {g.get('leverage')}\n{why}"
+        f"<b>SIGNAL سازمان ققنوس</b> · {d.get('symbol')} · <b>{str(d.get('direction')).upper()}</b> @15m\n"
+        f"شناسه: <code>{d.get('id')}</code> · رژیم: {d.get('regime')}\n"
+        f"ورود: <code>{d.get('entry')}</code>\n"
+        f"استاپ: <code>{d.get('stop')}</code>\n"
+        f"تارگت۱: <code>{tp1}</code> · R:R={d.get('rr1')}\n"
+        f"اهرم پیشنهادی: {d.get('leverage')} · اطمینان شورا: {d.get('confidence')}\n"
+        f"موافق: {'، '.join(agree) or '—'}\n{why}"
     )
+
+
+def _fmt_learned_fa(exp: dict[str, Any]) -> str:
+    return f"<b>تجربهٔ تازه</b> · {exp.get('outcome')} ({exp.get('pnl_r')}R)\n{exp.get('lesson_fa')}"
 
 
 def main() -> int:
@@ -130,36 +135,58 @@ def main() -> int:
     )
     history = history[-HISTORY_KEEP:]
 
-    # signals ledger (dedupe)
+    # ---- سازمان: دپارتمان‌ها → اجماع → A34 → دروازهٔ ریسک → تصمیم → قاضی نتیجه → تجربه ----
+    memory = Memory()
+    org = run_org_cycle(
+        summary.get("results") or [],
+        memory,
+        fetch_klines=klines,
+        manual_close_spec=os.environ.get("PHOENIX_CLOSE") or None,
+    )
+    memory.save()
+
+    # دفترچهٔ سیگنال‌ها = تصمیم‌های دفتر نهایی (نه SETUP خام)
     ledger = _load_previous("signals.json") or []
     if not isinstance(ledger, list):
         ledger = []
-    seen = {_signal_key(s) for s in ledger}
-    new_signals: list[dict[str, Any]] = []
-    for sig in light.get("signals") or []:
-        key = _signal_key(sig)
-        if key in seen:
-            continue
-        entry = {**sig, "first_seen": now, "key": key}
-        ledger.append(entry)
-        new_signals.append(entry)
-        seen.add(key)
+    seen = {s.get("id") for s in ledger}
+    new_decisions = [d for d in org["new_decisions"] if d and d.get("id") not in seen]
+    for d in new_decisions:
+        ledger.append({**d, "first_seen": now})
     ledger = ledger[-SIGNALS_KEEP:]
 
     sent = 0
-    for sig in new_signals:
-        if _telegram(_fmt_signal_fa(sig)):
+    for d in new_decisions:
+        if _telegram(_fmt_decision_fa(d)):
+            sent += 1
+    for exp in org["learned_now"]:
+        if _telegram(_fmt_learned_fa(exp)):
             sent += 1
     light["telegram_sent"] = sent
-    light["new_signals"] = len(new_signals)
+    light["new_signals"] = len(new_decisions)
+    light["org"] = {
+        "signals": len(org["signals"]),
+        "vetoes": sum(1 for r in org["rows"] if r.get("final") in ("VETO", "HOLD")),
+        "open_decisions": len(memory.open_decisions()),
+        "learned_now": len(org["learned_now"]),
+        "counters": memory.data["counters"],
+    }
+    # رأی شورا کنار هر کارت
+    council = {r["symbol"]: r for r in org["rows"]}
+    for r in light.get("results") or []:
+        c = council.get(r.get("symbol"))
+        if c:
+            r["council"] = {k: c.get(k) for k in ("final", "direction", "strength", "confidence", "vetoes", "gate_fa", "regime", "decision_id")}
 
-    for name, payload in (("latest.json", light), ("history.json", history), ("signals.json", ledger)):
+    outputs = (("latest.json", light), ("history.json", history), ("signals.json", ledger), ("org.json", org))
+    for name, payload in outputs:
         with open(os.path.join(SITE_DATA, name), "w", encoding="utf-8") as fh:
             json.dump(payload, fh, ensure_ascii=False, default=str)
 
     print(
         f"SETUP {light.get('setups')} · WATCH {light.get('watches')} · FLAT {light.get('flats')} · "
-        f"BLIND {light.get('blinds')} · سیگنال تازه {len(new_signals)} · تلگرام {sent}"
+        f"BLIND {light.get('blinds')} · SIGNAL سازمان {len(org['signals'])} · وتو {light['org']['vetoes']} · "
+        f"تصمیم باز {light['org']['open_decisions']} · تجربهٔ تازه {len(org['learned_now'])} · تلگرام {sent}"
     )
     return 0
 
