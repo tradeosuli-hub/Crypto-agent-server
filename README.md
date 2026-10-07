@@ -7,13 +7,19 @@
 
 ## آیپد / همیشه روشن / بدون هزینه (پیشنهادی)
 
-GitHub Actions هر ۱۰ دقیقه اسکن می‌کند و نتیجه را روی GitHub Pages منتشر می‌کند؛
-آیپد فقط صفحه را باز می‌کند، هیچ کدی اجرا نمی‌کند، هیچ VPS لازم نیست.
+GitHub محل کار است: سه ایجنت مستقل در GitHub Actions به‌صورت حلقه‌ای اجرا می‌شوند و نتیجه روی GitHub Pages
+منتشر می‌شود؛ آیپد فقط صفحه را باز می‌کند، هیچ کدی اجرا نمی‌کند، هیچ VPS لازم نیست.
 
-- راهنما: [`docs/IPAD_ZERO_COST.md`](docs/IPAD_ZERO_COST.md)
-- سازمان ایجنت‌ها و حافظهٔ دائمی: [`docs/ORGANIZATION.md`](docs/ORGANIZATION.md)
+| ایجنت | چرخه | کار |
+|---|---|---|
+| Phoenix 1 · Scan + Organization | ۱۰ دقیقه | ققنوس → ۹ دپارتمان → A34 → دروازهٔ ریسک → SIGNAL → قاضی نتیجه → تجربه؛ ناشر Pages؛ تلگرام سیگنال/نتیجه |
+| Phoenix 2 · Intel | ۳۰ دقیقه | خبر، لیست/حذف بایننس، ترند، ترس‌وطمع، نبض X (Grok)؛ تلگرام خبر و رویداد مهم |
+| Phoenix 3 · Watchdog | ۱۵ دقیقه | توقف غیرعادی → لاگ + مغز → اجرای مجدد / Issue / تلگرام؛ دستورات بات (`/status /signals /close`) |
+
+- راهنما و Secrets: [`docs/IPAD_ZERO_COST.md`](docs/IPAD_ZERO_COST.md)
+- سازمان ایجنت‌ها، منابع داده و حافظهٔ دائمی: [`docs/ORGANIZATION.md`](docs/ORGANIZATION.md)
 - صفحه: `https://tradeosuli-hub.github.io/Crypto-agent-server/`
-- Workflow: `.github/workflows/phoenix-pages.yml` · خروجی: `scripts/export_static.py` · UI: `site/`
+- Workflowها: `.github/workflows/phoenix-{pages,intel,watchdog}.yml` · حافظه: شاخهٔ `phoenix-memory` · UI: `site/`
 
 ## داشبورد لایو (کروم، روی سرور خودت)
 
@@ -41,11 +47,15 @@ python3 main.py scan --symbols BTCUSDT,ETHUSDT,SOLUSDT --json
 ```
 phoenix/          موتور (ta, ghoghnoos, market_data, panel) + لایو اپ مستقل
 phoenix/org/      سازمان: ۹ دپارتمان · اجماع · A34 · دروازهٔ ریسک · قاضی نتیجه · حافظه
+phoenix/intel/    ایجنت اطلاعات: منابع تأییدشده (RSS، بایننس، CoinGecko، F&G) + نبض X با Grok
+phoenix/watchdog.py  ایجنت عیب‌یابی/خودترمیم (GitHub API + لاگ + مغز + حافظهٔ رخدادها)
+phoenix/notify.py    بات تلگرام (ارسال بدون تکرار + دستورات)
+phoenix/brain.py     مغز اختیاری (Grok → OpenAI → قاعده‌محور)
 phoenix/web/      داشبورد کروم (حالت سرور زنده / WebSocket)
-site/             داشبورد استاتیک GitHub Pages (حالت آیپد، بدون سرور)
-scripts/          export_static.py (Actions) · watchdog_forever.py (سرور)
+site/             داشبورد استاتیک GitHub Pages با ۷ تب (حالت آیپد، بدون سرور)
+scripts/          export_static.py · run_intel.py · run_watchdog.py · memory_sync.sh · watchdog_forever.py (سرور)
 strategies/       اسپک و پرامپت متد حمید v3
-docs/             پرامپت‌ها · IPAD_ZERO_COST · ALWAYS_ON
+docs/             پرامپت‌ها · IPAD_ZERO_COST · ORGANIZATION · ALWAYS_ON
 main.py           CLI / live
 ```
 
