@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-08T10:58:55.697729+00:00",
+ "updated_at": "2026-10-08T11:28:28.486303+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -4.17,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 6.59,
+  "mcap_change_24h": -4.33,
   "trending": [
+   "TRUMP",
    "SIMD",
    "QTC",
-   "TRUMP",
-   "NEAR",
    "PRL",
-   "STRK",
-   "PONS",
-   "PENGU",
+   "NEAR",
+   "MET",
    "ALGO",
-   "MET"
+   "PENGU",
+   "STRK",
+   "OGN"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin ETF investors head for the exit, and it's the biggest rush in months",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months",
+   "published": "2026-10-08T11:15:00+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5b549fd77065",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T11:28:28.486303+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US government moves $770M of seized Bitcoin to Coinbase Prime",
+   "url": "https://cointelegraph.com/news/us-government-moves-770m-seized-bitcoin-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T11:03:36+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7fd3ce7567df",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T11:28:28.486303+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live news: Risk assets under pressure as bond selloff and oil rally intensify",
@@ -33,6 +73,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T10:58:55.697729+00:00",
    "notified": false
   },
@@ -55,6 +96,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T10:58:55.697729+00:00",
    "notified": false
   },
@@ -2715,18 +2757,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.007,
-   "risk": 0.185,
+   "sentiment": -0.005,
+   "risk": 0.179,
    "events": [
-    "market",
     "etf_flow",
+    "market",
     "regulation"
    ],
-   "count": 21,
-   "last": "2026-10-08T10:30:41+00:00"
+   "count": 23,
+   "last": "2026-10-08T11:15:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.122,
+   "sentiment": 0.121,
    "risk": 0.0,
    "events": [
     "project",
@@ -2736,7 +2778,7 @@
    "last": "2026-10-08T10:30:41+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.331,
+   "sentiment": 0.332,
    "risk": 0.0,
    "events": [
     "market",
