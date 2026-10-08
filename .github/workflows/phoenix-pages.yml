@@ -90,6 +90,27 @@ jobs:
             echo "::warning::GitHub Pages فعال نیست → Settings → Pages → Source: GitHub Actions. اسکن و حافظه همچنان انجام می‌شود."
           fi
 
+      - name: Config check (visible in run summary — values are never printed)
+        env:
+          PAGES_ENABLED: ${{ steps.pages_check.outputs.enabled }}
+          HAS_TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}
+          HAS_TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID != '' }}
+          HAS_XAI: ${{ secrets.XAI_API_KEY != '' }}
+          HAS_OPENAI: ${{ secrets.OPENAI_API_KEY != '' }}
+        run: |
+          ok() { [ "$1" = "true" ] && echo "✅" || echo "❌"; }
+          {
+            echo "## پیکربندی فضای جدا (شاخهٔ ${GITHUB_REF_NAME})"
+            echo ""
+            echo "| مورد | وضعیت | اگر ❌ |"
+            echo "|---|---|---|"
+            echo "| GitHub Pages | $(ok "$PAGES_ENABLED") | Settings → Pages → Source: **GitHub Actions** |"
+            echo "| Secret TELEGRAM_BOT_TOKEN | $(ok "$HAS_TG_TOKEN") | Settings → Secrets and variables → Actions → New repository secret |"
+            echo "| Secret TELEGRAM_CHAT_ID | $(ok "$HAS_TG_CHAT") | همان‌جا؛ chat_id خودت از @userinfobot |"
+            echo "| Secret XAI_API_KEY (مغز Grok، اختیاری) | $(ok "$HAS_XAI") | اختیاری |"
+            echo "| Secret OPENAI_API_KEY (اختیاری) | $(ok "$HAS_OPENAI") | اختیاری |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Run scan + organization cycle
         env:
           PHOENIX_TOP: ${{ github.event.inputs.top || '30' }}

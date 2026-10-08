@@ -60,8 +60,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          url="$(gh api "repos/${{ github.repository }}/pages" --jq .html_url 2>/dev/null || true)"
-          [ "$url" = "null" ] && url=""
+          url=""
+          if out="$(gh api "repos/${{ github.repository }}/pages" --jq .html_url 2>/dev/null)"; then
+            case "$out" in https://*) url="$out" ;; esac
+          fi
           echo "url=$url" >> "$GITHUB_OUTPUT"
       - name: Run watchdog agent
         env:
