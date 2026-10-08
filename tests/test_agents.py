@@ -94,3 +94,44 @@ def test_watchdog_creates_incident_then_resolves(monkeypatch):
                                                                       "checks": [], "problems": [], "runs": {}})
     h2 = watchdog.run(gh, mem, None)
     assert mem["incidents"][0]["resolved_at"] and not h2["open_incidents"]
+
+
+class _FakeGH:
+    """GitHub ساختگی: اسکن تازه و موفق ولی هیچ اجرای بعدی در صف → حلقهٔ خودگردان مرده."""
+    ok = True
+
+    def __init__(self):
+        self.dispatched = []
+        now = datetime.now(timezone.utc).isoformat()
+        self._runs = {
+            watchdog.SCAN_WF: [{"id": 1, "status": "completed", "conclusion": "success", "event": "workflow_dispatch",
+                                "created_at": now, "updated_at": now, "url": "u", "branch": "b"}],
+            watchdog.INTEL_WF: [{"id": 2, "status": "in_progress", "conclusion": None, "event": "workflow_dispatch",
+                                 "created_at": now, "updated_at": now, "url": "u", "branch": "b"}],
+        }
+
+    def runs(self, wf, n=12):
+        return self._runs.get(wf, [])
+
+    def branch_age_min(self, _b):
+        return 1.0
+
+    def dispatch(self, wf, inputs=None, ref=None):
+        self.dispatched.append((wf, inputs or {}, ref or watchdog.DEFAULT_BRANCH))
+        return True
+
+    def failed_log_excerpt(self, _id):
+        return ""
+
+
+def test_watchdog_revives_dead_loop_on_own_branch():
+    gh = _FakeGH()
+    mem = {"intel": {"updated_at": datetime.now(timezone.utc).isoformat()}, "incidents": []}
+    h = watchdog.run(gh, mem, None)
+    kinds = {p["kind"] for p in h["problems"]}
+    assert "scan_loop_dead" in kinds and "intel_loop_dead" not in kinds
+    assert not any(p["kind"] == "scan_stalled" for p in h["problems"])
+    assert gh.dispatched == [(watchdog.SCAN_WF, {"delay_min": "0"}, watchdog.DEFAULT_BRANCH)]
+    assert "main" not in watchdog.DEFAULT_BRANCH
+    inc = h["new_incidents"][0]
+    assert inc["action"] == "revive" and inc["severity"] == "medium"

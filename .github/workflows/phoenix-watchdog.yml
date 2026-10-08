@@ -1,16 +1,21 @@
 name: "Phoenix 3 · Watchdog (self-healing)"
 
-# ایجنت عیب‌یابی (هر ۱۵ دقیقه): سلامت اسکن/اطلاعات/حافظه/Pages → تشخیص از لاگ + تجربه + مغز (اختیاری)
+# ایجنت عیب‌یابی (هر ~۱۵ دقیقه): سلامت اسکن/اطلاعات/حافظه/Pages + زنده‌بودن حلقه‌ها → تشخیص از لاگ + تجربه + مغز (اختیاری)
 # → ترمیم (اجرای مجدد، کاهش بار، Issue برای خطای کد) → هشدار تلگرام → فرمان‌های تلگرام (/status /signals /close)
+# خودگردان روی همین شاخه (بدون cron، بدون مرج به main). خودش و دو ایجنت دیگر همدیگر را زنده نگه می‌دارند.
 on:
-  schedule:
-    - cron: "3,18,33,48 * * * *"
   workflow_dispatch:
+    inputs:
+      delay_min:
+        description: "صبر قبل از اجرا (دقیقه) — حلقه خودش این را پر می‌کند؛ برای اجرای فوری ۰"
+        default: "0"
+        required: false
   push:
-    branches: [main, cursor/phoenix-signal-panel-69df]
+    branches: [cursor/phoenix-signal-panel-69df]
     paths:
       - ".github/workflows/phoenix-watchdog.yml"
       - "scripts/run_watchdog.py"
+      - "scripts/loop.sh"
       - "phoenix/watchdog.py"
 
 permissions:
@@ -24,12 +29,21 @@ concurrency:
 
 env:
   MEMORY_BRANCH: phoenix-memory
+  LOOP_DELAY_MIN: "14"
 
 jobs:
   watchdog:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 25
     steps:
+      - name: Wait for this cycle
+        if: github.event.inputs.delay_min != '' && github.event.inputs.delay_min != '0'
+        env:
+          DELAY: ${{ github.event.inputs.delay_min }}
+        run: |
+          case "$DELAY" in ''|*[!0-9]*) DELAY=0 ;; esac
+          echo "waiting ${DELAY} min for the next cycle"
+          sleep $(( DELAY * 60 ))
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
@@ -61,3 +75,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: bash scripts/memory_sync.sh persist memory incidents.json health.json notify_watchdog.json
+      - name: Keep the loops alive (self + guard the other agents)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash scripts/loop.sh self phoenix-watchdog.yml "$LOOP_DELAY_MIN"
+          bash scripts/loop.sh ensure phoenix-pages.yml || true
+          bash scripts/loop.sh ensure phoenix-intel.yml || true

@@ -24,15 +24,20 @@ INTEL_WF = "phoenix-intel.yml"
 WATCHDOG_WF = "phoenix-watchdog.yml"
 
 SCAN_EXPECTED_MIN = 10
-SCAN_STALL_MIN = 35          # cron گیت‌هاب تا ~۱۵ دقیقه تأخیر طبیعی دارد
+SCAN_STALL_MIN = 35          # صف/تأخیر طبیعی Actions + یک چرخهٔ کامل
 INTEL_STALL_MIN = 100
 MEMORY_STALL_MIN = 45
 REDISPATCH_COOLDOWN_MIN = 30
 INCIDENTS_KEEP = 300
+ACTIVE_STATUSES = ("queued", "in_progress", "waiting", "pending", "requested")
+# فضای جدا: حلقه‌ها روی همین شاخه می‌چرخند؛ هیچ ارجاعی به main وجود ندارد.
+DEFAULT_BRANCH = os.environ.get("GITHUB_REF_NAME") or os.environ.get("PHOENIX_BRANCH") or "cursor/phoenix-signal-panel-69df"
 
 KIND_FA = {
     "scan_stalled": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
     "scan_failing": "اسکن پیاپی شکست می‌خورد",
+    "scan_loop_dead": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+    "intel_loop_dead": "حلقهٔ اطلاعات مرده (هیچ اجرای فعال/در صف)",
     "intel_stalled": "ایجنت اطلاعات عقب افتاده",
     "memory_stalled": "حافظهٔ دائمی به‌روز نمی‌شود",
     "pages_stale": "صفحهٔ منتشرشده کهنه است",
@@ -62,7 +67,7 @@ class GitHub:
         return r.json() if r.ok else None
 
     def runs(self, workflow_file: str, n: int = 12) -> list[dict[str, Any]]:
-        data = self.get(f"/actions/workflows/{workflow_file}/runs", per_page=n) or {}
+        data = self.get(f"/actions/workflows/{workflow_file}/runs", per_page=n, branch=DEFAULT_BRANCH) or {}
         out = []
         for r in data.get("workflow_runs", []):
             out.append({
@@ -91,7 +96,7 @@ class GitHub:
         return ""
 
     def dispatch(self, workflow_file: str, inputs: dict[str, str] | None = None, ref: str | None = None) -> bool:
-        ref = ref or os.environ.get("GITHUB_REF_NAME") or "main"
+        ref = ref or DEFAULT_BRANCH
         try:
             r = requests.post(f"{API}/repos/{self.repo}/actions/workflows/{workflow_file}/dispatches", headers=self._h(),
                               json={"ref": ref, "inputs": inputs or {}}, timeout=25)
@@ -173,9 +178,13 @@ def check_health(gh: GitHub, memory_data: dict[str, Any], pages_url: str | None)
                 break
         return out
 
-    # اسکن
+    def loop_alive(runs: list[dict[str, Any]]) -> bool:
+        # حلقهٔ خودگردان زنده است اگر اجرای بعدی در صف/در حال اجرا (حتی در حال صبر) باشد
+        return any(r["status"] in ACTIVE_STATUSES for r in runs)
+
+    # اسکن — تازگی از زمان «پایان» اجرا (اجراها قبل از کار، به اندازهٔ چرخه صبر می‌کنند)
     ls = last_success(scan_runs)
-    age = _age_min(ls["created_at"]) if ls else None
+    age = _age_min(ls["updated_at"]) if ls else None
     checks.append({"name": "scan_fresh", "fa": "آخرین اسکن موفق", "ok": age is not None and age <= SCAN_STALL_MIN,
                    "value": f"{age:.0f} دقیقه پیش" if age is not None else "هیچ", "url": ls["url"] if ls else None})
     if age is None or age > SCAN_STALL_MIN:
@@ -185,16 +194,26 @@ def check_health(gh: GitHub, memory_data: dict[str, Any], pages_url: str | None)
                    "url": fails[0]["url"] if fails else None})
     if len(fails) >= 2:
         problems.append({"kind": "scan_failing", "runs": fails[:3]})
+    if gh.ok:
+        alive = loop_alive(scan_runs)
+        checks.append({"name": "scan_loop", "fa": "حلقهٔ اسکن (اجرای بعدی در صف)", "ok": alive, "value": "زنده" if alive else "مرده"})
+        if not alive:
+            problems.append({"kind": "scan_loop_dead", "runs": scan_runs[:3]})
 
     # اطلاعات
     li = last_success(intel_runs)
-    iage = _age_min(li["created_at"]) if li else None
+    iage = _age_min(li["updated_at"]) if li else None
     intel_ts = (memory_data.get("intel") or {}).get("updated_at")
     mage = _age_min(intel_ts)
     checks.append({"name": "intel_fresh", "fa": "ایجنت اطلاعات", "ok": (mage is not None and mage <= INTEL_STALL_MIN) or (iage is not None and iage <= INTEL_STALL_MIN),
                    "value": f"{mage:.0f} دقیقه پیش" if mage is not None else ("هیچ" if iage is None else f"اجرا {iage:.0f} دقیقه پیش")})
     if intel_runs and (mage is None or mage > INTEL_STALL_MIN) and (iage is None or iage > INTEL_STALL_MIN):
         problems.append({"kind": "intel_stalled", "runs": intel_runs[:3]})
+    if gh.ok:
+        ialive = loop_alive(intel_runs)
+        checks.append({"name": "intel_loop", "fa": "حلقهٔ اطلاعات (اجرای بعدی در صف)", "ok": ialive, "value": "زنده" if ialive else "مرده"})
+        if not ialive:
+            problems.append({"kind": "intel_loop_dead", "runs": intel_runs[:3]})
 
     # حافظه
     bage = gh.branch_age_min(os.environ.get("MEMORY_BRANCH", "phoenix-memory")) if gh.ok else None
@@ -259,6 +278,14 @@ def remediate(gh: GitHub, diag: dict[str, Any], past: list[dict[str, Any]]) -> d
                        _age_min(p.get("ts")) is not None and _age_min(p.get("ts")) < REDISPATCH_COOLDOWN_MIN]
     action, action_fa, url = "none", "—", None
 
+    if kind in ("scan_loop_dead", "intel_loop_dead"):
+        # حلقهٔ خودگردان قطع شده (مثلاً اجرای قبلی لغو/تایم‌اوت شد و نتوانست جانشین بسازد) → بی‌درنگ زنده کن.
+        # بدون cooldown: concurrency.group خودِ Workflow مانع دو زنجیرهٔ هم‌زمان می‌شود.
+        wf = SCAN_WF if kind == "scan_loop_dead" else INTEL_WF
+        if gh.ok and gh.dispatch(wf, {"delay_min": "0"}):
+            action, action_fa = "revive", "حلقه دوباره روشن شد (dispatch روی همین شاخه)"
+        return {"action": action, "action_fa": action_fa, "url": url, "ts": now.isoformat()}
+
     if kind in ("scan_stalled", "scan_failing", "pages_stale", "memory_stalled") and cause in (
             "scan_stalled", "scan_failing", "pages_stale", "memory_stalled", "binance_block", "timeout", "memory_push", "unknown"):
         if recent_dispatch:
@@ -286,7 +313,7 @@ def remediate(gh: GitHub, diag: dict[str, Any], past: list[dict[str, Any]]) -> d
 def severity_of(kind: str, cause: str, recurrence: int) -> str:
     if cause in ("code_error", "pip_install") or kind == "scan_failing" or recurrence >= 3:
         return "high"
-    if kind in ("scan_stalled", "memory_stalled"):
+    if kind in ("scan_stalled", "memory_stalled", "scan_loop_dead", "intel_loop_dead"):
         return "medium"
     return "low"
 

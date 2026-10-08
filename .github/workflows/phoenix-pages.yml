@@ -1,12 +1,18 @@
 name: "Phoenix 1 · Scan + Organization → Pages"
 
-# چرخهٔ اصلی (هر ۱۰ دقیقه): اسکن ارزها → ۹ دپارتمان → اجماع → A34 → تصمیم → قاضی نتیجه → حافظه → انتشار صفحه
-# زمان‌بندی فقط روی شاخهٔ پیش‌فرض (main) اجرا می‌شود. تنها Workflow ای که Pages را منتشر می‌کند.
+# چرخهٔ اصلی (هر ~۱۰ دقیقه): اسکن ارزها → ۹ دپارتمان → اجماع → A34 → تصمیم → قاضی نتیجه → حافظه → انتشار صفحه
+#
+# فضای جدا: هیچ‌چیز به main نمی‌رود. cron گیت‌هاب فقط روی شاخهٔ پیش‌فرض کار می‌کند، پس این Workflow
+# «خودگردان» است: در پایان هر اجرا، اجرای بعدیِ خودش را روی همین شاخه dispatch می‌کند (scripts/loop.sh).
+# برای شروع یا راه‌اندازی مجدد فقط یک‌بار Run workflow بزن؛ بعد از آن حلقه خودش ادامه می‌دهد
+# و واچ‌داگ (Phoenix 3) اگر حلقه بمیرد زنده‌اش می‌کند. تنها Workflow ای که Pages را منتشر می‌کند.
 on:
-  schedule:
-    - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
+      delay_min:
+        description: "صبر قبل از اجرا (دقیقه) — حلقه خودش این را پر می‌کند؛ برای اجرای فوری ۰"
+        default: "0"
+        required: false
       top:
         description: "تعداد ارز برتر برای اسکن"
         default: "30"
@@ -16,18 +22,20 @@ on:
         default: ""
         required: false
   push:
-    branches: [main, cursor/phoenix-signal-panel-69df]
+    branches: [cursor/phoenix-signal-panel-69df]
     paths:
       - ".github/workflows/phoenix-pages.yml"
       - "site/**"
       - "scripts/export_static.py"
       - "scripts/memory_sync.sh"
+      - "scripts/loop.sh"
       - "phoenix/**"
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  actions: write
 
 concurrency:
   group: phoenix-scan
@@ -35,15 +43,24 @@ concurrency:
 
 env:
   MEMORY_BRANCH: phoenix-memory
+  LOOP_DELAY_MIN: "9"   # + ~۱ دقیقه اجرا ≈ چرخهٔ ۱۰ دقیقه
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    timeout-minutes: 28
+    outputs:
+      pages_enabled: ${{ steps.pages_check.outputs.enabled }}
     steps:
+      - name: Wait for this cycle
+        if: github.event.inputs.delay_min != '' && github.event.inputs.delay_min != '0'
+        env:
+          DELAY: ${{ github.event.inputs.delay_min }}
+        run: |
+          case "$DELAY" in ''|*[!0-9]*) DELAY=0 ;; esac
+          echo "waiting ${DELAY} min for the next cycle"
+          sleep $(( DELAY * 60 ))
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -64,17 +81,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
+          if url="$(gh api "repos/${{ github.repository }}/pages" --jq .html_url 2>/dev/null)"; then
             echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "url=$url" >> "$GITHUB_OUTPUT"
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "url=" >> "$GITHUB_OUTPUT"
             echo "::warning::GitHub Pages فعال نیست → Settings → Pages → Source: GitHub Actions. اسکن و حافظه همچنان انجام می‌شود."
           fi
-
-      - name: Configure Pages
-        id: pages
-        if: steps.pages_check.outputs.enabled == 'true'
-        uses: actions/configure-pages@v5
 
       - name: Run scan + organization cycle
         env:
@@ -82,7 +96,7 @@ jobs:
           PHOENIX_WORKERS: "6"
           PHOENIX_CLOSE: ${{ github.event.inputs.close || '' }}
           PHOENIX_MEMORY_DIR: ${{ github.workspace }}/memory
-          PHOENIX_PAGES_URL: ${{ steps.pages.outputs.base_url || '' }}
+          PHOENIX_PAGES_URL: ${{ steps.pages_check.outputs.url }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
@@ -100,7 +114,25 @@ jobs:
         with:
           path: site
 
+      - name: Keep the loops alive (self + guard the other agents)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash scripts/loop.sh self phoenix-pages.yml "$LOOP_DELAY_MIN"
+          bash scripts/loop.sh ensure phoenix-watchdog.yml || true
+          bash scripts/loop.sh ensure phoenix-intel.yml || true
+
+  # انتشار در job جدا: اگر قانون محیط github-pages این شاخه را اجازه ندهد، فقط انتشار رد می‌شود، نه اسکن و حافظه.
+  deploy:
+    needs: scan
+    if: needs.scan.outputs.pages_enabled == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - name: Deploy
         id: deploy
-        if: steps.pages_check.outputs.enabled == 'true'
         uses: actions/deploy-pages@v4
