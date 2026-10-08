@@ -1,25 +1,117 @@
 {
- "updated_at": "2026-10-07T21:43:12.205392+00:00",
+ "updated_at": "2026-10-08T04:05:31.034957+00:00",
  "market": {
-  "btc_dominance": 58.81,
-  "usdt_dominance": 6.47,
-  "mcap_change_24h": -5.55,
+  "btc_dominance": 58.66,
+  "usdt_dominance": 6.49,
+  "mcap_change_24h": -3.92,
   "trending": [
-   "SWORDINU",
    "QTC",
-   "TRUMP",
+   "PONS",
    "MET",
-   "NEAR",
+   "PENGU",
    "PRL",
-   "RAY",
-   "SUI",
-   "LIT",
-   "DRV"
+   "JUP",
+   "STONK",
+   "NEAR",
+   "ORCA",
+   "RAY"
   ],
-  "fear_greed": 71,
+  "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
+   "url": "https://www.coindesk.com/markets/2026/10/08/bitcoin-breaks-below-usd83-000-as-oil-jumps-on-iran-strike-plan-report",
+   "published": "2026-10-08T04:00:07+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfec5508cca01",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T04:05:31.034957+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
+   "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
+   "published": "2026-10-08T02:50:01+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N629da2cca04f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T04:05:31.034957+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Crypto news site Cointelegraph seeks buyer after web traffic plunges",
+   "url": "https://www.coindesk.com/business/2026/10/07/crypto-news-site-cointelegraph-seeks-buyer-after-web-traffic-plunges",
+   "published": "2026-10-08T00:35:24+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N47bd8472cd39",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T04:05:31.034957+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+   "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T00:04:32+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8fdb8da5dd09",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T04:05:31.034957+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Solana’s Orca merges with Loopscale in push to finance AI, robotics and defense",
+   "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
+   "published": "2026-10-07T22:01:02+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Ne8b188821475",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T04:05:31.034957+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Circle brings USDC, EURC payments to SAP customers through Tereina",
@@ -2228,6 +2320,26 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.046,
+   "risk": 0.272,
+   "events": [
+    "market",
+    "etf_flow",
+    "regulation"
+   ],
+   "count": 17,
+   "last": "2026-10-08T04:00:07+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.08,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 3,
+   "last": "2026-10-08T02:50:01+00:00"
+  },
   "SUIUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2236,7 +2348,7 @@
    "last": "2026-10-07T17:46:59+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.12,
+   "sentiment": 0.122,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2257,17 +2369,6 @@
    "events": [],
    "count": 2,
    "last": "2026-10-07T16:30:00+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.068,
-   "risk": 0.351,
-   "events": [
-    "market",
-    "etf_flow",
-    "regulation"
-   ],
-   "count": 16,
-   "last": "2026-10-07T15:06:14+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
@@ -2296,15 +2397,6 @@
    "events": [],
    "count": 2,
    "last": "2026-10-06T15:20:30+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.4,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 1,
-   "last": "2026-10-06T15:09:41+00:00"
   },
   "ARBUSDT": {
    "sentiment": 0.0,
