@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-08T17:53:13.267956+00:00",
+ "updated_at": "2026-10-08T18:22:44.586681+00:00",
  "market": {
-  "btc_dominance": 59.2,
+  "btc_dominance": 59.17,
   "usdt_dominance": 6.72,
-  "mcap_change_24h": -6.51,
+  "mcap_change_24h": -6.27,
   "trending": [
    "SIMD",
    "TRUMP",
-   "BTC",
    "QTC",
-   "NEAR",
    "DRV",
-   "BP",
-   "PENGU",
+   "BTC",
+   "NEAR",
    "PRL",
-   "STONK"
+   "TAO",
+   "ZEC",
+   "PENGU"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto crumbles as anniversary of flash crash nears",
+   "url": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+   "published": "2026-10-08T18:14:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "NEAR"
+   ],
+   "symbols": [
+    "NEARUSDT"
+   ],
+   "id": "N770073ce2ca7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T18:22:44.586681+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "NFL joins pushback against prediction markets as U.S. Supreme Court asked to act",
+   "url": "https://www.coindesk.com/policy/2026/10/08/nfl-joins-pushback-against-prediction-markets-as-u-s-supreme-court-asked-to-act",
+   "published": "2026-10-08T18:06:41+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd72309e78648",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T18:22:44.586681+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "NFL tells Supreme Court prediction market sports contracts are gambling, not swaps",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T17:53:13.267956+00:00",
    "notified": false
   },
@@ -525,7 +562,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin breaks lower from recent trading range, sliding back to $81,000",
+   "title": "Live updates: Bitcoin adds to declines, testing $80,000 level",
    "url": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
    "published": "2026-10-08T10:44:47+00:00",
    "kind": "news",
@@ -2752,15 +2789,11 @@
    "url": "https://www.binance.com/en/support/announcement/1ea1d5c29a0a4c2c8c7f4c4e947c07f2",
    "published": "2026-09-28T05:13:41.004000+00:00",
    "kind": "project",
-   "raw_symbols": [
-    "SPCXB"
-   ],
-   "symbols": [
-    "SPCXBUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "N0ee0ff116249",
    "kind_fa": "پروژه / آپدیت",
-   "importance": 6,
+   "importance": 5,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -3206,9 +3239,19 @@
   }
  ],
  "symbols": {
+  "NEARUSDT": {
+   "sentiment": 0.174,
+   "risk": 0.0,
+   "events": [
+    "market",
+    "project"
+   ],
+   "count": 7,
+   "last": "2026-10-08T18:14:39+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.114,
-   "risk": 0.955,
+   "risk": 0.945,
    "events": [
     "security",
     "etf_flow",
@@ -3226,16 +3269,6 @@
    ],
    "count": 1,
    "last": "2026-10-08T16:43:47+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.278,
-   "risk": 0.0,
-   "events": [
-    "market",
-    "project"
-   ],
-   "count": 7,
-   "last": "2026-10-08T15:55:55+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
@@ -3259,13 +3292,13 @@
    "last": "2026-10-08T12:03:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.1,
+   "sentiment": 0.103,
    "risk": 0.0,
    "events": [
     "project",
     "etf_flow"
    ],
-   "count": 14,
+   "count": 13,
    "last": "2026-10-08T11:47:16+00:00"
   },
   "XRPUSDT": {
