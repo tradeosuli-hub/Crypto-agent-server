@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-08T17:23:44.082618+00:00",
+ "updated_at": "2026-10-08T17:53:13.267956+00:00",
  "market": {
-  "btc_dominance": 59.16,
-  "usdt_dominance": 6.7,
-  "mcap_change_24h": -6.31,
+  "btc_dominance": 59.2,
+  "usdt_dominance": 6.72,
+  "mcap_change_24h": -6.51,
   "trending": [
    "SIMD",
    "TRUMP",
-   "QTC",
    "BTC",
+   "QTC",
    "NEAR",
-   "BP",
    "DRV",
-   "QNT",
+   "BP",
+   "PENGU",
    "PRL",
-   "ETH"
+   "STONK"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "NFL tells Supreme Court prediction market sports contracts are gambling, not swaps",
+   "url": "https://www.theblock.co/news/regulation/2026-10-08-nfl-amicus-brief-supreme-court-kalshi-new-jersey-prediction-markets-418064",
+   "published": "2026-10-08T17:30:58+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4d8d5b33baa3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T17:53:13.267956+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Strategy shareholders face dilution drag despite brighter bitcoin forecasts, TD Cowen says",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T17:23:44.082618+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T17:23:44.082618+00:00",
    "notified": false
   },
@@ -3189,8 +3207,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.113,
-   "risk": 0.965,
+   "sentiment": -0.114,
+   "risk": 0.955,
    "events": [
     "security",
     "etf_flow",
@@ -3241,7 +3259,7 @@
    "last": "2026-10-08T12:03:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.101,
+   "sentiment": 0.1,
    "risk": 0.0,
    "events": [
     "project",
