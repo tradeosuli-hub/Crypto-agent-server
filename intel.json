@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-08T14:25:33.166228+00:00",
+ "updated_at": "2026-10-08T14:55:09.809579+00:00",
  "market": {
-  "btc_dominance": 58.86,
+  "btc_dominance": 58.9,
   "usdt_dominance": 6.53,
-  "mcap_change_24h": -3.76,
+  "mcap_change_24h": -3.77,
   "trending": [
    "SIMD",
    "TRUMP",
+   "DRV",
    "QTC",
-   "PRL",
    "STRK",
+   "PYTH",
    "OGN",
    "NEAR",
-   "BTC",
    "PENGU",
-   "ZEC"
+   "PRL"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin pulls back as analysts forecast $80,000-$90,000 Q4 trading range",
+   "url": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
+   "published": "2026-10-08T14:52:27+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N37250443d5b4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T14:55:09.809579+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "‘Bunker mode’ is a far greater challenge for institutions than individual crypto holders",
+   "url": "https://www.coindesk.com/tech/2026/10/08/bunker-mode-is-a-far-greater-challenge-for-institutions-than-individual-crypto-holders",
+   "published": "2026-10-08T14:39:48+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb9ab25a66eda",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T14:55:09.809579+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Cardano Foundation spins out Veridian, tokenizes its shares on new standard",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T14:25:33.166228+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T14:25:33.166228+00:00",
    "notified": false
   },
@@ -73,6 +111,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T14:25:33.166228+00:00",
    "notified": false
   },
@@ -2974,6 +3013,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.136,
+   "events": [
+    "etf_flow",
+    "market",
+    "regulation"
+   ],
+   "count": 29,
+   "last": "2026-10-08T14:52:27+00:00"
+  },
   "ADAUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2981,19 +3031,8 @@
    "count": 2,
    "last": "2026-10-08T14:24:24+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.001,
-   "risk": 0.142,
-   "events": [
-    "etf_flow",
-    "market",
-    "regulation"
-   ],
-   "count": 28,
-   "last": "2026-10-08T14:03:20+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.057,
+   "sentiment": 0.058,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3019,7 +3058,7 @@
    "last": "2026-10-08T11:47:16+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.335,
+   "sentiment": 0.336,
    "risk": 0.0,
    "events": [
     "market",
@@ -3032,7 +3071,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 3,
+   "count": 2,
    "last": "2026-10-08T06:17:13+00:00"
   },
   "POLUSDT": {
