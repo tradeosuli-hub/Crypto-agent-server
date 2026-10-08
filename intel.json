@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-08T16:54:08.521924+00:00",
+ "updated_at": "2026-10-08T17:23:44.082618+00:00",
  "market": {
-  "btc_dominance": 59.15,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -6.02,
+  "btc_dominance": 59.16,
+  "usdt_dominance": 6.7,
+  "mcap_change_24h": -6.31,
   "trending": [
    "SIMD",
    "TRUMP",
+   "QTC",
    "BTC",
    "NEAR",
-   "QTC",
-   "DRV",
    "BP",
-   "LIT",
+   "DRV",
    "QNT",
+   "PRL",
    "ETH"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Strategy shareholders face dilution drag despite brighter bitcoin forecasts, TD Cowen says",
+   "url": "https://www.theblock.co/news/markets/2026-10-08-strategy-shareholders-face-dilution-drag-despite-brighter-bitcoin-forecasts-td-cowen-418066",
+   "published": "2026-10-08T17:18:24+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N8e613deaf3d5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T17:23:44.082618+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "The Block GCCI 2026 Country Profile: Inside Korea’s Crypto Market",
+   "url": "https://www.theblock.co/research/institutional/block-gcci-2026-country-profile-korea-crypto-market-418081",
+   "published": "2026-10-08T17:16:23+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4f6fdf1a77bf",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T17:23:44.082618+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitwise CEO says ‘tragic’ Dogecoin ETF failure shows gap between ETF buyers and crypto-app users",
@@ -37,6 +73,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T16:54:08.521924+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T16:54:08.521924+00:00",
    "notified": false
   },
@@ -3150,6 +3188,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.113,
+   "risk": 0.965,
+   "events": [
+    "security",
+    "etf_flow",
+    "market",
+    "regulation"
+   ],
+   "count": 32,
+   "last": "2026-10-08T17:18:24+00:00"
+  },
   "DOGEUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -3159,20 +3209,8 @@
    "count": 1,
    "last": "2026-10-08T16:43:47+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.114,
-   "risk": 0.975,
-   "events": [
-    "security",
-    "etf_flow",
-    "market",
-    "regulation"
-   ],
-   "count": 32,
-   "last": "2026-10-08T15:55:55+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": 0.277,
+   "sentiment": 0.278,
    "risk": 0.0,
    "events": [
     "market",
@@ -3203,7 +3241,7 @@
    "last": "2026-10-08T12:03:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.102,
+   "sentiment": 0.101,
    "risk": 0.0,
    "events": [
     "project",
