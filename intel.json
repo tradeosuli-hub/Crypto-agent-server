@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-08T06:03:43.207507+00:00",
+ "updated_at": "2026-10-08T06:33:10.682856+00:00",
  "market": {
   "btc_dominance": 58.74,
   "usdt_dominance": 6.51,
-  "mcap_change_24h": -4.27,
+  "mcap_change_24h": -4.7,
   "trending": [
    "QTC",
-   "NEAR",
    "MET",
-   "PENGU",
-   "PRL",
-   "STONK",
-   "PONS",
+   "NEAR",
    "JUP",
+   "BTC",
+   "PRL",
+   "PONS",
+   "PENGU",
    "ZRO",
-   "W"
+   "RAY"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ripple is earning fees financing leveraged stock bets, a business long run by banks",
+   "url": "https://www.coindesk.com/markets/2026/10/08/ripple-is-earning-fees-financing-leveraged-stock-bets-a-business-long-run-by-banks",
+   "published": "2026-10-08T06:17:13+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N1e6e04624a7b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T06:33:10.682856+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -54,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T06:03:43.207507+00:00",
    "notified": false
   },
@@ -2419,9 +2440,16 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-10-08T06:17:13+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.042,
-   "risk": 0.247,
+   "risk": 0.241,
    "events": [
     "market",
     "etf_flow",
@@ -2441,7 +2469,7 @@
    "last": "2026-10-08T04:23:23+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.106,
+   "sentiment": 0.107,
    "risk": 0.0,
    "events": [
     "project"
@@ -2450,7 +2478,7 @@
    "last": "2026-10-08T04:23:23+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.074,
+   "sentiment": 0.075,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2492,13 +2520,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-07T04:11:33+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-06T15:20:30+00:00"
   },
   "ARBUSDT": {
    "sentiment": 0.0,
