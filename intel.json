@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-08T20:20:51.528282+00:00",
+ "updated_at": "2026-10-08T20:50:24.756857+00:00",
  "market": {
-  "btc_dominance": 59.14,
+  "btc_dominance": 59.09,
   "usdt_dominance": 6.62,
-  "mcap_change_24h": -5.16,
+  "mcap_change_24h": -5.18,
   "trending": [
    "SIMD",
    "TRUMP",
    "TIA",
-   "PENGU",
    "NEAR",
-   "PYTH",
    "DRV",
-   "QTC",
    "ZEC",
-   "PRL"
+   "QTC",
+   "PYTH",
+   "AVAX",
+   "ONDO"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
@@ -659,7 +659,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin adds to declines, testing $80,000 level",
+   "title": "Live updates: Bitcoin pulls off worst levels late in Thursday session",
    "url": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
    "published": "2026-10-08T10:44:47+00:00",
    "kind": "news",
@@ -2886,11 +2886,15 @@
    "url": "https://www.binance.com/en/support/announcement/1ea1d5c29a0a4c2c8c7f4c4e947c07f2",
    "published": "2026-09-28T05:13:41.004000+00:00",
    "kind": "project",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "SPCXB"
+   ],
+   "symbols": [
+    "SPCXBUSDT"
+   ],
    "id": "N0ee0ff116249",
    "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
+   "importance": 6,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -3338,7 +3342,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.113,
-   "risk": 0.904,
+   "risk": 0.893,
    "events": [
     "security",
     "etf_flow",
@@ -3349,7 +3353,7 @@
    "last": "2026-10-08T19:46:15+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.088,
+   "sentiment": 0.087,
    "risk": 0.0,
    "events": [
     "project",
@@ -3359,7 +3363,7 @@
    "last": "2026-10-08T19:46:15+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.065,
+   "sentiment": 0.066,
    "risk": 0.0,
    "events": [],
    "count": 4,
