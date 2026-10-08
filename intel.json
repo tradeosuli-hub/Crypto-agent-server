@@ -1,25 +1,67 @@
 {
- "updated_at": "2026-10-08T11:28:28.486303+00:00",
+ "updated_at": "2026-10-08T11:57:56.695033+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 6.59,
-  "mcap_change_24h": -4.33,
+  "btc_dominance": 59.31,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": -4.15,
   "trending": [
    "TRUMP",
    "SIMD",
    "QTC",
+   "STRK",
    "PRL",
-   "NEAR",
    "MET",
    "ALGO",
+   "NEAR",
    "PENGU",
-   "STRK",
-   "OGN"
+   "ZEC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin and ether holders urged to enter ‘bunker mode’ against possible AI attacks",
+   "url": "https://www.coindesk.com/tech/2026/10/08/bitcoin-and-ether-holders-urged-to-prepare-bunker-mode-against-possible-ai-attacks",
+   "published": "2026-10-08T11:47:16+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N5f49ccd50dbf",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T11:57:56.695033+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin mined for pennies in 2010 moves after 16 years, now worth $8.5 million",
+   "url": "https://www.coindesk.com/tech/2026/10/08/bitcoin-mined-for-pennies-in-2010-moves-after-16-years-now-worth-usd8-5-million",
+   "published": "2026-10-08T11:30:19+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4e7d6922d958",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T11:57:56.695033+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin ETF investors head for the exit, and it's the biggest rush in months",
@@ -37,6 +79,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T11:28:28.486303+00:00",
    "notified": false
   },
@@ -57,6 +100,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T11:28:28.486303+00:00",
    "notified": false
   },
@@ -2757,25 +2801,25 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.005,
-   "risk": 0.179,
+   "sentiment": -0.004,
+   "risk": 0.173,
    "events": [
     "etf_flow",
     "market",
     "regulation"
    ],
-   "count": 23,
-   "last": "2026-10-08T11:15:00+00:00"
+   "count": 25,
+   "last": "2026-10-08T11:47:16+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.121,
+   "sentiment": 0.107,
    "risk": 0.0,
    "events": [
     "project",
     "etf_flow"
    ],
-   "count": 13,
-   "last": "2026-10-08T10:30:41+00:00"
+   "count": 14,
+   "last": "2026-10-08T11:47:16+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.332,
@@ -2795,7 +2839,7 @@
    "last": "2026-10-08T06:17:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.082,
+   "sentiment": 0.083,
    "risk": 0.0,
    "events": [
     "token_burn"
