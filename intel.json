@@ -1,25 +1,78 @@
 {
- "updated_at": "2026-10-08T12:56:54.011874+00:00",
+ "updated_at": "2026-10-08T13:26:22.934126+00:00",
  "market": {
-  "btc_dominance": 58.83,
-  "usdt_dominance": 6.55,
-  "mcap_change_24h": -4.45,
+  "btc_dominance": 58.85,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -3.9,
   "trending": [
    "SIMD",
    "QTC",
    "TRUMP",
    "STRK",
-   "PRL",
    "MET",
-   "ALGO",
-   "ZEC",
-   "QNT",
-   "OGN"
+   "PRL",
+   "VVV",
+   "NEAR",
+   "BTC",
+   "PENGU"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+   "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+   "published": "2026-10-08T13:06:24+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nede071f2ab63",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T13:26:22.934126+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T12:58:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-10-07T21:42:49.326766+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "EU lawmakers push crypto onto anti-corruption agenda",
+   "url": "https://cointelegraph.com/news/eu-lawmakers-crypto-anti-corruption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T12:54:21+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd000934fa5be",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T13:26:22.934126+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Sui’s Hashi to launch with $500M in Bitcoin finance commitments",
@@ -440,23 +493,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-08T06:33:10.682856+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T06:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
    "notified": false
   },
   {
@@ -2842,9 +2878,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.056,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 4,
+   "last": "2026-10-08T13:06:24+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.003,
-   "risk": 0.161,
+   "sentiment": -0.002,
+   "risk": 0.155,
    "events": [
     "etf_flow",
     "market",
@@ -2861,7 +2906,7 @@
    "last": "2026-10-08T12:03:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.106,
+   "sentiment": 0.105,
    "risk": 0.0,
    "events": [
     "project",
@@ -2871,7 +2916,7 @@
    "last": "2026-10-08T11:47:16+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.333,
+   "sentiment": 0.334,
    "risk": 0.0,
    "events": [
     "market",
@@ -2886,15 +2931,6 @@
    "events": [],
    "count": 3,
    "last": "2026-10-08T06:17:13+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.085,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 3,
-   "last": "2026-10-08T02:50:01+00:00"
   },
   "POLUSDT": {
    "sentiment": 0.0,
@@ -2923,13 +2959,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-07T04:11:33+00:00"
-  },
-  "ARBUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-06T13:02:33+00:00"
   }
  },
  "social": {},
