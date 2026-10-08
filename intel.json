@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-08T11:57:56.695033+00:00",
+ "updated_at": "2026-10-08T12:27:26.325432+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -4.15,
+  "btc_dominance": 58.82,
+  "usdt_dominance": 6.54,
+  "mcap_change_24h": -4.31,
   "trending": [
-   "TRUMP",
    "SIMD",
    "QTC",
+   "TRUMP",
    "STRK",
-   "PRL",
    "MET",
-   "ALGO",
-   "NEAR",
+   "PRL",
    "PENGU",
-   "ZEC"
+   "ZEC",
+   "ALGO",
+   "ONDO"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Sui’s Hashi to launch with $500M in Bitcoin finance commitments",
+   "url": "https://cointelegraph.com/news/sui-hashi-bitcoin-finance-commitments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T12:03:28+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "SUI"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "SUIUSDT"
+   ],
+   "id": "Nec0efd98ed15",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T12:27:26.325432+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin and ether holders urged to enter ‘bunker mode’ against possible AI attacks",
@@ -39,7 +61,24 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T11:57:56.695033+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "NUVA brings U.S. residential mortgage credit to offshore investors",
+   "url": "https://www.coindesk.com/business/2026/10/08/nuva-brings-u-s-residential-mortgage-credit-to-offshore-investors",
+   "published": "2026-10-08T11:36:25+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb44601100d32",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T12:27:26.325432+00:00",
    "notified": false
   },
   {
@@ -59,6 +98,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T11:57:56.695033+00:00",
    "notified": false
   },
@@ -2801,18 +2841,25 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.004,
-   "risk": 0.173,
+   "sentiment": -0.003,
+   "risk": 0.167,
    "events": [
     "etf_flow",
     "market",
     "regulation"
    ],
-   "count": 25,
-   "last": "2026-10-08T11:47:16+00:00"
+   "count": 26,
+   "last": "2026-10-08T12:03:28+00:00"
+  },
+  "SUIUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-08T12:03:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.107,
+   "sentiment": 0.106,
    "risk": 0.0,
    "events": [
     "project",
@@ -2822,7 +2869,7 @@
    "last": "2026-10-08T11:47:16+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.332,
+   "sentiment": 0.333,
    "risk": 0.0,
    "events": [
     "market",
@@ -2839,20 +2886,13 @@
    "last": "2026-10-08T06:17:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.083,
+   "sentiment": 0.084,
    "risk": 0.0,
    "events": [
     "token_burn"
    ],
    "count": 3,
    "last": "2026-10-08T02:50:01+00:00"
-  },
-  "SUIUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-07T17:46:59+00:00"
   },
   "POLUSDT": {
    "sentiment": 0.0,
