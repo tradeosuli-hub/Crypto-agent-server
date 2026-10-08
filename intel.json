@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-10-08T19:21:43.535882+00:00",
+ "updated_at": "2026-10-08T19:51:16.866321+00:00",
  "market": {
-  "btc_dominance": 59.16,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -5.53,
+  "btc_dominance": 59.15,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -5.24,
   "trending": [
    "SIMD",
    "TRUMP",
+   "TIA",
    "PRL",
-   "NEAR",
+   "PENGU",
    "ZEC",
-   "PYTH",
+   "NEAR",
    "ENA",
-   "DRV",
-   "QTC",
-   "ONDO"
+   "PYTH",
+   "QTC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says",
+   "url": "https://www.coindesk.com/markets/2026/10/08/wall-street-s-tokenization-boom-could-have-bigger-winners-than-bitcoin-and-ether-citrini-says",
+   "published": "2026-10-08T19:46:15+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N6dd6fa090407",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T19:51:16.866321+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Securitize stock jumps over 10% after launching tokenized US equities on Solana",
+   "url": "https://cointelegraph.com/news/securitize-stock-jumps-launching-tokenized-us-equities-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T19:31:38+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nf7e76f3a8aca",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T19:51:16.866321+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "NFL backs New Jersey authorities in SCOTUS petition over Kalshi",
+   "url": "https://cointelegraph.com/news/nfl-new-jersey-supreme-court-kalshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T19:17:18+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N523cfc06d1b2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T19:51:16.866321+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "JPMorgan estimates $50 billion has flowed into crypto this year as momentum improves into Q4",
@@ -3275,8 +3333,37 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.112,
+   "risk": 0.914,
+   "events": [
+    "security",
+    "etf_flow",
+    "market",
+    "regulation"
+   ],
+   "count": 33,
+   "last": "2026-10-08T19:46:15+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": 0.086,
+   "risk": 0.0,
+   "events": [
+    "project",
+    "etf_flow"
+   ],
+   "count": 14,
+   "last": "2026-10-08T19:46:15+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.065,
+   "risk": 0.0,
+   "events": [],
+   "count": 4,
+   "last": "2026-10-08T19:31:38+00:00"
+  },
   "NEARUSDT": {
-   "sentiment": 0.174,
+   "sentiment": 0.175,
    "risk": 0.0,
    "events": [
     "market",
@@ -3284,18 +3371,6 @@
    ],
    "count": 7,
    "last": "2026-10-08T18:14:39+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.116,
-   "risk": 0.924,
-   "events": [
-    "security",
-    "etf_flow",
-    "market",
-    "regulation"
-   ],
-   "count": 32,
-   "last": "2026-10-08T17:18:24+00:00"
   },
   "DOGEUSDT": {
    "sentiment": 0.0,
@@ -3313,29 +3388,12 @@
    "count": 2,
    "last": "2026-10-08T14:24:24+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 3,
-   "last": "2026-10-08T13:06:24+00:00"
-  },
   "SUIUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 2,
    "last": "2026-10-08T12:03:28+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.101,
-   "risk": 0.0,
-   "events": [
-    "project",
-    "etf_flow"
-   ],
-   "count": 13,
-   "last": "2026-10-08T11:47:16+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.0,
