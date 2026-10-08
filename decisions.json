@@ -117,7 +117,7 @@
  {
   "id": "D87847a2a31",
   "ts": "2026-10-08T14:25:27.844586+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "NEARUSDT",
   "direction": "long",
   "entry": 5.0390999999999995,
@@ -226,6 +226,28 @@
    "دیوار hammer_dulling · واکنش‌های گذشته 4",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-08T14:30:00+00:00"
+  "entered_at": "2026-10-08T14:30:00+00:00",
+  "outcome": "SL",
+  "exit": 4.8959,
+  "pnl_r": -1.0,
+  "closed_at": "2026-10-08T15:00:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "volume",
+    "news",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، volume، news، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance"
+  }
  }
 ]
