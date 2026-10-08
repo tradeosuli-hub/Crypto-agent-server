@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-08T16:24:32.421370+00:00",
+ "updated_at": "2026-10-08T16:54:08.521924+00:00",
  "market": {
-  "btc_dominance": 59.13,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -5.91,
+  "btc_dominance": 59.15,
+  "usdt_dominance": 6.68,
+  "mcap_change_24h": -6.02,
   "trending": [
    "SIMD",
-   "DRV",
-   "QTC",
-   "NEAR",
-   "BTC",
    "TRUMP",
-   "PRL",
-   "PENGU",
-   "AERO",
-   "PONS"
+   "BTC",
+   "NEAR",
+   "QTC",
+   "DRV",
+   "BP",
+   "LIT",
+   "QNT",
+   "ETH"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitwise CEO says ‘tragic’ Dogecoin ETF failure shows gap between ETF buyers and crypto-app users",
+   "url": "https://www.theblock.co/news/business/2026-10-08-bitwise-ceo-dogecoin-etf-failure-hunter-horsley-418070",
+   "published": "2026-10-08T16:43:47+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "DOGE"
+   ],
+   "symbols": [
+    "DOGEUSDT"
+   ],
+   "id": "N8f3dac3fbf46",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T16:54:08.521924+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "IMF warns tokenized markets could amplify financial risks",
+   "url": "https://cointelegraph.com/news/imf-flags-volatility-liquidity-risks-tokenized-markets-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T16:25:06+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N42100598dc32",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T16:54:08.521924+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin nears 3-week low as oil heads higher on Iran strike woes",
@@ -39,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T16:24:32.421370+00:00",
    "notified": false
   },
@@ -432,7 +469,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin breaks lower from recent trading range, sliding below $82,000",
+   "title": "Live updates: Bitcoin breaks lower from recent trading range, sliding back to $81,000",
    "url": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
    "published": "2026-10-08T10:44:47+00:00",
    "kind": "news",
@@ -3113,9 +3150,18 @@
   }
  ],
  "symbols": {
+  "DOGEUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 1,
+   "last": "2026-10-08T16:43:47+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.113,
-   "risk": 0.986,
+   "sentiment": -0.114,
+   "risk": 0.975,
    "events": [
     "security",
     "etf_flow",
