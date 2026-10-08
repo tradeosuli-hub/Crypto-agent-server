@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="ققنوس" />
+  <meta name="theme-color" content="#0e1412" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e1412'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23d4a017' stroke-width='6'/%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <title>ققنوس · سازمان ایجنت‌ها · متد حمید ۳</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg0:#0e1412; --bg1:#15201c; --bg2:#1c2b25; --line:#2a3d34;
+      --text:#e8f0ea; --muted:#8aa396; --accent:#d4a017; --teal:#2d8c6e;
+      --good:#3dba7a; --warn:#e0a24a; --bad:#d45b5b; --flat:#6d7f76; --info:#5aa7d6;
+    }
+    * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+    body {
+      margin:0; min-height:100vh; font-family:"Vazirmatn",system-ui,sans-serif; color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 90% -10%, rgba(212,160,23,.12), transparent 55%),
+        radial-gradient(900px 500px at -10% 110%, rgba(45,140,110,.14), transparent 50%),
+        linear-gradient(160deg,#0b100e,#121a17 40%,#0e1412);
+      padding-top: env(safe-area-inset-top);
+    }
+    .wrap { max-width:1180px; margin:0 auto; padding:14px 14px 64px; }
+    header { display:grid; gap:8px; padding-bottom:10px; }
+    .brand { margin:0; font-size:clamp(1.3rem,3vw,1.9rem); font-weight:800; color:var(--accent); letter-spacing:-.02em; }
+    .sub { margin:0; color:var(--muted); font-size:.86rem; }
+    .badges { display:flex; flex-wrap:wrap; gap:6px; }
+    .badge { font-size:.74rem; padding:4px 10px; border:1px solid var(--line); background:var(--bg2); color:var(--muted); border-radius:999px; }
+    .badge.live { border-color:var(--good); color:var(--good); }
+    .badge.stale { border-color:var(--warn); color:var(--warn); }
+    .badge.dead { border-color:var(--bad); color:var(--bad); }
+    .mono { font-family:"IBM Plex Mono",ui-monospace,monospace; }
+    .tabs { position:sticky; top:0; z-index:5; display:flex; gap:4px; overflow-x:auto; padding:8px 0; margin:6px 0 14px;
+            background:linear-gradient(180deg, rgba(14,20,18,.98), rgba(14,20,18,.9)); border-bottom:1px solid var(--line); scrollbar-width:none; }
+    .tabs::-webkit-scrollbar { display:none; }
+    @media (max-width:640px) { .tabs { flex-wrap:wrap; overflow-x:visible; } .tab { font-size:.8rem; padding:7px 10px; } }
+    .tab { flex:0 0 auto; font-family:inherit; font-size:.86rem; font-weight:600; padding:8px 14px; border-radius:10px; border:1px solid transparent; background:transparent; color:var(--muted); cursor:pointer; white-space:nowrap; }
+    .tab.active { background:var(--bg2); border-color:var(--line); color:var(--accent); }
+    .tab .n { font-size:.7rem; background:var(--bg0); border-radius:999px; padding:1px 7px; margin-right:6px; color:var(--text); }
+    .panel { display:none; } .panel.active { display:block; }
+    .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px; margin-bottom:14px; }
+    .kpi { background:var(--bg1); border:1px solid var(--line); border-radius:12px; padding:12px 14px; }
+    .kpi .l { color:var(--muted); font-size:.76rem; }
+    .kpi .v { font-size:1.5rem; font-weight:800; margin-top:4px; }
+    .kpi.setup .v { color:var(--good); } .kpi.watch .v { color:var(--warn); } .kpi.flat .v { color:var(--flat); } .kpi.bad .v { color:var(--bad); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; }
+    .card { background:var(--bg1); border:1px solid var(--line); border-radius:14px; padding:14px; }
+    .card.setup { border-color:var(--good); box-shadow:0 0 0 1px rgba(61,186,122,.25), 0 12px 30px rgba(61,186,122,.12); }
+    .card.watch { border-color:rgba(224,162,74,.5); }
+    .card.flat, .card.blind { opacity:.72; }
+    .card.high { border-color:var(--bad); } .card.medium { border-color:var(--warn); }
+    .head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:8px; }
+    .sym { font-weight:800; font-size:1.05rem; }
+    .pill { font-size:.72rem; font-weight:700; padding:3px 10px; border-radius:999px; }
+    .pill.SETUP, .pill.SIGNAL, .pill.TP, .pill.ok { background:rgba(61,186,122,.18); color:var(--good); }
+    .pill.WATCH, .pill.HOLD, .pill.medium, .pill.expired, .pill.timeout { background:rgba(224,162,74,.18); color:var(--warn); }
+    .pill.FLAT, .pill.low { background:rgba(109,127,118,.2); color:var(--flat); }
+    .pill.BLIND, .pill.VETO, .pill.SL, .pill.high { background:rgba(212,91,91,.18); color:var(--bad); }
+    .pill.info { background:rgba(90,167,214,.18); color:var(--info); }
+    .dir { font-size:.8rem; color:var(--muted); } .dir.long { color:var(--good); } .dir.short { color:var(--bad); }
+    .row { display:flex; justify-content:space-between; gap:8px; font-size:.83rem; padding:3px 0; border-bottom:1px dashed rgba(42,61,52,.6); }
+    .row:last-child { border-bottom:0; } .row .k { color:var(--muted); }
+    .why { margin:8px 0 0; padding:0 18px 0 0; color:var(--muted); font-size:.79rem; line-height:1.7; }
+    .params { display:flex; flex-wrap:wrap; gap:4px; margin-top:8px; }
+    .p { font-size:.67rem; padding:2px 7px; border-radius:6px; border:1px solid var(--line); color:var(--muted); }
+    .p.ok { color:var(--good); border-color:rgba(61,186,122,.5); } .p.no { color:var(--bad); border-color:rgba(212,91,91,.45); } .p.blind { border-style:dashed; }
+    h2 { font-size:.98rem; color:var(--accent); margin:18px 0 10px; }
+    h2:first-child { margin-top:4px; }
+    .hist { display:flex; gap:3px; align-items:flex-end; height:46px; margin-top:6px; }
+    .hist i { flex:1; min-width:2px; background:var(--bg2); border-radius:2px 2px 0 0; }
+    .hist i.s { background:var(--good); } .hist i.w { background:rgba(224,162,74,.55); }
+    table.t { width:100%; border-collapse:collapse; font-size:.81rem; }
+    .t th, .t td { text-align:right; padding:7px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+    .t th { color:var(--muted); font-weight:600; }
+    .t a { color:var(--info); text-decoration:none; }
+    .empty { color:var(--muted); font-size:.88rem; padding:16px; border:1px dashed var(--line); border-radius:12px; text-align:center; }
+    .foot { color:var(--muted); font-size:.76rem; margin-top:24px; line-height:1.8; }
+    .controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:10px; }
+    button, select { font-family:inherit; font-size:.83rem; padding:7px 12px; border-radius:10px; border:1px solid var(--line); background:var(--bg2); color:var(--text); }
+    .news { display:grid; gap:8px; }
+    .news .it { background:var(--bg1); border:1px solid var(--line); border-radius:12px; padding:10px 12px; }
+    .news .it.hi { border-color:rgba(224,162,74,.6); }
+    .news .ttl { font-size:.88rem; line-height:1.6; }
+    .news .meta { display:flex; flex-wrap:wrap; gap:6px; align-items:center; color:var(--muted); font-size:.72rem; margin-top:6px; }
+    .news a { color:var(--info); text-decoration:none; }
+    .check { display:flex; justify-content:space-between; gap:8px; padding:8px 10px; border-radius:10px; background:var(--bg1); border:1px solid var(--line); font-size:.84rem; }
+    .check.bad { border-color:var(--bad); }
+    .checks { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:8px; }
+    .votegrid { overflow-x:auto; }
+    .votegrid td.l { color:var(--good); } .votegrid td.s { color:var(--bad); } .votegrid td.z { color:var(--flat); }
+    pre.log { background:#0a0f0d; border:1px solid var(--line); border-radius:10px; padding:10px; font-size:.7rem; direction:ltr; text-align:left; overflow-x:auto; max-height:220px; color:var(--muted); }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="brand">ققنوس · سازمان ایجنت‌ها · متد حمید ۳</h1>
+    <p class="sub">محل کار: GitHub Actions · سه ایجنت مستقل در حلقهٔ دائمی · بدون سرور · این صفحه خودش هر ۶۰ ثانیه تازه می‌شود</p>
+    <div class="badges">
+      <span class="badge" id="b-status">در حال بارگذاری…</span>
+      <span class="badge" id="b-time">—</span>
+      <span class="badge" id="b-intel">اطلاعات: —</span>
+      <span class="badge" id="b-health">عیب‌یابی: —</span>
+      <span class="badge" id="b-next">—</span>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="overview">نمای کلی</button>
+    <button class="tab" data-tab="signals">سیگنال‌های واقعی <span class="n" id="n-signals">0</span></button>
+    <button class="tab" data-tab="symbols">همهٔ ارزها <span class="n" id="n-symbols">0</span></button>
+    <button class="tab" data-tab="org">سازمان</button>
+    <button class="tab" data-tab="intel">خبر و رویداد <span class="n" id="n-intel">0</span></button>
+    <button class="tab" data-tab="diag">عیب‌یابی <span class="n" id="n-diag">0</span></button>
+    <button class="tab" data-tab="memory">حافظه و تجربه <span class="n" id="n-memory">0</span></button>
+  </nav>
+
+  <!-- نمای کلی -->
+  <section class="panel active" id="p-overview">
+    <section class="kpis">
+      <div class="kpi setup"><div class="l">سیگنال نهایی (این چرخه)</div><div class="v" id="k-signal">—</div></div>
+      <div class="kpi setup"><div class="l">SETUP ققنوس</div><div class="v" id="k-setup">—</div></div>
+      <div class="kpi watch"><div class="l">WATCH</div><div class="v" id="k-watch">—</div></div>
+      <div class="kpi flat"><div class="l">FLAT</div><div class="v" id="k-flat">—</div></div>
+      <div class="kpi"><div class="l">ارز اسکن‌شده</div><div class="v" id="k-scan">—</div></div>
+      <div class="kpi"><div class="l">معاملات باز</div><div class="v" id="k-open">—</div></div>
+    </section>
+    <h2>نبض بازار</h2>
+    <div class="kpis" id="market"></div>
+    <h2>چرخه‌های ۴۸ ساعت اخیر (سبز = سیگنال ققنوس، نارنجی = پایش)</h2>
+    <div class="card"><div class="hist" id="hist"></div></div>
+    <h2>سلامت ایجنت‌ها</h2>
+    <div class="checks" id="ov-checks"></div>
+    <h2>قوانین سخت (قفل‌شده)</h2>
+    <div class="badges">
+      <span class="badge">بدون SETUP ۱۵دقیقه → سیگنال نیست</span><span class="badge">حد نصاب ≥ ۶/۱۰ · کور ≠ رد</span>
+      <span class="badge">استاپ ۴شرطی · R:R ≥ ۱</span><span class="badge">هیچ دپارتمانی به‌تنهایی سیگنال نمی‌دهد</span>
+      <span class="badge">خلاف دامیننس فقط با تأیید دوگانه</span><span class="badge">سقف ۴ پوزیشن باز</span>
+    </div>
+  </section>
+
+  <!-- سیگنال‌های واقعی -->
+  <section class="panel" id="p-signals">
+    <h2>سیگنال‌های نهایی سازمان (عبور از ققنوس + شورا + A34 + دروازهٔ ریسک)</h2>
+    <div class="grid" id="signals"></div>
+    <h2>معاملات باز — زیر نظر قاضی نتیجه</h2>
+    <div id="open"></div>
+    <h2>دفترچهٔ سیگنال‌های صادرشده</h2>
+    <div id="ledger"></div>
+  </section>
+
+  <!-- همهٔ ارزها -->
+  <section class="panel" id="p-symbols">
+    <div class="controls">
+      <select id="filter">
+        <option value="all">همه</option><option value="SETUP">SETUP</option><option value="WATCH">WATCH</option><option value="FLAT">FLAT</option>
+      </select>
+      <button id="btn-refresh">تازه‌سازی</button>
+    </div>
+    <div class="grid" id="cards"></div>
+  </section>
+
+  <!-- سازمان -->
+  <section class="panel" id="p-org">
+    <h2>جریان تصمیم</h2>
+    <div class="card" style="font-size:.86rem;line-height:1.9" id="flow"></div>
+    <h2>تابلوی دپارتمان‌ها (وزن پایهٔ قفل‌شده · دقت غلتان · رأی این چرخه)</h2>
+    <div class="card" style="padding:8px 12px"><table class="t" id="board"></table></div>
+    <h2>ماتریس رأی دپارتمان‌ها برای هر ارز</h2>
+    <div class="card votegrid" style="padding:8px 12px"><table class="t" id="votes"></table></div>
+  </section>
+
+  <!-- خبر و رویداد -->
+  <section class="panel" id="p-intel">
+    <div class="controls">
+      <select id="kind">
+        <option value="all">همهٔ انواع</option><option value="listing">لیستینگ</option><option value="delisting">حذف از صرافی</option>
+        <option value="token_unlock">آزادسازی توکن</option><option value="token_burn">سوزاندن توکن</option><option value="security">هک / امنیت</option>
+        <option value="regulation">قانون‌گذاری</option><option value="macro">کلان</option><option value="etf_flow">جریان ETF</option>
+        <option value="project">پروژه</option><option value="market">جریان بازار</option><option value="news">خبر</option>
+      </select>
+      <select id="minimp"><option value="0">همهٔ اهمیت‌ها</option><option value="5">اهمیت ≥ ۵</option><option value="7">اهمیت ≥ ۷</option></select>
+      <span class="badge" id="intel-src">منابع: —</span>
+    </div>
+    <h2>ارزهای دارای رویداد (۴۸ ساعت)</h2>
+    <div class="badges" id="intel-syms"></div>
+    <h2>نبض X (Grok)</h2>
+    <div id="social"></div>
+    <h2>اخبار و رویدادها</h2>
+    <div class="news" id="news"></div>
+  </section>
+
+  <!-- عیب‌یابی -->
+  <section class="panel" id="p-diag">
+    <h2>سلامت (آخرین بررسی واچ‌داگ)</h2>
+    <div class="checks" id="checks"></div>
+    <h2>رخدادهای باز</h2>
+    <div class="grid" id="inc-open"></div>
+    <h2>تاریخچهٔ رخدادها و اقدامات (تجربهٔ عیب‌یابی)</h2>
+    <div id="inc-hist"></div>
+    <h2>اجراهای اخیر Workflowها</h2>
+    <div id="runs"></div>
+  </section>
+
+  <!-- حافظه -->
+  <section class="panel" id="p-memory">
+    <div class="kpis" id="mem-kpis"></div>
+    <h2>تجربه‌ها (ریشه‌یابی هر معاملهٔ بسته)</h2>
+    <div id="exp"></div>
+    <h2>دقت دپارتمان‌ها به تفکیک رژیم بازار</h2>
+    <div class="card" style="padding:8px 12px"><table class="t" id="acc"></table></div>
+    <h2>ممیزی‌ها (هر ۱۰ / ۱۰۰ / ۱۰۰۰ معامله)</h2>
+    <div id="audits"></div>
+    <h2>معاملات بستهٔ اخیر</h2>
+    <div id="closed"></div>
+  </section>
+
+  <p class="foot">
+    ایجنت ۱: اسکن + سازمان (هر ۱۰ دقیقه) · ایجنت ۲: خبر/رویداد/سوشال (هر ۳۰ دقیقه) · ایجنت ۳: عیب‌یابی و خودترمیمی (هر ۱۵ دقیقه)<br/>
+    فضای جدا: حلقهٔ خودگردان روی شاخهٔ <span class="mono">cursor/phoenix-signal-panel-69df</span> (بدون cron، بدون مرج) · حافظهٔ دائمی: شاخهٔ <span class="mono">phoenix-memory</span> · فرمان‌های تلگرام: /status · /signals · /close ID TP|SL [R]<br/>
+    منابع: Binance Vision · اعلان‌های رسمی Binance · CoinGecko · Alternative.me · RSS (CoinDesk, Cointelegraph, The Block) · X از طریق Grok (اختیاری)
+  </p>
+</div>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const fmt = (x, d = 6) => (x === null || x === undefined || x === "" ? "—" : (typeof x === "number" ? Number(x.toPrecision(d)) : x));
+  const REFRESH_MS = 60000;
+  let state = null, history = [], ledger = [], org = null, intel = null, health = null;
+  let nextAt = Date.now() + REFRESH_MS;
+
+  const PARAM_FA = { dxy:"شاخص دلار", trendline:"ترندلاین/کانال", ob_channel_align:"اردربلاک∩کانال", fvg_inside_ob:"FVG داخل OB",
+    bos_choch:"BOS/CHoCH", history_rsi_div:"تاریخچه+RSI+واگرایی", volume:"حجم", dominance_align:"دامیننس", news_events:"خبر/رویداد",
+    ob_historical_tests:"تست تاریخی دیوار" };
+  const DEPT_FA = { dominance:"دامیننس", structure:"ساختار", liquidity:"لیکوئیدیتی", volume:"حجم", news:"خبر", order_block:"اردربلاک",
+    pattern:"الگو", social:"سوشال", historical_memory:"حافظه" };
+  const DEPTS = Object.keys(DEPT_FA);
+  const FINAL_FA = { SIGNAL:"سیگنال نهایی", VETO:"وتوی A34", HOLD:"نگه‌دار", WATCH:"پایش", FLAT:"بی‌جهت", BLIND:"کور" };
+  const pfa = (k) => PARAM_FA[k] || k;
+
+  async function getJSON(name) {
+    const r = await fetch(`data/${name}?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(name + " " + r.status);
+    return r.json();
+  }
+  function ago(iso) {
+    if (!iso) return "—";
+    const m = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (m < 1) return "همین الان";
+    if (m < 60) return `${m} دقیقه پیش`;
+    const h = Math.floor(m / 60);
+    return h < 48 ? `${h} ساعت و ${m % 60} دقیقه پیش` : `${Math.floor(h / 24)} روز پیش`;
+  }
+  function badgeAge(el, iso, okMin, warnMin, label) {
+    const m = iso ? (Date.now() - new Date(iso).getTime()) / 60000 : 1e9;
+    el.className = "badge " + (m <= okMin ? "live" : m <= warnMin ? "stale" : "dead");
+    el.textContent = `${label}: ${iso ? ago(iso) : "—"}`;
+  }
+
+  // ---- tabs ----
+  document.querySelectorAll(".tab").forEach((b) => b.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("active", x === b));
+    document.querySelectorAll(".panel").forEach((p) => p.classList.toggle("active", p.id === "p-" + b.dataset.tab));
+    location.hash = b.dataset.tab;
+    b.scrollIntoView({ inline: "center", block: "nearest" });
+  }));
+  if (location.hash) { const t = document.querySelector(`.tab[data-tab="${location.hash.slice(1)}"]`); if (t) t.click(); }
+
+  // ---- cards ----
+  function card(r) {
+    const v = r.verdict || "FLAT", g = r.geometry || {}, a = r.alarms || {}, p = r.params || {}, tgs = g.targets || [], c = r.council;
+    const isSignal = c && c.final === "SIGNAL";
+    const rows = (v === "SETUP")
+      ? `<div class="row"><span class="k">ورود</span><span class="mono">${fmt(g.entry)}</span></div>
+         <div class="row"><span class="k">استاپ (۴شرطی)</span><span class="mono">${fmt(g.stop)}</span></div>
+         <div class="row"><span class="k">تارگت۱ / تارگت۲</span><span class="mono">${fmt(tgs[0])} / ${fmt(tgs[1])}</span></div>
+         <div class="row"><span class="k">R:R · اهرم</span><span class="mono">${fmt(g.rr1,3)} · ${fmt(g.leverage,3)}x</span></div>`
+      : `<div class="row"><span class="k">آلارم ۱ / ۲</span><span class="mono">${fmt(a.alarm_1)} / ${fmt(a.alarm_2)}</span></div>
+         <div class="row"><span class="k">پارامترها (پاس/قابل‌بررسی → امتیاز)</span><span class="mono">${(p.passed_names||[]).length}/${fmt(p.visible)} → ${fmt(p.score)}/10</span></div>`;
+    const council = c ? `<div class="row"><span class="k">شورا</span><span class="mono">${FINAL_FA[c.final] || c.final} · ${c.direction} · قدرت ${fmt(c.strength,2)} · اطمینان ${fmt(c.confidence,2)}</span></div>
+      ${(c.vetoes||[]).length ? `<div class="row"><span class="k">A34</span><span style="color:var(--bad);font-size:.76rem">${c.vetoes.slice(0,2).join(" · ")}</span></div>` : ""}
+      ${c.decision_id ? `<div class="row"><span class="k">شناسهٔ تصمیم</span><span class="mono">${c.decision_id}</span></div>` : ""}` : "";
+    const why = (r.why_fa || []).map((w) => `<li>${w}</li>`).join("");
+    const params = [...(p.passed_names||[]).map((k)=>`<span class="p ok">✓ ${pfa(k)}</span>`), ...(p.failed_names||[]).map((k)=>`<span class="p no">✗ ${pfa(k)}</span>`), ...(p.blind_names||[]).map((k)=>`<span class="p blind">؟ ${pfa(k)}</span>`)].join("");
+    return `<article class="card ${isSignal ? "setup" : v.toLowerCase()}">
+      <div class="head"><span class="sym">${r.symbol}</span>
+        <span class="dir ${r.direction||""}">${r.direction==="long"?"▲ لانگ":r.direction==="short"?"▼ شورت":"— بی‌جهت"}</span>
+        <span class="pill ${isSignal ? "SIGNAL" : v}">${isSignal ? "SIGNAL" : v}</span></div>
+      ${rows}${council}${why ? `<ul class="why">${why}</ul>` : ""}${params ? `<div class="params">${params}</div>` : ""}
+    </article>`;
+  }
+
+  function tbl(head, rows) {
+    return rows.length ? `<table class="t"><thead><tr>${head.map((h)=>`<th>${h}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table>` : "";
+  }
+
+  function render() {
+    if (!state) return;
+    const gen = state.generated_at || state.finished_at;
+    badgeAge($("b-status"), gen, 20, 60, "اسکن");
+    $("b-time").textContent = `دامیننس: ${(state.dominance||{}).bias || "—"}`;
+    badgeAge($("b-intel"), state.intel_updated_at || (intel||{}).updated_at, 70, 180, "اطلاعات");
+    badgeAge($("b-health"), (health||{}).checked_at, 30, 90, "عیب‌یابی");
+
+    const results = state.results || [];
+    const so = state.org || {};
+    const finals = results.filter((r) => r.council && r.council.final === "SIGNAL");
+    $("k-signal").textContent = finals.length; $("k-setup").textContent = state.setups ?? "—"; $("k-watch").textContent = state.watches ?? "—";
+    $("k-flat").textContent = state.flats ?? "—"; $("k-scan").textContent = state.symbols_scanned ?? "—"; $("k-open").textContent = so.open_decisions ?? "—";
+    $("n-signals").textContent = finals.length + ((((org||{}).board||{}).open_decisions)||[]).length;
+    $("n-symbols").textContent = results.length;
+
+    const mk = state.market || (intel||{}).market || {};
+    $("market").innerHTML = [
+      ["دامیننس BTC", mk.btc_dominance != null ? mk.btc_dominance + "٪" : "—"], ["دامیننس USDT (واقعی)", mk.usdt_dominance != null ? mk.usdt_dominance + "٪" : "—"],
+      ["تغییر مارکت‌کپ ۲۴h", mk.mcap_change_24h != null ? mk.mcap_change_24h + "٪" : "—"], ["ترس و طمع", mk.fear_greed != null ? `${mk.fear_greed} · ${mk.fear_greed_label||""}` : "—"],
+      ["ترندهای CoinGecko", (mk.trending||[]).slice(0,6).join("، ") || "—"],
+    ].map(([l,v]) => `<div class="kpi"><div class="l">${l}</div><div class="v" style="font-size:1rem">${v}</div></div>`).join("");
+
+    const mx = Math.max(1, ...history.map((h) => (h.setups||0)+(h.watches||0)));
+    $("hist").innerHTML = history.slice(-96).map((h) => { const tot=(h.setups||0)+(h.watches||0); return `<i class="${h.setups?"s":(h.watches?"w":"")}" style="height:${Math.max(6,(tot/mx)*100)}%" title="${h.ts} · SETUP ${h.setups} · WATCH ${h.watches}"></i>`; }).join("");
+
+    const checksHtml = ((health||{}).checks||[]).map((c) => `<div class="check ${c.ok?"":"bad"}"><span>${c.ok?"✅":"⚠️"} ${c.fa}</span><span class="${/^[\x00-\x7F]*$/.test(String(c.value))?"mono":""}">${c.value}</span></div>`).join("") || `<div class="empty">واچ‌داگ هنوز گزارشی نداده</div>`;
+    $("ov-checks").innerHTML = checksHtml; $("checks").innerHTML = checksHtml;
+
+    // signals tab
+    $("signals").innerHTML = finals.length ? finals.map(card).join("")
+      : `<div class="empty">سیگنال نهایی نیست — ${state.setups ? `${state.setups} ستاپ ققنوس بود ولی شورا/A34 عبور نداد` : "ققنوس ستاپی ندارد"}. آلارم بگذار و برو ارز بعدی.</div>`;
+    const b = (org||{}).board || {};
+    const open = b.open_decisions || [];
+    $("open").innerHTML = tbl(["شناسه","ارز","جهت","ورود","استاپ","تارگت۱","اطمینان","صدور"], open.map((d)=>`<tr><td class="mono">${d.id}</td><td>${d.symbol}</td><td class="dir ${d.direction}">${d.direction}</td><td class="mono">${fmt(d.entry)}</td><td class="mono">${fmt(d.stop)}</td><td class="mono">${fmt((d.targets||[])[0])}</td><td class="mono">${fmt(d.confidence,2)}</td><td>${ago(d.ts)}</td></tr>`)) || `<div class="empty">معاملهٔ بازی نیست</div>`;
+    const led = ledger.slice(-30).reverse();
+    $("ledger").innerHTML = tbl(["زمان","شناسه","ارز","جهت","ورود","استاپ","R:R","اطمینان"], led.map((s)=>`<tr><td>${ago(s.first_seen||s.ts)}</td><td class="mono">${s.id||""}</td><td>${s.symbol}</td><td class="dir ${s.direction}">${s.direction}</td><td class="mono">${fmt(s.entry)}</td><td class="mono">${fmt(s.stop)}</td><td class="mono">${fmt(s.rr1,3)}</td><td class="mono">${fmt(s.confidence,2)}</td></tr>`)) || `<div class="empty">هنوز سیگنالی صادر نشده</div>`;
+
+    // symbols tab
+    const f = $("filter").value;
+    const list = f === "all" ? results : results.filter((r) => r.verdict === f);
+    $("cards").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">موردی نیست</div>`;
+
+    // org tab
+    if (org) {
+      $("flow").textContent = org.flow_fa || "";
+      const rows = org.rows || [];
+      $("board").innerHTML = `<thead><tr><th>دپارتمان</th><th>وزن پایه</th><th>دقت غلتان</th><th>نمونه</th><th>رأی این چرخه</th></tr></thead><tbody>${
+        (b.departments||[]).map((d) => { const vs = rows.filter((r)=>r.votes&&r.votes[d.dept]&&!r.votes[d.dept].silent); const l=vs.filter((r)=>r.votes[d.dept].direction==="long").length, s=vs.filter((r)=>r.votes[d.dept].direction==="short").length;
+          return `<tr><td>${d.fa}</td><td class="mono">${Math.round(d.base_weight*100)}٪</td><td class="mono">${fmt(d.accuracy_avg,3)}</td><td class="mono">${d.samples}</td><td class="mono"><span class="dir long">▲${l}</span> <span class="dir short">▼${s}</span> <span class="dir">خاموش ${rows.length-vs.length}</span></td></tr>`; }).join("")}</tbody>`;
+      const sym = (v) => !v || v.silent ? `<td class="z">·</td>` : v.direction==="long" ? `<td class="l">▲${Math.round(v.strength*100)}</td>` : v.direction==="short" ? `<td class="s">▼${Math.round(v.strength*100)}</td>` : `<td class="z">—</td>`;
+      $("votes").innerHTML = `<thead><tr><th>ارز</th><th>ققنوس</th><th>شورا</th>${DEPTS.map((d)=>`<th>${DEPT_FA[d]}</th>`).join("")}</tr></thead><tbody>${
+        rows.slice(0,40).map((r)=>`<tr><td>${r.symbol}</td><td><span class="pill ${r.ghoghnoos}">${r.ghoghnoos}</span></td><td><span class="pill ${r.final}">${FINAL_FA[r.final]||r.final}</span> <span class="mono">${fmt(r.strength,2)}</span></td>${DEPTS.map((d)=>sym((r.votes||{})[d])).join("")}</tr>`).join("")}</tbody>`;
+    }
+
+    // intel tab
+    if (intel) {
+      const kind = $("kind").value, minimp = +$("minimp").value;
+      const items = (intel.items||[]).filter((i) => (kind==="all"||i.kind===kind) && i.importance >= minimp);
+      $("n-intel").textContent = (intel.items||[]).filter((i)=>i.importance>=6).length;
+      $("intel-src").textContent = "منابع: " + ((intel.sources_ok||[]).join("، ") || "—") + (intel.brain ? ` · مغز: ${intel.brain}` : " · مغز: خاموش");
+      $("intel-syms").innerHTML = Object.entries(intel.symbols||{}).sort((a,b)=>b[1].risk-a[1].risk).slice(0,24).map(([s,v]) => `<span class="badge ${v.risk>=0.7?"dead":v.sentiment>0.15?"live":v.sentiment<-0.15?"stale":""}">${s.replace("USDT","")} · ${v.sentiment>0?"+":""}${fmt(v.sentiment,2)} · ریسک ${fmt(v.risk,2)} · ${(v.events||[]).join("/")||"خبر"}</span>`).join("") || `<div class="empty">رویداد اختصاصی ثبت نشده</div>`;
+      const soc = Object.entries(intel.social||{});
+      $("social").innerHTML = soc.length ? tbl(["ارز","احساس X","داغ","یادداشت","به‌روزرسانی"], soc.map(([s,v])=>`<tr><td>${s}</td><td class="mono ${v.sentiment>0?"dir long":"dir short"}">${fmt(v.sentiment,2)}</td><td>${v.hot?"🔥":"—"}</td><td>${v.note_fa||""}</td><td>${ago(v.updated_at)}</td></tr>`))
+        : `<div class="empty">برای نبض X، کلید XAI_API_KEY (Grok) را در Secrets ریپو بگذار — ایجنت اطلاعات خودش از X می‌خواند</div>`;
+      $("news").innerHTML = items.slice(0,80).map((i) => `<div class="it ${i.importance>=7?"hi":""}"><div class="ttl"><a href="${i.url}" target="_blank" rel="noopener">${i.title}</a></div>${i.summary_fa?`<div class="ttl" style="color:var(--muted);font-size:.8rem">${i.summary_fa}</div>`:""}
+        <div class="meta"><span class="pill ${i.importance>=7?"high":i.importance>=5?"medium":"low"}">اهمیت ${i.importance}</span><span class="pill info">${i.kind_fa||i.kind}</span><span>${i.source}</span><span>${(i.symbols||[]).map((s)=>s.replace("USDT","")).join("، ")}</span><span>${ago(i.published||i.first_seen)}</span><span class="mono ${i.sentiment>0?"dir long":i.sentiment<0?"dir short":""}">${i.sentiment>0?"+":""}${fmt(i.sentiment,2)}</span></div></div>`).join("") || `<div class="empty">موردی نیست</div>`;
+    } else { $("news").innerHTML = `<div class="empty">ایجنت اطلاعات هنوز اجرا نشده</div>`; }
+
+    // diag tab
+    if (health) {
+      const incs = health.incidents || [];
+      const openI = incs.filter((i)=>!i.resolved_at);
+      $("n-diag").textContent = openI.length;
+      $("inc-open").innerHTML = openI.length ? openI.map((i)=>`<article class="card ${i.severity}"><div class="head"><span class="sym">${i.kind_fa}</span><span class="pill ${i.severity}">${i.severity}</span></div>
+        <div class="row"><span class="k">علت</span><span>${i.cause_fa}</span></div><div class="row"><span class="k">اقدام</span><span>${i.action_fa}</span></div>
+        <div class="row"><span class="k">بررسی‌ها / تشدید</span><span class="mono">${i.checks} / ${i.escalations}</span></div>
+        ${i.brain ? `<div class="row"><span class="k">مغز</span><span>${i.brain.root_cause_fa||""} → ${i.brain.action_fa||""}</span></div>` : ""}
+        ${i.url ? `<div class="row"><span class="k">لینک</span><a href="${i.url}" target="_blank" style="color:var(--info)">باز کن</a></div>` : ""}
+        ${i.log_excerpt ? `<pre class="log">${i.log_excerpt.replace(/</g,"&lt;")}</pre>` : ""}</article>`).join("") : `<div class="empty">رخداد بازی نیست — همه‌چیز سالم</div>`;
+      $("inc-hist").innerHTML = tbl(["زمان","رخداد","علت","اقدام","وضعیت"], incs.slice(-40).reverse().map((i)=>`<tr><td>${ago(i.ts)}</td><td>${i.kind_fa}</td><td>${i.cause_fa}</td><td>${i.action_fa}</td><td>${i.resolved_at?`<span class="pill ok">حل شد ${ago(i.resolved_at)}</span>`:`<span class="pill ${i.severity}">باز</span>`}</td></tr>`)) || `<div class="empty">هنوز رخدادی ثبت نشده</div>`;
+      const runs = health.runs || {};
+      const rr = [...(runs.scan||[]).map((r)=>({...r,wf:"اسکن"})), ...(runs.intel||[]).map((r)=>({...r,wf:"اطلاعات"}))].sort((a,b)=>b.created_at.localeCompare(a.created_at));
+      $("runs").innerHTML = tbl(["Workflow","زمان","رویداد","وضعیت",""], rr.slice(0,14).map((r)=>`<tr><td>${r.wf}</td><td>${ago(r.created_at)}</td><td>${r.event}</td><td><span class="pill ${r.conclusion==="success"?"ok":r.conclusion==="failure"?"high":"low"}">${r.conclusion||r.status}</span></td><td><a href="${r.url}" target="_blank">لاگ</a></td></tr>`)) || `<div class="empty">—</div>`;
+    } else { $("checks").innerHTML = `<div class="empty">واچ‌داگ هنوز اجرا نشده</div>`; }
+
+    // memory tab
+    if (org) {
+      const cnt = b.counters || {};
+      const exps = b.experience_recent || [];
+      $("n-memory").textContent = exps.length;
+      $("mem-kpis").innerHTML = [["کل سیگنال‌ها",cnt.signals??0],["بسته‌شده",cnt.closed??0],["TP",cnt.tp??0],["SL",cnt.sl??0],["منقضی",cnt.expired??0],["نرخ موفقیت",(cnt.tp||cnt.sl)?Math.round(100*(cnt.tp||0)/((cnt.tp||0)+(cnt.sl||0)))+"٪":"—"]].map(([l,v])=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div></div>`).join("");
+      $("exp").innerHTML = exps.slice(-20).reverse().map((e)=>`<div class="card ${e.outcome==="TP"?"setup":e.outcome==="SL"?"watch":"flat"}" style="margin-bottom:8px"><div class="head"><span class="sym">${e.symbol}</span><span class="pill ${e.outcome}">${e.outcome} ${fmt(e.pnl_r,2)}R</span></div><div class="why" style="padding:0">${e.lesson_fa}</div></div>`).join("") || `<div class="empty">هنوز معامله‌ای بسته نشده — اولین تجربه بعد از اولین TP/SL ثبت می‌شود</div>`;
+      const accRows = []; (b.departments||[]).forEach((d)=>Object.entries(d.regimes||{}).forEach(([rg,v])=>accRows.push(`<tr><td>${d.fa}</td><td class="mono">${rg}</td><td class="mono">${fmt(v.acc,3)}</td><td class="mono">${v.n}</td></tr>`)));
+      $("acc").innerHTML = accRows.length ? `<thead><tr><th>دپارتمان</th><th>رژیم</th><th>دقت</th><th>نمونه</th></tr></thead><tbody>${accRows.join("")}</tbody>` : `<tbody><tr><td style="color:var(--muted);text-align:center;border:0;padding:12px">هنوز نمونه‌ای نیست؛ همه ۰٫۵ شروع می‌کنند</td></tr></tbody>`;
+      $("audits").innerHTML = tbl(["زمان","سطح","پنجره","TP","SL","نرخ موفقیت","مجموع R"], (b.audits||[]).slice().reverse().map((a)=>`<tr><td>${ago(a.ts)}</td><td class="mono">${a.level}</td><td class="mono">${a.window}</td><td class="mono">${a.tp}</td><td class="mono">${a.sl}</td><td class="mono">${a.win_rate}</td><td class="mono">${a.sum_r}</td></tr>`)) || `<div class="empty">اولین ممیزی بعد از ۱۰ معاملهٔ بسته</div>`;
+      $("closed").innerHTML = tbl(["بسته شد","ارز","جهت","نتیجه","R","دپارتمان‌های درست","اشتباه"], (b.closed_recent||[]).slice().reverse().map((d)=>`<tr><td>${ago(d.closed_at)}</td><td>${d.symbol}</td><td class="dir ${d.direction}">${d.direction}</td><td><span class="pill ${d.outcome}">${d.outcome}</span></td><td class="mono">${fmt(d.pnl_r,2)}</td><td>${((d.root_cause||{}).right||[]).map((x)=>DEPT_FA[x]||x).join("، ")}</td><td>${((d.root_cause||{}).wrong||[]).map((x)=>DEPT_FA[x]||x).join("، ")}</td></tr>`)) || `<div class="empty">—</div>`;
+    }
+  }
+
+  async function load() {
+    try {
+      const [s, h, l, o, i, he] = await Promise.all([
+        getJSON("latest.json"), getJSON("history.json").catch(()=>[]), getJSON("signals.json").catch(()=>[]),
+        getJSON("org.json").catch(()=>null), getJSON("intel.json").catch(()=>null), getJSON("health.json").catch(()=>null),
+      ]);
+      state = s; history = Array.isArray(h)?h:[]; ledger = Array.isArray(l)?l:[]; org = o; intel = (i && i.items) ? i : null; health = (he && he.checks) ? he : null;
+      render();
+    } catch (e) {
+      $("b-status").className = "badge dead";
+      $("b-status").textContent = "دادهٔ اسکن هنوز منتشر نشده — Actions را یک‌بار اجرا کن";
+    }
+    nextAt = Date.now() + REFRESH_MS;
+  }
+  $("btn-refresh").addEventListener("click", load);
+  ["filter","kind","minimp"].forEach((id) => $(id).addEventListener("change", render));
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
+  setInterval(load, REFRESH_MS);
+  setInterval(() => { $("b-next").textContent = `تازه‌سازی: ${Math.max(0, Math.round((nextAt - Date.now())/1000))}s`; }, 1000);
+  load();
+</script>
+</body>
+</html>

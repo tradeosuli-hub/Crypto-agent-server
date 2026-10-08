@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ققنوس لایو · متد حمید ۳ · پنل مستقل</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg0: #0e1412;
+      --bg1: #15201c;
+      --bg2: #1c2b25;
+      --line: #2a3d34;
+      --text: #e8f0ea;
+      --muted: #8aa396;
+      --accent: #d4a017;
+      --teal: #2d8c6e;
+      --good: #3dba7a;
+      --warn: #e0a24a;
+      --bad: #d45b5b;
+      --flat: #6d7f76;
+      --card: rgba(21, 32, 28, 0.92);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Vazirmatn", system-ui, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 600px at 90% -10%, rgba(212,160,23,.12), transparent 55%),
+        radial-gradient(900px 500px at -10% 110%, rgba(45,140,110,.14), transparent 50%),
+        linear-gradient(160deg, #0b100e, #121a17 40%, #0e1412);
+    }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 20px 18px 48px; }
+    header {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 16px;
+    }
+    .brand {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--accent);
+      margin: 0;
+    }
+    .sub { color: var(--muted); margin: 0; font-size: .95rem; }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .badge {
+      font-size: .78rem;
+      padding: 4px 10px;
+      border: 1px solid var(--line);
+      background: var(--bg2);
+      color: var(--muted);
+    }
+    .badge.on { border-color: #3d7a58; color: var(--good); }
+    .badge.warn { border-color: #8a6a2a; color: var(--warn); }
+    .controls {
+      display: flex; flex-wrap: wrap; gap: 10px; align-items: end;
+      margin: 14px 0 18px;
+      padding: 14px;
+      background: var(--card);
+      border: 1px solid var(--line);
+    }
+    label { display: grid; gap: 4px; font-size: .8rem; color: var(--muted); }
+    input {
+      background: var(--bg0);
+      border: 1px solid var(--line);
+      color: var(--text);
+      padding: 8px 10px;
+      min-width: 110px;
+      font-family: "IBM Plex Mono", monospace;
+    }
+    button {
+      font-family: inherit;
+      font-weight: 700;
+      border: 0;
+      padding: 10px 16px;
+      cursor: pointer;
+      background: var(--accent);
+      color: #1a1405;
+    }
+    button.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); }
+    button:disabled { opacity: .5; cursor: wait; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    @media (max-width: 800px) { .stats { grid-template-columns: 1fr 1fr; } }
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 14px;
+    }
+    .stat b { display: block; font-size: 1.6rem; font-family: "IBM Plex Mono", monospace; }
+    .stat span { color: var(--muted); font-size: .8rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.4fr .9fr;
+      gap: 12px;
+    }
+    @media (max-width: 980px) { .grid { grid-template-columns: 1fr; } }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      min-height: 320px;
+    }
+    .panel h2 {
+      margin: 0;
+      padding: 12px 14px;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--line);
+      color: var(--accent);
+    }
+    .body { padding: 10px 12px 14px; max-height: 520px; overflow: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+    th, td { text-align: right; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; position: sticky; top: 0; background: var(--bg1); }
+    .v-SETUP { color: var(--good); font-weight: 800; }
+    .v-WATCH { color: var(--warn); font-weight: 700; }
+    .v-FLAT, .v-BLIND { color: var(--flat); }
+    .dir-long { color: var(--good); }
+    .dir-short { color: var(--bad); }
+    .feed { font-family: "IBM Plex Mono", monospace; font-size: .78rem; line-height: 1.55; color: var(--muted); }
+    .feed .e { margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px dashed var(--line); }
+    .feed .k { color: var(--accent); }
+    .why { color: var(--muted); font-size: .75rem; margin-top: 3px; }
+    .pulse {
+      display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+      background: var(--flat); margin-left: 6px;
+    }
+    .pulse.live { background: var(--good); box-shadow: 0 0 0 0 rgba(61,186,122,.7); animation: p 1.4s infinite; }
+    .pulse.scan { background: var(--warn); animation: p 0.8s infinite; }
+    @keyframes p {
+      0% { box-shadow: 0 0 0 0 rgba(61,186,122,.55); }
+      70% { box-shadow: 0 0 0 10px rgba(61,186,122,0); }
+      100% { box-shadow: 0 0 0 0 rgba(61,186,122,0); }
+    }
+    .signal-box {
+      margin-bottom: 12px;
+      padding: 10px;
+      border: 1px solid #3d7a58;
+      background: rgba(61,186,122,.08);
+    }
+    .empty { color: var(--muted); padding: 18px 8px; }
+    footer { margin-top: 18px; color: var(--muted); font-size: .8rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 class="brand">ققنوس لایو</h1>
+      <p class="sub">متد حمید نسخهٔ ۳ · پنل سیگنال کاملاً مستقل · قوانین یکسان برای همهٔ ارزها</p>
+      <div class="badge-row">
+        <span class="badge on" id="iso">جدا از بقیهٔ پنل‌ها</span>
+        <span class="badge" id="conn">قطع</span>
+        <span class="badge" id="runState">متوقف</span>
+        <span class="badge" id="cycle">چرخه ۰</span>
+        <span class="badge warn">تصمیم فقط ۱۵ دقیقه</span>
+      </div>
+    </header>
+
+    <div class="controls">
+      <label>تعداد ارز (حجم)
+        <input id="top" type="number" value="12" min="3" max="50" />
+      </label>
+      <label>فاصلهٔ چرخه (ثانیه)
+        <input id="interval" type="number" value="90" min="30" max="600" />
+      </label>
+      <label>نمادها (اختیاری، با کاما)
+        <input id="symbols" type="text" placeholder="BTCUSDT,ETHUSDT,SOLUSDT" style="min-width:260px" />
+      </label>
+      <button id="btnStart">شروع پایش لایو</button>
+      <button id="btnOnce" class="ghost">یک اسکن الآن</button>
+      <button id="btnStop" class="ghost">توقف</button>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><span>SETUP / سیگنال</span><b id="sSetup">0</b></div>
+      <div class="stat"><span>WATCH / آلارم</span><b id="sWatch">0</b></div>
+      <div class="stat"><span>اسکن‌شده این چرخه</span><b id="sScan">0</b></div>
+      <div class="stat"><span>دامیننس (پروکسی)</span><b id="sDom" style="font-size:1.1rem">—</b></div>
+    </div>
+
+    <div class="grid">
+      <section class="panel">
+        <h2><span class="pulse" id="pulse"></span> نتایج زندهٔ ارزها</h2>
+        <div class="body">
+          <div id="signals"></div>
+          <table>
+            <thead>
+              <tr>
+                <th>نماد</th>
+                <th>حکم</th>
+                <th>جهت</th>
+                <th>امتیاز</th>
+                <th>جزئیات</th>
+              </tr>
+            </thead>
+            <tbody id="rows">
+              <tr><td colspan="5" class="empty">برای دیدن پایش لایو، «شروع پایش لایو» یا «یک اسکن الآن» را بزن.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>فید رویدادها</h2>
+        <div class="body feed" id="feed"></div>
+      </section>
+    </div>
+
+    <footer>
+      این داشبورد فقط پنل مستقل ققنوس/متد حمید را نشان می‌دهد و به هیچ پنل سیگنال دیگری در گیت‌هاب وصل یا وابسته نیست.
+    </footer>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    let ws;
+
+    function connect() {
+      const proto = location.protocol === "https:" ? "wss" : "ws";
+      ws = new WebSocket(`${proto}://${location.host}/ws`);
+      ws.onopen = () => { $("conn").textContent = "وصل · زنده"; $("conn").classList.add("on"); };
+      ws.onclose = () => {
+        $("conn").textContent = "قطع — تلاش مجدد…";
+        $("conn").classList.remove("on");
+        setTimeout(connect, 2000);
+      };
+      ws.onmessage = (ev) => {
+        const msg = JSON.parse(ev.data);
+        if (msg.type === "snapshot") render(msg.data);
+        if (msg.type === "event") prependEvent(msg.event);
+        if (msg.type === "progress") {
+          prependEvent({ kind: "symbol_done", ...msg.item, ts: new Date().toISOString() });
+        }
+      };
+    }
+
+    async function refresh() {
+      const r = await fetch("/api/state");
+      render(await r.json());
+    }
+
+    function render(st) {
+      $("cycle").textContent = "چرخه " + (st.cycle || 0);
+      $("runState").textContent = st.scanning ? "در حال اسکن…" : (st.running ? "پایش فعال" : "متوقف");
+      $("runState").className = "badge " + (st.scanning || st.running ? "on" : "");
+      $("pulse").className = "pulse " + (st.scanning ? "scan" : (st.running ? "live" : ""));
+      const sum = st.summary || {};
+      $("sSetup").textContent = sum.setups ?? 0;
+      $("sWatch").textContent = sum.watches ?? 0;
+      $("sScan").textContent = sum.symbols_scanned ?? (st.progress || []).length;
+      const dom = (sum.dominance || {});
+      $("sDom").textContent = dom.bias || "—";
+
+      const sigHost = $("signals");
+      sigHost.innerHTML = "";
+      (sum.signals || []).forEach(s => {
+        const g = s.geometry || {};
+        const d = document.createElement("div");
+        d.className = "signal-box";
+        d.innerHTML = `<b>سیگنال ${s.symbol}</b> · ${s.direction}
+          · entry ${fmt(g.entry)} · stop ${fmt(g.stop)} · RR1 ${fmt(g.rr1)} · lev ${fmt(g.leverage)}`;
+        sigHost.appendChild(d);
+      });
+
+      const rows = $("rows");
+      const list = (sum.results && sum.results.length) ? sum.results : (st.progress || []);
+      if (!list.length) {
+        rows.innerHTML = `<tr><td colspan="5" class="empty">هنوز نتیجه‌ای نیست…</td></tr>`;
+      } else {
+        rows.innerHTML = list.map(r => {
+          const p = r.params || {};
+          const why = (r.why_fa || []).slice(0, 2).join(" · ");
+          const score = p.score != null ? `${p.score}/10` : (r.score ?? "—");
+          return `<tr>
+            <td><b>${r.symbol || "—"}</b></td>
+            <td class="v-${r.verdict || ""}">${r.verdict || "—"}</td>
+            <td class="dir-${r.direction || ""}">${r.direction || "—"}</td>
+            <td>${score}</td>
+            <td><div class="why">${why || "—"}</div></td>
+          </tr>`;
+        }).join("");
+      }
+
+      if (st.events && st.events.length) {
+        $("feed").innerHTML = st.events.slice().reverse().slice(0, 40).map(e => eventHtml(e)).join("");
+      }
+    }
+
+    function fmt(x) {
+      if (x == null || x === "") return "—";
+      if (typeof x === "number") return Number(x).toPrecision(6);
+      return x;
+    }
+
+    function eventHtml(e) {
+      const bits = Object.entries(e)
+        .filter(([k]) => !["ts", "kind"].includes(k))
+        .map(([k, v]) => `${k}=${typeof v === "object" ? JSON.stringify(v) : v}`)
+        .join(" · ");
+      return `<div class="e"><span class="k">${e.kind}</span> ${e.ts || ""}<br/>${bits}</div>`;
+    }
+
+    function prependEvent(e) {
+      const feed = $("feed");
+      feed.insertAdjacentHTML("afterbegin", eventHtml(e));
+    }
+
+    $("btnStart").onclick = async () => {
+      const top = $("top").value;
+      const interval = $("interval").value;
+      const symbols = $("symbols").value.trim();
+      const q = new URLSearchParams({ top, interval });
+      if (symbols) q.set("symbols", symbols);
+      $("btnStart").disabled = true;
+      await fetch("/api/start?" + q.toString(), { method: "POST" });
+      $("btnStart").disabled = false;
+      refresh();
+    };
+    $("btnStop").onclick = async () => {
+      await fetch("/api/stop", { method: "POST" });
+      refresh();
+    };
+    $("btnOnce").onclick = async () => {
+      const top = $("top").value;
+      const symbols = $("symbols").value.trim();
+      const q = new URLSearchParams({ top });
+      if (symbols) q.set("symbols", symbols);
+      $("btnOnce").disabled = true;
+      await fetch("/api/scan-once?" + q.toString(), { method: "POST" });
+      $("btnOnce").disabled = false;
+      refresh();
+    };
+
+    connect();
+    refresh();
+    // auto-kick one scan so Chrome opens with live data
+    setTimeout(async () => {
+      const st = await (await fetch("/api/state")).json();
+      if (!st.running && !st.scanning && !(st.summary && st.summary.results && st.summary.results.length)) {
+        await fetch("/api/start?top=10&interval=120&symbols=BTCUSDT,ETHUSDT,SOLUSDT,ADAUSDT,XRPUSDT,DOGEUSDT,BNBUSDT,LINKUSDT,AVAXUSDT,DOTUSDT", { method: "POST" });
+      }
+    }, 600);
+  </script>
+</body>
+</html>

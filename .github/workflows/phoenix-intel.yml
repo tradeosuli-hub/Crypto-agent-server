@@ -1,0 +1,80 @@
+name: "Phoenix 2 · Intel (news · events · social)"
+
+# ایجنت اطلاعات (هر ~۳۰ دقیقه): RSS معتبر + اعلان‌های رسمی بایننس + CoinGecko/ترس‌وطمع + X از طریق Grok (اختیاری)
+# خروجی: intel.json در حافظهٔ دائمی → دپارتمان خبر/سوشال در چرخهٔ اسکن + تلگرام برای رویدادهای مهم
+# خودگردان روی همین شاخه (بدون cron، بدون مرج به main): پایان هر اجرا → dispatch اجرای بعدی با delay_min.
+on:
+  workflow_dispatch:
+    inputs:
+      delay_min:
+        description: "صبر قبل از اجرا (دقیقه) — حلقه خودش این را پر می‌کند؛ برای اجرای فوری ۰"
+        default: "0"
+        required: false
+  push:
+    branches: [cursor/phoenix-signal-panel-69df]
+    paths:
+      - ".github/workflows/phoenix-intel.yml"
+      - "scripts/run_intel.py"
+      - "scripts/loop.sh"
+      - "phoenix/intel/**"
+      - "phoenix/brain.py"
+      - "phoenix/notify.py"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: phoenix-intel
+  cancel-in-progress: false
+
+env:
+  MEMORY_BRANCH: phoenix-memory
+  LOOP_DELAY_MIN: "29"
+
+jobs:
+  intel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 42
+    steps:
+      - name: Wait for this cycle
+        if: github.event.inputs.delay_min != '' && github.event.inputs.delay_min != '0'
+        env:
+          DELAY: ${{ github.event.inputs.delay_min }}
+        run: |
+          case "$DELAY" in ''|*[!0-9]*) DELAY=0 ;; esac
+          echo "waiting ${DELAY} min for the next cycle"
+          sleep $(( DELAY * 60 ))
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -q numpy pandas requests
+      - name: Restore permanent memory
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh restore memory
+      - name: Run intel agent
+        env:
+          PHOENIX_TOP: "30"
+          PHOENIX_MEMORY_DIR: ${{ github.workspace }}/memory
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/run_intel.py
+      - name: Persist memory (only this workflow's files)
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh persist memory intel.json notify_intel.json
+      - name: Keep the loops alive (self + guard the other agents)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash scripts/loop.sh self phoenix-intel.yml "$LOOP_DELAY_MIN"
+          bash scripts/loop.sh ensure phoenix-watchdog.yml || true
+          bash scripts/loop.sh ensure phoenix-pages.yml || true
