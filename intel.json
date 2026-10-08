@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-08T09:00:51.503743+00:00",
+ "updated_at": "2026-10-08T09:30:26.844722+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 6.55,
-  "mcap_change_24h": -4.4,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 6.54,
+  "mcap_change_24h": -3.97,
   "trending": [
    "ASTRO",
    "QTC",
@@ -11,15 +11,31 @@
    "PRL",
    "NEAR",
    "PONS",
-   "ZEC",
-   "BTC",
    "PENGU",
-   "STRK"
+   "ZEC",
+   "STRK",
+   "BTC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Greece prepares to levy 10% capital gains tax on cryptocurrency",
+   "url": "https://www.coindesk.com/policy/2026/10/08/greece-prepares-to-levy-10-capital-gains-tax-on-cryptocurrency",
+   "published": "2026-10-08T09:17:18+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8bcfc03ec109",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T09:30:26.844722+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Samsung integrates USDC to overhaul cross-border remittances for 82 million Galaxy users",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T09:00:51.503743+00:00",
    "notified": false
   },
@@ -2595,7 +2612,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.1,
-   "risk": 0.21,
+   "risk": 0.204,
    "events": [
     "etf_flow",
     "market",
@@ -2622,7 +2639,7 @@
    "last": "2026-10-08T04:23:23+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.078,
+   "sentiment": 0.079,
    "risk": 0.0,
    "events": [
     "token_burn"
