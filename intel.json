@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-08T12:27:26.325432+00:00",
+ "updated_at": "2026-10-08T12:56:54.011874+00:00",
  "market": {
-  "btc_dominance": 58.82,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -4.31,
+  "btc_dominance": 58.83,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -4.45,
   "trending": [
    "SIMD",
    "QTC",
    "TRUMP",
    "STRK",
-   "MET",
    "PRL",
-   "PENGU",
-   "ZEC",
+   "MET",
    "ALGO",
-   "ONDO"
+   "ZEC",
+   "QNT",
+   "OGN"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
@@ -39,6 +39,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T12:27:26.325432+00:00",
    "notified": false
   },
@@ -78,6 +79,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T12:27:26.325432+00:00",
    "notified": false
   },
@@ -146,7 +148,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Risk assets under pressure as bond selloff and oil rally intensify",
+   "title": "Live updates: Risk assets under pressure as bond selloff and oil rally intensify",
    "url": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
    "published": "2026-10-08T10:44:47+00:00",
    "kind": "news",
@@ -2842,7 +2844,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.003,
-   "risk": 0.167,
+   "risk": 0.161,
    "events": [
     "etf_flow",
     "market",
@@ -2886,7 +2888,7 @@
    "last": "2026-10-08T06:17:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.084,
+   "sentiment": 0.085,
    "risk": 0.0,
    "events": [
     "token_burn"
