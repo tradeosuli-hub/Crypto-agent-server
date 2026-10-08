@@ -1,12 +1,12 @@
 {
- "checked_at": "2026-10-08T06:31:26.233489+00:00",
+ "checked_at": "2026-10-08T06:45:59.008762+00:00",
  "checks": [
   {
    "name": "scan_fresh",
    "fa": "آخرین اسکن موفق",
    "ok": true,
-   "value": "7 دقیقه پیش",
-   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37736506865"
+   "value": "2 دقیقه پیش",
+   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37738310268"
   },
   {
    "name": "scan_failures",
@@ -25,7 +25,7 @@
    "name": "intel_fresh",
    "fa": "ایجنت اطلاعات",
    "ok": true,
-   "value": "28 دقیقه پیش"
+   "value": "13 دقیقه پیش"
   },
   {
    "name": "intel_loop",
@@ -37,7 +37,7 @@
    "name": "memory_fresh",
    "fa": "حافظهٔ دائمی (phoenix-memory)",
    "ok": true,
-   "value": "14 دقیقه پیش"
+   "value": "13 دقیقه پیش"
   },
   {
    "name": "pages_fresh",
@@ -50,12 +50,32 @@
  "runs": {
   "scan": [
    {
-    "id": 37737405397,
+    "id": 37739208736,
     "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
+    "created_at": "2026-10-08T06:43:39Z",
+    "updated_at": "2026-10-08T06:43:49Z",
+    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37739208736",
+    "branch": "cursor/phoenix-signal-panel-69df"
+   },
+   {
+    "id": 37738310268,
+    "status": "completed",
+    "conclusion": "success",
+    "event": "workflow_dispatch",
+    "created_at": "2026-10-08T06:33:59Z",
+    "updated_at": "2026-10-08T06:43:46Z",
+    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37738310268",
+    "branch": "cursor/phoenix-signal-panel-69df"
+   },
+   {
+    "id": 37737405397,
+    "status": "completed",
+    "conclusion": "success",
+    "event": "workflow_dispatch",
     "created_at": "2026-10-08T06:24:12Z",
-    "updated_at": "2026-10-08T06:24:20Z",
+    "updated_at": "2026-10-08T06:34:05Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37737405397",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -108,36 +128,26 @@
     "updated_at": "2026-10-08T05:45:08Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37733117646",
     "branch": "cursor/phoenix-signal-panel-69df"
-   },
-   {
-    "id": 37732299204,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-10-08T05:25:28Z",
-    "updated_at": "2026-10-08T05:35:19Z",
-    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37732299204",
-    "branch": "cursor/phoenix-signal-panel-69df"
-   },
-   {
-    "id": 37731444105,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-10-08T05:15:12Z",
-    "updated_at": "2026-10-08T05:25:35Z",
-    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37731444105",
-    "branch": "cursor/phoenix-signal-panel-69df"
    }
   ],
   "intel": [
    {
-    "id": 37735579953,
+    "id": 37738245990,
     "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
+    "created_at": "2026-10-08T06:33:17Z",
+    "updated_at": "2026-10-08T06:33:25Z",
+    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37738245990",
+    "branch": "cursor/phoenix-signal-panel-69df"
+   },
+   {
+    "id": 37735579953,
+    "status": "completed",
+    "conclusion": "success",
+    "event": "workflow_dispatch",
     "created_at": "2026-10-08T06:03:50Z",
-    "updated_at": "2026-10-08T06:03:58Z",
+    "updated_at": "2026-10-08T06:33:23Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37735579953",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -169,16 +179,6 @@
     "created_at": "2026-10-08T04:35:15Z",
     "updated_at": "2026-10-08T05:04:52Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37728198404",
-    "branch": "cursor/phoenix-signal-panel-69df"
-   },
-   {
-    "id": 37725824701,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-10-08T04:05:41Z",
-    "updated_at": "2026-10-08T04:35:25Z",
-    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37725824701",
     "branch": "cursor/phoenix-signal-panel-69df"
    }
   ]
