@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-10-08T13:55:58.494339+00:00",
+ "updated_at": "2026-10-08T14:25:33.166228+00:00",
  "market": {
-  "btc_dominance": 58.81,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -4.6,
+  "btc_dominance": 58.86,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -3.76,
   "trending": [
    "SIMD",
    "TRUMP",
    "QTC",
    "PRL",
-   "PENGU",
-   "MET",
+   "STRK",
    "OGN",
    "NEAR",
-   "STRK",
-   "VVV"
+   "BTC",
+   "PENGU",
+   "ZEC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Cardano Foundation spins out Veridian, tokenizes its shares on new standard",
+   "url": "https://www.coindesk.com/business/2026/10/08/cardano-foundation-spins-out-veridian-tokenizes-its-shares-on-new-standard",
+   "published": "2026-10-08T14:24:24+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ADA"
+   ],
+   "symbols": [
+    "ADAUSDT"
+   ],
+   "id": "N1c05de4f4230",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T14:25:33.166228+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Securitize launches 1:1-backed tokenized stocks, starting with Apple, Nvidia, Strategy and more",
+   "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
+   "published": "2026-10-08T14:04:39+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd4f96a0c1720",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T14:25:33.166228+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Over 6 million bitcoin sit behind exposed public keys as AI warnings mount",
+   "url": "https://www.coindesk.com/markets/2026/10/08/over-6-million-bitcoin-sit-behind-exposed-public-keys-as-ai-warnings-mount",
+   "published": "2026-10-08T14:03:20+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncd063406921d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T14:25:33.166228+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "‘No going back’ for institutions moving toward tokenized onchain future, says Fidelity",
@@ -33,6 +89,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T13:55:58.494339+00:00",
    "notified": false
   },
@@ -49,6 +106,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T13:55:58.494339+00:00",
    "notified": false
   },
@@ -235,15 +293,19 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Risk assets under pressure as bond selloff and oil rally intensify",
+   "title": "Live updates: Bitcoin breaks lower from recent trading range, sliding back to $82,000",
    "url": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
    "published": "2026-10-08T10:44:47+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
    "id": "N62cf946a9cde",
    "kind_fa": "خبر",
-   "importance": 2,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2912,6 +2974,24 @@
   }
  ],
  "symbols": {
+  "ADAUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-08T14:24:24+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.001,
+   "risk": 0.142,
+   "events": [
+    "etf_flow",
+    "market",
+    "regulation"
+   ],
+   "count": 28,
+   "last": "2026-10-08T14:03:20+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.057,
    "risk": 0.0,
@@ -2921,17 +3001,6 @@
    "count": 4,
    "last": "2026-10-08T13:06:24+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.001,
-   "risk": 0.149,
-   "events": [
-    "etf_flow",
-    "market",
-    "regulation"
-   ],
-   "count": 26,
-   "last": "2026-10-08T12:03:28+00:00"
-  },
   "SUIUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2940,7 +3009,7 @@
    "last": "2026-10-08T12:03:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.105,
+   "sentiment": 0.104,
    "risk": 0.0,
    "events": [
     "project",
@@ -2986,13 +3055,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-07T05:58:25+00:00"
-  },
-  "ADAUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-07T04:11:33+00:00"
   }
  },
  "social": {},
