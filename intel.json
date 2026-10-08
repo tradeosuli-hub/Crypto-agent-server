@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-08T04:05:31.034957+00:00",
+ "updated_at": "2026-10-08T04:35:08.174198+00:00",
  "market": {
-  "btc_dominance": 58.66,
-  "usdt_dominance": 6.49,
-  "mcap_change_24h": -3.92,
+  "btc_dominance": 58.72,
+  "usdt_dominance": 6.5,
+  "mcap_change_24h": -4.22,
   "trending": [
    "QTC",
    "PONS",
    "MET",
-   "PENGU",
    "PRL",
-   "JUP",
-   "STONK",
    "NEAR",
    "ORCA",
-   "RAY"
+   "JUP",
+   "PENGU",
+   "QRL",
+   "AERO"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ethereum’s Glamsterdam test runs near 200 million gas per block after upgrade",
+   "url": "https://www.coindesk.com/tech/2026/10/08/ethereum-s-glamsterdam-test-runs-near-200-million-gas-per-block-after-upgrade",
+   "published": "2026-10-08T04:23:23+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "ETH",
+    "NEAR"
+   ],
+   "symbols": [
+    "ETHUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Nf3252de5b841",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T04:35:08.174198+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
@@ -37,6 +59,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T04:05:31.034957+00:00",
    "notified": false
   },
@@ -57,6 +80,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T04:05:31.034957+00:00",
    "notified": false
   },
@@ -73,6 +97,7 @@
    "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T04:05:31.034957+00:00",
    "notified": false
   },
@@ -89,6 +114,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T04:05:31.034957+00:00",
    "notified": false
   },
@@ -109,6 +135,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T04:05:31.034957+00:00",
    "notified": false
   },
@@ -2320,9 +2347,28 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.137,
+   "risk": 0.0,
+   "events": [
+    "project",
+    "etf_flow"
+   ],
+   "count": 12,
+   "last": "2026-10-08T04:23:23+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.105,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 4,
+   "last": "2026-10-08T04:23:23+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.046,
-   "risk": 0.272,
+   "risk": 0.265,
    "events": [
     "market",
     "etf_flow",
@@ -2332,7 +2378,7 @@
    "last": "2026-10-08T04:00:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.08,
+   "sentiment": 0.078,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2347,15 +2393,6 @@
    "count": 1,
    "last": "2026-10-07T17:46:59+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": 0.122,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 11,
-   "last": "2026-10-07T17:23:02+00:00"
-  },
   "POLUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2369,13 +2406,6 @@
    "events": [],
    "count": 2,
    "last": "2026-10-07T16:30:00+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 3,
-   "last": "2026-10-07T11:15:16+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
