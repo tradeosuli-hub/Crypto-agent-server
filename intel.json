@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-08T07:32:09.220542+00:00",
+ "updated_at": "2026-10-08T08:01:43.483981+00:00",
  "market": {
-  "btc_dominance": 58.77,
-  "usdt_dominance": 6.48,
-  "mcap_change_24h": -3.32,
+  "btc_dominance": 58.78,
+  "usdt_dominance": 6.49,
+  "mcap_change_24h": -3.44,
   "trending": [
    "QTC",
-   "PONS",
-   "NEAR",
    "MET",
-   "PRL",
+   "NEAR",
    "JUP",
+   "PRL",
+   "PONS",
+   "PENGU",
+   "PUMP",
    "BTC",
-   "HYPE",
-   "XRP",
-   "ZEC"
+   "XRP"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto investment firm Deus X Capital shuts down as backers pursue separate strategies",
+   "url": "https://www.coindesk.com/business/2026/10/06/crypto-investment-firm-deus-x-capital-shuts-down-as-backers-pursue-separate-strategies",
+   "published": "2026-10-08T08:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N80a490d9c49b",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T08:01:43.483981+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Standard Chartered to expand crypto custody services in Singapore",
+   "url": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017",
+   "published": "2026-10-08T07:55:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N30c5b02cb6e5",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T08:01:43.483981+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US Bitcoin ETFs shed $485M in biggest daily outflow since June",
+   "url": "https://cointelegraph.com/markets/bitcoin-etfs-outflow-largest-june-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-08T07:30:42+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfe0329c885cb",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T08:01:43.483981+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Ripple is earning fees financing leveraged stock bets, a business long run by banks",
@@ -2441,23 +2493,23 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.1,
+   "risk": 0.222,
+   "events": [
+    "etf_flow",
+    "market",
+    "regulation"
+   ],
+   "count": 19,
+   "last": "2026-10-08T07:30:42+00:00"
+  },
   "XRPUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-08T06:17:13+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.041,
-   "risk": 0.228,
-   "events": [
-    "market",
-    "etf_flow",
-    "regulation"
-   ],
-   "count": 18,
-   "last": "2026-10-08T05:40:41+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.139,
@@ -2470,7 +2522,7 @@
    "last": "2026-10-08T04:23:23+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.108,
+   "sentiment": 0.109,
    "risk": 0.0,
    "events": [
     "project"
@@ -2479,7 +2531,7 @@
    "last": "2026-10-08T04:23:23+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.076,
+   "sentiment": 0.077,
    "risk": 0.0,
    "events": [
     "token_burn"
