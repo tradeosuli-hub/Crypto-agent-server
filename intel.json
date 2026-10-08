@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-10-08T10:29:26.007577+00:00",
+ "updated_at": "2026-10-08T10:58:55.697729+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -3.74,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": -4.17,
   "trending": [
    "SIMD",
    "QTC",
-   "PRL",
-   "ALGO",
-   "STRK",
+   "TRUMP",
    "NEAR",
+   "PRL",
+   "STRK",
    "PONS",
-   "MET",
    "PENGU",
-   "BTC"
+   "ALGO",
+   "MET"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live news: Risk assets under pressure as bond selloff and oil rally intensify",
+   "url": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
+   "published": "2026-10-08T10:44:47+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N62cf946a9cde",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T10:58:55.697729+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin slips below $83,000 as Ethereum researcher's 'bunker mode' call divides crypto",
+   "url": "https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
+   "published": "2026-10-08T10:30:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "Nfa143ac932f1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-08T10:58:55.697729+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Crypto industry split over Justin Drake’s AI warning",
@@ -33,6 +71,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T10:29:26.007577+00:00",
    "notified": false
   },
@@ -55,6 +94,7 @@
    "importance": 5,
    "sentiment": 0.7,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-08T10:29:26.007577+00:00",
    "notified": false
   },
@@ -2675,18 +2715,28 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.008,
-   "risk": 0.192,
+   "sentiment": -0.007,
+   "risk": 0.185,
    "events": [
     "market",
     "etf_flow",
     "regulation"
    ],
-   "count": 20,
-   "last": "2026-10-08T09:56:07+00:00"
+   "count": 21,
+   "last": "2026-10-08T10:30:41+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": 0.122,
+   "risk": 0.0,
+   "events": [
+    "project",
+    "etf_flow"
+   ],
+   "count": 13,
+   "last": "2026-10-08T10:30:41+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.33,
+   "sentiment": 0.331,
    "risk": 0.0,
    "events": [
     "market",
@@ -2702,18 +2752,8 @@
    "count": 3,
    "last": "2026-10-08T06:17:13+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": 0.14,
-   "risk": 0.0,
-   "events": [
-    "project",
-    "etf_flow"
-   ],
-   "count": 12,
-   "last": "2026-10-08T04:23:23+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.081,
+   "sentiment": 0.082,
    "risk": 0.0,
    "events": [
     "token_burn"
