@@ -5,8 +5,8 @@
    "n": 1
   },
   "neutral/down": {
-   "acc": 0.6387,
-   "n": 2
+   "acc": 0.6929,
+   "n": 3
   }
  },
  "structure": {
@@ -15,8 +15,8 @@
    "n": 1
   },
   "neutral/down": {
-   "acc": 0.3612,
-   "n": 2
+   "acc": 0.307,
+   "n": 3
   }
  },
  "liquidity": {
@@ -25,11 +25,21 @@
    "n": 1
   },
   "neutral/down": {
-   "acc": 0.3612,
-   "n": 2
+   "acc": 0.307,
+   "n": 3
   }
  },
  "volume": {
+  "neutral/up": {
+   "acc": 0.425,
+   "n": 1
+  },
+  "neutral/down": {
+   "acc": 0.5429,
+   "n": 3
+  }
+ },
+ "news": {
   "neutral/up": {
    "acc": 0.425,
    "n": 1
@@ -39,24 +49,14 @@
    "n": 2
   }
  },
- "news": {
-  "neutral/up": {
-   "acc": 0.425,
-   "n": 1
-  },
-  "neutral/down": {
-   "acc": 0.575,
-   "n": 1
-  }
- },
  "order_block": {
   "neutral/up": {
    "acc": 0.425,
    "n": 1
   },
   "neutral/down": {
-   "acc": 0.3612,
-   "n": 2
+   "acc": 0.307,
+   "n": 3
   }
  },
  "pattern": {
@@ -65,8 +65,8 @@
    "n": 1
   },
   "neutral/down": {
-   "acc": 0.3612,
-   "n": 2
+   "acc": 0.307,
+   "n": 3
   }
  }
 }
