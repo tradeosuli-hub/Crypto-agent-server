@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-09T07:39:49.922220+00:00",
+ "updated_at": "2026-10-09T08:09:22.985421+00:00",
  "market": {
-  "btc_dominance": 59.06,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -3.67,
+  "btc_dominance": 59.07,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -2.88,
   "trending": [
    "STRK",
    "QTC",
-   "NEAR",
    "BP",
    "RLC",
    "DRV",
-   "ZEC",
-   "SUI",
-   "ONDO",
-   "PENGU"
+   "NEAR",
+   "BTC",
+   "PENGU",
+   "APT",
+   "PRL"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+   "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
+   "published": "2026-10-09T08:00:05.136000+00:00",
+   "kind": "delisting",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbd2d601f1afb",
+   "kind_fa": "حذف از صرافی",
+   "importance": 9,
+   "sentiment": -0.8,
+   "risk": 0.9,
+   "first_seen": "2026-10-09T08:09:22.985421+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin, Ether ETFs’ October outflows swell toward $1B",
@@ -39,6 +55,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T07:39:49.922220+00:00",
    "notified": false
   },
@@ -3632,14 +3649,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.139,
-   "risk": 0.668,
+   "sentiment": -0.14,
+   "risk": 0.658,
    "events": [
     "etf_flow",
     "security",
     "market"
    ],
-   "count": 33,
+   "count": 32,
    "last": "2026-10-09T07:34:44+00:00"
   },
   "ETHUSDT": {
@@ -3653,7 +3670,7 @@
    "last": "2026-10-09T07:34:44+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.248,
+   "sentiment": -0.249,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3680,7 +3697,7 @@
    "last": "2026-10-09T05:00:52+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.175,
+   "sentiment": 0.174,
    "risk": 0.0,
    "events": [
     "project",
