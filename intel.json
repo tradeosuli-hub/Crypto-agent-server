@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-09T12:05:22.287927+00:00",
+ "updated_at": "2026-10-09T12:34:52.069771+00:00",
  "market": {
   "btc_dominance": 59.75,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -3.37,
+  "usdt_dominance": 6.59,
+  "mcap_change_24h": -3.59,
   "trending": [
    "TRUMP",
    "STRK",
-   "BP",
-   "XDP",
-   "PENGU",
    "DRV",
+   "BP",
    "QTC",
-   "NEAR",
+   "BTC",
+   "GRASS",
+   "XDP",
    "PRL",
-   "GRASS"
+   "PONS"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "DWF Labs subsidiaries sue BitGo for $141 million over alleged token lock-up breach",
+   "url": "https://www.coindesk.com/policy/2026/10/09/dwf-labs-subsidiaries-sue-bitgo-for-usd141-million-over-alleged-token-lock-up-breach",
+   "published": "2026-10-09T12:23:54+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd250fd77b07a",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-09T12:34:52.069771+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Zcash developers set January target for quantum-resistant payments after ‘bunker mode’ scare",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T12:05:22.287927+00:00",
    "notified": false
   },
@@ -3926,7 +3943,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.058,
-   "risk": 0.576,
+   "risk": 0.565,
    "events": [
     "market",
     "etf_flow",
@@ -3956,7 +3973,7 @@
    "last": "2026-10-09T10:40:59+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.252,
+   "sentiment": 0.253,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3965,7 +3982,7 @@
    "last": "2026-10-09T06:51:32+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.133,
+   "sentiment": 0.134,
    "risk": 0.0,
    "events": [
     "project"
