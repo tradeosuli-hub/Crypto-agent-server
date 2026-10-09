@@ -275,7 +275,7 @@
  {
   "id": "D63d9b0de2a",
   "ts": "2026-10-09T01:06:55.981196+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "LTCUSDT",
   "direction": "short",
   "entry": 63.23160714285714,
@@ -389,6 +389,28 @@
    "دیوار hammer_dulling · واکنش‌های گذشته 2",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-09T02:30:00+00:00"
+  "entered_at": "2026-10-09T02:30:00+00:00",
+  "outcome": "SL",
+  "exit": 63.615660285714284,
+  "pnl_r": -1.0,
+  "closed_at": "2026-10-09T01:15:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "volume",
+    "news"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، volume، news"
+  }
  }
 ]
