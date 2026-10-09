@@ -2,7 +2,7 @@
  {
   "id": "D88c495fbdb",
   "ts": "2026-10-08T04:05:51.110428+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "XAUTUSDT",
   "direction": "short",
   "entry": 4137.163750000001,
@@ -112,7 +112,29 @@
    "دیوار solid · واکنش‌های گذشته 19",
    "پارامترها 6/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-08T04:15:00+00:00"
+  "entered_at": "2026-10-08T04:15:00+00:00",
+  "outcome": "SL",
+  "exit": 4163.3932540000005,
+  "pnl_r": -1.0,
+  "closed_at": "2026-10-09T01:30:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "volume"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "news",
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، volume"
+  }
  },
  {
   "id": "D87847a2a31",
