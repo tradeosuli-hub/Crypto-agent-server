@@ -412,5 +412,115 @@
    ],
    "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، volume، news"
   }
+ },
+ {
+  "id": "D0d3d6c3a94",
+  "ts": "2026-10-09T03:04:51.456716+00:00",
+  "status": "open",
+  "symbol": "XRPUSDT",
+  "direction": "short",
+  "entry": 1.3936071428571428,
+  "stop": 1.4029928571428572,
+  "targets": [
+   1.3273635626616158,
+   1.387975,
+   1.379,
+   1.3728
+  ],
+  "rr1": 7.058,
+  "leverage": 1.48,
+  "regime": "neutral/down",
+  "wall_verdict": "hammer_dulling",
+  "confidence": 0.3658,
+  "consensus_strength": 0.3658,
+  "weights": {
+   "dominance": 0.258881,
+   "structure": 0.195792,
+   "liquidity": 0.146844,
+   "volume": 0.12944,
+   "news": 0.122199,
+   "order_block": 0.097896,
+   "pattern": 0.048948
+  },
+  "votes": {
+   "dominance": {
+    "direction": "flat",
+    "strength": 0.3,
+    "silent": false,
+    "flags": [],
+    "note_fa": "خنثی"
+   },
+   "structure": {
+    "direction": "short",
+    "strength": 0.3,
+    "silent": false,
+    "flags": [],
+    "note_fa": "H4 اصلی · H1 تأیید · M15 ورود — short"
+   },
+   "liquidity": {
+    "direction": "short",
+    "strength": 1.0,
+    "silent": false,
+    "flags": [
+     "sweep_rejection"
+    ],
+    "note_fa": "شدوی پس‌زننده = برداشت نقدینگی + ریجکت"
+   },
+   "volume": {
+    "direction": "short",
+    "strength": 0.5,
+    "silent": false,
+    "flags": [],
+    "note_fa": "حجم (z=-0.42)"
+   },
+   "news": {
+    "direction": "flat",
+    "strength": 0.15,
+    "silent": false,
+    "flags": [],
+    "note_fa": "خبر · خنثی"
+   },
+   "order_block": {
+    "direction": "short",
+    "strength": 0.6,
+    "silent": false,
+    "flags": [
+     "wall_hammer_dulling"
+    ],
+    "note_fa": "دیوار hammer_dulling · 4 واکنش"
+   },
+   "pattern": {
+    "direction": "short",
+    "strength": 0.75,
+    "silent": false,
+    "flags": [
+     "history_rsi_div",
+     "trendline",
+     "ob_channel_align"
+    ],
+    "note_fa": "3 الگوی هم‌جهت"
+   },
+   "social": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "سوشال بی‌داده (Grok وصل نیست یا این ارز پوشش ندارد)"
+   },
+   "historical_memory": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "تجربهٔ کافی نیست (2/3)"
+   }
+  },
+  "objections": [],
+  "why_fa": [
+   "ماشهٔ شدوی پس‌زننده (short) · نفوذ 0.57 · نسبت شدو 2.43",
+   "بازگشت به کانال → short · تارگت 1.32736",
+   "دیوار hammer_dulling · واکنش‌های گذشته 4",
+   "پارامترها 8/10 (قابل‌بررسی 8)"
+  ]
  }
 ]
