@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-09T03:43:35.998380+00:00",
+ "updated_at": "2026-10-09T04:13:05.823076+00:00",
  "market": {
-  "btc_dominance": 59.08,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -4.45,
+  "btc_dominance": 59.1,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": -3.83,
   "trending": [
    "STRK",
    "QTC",
-   "PRL",
-   "NEAR",
    "BP",
+   "NEAR",
    "PONS",
-   "SOL",
-   "VVV",
    "DRV",
-   "ZEC"
+   "PRL",
+   "PENGU",
+   "SOL",
+   "PYTH"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
+   "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
+   "published": "2026-10-09T04:04:36+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "Nedecc250b3e9",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T04:13:05.823076+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin rebounds to $82,000 as Trump rules out Iran strikes, oil drops",
@@ -37,6 +59,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T03:43:35.998380+00:00",
    "notified": false
   },
@@ -59,6 +82,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T03:43:35.998380+00:00",
    "notified": false
   },
@@ -3442,35 +3466,35 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.09,
-   "risk": 0.75,
+   "sentiment": -0.084,
+   "risk": 0.74,
    "events": [
     "etf_flow",
     "security",
     "market"
    ],
-   "count": 34,
-   "last": "2026-10-09T03:27:38+00:00"
+   "count": 33,
+   "last": "2026-10-09T04:04:36+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.049,
+   "sentiment": 0.045,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "project"
    ],
-   "count": 15,
-   "last": "2026-10-09T03:08:51+00:00"
+   "count": 16,
+   "last": "2026-10-09T04:04:36+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.069,
+   "sentiment": 0.07,
    "risk": 0.0,
    "events": [],
    "count": 4,
    "last": "2026-10-08T19:31:38+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.171,
+   "sentiment": 0.17,
    "risk": 0.0,
    "events": [
     "market",
@@ -3492,7 +3516,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-08T14:24:24+00:00"
   },
   "SUIUSDT": {
