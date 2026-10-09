@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-09T14:03:32.296060+00:00",
+ "updated_at": "2026-10-09T14:32:58.526042+00:00",
  "market": {
-  "btc_dominance": 59.23,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -3.03,
+  "btc_dominance": 59.31,
+  "usdt_dominance": 6.54,
+  "mcap_change_24h": -2.51,
   "trending": [
    "DRV",
    "TRUMP",
-   "QTC",
    "PRL",
-   "STRK",
    "BP",
+   "STRK",
    "ZEC",
-   "SOL",
-   "HYPE",
-   "BTC"
+   "QTC",
+   "PENGU",
+   "NEAR",
+   "HYPE"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "New York AG secures up to $35 million from former Celsius CEO Alex Mashinsky",
+   "url": "https://www.theblock.co/news/regulation/2026-10-09-ny-attorney-general-alex-mashinsky-celsius-35-million-ban-418154",
+   "published": "2026-10-09T14:16:15+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4d533d0e6354",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T14:32:58.526042+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Dragonfly partner rejects ‘bunker mode’ doomerism, calls for proactive blockchain measures",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": -0.1,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T14:03:32.296060+00:00",
    "notified": false
   },
@@ -70,6 +87,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T14:03:32.296060+00:00",
    "notified": false
   },
@@ -446,22 +464,22 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin climbs back above $83,000; XRP ETFs only crypto funds with inflows Thursday",
+   "title": "Live updates: Bitcoin steadies near $83,000 as crypto recovers from Thursday selloff",
    "url": "https://www.coindesk.com/business/2026/10/09/live-updates-xrp-etfs-the-only-ones-in-green-as-btc-eth-zec-funds-post-outflows",
    "published": "2026-10-09T06:51:32+00:00",
-   "kind": "etf_flow",
+   "kind": "news",
    "raw_symbols": [
-    "XRP",
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "XRPUSDT",
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "N15a7a2ff3607",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.4,
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T07:10:18.213973+00:00",
@@ -3996,8 +4014,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.056,
-   "risk": 0.535,
+   "sentiment": -0.092,
+   "risk": 0.524,
    "events": [
     "market",
     "etf_flow",
@@ -4007,33 +4025,24 @@
    "last": "2026-10-09T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.147,
+   "sentiment": 0.081,
    "risk": 0.0,
    "events": [
     "project",
     "market"
    ],
-   "count": 7,
+   "count": 8,
    "last": "2026-10-09T10:44:22+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.055,
+   "sentiment": -0.056,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "project"
    ],
-   "count": 14,
+   "count": 13,
    "last": "2026-10-09T10:40:59+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.254,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
-   "last": "2026-10-09T06:51:32+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.135,
@@ -4043,6 +4052,13 @@
    ],
    "count": 5,
    "last": "2026-10-09T05:00:52+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-09T04:21:36+00:00"
   },
   "DOGEUSDT": {
    "sentiment": 0.0,
