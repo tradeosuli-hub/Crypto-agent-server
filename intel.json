@@ -1,25 +1,99 @@
 {
- "updated_at": "2026-10-09T10:07:29.063377+00:00",
+ "updated_at": "2026-10-09T10:36:59.827890+00:00",
  "market": {
-  "btc_dominance": 59.61,
+  "btc_dominance": 59.62,
   "usdt_dominance": 6.61,
   "mcap_change_24h": -3.88,
   "trending": [
-   "STRK",
    "TRUMP",
-   "BP",
+   "STRK",
    "QTC",
+   "BP",
    "DRV",
-   "KAIA",
+   "PENGU",
    "BTC",
-   "NEAR",
-   "PYTH",
-   "PENGU"
+   "ETH",
+   "KAIA",
+   "NEAR"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Sam Altman-backed bitcoin life insurer Meanwhile raises $37.5 million round led by Bain Capital Crypto",
+   "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131",
+   "published": "2026-10-09T10:33:46+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na2e6c24047cd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T10:36:59.827890+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Thailand opens door to locally listed bitcoin and ether ETFs",
+   "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs",
+   "published": "2026-10-09T10:16:55+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "Ncc735b056247",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T10:36:59.827890+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "French lawmakers back stablecoin swap tax in 2027 budget bill",
+   "url": "https://cointelegraph.com/news/france-crypto-stablecoin-swap-tax-2027-budget?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-09T10:16:48+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N14b7f18dc511",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T10:36:59.827890+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "UK slaps sanctions on three crypto exchanges over alleged Russia links",
+   "url": "https://www.coindesk.com/policy/2026/10/09/uk-slaps-sanctions-on-three-crypto-exchanges-over-alleged-russia-links",
+   "published": "2026-10-09T10:14:59+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N86d004458978",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T10:36:59.827890+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin speculators move 55K BTC to exchanges amid $1.1B liquidations",
@@ -37,6 +111,7 @@
    "importance": 5,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T10:07:29.063377+00:00",
    "notified": false
   },
@@ -3733,28 +3808,28 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.139,
-   "risk": 0.617,
+   "sentiment": -0.124,
+   "risk": 0.606,
    "events": [
-    "market",
     "etf_flow",
+    "market",
     "security"
    ],
-   "count": 32,
-   "last": "2026-10-09T09:50:01+00:00"
+   "count": 34,
+   "last": "2026-10-09T10:33:46+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.136,
+   "sentiment": -0.114,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "project"
    ],
-   "count": 14,
-   "last": "2026-10-09T07:34:44+00:00"
+   "count": 15,
+   "last": "2026-10-09T10:16:55+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.25,
+   "sentiment": -0.251,
    "risk": 0.0,
    "events": [
     "etf_flow"
