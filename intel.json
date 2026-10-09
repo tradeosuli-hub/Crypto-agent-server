@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-09T09:38:00.933655+00:00",
+ "updated_at": "2026-10-09T10:07:29.063377+00:00",
  "market": {
-  "btc_dominance": 59.6,
+  "btc_dominance": 59.61,
   "usdt_dominance": 6.61,
-  "mcap_change_24h": -3.56,
+  "mcap_change_24h": -3.88,
   "trending": [
    "STRK",
-   "DRV",
-   "QTC",
+   "TRUMP",
    "BP",
+   "QTC",
+   "DRV",
    "KAIA",
    "BTC",
    "NEAR",
-   "PUMP",
-   "PENGU",
-   "PRL"
+   "PYTH",
+   "PENGU"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin speculators move 55K BTC to exchanges amid $1.1B liquidations",
+   "url": "https://cointelegraph.com/markets/bitcoin-speculators-btc-exchanges-crypto-liquidation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-09T09:50:01+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N40ff773c9da7",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T10:07:29.063377+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Dark web drug market operator sentenced to 40 years, forfeits $101 million in bitcoin",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T09:38:00.933655+00:00",
    "notified": false
   },
@@ -3713,14 +3734,14 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.139,
-   "risk": 0.627,
+   "risk": 0.617,
    "events": [
+    "market",
     "etf_flow",
-    "security",
-    "market"
+    "security"
    ],
-   "count": 33,
-   "last": "2026-10-09T09:20:16+00:00"
+   "count": 32,
+   "last": "2026-10-09T09:50:01+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.136,
@@ -3751,7 +3772,7 @@
    "last": "2026-10-09T06:51:32+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.13,
+   "sentiment": 0.131,
    "risk": 0.0,
    "events": [
     "project"
@@ -3760,7 +3781,7 @@
    "last": "2026-10-09T05:00:52+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.179,
+   "sentiment": 0.178,
    "risk": 0.0,
    "events": [
     "project",
@@ -3803,7 +3824,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-07T16:30:00+00:00"
   }
  },
