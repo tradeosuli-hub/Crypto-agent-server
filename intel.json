@@ -1,25 +1,101 @@
 {
- "updated_at": "2026-10-09T10:36:59.827890+00:00",
+ "updated_at": "2026-10-09T11:06:25.735147+00:00",
  "market": {
-  "btc_dominance": 59.62,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -3.88,
+  "btc_dominance": 59.67,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -4.38,
   "trending": [
    "TRUMP",
    "STRK",
    "QTC",
-   "BP",
+   "NEAR",
    "DRV",
-   "PENGU",
+   "BP",
+   "XDP",
    "BTC",
-   "ETH",
-   "KAIA",
-   "NEAR"
+   "ZRO",
+   "KAIA"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "ESMA seeks evidence tokenized collateral can be cashed out in crisis",
+   "url": "https://cointelegraph.com/news/esma-tokenized-collateral-eu-clearinghouses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-09T10:49:24+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6f4d13d05997",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T11:06:25.735147+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms",
+   "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
+   "published": "2026-10-09T10:44:22+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N65fa2a0ab6db",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T11:06:25.735147+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Thailand SEC issues bitcoin and ether ETF rules set to take effect Oct. 16",
+   "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132",
+   "published": "2026-10-09T10:40:59+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N660b8c462b05",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T11:06:25.735147+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "UK sanctions three crypto exchanges tied to Russian illicit funds",
+   "url": "https://cointelegraph.com/news/uk-sanctions-crypto-exchanges-russian-illicit-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-09T10:34:37+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nda57e54675a7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T11:06:25.735147+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Sam Altman-backed bitcoin life insurer Meanwhile raises $37.5 million round led by Bain Capital Crypto",
@@ -37,6 +113,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T10:36:59.827890+00:00",
    "notified": false
   },
@@ -59,6 +136,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T10:36:59.827890+00:00",
    "notified": false
   },
@@ -75,6 +153,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T10:36:59.827890+00:00",
    "notified": false
   },
@@ -91,6 +170,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T10:36:59.827890+00:00",
    "notified": false
   },
@@ -3808,25 +3888,35 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.124,
-   "risk": 0.606,
+   "sentiment": -0.113,
+   "risk": 0.596,
    "events": [
     "etf_flow",
     "market",
     "security"
    ],
-   "count": 34,
-   "last": "2026-10-09T10:33:46+00:00"
+   "count": 35,
+   "last": "2026-10-09T10:44:22+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.146,
+   "risk": 0.0,
+   "events": [
+    "project",
+    "market"
+   ],
+   "count": 8,
+   "last": "2026-10-09T10:44:22+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.114,
+   "sentiment": -0.098,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "project"
    ],
-   "count": 15,
-   "last": "2026-10-09T10:16:55+00:00"
+   "count": 16,
+   "last": "2026-10-09T10:40:59+00:00"
   },
   "XRPUSDT": {
    "sentiment": -0.251,
@@ -3847,22 +3937,12 @@
    "last": "2026-10-09T06:51:32+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.131,
+   "sentiment": 0.132,
    "risk": 0.0,
    "events": [
     "project"
    ],
    "count": 5,
-   "last": "2026-10-09T05:00:52+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.178,
-   "risk": 0.0,
-   "events": [
-    "project",
-    "market"
-   ],
-   "count": 7,
    "last": "2026-10-09T05:00:52+00:00"
   },
   "DOGEUSDT": {
