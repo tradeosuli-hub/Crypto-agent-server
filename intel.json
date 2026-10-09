@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-09T06:11:12.975328+00:00",
+ "updated_at": "2026-10-09T06:40:47.031042+00:00",
  "market": {
   "btc_dominance": 59.07,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -3.64,
+  "usdt_dominance": 6.56,
+  "mcap_change_24h": -3.5,
   "trending": [
+   "SWORDCAT",
    "STRK",
    "QTC",
    "DRV",
-   "BTC",
    "NEAR",
-   "ZEC",
+   "BTC",
+   "RLC",
    "HYPE",
-   "BP",
-   "ONDO",
-   "PENGU"
+   "ZEC",
+   "SOL"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
@@ -50,6 +50,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T06:11:12.975328+00:00",
    "notified": false
   },
@@ -3570,7 +3571,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.084,
-   "risk": 0.699,
+   "risk": 0.688,
    "events": [
     "etf_flow",
     "security",
