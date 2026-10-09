@@ -1,25 +1,89 @@
 {
- "updated_at": "2026-10-09T14:32:58.526042+00:00",
+ "updated_at": "2026-10-09T15:02:30.461262+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -2.51,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -2.54,
   "trending": [
    "DRV",
    "TRUMP",
-   "PRL",
-   "BP",
    "STRK",
+   "BP",
    "ZEC",
    "QTC",
-   "PENGU",
-   "NEAR",
-   "HYPE"
+   "PRL",
+   "LIT",
+   "BTC",
+   "PENGU"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
+   "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
+   "published": "2026-10-09T14:55:23+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N435037fd6b96",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-09T15:02:30.461262+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ledger investigates wallet drains involving CryptoBilis buyers; estimate tops $86 million in losses",
+   "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163",
+   "published": "2026-10-09T14:52:55+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2f26afb5e72e",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-09T15:02:30.461262+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
+   "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+   "published": "2026-10-09T14:47:27+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N17530c960604",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T15:02:30.461262+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "US targets $1 billion Iran-linked crypto seizure, Bessent says ‘we know where it is’",
+   "url": "https://www.theblock.co/news/regulation/2026-10-09-us-targets-1-billion-iran-linked-crypto-seizure-bessent-says-we-know-where-it-is-418151",
+   "published": "2026-10-09T14:41:09+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf260e22fb180",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T15:02:30.461262+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "New York AG secures up to $35 million from former Celsius CEO Alex Mashinsky",
@@ -33,6 +97,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T14:32:58.526042+00:00",
    "notified": false
   },
@@ -4015,7 +4080,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.092,
-   "risk": 0.524,
+   "risk": 0.514,
    "events": [
     "market",
     "etf_flow",
@@ -4025,7 +4090,7 @@
    "last": "2026-10-09T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.081,
+   "sentiment": 0.08,
    "risk": 0.0,
    "events": [
     "project",
@@ -4045,7 +4110,7 @@
    "last": "2026-10-09T10:40:59+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.135,
+   "sentiment": 0.136,
    "risk": 0.0,
    "events": [
     "project"
