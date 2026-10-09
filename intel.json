@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-09T18:58:47.206030+00:00",
+ "updated_at": "2026-10-09T19:29:08.705883+00:00",
  "market": {
-  "btc_dominance": 59.18,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -0.45,
+  "btc_dominance": 59.19,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": -1.56,
   "trending": [
-   "DRV",
    "TRUMP",
-   "PENGU",
+   "DRV",
    "BP",
    "PRL",
-   "PUMP",
    "STRK",
-   "SUI",
+   "NEAR",
    "MAGIC",
-   "ZEC"
+   "QTC",
+   "SUI",
+   "PENGU"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "THORChain exec accuses Tether of temporarily freezing USDT vaults",
+   "url": "https://cointelegraph.com/news/thorchain-tether-freezing-usdt-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-09T19:04:03+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nd89e230ad98a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T19:29:08.705883+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Former FTX COO says Netflix’s ‘Altruists’ trailer ‘made me physically throw up’",
@@ -33,6 +53,7 @@
    "importance": 6,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T18:58:47.206030+00:00",
    "notified": false
   },
@@ -674,22 +695,20 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin steadies near $83,000 as crypto recovers from Thursday selloff",
+   "title": "Live updates: Bitcoin slips from day's highs, set to close week with a loss",
    "url": "https://www.coindesk.com/business/2026/10/09/live-updates-xrp-etfs-the-only-ones-in-green-as-btc-eth-zec-funds-post-outflows",
    "published": "2026-10-09T06:51:32+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC",
-    "NEAR"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
+    "BTCUSDT"
    ],
    "id": "N15a7a2ff3607",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": -0.3,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T07:10:18.213973+00:00",
@@ -4223,9 +4242,19 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.056,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "project"
+   ],
+   "count": 12,
+   "last": "2026-10-09T19:04:03+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.086,
-   "risk": 0.432,
+   "sentiment": -0.078,
+   "risk": 0.422,
    "events": [
     "market",
     "etf_flow",
@@ -4235,24 +4264,14 @@
    "last": "2026-10-09T15:20:36+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.058,
+   "sentiment": 0.11,
    "risk": 0.0,
    "events": [
     "project",
     "market"
    ],
-   "count": 9,
+   "count": 8,
    "last": "2026-10-09T15:20:36+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.061,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "project"
-   ],
-   "count": 11,
-   "last": "2026-10-09T10:40:59+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.137,
