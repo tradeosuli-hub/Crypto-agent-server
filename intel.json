@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-09T11:06:25.735147+00:00",
+ "updated_at": "2026-10-09T11:35:52.495436+00:00",
  "market": {
   "btc_dominance": 59.67,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -4.38,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -4.3,
   "trending": [
    "TRUMP",
    "STRK",
-   "QTC",
-   "NEAR",
-   "DRV",
-   "BP",
    "XDP",
+   "NEAR",
+   "BP",
+   "QTC",
+   "DRV",
    "BTC",
-   "ZRO",
-   "KAIA"
+   "PYTH",
+   "PRL"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/09/trump-s-iran-pledge-underpins-crypto-gains-as-bitcoin-bears-face-liquidation-pressure",
+   "published": "2026-10-09T11:09:04+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N3468869948aa",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T11:35:52.495436+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "ESMA seeks evidence tokenized collateral can be cashed out in crisis",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T11:06:25.735147+00:00",
    "notified": false
   },
@@ -55,6 +76,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T11:06:25.735147+00:00",
    "notified": false
   },
@@ -77,6 +99,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T11:06:25.735147+00:00",
    "notified": false
   },
@@ -93,6 +116,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-09T11:06:25.735147+00:00",
    "notified": false
   },
@@ -317,26 +341,22 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: XRP ETFs the only ones in green as BTC, ETH, ZEC funds post outflows",
+   "title": "Live updates: Bitcoin steadies above $82,000; XRP ETFs only crypto funds with inflows Thursday",
    "url": "https://www.coindesk.com/business/2026/10/09/live-updates-xrp-etfs-the-only-ones-in-green-as-btc-eth-zec-funds-post-outflows",
    "published": "2026-10-09T06:51:32+00:00",
    "kind": "etf_flow",
    "raw_symbols": [
     "XRP",
-    "BTC",
-    "ETH",
-    "ZEC"
+    "BTC"
    ],
    "symbols": [
     "XRPUSDT",
-    "BTCUSDT",
-    "ETHUSDT",
-    "ZECUSDT"
+    "BTCUSDT"
    ],
    "id": "N15a7a2ff3607",
    "kind_fa": "جریان ETF",
    "importance": 7,
-   "sentiment": -0.4,
+   "sentiment": 0.4,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T07:10:18.213973+00:00",
@@ -3888,38 +3908,38 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.113,
-   "risk": 0.596,
+   "sentiment": -0.058,
+   "risk": 0.586,
    "events": [
-    "etf_flow",
     "market",
+    "etf_flow",
     "security"
    ],
-   "count": 35,
-   "last": "2026-10-09T10:44:22+00:00"
+   "count": 34,
+   "last": "2026-10-09T11:09:04+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.146,
+   "sentiment": 0.151,
    "risk": 0.0,
    "events": [
     "project",
     "market"
    ],
-   "count": 8,
+   "count": 7,
    "last": "2026-10-09T10:44:22+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.098,
+   "sentiment": -0.053,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "project"
    ],
-   "count": 16,
+   "count": 15,
    "last": "2026-10-09T10:40:59+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.251,
+   "sentiment": 0.252,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3927,17 +3947,8 @@
    "count": 3,
    "last": "2026-10-09T06:51:32+00:00"
   },
-  "ZECUSDT": {
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 1,
-   "last": "2026-10-09T06:51:32+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.132,
+   "sentiment": 0.133,
    "risk": 0.0,
    "events": [
     "project"
