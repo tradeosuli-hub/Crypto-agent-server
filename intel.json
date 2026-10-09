@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-09T08:38:54.278785+00:00",
+ "updated_at": "2026-10-09T09:08:26.619563+00:00",
  "market": {
-  "btc_dominance": 59.09,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -2.99,
+  "btc_dominance": 59.59,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -3.53,
   "trending": [
    "STRK",
-   "QTC",
-   "BTC",
    "DRV",
+   "KAIA",
+   "BTC",
+   "QTC",
    "BP",
    "NEAR",
-   "KAIA",
-   "RLC",
+   "PUMP",
    "PENGU",
-   "PYTH"
+   "RLC"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "MARA transfers $81.1 million in bitcoin to Galaxy Digital as strategy pivots to AI",
+   "url": "https://www.coindesk.com/markets/2026/10/09/mara-transfers-usd81-1-million-in-bitcoin-to-galaxy-digital-as-strategy-pivots-to-ai",
+   "published": "2026-10-09T09:08:09+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N8bfa0398e1ec",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T09:08:26.619563+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Sam Altman-backed bitcoin insurer Meanwhile secures $37.5 million in Bain Capital Crypto-led round",
+   "url": "https://www.coindesk.com/business/2026/10/09/sam-altman-backed-bitcoin-insurer-meanwhile-secures-usd37-5-million-in-bain-capital-crypto-led-round",
+   "published": "2026-10-09T09:06:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N9b31912c1f49",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-09T09:08:26.619563+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
@@ -3650,24 +3690,24 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.14,
-   "risk": 0.647,
+   "sentiment": -0.144,
+   "risk": 0.637,
    "events": [
     "etf_flow",
     "security",
     "market"
    ],
    "count": 32,
-   "last": "2026-10-09T07:34:44+00:00"
+   "last": "2026-10-09T09:08:09+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.107,
+   "sentiment": -0.135,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "project"
    ],
-   "count": 16,
+   "count": 14,
    "last": "2026-10-09T07:34:44+00:00"
   },
   "XRPUSDT": {
@@ -3698,13 +3738,13 @@
    "last": "2026-10-09T05:00:52+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.173,
+   "sentiment": 0.18,
    "risk": 0.0,
    "events": [
     "project",
     "market"
    ],
-   "count": 8,
+   "count": 7,
    "last": "2026-10-09T05:00:52+00:00"
   },
   "DOGEUSDT": {
