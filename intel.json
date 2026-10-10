@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-10T04:20:18.924402+00:00",
+ "updated_at": "2026-10-10T04:49:44.065609+00:00",
  "market": {
   "btc_dominance": 59.11,
   "usdt_dominance": 6.55,
-  "mcap_change_24h": -2.46,
+  "mcap_change_24h": -2.47,
   "trending": [
    "STRK",
    "MAGIC",
    "QTC",
    "PENGU",
-   "ZEC",
-   "HYPE",
-   "DRV",
    "NEAR",
-   "ADA",
-   "XAI"
+   "DRV",
+   "ZEC",
+   "BAT",
+   "GMT",
+   "AERO"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Robinhood Chain slowdown spreads from fees to trading as transactions fall more than 40%",
+   "url": "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40",
+   "published": "2026-10-10T04:44:35+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf4d930f7ebe8",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-10T04:49:44.065609+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "XRP Ledger patched decade-old bug that could create billions of dollars in XRP from nothing",
+   "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing",
+   "published": "2026-10-10T04:20:07+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Ndbf9a913d79f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-10T04:49:44.065609+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Visa survey says nearly half of APAC consumers open to using stablecoins by 2031",
@@ -2005,29 +2041,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Ethereum’s Glamsterdam test runs near 200 million gas per block after upgrade",
-   "url": "https://www.coindesk.com/tech/2026/10/08/ethereum-s-glamsterdam-test-runs-near-200-million-gas-per-block-after-upgrade",
-   "published": "2026-10-08T04:23:23+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "ETH",
-    "NEAR"
-   ],
-   "symbols": [
-    "ETHUSDT",
-    "NEARUSDT"
-   ],
-   "id": "Nf3252de5b841",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T04:35:08.174198+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
    "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
@@ -2818,29 +2831,35 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-10-10T04:20:07+00:00"
+  },
   "NEARUSDT": {
-   "sentiment": 0.091,
+   "sentiment": 0.083,
    "risk": 0.0,
    "events": [
     "project",
     "market"
    ],
-   "count": 9,
+   "count": 8,
    "last": "2026-10-10T03:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.054,
+   "sentiment": -0.065,
    "risk": 0.0,
    "events": [
-    "etf_flow",
-    "project"
+    "etf_flow"
    ],
-   "count": 12,
+   "count": 11,
    "last": "2026-10-09T19:04:03+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.074,
-   "risk": 0.237,
+   "sentiment": -0.073,
+   "risk": 0.227,
    "events": [
     "market",
     "etf_flow",
@@ -2850,20 +2869,13 @@
    "last": "2026-10-09T15:20:36+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.171,
+   "sentiment": 0.17,
    "risk": 0.0,
    "events": [
     "project"
    ],
    "count": 3,
    "last": "2026-10-09T05:00:52+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-09T04:21:36+00:00"
   },
   "DOGEUSDT": {
    "sentiment": 0.0,
