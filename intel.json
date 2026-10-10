@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-10T04:49:44.065609+00:00",
+ "updated_at": "2026-10-10T05:19:13.934797+00:00",
  "market": {
-  "btc_dominance": 59.11,
+  "btc_dominance": 59.07,
   "usdt_dominance": 6.55,
-  "mcap_change_24h": -2.47,
+  "mcap_change_24h": -2.19,
   "trending": [
    "STRK",
    "MAGIC",
+   "NEAR",
    "QTC",
    "PENGU",
-   "NEAR",
    "DRV",
-   "ZEC",
+   "SUI",
    "BAT",
-   "GMT",
-   "AERO"
+   "ZEC",
+   "APT"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-10T04:49:44.065609+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-10T04:49:44.065609+00:00",
    "notified": false
   },
@@ -2024,23 +2026,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Crypto must cement adoption to withstand US policy shifts: Canton CEO",
-   "url": "https://cointelegraph.com/news/canton-ceo-crypto-adoption-us-policy-reversals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T04:28:27+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd6e4c2c5388c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T05:04:40.628968+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
    "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
@@ -2839,7 +2824,7 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.083,
+   "sentiment": 0.085,
    "risk": 0.0,
    "events": [
     "project",
@@ -2858,8 +2843,8 @@
    "last": "2026-10-09T19:04:03+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.073,
-   "risk": 0.227,
+   "sentiment": -0.072,
+   "risk": 0.217,
    "events": [
     "market",
     "etf_flow",
