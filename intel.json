@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-10T11:13:26.978476+00:00",
+ "updated_at": "2026-10-10T11:42:56.834317+00:00",
  "market": {
-  "btc_dominance": 59.63,
+  "btc_dominance": 59.61,
   "usdt_dominance": 6.6,
-  "mcap_change_24h": -2.38,
+  "mcap_change_24h": -2.41,
   "trending": [
    "TRUMP",
-   "SWARM",
    "NEAR",
-   "QTC",
+   "SWARM",
    "PENGU",
-   "BTC",
+   "QTC",
    "DRV",
-   "QNT",
-   "SUI",
-   "MAGIC"
+   "BTC",
+   "STRK",
+   "PRL",
+   "PONS"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-10T11:13:26.978476+00:00",
    "notified": false
   },
@@ -1708,48 +1709,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin ETF investors head for the exit, and it's the biggest rush in months",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months",
-   "published": "2026-10-08T11:15:00+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5b549fd77065",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T11:28:28.486303+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "US government moves $770M of seized Bitcoin to Coinbase Prime",
-   "url": "https://cointelegraph.com/news/us-government-moves-770m-seized-bitcoin-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T11:03:36+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7fd3ce7567df",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T11:28:28.486303+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Crypto industry split over Justin Drake’s AI warning",
    "url": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
@@ -2592,14 +2551,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.087,
+   "sentiment": -0.091,
    "risk": 0.2,
    "events": [
     "market",
     "etf_flow",
     "security"
    ],
-   "count": 31,
+   "count": 29,
    "last": "2026-10-10T11:00:00+00:00"
   },
   "XRPUSDT": {
@@ -2610,7 +2569,7 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.015,
+   "sentiment": 0.014,
    "risk": 0.0,
    "events": [
     "project"
@@ -2628,7 +2587,7 @@
    "last": "2026-10-09T19:04:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.161,
+   "sentiment": 0.16,
    "risk": 0.0,
    "events": [
     "project"
