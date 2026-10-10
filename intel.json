@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-10T06:47:53.170314+00:00",
+ "updated_at": "2026-10-10T07:17:28.624981+00:00",
  "market": {
-  "btc_dominance": 59.1,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -2.29,
+  "btc_dominance": 59.08,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -2.67,
   "trending": [
    "DRV",
-   "QTC",
    "MAGIC",
+   "QTC",
    "PENGU",
    "PRL",
-   "SUI",
    "KAS",
-   "STRK",
+   "NEAR",
    "BTC",
-   "NEAR"
+   "SUI",
+   "ZEC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Sam Altman-backed Bitcoin life insurer, Meanwhile, raises more funds",
+   "url": "https://cointelegraph.com/news/sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-more-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-10T07:10:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0d5705e0ecd6",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-10T07:17:28.624981+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
@@ -2779,15 +2799,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.083,
+   "sentiment": -0.079,
    "risk": 0.2,
    "events": [
     "market",
     "etf_flow",
     "security"
    ],
-   "count": 34,
-   "last": "2026-10-10T05:43:00+00:00"
+   "count": 35,
+   "last": "2026-10-10T07:10:43+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.0,
@@ -2797,7 +2817,7 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.09,
+   "sentiment": 0.091,
    "risk": 0.0,
    "events": [
     "project",
@@ -2816,7 +2836,7 @@
    "last": "2026-10-09T19:04:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.168,
+   "sentiment": 0.167,
    "risk": 0.0,
    "events": [
     "project"
