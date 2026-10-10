@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-10T18:06:09.518432+00:00",
+ "updated_at": "2026-10-10T18:35:38.111292+00:00",
  "market": {
-  "btc_dominance": 59.15,
-  "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.22,
+  "btc_dominance": 59.12,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -2.3,
   "trending": [
    "SWARM",
    "STRK",
    "TRUMP",
    "NEAR",
-   "PENGU",
-   "PRL",
-   "SUI",
-   "VVV",
+   "TAO",
    "QTC",
+   "HYPE",
+   "PRL",
+   "BP",
    "ZEC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Kalshi is investigating bets on Trump’s press secretary pick placed before announcement: WSJ",
+   "url": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
+   "published": "2026-10-10T18:35:25+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc1f8a2c3679e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-10T18:35:38.111292+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
@@ -1310,44 +1326,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto crumbles as anniversary of flash crash nears",
-   "url": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
-   "published": "2026-10-08T18:14:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "NEAR"
-   ],
-   "symbols": [
-    "NEARUSDT"
-   ],
-   "id": "N770073ce2ca7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T18:22:44.586681+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "NFL joins pushback against prediction markets as U.S. Supreme Court asked to act",
-   "url": "https://www.coindesk.com/policy/2026/10/08/nfl-joins-pushback-against-prediction-markets-as-u-s-supreme-court-asked-to-act",
-   "published": "2026-10-08T18:06:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd72309e78648",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T18:22:44.586681+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "NFL tells Supreme Court prediction market sports contracts are gambling, not swaps",
    "url": "https://www.theblock.co/news/regulation/2026-10-08-nfl-amicus-brief-supreme-court-kalshi-new-jersey-prediction-markets-418064",
@@ -1571,27 +1549,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-08T05:04:40.628968+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
-   "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
-   "published": "2026-10-08T02:50:01+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N629da2cca04f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T04:05:31.034957+00:00",
    "notified": false
   },
   {
@@ -2349,7 +2306,7 @@
    "last": "2026-10-10T15:10:37+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.042,
+   "sentiment": 0.041,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2383,12 +2340,12 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.002,
+   "sentiment": 0.04,
    "risk": 0.0,
    "events": [
     "project"
    ],
-   "count": 5,
+   "count": 4,
    "last": "2026-10-10T03:00:00+00:00"
   }
  },
