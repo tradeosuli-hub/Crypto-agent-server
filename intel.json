@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-10T15:09:22.311468+00:00",
+ "updated_at": "2026-10-10T15:38:49.045179+00:00",
  "market": {
-  "btc_dominance": 59.07,
+  "btc_dominance": 59.05,
   "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.43,
+  "mcap_change_24h": -2.45,
   "trending": [
-   "NEAR",
    "STRK",
+   "NEAR",
    "SWARM",
-   "QTC",
-   "TRUMP",
-   "PENGU",
    "DRV",
-   "AERO",
+   "PENGU",
+   "TRUMP",
+   "HYPE",
+   "QTC",
    "LIT",
-   "PRL"
+   "RAY"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+   "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+   "published": "2026-10-10T15:10:37+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "ETH",
+    "SOL"
+   ],
+   "symbols": [
+    "ETHUSDT",
+    "SOLUSDT"
+   ],
+   "id": "N64fd54d7004c",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-10T15:38:49.045179+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -1483,40 +1505,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins",
-   "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins",
-   "published": "2026-10-08T15:23:26+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7bd69f40f27f",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T15:24:47.965068+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Crypto for Advisors: Digital assets outran stocks and gold in Q3",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/10/08/crypto-for-advisors-digital-assets-outran-stocks-and-gold-in-q3",
-   "published": "2026-10-08T15:11:15+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N974b45230601",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T15:24:47.965068+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Bitcoin pulls back as analysts forecast $80,000-$90,000 Q4 trading range",
    "url": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
@@ -1618,27 +1606,6 @@
     "SOLUSDT"
    ],
    "id": "N629da2cca04f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T04:05:31.034957+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Solana’s Orca merges with Loopscale in push to finance AI, robotics and defense",
-   "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
-   "published": "2026-10-07T22:01:02+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Ne8b188821475",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
@@ -2384,24 +2351,34 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.087,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 11,
+   "last": "2026-10-10T15:10:37+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.045,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "project"
+   ],
+   "count": 3,
+   "last": "2026-10-10T15:10:37+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.149,
+   "sentiment": -0.152,
    "risk": 0.2,
    "events": [
     "market",
     "etf_flow",
     "security"
    ],
-   "count": 26,
-   "last": "2026-10-10T12:00:00+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.123,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 10,
+   "count": 25,
    "last": "2026-10-10T12:00:00+00:00"
   },
   "TRXUSDT": {
@@ -2419,22 +2396,13 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.006,
+   "sentiment": 0.005,
    "risk": 0.0,
    "events": [
     "project"
    ],
    "count": 6,
    "last": "2026-10-10T03:00:00+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 2,
-   "last": "2026-10-09T05:00:52+00:00"
   },
   "DOGEUSDT": {
    "sentiment": 0.0,
