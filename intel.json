@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-10T16:08:15.608246+00:00",
+ "updated_at": "2026-10-10T16:37:40.223758+00:00",
  "market": {
-  "btc_dominance": 59.08,
-  "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.27,
+  "btc_dominance": 59.11,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -2.34,
   "trending": [
    "STRK",
-   "NEAR",
    "QTC",
-   "DRV",
-   "PENGU",
-   "HYPE",
-   "TRUMP",
    "SWARM",
-   "ENA",
-   "BTC"
+   "TRUMP",
+   "NEAR",
+   "HYPE",
+   "DRV",
+   "AERO",
+   "PENGU",
+   "ZEC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
@@ -1957,11 +1957,15 @@
    "url": "https://www.binance.com/en/support/announcement/1718842b00ee41479c763ef27b6312f0",
    "published": "2026-09-24T10:45:04.777000+00:00",
    "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "HYPE"
+   ],
+   "symbols": [
+    "HYPEUSDT"
+   ],
    "id": "N5ce137125ddd",
    "kind_fa": "لیستینگ",
-   "importance": 7,
+   "importance": 8,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -1991,11 +1995,15 @@
    "url": "https://www.binance.com/en/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
    "published": "2026-09-24T07:30:38.608000+00:00",
    "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "HYPE"
+   ],
+   "symbols": [
+    "HYPEUSDT"
+   ],
    "id": "N7952bb195ebf",
    "kind_fa": "لیستینگ",
-   "importance": 7,
+   "importance": 8,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -2351,7 +2359,7 @@
    "last": "2026-10-10T15:10:37+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.115,
+   "sentiment": -0.116,
    "risk": 0.0,
    "events": [
     "market",
@@ -2375,7 +2383,7 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.004,
+   "sentiment": 0.003,
    "risk": 0.0,
    "events": [
     "project"
