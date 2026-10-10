@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-10T10:43:55.736859+00:00",
+ "updated_at": "2026-10-10T11:13:26.978476+00:00",
  "market": {
   "btc_dominance": 59.63,
   "usdt_dominance": 6.6,
-  "mcap_change_24h": -2.65,
+  "mcap_change_24h": -2.38,
   "trending": [
    "TRUMP",
    "SWARM",
    "NEAR",
    "QTC",
    "PENGU",
-   "PRL",
+   "BTC",
    "DRV",
    "QNT",
-   "STRK",
-   "BTC"
+   "SUI",
+   "MAGIC"
   ],
   "fear_greed": 64,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin's $19 billion wake-up call: One-year later, has crypto learned anything?",
+   "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+   "published": "2026-10-10T11:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ndb8104c06c85",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-10T11:13:26.978476+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Tech chief says EU can fend off rogue AI risk: Report",
@@ -1730,50 +1750,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin pulls off worst levels late in Thursday session",
-   "url": "https://www.coindesk.com/markets/2026/10/08/live-news-risk-assets-under-pressure-as-bond-selloff-and-oil-rally-intensify",
-   "published": "2026-10-08T10:44:47+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N62cf946a9cde",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T10:58:55.697729+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin slips below $83,000 as Ethereum researcher's 'bunker mode' call divides crypto",
-   "url": "https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto",
-   "published": "2026-10-08T10:30:41+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "Nfa143ac932f1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T10:58:55.697729+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Crypto industry split over Justin Drake’s AI warning",
    "url": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
@@ -2616,15 +2592,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.09,
+   "sentiment": -0.087,
    "risk": 0.2,
    "events": [
     "market",
     "etf_flow",
     "security"
    ],
-   "count": 32,
-   "last": "2026-10-10T07:10:43+00:00"
+   "count": 31,
+   "last": "2026-10-10T11:00:00+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.0,
@@ -2634,7 +2610,7 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.016,
+   "sentiment": 0.015,
    "risk": 0.0,
    "events": [
     "project"
