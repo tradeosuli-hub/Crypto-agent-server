@@ -774,7 +774,7 @@
  {
   "id": "Db6f4c5e3e7",
   "ts": "2026-10-10T06:30:29.517060+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "STRKUSDT",
   "direction": "long",
   "entry": 0.07144439285714285,
@@ -887,7 +887,29 @@
    "دیوار hammer_dulling · واکنش‌های گذشته 3",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-10T06:45:00+00:00"
+  "entered_at": "2026-10-10T06:45:00+00:00",
+  "outcome": "SL",
+  "exit": 0.06992560714285714,
+  "pnl_r": -1.0,
+  "closed_at": "2026-10-10T08:00:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "volume",
+    "news"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، volume، news"
+  }
  },
  {
   "id": "D1344034083",
