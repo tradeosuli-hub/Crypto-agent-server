@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-11T04:55:55.495620+00:00",
+ "updated_at": "2026-10-11T05:25:24.870154+00:00",
  "market": {
-  "btc_dominance": 59.12,
+  "btc_dominance": 59.13,
   "usdt_dominance": 6.53,
-  "mcap_change_24h": -2.34,
+  "mcap_change_24h": -2.44,
   "trending": [
    "SWARM",
    "STRK",
-   "NEAR",
-   "QTC",
    "TIA",
+   "QTC",
+   "NEAR",
+   "DRV",
    "PENGU",
-   "AERO",
    "FET",
-   "CARDS",
-   "DRV"
+   "AERO",
+   "PUMP"
   ],
   "fear_greed": 61,
   "fear_greed_label": "Greed"
@@ -2242,17 +2242,16 @@
    "last": "2026-10-10T15:10:37+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.033,
+   "sentiment": 0.0,
    "risk": 0.0,
    "events": [
-    "etf_flow",
-    "project"
+    "etf_flow"
    ],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-10T15:10:37+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.148,
+   "sentiment": -0.147,
    "risk": 0.0,
    "events": [
     "market",
@@ -2276,12 +2275,10 @@
    "last": "2026-10-10T04:20:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.055,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 4,
+   "events": [],
+   "count": 3,
    "last": "2026-10-10T03:00:00+00:00"
   }
  },
