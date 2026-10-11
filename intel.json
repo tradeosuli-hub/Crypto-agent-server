@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-11T23:07:48.661743+00:00",
+ "updated_at": "2026-10-11T23:37:22.824559+00:00",
  "market": {
   "btc_dominance": 59.59,
   "usdt_dominance": 6.53,
-  "mcap_change_24h": -2.91,
+  "mcap_change_24h": -2.87,
   "trending": [
    "TAUFA",
-   "BUNKER",
    "TRUMP",
-   "STRK",
    "NEAR",
+   "BUNKER",
+   "STRK",
+   "GRASS",
    "AERO",
-   "BTC",
-   "PENGU",
-   "FIL",
-   "QTC"
+   "BP",
+   "HYPE",
+   "BTC"
   ],
   "fear_greed": 61,
   "fear_greed_label": "Greed"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-11T23:07:48.661743+00:00",
    "notified": false
   },
@@ -532,7 +533,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "THORChain exec accuses Tether of temporarily freezing USDT vaults",
+   "title": "THORChain dev accuses Tether of temporarily freezing USDT vaults",
    "url": "https://cointelegraph.com/news/thorchain-tether-freezing-usdt-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-09T19:04:03+00:00",
    "kind": "news",
@@ -2225,7 +2226,7 @@
    "last": "2026-10-11T22:57:53+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.053,
+   "sentiment": -0.052,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2234,7 +2235,7 @@
    "last": "2026-10-11T22:26:02+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.163,
+   "sentiment": 0.166,
    "risk": 0.0,
    "events": [
     "token_burn"
