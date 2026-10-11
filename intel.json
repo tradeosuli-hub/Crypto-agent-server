@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-11T16:44:19.107123+00:00",
+ "updated_at": "2026-10-11T17:13:52.078760+00:00",
  "market": {
-  "btc_dominance": 59.57,
+  "btc_dominance": 59.56,
   "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.69,
+  "mcap_change_24h": -2.6,
   "trending": [
    "STRK",
    "TAUFA",
    "TRUMP",
    "NEAR",
-   "AERO",
    "PENGU",
-   "APT",
+   "S",
    "QTC",
-   "QNT",
-   "INJ"
+   "APT",
+   "AERO",
+   "BTC"
   ],
   "fear_greed": 61,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks",
+   "url": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-11T17:03:00+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nbb06ad7d28e2",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 6,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-11T17:13:52.078760+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
@@ -1280,23 +1300,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Netflix drops trailer for series based on FTX’s SBF and Caroline Ellison",
-   "url": "https://cointelegraph.com/news/netflix-series-ftx-sam-bankman-fried-caroline-ellison?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T18:17:35+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N87cecb860ae8",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T18:52:13.858621+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "NFL tells Supreme Court prediction market sports contracts are gambling, not swaps",
    "url": "https://www.theblock.co/news/regulation/2026-10-08-nfl-amicus-brief-supreme-court-kalshi-new-jersey-prediction-markets-418064",
@@ -2206,8 +2209,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.125,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 5,
+   "last": "2026-10-11T17:03:00+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.095,
+   "sentiment": -0.094,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2223,13 +2235,6 @@
    ],
    "count": 1,
    "last": "2026-10-10T15:10:37+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.291,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-10-10T12:00:00+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
