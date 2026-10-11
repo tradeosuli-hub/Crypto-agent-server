@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-11T22:38:26.031943+00:00",
+ "updated_at": "2026-10-11T23:07:48.661743+00:00",
  "market": {
-  "btc_dominance": 59.6,
+  "btc_dominance": 59.59,
   "usdt_dominance": 6.53,
-  "mcap_change_24h": -2.93,
+  "mcap_change_24h": -2.91,
   "trending": [
    "TAUFA",
-   "TRUMP",
    "BUNKER",
+   "TRUMP",
+   "STRK",
    "NEAR",
    "AERO",
-   "STRK",
    "BTC",
    "PENGU",
-   "QTC",
-   "ETH"
+   "FIL",
+   "QTC"
   ],
   "fear_greed": 61,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest",
+   "url": "https://cointelegraph.com/magazine/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-11T22:57:53+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Ne002b2ad3de2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-11T23:07:48.661743+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Trader nets $1.28 million on new 1,000x exchange Papertrade by moving Hyperliquid’s ETH prices",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-11T22:38:26.031943+00:00",
    "notified": false
   },
@@ -1304,23 +1325,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "NFL backs New Jersey authorities in SCOTUS petition over Kalshi",
-   "url": "https://cointelegraph.com/news/nfl-new-jersey-supreme-court-kalshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T19:17:18+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N523cfc06d1b2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T19:51:16.866321+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "JPMorgan estimates $50 billion has flowed into crypto this year as momentum improves into Q4",
    "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
@@ -2213,8 +2217,15 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-10-11T22:57:53+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.054,
+   "sentiment": -0.053,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2222,15 +2233,8 @@
    "count": 3,
    "last": "2026-10-11T22:26:02+00:00"
   },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-11T18:07:41+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": 0.161,
+   "sentiment": 0.163,
    "risk": 0.0,
    "events": [
     "token_burn"
