@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-11T09:21:27.435856+00:00",
+ "updated_at": "2026-10-11T09:51:00.467394+00:00",
  "market": {
   "btc_dominance": 59.68,
   "usdt_dominance": 6.59,
-  "mcap_change_24h": -2.68,
+  "mcap_change_24h": -2.69,
   "trending": [
    "SWARM",
    "STRK",
-   "TIA",
    "PENGU",
-   "PRL",
-   "ZEC",
-   "NEAR",
-   "QTC",
    "BTC",
-   "ARB"
+   "NEAR",
+   "ZEC",
+   "TIA",
+   "QTC",
+   "PRL",
+   "DRV"
   ],
   "fear_greed": 61,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-11T09:21:27.435856+00:00",
    "notified": false
   },
@@ -2222,7 +2223,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.071,
+   "sentiment": -0.07,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2240,13 +2241,13 @@
    "last": "2026-10-10T15:10:37+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.144,
+   "sentiment": -0.138,
    "risk": 0.0,
    "events": [
     "market",
     "etf_flow"
    ],
-   "count": 12,
+   "count": 11,
    "last": "2026-10-10T12:00:00+00:00"
   },
   "TRXUSDT": {
