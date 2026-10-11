@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-11T22:08:57.824950+00:00",
+ "updated_at": "2026-10-11T22:38:26.031943+00:00",
  "market": {
-  "btc_dominance": 59.61,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -3.09,
+  "btc_dominance": 59.6,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -2.93,
   "trending": [
-   "TRUMP",
-   "NEAR",
    "TAUFA",
+   "TRUMP",
    "BUNKER",
-   "STRK",
+   "NEAR",
    "AERO",
-   "HOODCAT",
+   "STRK",
+   "BTC",
    "PENGU",
-   "SUI",
-   "QTC"
+   "QTC",
+   "ETH"
   ],
   "fear_greed": 61,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Trader nets $1.28 million on new 1,000x exchange Papertrade by moving Hyperliquid’s ETH prices",
+   "url": "https://www.theblock.co/news/defi/2026-10-11-trader-nets-1-28-million-on-new-1000x-exchange-papertrade-by-moving-hyperliquids-eth-prices-418239",
+   "published": "2026-10-11T22:26:02+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N995b84c64b3c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-11T22:38:26.031943+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Everyone wants SCOTUS to take up prediction markets: State of Crypto",
@@ -1449,23 +1469,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Standard Chartered to expand crypto custody services in Singapore",
-   "url": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017",
-   "published": "2026-10-08T07:55:14+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N30c5b02cb6e5",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T08:01:43.483981+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
    "url": "https://www.binance.com/en/support/announcement/a1a7996170f246da90ea49f199a61bcd",
@@ -2210,6 +2213,15 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.054,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 3,
+   "last": "2026-10-11T22:26:02+00:00"
+  },
   "XRPUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2218,22 +2230,13 @@
    "last": "2026-10-11T18:07:41+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.158,
+   "sentiment": 0.161,
    "risk": 0.0,
    "events": [
     "token_burn"
    ],
    "count": 5,
    "last": "2026-10-11T17:11:00+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.103,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 2,
-   "last": "2026-10-10T15:10:37+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
