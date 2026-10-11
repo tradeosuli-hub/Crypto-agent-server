@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-11T10:20:30.268759+00:00",
+ "updated_at": "2026-10-11T10:49:55.723092+00:00",
  "market": {
-  "btc_dominance": 59.67,
+  "btc_dominance": 59.68,
   "usdt_dominance": 6.59,
-  "mcap_change_24h": -2.67,
+  "mcap_change_24h": -2.75,
   "trending": [
    "STRK",
-   "SWARM",
-   "BTC",
-   "NEAR",
    "QTC",
+   "BTC",
+   "PENGU",
    "AERO",
-   "ZEC",
+   "SWARM",
+   "NEAR",
    "STONK",
-   "ETH",
-   "ENA"
+   "ZRO",
+   "ZEC"
   ],
   "fear_greed": 61,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Coldcard says it’s investigating how phishing link appeared on its X account",
+   "url": "https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-11T10:22:44+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N094fee8ea670",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-11T10:49:55.723092+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Ledger confirms unauthorized hardware implant; losses may exceed $86M",
@@ -1372,23 +1388,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "IMF warns tokenized markets could amplify financial risks",
-   "url": "https://cointelegraph.com/news/imf-flags-volatility-liquidity-risks-tokenized-markets-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T16:25:06+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N42100598dc32",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T16:54:08.521924+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Bitcoin pulls back as analysts forecast $80,000-$90,000 Q4 trading range",
    "url": "https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052",
@@ -2223,12 +2222,12 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.082,
+   "sentiment": -0.1,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-10-10T15:10:37+00:00"
   },
   "SOLUSDT": {
@@ -2241,13 +2240,12 @@
    "last": "2026-10-10T15:10:37+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.155,
+   "sentiment": -0.205,
    "risk": 0.0,
    "events": [
-    "market",
-    "etf_flow"
+    "market"
    ],
-   "count": 10,
+   "count": 7,
    "last": "2026-10-10T12:00:00+00:00"
   },
   "TRXUSDT": {
@@ -2268,7 +2266,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 3,
+   "count": 2,
    "last": "2026-10-10T03:00:00+00:00"
   }
  },
