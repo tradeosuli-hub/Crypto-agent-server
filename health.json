@@ -1,12 +1,12 @@
 {
- "checked_at": "2026-10-11T01:43:25.948996+00:00",
+ "checked_at": "2026-10-11T01:57:51.254006+00:00",
  "checks": [
   {
    "name": "scan_fresh",
    "fa": "آخرین اسکن موفق",
    "ok": true,
-   "value": "5 دقیقه پیش",
-   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/38101961388"
+   "value": "9 دقیقه پیش",
+   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/38102511152"
   },
   {
    "name": "scan_failures",
@@ -25,7 +25,7 @@
    "name": "intel_fresh",
    "fa": "ایجنت اطلاعات",
    "ok": true,
-   "value": "14 دقیقه پیش"
+   "value": "29 دقیقه پیش"
   },
   {
    "name": "intel_loop",
@@ -44,12 +44,22 @@
  "runs": {
   "scan": [
    {
-    "id": 38102511152,
+    "id": 38103056148,
     "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
+    "created_at": "2026-10-11T01:48:20Z",
+    "updated_at": "2026-10-11T01:48:29Z",
+    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/38103056148",
+    "branch": "cursor/phoenix-signal-panel-69df"
+   },
+   {
+    "id": 38102511152,
+    "status": "completed",
+    "conclusion": "success",
+    "event": "workflow_dispatch",
     "created_at": "2026-10-11T01:38:32Z",
-    "updated_at": "2026-10-11T01:38:43Z",
+    "updated_at": "2026-10-11T01:48:26Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/38102511152",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -111,16 +121,6 @@
     "created_at": "2026-10-11T00:39:33Z",
     "updated_at": "2026-10-11T00:49:28Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/38099174363",
-    "branch": "cursor/phoenix-signal-panel-69df"
-   },
-   {
-    "id": 38098613004,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-10-11T00:29:46Z",
-    "updated_at": "2026-10-11T00:39:40Z",
-    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/38098613004",
     "branch": "cursor/phoenix-signal-panel-69df"
    }
   ],
