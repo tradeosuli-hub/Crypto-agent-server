@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-12T21:46:28.295156+00:00",
+ "updated_at": "2026-10-12T22:15:55.552811+00:00",
  "market": {
-  "btc_dominance": 59.2,
-  "usdt_dominance": 6.55,
-  "mcap_change_24h": -3.06,
+  "btc_dominance": 59.24,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": -3.13,
   "trending": [
    "BUNKER",
-   "NEAR",
-   "PENGU",
-   "PRL",
-   "QTC",
    "STRK",
-   "AERO",
+   "DOS",
+   "NEAR",
+   "PRL",
+   "S",
    "BLUR",
-   "RSR",
-   "S"
+   "PENGU",
+   "AERO",
+   "BTC"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Blur to shut down frontend next month as NFT trading volume dwindles",
+   "url": "https://www.theblock.co/news/ecosystems/2026-10-12-blur-nft-marketplace-shutting-down-frontend-blend-418363",
+   "published": "2026-10-12T21:49:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1a4b07a70ed9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T22:15:55.552811+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "FTX’s crypto mining venture is now used to advance AI",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T21:46:28.295156+00:00",
    "notified": false
   },
@@ -1481,23 +1498,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "New York AG secures up to $35 million from former Celsius CEO Alex Mashinsky",
-   "url": "https://www.theblock.co/news/regulation/2026-10-09-ny-attorney-general-alex-mashinsky-celsius-35-million-ban-418154",
-   "published": "2026-10-09T14:16:15+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4d533d0e6354",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T14:32:58.526042+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
    "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
@@ -1894,11 +1894,15 @@
    "url": "https://www.binance.com/en/support/announcement/1718842b00ee41479c763ef27b6312f0",
    "published": "2026-09-24T10:45:04.777000+00:00",
    "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "HYPE"
+   ],
+   "symbols": [
+    "HYPEUSDT"
+   ],
    "id": "N5ce137125ddd",
    "kind_fa": "لیستینگ",
-   "importance": 7,
+   "importance": 8,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -1928,11 +1932,15 @@
    "url": "https://www.binance.com/en/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d",
    "published": "2026-09-24T07:30:38.608000+00:00",
    "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "HYPE"
+   ],
+   "symbols": [
+    "HYPEUSDT"
+   ],
    "id": "N7952bb195ebf",
    "kind_fa": "لیستینگ",
-   "importance": 7,
+   "importance": 8,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -2215,7 +2223,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.085,
-   "risk": 0.39,
+   "risk": 0.385,
    "events": [
     "etf_flow",
     "macro",
