@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-12T22:15:55.552811+00:00",
+ "updated_at": "2026-10-12T22:45:35.641983+00:00",
  "market": {
-  "btc_dominance": 59.24,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -3.13,
+  "btc_dominance": 59.26,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": -3.39,
   "trending": [
    "BUNKER",
-   "STRK",
+   "QTC",
    "DOS",
-   "NEAR",
-   "PRL",
-   "S",
-   "BLUR",
+   "STRK",
    "PENGU",
-   "AERO",
-   "BTC"
+   "PRL",
+   "BTC",
+   "PUMP",
+   "NEAR",
+   "HYPE"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T22:15:55.552811+00:00",
    "notified": false
   },
@@ -2223,7 +2224,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.085,
-   "risk": 0.385,
+   "risk": 0.38,
    "events": [
     "etf_flow",
     "macro",
