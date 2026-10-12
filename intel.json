@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-12T13:54:00.844374+00:00",
+ "updated_at": "2026-10-12T14:23:36.376992+00:00",
  "market": {
-  "btc_dominance": 58.95,
+  "btc_dominance": 59.01,
   "usdt_dominance": 6.53,
-  "mcap_change_24h": -2.91,
+  "mcap_change_24h": -1.96,
   "trending": [
    "BUNKER",
+   "PRL",
+   "W",
    "TRUMP",
    "STRK",
-   "GTC",
-   "W",
    "NEAR",
    "QTC",
-   "GRASS",
-   "PRL",
+   "GTC",
+   "ZRO",
    "PENGU"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
+   "url": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T14:07:00+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncc2adde860df",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T14:23:36.376992+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitmine adds 12,532 ETH as Tom Lee flags potential ‘largest-ever’ crypto bull market",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T13:54:00.844374+00:00",
    "notified": false
   },
@@ -1416,23 +1437,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "ESMA seeks evidence tokenized collateral can be cashed out in crisis",
-   "url": "https://cointelegraph.com/news/esma-tokenized-collateral-eu-clearinghouses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T10:49:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6f4d13d05997",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T11:06:25.735147+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Thailand SEC issues bitcoin and ether ETF rules set to take effect Oct. 16",
    "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132",
@@ -2209,6 +2213,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.114,
+   "risk": 0.467,
+   "events": [
+    "etf_flow",
+    "macro",
+    "listing",
+    "token_burn"
+   ],
+   "count": 11,
+   "last": "2026-10-12T14:07:00+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.082,
    "risk": 0.0,
@@ -2218,18 +2234,6 @@
    ],
    "count": 4,
    "last": "2026-10-12T13:43:32+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.135,
-   "risk": 0.472,
-   "events": [
-    "macro",
-    "listing",
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 10,
-   "last": "2026-10-12T12:31:51+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.185,
