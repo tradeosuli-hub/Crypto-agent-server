@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-12T14:53:05.174015+00:00",
+ "updated_at": "2026-10-12T15:22:32.359260+00:00",
  "market": {
-  "btc_dominance": 59.03,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -2.46,
+  "btc_dominance": 59.0,
+  "usdt_dominance": 6.54,
+  "mcap_change_24h": -2.24,
   "trending": [
    "BUNKER",
    "PRL",
-   "W",
-   "NEAR",
    "STRK",
-   "TRUMP",
+   "NEAR",
+   "W",
    "QTC",
-   "ZRO",
+   "PENGU",
+   "TRUMP",
    "S",
-   "KLED"
+   "ZRO"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Tokenized catastrophe bonds target the disaster-insurance gap",
+   "url": "https://www.coindesk.com/business/2026/10/12/tokenized-catastrophe-bonds-target-the-disaster-insurance-gap",
+   "published": "2026-10-12T15:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N26bcd0b2194f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T15:22:32.359260+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "DeFi Development grows SOL holdings 12% as CHAD hits record highs",
+   "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
+   "published": "2026-10-12T14:53:25+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N06db7cbee1cb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T15:22:32.359260+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "XRP treasury Evernorth’s shares rise 5% at Nasdaq opening print",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T14:53:05.174015+00:00",
    "notified": false
   },
@@ -1335,23 +1372,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
-   "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
-   "published": "2026-10-09T14:55:23+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N435037fd6b96",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T15:02:30.461262+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Ledger investigates wallet drains involving CryptoBilis buyers; estimate tops $86 million in losses",
    "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163",
@@ -1512,23 +1532,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T07:10:18.213973+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "JPMorgan estimates $50 billion has flowed into crypto this year as momentum improves into Q4",
-   "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
-   "published": "2026-10-08T18:46:59+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na218f84dc6b2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T18:52:13.858621+00:00",
    "notified": false
   },
   {
@@ -2213,8 +2216,15 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-12T14:53:25+00:00"
+  },
   "XRPUSDT": {
-   "sentiment": 0.161,
+   "sentiment": 0.162,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2224,7 +2234,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.114,
-   "risk": 0.462,
+   "risk": 0.457,
    "events": [
     "etf_flow",
     "macro",
@@ -2235,13 +2245,12 @@
    "last": "2026-10-12T14:07:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.082,
+   "sentiment": 0.094,
    "risk": 0.0,
    "events": [
-    "project",
-    "etf_flow"
+    "project"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-10-12T13:43:32+00:00"
   },
   "SUIUSDT": {
@@ -2250,15 +2259,6 @@
    "events": [],
    "count": 2,
    "last": "2026-10-12T05:15:43+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 1,
-   "last": "2026-10-10T15:10:37+00:00"
   }
  },
  "social": {},
