@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-12T16:21:42.409657+00:00",
+ "updated_at": "2026-10-12T16:51:12.580308+00:00",
  "market": {
-  "btc_dominance": 59.04,
+  "btc_dominance": 59.05,
   "usdt_dominance": 6.53,
-  "mcap_change_24h": -2.97,
+  "mcap_change_24h": -3.02,
   "trending": [
    "BUNKER",
-   "W",
-   "PRL",
-   "QTC",
-   "NEAR",
-   "ZRO",
    "STRK",
+   "PRL",
+   "W",
+   "PENGU",
+   "NEAR",
+   "QTC",
+   "ZRO",
    "GRASS",
-   "KLED",
-   "ZEC"
+   "PYTH"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
+   "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T16:30:21+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N18e046a92c39",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T16:51:12.580308+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Palantir's Europe head warns the region is 'missing the boat' on AI just as it did with the internet",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T16:21:42.409657+00:00",
    "notified": false
   },
@@ -1428,23 +1449,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Dragonfly partner rejects ‘bunker mode’ doomerism, calls for proactive blockchain measures",
-   "url": "https://cointelegraph.com/news/dragonfly-bunker-mode-doomerism-proactive-blockchain-measures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T13:49:22+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2825fec01693",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.1,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T14:03:32.296060+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Base creator Jesse Pollak says equities and non-dollar stablecoins will lead upcoming ‘tokenization supercycle’",
    "url": "https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144",
@@ -2221,6 +2225,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.093,
+   "risk": 0.441,
+   "events": [
+    "etf_flow",
+    "macro",
+    "listing",
+    "token_burn"
+   ],
+   "count": 12,
+   "last": "2026-10-12T16:30:21+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.071,
    "risk": 0.0,
@@ -2245,18 +2261,6 @@
    ],
    "count": 8,
    "last": "2026-10-12T14:18:49+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.114,
-   "risk": 0.447,
-   "events": [
-    "etf_flow",
-    "macro",
-    "listing",
-    "token_burn"
-   ],
-   "count": 11,
-   "last": "2026-10-12T14:07:00+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.0,
