@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-12T21:16:52.705197+00:00",
+ "updated_at": "2026-10-12T21:46:28.295156+00:00",
  "market": {
-  "btc_dominance": 59.17,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -3.02,
+  "btc_dominance": 59.2,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -3.06,
   "trending": [
    "BUNKER",
    "NEAR",
-   "PRL",
    "PENGU",
+   "PRL",
    "QTC",
-   "S",
+   "STRK",
+   "AERO",
    "BLUR",
-   "PUMP",
-   "W",
-   "STRK"
+   "RSR",
+   "S"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "FTX’s crypto mining venture is now used to advance AI",
+   "url": "https://cointelegraph.com/news/ftx-crypto-mining-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T21:11:26+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd6e77b5b1c23",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T21:46:28.295156+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "CFTC’s new crypto framework could face 2028 election deadline, says TD Cowen",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T21:16:52.705197+00:00",
    "notified": false
   },
@@ -1413,23 +1430,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Ledger investigates fund losses linked to Southeast Asian reseller, warns users",
-   "url": "https://cointelegraph.com/news/ledger-investigates-fund-losses-linked-to-southeast-asian-reseller-warns-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T17:02:47+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N610aa259b31f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T17:30:04.046184+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Blockchain.com seeks CFTC greenlight for US prediction markets, crypto derivatives trading: CNBC",
    "url": "https://www.theblock.co/news/business/2026-10-09-blockchain-com-cftc-license-prediction-markets-derivatives-418192",
@@ -2215,7 +2215,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.085,
-   "risk": 0.395,
+   "risk": 0.39,
    "events": [
     "etf_flow",
     "macro",
