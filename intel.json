@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-12T04:32:26.819291+00:00",
+ "updated_at": "2026-10-12T05:01:53.942704+00:00",
  "market": {
-  "btc_dominance": 59.67,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -2.64,
+  "btc_dominance": 59.66,
+  "usdt_dominance": 6.5,
+  "mcap_change_24h": -2.36,
   "trending": [
    "W",
    "BUNKER",
-   "ICP",
-   "STRK",
-   "QTC",
-   "NEAR",
    "GRASS",
-   "BTC",
-   "ZRO",
-   "PRL"
+   "ICP",
+   "NEAR",
+   "QTC",
+   "STRK",
+   "PRL",
+   "TIA",
+   "DATA"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+   "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
+   "published": "2026-10-12T04:49:30+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N84a7c4b7fd49",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T05:01:53.942704+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "French lawmakers back reporting rule for crypto wallets over $112K",
+   "url": "https://cointelegraph.com/news/french-lawmakers-back-reporting-rule-for-crypto-wallets-over-112k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T04:45:15+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5c496a4df851",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T05:01:53.942704+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Former Acting Chair Caroline Pham says CFTC can regulate almost everything except ‘onions and box office receipts’",
+   "url": "https://www.theblock.co/news/regulation/2026-10-12-former-cftc-acting-chair-caroline-pham-onions-418246",
+   "published": "2026-10-12T04:33:57+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf58f26207934",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-12T05:01:53.942704+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Sui Foundation invests $30 million in DATA Network as AI data protocol migrates to Sui",
@@ -1231,27 +1283,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin slips from day's highs, set to close week with a loss",
-   "url": "https://www.coindesk.com/business/2026/10/09/live-updates-xrp-etfs-the-only-ones-in-green-as-btc-eth-zec-funds-post-outflows",
-   "published": "2026-10-09T06:51:32+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N15a7a2ff3607",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T07:10:18.213973+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Crypto projects apply for Anthropic’s new frontier AI security scanner",
    "url": "https://cointelegraph.com/news/crypto-projects-apply-for-anthropics-new-frontier-ai-security-scanner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1327,23 +1358,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T01:16:07.324615+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "China’s P2P stablecoin wallets surge 43x, Korea’s $450B crypto economy: Asia Express",
-   "url": "https://cointelegraph.com/magazine/chinas-p2p-stablecoin-wallets-surge-43x-koreas-450b-crypto-economy-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T22:35:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na7baed191b62",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T22:48:42.084269+00:00",
    "notified": false
   },
   {
@@ -1458,23 +1472,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-08T14:55:09.809579+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Securitize launches 1:1-backed tokenized stocks, starting with Apple, Nvidia, Strategy and more",
-   "url": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043",
-   "published": "2026-10-08T14:04:39+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd4f96a0c1720",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T14:25:33.166228+00:00",
    "notified": false
   },
   {
@@ -2214,6 +2211,16 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.218,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 6,
+   "last": "2026-10-12T04:49:30+00:00"
+  },
   "SUIUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2229,22 +2236,13 @@
    "last": "2026-10-12T01:21:29+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.05,
+   "sentiment": -0.051,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
    "count": 3,
    "last": "2026-10-11T22:26:02+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.168,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 5,
-   "last": "2026-10-11T17:11:00+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
