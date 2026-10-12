@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-12T01:35:22.983287+00:00",
+ "updated_at": "2026-10-12T02:04:52.600358+00:00",
  "market": {
-  "btc_dominance": 59.61,
-  "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.58,
+  "btc_dominance": 59.58,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -2.78,
   "trending": [
    "BUNKER",
-   "NEAR",
-   "STRK",
    "GRASS",
    "QTC",
-   "TRUMP",
-   "PRL",
+   "NEAR",
+   "STRK",
    "PENGU",
-   "VVV",
-   "ICP"
+   "PRL",
+   "TRUMP",
+   "RAY",
+   "ZEC"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Sui Foundation invests $30 million in DATA Network as AI data protocol migrates to Sui",
+   "url": "https://www.theblock.co/news/ecosystems/2026-10-11-sui-foundation-invests-30-million-data-network-418243",
+   "published": "2026-10-12T02:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SUI"
+   ],
+   "symbols": [
+    "SUIUSDT"
+   ],
+   "id": "Nbe783888cdb6",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T02:04:52.600358+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "XRP Ledger defends emergency patch for unlimited XRP bug",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T01:35:22.983287+00:00",
    "notified": false
   },
@@ -1456,23 +1477,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Crypto industry split over Justin Drake’s AI warning",
-   "url": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
-   "published": "2026-10-08T10:20:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ndd8524ebc3a3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T10:29:26.007577+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
    "url": "https://www.binance.com/en/support/announcement/a1a7996170f246da90ea49f199a61bcd",
@@ -2217,6 +2221,13 @@
   }
  ],
  "symbols": {
+  "SUIUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-12T02:00:00+00:00"
+  },
   "XRPUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2225,7 +2236,7 @@
    "last": "2026-10-12T01:21:29+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.048,
+   "sentiment": -0.047,
    "risk": 0.0,
    "events": [
     "etf_flow"
