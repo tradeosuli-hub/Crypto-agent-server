@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-12T06:30:27.403435+00:00",
+ "updated_at": "2026-10-12T06:59:55.168728+00:00",
  "market": {
-  "btc_dominance": 59.52,
-  "usdt_dominance": 6.51,
-  "mcap_change_24h": -2.5,
+  "btc_dominance": 59.54,
+  "usdt_dominance": 6.5,
+  "mcap_change_24h": -2.28,
   "trending": [
    "BUNKER",
    "W",
    "GRASS",
-   "STRK",
    "QTC",
-   "RSR",
    "NEAR",
-   "SUI",
-   "BP",
-   "ICP"
+   "STRK",
+   "RSR",
+   "BTC",
+   "PLUME",
+   "SUI"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Global watchdog flags stablecoin risks, AI threats ahead of G20",
+   "url": "https://cointelegraph.com/news/fsb-stablecoin-ai-risks-g20-finance-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T06:30:21+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5ddd1f98c2d3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T06:59:55.168728+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
@@ -33,6 +49,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T06:30:27.403435+00:00",
    "notified": false
   },
@@ -1357,29 +1374,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
-   "url": "https://cointelegraph.com/news/thailand-finalizes-rules-paving-way-for-bitcoin-ether-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T03:08:51+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "N28228e98d683",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T03:43:35.998380+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "JPMorgan estimates $50 billion has flowed into crypto this year as momentum improves into Q4",
    "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
@@ -2221,7 +2215,7 @@
    "last": "2026-10-12T05:15:43+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.217,
+   "sentiment": -0.218,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2238,7 +2232,7 @@
    "last": "2026-10-12T01:21:29+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.053,
+   "sentiment": -0.054,
    "risk": 0.0,
    "events": [
     "etf_flow"
