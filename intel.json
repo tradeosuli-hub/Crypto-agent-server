@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-12T18:19:53.712451+00:00",
+ "updated_at": "2026-10-12T18:49:23.102811+00:00",
  "market": {
-  "btc_dominance": 59.08,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -3.53,
+  "btc_dominance": 59.07,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": -3.57,
   "trending": [
    "BUNKER",
    "W",
    "NEAR",
-   "STRK",
-   "QTC",
-   "TRUMP",
-   "BTC",
    "PENGU",
+   "STRK",
+   "PONS",
+   "PRL",
+   "BTC",
    "GRASS",
-   "PONS"
+   "AAVE"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Binance launches AI trading tool after 150,000-user beta",
+   "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349",
+   "published": "2026-10-12T18:44:10+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf1ede1d5d776",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T18:49:23.102811+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US accounting overhaul could make stablecoins more attractive to corporations: Tempo",
+   "url": "https://cointelegraph.com/news/fasb-stablecoin-accounting-rules-corporate-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T18:38:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N24db041749ee",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T18:49:23.102811+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "StoneX raises Securitize price target 50% as tokenized stock platform opens new revenue stream",
@@ -1397,23 +1429,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Crypto Biz: Wealthy investors are buying crypto, but their advisers aren’t sold",
-   "url": "https://cointelegraph.com/news/wealthy-investors-crypto-advisers-okx-strategy-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T15:51:53+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfdcc1ade82c4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T16:01:38.248622+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Ledger investigates wallet drains involving CryptoBilis buyers; estimate tops $86 million in losses",
    "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163",
@@ -1479,29 +1494,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T13:33:56.265379+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Thailand SEC issues bitcoin and ether ETF rules set to take effect Oct. 16",
-   "url": "https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132",
-   "published": "2026-10-09T10:40:59+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "N660b8c462b05",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T11:06:25.735147+00:00",
    "notified": false
   },
   {
@@ -2222,7 +2214,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.087,
-   "risk": 0.426,
+   "risk": 0.421,
    "events": [
     "etf_flow",
     "macro",
