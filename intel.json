@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-12T16:51:12.580308+00:00",
+ "updated_at": "2026-10-12T17:20:46.115874+00:00",
  "market": {
-  "btc_dominance": 59.05,
-  "usdt_dominance": 6.53,
-  "mcap_change_24h": -3.02,
+  "btc_dominance": 59.07,
+  "usdt_dominance": 6.56,
+  "mcap_change_24h": -3.59,
   "trending": [
    "BUNKER",
    "STRK",
-   "PRL",
    "W",
-   "PENGU",
    "NEAR",
+   "PRL",
    "QTC",
-   "ZRO",
-   "GRASS",
-   "PYTH"
+   "TRUMP",
+   "PENGU",
+   "RSR",
+   "ZRO"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "StoneX raises Securitize price target 50% as tokenized stock platform opens new revenue stream",
+   "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
+   "published": "2026-10-12T17:06:25+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N95ee7fa89ac1",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T17:20:46.115874+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
+   "url": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T16:51:05+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf7434a6c94db",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T17:20:46.115874+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-12T16:51:12.580308+00:00",
    "notified": false
   },
@@ -1375,29 +1412,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports",
-   "url": "https://cointelegraph.com/markets/bitcoin-consolidates-crypto-weathers-ledger-theft-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T15:20:36+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N4f49ff288106",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T16:01:38.248622+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Ledger investigates wallet drains involving CryptoBilis buyers; estimate tops $86 million in losses",
    "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163",
@@ -1486,27 +1500,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T11:06:25.735147+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Sam Altman-backed bitcoin life insurer Meanwhile raises $37.5 million round led by Bain Capital Crypto",
-   "url": "https://www.theblock.co/news/deals/2026-10-09-sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-37-5-million-round-led-by-bain-capital-crypto-418131",
-   "published": "2026-10-09T10:33:46+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na2e6c24047cd",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T10:36:59.827890+00:00",
    "notified": false
   },
   {
@@ -2226,16 +2219,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.093,
-   "risk": 0.441,
+   "sentiment": 0.088,
+   "risk": 0.436,
    "events": [
     "etf_flow",
     "macro",
     "listing",
     "token_burn"
    ],
-   "count": 12,
-   "last": "2026-10-12T16:30:21+00:00"
+   "count": 13,
+   "last": "2026-10-12T16:51:05+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.071,
