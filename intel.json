@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-12T01:05:55.636638+00:00",
+ "updated_at": "2026-10-12T01:35:22.983287+00:00",
  "market": {
   "btc_dominance": 59.61,
-  "usdt_dominance": 6.51,
-  "mcap_change_24h": -2.61,
+  "usdt_dominance": 6.52,
+  "mcap_change_24h": -2.58,
   "trending": [
    "BUNKER",
+   "NEAR",
    "STRK",
    "GRASS",
-   "NEAR",
-   "TRUMP",
-   "PENGU",
-   "TAUFA",
    "QTC",
+   "TRUMP",
    "PRL",
+   "PENGU",
+   "VVV",
    "ICP"
   ],
   "fear_greed": 69,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "XRP Ledger defends emergency patch for unlimited XRP bug",
+   "url": "https://cointelegraph.com/news/xrp-ledger-defends-emergency-patch-for-unlimited-xrp-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-12T01:21:29+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N8bf15705560d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-12T01:35:22.983287+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest",
@@ -1305,27 +1325,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Securitize stock jumps over 10% after launching tokenized US equities on Solana",
-   "url": "https://cointelegraph.com/news/securitize-stock-jumps-launching-tokenized-us-equities-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-08T19:31:38+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nf7e76f3a8aca",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-08T19:51:16.866321+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "JPMorgan estimates $50 billion has flowed into crypto this year as momentum improves into Q4",
    "url": "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
@@ -2222,11 +2221,11 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 3,
-   "last": "2026-10-11T22:57:53+00:00"
+   "count": 4,
+   "last": "2026-10-12T01:21:29+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.049,
+   "sentiment": -0.048,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2235,7 +2234,7 @@
    "last": "2026-10-11T22:26:02+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.174,
+   "sentiment": 0.176,
    "risk": 0.0,
    "events": [
     "token_burn"
