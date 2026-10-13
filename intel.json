@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-13T04:10:07.650867+00:00",
+ "updated_at": "2026-10-13T04:39:43.708029+00:00",
  "market": {
-  "btc_dominance": 59.32,
+  "btc_dominance": 59.3,
   "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.59,
+  "mcap_change_24h": -2.48,
   "trending": [
    "CRAWLER",
    "CLAUDIA",
    "BUNKER",
-   "PRL",
+   "PENGU",
    "QTC",
-   "STRK",
-   "ZRO",
-   "BP",
+   "NEAR",
    "BTC",
-   "PUMP"
+   "BP",
+   "SUI",
+   "STRK"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin whale moves $378 million in BTC after six years of dormancy: onchain data",
+   "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
+   "published": "2026-10-13T04:18:30+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N148d2cfce11d",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T04:39:43.708029+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+   "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+   "published": "2026-10-13T04:18:20+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne281186212b2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T04:39:43.708029+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
@@ -1322,7 +1362,7 @@
    ],
    "id": "N3f8fd0474161",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -1448,27 +1488,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Visa survey says nearly half of APAC consumers open to using stablecoins by 2031",
-   "url": "https://www.coindesk.com/business/2026/10/05/1-2-billion-apac-consumers-could-adopt-stablecoins-by-2031-according-to-visa",
-   "published": "2026-10-10T03:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "NEAR"
-   ],
-   "symbols": [
-    "NEARUSDT"
-   ],
-   "id": "N19f2df5a64df",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-10T03:21:23.109995+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
    "url": "https://cointelegraph.com/news/scott-bessent-us-seize-crypto-iran-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1517,23 +1536,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T16:31:04.413110+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Ledger investigates wallet drains involving CryptoBilis buyers; estimate tops $86 million in losses",
-   "url": "https://www.theblock.co/news/business/2026-10-09-ledger-cryptobilis-fund-losses-418163",
-   "published": "2026-10-09T14:52:55+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2f26afb5e72e",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T15:02:30.461262+00:00",
    "notified": false
   },
   {
@@ -2227,8 +2229,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.083,
-   "risk": 0.324,
+   "sentiment": 0.081,
+   "risk": 0.318,
    "events": [
     "market",
     "etf_flow",
@@ -2236,8 +2238,8 @@
     "listing",
     "token_burn"
    ],
-   "count": 14,
-   "last": "2026-10-13T01:57:49+00:00"
+   "count": 16,
+   "last": "2026-10-13T04:18:30+00:00"
   },
   "APTUSDT": {
    "sentiment": 0.0,
@@ -2263,7 +2265,7 @@
    "last": "2026-10-12T14:53:25+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.167,
+   "sentiment": 0.168,
    "risk": 0.0,
    "events": [
     "listing"
