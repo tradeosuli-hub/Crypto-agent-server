@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-13T02:41:37.551614+00:00",
+ "updated_at": "2026-10-13T03:11:09.238036+00:00",
  "market": {
-  "btc_dominance": 59.37,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -3.5,
+  "btc_dominance": 59.35,
+  "usdt_dominance": 6.56,
+  "mcap_change_24h": -3.3,
   "trending": [
    "CLAUDIA",
    "BUNKER",
-   "PRL",
-   "BTC",
-   "SOL",
-   "NEAR",
-   "STRK",
+   "CRAWLER",
+   "PENGU",
    "DRV",
-   "SUI",
-   "UNI"
+   "STRK",
+   "SOL",
+   "PRL",
+   "AERO",
+   "NEAR"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Notice on the Closure of Binance Pool Services",
+   "url": "https://www.binance.com/en/support/announcement/2b45800173fd44f48b4517f25f941434",
+   "published": "2026-10-13T03:00:09.478000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3588a169659f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T03:11:09.238036+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "South Korea moves to block 27 crypto websites, including KuCoin, MEXC",
+   "url": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T02:41:30+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9822bb90f7fa",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T03:11:09.238036+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million",
@@ -1435,23 +1467,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "New York permanently bars Celsius founder Mashinsky in $35M fraud settlement",
-   "url": "https://cointelegraph.com/news/celsius-founder-alex-mashinsky-permanently-banned-from-crypto-industry-in-ny-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T20:14:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N01764f9f1ebb",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T20:28:06.700330+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Former FTX COO says Netflix’s ‘Altruists’ trailer ‘made me physically throw up’",
    "url": "https://www.theblock.co/news/business/2026-10-09-former-ftx-coo-netflix-the-altruists-trailer-418208",
@@ -1971,23 +1986,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Earn Yield Arena: Share $200K RLUSD Rewards With This Week’s New Limited-Time Offers! (2026-09-23)",
-   "url": "https://www.binance.com/en/support/announcement/59d5ee68f2d84d4a9a731c53c281ce00",
-   "published": "2026-09-23T07:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf317067a2b9d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)",
    "url": "https://www.binance.com/en/support/announcement/8bd2b3a7684749bba472e71fc3ad8043",
    "published": "2026-09-23T07:15:46.848000+00:00",
@@ -2227,8 +2225,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.084,
-   "risk": 0.339,
+   "sentiment": 0.083,
+   "risk": 0.334,
    "events": [
     "market",
     "etf_flow",
@@ -2263,7 +2261,7 @@
    "last": "2026-10-12T14:53:25+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.166,
+   "sentiment": 0.167,
    "risk": 0.0,
    "events": [
     "listing"
