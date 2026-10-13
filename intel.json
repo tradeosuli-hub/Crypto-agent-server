@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-13T22:53:59.305919+00:00",
+ "updated_at": "2026-10-13T23:23:32.633950+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 6.51,
-  "mcap_change_24h": -2.01,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 6.52,
+  "mcap_change_24h": -1.83,
   "trending": [
    "WISP",
    "DOPE",
@@ -11,15 +11,35 @@
    "ZYLO",
    "PRL",
    "BAT",
-   "ETH",
-   "QNT",
-   "STRK",
-   "NEAR"
+   "QTC",
+   "NEAR",
+   "PUMP",
+   "PEPE"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
+   "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+   "published": "2026-10-13T23:23:05+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5839a6e29be0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T23:23:32.633950+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing",
@@ -1864,27 +1884,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest",
-   "url": "https://cointelegraph.com/magazine/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-11T22:57:53+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Ne002b2ad3de2",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-11T23:07:48.661743+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
    "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
@@ -2544,6 +2543,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.005,
+   "risk": 0.123,
+   "events": [
+    "market",
+    "etf_flow",
+    "macro",
+    "listing"
+   ],
+   "count": 29,
+   "last": "2026-10-13T23:23:05+00:00"
+  },
   "BNBUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2552,33 +2563,21 @@
    "last": "2026-10-13T19:48:06+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.079,
+   "sentiment": 0.078,
    "risk": 0.0,
    "events": [],
    "count": 2,
    "last": "2026-10-13T19:48:06+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.07,
+   "sentiment": 0.072,
    "risk": 0.0,
    "events": [
     "market",
     "listing"
    ],
-   "count": 9,
+   "count": 8,
    "last": "2026-10-13T16:00:00+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.005,
-   "risk": 0.129,
-   "events": [
-    "market",
-    "etf_flow",
-    "macro",
-    "listing"
-   ],
-   "count": 28,
-   "last": "2026-10-13T15:57:55+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.19,
