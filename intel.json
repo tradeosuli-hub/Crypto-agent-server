@@ -1,25 +1,87 @@
 {
- "updated_at": "2026-10-13T11:03:42.277817+00:00",
+ "updated_at": "2026-10-13T11:33:16.716950+00:00",
  "market": {
-  "btc_dominance": 59.85,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -3.89,
+  "btc_dominance": 59.36,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -3.82,
   "trending": [
    "WISP",
    "CRAWLER",
    "IMD6900",
    "BUNKER",
-   "NEAR",
+   "PENGU",
    "PRL",
+   "NEAR",
    "QTC",
-   "ETH",
-   "STRK",
-   "PENGU"
+   "W",
+   "SUI"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
+   "published": "2026-10-13T11:26:45+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4d6f80cc0099",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T11:33:16.716950+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
+   "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T11:11:27+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nc1770e19f6d8",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.5,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T11:33:16.716950+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
+   "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
+   "published": "2026-10-13T11:06:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "Nc3a5649be04a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T11:33:16.716950+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Russia’s largest bank Sberbank secures approval to trade crypto",
@@ -33,6 +95,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T11:03:42.277817+00:00",
    "notified": false
   },
@@ -53,6 +116,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T11:03:42.277817+00:00",
    "notified": false
   },
@@ -73,6 +137,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T11:03:42.277817+00:00",
    "notified": false
   },
@@ -89,6 +154,7 @@
    "importance": 5,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T11:03:42.277817+00:00",
    "notified": false
   },
@@ -2267,8 +2333,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.007,
-   "risk": 0.252,
+   "sentiment": 0.03,
+   "risk": 0.247,
    "events": [
     "market",
     "etf_flow",
@@ -2276,11 +2342,20 @@
     "listing",
     "token_burn"
    ],
-   "count": 22,
-   "last": "2026-10-13T10:46:57+00:00"
+   "count": 24,
+   "last": "2026-10-13T11:26:45+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": 0.21,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 7,
+   "last": "2026-10-13T11:11:27+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.068,
+   "sentiment": 0.067,
    "risk": 0.0,
    "events": [
     "market",
@@ -2288,15 +2363,6 @@
    ],
    "count": 9,
    "last": "2026-10-13T05:27:17+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.051,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 5,
-   "last": "2026-10-13T04:43:18+00:00"
   },
   "APTUSDT": {
    "sentiment": 0.0,
