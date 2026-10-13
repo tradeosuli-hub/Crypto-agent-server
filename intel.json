@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-13T03:11:09.238036+00:00",
+ "updated_at": "2026-10-13T03:40:36.736317+00:00",
  "market": {
-  "btc_dominance": 59.35,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -3.3,
+  "btc_dominance": 59.33,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -3.09,
   "trending": [
+   "CRAWLER",
    "CLAUDIA",
    "BUNKER",
-   "CRAWLER",
-   "PENGU",
-   "DRV",
    "STRK",
-   "SOL",
    "PRL",
-   "AERO",
-   "NEAR"
+   "PENGU",
+   "SOL",
+   "QTC",
+   "PUMP",
+   "S"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+   "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+   "published": "2026-10-13T03:30:01.158000+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb12e9f3ec668",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T03:40:36.736317+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Notice on the Closure of Binance Pool Services",
@@ -33,6 +49,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T03:11:09.238036+00:00",
    "notified": false
   },
@@ -49,6 +66,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T03:11:09.238036+00:00",
    "notified": false
   },
@@ -2037,23 +2055,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
-   "url": "https://www.binance.com/en/support/announcement/3cc589ca05904ca28e6ddebeb14148db",
-   "published": "2026-09-23T05:00:01.336000+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne5febed5b599",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Notice of Removal of Margin Trading Pairs - 2026-09-25",
    "url": "https://www.binance.com/en/support/announcement/262bbb7dcdc243b09e854742e57e1e8e",
    "published": "2026-09-22T08:00:01.264000+00:00",
@@ -2226,7 +2227,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.083,
-   "risk": 0.334,
+   "risk": 0.329,
    "events": [
     "market",
     "etf_flow",
