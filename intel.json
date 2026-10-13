@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-13T05:09:17.185817+00:00",
+ "updated_at": "2026-10-13T05:38:47.189050+00:00",
  "market": {
   "btc_dominance": 59.3,
-  "usdt_dominance": 6.51,
-  "mcap_change_24h": -3.09,
+  "usdt_dominance": 6.5,
+  "mcap_change_24h": -2.83,
   "trending": [
-   "CRAWLER",
    "IMD6900",
-   "CLAUDIA",
    "BUNKER",
+   "CRAWLER",
+   "CLAUDIA",
    "QTC",
-   "PENGU",
    "STRK",
-   "NEAR",
    "BTC",
-   "W"
+   "NEAR",
+   "PENGU",
+   "S"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Tokenized SanDisk bets saw more liquidations than XRP as Asia’s chip rout wipes out $800 million",
+   "url": "https://www.coindesk.com/markets/2026/10/13/tokenized-sandisk-bets-saw-more-liquidations-than-xrp-as-asia-s-chip-rout-wipes-out-usd800-million",
+   "published": "2026-10-13T05:27:17+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N271982e5316a",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T05:38:47.189050+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance to shut down crypto mining pool services in November",
+   "url": "https://cointelegraph.com/news/binance-shut-down-crypto-mining-pool-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T05:23:26+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb4f5969dc2c0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T05:38:47.189050+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T05:09:17.185817+00:00",
    "notified": false
   },
@@ -1472,40 +1509,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Robinhood Chain slowdown spreads from fees to trading as transactions fall more than 40%",
-   "url": "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40",
-   "published": "2026-10-10T04:44:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf4d930f7ebe8",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-10T04:49:44.065609+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
-   "url": "https://cointelegraph.com/news/scott-bessent-us-seize-crypto-iran-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T20:39:17+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N78d757246a9a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T20:57:31.404892+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Former FTX COO says Netflix’s ‘Altruists’ trailer ‘made me physically throw up’",
    "url": "https://www.theblock.co/news/business/2026-10-09-former-ftx-coo-netflix-the-altruists-trailer-418208",
@@ -2229,6 +2232,16 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.074,
+   "risk": 0.0,
+   "events": [
+    "market",
+    "listing"
+   ],
+   "count": 9,
+   "last": "2026-10-13T05:27:17+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.052,
    "risk": 0.0,
@@ -2239,8 +2252,8 @@
    "last": "2026-10-13T04:43:18+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.081,
-   "risk": 0.313,
+   "sentiment": 0.08,
+   "risk": 0.308,
    "events": [
     "market",
     "etf_flow",
@@ -2264,15 +2277,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-12T14:53:25+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.168,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 8,
-   "last": "2026-10-12T14:18:49+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.0,
