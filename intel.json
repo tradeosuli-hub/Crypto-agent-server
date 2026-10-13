@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-13T00:43:42.050488+00:00",
+ "updated_at": "2026-10-13T01:13:06.836894+00:00",
  "market": {
-  "btc_dominance": 59.34,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -5.06,
+  "btc_dominance": 59.37,
+  "usdt_dominance": 6.66,
+  "mcap_change_24h": -4.95,
   "trending": [
    "BUNKER",
-   "BTC",
-   "PRL",
-   "STRK",
    "NEAR",
+   "PRL",
+   "BTC",
+   "HYPE",
+   "STRK",
    "W",
-   "QTC",
-   "ETH",
-   "PENGU",
-   "HYPE"
+   "ONDO",
+   "BP",
+   "PONS"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Aptos rolls out Encrypted Mempool to curb frontrunning, sandwich attacks",
+   "url": "https://cointelegraph.com/news/aptos-rolls-out-encrypted-mempool-to-curb-frontrunning-sandwich-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T00:52:52+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "APT"
+   ],
+   "symbols": [
+    "APTUSDT"
+   ],
+   "id": "N80c6b787cf80",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T01:13:06.836894+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Blur to shut down frontend next month as NFT trading volume dwindles",
@@ -1431,23 +1451,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "HSBC, Ant Digital test AI-agent payments using tokenized deposits",
-   "url": "https://cointelegraph.com/news/hsbc-ant-digital-test-ai-agent-payments-using-tokenized-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T17:21:07+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5344b7d588d5",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T17:30:04.046184+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Blockchain.com seeks CFTC greenlight for US prediction markets, crypto derivatives trading: CNBC",
    "url": "https://www.theblock.co/news/business/2026-10-09-blockchain-com-cftc-license-prediction-markets-derivatives-418192",
@@ -2222,9 +2225,16 @@
   }
  ],
  "symbols": {
+  "APTUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-13T00:52:52+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.083,
-   "risk": 0.359,
+   "risk": 0.354,
    "events": [
     "etf_flow",
     "macro",
