@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-13T15:30:24.022639+00:00",
+ "updated_at": "2026-10-13T15:59:59.478961+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 6.5,
-  "mcap_change_24h": -2.26,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 6.52,
+  "mcap_change_24h": -2.62,
   "trending": [
    "WISP",
+   "PRL",
    "DOPE",
    "BUNKER",
-   "PRL",
    "S",
-   "PENGU",
    "NEAR",
    "PONS",
-   "QTC",
-   "BTW"
+   "ZYLO",
+   "STRK",
+   "QNT"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto exchange MNX takes on OKX, BitGet offering pre-IPO futures for AI giants",
+   "url": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+   "published": "2026-10-13T15:52:09+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf1c09738da0b",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T15:59:59.478961+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
+   "url": "https://cointelegraph.com/markets/bitcoin-keeps-up-pressure-on-84k-as-us-stocks-sidestep-korea-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T15:27:32+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0000c841b29e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T15:59:59.478961+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "UK crypto trader says almost $800,000 lost in knife attack as wrench attacks proliferate",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T15:30:24.022639+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T15:30:24.022639+00:00",
    "notified": false
   },
@@ -1826,23 +1864,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
-   "url": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine",
-   "published": "2026-10-11T15:40:47+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf2dd45955a7d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-11T15:44:52.701735+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
    "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
@@ -2502,6 +2523,19 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.01,
+   "risk": 0.2,
+   "events": [
+    "market",
+    "etf_flow",
+    "macro",
+    "listing",
+    "token_burn"
+   ],
+   "count": 28,
+   "last": "2026-10-13T15:27:32+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.178,
    "risk": 0.0,
@@ -2511,19 +2545,6 @@
    "count": 8,
    "last": "2026-10-13T15:24:14+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": 0.025,
-   "risk": 0.206,
-   "events": [
-    "market",
-    "etf_flow",
-    "macro",
-    "listing",
-    "token_burn"
-   ],
-   "count": 27,
-   "last": "2026-10-13T13:42:25+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2532,7 +2553,7 @@
    "last": "2026-10-13T10:46:57+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.06,
+   "sentiment": 0.058,
    "risk": 0.0,
    "events": [
     "market",
