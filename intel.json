@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-13T04:39:43.708029+00:00",
+ "updated_at": "2026-10-13T05:09:17.185817+00:00",
  "market": {
   "btc_dominance": 59.3,
-  "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.48,
+  "usdt_dominance": 6.51,
+  "mcap_change_24h": -3.09,
   "trending": [
    "CRAWLER",
+   "IMD6900",
    "CLAUDIA",
    "BUNKER",
-   "PENGU",
    "QTC",
+   "PENGU",
+   "STRK",
    "NEAR",
    "BTC",
-   "BP",
-   "SUI",
-   "STRK"
+   "W"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
+   "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
+   "published": "2026-10-13T04:43:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N30ea0ebefa1e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T05:09:17.185817+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin whale moves $378 million in BTC after six years of dormancy: onchain data",
@@ -37,6 +57,7 @@
    "importance": 5,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T04:39:43.708029+00:00",
    "notified": false
   },
@@ -57,6 +78,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T04:39:43.708029+00:00",
    "notified": false
   },
@@ -1467,27 +1489,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "XRP Ledger patched decade-old bug that could create billions of dollars in XRP from nothing",
-   "url": "https://www.coindesk.com/tech/2026/10/10/xrp-ledger-patched-decade-old-bug-that-could-create-billions-of-dollars-in-xrp-from-nothing",
-   "published": "2026-10-10T04:20:07+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Ndbf9a913d79f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-10T04:49:44.065609+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
    "url": "https://cointelegraph.com/news/scott-bessent-us-seize-crypto-iran-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2228,9 +2229,18 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.052,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 5,
+   "last": "2026-10-13T04:43:18+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.081,
-   "risk": 0.318,
+   "risk": 0.313,
    "events": [
     "market",
     "etf_flow",
@@ -2247,15 +2257,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-13T00:52:52+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.071,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 4,
-   "last": "2026-10-12T15:27:09+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.3,
