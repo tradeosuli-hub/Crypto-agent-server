@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-13T15:59:59.478961+00:00",
+ "updated_at": "2026-10-13T16:29:53.881371+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 6.52,
-  "mcap_change_24h": -2.62,
+  "btc_dominance": 59.26,
+  "usdt_dominance": 6.5,
+  "mcap_change_24h": -2.45,
   "trending": [
    "WISP",
+   "ZYLO",
    "PRL",
    "DOPE",
-   "BUNKER",
-   "S",
+   "CRAWLER",
    "NEAR",
+   "S",
+   "QTC",
    "PONS",
-   "ZYLO",
-   "STRK",
-   "QNT"
+   "PENGU"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Ripple, Stripe-owned Privy partner to bring embedded wallets to XRP Ledger",
+   "url": "https://www.theblock.co/news/business/2026-10-13-stripe-privy-ripple-xrp-ledger-wallets-418463",
+   "published": "2026-10-13T16:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Nf65ec83d2fb9",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T16:29:53.881371+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%",
+   "url": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T15:57:55+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N9534ded28b5c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T16:29:53.881371+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto exchange MNX takes on OKX, BitGet offering pre-IPO futures for AI giants",
@@ -33,6 +73,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T15:59:59.478961+00:00",
    "notified": false
   },
@@ -53,6 +94,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T15:59:59.478961+00:00",
    "notified": false
   },
@@ -394,7 +436,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin continues in tight range near $83,000, recovering from overnight slide",
+   "title": "Live updates: Bitcoin trading in tight range near $83,000 ahead of key U.S. inflation data",
    "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
    "published": "2026-10-13T10:46:57+00:00",
    "kind": "news",
@@ -1847,23 +1889,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
-   "url": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
-   "published": "2026-10-11T16:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6a491dab1242",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-11T16:14:21.105247+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
    "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
@@ -2523,9 +2548,19 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.084,
+   "risk": 0.0,
+   "events": [
+    "market",
+    "listing"
+   ],
+   "count": 10,
+   "last": "2026-10-13T16:00:00+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": 0.01,
-   "risk": 0.2,
+   "sentiment": 0.018,
+   "risk": 0.195,
    "events": [
     "market",
     "etf_flow",
@@ -2533,8 +2568,8 @@
     "listing",
     "token_burn"
    ],
-   "count": 28,
-   "last": "2026-10-13T15:27:32+00:00"
+   "count": 29,
+   "last": "2026-10-13T15:57:55+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.178,
@@ -2551,16 +2586,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-13T10:46:57+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.058,
-   "risk": 0.0,
-   "events": [
-    "market",
-    "listing"
-   ],
-   "count": 9,
-   "last": "2026-10-13T05:27:17+00:00"
   },
   "APTUSDT": {
    "sentiment": 0.0,
