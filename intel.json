@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-13T02:12:07.225176+00:00",
+ "updated_at": "2026-10-13T02:41:37.551614+00:00",
  "market": {
   "btc_dominance": 59.37,
-  "usdt_dominance": 6.6,
-  "mcap_change_24h": -3.87,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": -3.5,
   "trending": [
-   "BUNKER",
-   "NEAR",
-   "PRL",
-   "PENGU",
    "CLAUDIA",
-   "STRK",
-   "HYPE",
-   "ONDO",
+   "BUNKER",
+   "PRL",
+   "BTC",
    "SOL",
-   "BTC"
+   "NEAR",
+   "STRK",
+   "DRV",
+   "SUI",
+   "UNI"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
@@ -37,22 +37,24 @@
    "importance": 5,
    "sentiment": 0.1,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T02:12:07.225176+00:00",
    "notified": false
   },
   {
    "source": "cointelegraph",
-   "title": "Meta launches Muse Wonder AI models, challenging top rivals",
+   "title": "Meta claims new Muse Wonder AI models rival OpenAI, Anthropic",
    "url": "https://cointelegraph.com/news/meta-launches-muse-wonder-ai-models-challenging-top-rivals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-13T01:54:31+00:00",
-   "kind": "listing",
+   "kind": "news",
    "raw_symbols": [],
    "symbols": [],
    "id": "Nce7f2332290f",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T02:12:07.225176+00:00",
    "notified": false
   },
@@ -2226,7 +2228,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.084,
-   "risk": 0.344,
+   "risk": 0.339,
    "events": [
     "market",
     "etf_flow",
