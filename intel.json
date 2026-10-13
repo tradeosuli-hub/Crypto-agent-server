@@ -1,25 +1,97 @@
 {
- "updated_at": "2026-10-13T10:34:08.013152+00:00",
+ "updated_at": "2026-10-13T11:03:42.277817+00:00",
  "market": {
-  "btc_dominance": 59.84,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -3.77,
+  "btc_dominance": 59.85,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": -3.89,
   "trending": [
    "WISP",
-   "IMD6900",
    "CRAWLER",
+   "IMD6900",
    "BUNKER",
+   "NEAR",
    "PRL",
    "QTC",
+   "ETH",
    "STRK",
-   "PENGU",
-   "NEAR",
-   "ETH"
+   "PENGU"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Russia’s largest bank Sberbank secures approval to trade crypto",
+   "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+   "published": "2026-10-13T11:02:47+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6dafed59c87e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T11:03:42.277817+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin whipsaws between $81,000 and $84,000 as altcoins slide",
+   "url": "https://www.coindesk.com/markets/2026/10/13/live-updates-bitcoin-whipsaws-between-usd81-000-and-usd84-000-as-altcoins-slide",
+   "published": "2026-10-13T10:46:57+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N31f185b7d363",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T11:03:42.277817+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
+   "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-diverges-from-south-korean-stocks-as-ai-concerns-deepen-the-kospi-selloff",
+   "published": "2026-10-13T10:38:51+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Naf6388ddad50",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T11:03:42.277817+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Metaplanet to issue $329M convertible bonds to pay debt, fund share buybacks",
+   "url": "https://cointelegraph.com/news/metaplanet-329m-convertible-bonds-pay-debt-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T10:23:07+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndb4e2327e376",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 5,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T11:03:42.277817+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "MediaMarktSaturn pulls Ledger products amid tampering reports",
@@ -33,6 +105,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-13T10:34:08.013152+00:00",
    "notified": false
   },
@@ -1481,23 +1554,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Coldcard says it’s investigating how phishing link appeared on its X account",
-   "url": "https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-11T10:40:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N094fee8ea670",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-11T10:49:55.723092+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Kalshi is investigating bets on Trump’s press secretary pick placed before announcement: WSJ",
    "url": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
@@ -1535,29 +1591,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-10T15:38:49.045179+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
-   "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
-   "published": "2026-10-10T12:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "Nfcc2367bea59",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-10T12:12:24.006674+00:00",
    "notified": false
   },
   {
@@ -2234,8 +2267,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.025,
-   "risk": 0.257,
+   "sentiment": 0.007,
+   "risk": 0.252,
    "events": [
     "market",
     "etf_flow",
@@ -2243,11 +2276,11 @@
     "listing",
     "token_burn"
    ],
-   "count": 20,
-   "last": "2026-10-13T09:42:00+00:00"
+   "count": 22,
+   "last": "2026-10-13T10:46:57+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.069,
+   "sentiment": 0.068,
    "risk": 0.0,
    "events": [
     "market",
