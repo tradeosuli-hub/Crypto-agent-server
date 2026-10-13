@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-13T01:42:33.930117+00:00",
+ "updated_at": "2026-10-13T02:12:07.225176+00:00",
  "market": {
-  "btc_dominance": 59.34,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -4.53,
+  "btc_dominance": 59.37,
+  "usdt_dominance": 6.6,
+  "mcap_change_24h": -3.87,
   "trending": [
    "BUNKER",
    "NEAR",
-   "HYPE",
-   "STRK",
    "PRL",
    "PENGU",
+   "CLAUDIA",
+   "STRK",
+   "HYPE",
    "ONDO",
-   "BTC",
-   "W",
-   "DRV"
+   "SOL",
+   "BTC"
   ],
   "fear_greed": 57,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million",
+   "url": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
+   "published": "2026-10-13T01:57:49+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N54a03403fbf5",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.1,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T02:12:07.225176+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Meta launches Muse Wonder AI models, challenging top rivals",
+   "url": "https://cointelegraph.com/news/meta-launches-muse-wonder-ai-models-challenging-top-rivals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-13T01:54:31+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nce7f2332290f",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-13T02:12:07.225176+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Aptos rolls out Encrypted Mempool to curb frontrunning, sandwich attacks",
@@ -1414,27 +1450,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "THORChain dev accuses Tether of temporarily freezing USDT vaults",
-   "url": "https://cointelegraph.com/news/thorchain-tether-freezing-usdt-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-09T19:04:03+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nd89e230ad98a",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T19:29:08.705883+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Former FTX COO says Netflix’s ‘Altruists’ trailer ‘made me physically throw up’",
    "url": "https://www.theblock.co/news/business/2026-10-09-former-ftx-coo-netflix-the-altruists-trailer-418208",
@@ -1481,23 +1496,6 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-09T15:02:30.461262+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "US targets $1 billion Iran-linked crypto seizure, Bessent says ‘we know where it is’",
-   "url": "https://www.theblock.co/news/regulation/2026-10-09-us-targets-1-billion-iran-linked-crypto-seizure-bessent-says-we-know-where-it-is-418151",
-   "published": "2026-10-09T14:41:09+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf260e22fb180",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-09T15:02:30.461262+00:00",
    "notified": false
@@ -2226,24 +2224,25 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.084,
+   "risk": 0.344,
+   "events": [
+    "market",
+    "etf_flow",
+    "macro",
+    "listing",
+    "token_burn"
+   ],
+   "count": 14,
+   "last": "2026-10-13T01:57:49+00:00"
+  },
   "APTUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 1,
    "last": "2026-10-13T00:52:52+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.082,
-   "risk": 0.349,
-   "events": [
-    "etf_flow",
-    "macro",
-    "listing",
-    "token_burn"
-   ],
-   "count": 13,
-   "last": "2026-10-12T16:51:05+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.071,
