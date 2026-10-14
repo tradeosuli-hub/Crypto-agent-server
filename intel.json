@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-14T09:43:30.973733+00:00",
+ "updated_at": "2026-10-14T10:13:00.286601+00:00",
  "market": {
-  "btc_dominance": 59.82,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -3.24,
+  "btc_dominance": 59.84,
+  "usdt_dominance": 6.59,
+  "mcap_change_24h": -4.08,
   "trending": [
    "PRL",
-   "PENGU",
    "BTW",
-   "NEAR",
    "WAL",
-   "QTC",
    "OP",
-   "ZEC",
    "PONS",
-   "SUI"
+   "QTC",
+   "NEAR",
+   "ZEC",
+   "ZYLO",
+   "PENGU"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin tumbles from near $84,000 ahead of U.S. inflation data",
+   "url": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
+   "published": "2026-10-14T09:45:53+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Nd500000d9de0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T10:13:00.286601+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Proposed French tax on regulated stablecoins could drive crypto traders offshore",
@@ -1892,65 +1914,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Kraken parent clears Dubai’s final hurdle for dirham trading rollout",
-   "url": "https://cointelegraph.com/news/kraken-receives-vara-approval-uae-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T09:41:17+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N20ddeac3ad43",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T09:56:51.697747+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Standard Chartered launches custody for Ripple’s RLUSD on XRP Ledger",
-   "url": "https://www.theblock.co/news/business/2026-10-12-standard-chartered-custody-ripple-rlusd-418258",
-   "published": "2026-10-12T09:35:21+00:00",
-   "kind": "listing",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Nb748d36f0734",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T09:56:51.697747+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Standard Chartered adds Ripple USD custody, eyes LMAX collateral deal",
-   "url": "https://cointelegraph.com/news/standard-chartered-rlusd-custody-lmax-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T09:30:57+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N24f5c6808b6a",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T09:56:51.697747+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Auto Order Routing for Spot Trading",
    "url": "https://www.binance.com/en/support/announcement/2f6fa2926253415a81def145af35014e",
@@ -2556,20 +2519,27 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.055,
-   "risk": 0.484,
+   "sentiment": -0.052,
+   "risk": 0.479,
    "events": [
     "token_unlock",
     "macro",
     "market",
     "etf_flow"
    ],
-   "count": 31,
-   "last": "2026-10-14T08:10:07+00:00"
+   "count": 32,
+   "last": "2026-10-14T09:45:53+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-14T09:45:53+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.07,
-   "risk": 0.484,
+   "sentiment": -0.071,
+   "risk": 0.479,
    "events": [
     "token_unlock",
     "project"
@@ -2601,13 +2571,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-13T19:48:06+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-13T10:46:57+00:00"
   },
   "APTUSDT": {
    "sentiment": 0.0,
