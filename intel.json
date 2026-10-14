@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-14T16:07:55.826064+00:00",
+ "updated_at": "2026-10-14T16:37:41.805631+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -4.72,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -4.6,
   "trending": [
    "ASTRO",
    "PRL",
+   "NEAR",
+   "HYPE",
    "ZYLO",
    "BTC",
-   "BTW",
-   "HYPE",
-   "NEAR",
-   "PENGU",
+   "STRK",
    "ZEC",
-   "SUI"
+   "ENA",
+   "BTW"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
+   "url": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out",
+   "published": "2026-10-14T16:34:53+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndd1501e965f3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T16:37:41.805631+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow",
+   "url": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-14T16:26:31+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd2fb2f73007d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T16:37:41.805631+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Hex and PulseChain founder Richard Heart detained in Istanbul: reports",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T16:07:55.826064+00:00",
    "notified": false
   },
@@ -49,6 +82,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T16:07:55.826064+00:00",
    "notified": false
   },
@@ -2121,23 +2155,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Palantir's Europe head warns the region is 'missing the boat' on AI just as it did with the internet",
-   "url": "https://www.coindesk.com/policy/2026/10/12/palantir-executive-warns-europe-is-missing-the-boat-on-ai-just-like-it-did-with-the-internet",
-   "published": "2026-10-12T16:18:03+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N99b9c04ea47b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T16:21:42.409657+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2760,14 +2777,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.061,
-   "risk": 0.481,
+   "sentiment": -0.06,
+   "risk": 0.476,
    "events": [
     "macro",
     "token_unlock",
     "market"
    ],
-   "count": 35,
+   "count": 34,
    "last": "2026-10-14T15:05:15+00:00"
   },
   "XRPUSDT": {
@@ -2781,7 +2798,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.561,
+   "risk": 0.555,
    "events": [
     "regulation"
    ],
@@ -2789,8 +2806,8 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.08,
-   "risk": 0.417,
+   "sentiment": -0.081,
+   "risk": 0.412,
    "events": [
     "token_unlock",
     "project"
