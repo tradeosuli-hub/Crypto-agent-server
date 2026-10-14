@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-10-14T03:49:09.230797+00:00",
+ "updated_at": "2026-10-14T04:18:37.503292+00:00",
  "market": {
   "btc_dominance": 59.27,
-  "usdt_dominance": 6.47,
-  "mcap_change_24h": -1.68,
+  "usdt_dominance": 6.48,
+  "mcap_change_24h": -2.3,
   "trending": [
    "DOPE",
-   "PRL",
-   "OP",
    "BTW",
-   "QTC",
-   "NEAR",
+   "OP",
+   "PRL",
    "PONS",
-   "HYPE",
-   "DRV",
-   "INJ"
+   "QTC",
+   "STRK",
+   "INJ",
+   "SYRUP",
+   "HYPE"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
+   "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
+   "published": "2026-10-14T04:11:16+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Neecfb8d2f6b3",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T04:18:37.503292+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance Earn Yield Arena: Earn Up to 5,888 USDC With This Week’s New Limited-Time Offers! (2026-10-14)",
+   "url": "https://www.binance.com/en/support/announcement/fb7e0a5a94f64ce59a07bdc9fb58ddb7",
+   "published": "2026-10-14T04:00:01.646000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2686afd489cb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T04:18:37.503292+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
+   "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
+   "published": "2026-10-14T03:50:54+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N6d941332be78",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-10-14T04:18:37.503292+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
@@ -33,6 +89,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T03:49:09.230797+00:00",
    "notified": false
   },
@@ -2289,23 +2346,6 @@
   },
   {
    "source": "binance",
-   "title": "Important Updates on Dividend Adjustment Process of SAMSUNGUSDT TradFi Perpetual Contract (2026-09-28)",
-   "url": "https://www.binance.com/en/support/announcement/fd194d0fda6e44f2af6bc6333f61600f",
-   "published": "2026-09-28T12:45:07.313000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N99c10d979357",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
    "url": "https://www.binance.com/en/support/announcement/d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
    "published": "2026-09-28T10:00:13.103000+00:00",
@@ -2569,17 +2609,26 @@
   }
  ],
  "symbols": {
-  "BTCUSDT": {
-   "sentiment": 0.008,
-   "risk": 0.1,
+  "SOLUSDT": {
+   "sentiment": 0.147,
+   "risk": 0.0,
    "events": [
+    "project"
+   ],
+   "count": 3,
+   "last": "2026-10-14T04:11:16+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": 0.007,
+   "risk": 0.495,
+   "events": [
+    "macro",
     "market",
     "etf_flow",
-    "macro",
     "listing"
    ],
-   "count": 30,
-   "last": "2026-10-14T02:49:34+00:00"
+   "count": 31,
+   "last": "2026-10-14T03:50:54+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
@@ -2588,15 +2637,8 @@
    "count": 1,
    "last": "2026-10-13T19:48:06+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.065,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-13T19:48:06+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.086,
+   "sentiment": 0.088,
    "risk": 0.0,
    "events": [
     "market",
@@ -2606,7 +2648,7 @@
    "last": "2026-10-13T16:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.196,
+   "sentiment": 0.197,
    "risk": 0.0,
    "events": [
     "project"
