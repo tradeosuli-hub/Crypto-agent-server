@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-14T18:06:39.057300+00:00",
+ "updated_at": "2026-10-14T18:36:10.872228+00:00",
  "market": {
-  "btc_dominance": 59.25,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -4.77,
+  "btc_dominance": 59.28,
+  "usdt_dominance": 6.66,
+  "mcap_change_24h": -4.53,
   "trending": [
    "ASTRO",
-   "PRL",
-   "NEAR",
    "WAL",
+   "HYPE",
    "BTC",
-   "ZEC",
-   "QNT",
+   "PENGU",
+   "PRL",
    "AERO",
-   "STRK",
-   "HYPE"
+   "NEAR",
+   "INJ",
+   "ZEC"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Major shareholder presses SkyAI on Solana sales after treasury shrinks 70% in a month",
+   "url": "https://www.theblock.co/news/business/2026-10-14-solana-treasury-skyai-bastion-sol-sales-tender-offer-418598",
+   "published": "2026-10-14T18:25:54+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N7d4a3448cb71",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T18:36:10.872228+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "US authorities dismantle crypto scam network that stole tens of millions",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T18:06:39.057300+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T18:06:39.057300+00:00",
    "notified": false
   },
@@ -2789,9 +2811,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.087,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 3,
+   "last": "2026-10-14T18:25:54+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.08,
-   "risk": 0.487,
+   "risk": 0.482,
    "events": [
     "macro",
     "token_unlock",
@@ -2811,7 +2842,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.536,
+   "risk": 0.53,
    "events": [
     "regulation"
    ],
@@ -2819,23 +2850,14 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.087,
-   "risk": 0.396,
+   "sentiment": -0.089,
+   "risk": 0.391,
    "events": [
     "token_unlock",
     "project"
    ],
    "count": 6,
    "last": "2026-10-14T10:07:03+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.138,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 2,
-   "last": "2026-10-14T04:11:16+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
