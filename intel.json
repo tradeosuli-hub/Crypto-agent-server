@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-14T17:07:28.395029+00:00",
+ "updated_at": "2026-10-14T17:37:04.081452+00:00",
  "market": {
-  "btc_dominance": 59.25,
-  "usdt_dominance": 6.62,
-  "mcap_change_24h": -4.27,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -4.55,
   "trending": [
    "ASTRO",
-   "ZEC",
-   "STRK",
    "PRL",
+   "ZEC",
+   "WAL",
    "NEAR",
+   "STRK",
    "PENGU",
-   "ENA",
-   "HYPE",
+   "BTC",
    "QNT",
-   "WAL"
+   "DRV"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "OCC report finds debanking efforts tied to crypto activities",
+   "url": "https://cointelegraph.com/news/occ-trump-debanking-crypto-activities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-14T17:03:20+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb159b697f6bb",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T17:37:04.081452+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin falls below $82,000 as hotter core CPI revives Fed hike concerns",
@@ -37,6 +53,7 @@
    "importance": 8,
    "sentiment": -0.2,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-14T17:07:28.395029+00:00",
    "notified": false
   },
@@ -2118,44 +2135,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "StoneX raises Securitize price target 50% as tokenized stock platform opens new revenue stream",
-   "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
-   "published": "2026-10-12T17:06:25+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N95ee7fa89ac1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T17:20:46.115874+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
-   "url": "https://cointelegraph.com/news/bitcoin-miners-ai-financing-costs-debt-funding-gap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T16:51:05+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nf7434a6c94db",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T17:20:46.115874+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2779,7 +2758,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.08,
-   "risk": 0.497,
+   "risk": 0.492,
    "events": [
     "macro",
     "token_unlock",
@@ -2799,7 +2778,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.548,
+   "risk": 0.542,
    "events": [
     "regulation"
    ],
@@ -2807,8 +2786,8 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.083,
-   "risk": 0.407,
+   "sentiment": -0.085,
+   "risk": 0.402,
    "events": [
     "token_unlock",
     "project"
@@ -2817,7 +2796,7 @@
    "last": "2026-10-14T10:07:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.137,
+   "sentiment": 0.138,
    "risk": 0.0,
    "events": [
     "project"
