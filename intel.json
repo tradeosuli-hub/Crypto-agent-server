@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-14T16:37:41.805631+00:00",
+ "updated_at": "2026-10-14T17:07:28.395029+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -4.6,
+  "btc_dominance": 59.25,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -4.27,
   "trending": [
    "ASTRO",
+   "ZEC",
+   "STRK",
    "PRL",
    "NEAR",
-   "HYPE",
-   "ZYLO",
-   "BTC",
-   "STRK",
-   "ZEC",
+   "PENGU",
    "ENA",
-   "BTW"
+   "HYPE",
+   "QNT",
+   "WAL"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin falls below $82,000 as hotter core CPI revives Fed hike concerns",
+   "url": "https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582",
+   "published": "2026-10-14T16:51:54+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nade06ca2259d",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.5,
+   "first_seen": "2026-10-14T17:07:28.395029+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T16:37:41.805631+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T16:37:41.805631+00:00",
    "notified": false
   },
@@ -690,7 +712,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin tumbles more than 1% after disappointing inflation report",
+   "title": "Live updates: Bitcoin falls back to $82,000 after inflation rises more than forecast",
    "url": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
    "published": "2026-10-14T09:45:53+00:00",
    "kind": "news",
@@ -703,7 +725,7 @@
    "id": "Nd500000d9de0",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": -0.2,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-14T10:13:00.286601+00:00",
@@ -2134,27 +2156,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-   "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T16:30:21+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N18e046a92c39",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T16:51:12.580308+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2777,18 +2778,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.06,
-   "risk": 0.476,
+   "sentiment": -0.08,
+   "risk": 0.497,
    "events": [
     "macro",
     "token_unlock",
     "market"
    ],
    "count": 34,
-   "last": "2026-10-14T15:05:15+00:00"
+   "last": "2026-10-14T16:51:54+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.002,
+   "sentiment": 0.003,
    "risk": 0.0,
    "events": [
     "market"
@@ -2798,7 +2799,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.555,
+   "risk": 0.548,
    "events": [
     "regulation"
    ],
@@ -2806,8 +2807,8 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.081,
-   "risk": 0.412,
+   "sentiment": -0.083,
+   "risk": 0.407,
    "events": [
     "token_unlock",
     "project"
