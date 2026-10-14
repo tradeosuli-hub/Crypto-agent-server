@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-14T01:21:33.106474+00:00",
+ "updated_at": "2026-10-14T01:51:04.900973+00:00",
  "market": {
-  "btc_dominance": 59.21,
+  "btc_dominance": 59.2,
   "usdt_dominance": 6.51,
-  "mcap_change_24h": -0.41,
+  "mcap_change_24h": -0.39,
   "trending": [
    "DOPE",
-   "CRAWLER",
-   "QNT",
-   "PRL",
-   "STRK",
-   "OP",
    "ZYLO",
+   "PRL",
+   "BTW",
+   "QNT",
+   "OP",
    "QTC",
-   "NEAR",
-   "BTW"
+   "CC",
+   "INJ",
+   "STRK"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-14T01:21:33.106474+00:00",
    "notified": false
   },
@@ -1897,27 +1898,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "XRP Ledger defends emergency patch for unlimited XRP bug",
-   "url": "https://cointelegraph.com/news/xrp-ledger-defends-emergency-patch-for-unlimited-xrp-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T01:21:29+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N8bf15705560d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T01:35:22.983287+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
    "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
@@ -2578,8 +2558,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.006,
-   "risk": 0.103,
+   "sentiment": 0.007,
+   "risk": 0.1,
    "events": [
     "market",
     "etf_flow",
@@ -2597,14 +2577,14 @@
    "last": "2026-10-13T19:48:06+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.073,
+   "sentiment": 0.071,
    "risk": 0.0,
    "events": [],
    "count": 2,
    "last": "2026-10-13T19:48:06+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.078,
+   "sentiment": 0.08,
    "risk": 0.0,
    "events": [
     "market",
