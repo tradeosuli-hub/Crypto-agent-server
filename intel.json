@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-14T15:08:37.469743+00:00",
+ "updated_at": "2026-10-14T15:38:10.423856+00:00",
  "market": {
-  "btc_dominance": 59.3,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -4.72,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -4.66,
   "trending": [
    "ASTRO",
    "ZYLO",
    "PRL",
-   "QTC",
    "BTC",
-   "SUI",
-   "BTW",
+   "QTC",
    "PENGU",
-   "LIT",
-   "WAL"
+   "BTW",
+   "STRK",
+   "SUI",
+   "ZEC"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+   "url": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+   "published": "2026-10-14T15:35:36+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd3b391885f8e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T15:38:10.423856+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T15:08:37.469743+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T15:08:37.469743+00:00",
    "notified": false
   },
@@ -69,6 +87,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T15:08:37.469743+00:00",
    "notified": false
   },
@@ -2107,44 +2126,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Tokenized catastrophe bonds target the disaster-insurance gap",
-   "url": "https://www.coindesk.com/business/2026/10/12/tokenized-catastrophe-bonds-target-the-disaster-insurance-gap",
-   "published": "2026-10-12T15:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N26bcd0b2194f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T15:22:32.359260+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "DeFi Development grows SOL holdings 12% as CHAD hits record highs",
-   "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
-   "published": "2026-10-12T14:53:25+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N06db7cbee1cb",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T15:22:32.359260+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2768,7 +2749,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.061,
-   "risk": 0.492,
+   "risk": 0.487,
    "events": [
     "macro",
     "token_unlock",
@@ -2778,7 +2759,7 @@
    "last": "2026-10-14T15:05:15+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.001,
+   "sentiment": 0.002,
    "risk": 0.0,
    "events": [
     "market"
@@ -2788,7 +2769,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.573,
+   "risk": 0.567,
    "events": [
     "regulation"
    ],
@@ -2796,13 +2777,13 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.073,
-   "risk": 0.427,
+   "sentiment": -0.078,
+   "risk": 0.422,
    "events": [
     "token_unlock",
     "project"
    ],
-   "count": 7,
+   "count": 6,
    "last": "2026-10-14T10:07:03+00:00"
   },
   "SOLUSDT": {
