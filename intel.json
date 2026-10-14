@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-10-14T14:09:32.655073+00:00",
+ "updated_at": "2026-10-14T14:39:05.331663+00:00",
  "market": {
-  "btc_dominance": 59.37,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -3.98,
+  "btc_dominance": 59.36,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -4.28,
   "trending": [
-   "PRL",
    "ASTRO",
    "ZYLO",
-   "WAL",
-   "STRK",
+   "PRL",
    "SUI",
    "QTC",
+   "WAL",
+   "BTW",
    "BTC",
-   "NEAR",
-   "PENGU"
+   "HYPE",
+   "QNT"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Strive buys $235 million in bitcoin as warrant exercises yield $369 million",
+   "url": "https://www.theblock.co/news/business/2026-10-14-strive-buys-235-million-in-bitcoin-warrant-yield-369-million-418556",
+   "published": "2026-10-14T14:32:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na7eb2cc3471f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T14:39:05.331663+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
+   "url": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
+   "published": "2026-10-14T14:31:14+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N78fb542344d7",
+   "kind_fa": "جریان ETF",
+   "importance": 6,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T14:39:05.331663+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-14T14:21:15+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7d2075d855a6",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": -0.3,
+   "risk": 0.5,
+   "first_seen": "2026-10-14T14:39:05.331663+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
@@ -33,6 +89,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-14T14:09:32.655073+00:00",
    "notified": false
   },
@@ -49,6 +106,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T14:09:32.655073+00:00",
    "notified": false
   },
@@ -2053,27 +2111,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
-   "url": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T14:07:00+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ncc2adde860df",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T14:23:36.376992+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2696,28 +2733,28 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.039,
-   "risk": 0.483,
+   "sentiment": -0.063,
+   "risk": 0.497,
    "events": [
     "macro",
     "token_unlock",
     "market"
    ],
-   "count": 32,
-   "last": "2026-10-14T13:20:46+00:00"
+   "count": 34,
+   "last": "2026-10-14T14:32:39+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.0,
+   "sentiment": 0.001,
    "risk": 0.0,
    "events": [
     "market"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-14T13:00:00+00:00"
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.586,
+   "risk": 0.579,
    "events": [
     "regulation"
    ],
@@ -2725,8 +2762,8 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.071,
-   "risk": 0.438,
+   "sentiment": -0.072,
+   "risk": 0.432,
    "events": [
     "token_unlock",
     "project"
