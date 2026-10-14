@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-10-14T10:13:00.286601+00:00",
+ "updated_at": "2026-10-14T10:42:34.997975+00:00",
  "market": {
-  "btc_dominance": 59.84,
-  "usdt_dominance": 6.59,
-  "mcap_change_24h": -4.08,
+  "btc_dominance": 59.82,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": -3.82,
   "trending": [
-   "PRL",
    "BTW",
-   "WAL",
-   "OP",
-   "PONS",
-   "QTC",
-   "NEAR",
-   "ZEC",
+   "PRL",
    "ZYLO",
-   "PENGU"
+   "WAL",
+   "DRV",
+   "PONS",
+   "ARB",
+   "STRK",
+   "OP",
+   "QNT"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "S&P 500 options are the hottest bet on this Hyperliquid exchange",
+   "url": "https://www.coindesk.com/markets/2026/10/14/s-and-p-500-options-are-the-hottest-bet-on-this-hyperliquid-exchange",
+   "published": "2026-10-14T10:38:47+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc8f63acabba1",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T10:42:34.997975+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin will become ‘less volatile’ and larger than gold: ‘The Bitcoin Standard’ author",
+   "url": "https://cointelegraph.com/news/bitcoin-less-volatile-larger-gold-bitcoin-standard-author?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-14T10:25:53+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne58d2d8c67b6",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T10:42:34.997975+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Standard Chartered expands Bitcoin and Ether trading to professional investors in UAE",
+   "url": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-professional-investors-uae?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-14T10:07:03+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N770b7922e1df",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T10:42:34.997975+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live updates: Bitcoin tumbles from near $84,000 ahead of U.S. inflation data",
@@ -39,6 +97,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T10:13:00.286601+00:00",
    "notified": false
   },
@@ -1897,23 +1956,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Morgan Stanley expects to support tokenized equities in Q1 2027, digital asset strategy head says",
-   "url": "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256",
-   "published": "2026-10-12T10:10:13+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1f4590158c59",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T10:26:23.071713+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Auto Order Routing for Spot Trading",
    "url": "https://www.binance.com/en/support/announcement/2f6fa2926253415a81def145af35014e",
@@ -2519,8 +2561,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.052,
-   "risk": 0.479,
+   "sentiment": -0.051,
+   "risk": 0.474,
    "events": [
     "token_unlock",
     "macro",
@@ -2528,7 +2570,17 @@
     "etf_flow"
    ],
    "count": 32,
-   "last": "2026-10-14T09:45:53+00:00"
+   "last": "2026-10-14T10:25:53+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.06,
+   "risk": 0.474,
+   "events": [
+    "token_unlock",
+    "project"
+   ],
+   "count": 8,
+   "last": "2026-10-14T10:07:03+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
@@ -2537,18 +2589,8 @@
    "count": 2,
    "last": "2026-10-14T09:45:53+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.071,
-   "risk": 0.479,
-   "events": [
-    "token_unlock",
-    "project"
-   ],
-   "count": 7,
-   "last": "2026-10-14T08:10:07+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": -0.004,
+   "sentiment": -0.003,
    "risk": 0.0,
    "events": [
     "market"
