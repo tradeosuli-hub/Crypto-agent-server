@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-14T21:33:28.978012+00:00",
+ "updated_at": "2026-10-14T22:03:03.875702+00:00",
  "market": {
-  "btc_dominance": 59.34,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -4.77,
+  "btc_dominance": 59.31,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -4.75,
   "trending": [
    "ZYLO",
+   "PENGU",
    "WAL",
    "PRL",
-   "PENGU",
-   "AERO",
-   "QTC",
-   "SUI",
    "BTC",
-   "HYPE",
-   "VVV"
+   "QNT",
+   "PUMP",
+   "SOL",
+   "SUI",
+   "QTC"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T21:33:28.978012+00:00",
    "notified": false
   },
@@ -2156,23 +2157,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "FTX’s crypto mining venture is now used to advance AI",
-   "url": "https://cointelegraph.com/news/ftx-crypto-mining-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T21:11:26+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd6e77b5b1c23",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T21:46:28.295156+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2805,7 +2789,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.082,
-   "risk": 0.451,
+   "risk": 0.446,
    "events": [
     "macro",
     "token_unlock",
@@ -2825,7 +2809,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.493,
+   "risk": 0.487,
    "events": [
     "regulation"
    ],
@@ -2833,8 +2817,8 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.101,
-   "risk": 0.361,
+   "sentiment": -0.103,
+   "risk": 0.355,
    "events": [
     "token_unlock",
     "project"
