@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-14T14:39:05.331663+00:00",
+ "updated_at": "2026-10-14T15:08:37.469743+00:00",
  "market": {
-  "btc_dominance": 59.36,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -4.28,
+  "btc_dominance": 59.3,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -4.72,
   "trending": [
    "ASTRO",
    "ZYLO",
    "PRL",
-   "SUI",
    "QTC",
-   "WAL",
-   "BTW",
    "BTC",
-   "HYPE",
-   "QNT"
+   "SUI",
+   "BTW",
+   "PENGU",
+   "LIT",
+   "WAL"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/10/14/crypto-long-and-short-why-gold-and-bitcoin-belong-in-the-same-portfolio",
+   "published": "2026-10-14T15:05:15+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf3b53b98b76c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T15:08:37.469743+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "StarkWare launches OffMarket to let Polymarket users trade more privately",
+   "url": "https://www.theblock.co/news/ecosystems/2026-10-14-starkware-launches-offmarket-to-let-polymarket-users-trade-more-privately-418567",
+   "published": "2026-10-14T15:00:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3a82649219ad",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T15:08:37.469743+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "EasyA hits $1.1 billion valuation, targets 2027 public listing and tokenized shares",
+   "url": "https://www.coindesk.com/business/2026/10/14/easya-hits-usd1-1-billion-valuation-targets-2027-public-listing-and-tokenized-shares",
+   "published": "2026-10-14T14:49:32+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb93e9727a2c6",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T15:08:37.469743+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Strive buys $235 million in bitcoin as warrant exercises yield $369 million",
@@ -37,6 +89,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T14:39:05.331663+00:00",
    "notified": false
   },
@@ -53,6 +106,7 @@
    "importance": 6,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T14:39:05.331663+00:00",
    "notified": false
   },
@@ -73,6 +127,7 @@
    "importance": 8,
    "sentiment": -0.3,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-14T14:39:05.331663+00:00",
    "notified": false
   },
@@ -260,7 +315,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Qivalis receives EMI authorization from Dutch central bank for euro stablecoin",
+   "title": "Qivalis wins Dutch e-money license for euro stablecoin",
    "url": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-14T12:53:41+00:00",
    "kind": "news",
@@ -2090,27 +2145,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "XRP treasury Evernorth’s shares rise 5% at Nasdaq opening print",
-   "url": "https://cointelegraph.com/news/xrp-treasury-evernorth-rise-nasdaq-opening?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T14:18:49+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Nee4fe02b34cb",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T14:53:05.174015+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2733,15 +2767,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.063,
-   "risk": 0.497,
+   "sentiment": -0.061,
+   "risk": 0.492,
    "events": [
     "macro",
     "token_unlock",
     "market"
    ],
-   "count": 34,
-   "last": "2026-10-14T14:32:39+00:00"
+   "count": 35,
+   "last": "2026-10-14T15:05:15+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.001,
@@ -2754,7 +2788,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.2,
-   "risk": 0.579,
+   "risk": 0.573,
    "events": [
     "regulation"
    ],
@@ -2762,8 +2796,8 @@
    "last": "2026-10-14T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.072,
-   "risk": 0.432,
+   "sentiment": -0.073,
+   "risk": 0.427,
    "events": [
     "token_unlock",
     "project"
@@ -2772,12 +2806,12 @@
    "last": "2026-10-14T10:07:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.152,
+   "sentiment": 0.137,
    "risk": 0.0,
    "events": [
     "project"
    ],
-   "count": 3,
+   "count": 2,
    "last": "2026-10-14T04:11:16+00:00"
   },
   "BNBUSDT": {
