@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-14T12:11:19.936442+00:00",
+ "updated_at": "2026-10-14T12:40:52.344665+00:00",
  "market": {
-  "btc_dominance": 59.82,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -3.18,
+  "btc_dominance": 59.79,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -3.98,
   "trending": [
    "PRL",
-   "ZYLO",
-   "BTW",
    "WAL",
    "STRK",
    "QTC",
-   "PENGU",
+   "BTW",
    "SUI",
+   "ZYLO",
    "NEAR",
-   "DRV"
+   "QNT",
+   "PENGU"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
+   "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+   "published": "2026-10-14T12:33:56+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N079d20ddfde0",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-10-14T12:40:52.344665+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Kraken parent to buy Lithuanian Saldo Bank amid TradFi expansion",
+   "url": "https://cointelegraph.com/news/krakens-parent-buy-lithuanian-saldo-bank-tradfi-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-14T12:26:05+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc63a9f8e1bf5",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T12:40:52.344665+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T12:11:19.936442+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T12:11:19.936442+00:00",
    "notified": false
   },
@@ -73,6 +111,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T12:11:19.936442+00:00",
    "notified": false
   },
@@ -253,17 +292,15 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin treading water near $83,000 ahead of U.S. inflation data",
+   "title": "Live updates: Bitcoin tumbles more than 1% after hot inflation report",
    "url": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
    "published": "2026-10-14T09:45:53+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC",
-    "NEAR"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
+    "BTCUSDT"
    ],
    "id": "Nd500000d9de0",
    "kind_fa": "خبر",
@@ -1897,82 +1934,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "‘There’s always room for more orange’: Michael Saylor’s Strategy scoops up another 250 bitcoin for $21.5 million as holdings reach 848,250 BTC",
-   "url": "https://www.theblock.co/news/business/2026-10-12-theres-always-room-for-more-orange-michael-saylors-strategy-scoops-up-another-250-bitcoin-for-21-5-million-as-holdings-reach-848250-btc-418275",
-   "published": "2026-10-12T12:13:45+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6ee6b5638988",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T12:24:36.133028+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Standard Chartered offers RLUSD custody in Dubai and plans LMAX collateral link",
-   "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
-   "published": "2026-10-12T12:09:09+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5c152f392d80",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T12:24:36.133028+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Ledger claims CryptoBilis cases are limited as up to $93 million is traced, $10 million frozen",
-   "url": "https://www.coindesk.com/tech/2026/10/12/ledger-claims-cryptobilis-cases-are-limited-as-up-to-usd93m-is-traced-usd10m-frozen",
-   "published": "2026-10-12T12:01:53+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N85f5aac61910",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T12:24:36.133028+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Evernorth names former Coinbase investment exec to steer 473 million XRP treasury ahead of Nasdaq debut",
-   "url": "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225",
-   "published": "2026-10-12T12:01:02+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N2035f305e1e9",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T12:24:36.133028+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2594,6 +2555,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.039,
+   "risk": 0.499,
+   "events": [
+    "macro",
+    "token_unlock",
+    "market",
+    "etf_flow"
+   ],
+   "count": 32,
+   "last": "2026-10-14T12:33:56+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.001,
    "risk": 0.0,
@@ -2603,21 +2576,9 @@
    "count": 5,
    "last": "2026-10-14T12:00:00+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.043,
-   "risk": 0.458,
-   "events": [
-    "token_unlock",
-    "macro",
-    "market",
-    "etf_flow"
-   ],
-   "count": 33,
-   "last": "2026-10-14T11:52:16+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": -0.063,
-   "risk": 0.458,
+   "sentiment": -0.065,
+   "risk": 0.453,
    "events": [
     "token_unlock",
     "project"
@@ -2625,15 +2586,8 @@
    "count": 8,
    "last": "2026-10-14T10:07:03+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-14T09:45:53+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.15,
+   "sentiment": 0.151,
    "risk": 0.0,
    "events": [
     "project"
@@ -2647,6 +2601,13 @@
    "events": [],
    "count": 1,
    "last": "2026-10-13T19:48:06+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-13T10:46:57+00:00"
   },
   "APTUSDT": {
    "sentiment": 0.0,
