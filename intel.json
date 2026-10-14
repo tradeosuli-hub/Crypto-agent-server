@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-14T09:13:57.512584+00:00",
+ "updated_at": "2026-10-14T09:43:30.973733+00:00",
  "market": {
-  "btc_dominance": 59.83,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -3.01,
+  "btc_dominance": 59.82,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": -3.24,
   "trending": [
    "PRL",
-   "BTW",
-   "PONS",
-   "WAL",
-   "OP",
    "PENGU",
-   "STRK",
+   "BTW",
    "NEAR",
-   "SUI",
-   "LIT"
+   "WAL",
+   "QTC",
+   "OP",
+   "ZEC",
+   "PONS",
+   "SUI"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-14T09:13:57.512584+00:00",
    "notified": false
   },
@@ -1950,48 +1951,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
-   "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
-   "published": "2026-10-12T08:58:24+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nce70378a27da",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T09:27:15.128888+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "South Korean bank launches Bitcoin-backed business loans: Report",
-   "url": "https://cointelegraph.com/news/south-korea-jeonbuk-bank-bitcoin-backed-business-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T08:45:58+00:00",
-   "kind": "listing",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N84b84d0be9e4",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T09:27:15.128888+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Auto Order Routing for Spot Trading",
    "url": "https://www.binance.com/en/support/announcement/2f6fa2926253415a81def145af35014e",
@@ -2598,7 +2557,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.055,
-   "risk": 0.489,
+   "risk": 0.484,
    "events": [
     "token_unlock",
     "macro",
@@ -2609,8 +2568,8 @@
    "last": "2026-10-14T08:10:07+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.069,
-   "risk": 0.489,
+   "sentiment": -0.07,
+   "risk": 0.484,
    "events": [
     "token_unlock",
     "project"
@@ -2619,13 +2578,12 @@
    "last": "2026-10-14T08:10:07+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.08,
+   "sentiment": -0.004,
    "risk": 0.0,
    "events": [
-    "market",
-    "listing"
+    "market"
    ],
-   "count": 7,
+   "count": 5,
    "last": "2026-10-14T05:24:12+00:00"
   },
   "SOLUSDT": {
