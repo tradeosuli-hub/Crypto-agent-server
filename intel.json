@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-10-14T11:41:44.925468+00:00",
+ "updated_at": "2026-10-14T12:11:19.936442+00:00",
  "market": {
-  "btc_dominance": 59.81,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -3.42,
+  "btc_dominance": 59.82,
+  "usdt_dominance": 6.56,
+  "mcap_change_24h": -3.18,
   "trending": [
    "PRL",
    "ZYLO",
    "BTW",
-   "DRV",
-   "PENGU",
    "WAL",
-   "QTC",
-   "SUI",
    "STRK",
-   "BAT"
+   "QTC",
+   "PENGU",
+   "SUI",
+   "NEAR",
+   "DRV"
   ],
   "fear_greed": 62,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work",
+   "url": "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503",
+   "published": "2026-10-14T12:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N6babb10b63b1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T12:11:19.936442+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Can crypto users trust the supply chain behind hardware wallets?",
+   "url": "https://cointelegraph.com/news/hardware-wallet-supply-chain-risk-ledger-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-14T11:59:42+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3ec086ff5a81",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T12:11:19.936442+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "How Bitcoin Works",
+   "url": "https://www.theblock.co/learn/campus/how-bitcoin-works-417659",
+   "published": "2026-10-14T11:52:16+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb5faf3770564",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-14T12:11:19.936442+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Here's how analysts see U.S. inflation influencing bitcoin",
@@ -37,6 +93,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T11:41:44.925468+00:00",
    "notified": false
   },
@@ -53,6 +110,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-14T11:41:44.925468+00:00",
    "notified": false
   },
@@ -1932,23 +1990,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Australia proposes leverage caps for crypto-settled derivatives",
-   "url": "https://cointelegraph.com/news/australia-asic-crypto-settled-cfd-protections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-12T11:41:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9821764ae6e3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T11:55:01.863193+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Auto Order Routing for Spot Trading",
    "url": "https://www.binance.com/en/support/announcement/2f6fa2926253415a81def145af35014e",
@@ -2553,21 +2594,30 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": -0.001,
+   "risk": 0.0,
+   "events": [
+    "market"
+   ],
+   "count": 5,
+   "last": "2026-10-14T12:00:00+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.045,
-   "risk": 0.463,
+   "sentiment": -0.043,
+   "risk": 0.458,
    "events": [
     "token_unlock",
     "macro",
     "market",
     "etf_flow"
    ],
-   "count": 32,
-   "last": "2026-10-14T11:15:00+00:00"
+   "count": 33,
+   "last": "2026-10-14T11:52:16+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.062,
-   "risk": 0.463,
+   "sentiment": -0.063,
+   "risk": 0.458,
    "events": [
     "token_unlock",
     "project"
@@ -2581,15 +2631,6 @@
    "events": [],
    "count": 2,
    "last": "2026-10-14T09:45:53+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": -0.002,
-   "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 5,
-   "last": "2026-10-14T05:24:12+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.15,
