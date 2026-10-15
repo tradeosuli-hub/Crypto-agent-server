@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-15T15:16:16.173705+00:00",
+ "updated_at": "2026-10-15T15:46:05.119962+00:00",
  "market": {
   "btc_dominance": 59.42,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -2.81,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -2.4,
   "trending": [
-   "BTC",
    "NEAR",
-   "AERO",
-   "QTC",
-   "PENGU",
-   "PRL",
+   "PYTH",
    "UNI",
-   "XPL",
-   "CARDS",
-   "AAVE"
+   "PRL",
+   "QTC",
+   "AERO",
+   "STRK",
+   "LIT",
+   "TAO",
+   "BTC"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin slips under $80K after US PPI gains most in four years",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T15:10:44+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne6ed50c6051d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T15:46:05.119962+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T15:16:16.173705+00:00",
    "notified": false
   },
@@ -2111,44 +2132,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
-   "url": "https://www.coindesk.com/policy/2026/10/13/why-self-custody-and-hardware-wallets-cannot-prevent-physical-crypto-extortion",
-   "published": "2026-10-13T15:24:52+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf2962a228fac",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T15:30:24.022639+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Interactive Brokers expands crypto services with Ethereum staking via Zerohash",
-   "url": "https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457",
-   "published": "2026-10-13T15:24:14+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nab8a5c61c4b8",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T15:30:24.022639+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2787,6 +2770,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.137,
+   "risk": 0.377,
+   "events": [
+    "etf_flow",
+    "market",
+    "macro",
+    "token_unlock"
+   ],
+   "count": 32,
+   "last": "2026-10-15T15:10:44+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.132,
    "risk": 0.0,
@@ -2804,27 +2799,15 @@
    "count": 1,
    "last": "2026-10-15T14:16:55+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.144,
-   "risk": 0.382,
-   "events": [
-    "etf_flow",
-    "market",
-    "macro",
-    "token_unlock"
-   ],
-   "count": 32,
-   "last": "2026-10-15T14:01:06+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": -0.053,
-   "risk": 0.176,
+   "sentiment": -0.054,
+   "risk": 0.171,
    "events": [
     "market",
     "etf_flow",
     "token_unlock"
    ],
-   "count": 7,
+   "count": 6,
    "last": "2026-10-15T14:01:06+00:00"
   },
   "NEARUSDT": {
@@ -2837,7 +2820,7 @@
    "last": "2026-10-15T13:00:00+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.042,
+   "sentiment": 0.041,
    "risk": 0.0,
    "events": [
     "project"
@@ -2846,8 +2829,8 @@
    "last": "2026-10-15T12:00:00+00:00"
   },
   "POLUSDT": {
-   "sentiment": -0.139,
-   "risk": 0.272,
+   "sentiment": -0.138,
+   "risk": 0.265,
    "events": [
     "regulation"
    ],
