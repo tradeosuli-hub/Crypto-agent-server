@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-15T14:46:42.302050+00:00",
+ "updated_at": "2026-10-15T15:16:16.173705+00:00",
  "market": {
-  "btc_dominance": 59.47,
-  "usdt_dominance": 6.7,
-  "mcap_change_24h": -4.32,
+  "btc_dominance": 59.42,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -2.81,
   "trending": [
    "BTC",
-   "AERO",
    "NEAR",
+   "AERO",
+   "QTC",
    "PENGU",
    "PRL",
-   "ZEREBRO",
    "UNI",
    "XPL",
-   "QTC",
-   "ZRO"
+   "CARDS",
+   "AAVE"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/10/15/crypto-for-advisors-wall-street-is-done-waiting-on-congress-for-crypto-rules",
+   "published": "2026-10-15T15:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2851aa3ceb2d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T15:16:16.173705+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Ripple Prime adds RWA swaps referencing perpetual futures listed on Hyperliquid",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T14:46:42.302050+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T14:46:42.302050+00:00",
    "notified": false
   },
@@ -69,6 +87,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-15T14:46:42.302050+00:00",
    "notified": false
   },
@@ -89,6 +108,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T14:46:42.302050+00:00",
    "notified": false
   },
@@ -2129,40 +2149,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "DRW and Marex complete OTC swap referencing tokenized S&P iBoxx Index",
-   "url": "https://www.theblock.co/news/markets/2026-10-13-drw-marex-first-otc-swap-tokenized-sp-iboxx-index-canton-network-418440",
-   "published": "2026-10-13T15:00:29+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3c90f7946d50",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T15:00:44.861903+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Ledger confirms hardware implant in CryptoBilis reseller units as MediaMarkt suspends sales in Europe",
-   "url": "https://www.theblock.co/news/business/2026-10-13-ledger-confirms-hardware-implant-cryptobilis-reseller-units-mediamarkt-suspends-sales-europe-418442",
-   "published": "2026-10-13T14:45:08+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ned42c9843854",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T15:00:44.861903+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2820,7 +2806,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.144,
-   "risk": 0.387,
+   "risk": 0.382,
    "events": [
     "etf_flow",
     "market",
@@ -2832,7 +2818,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.053,
-   "risk": 0.181,
+   "risk": 0.176,
    "events": [
     "market",
     "etf_flow",
@@ -2851,7 +2837,7 @@
    "last": "2026-10-15T13:00:00+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.043,
+   "sentiment": 0.042,
    "risk": 0.0,
    "events": [
     "project"
@@ -2861,7 +2847,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.139,
-   "risk": 0.278,
+   "risk": 0.272,
    "events": [
     "regulation"
    ],
