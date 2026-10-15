@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-15T04:56:18.141890+00:00",
+ "updated_at": "2026-10-15T05:25:45.546755+00:00",
  "market": {
-  "btc_dominance": 59.49,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -5.69,
+  "btc_dominance": 59.51,
+  "usdt_dominance": 6.71,
+  "mcap_change_24h": -6.18,
   "trending": [
-   "BTC",
-   "ZK",
-   "NEAR",
    "PUFFER",
-   "WAL",
+   "ZK",
    "PRL",
-   "QTC",
+   "BTC",
+   "NEAR",
+   "ONDO",
+   "WAL",
    "AERO",
-   "PENGU",
-   "ONDO"
+   "SUI",
+   "PONS"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Australia seeks feedback on crypto platform rules ahead of 2027 rollout",
+   "url": "https://cointelegraph.com/news/australia-seeks-feedback-on-crypto-platform-rules-ahead-of-2027-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T05:00:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4950da19401d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T05:25:45.546755+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin drops below $81,000 as risk-off sentiment weighs on Asian equities",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T04:56:18.141890+00:00",
    "notified": false
   },
@@ -2119,27 +2136,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
-   "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
-   "published": "2026-10-13T04:43:18+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N30ea0ebefa1e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T05:09:17.185817+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
    "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
@@ -2797,7 +2793,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.134,
-   "risk": 0.49,
+   "risk": 0.485,
    "events": [
     "market",
     "macro",
@@ -2807,7 +2803,7 @@
    "last": "2026-10-15T04:38:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.005,
+   "sentiment": -0.006,
    "risk": 0.0,
    "events": [
     "market"
@@ -2816,8 +2812,8 @@
    "last": "2026-10-15T04:25:15+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.05,
-   "risk": 0.284,
+   "sentiment": -0.049,
+   "risk": 0.279,
    "events": [
     "market",
     "etf_flow",
@@ -2838,7 +2834,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.144,
-   "risk": 0.401,
+   "risk": 0.395,
    "events": [
     "regulation"
    ],
