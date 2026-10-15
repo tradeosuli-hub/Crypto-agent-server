@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-15T03:27:42.405717+00:00",
+ "updated_at": "2026-10-15T03:57:12.947506+00:00",
  "market": {
-  "btc_dominance": 59.5,
-  "usdt_dominance": 6.7,
-  "mcap_change_24h": -5.96,
+  "btc_dominance": 59.48,
+  "usdt_dominance": 6.74,
+  "mcap_change_24h": -6.44,
   "trending": [
    "BTC",
-   "WAL",
    "ONDO",
-   "ETH",
-   "NEAR",
-   "DRV",
    "PENGU",
+   "WAL",
    "PONS",
+   "QTC",
+   "NEAR",
    "PRL",
-   "SOL"
+   "ETH",
+   "QNT"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
+   "url": "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T03:29:22+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4549dee3fc32",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T03:57:12.947506+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "VanEck seeks to withdraw application for Lido staked Ether ETF",
@@ -2727,9 +2747,20 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.111,
+   "risk": 0.384,
+   "events": [
+    "macro",
+    "token_unlock",
+    "market"
+   ],
+   "count": 34,
+   "last": "2026-10-15T03:29:22+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.067,
-   "risk": 0.299,
+   "sentiment": -0.066,
+   "risk": 0.294,
    "events": [
     "etf_flow",
     "token_unlock",
@@ -2740,7 +2771,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.144,
-   "risk": 0.419,
+   "risk": 0.413,
    "events": [
     "regulation"
    ],
@@ -2756,19 +2787,8 @@
    "count": 3,
    "last": "2026-10-14T18:25:54+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.087,
-   "risk": 0.39,
-   "events": [
-    "macro",
-    "token_unlock",
-    "market"
-   ],
-   "count": 33,
-   "last": "2026-10-14T16:51:54+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": -0.006,
+   "sentiment": -0.007,
    "risk": 0.0,
    "events": [
     "market"
