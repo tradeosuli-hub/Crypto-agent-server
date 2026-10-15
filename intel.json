@@ -1,25 +1,73 @@
 {
- "updated_at": "2026-10-15T12:18:47.793188+00:00",
+ "updated_at": "2026-10-15T12:48:17.646415+00:00",
  "market": {
-  "btc_dominance": 59.48,
-  "usdt_dominance": 6.73,
-  "mcap_change_24h": -5.95,
+  "btc_dominance": 59.5,
+  "usdt_dominance": 6.74,
+  "mcap_change_24h": -6.05,
   "trending": [
    "ZEREBRO",
-   "STRK",
-   "BTC",
-   "ZK",
-   "PRL",
    "AERO",
-   "PENGU",
+   "BTC",
    "BTW",
-   "NEAR",
-   "QTC"
+   "ZK",
+   "PENGU",
+   "ZAMA",
+   "ETH",
+   "STRK",
+   "TAO"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
+   "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers",
+   "published": "2026-10-15T12:35:24+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ned847c3654a6",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T12:48:17.646415+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "HEX token sellers erase $160M following reports of founder Richard Schueler arrest",
+   "url": "https://cointelegraph.com/news/hex-token-erases-160m-reports-founder-schuelers-arrest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T12:12:57+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N919f869375d4",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T12:48:17.646415+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Ledger’s answer to wallet tampering costs $849 and ships next year",
+   "url": "https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T12:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4160b7800f7c",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T12:48:17.646415+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Ledger unveils Atom Android device with Solana Mobile integration and new tamper protections amid investigation into modified wallets",
@@ -37,6 +85,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T12:18:47.793188+00:00",
    "notified": false
   },
@@ -53,6 +102,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T12:18:47.793188+00:00",
    "notified": false
   },
@@ -2055,23 +2105,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Russia clears Sberbank for crypto trading ahead of December launch",
-   "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T12:22:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1e8389836321",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T12:32:53.779033+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2721,7 +2754,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.15,
-   "risk": 0.413,
+   "risk": 0.408,
    "events": [
     "etf_flow",
     "market",
@@ -2732,8 +2765,8 @@
    "last": "2026-10-15T11:15:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.067,
-   "risk": 0.207,
+   "sentiment": -0.066,
+   "risk": 0.202,
    "events": [
     "market",
     "etf_flow",
@@ -2763,7 +2796,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.14,
-   "risk": 0.309,
+   "risk": 0.302,
    "events": [
     "regulation"
    ],
