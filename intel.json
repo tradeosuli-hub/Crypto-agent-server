@@ -1,25 +1,91 @@
 {
- "updated_at": "2026-10-15T03:57:12.947506+00:00",
+ "updated_at": "2026-10-15T04:26:45.454705+00:00",
  "market": {
-  "btc_dominance": 59.48,
-  "usdt_dominance": 6.74,
-  "mcap_change_24h": -6.44,
+  "btc_dominance": 59.47,
+  "usdt_dominance": 6.73,
+  "mcap_change_24h": -6.38,
   "trending": [
    "BTC",
-   "ONDO",
+   "QTC",
+   "PRL",
    "PENGU",
+   "ONDO",
+   "NEAR",
    "WAL",
    "PONS",
-   "QTC",
-   "NEAR",
-   "PRL",
-   "ETH",
-   "QNT"
+   "QNT",
+   "PUMP"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+   "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+   "published": "2026-10-15T04:25:15+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "XRP",
+    "BTC",
+    "ETH",
+    "NEAR"
+   ],
+   "symbols": [
+    "XRPUSDT",
+    "BTCUSDT",
+    "ETHUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N6e18f2fe0cef",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T04:26:45.454705+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
+   "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
+   "published": "2026-10-15T04:13:56+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncdcb0f4db35b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T04:26:45.454705+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
+   "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+   "published": "2026-10-15T03:57:45+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N53f58e1c11f8",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": -0.3,
+   "risk": 0.5,
+   "first_seen": "2026-10-15T04:26:45.454705+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
@@ -37,6 +103,7 @@
    "importance": 3,
    "sentiment": -0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T03:57:12.947506+00:00",
    "notified": false
   },
@@ -2747,31 +2814,50 @@
   }
  ],
  "symbols": {
-  "BTCUSDT": {
-   "sentiment": -0.111,
-   "risk": 0.384,
+  "XRPUSDT": {
+   "sentiment": -0.005,
+   "risk": 0.0,
    "events": [
-    "macro",
-    "token_unlock",
     "market"
    ],
-   "count": 34,
-   "last": "2026-10-15T03:29:22+00:00"
+   "count": 6,
+   "last": "2026-10-15T04:25:15+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.131,
+   "risk": 0.495,
+   "events": [
+    "market",
+    "macro",
+    "token_unlock"
+   ],
+   "count": 35,
+   "last": "2026-10-15T04:25:15+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.066,
-   "risk": 0.294,
+   "sentiment": -0.049,
+   "risk": 0.289,
    "events": [
+    "market",
     "etf_flow",
     "token_unlock",
     "project"
    ],
-   "count": 7,
-   "last": "2026-10-15T01:21:52+00:00"
+   "count": 8,
+   "last": "2026-10-15T04:25:15+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [
+    "market"
+   ],
+   "count": 2,
+   "last": "2026-10-15T04:25:15+00:00"
   },
   "POLUSDT": {
    "sentiment": -0.144,
-   "risk": 0.413,
+   "risk": 0.407,
    "events": [
     "regulation"
    ],
@@ -2787,28 +2873,12 @@
    "count": 3,
    "last": "2026-10-14T18:25:54+00:00"
   },
-  "XRPUSDT": {
-   "sentiment": -0.007,
-   "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 5,
-   "last": "2026-10-14T13:00:00+00:00"
-  },
   "BNBUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 1,
    "last": "2026-10-13T19:48:06+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-13T10:46:57+00:00"
   }
  },
  "social": {},
