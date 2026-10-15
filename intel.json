@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-15T08:52:16.720364+00:00",
+ "updated_at": "2026-10-15T09:21:45.677739+00:00",
  "market": {
-  "btc_dominance": 59.99,
+  "btc_dominance": 60.02,
   "usdt_dominance": 6.76,
-  "mcap_change_24h": -5.69,
+  "mcap_change_24h": -5.55,
   "trending": [
    "PRL",
-   "PUFFER",
    "ZK",
-   "STRK",
-   "NEAR",
    "BTC",
-   "SOL",
+   "STRK",
+   "QTC",
+   "PUFFER",
    "LIT",
    "HYPE",
-   "PENGU"
+   "SOL",
+   "QNT"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Babylon advances native Bitcoin lending proposal on Aave V4",
+   "url": "https://cointelegraph.com/news/babylon-native-bitcoin-collateral-aave-v4-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T09:14:28+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N3f65c36c917c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T09:21:45.677739+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs shed $261M as XRP funds buck weekly outflow trend",
@@ -2101,23 +2121,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Ledger details LTE-enabled spy implants in wallets sold by CryptoBilis",
-   "url": "https://cointelegraph.com/news/ledger-cellular-implants-wallets-sold-cryptobilis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T08:45:10+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N678889c6bcec",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T09:05:26.631913+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Margin Tiers of USDⓈ-M Perpetual Contracts (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/05022e46363c4b17bbe81c5600f13526",
@@ -2756,6 +2759,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.151,
+   "risk": 0.444,
+   "events": [
+    "etf_flow",
+    "market",
+    "macro",
+    "token_unlock"
+   ],
+   "count": 36,
+   "last": "2026-10-15T09:14:28+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.156,
    "risk": 0.0,
@@ -2766,21 +2781,9 @@
    "count": 6,
    "last": "2026-10-15T07:23:43+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.155,
-   "risk": 0.449,
-   "events": [
-    "etf_flow",
-    "market",
-    "macro",
-    "token_unlock"
-   ],
-   "count": 36,
-   "last": "2026-10-15T07:23:43+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": -0.042,
-   "risk": 0.243,
+   "sentiment": -0.041,
+   "risk": 0.238,
    "events": [
     "market",
     "etf_flow",
@@ -2801,7 +2804,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.142,
-   "risk": 0.352,
+   "risk": 0.345,
    "events": [
     "regulation"
    ],
