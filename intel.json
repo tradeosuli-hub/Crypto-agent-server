@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-15T11:19:50.640827+00:00",
+ "updated_at": "2026-10-15T11:49:21.237147+00:00",
  "market": {
   "btc_dominance": 60.03,
-  "usdt_dominance": 6.78,
-  "mcap_change_24h": -5.89,
+  "usdt_dominance": 6.77,
+  "mcap_change_24h": -5.78,
   "trending": [
    "ZEREBRO",
    "BTC",
-   "PENGU",
-   "NEAR",
    "QTC",
    "PRL",
+   "STRK",
    "ZK",
-   "BTW",
-   "ETH",
-   "AERO"
+   "NEAR",
+   "AERO",
+   "BP",
+   "ETH"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T11:19:50.640827+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T11:19:50.640827+00:00",
    "notified": false
   },
@@ -73,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T11:19:50.640827+00:00",
    "notified": false
   },
@@ -116,15 +119,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin back under $81,000 as AI selloff worsens",
+   "title": "Live updates: Bitcoin trades near $81,000 as South Korea's chip-heavy Kospi continues to plunge",
    "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
    "published": "2026-10-15T10:16:15+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "N68b30b1b9bac",
    "kind_fa": "خبر",
@@ -2103,71 +2108,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
-   "published": "2026-10-13T11:26:45+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N4d6f80cc0099",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T11:33:16.716950+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
-   "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T11:11:27+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nc1770e19f6d8",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.5,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T11:33:16.716950+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
-   "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
-   "published": "2026-10-13T11:06:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "Nc3a5649be04a",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T11:33:16.716950+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2807,20 +2747,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.145,
-   "risk": 0.423,
+   "sentiment": -0.149,
+   "risk": 0.418,
    "events": [
     "etf_flow",
     "market",
     "macro",
     "token_unlock"
    ],
-   "count": 35,
+   "count": 33,
    "last": "2026-10-15T11:15:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.068,
-   "risk": 0.217,
+   "risk": 0.212,
    "events": [
     "market",
     "etf_flow",
@@ -2829,8 +2769,17 @@
    "count": 6,
    "last": "2026-10-15T10:22:00+00:00"
   },
+  "NEARUSDT": {
+   "sentiment": -0.122,
+   "risk": 0.0,
+   "events": [
+    "market"
+   ],
+   "count": 2,
+   "last": "2026-10-15T10:16:15+00:00"
+  },
   "XRPUSDT": {
-   "sentiment": -0.157,
+   "sentiment": -0.158,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2839,18 +2788,9 @@
    "count": 6,
    "last": "2026-10-15T07:23:43+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 1,
-   "last": "2026-10-15T04:25:15+00:00"
-  },
   "POLUSDT": {
    "sentiment": -0.141,
-   "risk": 0.321,
+   "risk": 0.315,
    "events": [
     "regulation"
    ],
@@ -2858,7 +2798,7 @@
    "last": "2026-10-15T00:55:21+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.082,
+   "sentiment": 0.081,
    "risk": 0.0,
    "events": [
     "project"
