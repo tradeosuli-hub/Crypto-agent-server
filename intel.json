@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-15T07:23:50.023655+00:00",
+ "updated_at": "2026-10-15T07:53:19.866895+00:00",
  "market": {
-  "btc_dominance": 59.49,
-  "usdt_dominance": 6.73,
-  "mcap_change_24h": -5.97,
+  "btc_dominance": 59.55,
+  "usdt_dominance": 6.7,
+  "mcap_change_24h": -5.67,
   "trending": [
    "NEAR",
-   "PENGU",
    "BTC",
    "PUFFER",
-   "ZK",
    "PRL",
    "HYPE",
-   "QNT",
-   "BTW",
-   "ZEC"
+   "ZK",
+   "LIT",
+   "QTC",
+   "PUMP",
+   "TAO"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin ETFs shed $261M as XRP funds buck weekly outflow trend",
+   "url": "https://cointelegraph.com/markets/bitcoin-etf-outflow-btc-below-82k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T07:23:43+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "XRP",
+    "BTC"
+   ],
+   "symbols": [
+    "XRPUSDT",
+    "BTCUSDT"
+   ],
+   "id": "N9c95856dcc02",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T07:53:19.866895+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Updates Limited-Time Promotion for bStocks in Spot Liquidity Provider Program (2026-10-19)",
@@ -33,6 +55,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T07:23:50.023655+00:00",
    "notified": false
   },
@@ -2732,29 +2755,31 @@
   }
  ],
  "symbols": {
-  "BTCUSDT": {
-   "sentiment": -0.131,
-   "risk": 0.464,
+  "XRPUSDT": {
+   "sentiment": -0.155,
+   "risk": 0.0,
    "events": [
+    "etf_flow",
+    "market"
+   ],
+   "count": 6,
+   "last": "2026-10-15T07:23:43+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.155,
+   "risk": 0.459,
+   "events": [
+    "etf_flow",
     "market",
     "macro",
     "token_unlock"
    ],
-   "count": 35,
-   "last": "2026-10-15T04:38:48+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.012,
-   "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 5,
-   "last": "2026-10-15T04:25:15+00:00"
+   "count": 36,
+   "last": "2026-10-15T07:23:43+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.045,
-   "risk": 0.258,
+   "sentiment": -0.044,
+   "risk": 0.253,
    "events": [
     "market",
     "etf_flow",
@@ -2775,7 +2800,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.143,
-   "risk": 0.37,
+   "risk": 0.364,
    "events": [
     "regulation"
    ],
