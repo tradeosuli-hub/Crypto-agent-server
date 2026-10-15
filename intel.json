@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-15T19:12:58.737084+00:00",
+ "updated_at": "2026-10-15T19:42:24.255420+00:00",
  "market": {
-  "btc_dominance": 59.33,
+  "btc_dominance": 59.31,
   "usdt_dominance": 6.59,
-  "mcap_change_24h": -1.94,
+  "mcap_change_24h": -1.97,
   "trending": [
    "SI",
-   "IGNITION",
    "STREAM",
-   "CASINO",
    "ALTAI",
-   "QTC",
-   "LIT",
-   "PRL",
+   "CASINO",
+   "IGNITION",
    "PENGU",
-   "STRK"
+   "QTC",
+   "PRL",
+   "NEAR",
+   "LIT"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T19:12:58.737084+00:00",
    "notified": false
   },
@@ -2145,23 +2146,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Trezor reduces resellers as a ‘preventative step’ amid Ledger tampering reports",
-   "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T19:07:04+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3d3c869f46aa",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T19:27:12.879257+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2802,7 +2786,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.134,
-   "risk": 0.341,
+   "risk": 0.336,
    "events": [
     "etf_flow",
     "market",
@@ -2822,7 +2806,7 @@
    "last": "2026-10-15T15:48:32+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.148,
+   "sentiment": -0.149,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2839,8 +2823,8 @@
    "last": "2026-10-15T14:16:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.048,
-   "risk": 0.135,
+   "sentiment": -0.047,
+   "risk": 0.13,
    "events": [
     "market",
     "etf_flow",
@@ -2860,7 +2844,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.135,
-   "risk": 0.222,
+   "risk": 0.216,
    "events": [
     "regulation"
    ],
