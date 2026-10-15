@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-15T01:00:05.359795+00:00",
+ "updated_at": "2026-10-15T01:29:35.758230+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -4.71,
+  "btc_dominance": 59.33,
+  "usdt_dominance": 6.66,
+  "mcap_change_24h": -5.01,
   "trending": [
    "PRL",
    "BTW",
-   "PENGU",
-   "WAL",
-   "QTC",
-   "AERO",
-   "MON",
    "ZEC",
-   "JUP",
-   "QNT"
+   "WAL",
+   "AERO",
+   "STRK",
+   "NEAR",
+   "MON",
+   "QNT",
+   "CARDS"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "VanEck seeks to withdraw application for Lido staked Ether ETF",
+   "url": "https://cointelegraph.com/news/vaneck-seeks-to-withdraw-application-for-lido-staked-ether-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T01:21:52+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N3095705f7634",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T01:29:35.758230+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Polygon gains US payments licenses after closing Coinme deal",
+   "url": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T00:55:21+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "POL"
+   ],
+   "symbols": [
+    "POLUSDT"
+   ],
+   "id": "N2a567af6b944",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T01:29:35.758230+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Organizations join forces to fight Illinois crypto tax, after 6-month pause",
@@ -2119,27 +2159,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Aptos rolls out Encrypted Mempool to curb frontrunning, sandwich attacks",
-   "url": "https://cointelegraph.com/news/aptos-rolls-out-encrypted-mempool-to-curb-frontrunning-sandwich-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T00:52:52+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "APT"
-   ],
-   "symbols": [
-    "APTUSDT"
-   ],
-   "id": "N80c6b787cf80",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T01:13:06.836894+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2761,6 +2780,26 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.07,
+   "risk": 0.32,
+   "events": [
+    "etf_flow",
+    "token_unlock",
+    "project"
+   ],
+   "count": 7,
+   "last": "2026-10-15T01:21:52+00:00"
+  },
+  "POLUSDT": {
+   "sentiment": -0.145,
+   "risk": 0.444,
+   "events": [
+    "regulation"
+   ],
+   "count": 2,
+   "last": "2026-10-15T00:55:21+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.086,
    "risk": 0.0,
@@ -2772,7 +2811,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.084,
-   "risk": 0.415,
+   "risk": 0.41,
    "events": [
     "macro",
     "token_unlock",
@@ -2789,25 +2828,6 @@
    ],
    "count": 5,
    "last": "2026-10-14T13:00:00+00:00"
-  },
-  "POLUSDT": {
-   "sentiment": -0.2,
-   "risk": 0.45,
-   "events": [
-    "regulation"
-   ],
-   "count": 1,
-   "last": "2026-10-14T13:00:00+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.118,
-   "risk": 0.325,
-   "events": [
-    "token_unlock",
-    "project"
-   ],
-   "count": 6,
-   "last": "2026-10-14T10:07:03+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
