@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-15T16:15:40.314425+00:00",
+ "updated_at": "2026-10-15T16:45:12.103850+00:00",
  "market": {
-  "btc_dominance": 59.4,
-  "usdt_dominance": 6.6,
-  "mcap_change_24h": -1.92,
+  "btc_dominance": 59.38,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -2.35,
   "trending": [
+   "CASINO",
    "PYTH",
    "NEAR",
-   "CASINO",
-   "AERO",
-   "PRL",
-   "QTC",
    "STRK",
+   "QTC",
+   "PRL",
    "BTC",
-   "UNI",
-   "CARDS"
+   "CARDS",
+   "PENGU",
+   "AERO"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T16:15:40.314425+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T16:15:40.314425+00:00",
    "notified": false
   },
@@ -73,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T16:15:40.314425+00:00",
    "notified": false
   },
@@ -89,6 +92,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T16:15:40.314425+00:00",
    "notified": false
   },
@@ -2125,48 +2129,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Ripple, Stripe-owned Privy partner to bring embedded wallets to XRP Ledger",
-   "url": "https://www.theblock.co/news/business/2026-10-13-stripe-privy-ripple-xrp-ledger-wallets-418463",
-   "published": "2026-10-13T16:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Nf65ec83d2fb9",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T16:29:53.881371+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%",
-   "url": "https://cointelegraph.com/news/strive-bitcoin-holdings-32773-btc-warrant-exercises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T15:57:55+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N9534ded28b5c",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T16:29:53.881371+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2807,7 +2769,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.134,
-   "risk": 0.372,
+   "risk": 0.367,
    "events": [
     "etf_flow",
     "market",
@@ -2818,7 +2780,7 @@
    "last": "2026-10-15T16:06:00+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.027,
+   "sentiment": 0.026,
    "risk": 0.0,
    "events": [
     "project"
@@ -2827,7 +2789,7 @@
    "last": "2026-10-15T15:48:32+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.145,
+   "sentiment": -0.146,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2844,8 +2806,8 @@
    "last": "2026-10-15T14:16:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.053,
-   "risk": 0.166,
+   "sentiment": -0.052,
+   "risk": 0.161,
    "events": [
     "market",
     "etf_flow",
@@ -2865,7 +2827,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.138,
-   "risk": 0.259,
+   "risk": 0.253,
    "events": [
     "regulation"
    ],
