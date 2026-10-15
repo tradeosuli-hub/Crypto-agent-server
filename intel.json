@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-15T01:59:11.354833+00:00",
+ "updated_at": "2026-10-15T02:28:44.641796+00:00",
  "market": {
-  "btc_dominance": 59.35,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -4.94,
+  "btc_dominance": 59.42,
+  "usdt_dominance": 6.72,
+  "mcap_change_24h": -5.92,
   "trending": [
    "PRL",
    "BTW",
-   "MON",
-   "ZEC",
-   "WAL",
    "ONDO",
-   "SUI",
-   "AERO",
+   "PENGU",
+   "WAL",
+   "MON",
+   "NEAR",
    "DRV",
-   "ETH"
+   "ETH",
+   "ZEC"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
@@ -2123,44 +2123,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitcoin slides below $82,000 as crypto liquidations surge past $770 million",
-   "url": "https://www.theblock.co/news/markets/2026-10-12-bitcoin-slides-crypto-liquidations-surge-418374",
-   "published": "2026-10-13T01:57:49+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N54a03403fbf5",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": 0.1,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T02:12:07.225176+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Meta claims new Muse Wonder AI models rival OpenAI, Anthropic",
-   "url": "https://cointelegraph.com/news/meta-launches-muse-wonder-ai-models-challenging-top-rivals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T01:54:31+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nce7f2332290f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T02:12:07.225176+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Meet Binance AI: A Personalized Trading Experience for Every User",
    "url": "https://www.binance.com/en/support/announcement/7219bc2f011b43fbab5f68a93398196d",
@@ -2783,8 +2745,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.07,
-   "risk": 0.314,
+   "sentiment": -0.069,
+   "risk": 0.309,
    "events": [
     "etf_flow",
     "token_unlock",
@@ -2794,8 +2756,8 @@
    "last": "2026-10-15T01:21:52+00:00"
   },
   "POLUSDT": {
-   "sentiment": -0.145,
-   "risk": 0.438,
+   "sentiment": -0.144,
+   "risk": 0.432,
    "events": [
     "regulation"
    ],
@@ -2813,7 +2775,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.087,
-   "risk": 0.405,
+   "risk": 0.4,
    "events": [
     "macro",
     "token_unlock",
@@ -2823,7 +2785,7 @@
    "last": "2026-10-14T16:51:54+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.003,
+   "sentiment": -0.004,
    "risk": 0.0,
    "events": [
     "market"
