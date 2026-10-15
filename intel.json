@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-15T10:20:43.700167+00:00",
+ "updated_at": "2026-10-15T10:50:19.710708+00:00",
  "market": {
-  "btc_dominance": 60.03,
-  "usdt_dominance": 6.78,
-  "mcap_change_24h": -5.57,
+  "btc_dominance": 60.02,
+  "usdt_dominance": 6.79,
+  "mcap_change_24h": -5.8,
   "trending": [
    "BTC",
    "STRK",
-   "PRL",
-   "QTC",
    "NEAR",
+   "PRL",
    "ZK",
-   "PUMP",
-   "PUFFER",
-   "PENGU",
-   "SUI"
+   "ZEREBRO",
+   "QTC",
+   "ZAMA",
+   "BP",
+   "PENGU"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "White House crypto council chief Patrick Witt steps down",
+   "url": "https://cointelegraph.com/news/white-house-crypto-council-director-steps-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T10:41:09+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1cc51e62200c",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T10:50:19.710708+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
+   "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T10:22:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nd615002a6538",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T10:50:19.710708+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live updates: Bitcoin back under $81,000 as AI selloff worsens",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T10:20:43.700167+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T10:20:43.700167+00:00",
    "notified": false
   },
@@ -69,6 +107,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T10:20:43.700167+00:00",
    "notified": false
   },
@@ -85,6 +124,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T10:20:43.700167+00:00",
    "notified": false
   },
@@ -101,6 +141,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T10:20:43.700167+00:00",
    "notified": false
   },
@@ -121,6 +162,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T10:20:43.700167+00:00",
    "notified": false
   },
@@ -2146,23 +2188,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "MediaMarktSaturn pulls Ledger products amid tampering reports",
-   "url": "https://cointelegraph.com/news/mediamarkt-pulls-ledger-wallet-security-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T10:09:01+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4f26bb34c17c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T10:34:08.013152+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2801,16 +2826,28 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.032,
+   "risk": 0.222,
+   "events": [
+    "market",
+    "etf_flow",
+    "token_unlock",
+    "project"
+   ],
+   "count": 8,
+   "last": "2026-10-15T10:22:00+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.153,
-   "risk": 0.434,
+   "risk": 0.428,
    "events": [
     "etf_flow",
     "market",
     "macro",
     "token_unlock"
    ],
-   "count": 36,
+   "count": 34,
    "last": "2026-10-15T10:16:15+00:00"
   },
   "XRPUSDT": {
@@ -2823,30 +2860,18 @@
    "count": 6,
    "last": "2026-10-15T07:23:43+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.039,
-   "risk": 0.227,
-   "events": [
-    "market",
-    "etf_flow",
-    "token_unlock",
-    "project"
-   ],
-   "count": 7,
-   "last": "2026-10-15T04:25:15+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [
     "market"
    ],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-15T04:25:15+00:00"
   },
   "POLUSDT": {
    "sentiment": -0.141,
-   "risk": 0.333,
+   "risk": 0.327,
    "events": [
     "regulation"
    ],
@@ -2854,7 +2879,7 @@
    "last": "2026-10-15T00:55:21+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.083,
+   "sentiment": 0.082,
    "risk": 0.0,
    "events": [
     "project"
