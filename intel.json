@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-15T23:09:03.173564+00:00",
+ "updated_at": "2026-10-15T23:38:38.352471+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -1.8,
+  "btc_dominance": 59.32,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -2.12,
   "trending": [
    "ALTAI",
-   "SI",
-   "STREAM",
    "IGNITION",
+   "STREAM",
    "NEAR",
-   "PRL",
    "INJ",
-   "BTC",
-   "QTC",
-   "AERO"
+   "PENGU",
+   "SUI",
+   "PRL",
+   "HYPE",
+   "LIT"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T23:09:03.173564+00:00",
    "notified": false
   },
@@ -2152,27 +2153,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
-   "url": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
-   "published": "2026-10-13T23:23:05+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5839a6e29be0",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T23:23:32.633950+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/79f36518401b4187b46d52e87bb2c286",
@@ -2812,19 +2792,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.134,
-   "risk": 0.3,
+   "sentiment": -0.135,
+   "risk": 0.295,
    "events": [
     "etf_flow",
     "market",
     "macro",
     "token_unlock"
    ],
-   "count": 32,
+   "count": 31,
    "last": "2026-10-15T16:06:00+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.028,
+   "sentiment": 0.029,
    "risk": 0.0,
    "events": [
     "project"
@@ -2850,7 +2830,7 @@
    "last": "2026-10-15T14:16:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.041,
+   "sentiment": -0.042,
    "risk": 0.1,
    "events": [
     "market",
@@ -2870,8 +2850,8 @@
    "last": "2026-10-15T13:00:00+00:00"
   },
   "POLUSDT": {
-   "sentiment": -0.131,
-   "risk": 0.173,
+   "sentiment": -0.13,
+   "risk": 0.167,
    "events": [
     "regulation"
    ],
