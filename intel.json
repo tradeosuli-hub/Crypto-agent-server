@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-15T09:21:45.677739+00:00",
+ "updated_at": "2026-10-15T09:51:16.184788+00:00",
  "market": {
-  "btc_dominance": 60.02,
+  "btc_dominance": 60.03,
   "usdt_dominance": 6.76,
-  "mcap_change_24h": -5.55,
+  "mcap_change_24h": -5.64,
   "trending": [
    "PRL",
-   "ZK",
    "BTC",
-   "STRK",
+   "ZK",
+   "PENGU",
    "QTC",
-   "PUFFER",
+   "NEAR",
    "LIT",
    "HYPE",
-   "SOL",
-   "QNT"
+   "QNT",
+   "STRK"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Thailand crypto ETFs may see slow start despite new rules: CoinShares",
+   "url": "https://cointelegraph.com/news/thailand-crypto-etfs-slow-start-new-rules-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-15T09:36:20+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N081e1ba1ed6c",
+   "kind_fa": "جریان ETF",
+   "importance": 6,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T09:51:16.184788+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Hex founder Richard Heart arrested in Istanbul, Turkish media report",
+   "url": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report",
+   "published": "2026-10-15T09:20:57+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5ecb202a12ef",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T09:51:16.184788+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Babylon advances native Bitcoin lending proposal on Aave V4",
@@ -37,6 +69,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T09:21:45.677739+00:00",
    "notified": false
   },
@@ -2062,65 +2095,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Ledger says 'spy' chip inside CryptoBilis Ledger devices transmitted wallet keys over mobile network",
-   "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
-   "published": "2026-10-13T09:27:47+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9af5acea5c33",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T09:35:02.230482+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "UK court ruling boosts government’s chances of keeping $5 billion in seized bitcoin",
-   "url": "https://www.coindesk.com/policy/2026/10/13/u-k-court-ruling-boosts-government-s-chances-of-keeping-gbp3-8-billion-seized-bitcoin",
-   "published": "2026-10-13T09:25:03+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N481f82b7bcf7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T09:35:02.230482+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Chinese fraud victims lose key court battle over 61,000 Bitcoin",
-   "url": "https://cointelegraph.com/news/uk-court-chinese-law-61k-bitcoin-fraud-victims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-13T09:03:06+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ncf0bff3d565a",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T09:35:02.230482+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Margin Tiers of USDⓈ-M Perpetual Contracts (2026-10-16)",
    "url": "https://www.binance.com/en/support/announcement/05022e46363c4b17bbe81c5600f13526",
@@ -2760,15 +2734,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.151,
-   "risk": 0.444,
+   "sentiment": -0.153,
+   "risk": 0.439,
    "events": [
     "etf_flow",
     "market",
     "macro",
     "token_unlock"
    ],
-   "count": 36,
+   "count": 34,
    "last": "2026-10-15T09:14:28+00:00"
   },
   "XRPUSDT": {
@@ -2782,8 +2756,8 @@
    "last": "2026-10-15T07:23:43+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.041,
-   "risk": 0.238,
+   "sentiment": -0.04,
+   "risk": 0.232,
    "events": [
     "market",
     "etf_flow",
@@ -2804,7 +2778,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.142,
-   "risk": 0.345,
+   "risk": 0.339,
    "events": [
     "regulation"
    ],
