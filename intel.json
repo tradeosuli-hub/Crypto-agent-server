@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-15T04:26:45.454705+00:00",
+ "updated_at": "2026-10-15T04:56:18.141890+00:00",
  "market": {
-  "btc_dominance": 59.47,
-  "usdt_dominance": 6.73,
-  "mcap_change_24h": -6.38,
+  "btc_dominance": 59.49,
+  "usdt_dominance": 6.68,
+  "mcap_change_24h": -5.69,
   "trending": [
    "BTC",
-   "QTC",
-   "PRL",
-   "PENGU",
-   "ONDO",
+   "ZK",
    "NEAR",
+   "PUFFER",
    "WAL",
-   "PONS",
-   "QNT",
-   "PUMP"
+   "PRL",
+   "QTC",
+   "AERO",
+   "PENGU",
+   "ONDO"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin drops below $81,000 as risk-off sentiment weighs on Asian equities",
+   "url": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+   "published": "2026-10-15T04:38:48+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4bd23e939d5c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-15T04:56:18.141890+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
@@ -43,6 +63,7 @@
    "importance": 5,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T04:26:45.454705+00:00",
    "notified": false
   },
@@ -63,6 +84,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-15T04:26:45.454705+00:00",
    "notified": false
   },
@@ -83,6 +105,7 @@
    "importance": 8,
    "sentiment": -0.3,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-15T04:26:45.454705+00:00",
    "notified": false
   },
@@ -2117,48 +2140,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitcoin whale moves $378 million in BTC after six years of dormancy: onchain data",
-   "url": "https://www.theblock.co/news/markets/2026-10-13-bitcoin-whale-moves-378-million-418383",
-   "published": "2026-10-13T04:18:30+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N148d2cfce11d",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T04:39:43.708029+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin rebounds above $83,000, decoupling from tumbling Korean stocks",
-   "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
-   "published": "2026-10-13T04:18:20+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ne281186212b2",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T04:39:43.708029+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
    "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
@@ -2814,6 +2795,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.134,
+   "risk": 0.49,
+   "events": [
+    "market",
+    "macro",
+    "token_unlock"
+   ],
+   "count": 36,
+   "last": "2026-10-15T04:38:48+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.005,
    "risk": 0.0,
@@ -2823,27 +2815,16 @@
    "count": 6,
    "last": "2026-10-15T04:25:15+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.131,
-   "risk": 0.495,
-   "events": [
-    "market",
-    "macro",
-    "token_unlock"
-   ],
-   "count": 35,
-   "last": "2026-10-15T04:25:15+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": -0.049,
-   "risk": 0.289,
+   "sentiment": -0.05,
+   "risk": 0.284,
    "events": [
     "market",
     "etf_flow",
     "token_unlock",
     "project"
    ],
-   "count": 8,
+   "count": 7,
    "last": "2026-10-15T04:25:15+00:00"
   },
   "NEARUSDT": {
@@ -2857,7 +2838,7 @@
   },
   "POLUSDT": {
    "sentiment": -0.144,
-   "risk": 0.407,
+   "risk": 0.401,
    "events": [
     "regulation"
    ],
