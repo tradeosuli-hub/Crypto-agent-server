@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-16T04:04:27.726910+00:00",
+ "updated_at": "2026-10-16T04:34:01.872230+00:00",
  "market": {
-  "btc_dominance": 59.3,
+  "btc_dominance": 59.28,
   "usdt_dominance": 6.6,
   "mcap_change_24h": -0.94,
   "trending": [
-   "IGNITION",
    "STREAM",
+   "IGNITION",
    "INJ",
    "NEAR",
    "QTC",
    "PRL",
+   "AERO",
    "STRK",
-   "VVV",
-   "PENGU",
-   "LINK"
+   "PENDLE",
+   "HYPE"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
+   "url": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+   "published": "2026-10-16T04:29:19+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N6746b0bc0937",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T04:34:01.872230+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
+   "url": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
+   "published": "2026-10-16T04:14:22+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ndf6261cced5c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T04:34:01.872230+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "MSCI adopts index exclusion rules that could oust Strategy",
@@ -2005,27 +2045,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality",
-   "url": "https://www.coindesk.com/tech/2026/10/14/solana-sets-oct-21-for-alpenglow-upgrade-targeting-150-millisecond-finality",
-   "published": "2026-10-14T04:11:16+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Neecfb8d2f6b3",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T04:18:37.503292+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Earn Yield Arena: Earn Up to 5,888 USDC With This Week’s New Limited-Time Offers! (2026-10-14)",
    "url": "https://www.binance.com/en/support/announcement/fb7e0a5a94f64ce59a07bdc9fb58ddb7",
@@ -2038,27 +2057,6 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T04:18:37.503292+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
-   "url": "https://www.coindesk.com/markets/2026/10/14/bitcoin-climbs-toward-usd84-000-after-fed-s-williams-sees-no-rate-hikes-in-2027",
-   "published": "2026-10-14T03:50:54+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6d941332be78",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
    "summary_fa": null,
    "first_seen": "2026-10-14T04:18:37.503292+00:00",
    "notified": false
@@ -2753,29 +2751,38 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.039,
+   "risk": 0.1,
+   "events": [
+    "market",
+    "etf_flow",
+    "token_unlock"
+   ],
+   "count": 7,
+   "last": "2026-10-16T04:29:19+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.141,
-   "risk": 0.249,
+   "sentiment": -0.131,
+   "risk": 0.244,
    "events": [
     "etf_flow",
     "market",
     "macro",
     "token_unlock"
    ],
-   "count": 29,
-   "last": "2026-10-15T16:06:00+00:00"
+   "count": 30,
+   "last": "2026-10-16T04:14:22+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.033,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 4,
+   "events": [],
+   "count": 3,
    "last": "2026-10-15T15:48:32+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.152,
+   "sentiment": -0.151,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2791,17 +2798,6 @@
    "count": 1,
    "last": "2026-10-15T14:16:55+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.048,
-   "risk": 0.1,
-   "events": [
-    "market",
-    "etf_flow",
-    "token_unlock"
-   ],
-   "count": 6,
-   "last": "2026-10-15T14:01:06+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2812,7 +2808,7 @@
    "last": "2026-10-15T13:00:00+00:00"
   },
   "POLUSDT": {
-   "sentiment": -0.123,
+   "sentiment": -0.125,
    "risk": 0.12,
    "events": [
     "regulation"
