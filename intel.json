@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-16T11:56:53.212853+00:00",
+ "updated_at": "2026-10-16T12:26:25.282088+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 6.55,
-  "mcap_change_24h": -0.39,
+  "btc_dominance": 59.23,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": -0.66,
   "trending": [
+   "DACITY",
+   "STREAM",
    "INJ",
    "TIA",
-   "STREAM",
-   "SUI",
    "PENGU",
+   "SUI",
    "BTC",
+   "BP",
    "PRL",
-   "LIT",
-   "PYTH",
-   "DRV"
+   "NEAR"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T11:56:53.212853+00:00",
    "notified": false
   },
@@ -74,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T11:56:53.212853+00:00",
    "notified": false
   },
@@ -231,10 +233,10 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin steady near $82,000 after Fed's Warsh comments",
+   "title": "Live updates: Bitcoin steady near $82,000 after Fed Chair Warsh's comments",
    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
    "published": "2026-10-16T09:48:14+00:00",
-   "kind": "news",
+   "kind": "macro",
    "raw_symbols": [
     "BTC",
     "NEAR"
@@ -244,10 +246,10 @@
     "NEARUSDT"
    ],
    "id": "Nb9a8f3e79f5f",
-   "kind_fa": "خبر",
-   "importance": 3,
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
    "sentiment": 0.0,
-   "risk": 0.0,
+   "risk": 0.5,
    "summary_fa": null,
    "first_seen": "2026-10-16T09:58:52.972388+00:00",
    "notified": false
@@ -2081,65 +2083,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work",
-   "url": "https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503",
-   "published": "2026-10-14T12:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N6babb10b63b1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T12:11:19.936442+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Can crypto users trust the supply chain behind hardware wallets?",
-   "url": "https://cointelegraph.com/news/hardware-wallet-supply-chain-risk-ledger-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-14T11:59:42+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3ec086ff5a81",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T12:11:19.936442+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "How Bitcoin Works",
-   "url": "https://www.theblock.co/learn/campus/how-bitcoin-works-417659",
-   "published": "2026-10-14T11:52:16+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nb5faf3770564",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T12:11:19.936442+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2881,34 +2824,35 @@
    "last": "2026-10-16T11:22:47+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.185,
-   "risk": 0.968,
+   "sentiment": -0.172,
+   "risk": 0.958,
    "events": [
     "security",
+    "macro",
     "etf_flow",
-    "market",
-    "macro"
+    "market"
    ],
    "count": 29,
    "last": "2026-10-16T10:52:26+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.0,
+   "risk": 0.473,
    "events": [
+    "macro",
     "market"
    ],
    "count": 3,
    "last": "2026-10-16T09:48:14+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.113,
+   "sentiment": -0.119,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "market"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-16T05:53:58+00:00"
   },
   "TRXUSDT": {
@@ -2919,7 +2863,7 @@
    "last": "2026-10-15T14:16:55+00:00"
   },
   "POLUSDT": {
-   "sentiment": -0.144,
+   "sentiment": -0.146,
    "risk": 0.12,
    "events": [
     "regulation"
