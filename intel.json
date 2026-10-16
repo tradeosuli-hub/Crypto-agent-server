@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-16T15:24:17.980422+00:00",
+ "updated_at": "2026-10-16T15:53:51.525908+00:00",
  "market": {
   "btc_dominance": 59.26,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -2.63,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -2.82,
   "trending": [
    "DACITY",
-   "TIA",
+   "ASTRO",
    "INJ",
-   "QTC",
+   "TIA",
    "TAO",
-   "PENGU",
    "PRL",
    "AERO",
-   "SOL",
-   "LIT"
+   "STRK",
+   "BTC",
+   "QTC"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price steadies around $82K after Fed’s Warsh avoids rate-hike hints",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-steadies-82k-fed-warsh-avoids-rate-hike-hints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-16T15:45:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncc36b5cf6d40",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T15:53:51.525908+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Circle details USDC revenue split, says $819 million went to partners and costs in H1 2026",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T15:24:17.980422+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T15:24:17.980422+00:00",
    "notified": false
   },
@@ -354,21 +376,15 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin steady near $82,000 as AI selloff continues",
+   "title": "Live updates: Crypto gives up some ground as AI selloff picks up steam",
    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
    "published": "2026-10-16T09:48:14+00:00",
    "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "Nb9a8f3e79f5f",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
    "summary_fa": null,
@@ -1836,23 +1852,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
-   "url": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
-   "published": "2026-10-14T15:35:36+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd3b391885f8e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T15:38:10.423856+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2576,6 +2575,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.193,
+   "risk": 0.886,
+   "events": [
+    "security",
+    "etf_flow",
+    "market",
+    "macro"
+   ],
+   "count": 24,
+   "last": "2026-10-16T15:45:43+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2593,29 +2604,8 @@
    "count": 4,
    "last": "2026-10-16T11:22:47+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.21,
-   "risk": 0.896,
-   "events": [
-    "security",
-    "etf_flow",
-    "market",
-    "macro"
-   ],
-   "count": 24,
-   "last": "2026-10-16T10:52:26+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.148,
-   "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 3,
-   "last": "2026-10-16T09:48:14+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": -0.124,
+   "sentiment": -0.123,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2630,6 +2620,15 @@
    "events": [],
    "count": 1,
    "last": "2026-10-15T14:16:55+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [
+    "market"
+   ],
+   "count": 2,
+   "last": "2026-10-15T13:00:00+00:00"
   },
   "POLUSDT": {
    "sentiment": 0.0,
