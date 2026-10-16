@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-16T20:19:37.835884+00:00",
+ "updated_at": "2026-10-16T20:49:09.226986+00:00",
  "market": {
   "btc_dominance": 59.42,
   "usdt_dominance": 6.65,
-  "mcap_change_24h": -3.85,
+  "mcap_change_24h": -3.76,
   "trending": [
    "DACITY",
-   "PENGU",
-   "BTC",
    "PRL",
+   "BTC",
+   "SUI",
    "QTC",
    "INJ",
+   "ZEC",
+   "PYTH",
    "STRK",
-   "MON",
-   "TIA",
-   "BAT"
+   "PENGU"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Strive’s bitcoin buying spree earns 27% price target hike from TD Cowen",
+   "url": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
+   "published": "2026-10-16T20:22:57+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N65e131d330dd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T20:49:09.226986+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -445,16 +465,20 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Crypto gives up more ground as AI selloff picks up steam",
+   "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
    "published": "2026-10-16T09:48:14+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
    "id": "Nb9a8f3e79f5f",
    "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.3,
+   "importance": 3,
+   "sentiment": 0.3,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T09:58:52.972388+00:00",
@@ -1726,23 +1750,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Patrick Witt exits White House crypto role as Clarity Act stalls",
-   "url": "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611",
-   "published": "2026-10-14T20:30:15+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ndcc84f91bba4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T20:34:23.205738+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2467,16 +2474,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.195,
-   "risk": 0.793,
+   "sentiment": -0.157,
+   "risk": 0.783,
    "events": [
     "security",
     "etf_flow",
     "market",
     "macro"
    ],
-   "count": 23,
-   "last": "2026-10-16T15:45:43+00:00"
+   "count": 25,
+   "last": "2026-10-16T20:22:57+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -2489,14 +2496,14 @@
    "last": "2026-10-16T13:31:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.158,
+   "sentiment": 0.159,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-16T11:22:47+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.11,
+   "sentiment": -0.108,
    "risk": 0.0,
    "events": [
     "etf_flow",
