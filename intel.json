@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-16T11:27:22.241225+00:00",
+ "updated_at": "2026-10-16T11:56:53.212853+00:00",
  "market": {
   "btc_dominance": 59.27,
   "usdt_dominance": 6.55,
-  "mcap_change_24h": -0.32,
+  "mcap_change_24h": -0.39,
   "trending": [
    "INJ",
-   "STREAM",
    "TIA",
-   "PENGU",
-   "PRL",
-   "BTC",
+   "STREAM",
    "SUI",
+   "PENGU",
+   "BTC",
+   "PRL",
+   "LIT",
    "PYTH",
-   "DRV",
-   "LIT"
+   "DRV"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "OpenAI says research model spent another wallet’s testnet ETH without authorization on coding task",
+   "url": "https://www.theblock.co/news/business/2026-10-16-openai-says-research-model-spent-another-wallets-testnet-eth-without-authorization-on-coding-task-418798",
+   "published": "2026-10-16T11:34:54+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N43c50bb0b475",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T11:56:53.212853+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Visa Direct moves USDC prefunding into commercial production with Inyo Global",
@@ -33,7 +53,28 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T11:27:22.241225+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Solana’s Liu says Shanghai event postponed over registration surge",
+   "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-16T11:22:47+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N1ad6d9c8fff9",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T11:56:53.212853+00:00",
    "notified": false
   },
   {
@@ -53,6 +94,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T11:27:22.241225+00:00",
    "notified": false
   },
@@ -189,22 +231,22 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin back above $82,000, ZEC jumps 11% as ETF outflows continue",
+   "title": "Live updates: Bitcoin steady near $82,000 after Fed's Warsh comments",
    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
    "published": "2026-10-16T09:48:14+00:00",
-   "kind": "etf_flow",
+   "kind": "news",
    "raw_symbols": [
-    "ZEC",
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "ZECUSDT",
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "Nb9a8f3e79f5f",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.2,
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T09:58:52.972388+00:00",
@@ -2098,44 +2140,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Here's how analysts see U.S. inflation influencing bitcoin",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/14/here-s-how-analysts-see-u-s-inflation-influencing-bitcoin",
-   "published": "2026-10-14T11:15:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N2ca77b6bc99e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T11:41:44.925468+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Dutch central bank grants Qivalis e-money license for MiCA-compliant euro token",
-   "url": "https://www.coindesk.com/policy/2026/10/14/dutch-regulator-approves-qivalis-as-electronic-money-institution-under-mica-rules",
-   "published": "2026-10-14T11:12:36+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nee04c656c28a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T11:41:44.925468+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2866,32 +2870,39 @@
     "market",
     "etf_flow"
    ],
-   "count": 7,
-   "last": "2026-10-16T11:15:00+00:00"
+   "count": 8,
+   "last": "2026-10-16T11:34:54+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.131,
+   "risk": 0.0,
+   "events": [],
+   "count": 4,
+   "last": "2026-10-16T11:22:47+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.193,
-   "risk": 0.978,
+   "sentiment": -0.185,
+   "risk": 0.968,
    "events": [
     "security",
     "etf_flow",
     "market",
     "macro"
    ],
-   "count": 30,
+   "count": 29,
    "last": "2026-10-16T10:52:26+00:00"
   },
-  "ZECUSDT": {
-   "sentiment": -0.2,
+  "NEARUSDT": {
+   "sentiment": 0.0,
    "risk": 0.0,
    "events": [
-    "etf_flow"
+    "market"
    ],
-   "count": 1,
+   "count": 3,
    "last": "2026-10-16T09:48:14+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.114,
+   "sentiment": -0.113,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2900,13 +2911,6 @@
    "count": 6,
    "last": "2026-10-16T05:53:58+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 3,
-   "last": "2026-10-15T15:48:32+00:00"
-  },
   "TRXUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2914,17 +2918,8 @@
    "count": 1,
    "last": "2026-10-15T14:16:55+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 2,
-   "last": "2026-10-15T13:00:00+00:00"
-  },
   "POLUSDT": {
-   "sentiment": -0.143,
+   "sentiment": -0.144,
    "risk": 0.12,
    "events": [
     "regulation"
