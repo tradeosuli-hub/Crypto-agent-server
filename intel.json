@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-16T16:23:28.033424+00:00",
+ "updated_at": "2026-10-16T16:52:55.644981+00:00",
  "market": {
-  "btc_dominance": 59.26,
+  "btc_dominance": 59.25,
   "usdt_dominance": 6.64,
-  "mcap_change_24h": -3.46,
+  "mcap_change_24h": -3.58,
   "trending": [
    "DACITY",
-   "INJ",
    "PRL",
-   "TAO",
-   "PENGU",
-   "TIA",
+   "INJ",
    "NEAR",
    "QTC",
+   "TIA",
+   "TAO",
+   "PENGU",
    "AERO",
-   "STRK"
+   "BTC"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T16:23:28.033424+00:00",
    "notified": false
   },
@@ -1801,40 +1802,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
-   "url": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out",
-   "published": "2026-10-14T16:34:53+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ndd1501e965f3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T16:37:41.805631+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow",
-   "url": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-14T16:26:31+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd2fb2f73007d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T16:37:41.805631+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2560,14 +2527,14 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.193,
-   "risk": 0.875,
+   "risk": 0.865,
    "events": [
     "security",
     "etf_flow",
     "market",
     "macro"
    ],
-   "count": 24,
+   "count": 23,
    "last": "2026-10-16T15:45:43+00:00"
   },
   "ETHUSDT": {
@@ -2588,7 +2555,7 @@
    "last": "2026-10-16T11:22:47+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.122,
+   "sentiment": -0.121,
    "risk": 0.0,
    "events": [
     "etf_flow",
