@@ -1,25 +1,103 @@
 {
- "updated_at": "2026-10-16T09:29:23.684276+00:00",
+ "updated_at": "2026-10-16T09:58:52.972388+00:00",
  "market": {
-  "btc_dominance": 59.22,
+  "btc_dominance": 59.21,
   "usdt_dominance": 6.59,
-  "mcap_change_24h": -0.42,
+  "mcap_change_24h": -0.43,
   "trending": [
    "STREAM",
-   "TIA",
    "IGNITION",
-   "INJ",
+   "TIA",
    "PENGU",
-   "ZRO",
-   "QTC",
+   "INJ",
    "PRL",
    "NEAR",
-   "STRK"
+   "STRK",
+   "QTC",
+   "ZRO"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin back above $82,000, ZEC jumps 11% as ETF outflows continue",
+   "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+   "published": "2026-10-16T09:48:14+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "ZEC",
+    "BTC"
+   ],
+   "symbols": [
+    "ZECUSDT",
+    "BTCUSDT"
+   ],
+   "id": "Nb9a8f3e79f5f",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T09:58:52.972388+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "U.S. judge rejects Gemini’s appeal to void $5 million settlement despite CFTC backing",
+   "url": "https://www.coindesk.com/policy/2026/10/16/u-s-judge-rejects-gemini-s-appeal-to-void-usd5-million-settlement-despite-cftc-backing",
+   "published": "2026-10-16T09:36:21+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N000490a6da68",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T09:58:52.972388+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Capital B posts wider H1 net loss of $78 million on bitcoin impairment charge",
+   "url": "https://www.theblock.co/news/business/2026-10-16-capital-b-wider-h1-net-loss-418781",
+   "published": "2026-10-16T09:30:21+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1d69de1e6df2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T09:58:52.972388+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant",
+   "url": "https://cointelegraph.com/markets/bitcoin-seeks-20-month-trend-line-reclaim-before-new-record-highs-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-16T09:22:13+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N55db5cecc7c2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-16T09:58:52.972388+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
@@ -2768,16 +2846,25 @@
   }
  ],
  "symbols": {
+  "ZECUSDT": {
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 1,
+   "last": "2026-10-16T09:48:14+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.104,
-   "risk": 0.192,
+   "sentiment": -0.087,
+   "risk": 0.187,
    "events": [
     "etf_flow",
     "market",
     "macro"
    ],
-   "count": 30,
-   "last": "2026-10-16T07:59:46+00:00"
+   "count": 32,
+   "last": "2026-10-16T09:48:14+00:00"
   },
   "XRPUSDT": {
    "sentiment": -0.116,
@@ -2823,7 +2910,7 @@
    "last": "2026-10-15T13:00:00+00:00"
   },
   "POLUSDT": {
-   "sentiment": -0.137,
+   "sentiment": -0.138,
    "risk": 0.12,
    "events": [
     "regulation"
