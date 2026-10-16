@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-16T14:25:10.113029+00:00",
+ "updated_at": "2026-10-16T14:54:47.393443+00:00",
  "market": {
   "btc_dominance": 59.24,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": 0.18,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": 0.21,
   "trending": [
    "DACITY",
    "ASTRO",
-   "STREAM",
-   "TIA",
+   "PENGU",
    "INJ",
    "PRL",
-   "PENGU",
    "QTC",
-   "DNA",
-   "NEAR"
+   "TIA",
+   "STREAM",
+   "TAO",
+   "SOL"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T14:25:10.113029+00:00",
    "notified": false
   },
@@ -66,6 +67,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-16T14:25:10.113029+00:00",
    "notified": false
   },
@@ -320,10 +322,10 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin steady near $82,000 after Fed Chair Warsh's comments",
+   "title": "Live updates: Bitcoin steady near $82,000 as AI selloff continues",
    "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
    "published": "2026-10-16T09:48:14+00:00",
-   "kind": "macro",
+   "kind": "news",
    "raw_symbols": [
     "BTC",
     "NEAR"
@@ -333,10 +335,10 @@
     "NEARUSDT"
    ],
    "id": "Nb9a8f3e79f5f",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T09:58:52.972388+00:00",
    "notified": false
@@ -1874,65 +1876,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Strive buys $235 million in bitcoin as warrant exercises yield $369 million",
-   "url": "https://www.theblock.co/news/business/2026-10-14-strive-buys-235-million-in-bitcoin-warrant-yield-369-million-418556",
-   "published": "2026-10-14T14:32:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na7eb2cc3471f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T14:39:05.331663+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
-   "url": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
-   "published": "2026-10-14T14:31:14+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N78fb542344d7",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T14:39:05.331663+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-14T14:21:15+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7d2075d855a6",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": -0.3,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T14:39:05.331663+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2674,29 +2617,28 @@
    "last": "2026-10-16T11:22:47+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.175,
-   "risk": 0.916,
+   "sentiment": -0.208,
+   "risk": 0.906,
    "events": [
     "security",
-    "macro",
     "etf_flow",
-    "market"
+    "market",
+    "macro"
    ],
-   "count": 26,
+   "count": 25,
    "last": "2026-10-16T10:52:26+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.452,
+   "sentiment": -0.147,
+   "risk": 0.0,
    "events": [
-    "macro",
     "market"
    ],
    "count": 3,
    "last": "2026-10-16T09:48:14+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.125,
+   "sentiment": -0.124,
    "risk": 0.0,
    "events": [
     "etf_flow",
