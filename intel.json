@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-17T02:13:41.503387+00:00",
+ "updated_at": "2026-10-17T02:43:14.578423+00:00",
  "market": {
-  "btc_dominance": 59.34,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -3.32,
+  "btc_dominance": 59.33,
+  "usdt_dominance": 6.66,
+  "mcap_change_24h": -3.47,
   "trending": [
    "DACITY",
-   "PRL",
-   "MON",
-   "AERO",
-   "PUMP",
    "PENGU",
-   "DNA",
-   "NXPC",
+   "PRL",
+   "BTC",
+   "AERO",
+   "LIT",
+   "HYPE",
    "QTC",
-   "BTC"
+   "ZEC",
+   "PUMP"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
+   "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+   "published": "2026-10-17T02:30:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N9713d0d47cb1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-17T02:43:14.578423+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Strive’s bitcoin buying spree earns 27% price target hike from TD Cowen",
@@ -2416,16 +2436,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.163,
-   "risk": 0.67,
+   "sentiment": -0.152,
+   "risk": 0.66,
    "events": [
     "security",
     "etf_flow",
     "market",
     "macro"
    ],
-   "count": 25,
-   "last": "2026-10-16T20:22:57+00:00"
+   "count": 26,
+   "last": "2026-10-17T02:30:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -2437,14 +2457,14 @@
    "last": "2026-10-16T13:31:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.176,
+   "sentiment": 0.177,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-16T11:22:47+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.114,
+   "sentiment": -0.115,
    "risk": 0.0,
    "events": [
     "etf_flow",
