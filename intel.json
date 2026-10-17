@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-17T13:02:56.684915+00:00",
+ "updated_at": "2026-10-17T13:32:27.087889+00:00",
  "market": {
-  "btc_dominance": 59.37,
+  "btc_dominance": 59.39,
   "usdt_dominance": 6.66,
-  "mcap_change_24h": -4.28,
+  "mcap_change_24h": -3.7,
   "trending": [
    "QTC",
    "INJ",
-   "PENGU",
-   "NEAR",
-   "LIT",
    "BTC",
    "QNT",
-   "ZEC",
+   "PENGU",
+   "RAY",
+   "TAO",
    "DRV",
-   "SEI"
+   "LIT",
+   "STRK"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Solana shows resilience, but some areas need continued observation, Fidelity says",
+   "url": "https://cointelegraph.com/news/solana-shows-resilience-but-some-areas-need-continued-observation-fidelity-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-17T12:58:03+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N79868cab326b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-17T13:32:27.087889+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
@@ -1245,23 +1265,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "HEX token sellers erase $160M following reports of founder Richard Schueler arrest",
-   "url": "https://cointelegraph.com/news/hex-token-erases-160m-reports-founder-schuelers-arrest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T12:12:57+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N919f869375d4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T12:48:17.646415+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Ledger unveils Atom Android device with Solana Mobile integration and new tamper protections amid investigation into modified wallets",
    "url": "https://www.theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644",
@@ -2188,9 +2191,16 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.083,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-10-17T12:58:03+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.135,
-   "risk": 0.445,
+   "risk": 0.435,
    "events": [
     "security"
    ],
@@ -2203,13 +2213,6 @@
    "events": [],
    "count": 6,
    "last": "2026-10-16T13:31:07+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.21,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-16T11:22:47+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.0,
