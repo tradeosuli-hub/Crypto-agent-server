@@ -1,25 +1,62 @@
 {
- "updated_at": "2026-10-17T13:32:27.087889+00:00",
+ "updated_at": "2026-10-17T14:02:00.537630+00:00",
  "market": {
-  "btc_dominance": 59.39,
-  "usdt_dominance": 6.66,
-  "mcap_change_24h": -3.7,
+  "btc_dominance": 59.37,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -3.64,
   "trending": [
-   "QTC",
-   "INJ",
    "BTC",
-   "QNT",
-   "PENGU",
-   "RAY",
-   "TAO",
+   "INJ",
    "DRV",
-   "LIT",
-   "STRK"
+   "QNT",
+   "QTC",
+   "TIA",
+   "SUI",
+   "PUMP",
+   "RAY",
+   "TAO"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
+   "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
+   "published": "2026-10-17T14:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "POL"
+   ],
+   "symbols": [
+    "POLUSDT"
+   ],
+   "id": "N262e2d8582e4",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-17T14:02:00.537630+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-17T13:29:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-10-07T21:42:49.326766+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Solana shows resilience, but some areas need continued observation, Fidelity says",
@@ -37,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-17T13:32:27.087889+00:00",
    "notified": false
   },
@@ -165,23 +203,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T20:49:09.226986+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-16T19:17:04+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
    "notified": false
   },
   {
@@ -1417,23 +1438,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Australia’s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline",
-   "url": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline",
-   "published": "2026-10-15T09:53:37+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2a5bcd958a8e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T10:20:43.700167+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Updates Limited-Time Promotion for bStocks in Spot Liquidity Provider Program (2026-10-19)",
    "url": "https://www.binance.com/en/support/announcement/74f92a17a4c84cf09c692a6010362c27",
@@ -2191,27 +2195,34 @@
   }
  ],
  "symbols": {
+  "POLUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-17T14:00:00+00:00"
+  },
   "SOLUSDT": {
-   "sentiment": 0.083,
+   "sentiment": 0.082,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-17T12:58:03+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.135,
-   "risk": 0.435,
+   "sentiment": -0.138,
+   "risk": 0.424,
    "events": [
     "security"
    ],
-   "count": 15,
+   "count": 14,
    "last": "2026-10-17T02:30:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-16T13:31:07+00:00"
   },
   "XRPUSDT": {
