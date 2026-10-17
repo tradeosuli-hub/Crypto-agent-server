@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-17T01:14:39.093388+00:00",
+ "updated_at": "2026-10-17T01:44:10.497407+00:00",
  "market": {
-  "btc_dominance": 59.35,
+  "btc_dominance": 59.36,
   "usdt_dominance": 6.65,
-  "mcap_change_24h": -3.66,
+  "mcap_change_24h": -3.72,
   "trending": [
    "DACITY",
+   "PUMP",
    "PENGU",
    "BTC",
-   "PUMP",
    "PRL",
-   "ZEC",
    "MON",
-   "NEAR",
-   "STRK",
-   "QTC"
+   "ZEC",
+   "STONK",
+   "QTC",
+   "NEAR"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
@@ -1692,48 +1692,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "VanEck seeks to withdraw application for Lido staked Ether ETF",
-   "url": "https://cointelegraph.com/news/vaneck-seeks-to-withdraw-application-for-lido-staked-ether-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T01:21:52+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N3095705f7634",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T01:29:35.758230+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Polygon gains US payments licenses after closing Coinme deal",
-   "url": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T00:55:21+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "POL"
-   ],
-   "symbols": [
-    "POLUSDT"
-   ],
-   "id": "N2a567af6b944",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T01:29:35.758230+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2458,8 +2416,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.162,
-   "risk": 0.691,
+   "sentiment": -0.163,
+   "risk": 0.681,
    "events": [
     "security",
     "etf_flow",
@@ -2473,21 +2431,20 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [
-    "market",
-    "etf_flow"
+    "market"
    ],
-   "count": 9,
+   "count": 8,
    "last": "2026-10-16T13:31:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.172,
+   "sentiment": 0.174,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-16T11:22:47+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.111,
+   "sentiment": -0.113,
    "risk": 0.0,
    "events": [
     "etf_flow",
