@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-17T19:56:05.604167+00:00",
+ "updated_at": "2026-10-17T20:25:33.817006+00:00",
  "market": {
-  "btc_dominance": 59.41,
+  "btc_dominance": 59.4,
   "usdt_dominance": 6.65,
-  "mcap_change_24h": -2.26,
+  "mcap_change_24h": -2.66,
   "trending": [
    "Q",
-   "NEAR",
    "PENGU",
-   "PRL",
-   "QNT",
-   "QTC",
+   "STRK",
    "SUI",
-   "MON",
+   "NEAR",
+   "TIA",
    "BTC",
-   "ONDO"
+   "PRL",
+   "INJ",
+   "BTW"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
+   "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+   "published": "2026-10-17T19:56:25+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N56c8ce3d03f9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-17T20:25:33.817006+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets",
@@ -1338,27 +1354,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Ledger unveils Atom Android device with Solana Mobile integration and new tamper protections amid investigation into modified wallets",
-   "url": "https://www.theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644",
-   "published": "2026-10-15T12:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nb27c1bc6a4f8",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T12:18:47.793188+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
    "url": "https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone",
@@ -1474,11 +1469,15 @@
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
    "published": "2026-10-14T06:00:08.049000+00:00",
    "kind": "delisting",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "EPIC"
+   ],
+   "symbols": [
+    "EPICUSDT"
+   ],
    "id": "N49869620ed95",
    "kind_fa": "حذف از صرافی",
-   "importance": 9,
+   "importance": 10,
    "sentiment": -0.8,
    "risk": 0.9,
    "summary_fa": null,
@@ -2200,7 +2199,7 @@
    "last": "2026-10-17T14:00:00+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.082,
+   "sentiment": 0.081,
    "risk": 0.0,
    "events": [],
    "count": 2,
@@ -2208,7 +2207,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.143,
-   "risk": 0.302,
+   "risk": 0.291,
    "events": [
     "security"
    ],
