@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-17T07:08:45.735096+00:00",
+ "updated_at": "2026-10-17T07:38:20.750160+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -3.52,
+  "btc_dominance": 59.32,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -3.4,
   "trending": [
    "DACITY",
    "TIA",
    "QTC",
    "BTC",
-   "PRL",
    "PONS",
-   "HYPE",
-   "PENGU",
-   "NMR",
-   "LIT"
+   "PRL",
+   "ONDO",
+   "INJ",
+   "PENDLE",
+   "HYPE"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitget to discontinue services for some users in one-off exercise",
+   "url": "https://cointelegraph.com/news/bitget-to-discontinue-services-for-some-users-in-one-off-exercise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-17T07:26:57+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2f7210966e83",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-17T07:38:20.750160+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-17T07:08:45.735096+00:00",
    "notified": false
   },
@@ -2291,13 +2308,12 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.141,
-   "risk": 0.568,
+   "sentiment": -0.128,
+   "risk": 0.558,
    "events": [
-    "security",
-    "etf_flow"
+    "security"
    ],
-   "count": 21,
+   "count": 20,
    "last": "2026-10-17T02:30:00+00:00"
   },
   "ETHUSDT": {
@@ -2308,19 +2324,17 @@
    "last": "2026-10-16T13:31:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.179,
+   "sentiment": 0.177,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-16T11:22:47+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.164,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
+   "events": [],
+   "count": 2,
    "last": "2026-10-16T05:53:58+00:00"
   },
   "TRXUSDT": {
