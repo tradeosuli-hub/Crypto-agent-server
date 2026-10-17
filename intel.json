@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-17T10:35:25.619637+00:00",
+ "updated_at": "2026-10-17T11:04:58.208243+00:00",
  "market": {
-  "btc_dominance": 59.31,
+  "btc_dominance": 59.3,
   "usdt_dominance": 6.64,
-  "mcap_change_24h": -3.42,
+  "mcap_change_24h": -3.38,
   "trending": [
-   "SUI",
-   "ZRO",
-   "INJ",
    "TIA",
-   "ZEC",
-   "QTC",
-   "HYPE",
-   "PI",
+   "ZRO",
+   "PRL",
    "NEAR",
-   "PRL"
+   "INJ",
+   "ZEC",
+   "SUI",
+   "LINK",
+   "QTC",
+   "PENGU"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-17T10:35:25.619637+00:00",
    "notified": false
   },
@@ -1358,44 +1359,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "White House crypto council chief Patrick Witt steps down",
-   "url": "https://cointelegraph.com/news/white-house-crypto-council-director-steps-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T10:41:09+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1cc51e62200c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T10:50:19.710708+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
-   "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T10:22:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nd615002a6538",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T10:50:19.710708+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Live updates: Bitcoin bounces back to $82,000 after first fall below $80,000 in one month",
    "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
@@ -2243,12 +2206,12 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.135,
-   "risk": 0.496,
+   "sentiment": -0.133,
+   "risk": 0.486,
    "events": [
     "security"
    ],
-   "count": 17,
+   "count": 16,
    "last": "2026-10-17T02:30:00+00:00"
   },
   "ETHUSDT": {
@@ -2259,7 +2222,7 @@
    "last": "2026-10-16T13:31:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.169,
+   "sentiment": 0.168,
    "risk": 0.0,
    "events": [],
    "count": 3,
