@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-17T07:38:20.750160+00:00",
+ "updated_at": "2026-10-17T08:07:57.133812+00:00",
  "market": {
-  "btc_dominance": 59.32,
+  "btc_dominance": 59.33,
   "usdt_dominance": 6.63,
-  "mcap_change_24h": -3.4,
+  "mcap_change_24h": -3.56,
   "trending": [
    "DACITY",
    "TIA",
-   "QTC",
    "BTC",
-   "PONS",
    "PRL",
-   "ONDO",
+   "ZEC",
    "INJ",
-   "PENDLE",
-   "HYPE"
+   "PONS",
+   "QTC",
+   "ONDO",
+   "BTW"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-17T07:38:20.750160+00:00",
    "notified": false
   },
@@ -1527,29 +1528,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin ETFs shed $261M as XRP funds buck weekly outflow trend",
-   "url": "https://cointelegraph.com/markets/bitcoin-etf-outflow-btc-below-82k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T07:23:43+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "XRP",
-    "BTC"
-   ],
-   "symbols": [
-    "XRPUSDT",
-    "BTCUSDT"
-   ],
-   "id": "N9c95856dcc02",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T07:53:19.866895+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Updates Limited-Time Promotion for bStocks in Spot Liquidity Provider Program (2026-10-19)",
    "url": "https://www.binance.com/en/support/announcement/74f92a17a4c84cf09c692a6010362c27",
@@ -2309,7 +2287,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.128,
-   "risk": 0.558,
+   "risk": 0.547,
    "events": [
     "security"
    ],
@@ -2324,7 +2302,7 @@
    "last": "2026-10-16T13:31:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.177,
+   "sentiment": 0.176,
    "risk": 0.0,
    "events": [],
    "count": 3,
