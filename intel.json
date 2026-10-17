@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-17T04:11:51.934740+00:00",
+ "updated_at": "2026-10-17T04:41:20.752514+00:00",
  "market": {
-  "btc_dominance": 59.3,
+  "btc_dominance": 59.29,
   "usdt_dominance": 6.65,
-  "mcap_change_24h": -3.4,
+  "mcap_change_24h": -3.42,
   "trending": [
    "DACITY",
-   "QTC",
-   "NEAR",
-   "PENGU",
    "INJ",
    "SOL",
-   "DNA",
-   "HYPE",
    "TIA",
-   "PUMP"
+   "STRK",
+   "QTC",
+   "NEAR",
+   "SUI",
+   "PUMP",
+   "PRL"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
@@ -1623,75 +1623,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
-   "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
-   "published": "2026-10-15T04:25:15+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "XRP",
-    "BTC",
-    "ETH",
-    "NEAR"
-   ],
-   "symbols": [
-    "XRPUSDT",
-    "BTCUSDT",
-    "ETHUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N6e18f2fe0cef",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T04:26:45.454705+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
-   "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
-   "published": "2026-10-15T04:13:56+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ncdcb0f4db35b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T04:26:45.454705+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
-   "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
-   "published": "2026-10-15T03:57:45+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N53f58e1c11f8",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": -0.3,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T04:26:45.454705+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
@@ -2416,23 +2347,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.139,
-   "risk": 0.629,
+   "sentiment": -0.141,
+   "risk": 0.619,
    "events": [
     "security",
-    "etf_flow",
-    "market"
+    "etf_flow"
    ],
-   "count": 24,
+   "count": 21,
    "last": "2026-10-17T02:30:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 8,
+   "events": [],
+   "count": 7,
    "last": "2026-10-16T13:31:07+00:00"
   },
   "SOLUSDT": {
@@ -2443,13 +2371,12 @@
    "last": "2026-10-16T11:22:47+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.12,
+   "sentiment": -0.155,
    "risk": 0.0,
    "events": [
-    "etf_flow",
-    "market"
+    "etf_flow"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-10-16T05:53:58+00:00"
   },
   "TRXUSDT": {
@@ -2462,10 +2389,8 @@
   "NEARUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 2,
+   "events": [],
+   "count": 1,
    "last": "2026-10-15T13:00:00+00:00"
   }
  },
