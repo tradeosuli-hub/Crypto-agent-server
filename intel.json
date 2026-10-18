@@ -1,25 +1,58 @@
 {
- "updated_at": "2026-10-18T12:38:51.201935+00:00",
+ "updated_at": "2026-10-18T13:08:18.545789+00:00",
  "market": {
-  "btc_dominance": 60.08,
-  "usdt_dominance": 6.7,
-  "mcap_change_24h": -3.47,
   "trending": [
-   "MINTER",
    "BOOMER",
    "PRL",
+   "MINTER",
+   "PENGU",
    "QTC",
+   "PUMP",
    "Q",
    "BTC",
-   "PUMP",
-   "TAO",
-   "BTW",
-   "PYTH"
+   "HBAR",
+   "SUI"
   ],
   "fear_greed": 53,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+   "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+   "published": "2026-10-18T13:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na17dac2b33d0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-18T13:08:18.545789+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
+   "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+   "published": "2026-10-18T13:00:00+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N986b3b412c76",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-18T13:08:18.545789+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto exchanges Binance, Coinbase join West Africa scam sweep that flagged $11 million",
@@ -1290,23 +1323,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/10/15/crypto-for-advisors-wall-street-is-done-waiting-on-congress-for-crypto-rules",
-   "published": "2026-10-15T15:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2851aa3ceb2d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T15:16:16.173705+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Ripple Prime adds RWA swaps referencing perpetual futures listed on Hyperliquid",
    "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
@@ -1386,23 +1402,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-15T13:17:51.084783+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
-   "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers",
-   "published": "2026-10-15T12:35:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ned847c3654a6",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T12:48:17.646415+00:00",
    "notified": false
   },
   {
@@ -2180,6 +2179,13 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 4,
+   "last": "2026-10-18T13:00:00+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2200,13 +2206,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-17T13:01:00+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 3,
-   "last": "2026-10-17T02:30:00+00:00"
   }
  },
  "social": {},
