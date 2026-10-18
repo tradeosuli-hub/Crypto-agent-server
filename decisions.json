@@ -1206,7 +1206,7 @@
  {
   "id": "Dce5f38c535",
   "ts": "2026-10-18T06:56:50.660825+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "XRPUSDT",
   "direction": "short",
   "entry": 1.2940503571428572,
@@ -1311,6 +1311,28 @@
    "دیوار hammer_dulling · واکنش‌های گذشته 9",
    "پارامترها 9/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-18T07:15:00+00:00"
+  "entered_at": "2026-10-18T07:15:00+00:00",
+  "outcome": "TP",
+  "exit": 1.2701,
+  "pnl_r": 1.106,
+  "closed_at": "2026-10-18T15:30:00+00:00",
+  "root_cause": {
+   "right": [
+    "structure",
+    "liquidity",
+    "volume",
+    "order_block",
+    "pattern"
+   ],
+   "wrong": [
+    "dominance",
+    "news"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "تأییدکننده‌های درست: structure، liquidity، volume، order_block، pattern · مخالفانی که اشتباه کردند: dominance، news"
+  }
  }
 ]
