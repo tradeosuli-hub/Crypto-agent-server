@@ -1202,5 +1202,114 @@
    ],
    "lesson_fa": "بدون نتیجهٔ قطعی — دقت تغییر نمی‌کند"
   }
+ },
+ {
+  "id": "Dce5f38c535",
+  "ts": "2026-10-18T06:56:50.660825+00:00",
+  "status": "open",
+  "symbol": "XRPUSDT",
+  "direction": "short",
+  "entry": 1.2940503571428572,
+  "stop": 1.3157149342857142,
+  "targets": [
+   1.2701,
+   1.2867843049792524,
+   1.2692795555850047
+  ],
+  "rr1": 1.106,
+  "leverage": 1.0,
+  "regime": "neutral/down",
+  "wall_verdict": "hammer_dulling",
+  "confidence": 0.3608,
+  "consensus_strength": 0.3608,
+  "weights": {
+   "dominance": 0.277341,
+   "structure": 0.187622,
+   "liquidity": 0.140717,
+   "volume": 0.121234,
+   "news": 0.13237,
+   "order_block": 0.093811,
+   "pattern": 0.046906
+  },
+  "votes": {
+   "dominance": {
+    "direction": "flat",
+    "strength": 0.3,
+    "silent": false,
+    "flags": [],
+    "note_fa": "خنثی"
+   },
+   "structure": {
+    "direction": "short",
+    "strength": 0.3,
+    "silent": false,
+    "flags": [],
+    "note_fa": "H4 اصلی · H1 تأیید · M15 ورود — short"
+   },
+   "liquidity": {
+    "direction": "short",
+    "strength": 1.0,
+    "silent": false,
+    "flags": [
+     "sweep_rejection"
+    ],
+    "note_fa": "شدوی پس‌زننده = برداشت نقدینگی + ریجکت"
+   },
+   "volume": {
+    "direction": "short",
+    "strength": 0.5,
+    "silent": false,
+    "flags": [],
+    "note_fa": "حجم (z=0.74)"
+   },
+   "news": {
+    "direction": "flat",
+    "strength": 0.1,
+    "silent": false,
+    "flags": [],
+    "note_fa": "ترس‌وطمع 53 خنثی"
+   },
+   "order_block": {
+    "direction": "short",
+    "strength": 0.6,
+    "silent": false,
+    "flags": [
+     "wall_hammer_dulling"
+    ],
+    "note_fa": "دیوار hammer_dulling · 9 واکنش"
+   },
+   "pattern": {
+    "direction": "short",
+    "strength": 1.0,
+    "silent": false,
+    "flags": [
+     "fvg_inside_ob",
+     "history_rsi_div",
+     "trendline",
+     "ob_channel_align"
+    ],
+    "note_fa": "4 الگوی هم‌جهت"
+   },
+   "social": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "سوشال بی‌داده (Grok وصل نیست یا این ارز پوشش ندارد)"
+   },
+   "historical_memory": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "تجربهٔ کافی نیست (1/3)"
+   }
+  },
+  "objections": [],
+  "why_fa": [
+   "ماشهٔ شدوی پس‌زننده (short) · نفوذ 0.63 · نسبت شدو 2.08",
+   "دیوار hammer_dulling · واکنش‌های گذشته 9",
+   "پارامترها 9/10 (قابل‌بررسی 8)"
+  ]
  }
 ]
