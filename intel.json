@@ -1,18 +1,18 @@
 {
- "updated_at": "2026-10-18T16:05:14.000722+00:00",
+ "updated_at": "2026-10-18T16:34:40.430210+00:00",
  "market": {
-  "btc_dominance": 60.11,
+  "btc_dominance": 60.17,
   "usdt_dominance": 6.77,
-  "mcap_change_24h": -4.41,
+  "mcap_change_24h": -4.01,
   "trending": [
    "BOOMER",
-   "COVENANT",
-   "PRL",
+   "HI",
    "CLAUDIA",
    "NEAR",
-   "HI",
+   "PRL",
    "BTC",
    "QTC",
+   "ONDO",
    "PENGU",
    "SUI"
   ],
@@ -20,6 +20,46 @@
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+   "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+   "published": "2026-10-18T16:33:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ndb9e4281791a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-18T16:34:40.430210+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Cysic suspends bridge after attacker mints tokens and moves $727,000 to Ethereum",
+   "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863",
+   "published": "2026-10-18T16:07:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nd1eb6ed70d8e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-18T16:34:40.430210+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
@@ -33,6 +73,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-18T16:05:14.000722+00:00",
    "notified": false
   },
@@ -1086,27 +1127,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
-   "url": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
-   "published": "2026-10-16T04:29:19+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N6746b0bc0937",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T04:34:01.872230+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "MSCI adopts index exclusion rules that could oust Strategy",
    "url": "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1377,27 +1397,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-15T14:17:04.126383+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Helius CEO Mert Mumtaz joins NEAR Foundation Council",
-   "url": "https://www.theblock.co/news/business/2026-10-15-helius-ceo-mert-mumtaz-joins-near-foundation-council-418656",
-   "published": "2026-10-15T13:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "NEAR"
-   ],
-   "symbols": [
-    "NEARUSDT"
-   ],
-   "id": "Nd1536ca80a1f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T13:17:51.084783+00:00",
    "notified": false
   },
   {
@@ -2176,18 +2175,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.0,
+   "sentiment": -0.086,
    "risk": 0.0,
    "events": [],
-   "count": 3,
-   "last": "2026-10-18T13:00:00+00:00"
+   "count": 4,
+   "last": "2026-10-18T16:33:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 1,
-   "last": "2026-10-18T06:29:00+00:00"
+   "count": 2,
+   "last": "2026-10-18T16:07:43+00:00"
   },
   "POLUSDT": {
    "sentiment": 0.0,
