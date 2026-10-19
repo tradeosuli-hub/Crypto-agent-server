@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-19T06:21:07.364553+00:00",
+ "updated_at": "2026-10-19T06:50:39.991043+00:00",
  "market": {
-  "btc_dominance": 60.16,
+  "btc_dominance": 60.17,
   "usdt_dominance": 6.64,
-  "mcap_change_24h": -2.46,
+  "mcap_change_24h": -2.43,
   "trending": [
-   "AERO",
    "STRK",
-   "Q",
-   "NEAR",
-   "HYPE",
-   "PUMP",
+   "AERO",
    "PRL",
+   "Q",
    "SUI",
    "PENGU",
+   "NEAR",
+   "QTC",
+   "HYPE",
    "TIA"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
+   "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-whale-moves-usd34-million-in-btc-it-got-in-2013-when-coins-traded-at-usd131",
+   "published": "2026-10-19T06:23:16+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf4130b5f26ea",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T06:50:39.991043+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Zoom adds ‘proof of human’ badges to show you’re not a deepfake",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T06:21:07.364553+00:00",
    "notified": false
   },
@@ -1076,23 +1097,6 @@
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T10:57:53.623952+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Tokenized Tesla surges as Elon Musk unveils SpaceX-powered flying Roadster prototype",
-   "url": "https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed",
-   "published": "2026-10-16T10:48:49+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1c6c6bd53960",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T10:57:53.623952+00:00",
@@ -2169,6 +2173,15 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.036,
+   "risk": 0.0,
+   "events": [
+    "market"
+   ],
+   "count": 4,
+   "last": "2026-10-19T06:23:16+00:00"
+  },
   "ZECUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2182,13 +2195,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-19T04:54:31+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.061,
-   "risk": 0.0,
-   "events": [],
-   "count": 3,
-   "last": "2026-10-19T03:36:58+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
