@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-19T20:07:55.800922+00:00",
+ "updated_at": "2026-10-19T20:37:29.247212+00:00",
  "market": {
-  "btc_dominance": 59.64,
-  "usdt_dominance": 6.66,
-  "mcap_change_24h": -0.42,
+  "btc_dominance": 59.63,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -0.21,
   "trending": [
    "STARTUPSI",
    "PRL",
    "QTC",
-   "PHA",
-   "PENGU",
-   "PONS",
    "AERO",
-   "ZRO",
-   "VVV",
-   "UNI"
+   "MON",
+   "PHA",
+   "NEAR",
+   "PONS",
+   "ENA",
+   "DRV"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Crypto PAC pours $362K into California race voters essentially decided in August",
+   "url": "https://cointelegraph.com/news/crypto-pac-california-race-voters-special-election?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-19T20:22:41+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd04c98f86042",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T20:37:29.247212+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Tether: Senator's investigation misses positive work that's led to lower Iran volumes",
+   "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
+   "published": "2026-10-19T20:21:13+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nb0b647fa4586",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T20:37:29.247212+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -50,6 +86,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-19T20:07:55.800922+00:00",
    "notified": false
   },
@@ -1395,23 +1432,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Crypto PACs escalate spending against Sherrod Brown in Ohio Senate race",
-   "url": "https://cointelegraph.com/news/crypto-pac-fairshake-spending-ohio-senate-race-sherrod-brown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-16T17:30:09+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N24743b3d5024",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T17:51:57.542480+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Coinbase to power stablecoin-backed cards for Marqeta customers",
    "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
@@ -2211,8 +2231,17 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.106,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 8,
+   "last": "2026-10-19T20:21:13+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": 0.043,
+   "sentiment": 0.044,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2230,15 +2259,6 @@
    ],
    "count": 1,
    "last": "2026-10-19T15:28:43+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.125,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 7,
-   "last": "2026-10-19T13:36:46+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
