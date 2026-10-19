@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-19T14:43:00.298982+00:00",
+ "updated_at": "2026-10-19T15:12:34.698643+00:00",
  "market": {
-  "btc_dominance": 59.66,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -1.48,
+  "btc_dominance": 59.65,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -0.55,
   "trending": [
-   "BTC",
-   "OSMO",
-   "BOOMER",
-   "QTC",
    "PRL",
    "PENGU",
-   "ZRO",
+   "BTC",
+   "BOOMER",
+   "QTC",
    "NEAR",
+   "SUI",
+   "OSMO",
    "PONS",
-   "INJ"
+   "HYPE"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "AnchorWatch Trust Company launches bitcoin custody service with up to $370 million in insurance per client",
+   "url": "https://www.theblock.co/news/business/2026-10-19-anchorwatch-bitcoin-custody-insurance-421011",
+   "published": "2026-10-19T15:00:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nad69d1f2b8c5",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T15:12:34.698643+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Zerohash rolls out a new tool to move crypto without copying wallet addresses",
+   "url": "https://www.coindesk.com/business/2026/10/19/zerohash-rolls-out-a-new-tool-to-move-crypto-without-copying-wallet-addresses",
+   "published": "2026-10-19T14:58:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd48f89a23e78",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T15:12:34.698643+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Strive scoops up another 1,223 bitcoin for $100 million as total holdings reach 36,818 BTC",
@@ -250,15 +286,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin edges higher as U.S. stocks rebound early Monday",
+   "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
    "url": "https://www.coindesk.com/markets/2026/10/19/live-updates-bitcoin-tags-usd83-000-and-slips-back-as-chip-stocks-lead-a-rebound",
    "published": "2026-10-19T11:05:54+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "Ne3c5f0afe4e9",
    "kind_fa": "خبر",
@@ -1060,23 +1098,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Citrini sees a tokenization boom. The harder question is who profits",
-   "url": "https://www.coindesk.com/business/2026/10/17/citrini-sees-a-tokenization-boom-the-harder-question-is-who-profits",
-   "published": "2026-10-17T15:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N07341b89e943",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-17T15:01:08.394681+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Solana shows resilience, but some areas need continued observation, Fidelity says",
    "url": "https://cointelegraph.com/news/solana-shows-resilience-but-some-areas-need-continued-observation-fidelity-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1459,23 +1480,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T06:02:34.415670+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "MSCI finalizes index rules that put Strategy, crypto treasury firms at risk of exclusion",
-   "url": "https://www.theblock.co/news/business/2026-10-15-msci-rules-could-exclude-strategy-mstr-from-indexes-418729",
-   "published": "2026-10-15T22:15:56+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc759937ee57d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T22:39:32.905272+00:00",
    "notified": false
   },
   {
@@ -2203,17 +2207,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.023,
+   "sentiment": 0.07,
    "risk": 0.0,
    "events": [
+    "listing",
     "etf_flow",
     "market"
    ],
-   "count": 14,
-   "last": "2026-10-19T13:45:41+00:00"
+   "count": 15,
+   "last": "2026-10-19T15:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.123,
+   "sentiment": -0.124,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2229,13 +2234,13 @@
    "last": "2026-10-19T12:16:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.293,
+   "sentiment": -0.168,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 2,
-   "last": "2026-10-19T07:54:13+00:00"
+   "count": 3,
+   "last": "2026-10-19T11:05:54+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.0,
