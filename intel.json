@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-19T21:07:02.168099+00:00",
+ "updated_at": "2026-10-19T21:36:39.362143+00:00",
  "market": {
-  "btc_dominance": 59.64,
+  "btc_dominance": 59.62,
   "usdt_dominance": 6.64,
-  "mcap_change_24h": -0.38,
+  "mcap_change_24h": -0.28,
   "trending": [
    "STARTUPSI",
    "PRL",
-   "PENGU",
-   "NEAR",
-   "AERO",
-   "MON",
-   "QTC",
    "PHA",
-   "LINK",
-   "ENA"
+   "NEAR",
+   "PENGU",
+   "QTC",
+   "BP",
+   "AERO",
+   "Q",
+   "BTC"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback",
+   "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-19T21:04:34+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nd82338e75034",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 6,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T21:36:39.362143+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Crypto PAC pours $362K into California race voters essentially decided in August",
@@ -1396,23 +1416,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitget to discontinue services for some users in one-off exercise",
-   "url": "https://cointelegraph.com/news/bitget-to-discontinue-services-for-some-users-in-one-off-exercise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-17T07:28:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2f7210966e83",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-17T07:38:20.750160+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Strive’s bitcoin buying spree earns 27% price target hike from TD Cowen",
    "url": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
@@ -2233,6 +2236,15 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 2,
+   "last": "2026-10-19T21:04:34+00:00"
+  },
   "ETHUSDT": {
    "sentiment": -0.106,
    "risk": 0.0,
@@ -2252,15 +2264,6 @@
    ],
    "count": 18,
    "last": "2026-10-19T16:41:55+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.4,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 1,
-   "last": "2026-10-19T15:28:43+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
