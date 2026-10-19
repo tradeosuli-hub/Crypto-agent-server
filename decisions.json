@@ -1338,7 +1338,7 @@
  {
   "id": "D102bda8775",
   "ts": "2026-10-19T10:10:51.851363+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "AVAXUSDT",
   "direction": "short",
   "entry": 9.747457142857144,
@@ -1447,6 +1447,28 @@
    "دیوار solid · واکنش‌های گذشته 8",
    "پارامترها 9/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-19T10:15:00+00:00"
+  "entered_at": "2026-10-19T10:15:00+00:00",
+  "outcome": "TP",
+  "exit": 9.5595,
+  "pnl_r": 1.13,
+  "closed_at": "2026-10-19T16:00:00+00:00",
+  "root_cause": {
+   "right": [
+    "structure",
+    "liquidity",
+    "volume",
+    "order_block",
+    "pattern"
+   ],
+   "wrong": [
+    "dominance",
+    "news",
+    "historical_memory"
+   ],
+   "silent": [
+    "social"
+   ],
+   "lesson_fa": "تأییدکننده‌های درست: structure، liquidity، volume، order_block، pattern · مخالفانی که اشتباه کردند: dominance، news، historical_memory"
+  }
  }
 ]
