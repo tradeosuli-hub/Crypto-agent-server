@@ -1,25 +1,49 @@
 {
- "updated_at": "2026-10-19T07:49:40.061445+00:00",
+ "updated_at": "2026-10-19T08:19:11.122972+00:00",
  "market": {
-  "btc_dominance": 60.18,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -2.26,
+  "btc_dominance": 60.14,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -2.57,
   "trending": [
    "Q",
-   "QTC",
    "INJ",
+   "PENGU",
    "STRK",
    "PRL",
-   "SUI",
    "HYPE",
-   "BTC",
-   "KAS",
-   "SOL"
+   "QTC",
+   "SUI",
+   "NEAR",
+   "TIA"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin, Ether ETFs shed $549M as October ETH outflows near $1B",
+   "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-19T07:54:13+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "ETH",
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "ETHUSDT",
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N5057b1745de0",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T08:19:11.122972+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
@@ -1303,23 +1327,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Scammer loses $4.8M stored on tampered Ledgers: Asia Express",
-   "url": "https://cointelegraph.com/magazine/scammer-loses-48m-stored-on-tampered-ledgers-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T22:42:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N112f77ffed6b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T23:09:03.173564+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "MSCI finalizes index rules that put Strategy, crypto treasury firms at risk of exclusion",
    "url": "https://www.theblock.co/news/business/2026-10-15-msci-rules-could-exclude-strategy-mstr-from-indexes-418729",
@@ -2174,14 +2181,33 @@
   }
  ],
  "symbols": {
-  "BTCUSDT": {
-   "sentiment": 0.036,
+  "ETHUSDT": {
+   "sentiment": -0.269,
    "risk": 0.0,
    "events": [
+    "etf_flow"
+   ],
+   "count": 3,
+   "last": "2026-10-19T07:54:13+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.13,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
     "market"
    ],
-   "count": 4,
-   "last": "2026-10-19T06:23:16+00:00"
+   "count": 5,
+   "last": "2026-10-19T07:54:13+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.291,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 2,
+   "last": "2026-10-19T07:54:13+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.0,
@@ -2197,13 +2223,6 @@
    "count": 1,
    "last": "2026-10-19T04:54:31+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-19T02:00:00+00:00"
-  },
   "SUIUSDT": {
    "sentiment": 0.9,
    "risk": 0.0,
@@ -2212,13 +2231,6 @@
    ],
    "count": 1,
    "last": "2026-10-19T01:10:00+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-18T16:07:43+00:00"
   },
   "POLUSDT": {
    "sentiment": 0.0,
