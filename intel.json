@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-19T13:43:52.554536+00:00",
+ "updated_at": "2026-10-19T14:13:26.769446+00:00",
  "market": {
-  "btc_dominance": 59.66,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -2.57,
+  "btc_dominance": 59.64,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -1.45,
   "trending": [
    "BOOMER",
-   "PRL",
    "QTC",
    "OSMO",
-   "TIA",
-   "ZRO",
+   "BTC",
+   "PRL",
    "PENGU",
-   "STRK",
+   "TIA",
    "AERO",
+   "ZRO",
    "NEAR"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Strive scoops up another 1,223 bitcoin for $100 million as total holdings reach 36,818 BTC",
+   "url": "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020",
+   "published": "2026-10-19T13:45:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na0f2a541d712",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T14:13:26.769446+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitmine adds 12,535 ETH as treasury reaches 6.04 million tokens",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T13:43:52.554536+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T13:43:52.554536+00:00",
    "notified": false
   },
@@ -86,6 +108,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T13:43:52.554536+00:00",
    "notified": false
   },
@@ -323,7 +346,7 @@
   },
   {
    "source": "coindesk",
-   "title": "JPMorgan's JPM Coin, representing dollar deposits, is coming to Ethereum",
+   "title": "JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum",
    "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
    "published": "2026-10-19T10:03:47+00:00",
    "kind": "news",
@@ -1053,27 +1076,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
-   "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
-   "published": "2026-10-17T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "POL"
-   ],
-   "symbols": [
-    "POLUSDT"
-   ],
-   "id": "N262e2d8582e4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-17T14:02:00.537630+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Solana shows resilience, but some areas need continued observation, Fidelity says",
    "url": "https://cointelegraph.com/news/solana-shows-resilience-but-some-areas-need-continued-observation-fidelity-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1473,23 +1475,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-15T22:39:32.905272+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Farcaster acquired by Balaji’s Network School, with new ‘social smart contract’ for users",
-   "url": "https://www.theblock.co/news/ecosystems/2026-10-15-network-school-acquires-farcaster-from-neynar-418720",
-   "published": "2026-10-15T21:41:14+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nca094c61d78a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T22:10:04.086076+00:00",
    "notified": false
   },
   {
@@ -2216,6 +2201,16 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.023,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "market"
+   ],
+   "count": 14,
+   "last": "2026-10-19T13:45:41+00:00"
+  },
   "ETHUSDT": {
    "sentiment": -0.123,
    "risk": 0.0,
@@ -2224,16 +2219,6 @@
    ],
    "count": 7,
    "last": "2026-10-19T13:36:46+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.025,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "market"
-   ],
-   "count": 13,
-   "last": "2026-10-19T12:30:00+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
@@ -2273,13 +2258,6 @@
    ],
    "count": 1,
    "last": "2026-10-19T01:10:00+00:00"
-  },
-  "POLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-17T14:00:00+00:00"
   }
  },
  "social": {},
