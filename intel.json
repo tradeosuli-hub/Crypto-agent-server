@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-19T03:23:56.334924+00:00",
+ "updated_at": "2026-10-19T03:53:29.029920+00:00",
  "market": {
   "btc_dominance": 60.14,
   "usdt_dominance": 6.66,
-  "mcap_change_24h": -2.84,
+  "mcap_change_24h": -2.93,
   "trending": [
    "DOPE",
    "HI",
-   "COVENANT",
    "CLAUDIA",
    "QTC",
-   "PENGU",
    "PRL",
-   "ZEC",
-   "SN75",
-   "TAO"
+   "PENGU",
+   "TAO",
+   "BTC",
+   "NEAR",
+   "STRK"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+   "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+   "published": "2026-10-19T03:36:58+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne7f998f9bd74",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T03:53:29.029920+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
@@ -1076,27 +1096,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T10:28:21.917660+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
-   "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
-   "published": "2026-10-16T09:48:14+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nb9a8f3e79f5f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T09:58:52.972388+00:00",
    "notified": false
   },
   {
@@ -2170,6 +2169,13 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.059,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-10-19T03:36:58+00:00"
+  },
   "NEARUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2185,13 +2191,6 @@
    ],
    "count": 1,
    "last": "2026-10-19T01:10:00+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.105,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-18T16:33:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
