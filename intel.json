@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-19T15:12:34.698643+00:00",
+ "updated_at": "2026-10-19T15:42:12.117047+00:00",
  "market": {
   "btc_dominance": 59.65,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -0.55,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -0.72,
   "trending": [
-   "PRL",
-   "PENGU",
-   "BTC",
+   "STARTUPSI",
    "BOOMER",
-   "QTC",
    "NEAR",
-   "SUI",
-   "OSMO",
-   "PONS",
-   "HYPE"
+   "PENGU",
+   "PRL",
+   "QTC",
+   "BTC",
+   "ZEC",
+   "HYPE",
+   "STRK"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "SkyAI sells off entire Solana treasury as it launches $201 million buyback",
+   "url": "https://www.theblock.co/news/business/2026-10-19-skyai-sells-off-entire-solana-treasury-launches-201-million-buyback-421037",
+   "published": "2026-10-19T15:28:43+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nf3f43455aca7",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 6,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T15:42:12.117047+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "AnchorWatch Trust Company launches bitcoin custody service with up to $370 million in insurance per client",
@@ -37,6 +57,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T15:12:34.698643+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T15:12:34.698643+00:00",
    "notified": false
   },
@@ -1466,23 +1488,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "US federal judge denies joint Gemini-CFTC bid to undo $5 million settlement",
-   "url": "https://www.theblock.co/news/regulation/2026-10-16-us-judge-denies-joint-gemini-cftc-bid-418775",
-   "published": "2026-10-16T05:44:05+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N79f634a7b02e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T06:02:34.415670+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Launches Covered Call & Cash-Secured Put — Short Options Strategies Now Available",
    "url": "https://www.binance.com/en/support/announcement/9fe16193d2ca442ca4d0fca0d608c910",
@@ -2206,6 +2211,15 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 1,
+   "last": "2026-10-19T15:28:43+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.07,
    "risk": 0.0,
