@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-19T16:11:42.839790+00:00",
+ "updated_at": "2026-10-19T16:41:13.444174+00:00",
  "market": {
-  "btc_dominance": 59.64,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -0.92,
+  "btc_dominance": 59.61,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -0.81,
   "trending": [
    "STARTUPSI",
-   "BOOMER",
-   "STRK",
-   "PRL",
-   "NEAR",
    "PENGU",
-   "QTC",
+   "BOOMER",
+   "PRL",
    "ZRO",
+   "QTC",
    "BTC",
-   "HYPE"
+   "VVV",
+   "NEAR",
+   "STRK"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
@@ -33,7 +33,28 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T16:11:42.839790+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin is rejected at $83K as US bond yields reverse higher with equities",
+   "url": "https://cointelegraph.com/markets/bitcoin-is-rejected-at-83k-as-us-bond-yields-reverse-higher-with-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-19T16:05:57+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N2e045f715c30",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T16:41:13.444174+00:00",
    "notified": false
   },
   {
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T16:11:42.839790+00:00",
    "notified": false
   },
@@ -65,6 +87,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T16:11:42.839790+00:00",
    "notified": false
   },
@@ -1461,27 +1484,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Solana’s Liu says Shanghai event postponed over registration surge",
-   "url": "https://cointelegraph.com/news/solana-shanghai-postponed-exceeding-event-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-16T11:22:47+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N1ad6d9c8fff9",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T11:56:53.212853+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Launches Covered Call & Cash-Secured Put — Short Options Strategies Now Available",
    "url": "https://www.binance.com/en/support/announcement/9fe16193d2ca442ca4d0fca0d608c910",
@@ -2205,6 +2207,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.048,
+   "risk": 0.0,
+   "events": [
+    "listing",
+    "etf_flow",
+    "market"
+   ],
+   "count": 16,
+   "last": "2026-10-19T16:05:57+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.4,
    "risk": 0.0,
@@ -2213,17 +2226,6 @@
    ],
    "count": 1,
    "last": "2026-10-19T15:28:43+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.07,
-   "risk": 0.0,
-   "events": [
-    "listing",
-    "etf_flow",
-    "market"
-   ],
-   "count": 15,
-   "last": "2026-10-19T15:00:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.124,
