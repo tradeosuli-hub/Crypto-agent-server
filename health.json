@@ -1,11 +1,11 @@
 {
- "checked_at": "2026-10-19T21:32:23.798189+00:00",
+ "checked_at": "2026-10-19T21:47:02.343838+00:00",
  "checks": [
   {
    "name": "scan_fresh",
    "fa": "آخرین اسکن موفق",
-   "ok": true,
-   "value": "28 دقیقه پیش",
+   "ok": false,
+   "value": "43 دقیقه پیش",
    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39324427706"
   },
   {
@@ -25,7 +25,7 @@
    "name": "intel_fresh",
    "fa": "ایجنت اطلاعات",
    "ok": true,
-   "value": "25 دقیقه پیش"
+   "value": "10 دقیقه پیش"
   },
   {
    "name": "intel_loop",
@@ -37,10 +37,46 @@
    "name": "memory_fresh",
    "fa": "حافظهٔ دائمی (phoenix-memory)",
    "ok": true,
-   "value": "15 دقیقه پیش"
+   "value": "10 دقیقه پیش"
   }
  ],
- "problems": [],
+ "problems": [
+  {
+   "kind": "scan_stalled",
+   "runs": [
+    {
+     "id": 39324427706,
+     "status": "completed",
+     "conclusion": "success",
+     "event": "workflow_dispatch",
+     "created_at": "2026-10-19T21:03:26Z",
+     "updated_at": "2026-10-19T21:04:12Z",
+     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39324427706",
+     "branch": "cursor/phoenix-signal-panel-69df"
+    },
+    {
+     "id": 39318398939,
+     "status": "completed",
+     "conclusion": "success",
+     "event": "workflow_dispatch",
+     "created_at": "2026-10-19T20:19:51Z",
+     "updated_at": "2026-10-19T20:20:50Z",
+     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39318398939",
+     "branch": "cursor/phoenix-signal-panel-69df"
+    },
+    {
+     "id": 39312369716,
+     "status": "completed",
+     "conclusion": "success",
+     "event": "workflow_dispatch",
+     "created_at": "2026-10-19T19:36:16Z",
+     "updated_at": "2026-10-19T19:37:13Z",
+     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39312369716",
+     "branch": "cursor/phoenix-signal-panel-69df"
+    }
+   ]
+  }
+ ],
  "runs": {
   "scan": [
    {
@@ -126,12 +162,22 @@
   ],
   "intel": [
    {
-    "id": 39324941283,
+    "id": 39328852957,
     "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
+    "created_at": "2026-10-19T21:36:46Z",
+    "updated_at": "2026-10-19T21:36:57Z",
+    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39328852957",
+    "branch": "cursor/phoenix-signal-panel-69df"
+   },
+   {
+    "id": 39324941283,
+    "status": "completed",
+    "conclusion": "success",
+    "event": "workflow_dispatch",
     "created_at": "2026-10-19T21:07:10Z",
-    "updated_at": "2026-10-19T21:07:27Z",
+    "updated_at": "2026-10-19T21:36:55Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39324941283",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -164,19 +210,29 @@
     "updated_at": "2026-10-19T20:08:12Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39312669964",
     "branch": "cursor/phoenix-signal-panel-69df"
-   },
-   {
-    "id": 39308524395,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-10-19T19:08:56Z",
-    "updated_at": "2026-10-19T19:38:34Z",
-    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39308524395",
-    "branch": "cursor/phoenix-signal-panel-69df"
    }
   ]
  },
- "open_incidents": [],
+ "open_incidents": [
+  {
+   "id": "I202610192147",
+   "ts": "2026-10-19T21:47:02.343838+00:00",
+   "kind": "scan_stalled",
+   "kind_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+   "cause": "scan_stalled",
+   "cause_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+   "severity": "high",
+   "summary_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · علت: اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · این علت 7 بار قبلاً دیده شده؛ آخرین اقدام: اجرای دوبارهٔ Workflow اسکن زده شد",
+   "brain": null,
+   "log_excerpt": "",
+   "action": "redispatch",
+   "action_fa": "اجرای دوبارهٔ Workflow اسکن زده شد",
+   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39324427706",
+   "last_action_ts": "2026-10-19T21:47:04.527810+00:00",
+   "checks": 1,
+   "escalations": 0,
+   "resolved_at": null
+  }
+ ],
  "brain": null
 }
