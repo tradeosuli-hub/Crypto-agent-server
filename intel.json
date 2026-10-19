@@ -1,25 +1,42 @@
 {
- "updated_at": "2026-10-19T08:19:11.122972+00:00",
+ "updated_at": "2026-10-19T08:48:44.650703+00:00",
  "market": {
-  "btc_dominance": 60.14,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -2.57,
   "trending": [
+   "PRL",
+   "PENGU",
    "Q",
    "INJ",
-   "PENGU",
    "STRK",
-   "PRL",
    "HYPE",
    "QTC",
-   "SUI",
+   "OSMO",
    "NEAR",
-   "TIA"
+   "WLD"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "JPMorgan expands ‘JPM Coin’ deposit token to Ethereum for institutional clients",
+   "url": "https://www.theblock.co/news/business/2026-10-19-jpmorgan-jpm-coin-deposit-token-ethereum-418874",
+   "published": "2026-10-19T08:31:31+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N54d46001c1b4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T08:48:44.650703+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin, Ether ETFs shed $549M as October ETH outflows near $1B",
@@ -41,6 +58,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T08:19:11.122972+00:00",
    "notified": false
   },
@@ -1420,27 +1438,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Ripple Prime adds RWA swaps referencing perpetual futures listed on Hyperliquid",
-   "url": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681",
-   "published": "2026-10-15T14:43:35+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N706bc323c516",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T14:46:42.302050+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Launches Covered Call & Cash-Secured Put — Short Options Strategies Now Available",
    "url": "https://www.binance.com/en/support/announcement/9fe16193d2ca442ca4d0fca0d608c910",
@@ -2182,13 +2179,13 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.269,
+   "sentiment": -0.209,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 3,
-   "last": "2026-10-19T07:54:13+00:00"
+   "count": 4,
+   "last": "2026-10-19T08:31:31+00:00"
   },
   "BTCUSDT": {
    "sentiment": -0.13,
