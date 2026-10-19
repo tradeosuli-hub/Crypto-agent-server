@@ -1,25 +1,42 @@
 {
- "updated_at": "2026-10-19T21:36:39.362143+00:00",
+ "updated_at": "2026-10-19T22:06:11.164056+00:00",
  "market": {
-  "btc_dominance": 59.62,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -0.28,
   "trending": [
    "STARTUPSI",
    "PRL",
+   "QTC",
    "PHA",
    "NEAR",
+   "BTC",
+   "SOL",
    "PENGU",
-   "QTC",
-   "BP",
-   "AERO",
-   "Q",
-   "BTC"
+   "ETH",
+   "ONDO"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT",
+   "url": "https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087",
+   "published": "2026-10-19T22:00:53+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncffb6572d508",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T22:06:11.164056+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback",
@@ -37,6 +54,7 @@
    "importance": 6,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T21:36:39.362143+00:00",
    "notified": false
   },
@@ -1492,27 +1510,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "OpenAI says research model spent another wallet’s testnet ETH without authorization on coding task",
-   "url": "https://www.theblock.co/news/business/2026-10-16-openai-says-research-model-spent-another-wallets-testnet-eth-without-authorization-on-coding-task-418798",
-   "published": "2026-10-16T11:34:54+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N43c50bb0b475",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T11:56:53.212853+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Launches Covered Call & Cash-Secured Put — Short Options Strategies Now Available",
    "url": "https://www.binance.com/en/support/announcement/9fe16193d2ca442ca4d0fca0d608c910",
@@ -2236,6 +2233,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.038,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "listing",
+    "market"
+   ],
+   "count": 19,
+   "last": "2026-10-19T22:00:53+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.4,
    "risk": 0.0,
@@ -2253,17 +2261,6 @@
    ],
    "count": 8,
    "last": "2026-10-19T20:21:13+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.044,
-   "risk": 0.0,
-   "events": [
-    "listing",
-    "etf_flow",
-    "market"
-   ],
-   "count": 18,
-   "last": "2026-10-19T16:41:55+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
