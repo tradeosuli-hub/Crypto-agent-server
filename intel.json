@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-19T09:47:47.907020+00:00",
+ "updated_at": "2026-10-19T10:17:19.900713+00:00",
  "market": {
-  "btc_dominance": 60.19,
-  "usdt_dominance": 6.62,
-  "mcap_change_24h": -1.28,
+  "btc_dominance": 60.2,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -2.04,
   "trending": [
    "PRL",
-   "WLD",
-   "STRK",
-   "Q",
-   "QNT",
-   "NEAR",
-   "PENGU",
-   "INJ",
    "QTC",
-   "VVV"
+   "NEAR",
+   "STRK",
+   "PENGU",
+   "WLD",
+   "AERO",
+   "XRP",
+   "PUMP",
+   "Q"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "JPMorgan's JPM Coin, representing dollar deposits, is coming to Ethereum: Bloomberg",
+   "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
+   "published": "2026-10-19T10:03:47+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N4e3f041cfa46",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T10:17:19.900713+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto vault deposits top $10 billion as lending risks draw regulatory scrutiny",
@@ -33,6 +53,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-19T09:47:47.907020+00:00",
    "notified": false
   },
@@ -1149,27 +1170,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
-   "published": "2026-10-16T11:15:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N36cfcf17b11f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T11:27:22.241225+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "CONNECT recap: Liquidity is tokenization’s next challenge, everyday stablecoins",
    "url": "https://cointelegraph.com/news/connect-recap-tokenizations-next-challenge-is-building-liquidity-gsr-executive-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2185,6 +2185,15 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.143,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 6,
+   "last": "2026-10-19T10:03:47+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.111,
    "risk": 0.0,
@@ -2194,15 +2203,6 @@
    ],
    "count": 6,
    "last": "2026-10-19T09:12:39+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.17,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 5,
-   "last": "2026-10-19T08:58:45+00:00"
   },
   "NEARUSDT": {
    "sentiment": -0.291,
