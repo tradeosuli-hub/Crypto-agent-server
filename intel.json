@@ -1,17 +1,20 @@
 {
- "updated_at": "2026-10-19T22:06:11.164056+00:00",
+ "updated_at": "2026-10-19T22:35:43.397815+00:00",
  "market": {
+  "btc_dominance": 59.58,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -0.59,
   "trending": [
    "STARTUPSI",
-   "PRL",
    "QTC",
-   "PHA",
-   "NEAR",
+   "PRL",
    "BTC",
-   "SOL",
    "PENGU",
+   "SOL",
    "ETH",
-   "ONDO"
+   "PUMP",
+   "HBAR",
+   "PHA"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
@@ -34,6 +37,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T22:06:11.164056+00:00",
    "notified": false
   },
@@ -2234,7 +2238,7 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.038,
+   "sentiment": 0.039,
    "risk": 0.0,
    "events": [
     "etf_flow",
