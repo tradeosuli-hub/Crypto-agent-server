@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-10-19T16:41:13.444174+00:00",
+ "updated_at": "2026-10-19T17:10:45.526852+00:00",
  "market": {
   "btc_dominance": 59.61,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -0.81,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -0.71,
   "trending": [
    "STARTUPSI",
-   "PENGU",
-   "BOOMER",
    "PRL",
-   "ZRO",
+   "PENGU",
    "QTC",
+   "ZRO",
    "BTC",
    "VVV",
-   "NEAR",
-   "STRK"
+   "HYPE",
+   "STRK",
+   "NEAR"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
+   "url": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures",
+   "published": "2026-10-19T16:47:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N65a0d5fd9056",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T17:10:45.526852+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Metaplanet to take 93.7% stake in Super League through 2,100 BTC deal",
+   "url": "https://cointelegraph.com/news/metaplanet-super-league-2100-btc-us-bitcoin-treasury-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-19T16:41:55+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N6a9cc3b3f42e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T17:10:45.526852+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Strive buys $335M in Bitcoin, boosting holdings to 36,818 BTC",
+   "url": "https://cointelegraph.com/news/strive-buys-335m-in-bitcoin-boosting-holdings-to-36818-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-19T16:30:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfe0d61a77071",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T17:10:45.526852+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Mesh taps Visa to let users spend crypto without a separate card",
@@ -54,6 +110,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T16:41:13.444174+00:00",
    "notified": false
   },
@@ -1408,40 +1465,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Ledger’s early implant warnings deserved more action, Karpelès says",
-   "url": "https://cointelegraph.com/news/ledger-early-implant-warnings-mark-karpeles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-16T13:51:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na1229b1eddb5",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T14:25:10.113029+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Deutsche Bank prepares German crypto custody launch, eyes Asia: Report",
-   "url": "https://cointelegraph.com/news/deutsche-bank-crypto-custody-expansion-asia-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-16T13:33:40+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2dd7ee014ddd",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T13:55:31.605247+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "How Ethereum Works",
    "url": "https://www.theblock.co/learn/ethereum/how-ethereum-works-418525",
@@ -2208,15 +2231,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.048,
+   "sentiment": 0.043,
    "risk": 0.0,
    "events": [
     "listing",
     "etf_flow",
     "market"
    ],
-   "count": 16,
-   "last": "2026-10-19T16:05:57+00:00"
+   "count": 18,
+   "last": "2026-10-19T16:41:55+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.4,
