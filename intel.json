@@ -1,22 +1,65 @@
 {
- "updated_at": "2026-10-19T08:48:44.650703+00:00",
+ "updated_at": "2026-10-19T09:18:18.868905+00:00",
  "market": {
+  "btc_dominance": 60.17,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -1.57,
   "trending": [
    "PRL",
-   "PENGU",
-   "Q",
    "INJ",
+   "WLD",
+   "OSMO",
+   "Q",
+   "NEAR",
    "STRK",
    "HYPE",
-   "QTC",
-   "OSMO",
-   "NEAR",
-   "WLD"
+   "QNT",
+   "QTC"
   ],
   "fear_greed": 59,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "CME’s bitcoin cash, uniswap futures, global PMIs: Crypto Week Ahead",
+   "url": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead",
+   "published": "2026-10-19T09:12:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N6477a57b7d59",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T09:18:18.868905+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients: Report",
+   "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-19T08:58:45+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nb12af10aece5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-19T09:18:18.868905+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "JPMorgan expands ‘JPM Coin’ deposit token to Ethereum for institutional clients",
@@ -34,6 +77,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-19T08:48:44.650703+00:00",
    "notified": false
   },
@@ -1125,27 +1169,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
-   "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
-   "published": "2026-10-16T10:52:26+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N99ab16d933b7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T10:57:53.623952+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "CONNECT recap: Liquidity is tokenization’s next challenge, everyday stablecoins",
    "url": "https://cointelegraph.com/news/connect-recap-tokenizations-next-challenge-is-building-liquidity-gsr-executive-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1325,23 +1348,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-16T01:07:18.773789+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Australia releases draft bill to adopt OECD crypto tax reporting framework",
-   "url": "https://cointelegraph.com/news/australia-releases-draft-bill-to-adopt-oecd-crypto-tax-reporting-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-15T23:34:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6bfa0fee18e9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-16T00:08:14.365510+00:00",
    "notified": false
   },
   {
@@ -2178,24 +2184,24 @@
   }
  ],
  "symbols": {
-  "ETHUSDT": {
-   "sentiment": -0.209,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 4,
-   "last": "2026-10-19T08:31:31+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.13,
+   "sentiment": -0.111,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "market"
    ],
+   "count": 6,
+   "last": "2026-10-19T09:12:39+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.17,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
    "count": 5,
-   "last": "2026-10-19T07:54:13+00:00"
+   "last": "2026-10-19T08:58:45+00:00"
   },
   "NEARUSDT": {
    "sentiment": -0.291,
