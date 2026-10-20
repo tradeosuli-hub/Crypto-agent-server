@@ -1,25 +1,58 @@
 {
- "updated_at": "2026-10-20T19:15:59.700258+00:00",
+ "updated_at": "2026-10-20T19:45:31.543179+00:00",
  "market": {
-  "btc_dominance": 59.52,
+  "btc_dominance": 59.53,
   "usdt_dominance": 6.57,
-  "mcap_change_24h": -1.81,
+  "mcap_change_24h": -1.79,
   "trending": [
    "PEARL",
-   "PENGU",
    "QTC",
-   "AERO",
-   "BTC",
-   "VVV",
+   "PEPE",
+   "PENGU",
    "STRK",
+   "VVV",
+   "GRASS",
    "CARDS",
-   "INJ",
-   "PONS"
+   "NEAR",
+   "BTC"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Crypto firms, Wall Street push SEC to revise Regulation Crypto Assets as comments close",
+   "url": "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+   "published": "2026-10-20T19:19:54+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf1d8288e4062",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-20T19:45:31.543179+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T19:17:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-10-07T21:42:49.326766+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Utah likens Kalshi to a ‘back-alley gambling den’ in lawsuit naming Susquehanna firms",
@@ -37,6 +70,7 @@
    "importance": 8,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-20T19:15:59.700258+00:00",
    "notified": false
   },
@@ -395,23 +429,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-20T13:21:37.918257+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T12:50:13+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
    "notified": false
   },
   {
@@ -2677,8 +2694,8 @@
  ],
  "symbols": {
   "SUIUSDT": {
-   "sentiment": -0.036,
-   "risk": 0.599,
+   "sentiment": -0.035,
+   "risk": 0.593,
    "events": [
     "regulation",
     "listing"
@@ -2687,7 +2704,7 @@
    "last": "2026-10-20T19:12:38+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.084,
+   "sentiment": 0.085,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2698,8 +2715,8 @@
    "last": "2026-10-20T18:14:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.456,
-   "risk": 0.862,
+   "sentiment": -0.459,
+   "risk": 0.852,
    "events": [
     "security",
     "etf_flow"
@@ -2708,7 +2725,7 @@
    "last": "2026-10-20T16:31:24+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.165,
+   "sentiment": 0.164,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2735,7 +2752,7 @@
    "last": "2026-10-19T12:16:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.157,
+   "sentiment": -0.155,
    "risk": 0.0,
    "events": [
     "etf_flow"
