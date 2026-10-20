@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-20T14:50:23.115077+00:00",
+ "updated_at": "2026-10-20T15:19:51.927485+00:00",
  "market": {
-  "btc_dominance": 59.56,
-  "usdt_dominance": 6.52,
-  "mcap_change_24h": -1.16,
+  "btc_dominance": 59.53,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -1.77,
   "trending": [
    "PEARL",
-   "JCT",
-   "CARDS",
-   "BTC",
-   "VVV",
-   "NEAR",
-   "SUI",
    "QTC",
-   "PONS",
-   "WLD"
+   "BTC",
+   "CARDS",
+   "JCT",
+   "AERO",
+   "WLD",
+   "QNT",
+   "STRK",
+   "NEAR"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T14:50:23.115077+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T14:50:23.115077+00:00",
    "notified": false
   },
@@ -2501,7 +2503,7 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.102,
+   "sentiment": 0.103,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2512,8 +2514,8 @@
    "last": "2026-10-20T14:28:39+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.496,
-   "risk": 0.954,
+   "sentiment": -0.498,
+   "risk": 0.944,
    "events": [
     "security",
     "etf_flow"
@@ -2522,7 +2524,7 @@
    "last": "2026-10-20T12:38:28+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.158,
+   "sentiment": 0.159,
    "risk": 0.0,
    "events": [
     "market",
@@ -2532,7 +2534,7 @@
    "last": "2026-10-20T10:20:58+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.213,
+   "sentiment": 0.212,
    "risk": 0.0,
    "events": [
     "etf_flow",
