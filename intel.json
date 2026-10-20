@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-20T10:24:28.764912+00:00",
+ "updated_at": "2026-10-20T10:53:56.243054+00:00",
  "market": {
-  "btc_dominance": 59.6,
+  "btc_dominance": 59.59,
   "usdt_dominance": 6.66,
-  "mcap_change_24h": -3.16,
+  "mcap_change_24h": -3.24,
   "trending": [
    "PEARL",
-   "CARDS",
-   "QTC",
    "PENGU",
    "BTC",
    "MPLX",
+   "QTC",
+   "CARDS",
+   "VVV",
+   "GRASS",
    "NEAR",
-   "JCT",
-   "ZEC",
-   "AERO"
+   "QNT"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
@@ -37,7 +37,44 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T10:24:28.764912+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "XRP 30-day exchange inflows pass 6B tokens as whales move to the sidelines",
+   "url": "https://cointelegraph.com/markets/xrp-30-day-exchange-inflows-pass-6b-tokens-as-whales-move-to-the-sidelines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T10:20:58+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N452d52385f97",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T10:53:56.243054+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Mt. Gox pushes creditor repayment deadline to 2027 in sixth extension",
+   "url": "https://cointelegraph.com/news/mt-gox-creditor-repayment-deadline-extended-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T10:20:13+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2322b64af086",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T10:53:56.243054+00:00",
    "notified": false
   },
   {
@@ -53,6 +90,7 @@
    "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T10:24:28.764912+00:00",
    "notified": false
   },
@@ -69,6 +107,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T10:24:28.764912+00:00",
    "notified": false
   },
@@ -2334,16 +2373,17 @@
    "last": "2026-10-20T10:22:55+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.0,
+   "sentiment": 0.156,
    "risk": 0.0,
    "events": [
+    "market",
     "etf_flow"
    ],
-   "count": 2,
-   "last": "2026-10-20T08:12:57+00:00"
+   "count": 3,
+   "last": "2026-10-20T10:20:58+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.218,
+   "sentiment": 0.217,
    "risk": 0.0,
    "events": [
     "etf_flow",
