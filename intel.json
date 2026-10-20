@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-20T05:29:08.123497+00:00",
+ "updated_at": "2026-10-20T05:58:40.113752+00:00",
  "market": {
-  "btc_dominance": 59.59,
-  "usdt_dominance": 6.62,
-  "mcap_change_24h": -2.69,
+  "btc_dominance": 59.58,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -2.75,
   "trending": [
    "QTC",
    "PRL",
-   "NEAR",
+   "PENGU",
    "PUMP",
-   "BTC",
-   "AERO",
-   "VVV",
+   "PHA",
+   "NEAR",
    "CARDS",
-   "MON",
-   "XMR"
+   "AERO",
+   "MASK",
+   "ARB"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "US Bitcoin ETFs draw $527M in biggest showing since September",
+   "url": "https://cointelegraph.com/markets/bitcoin-etfs-527m-inflows-biggest-since-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T05:39:20+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nbf5898f1ef82",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T05:58:40.113752+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Sophon sets Nov. 25 withdrawal deadline ahead of mainnet shutdown",
@@ -33,6 +53,7 @@
    "importance": 4,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T05:29:08.123497+00:00",
    "notified": false
   },
@@ -2216,15 +2237,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.056,
+   "sentiment": 0.049,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing",
     "market"
    ],
-   "count": 20,
-   "last": "2026-10-20T01:35:00+00:00"
+   "count": 21,
+   "last": "2026-10-20T05:39:20+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.4,
