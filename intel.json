@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-20T12:22:35.028870+00:00",
+ "updated_at": "2026-10-20T12:52:03.186918+00:00",
  "market": {
   "btc_dominance": 59.54,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -3.6,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -3.36,
   "trending": [
    "PEARL",
-   "QTC",
-   "TIA",
    "PENGU",
-   "BTC",
+   "QTC",
    "CARDS",
-   "AAVE",
-   "ETH",
+   "BTC",
+   "NEAR",
    "JCT",
-   "BTW"
+   "TIA",
+   "QNT",
+   "MPLX"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
+   "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
+   "published": "2026-10-20T12:40:17+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2b435228d810",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T12:52:03.186918+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Drift exploiter sends $61M ETH to Tornado Cash, holds $194M",
+   "url": "https://cointelegraph.com/news/drift-exploiter-eth-tornado-cash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T12:38:28+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N9274d4f7dcec",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-20T12:52:03.186918+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Tx launches USTX stablecoin to pull RWA liquidity onto its chain",
+   "url": "https://cointelegraph.com/news/tx-ustx-stablecoin-rwa-liquidity-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T12:30:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1dd634bd6a2e",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T12:52:03.186918+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Swiss regulator FINMA approves country’s first spot bitcoin ETF for retail investors",
@@ -37,6 +89,7 @@
    "importance": 7,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T12:22:35.028870+00:00",
    "notified": false
   },
@@ -53,6 +106,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T12:22:35.028870+00:00",
    "notified": false
   },
@@ -69,6 +123,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T12:22:35.028870+00:00",
    "notified": false
   },
@@ -2440,6 +2495,16 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.487,
+   "risk": 0.995,
+   "events": [
+    "security",
+    "etf_flow"
+   ],
+   "count": 8,
+   "last": "2026-10-20T12:38:28+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.106,
    "risk": 0.0,
@@ -2462,7 +2527,7 @@
    "last": "2026-10-20T10:20:58+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.216,
+   "sentiment": 0.215,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2470,15 +2535,6 @@
    ],
    "count": 3,
    "last": "2026-10-20T08:12:57+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.104,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 7,
-   "last": "2026-10-19T20:21:13+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
