@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-20T10:53:56.243054+00:00",
+ "updated_at": "2026-10-20T11:23:28.761619+00:00",
  "market": {
-  "btc_dominance": 59.59,
-  "usdt_dominance": 6.66,
-  "mcap_change_24h": -3.24,
+  "btc_dominance": 59.58,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -2.7,
   "trending": [
    "PEARL",
    "PENGU",
    "BTC",
-   "MPLX",
-   "QTC",
-   "CARDS",
-   "VVV",
-   "GRASS",
+   "ASTER",
    "NEAR",
-   "QNT"
+   "MPLX",
+   "PHA",
+   "QTC",
+   "VVV",
+   "ETH"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/20/equity-weakness-could-damp-demand-for-bitcoin-after-biggest-etf-inflows-in-a-month",
+   "published": "2026-10-20T11:14:21+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N8d5cef5ad2d8",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T11:23:28.761619+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
+   "url": "https://www.coindesk.com/markets/2026/10/20/jpmorgan-sees-10-annual-bitcoin-returns-topping-stocks-bonds-and-gold-over-next-decade",
+   "published": "2026-10-20T11:10:40+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na19bd9f1e255",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T11:23:28.761619+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection",
@@ -58,6 +98,7 @@
    "importance": 5,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T10:53:56.243054+00:00",
    "notified": false
   },
@@ -74,6 +115,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T10:53:56.243054+00:00",
    "notified": false
   },
@@ -1600,23 +1642,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Cysic crypto bridge halted after unauthorized mint of 10M CYS",
-   "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-18T10:46:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfc521871d05f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-18T11:10:22.674888+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
    "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
@@ -2362,15 +2387,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.06,
+   "sentiment": 0.088,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing",
     "market"
    ],
-   "count": 26,
-   "last": "2026-10-20T10:22:55+00:00"
+   "count": 28,
+   "last": "2026-10-20T11:14:21+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.156,
@@ -2393,7 +2418,7 @@
    "last": "2026-10-20T08:12:57+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.106,
+   "sentiment": -0.105,
    "risk": 0.0,
    "events": [
     "etf_flow"
