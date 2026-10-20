@@ -326,16 +326,16 @@
   "kind_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
   "cause": "scan_loop_dead",
   "cause_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
-  "severity": "medium",
+  "severity": "high",
   "summary_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · علت: حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · این علت 1 بار قبلاً دیده شده؛ آخرین اقدام: حلقه دوباره روشن شد (dispatch روی همین شاخه)",
   "brain": null,
   "log_excerpt": "",
   "action": "revive",
   "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39353283544",
-  "last_action_ts": "2026-10-20T02:22:39.032118+00:00",
-  "checks": 6,
-  "escalations": 1,
+  "last_action_ts": "2026-10-20T03:06:16.651375+00:00",
+  "checks": 7,
+  "escalations": 2,
   "resolved_at": null
  },
  {
@@ -357,5 +357,24 @@
   "escalations": 0,
   "resolved_at": "2026-10-20T02:37:07.339176+00:00",
   "resolution_fa": "برطرف شد پس از اقدام «اجرای دوبارهٔ Workflow اسکن زده شد»"
+ },
+ {
+  "id": "I202610200306",
+  "ts": "2026-10-20T03:06:13.987354+00:00",
+  "kind": "scan_stalled",
+  "kind_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "cause": "scan_stalled",
+  "cause_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "severity": "high",
+  "summary_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · علت: اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · این علت 14 بار قبلاً دیده شده؛ آخرین اقدام: اجرای دوبارهٔ Workflow اسکن زده شد",
+  "brain": null,
+  "log_excerpt": "",
+  "action": "redispatch",
+  "action_fa": "اجرای دوبارهٔ Workflow اسکن زده شد",
+  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39358569385",
+  "last_action_ts": "2026-10-20T03:06:15.333032+00:00",
+  "checks": 1,
+  "escalations": 0,
+  "resolved_at": null
  }
 ]
