@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-20T17:17:56.788556+00:00",
+ "updated_at": "2026-10-20T17:47:26.820238+00:00",
  "market": {
-  "btc_dominance": 59.54,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -1.64,
+  "btc_dominance": 59.55,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": -1.56,
   "trending": [
    "PEARL",
-   "QTC",
-   "NEAR",
-   "CARDS",
-   "AERO",
    "BTC",
-   "VVV",
    "PENGU",
-   "SUI",
-   "COMP"
+   "CARDS",
+   "NEAR",
+   "VVV",
+   "AERO",
+   "ZEC",
+   "QTC",
+   "TAO"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified",
+   "url": "https://cointelegraph.com/news/strive-closes-630m-sats-ipo-leaves-bitcoin-allocation-unspecified?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T17:38:03+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb2bf00dbe51f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T17:47:26.820238+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin yield platform HoneyB developer raises $5 million at $30 million valuation",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T17:17:56.788556+00:00",
    "notified": false
   },
@@ -57,6 +78,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T17:17:56.788556+00:00",
    "notified": false
   },
@@ -73,6 +95,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T17:17:56.788556+00:00",
    "notified": false
   },
@@ -89,6 +112,7 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T17:17:56.788556+00:00",
    "notified": false
   },
@@ -280,7 +304,7 @@
    "source": "cointelegraph",
    "title": "FINMA approves Switzerland’s first Bitcoin ETF for retail investors",
    "url": "https://cointelegraph.com/news/finma-approves-switzerlands-first-bitcoin-etf-retail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T13:04:28+00:00",
+   "published": "2026-10-20T13:10:00+00:00",
    "kind": "etf_flow",
    "raw_symbols": [
     "BTC"
@@ -2611,19 +2635,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.089,
+   "sentiment": 0.086,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing",
     "market"
    ],
-   "count": 33,
-   "last": "2026-10-20T17:11:47+00:00"
+   "count": 34,
+   "last": "2026-10-20T17:38:03+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.448,
-   "risk": 0.903,
+   "sentiment": -0.45,
+   "risk": 0.893,
    "events": [
     "security",
     "etf_flow"
@@ -2632,7 +2656,7 @@
    "last": "2026-10-20T16:31:24+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.168,
+   "sentiment": 0.167,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2642,7 +2666,7 @@
    "last": "2026-10-20T16:31:24+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.16,
+   "sentiment": 0.161,
    "risk": 0.0,
    "events": [
     "market",
@@ -2659,7 +2683,7 @@
    "last": "2026-10-19T12:16:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.164,
+   "sentiment": -0.162,
    "risk": 0.0,
    "events": [
     "etf_flow"
