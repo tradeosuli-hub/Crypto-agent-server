@@ -1,25 +1,85 @@
 {
- "updated_at": "2026-10-20T07:56:43.989813+00:00",
+ "updated_at": "2026-10-20T08:26:17.937976+00:00",
  "market": {
-  "btc_dominance": 59.57,
+  "btc_dominance": 59.56,
   "usdt_dominance": 6.66,
-  "mcap_change_24h": -3.2,
+  "mcap_change_24h": -3.22,
   "trending": [
    "PHA",
-   "CARDS",
    "QTC",
    "PEARL",
-   "BTC",
+   "CARDS",
    "NEAR",
-   "ETH",
+   "BTC",
+   "VVV",
+   "STRK",
    "PENGU",
-   "AERO",
-   "HYPE"
+   "AERO"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock",
+   "url": "https://www.coindesk.com/business/2026/10/20/bitcoin-etfs-just-saw-their-biggest-day-in-a-month-thanks-entirely-to-blackrock",
+   "published": "2026-10-20T08:24:01+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7bef91eb9f71",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T08:26:17.937976+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "BlackRock files for third Bitcoin ETF, still no Solana or XRP",
+   "url": "https://cointelegraph.com/news/blackrock-ishares-bitcoin-managed-protection-etf-pbit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-20T08:12:57+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "XRP",
+    "BTC",
+    "SOL"
+   ],
+   "symbols": [
+    "XRPUSDT",
+    "BTCUSDT",
+    "SOLUSDT"
+   ],
+   "id": "N04d44927ae32",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T08:26:17.937976+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance to Support 24/7 Dynamic Updates of the bStocks Collateral Index Price",
+   "url": "https://www.binance.com/en/support/announcement/1a5f87ab3b77476b9ad0177b560e3054",
+   "published": "2026-10-20T08:00:06.609000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N53bb69996256",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T08:26:17.937976+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "BlackRock’s IBIT Bitcoin ETF draws $665 million inflow, highest since October 2025",
@@ -1408,23 +1468,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
-   "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
-   "published": "2026-10-18T07:13:32+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8e2777477595",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-18T07:14:31.538907+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
    "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
@@ -1821,23 +1864,6 @@
   },
   {
    "source": "binance",
-   "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-09)",
-   "url": "https://www.binance.com/en/support/announcement/74c7657a53f141e8b2d584bf44e6dd87",
-   "published": "2026-10-06T09:30:01.366000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7070055298a3",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)",
    "url": "https://www.binance.com/en/support/announcement/ea19450f515843098a5d5e55fc6e3589",
    "published": "2026-10-06T06:15:28.410000+00:00",
@@ -2221,24 +2247,34 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.093,
+   "sentiment": 0.074,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing",
     "market"
    ],
-   "count": 22,
-   "last": "2026-10-20T07:05:24+00:00"
+   "count": 24,
+   "last": "2026-10-20T08:24:01+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.4,
+  "XRPUSDT": {
+   "sentiment": 0.0,
    "risk": 0.0,
    "events": [
-    "token_burn"
+    "etf_flow"
    ],
    "count": 2,
-   "last": "2026-10-19T21:04:34+00:00"
+   "last": "2026-10-20T08:12:57+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.219,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 3,
+   "last": "2026-10-20T08:12:57+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.108,
@@ -2271,13 +2307,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-19T05:23:02+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-19T04:54:31+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.9,
