@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-20T14:20:49.068493+00:00",
+ "updated_at": "2026-10-20T14:50:23.115077+00:00",
  "market": {
-  "btc_dominance": 59.6,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -1.51,
+  "btc_dominance": 59.56,
+  "usdt_dominance": 6.52,
+  "mcap_change_24h": -1.16,
   "trending": [
    "PEARL",
-   "CARDS",
    "JCT",
-   "NEAR",
+   "CARDS",
    "BTC",
+   "VVV",
+   "NEAR",
+   "SUI",
    "QTC",
-   "WLD",
-   "ZEC",
-   "GRVT",
-   "SUI"
+   "PONS",
+   "WLD"
   ],
   "fear_greed": 55,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Blockchain.com rolls out crypto options as it pursues US derivatives licenses",
+   "url": "https://www.theblock.co/news/markets/2026-10-20-blockchain-com-launches-options-trading-bitcoin-ether-sol-421326",
+   "published": "2026-10-20T14:31:29+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N060b0fc3bfde",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T14:50:23.115077+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
+   "url": "https://www.coindesk.com/markets/2026/10/20/blackrock-seeks-to-shield-bitcoin-investors-from-losses-after-rival-fund-weathers-50-crash",
+   "published": "2026-10-20T14:28:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nbbb132a43bcd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-20T14:50:23.115077+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Injective partners with BDACS to bring Korean won stablecoin to RWA ecosystem",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T14:20:49.068493+00:00",
    "notified": false
   },
@@ -2464,19 +2501,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.119,
+   "sentiment": 0.102,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing",
     "market"
    ],
-   "count": 30,
-   "last": "2026-10-20T13:04:28+00:00"
+   "count": 31,
+   "last": "2026-10-20T14:28:39+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.493,
-   "risk": 0.964,
+   "sentiment": -0.496,
+   "risk": 0.954,
    "events": [
     "security",
     "etf_flow"
