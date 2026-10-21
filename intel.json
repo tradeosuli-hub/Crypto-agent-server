@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-21T17:25:26.633819+00:00",
+ "updated_at": "2026-10-21T17:54:59.248617+00:00",
  "market": {
-  "btc_dominance": 59.61,
-  "usdt_dominance": 6.42,
-  "mcap_change_24h": -0.8,
+  "btc_dominance": 59.58,
+  "usdt_dominance": 6.41,
+  "mcap_change_24h": -0.58,
   "trending": [
    "UHI",
+   "AERO",
    "AXIS",
    "PEARL",
-   "AERO",
    "PENGU",
-   "PONS",
-   "QTC",
-   "ALT",
    "BTC",
-   "ZEC"
+   "ZEC",
+   "PONS",
+   "NEAR",
+   "QTC"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "UK financial watchdog opens consultations for DeFi guidance, crypto laws",
+   "url": "https://cointelegraph.com/news/uk-fca-consultations-defi-crypto-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T17:25:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc7e7c1082577",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T17:54:59.248617+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T17:25:26.633819+00:00",
    "notified": false
   },
@@ -2197,23 +2214,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Revolut secures Gibraltar crypto license to support global expansion",
-   "url": "https://cointelegraph.com/news/revolut-secures-gibraltar-crypto-license-to-support-global-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-19T17:24:49+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N360f1def447a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T17:40:19.522083+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2778,7 +2778,7 @@
  "symbols": {
   "ADAUSDT": {
    "sentiment": -0.2,
-   "risk": 0.584,
+   "risk": 0.578,
    "events": [
     "regulation"
    ],
@@ -2787,7 +2787,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.584,
+   "risk": 0.578,
    "events": [
     "regulation"
    ],
@@ -2795,8 +2795,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.12,
-   "risk": 0.322,
+   "sentiment": -0.119,
+   "risk": 0.316,
    "events": [
     "regulation"
    ],
@@ -2805,7 +2805,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.055,
-   "risk": 0.443,
+   "risk": 0.438,
    "events": [
     "macro",
     "etf_flow"
@@ -2814,7 +2814,7 @@
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.268,
+   "sentiment": 0.27,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2835,7 +2835,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.443,
+   "risk": 0.438,
    "events": [
     "macro"
    ],
@@ -2844,7 +2844,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.596,
-   "risk": 0.85,
+   "risk": 0.84,
    "events": [
     "security",
     "etf_flow"
