@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-21T09:03:00.281096+00:00",
+ "updated_at": "2026-10-21T09:32:28.924906+00:00",
  "market": {
-  "btc_dominance": 59.57,
-  "usdt_dominance": 6.5,
-  "mcap_change_24h": -0.56,
+  "btc_dominance": 59.56,
+  "usdt_dominance": 6.49,
+  "mcap_change_24h": -0.26,
   "trending": [
    "PEARL",
+   "CARDS",
    "PENGU",
    "QTC",
-   "CARDS",
-   "NEAR",
-   "SUI",
    "QNT",
    "HYPE",
-   "DRV",
-   "JUP"
+   "PONS",
+   "SUI",
+   "NEAR",
+   "INJ"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
+   "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
+   "published": "2026-10-21T09:30:01.882000+00:00",
+   "kind": "delisting",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ned7d9c8a1a07",
+   "kind_fa": "حذف از صرافی",
+   "importance": 9,
+   "sentiment": -0.8,
+   "risk": 0.9,
+   "first_seen": "2026-10-21T09:32:28.924906+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin",
+   "url": "https://www.coindesk.com/markets/2026/10/21/spacex-and-tesla-explore-merger-that-would-unite-more-than-30-000-bitcoin",
+   "published": "2026-10-21T09:23:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N35844fc03d40",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T09:32:28.924906+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Monero futures are again heating with leverage, raising volatility risks",
+   "url": "https://www.coindesk.com/markets/2026/10/21/monero-futures-are-again-heating-with-leverage-raising-volatility-risks",
+   "published": "2026-10-21T08:57:29+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N006ea01189bf",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T09:32:28.924906+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Tether leads $15 million funding round for AI-focused payment startup Mural",
@@ -37,6 +89,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T09:03:00.281096+00:00",
    "notified": false
   },
@@ -2101,48 +2154,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "CME’s bitcoin cash, uniswap futures, global PMIs: Crypto Week Ahead",
-   "url": "https://www.coindesk.com/markets/2026/10/19/cme-s-bitcoin-cash-uniswap-futures-global-pmis-crypto-week-ahead",
-   "published": "2026-10-19T09:12:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6477a57b7d59",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T09:18:18.868905+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
-   "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-19T08:58:45+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nb12af10aece5",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T09:18:18.868905+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support Dell Technologies (DELL) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/2a76c51632a14a3ebfb1910e3fc3ae4d",
@@ -2685,29 +2696,22 @@
    "summary_fa": null,
    "first_seen": "2026-10-07T21:42:49.326766+00:00",
    "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
-   "url": "https://www.binance.com/en/support/announcement/454b8004796c46a9b883cc7dab6d6e67",
-   "published": "2026-09-04T08:30:02.234000+00:00",
-   "kind": "delisting",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc0cb2f9e4a2b",
-   "kind_fa": "حذف از صرافی",
-   "importance": 9,
-   "sentiment": -0.8,
-   "risk": 0.9,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.096,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "listing"
+   ],
+   "count": 32,
+   "last": "2026-10-21T09:23:00+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.407,
-   "risk": 0.575,
+   "sentiment": -0.406,
+   "risk": 0.565,
    "events": [
     "etf_flow",
     "security"
@@ -2742,19 +2746,9 @@
    "count": 1,
    "last": "2026-10-21T04:07:07+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": 0.097,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "listing"
-   ],
-   "count": 33,
-   "last": "2026-10-21T04:07:07+00:00"
-  },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.427,
+   "risk": 0.421,
    "events": [
     "regulation"
    ],
