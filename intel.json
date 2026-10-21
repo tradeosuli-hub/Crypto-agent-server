@@ -1,22 +1,22 @@
 {
- "updated_at": "2026-10-20T23:41:30.888632+00:00",
+ "updated_at": "2026-10-21T00:11:01.446738+00:00",
  "market": {
   "btc_dominance": 59.53,
   "usdt_dominance": 6.54,
-  "mcap_change_24h": -1.55,
+  "mcap_change_24h": -1.48,
   "trending": [
-   "PENGU",
-   "PEARL",
    "ZEC",
+   "PENGU",
    "NEAR",
+   "PEARL",
    "AERO",
-   "BTC",
    "HYPE",
+   "SUI",
+   "INJ",
    "SOL",
-   "QTC",
-   "SUI"
+   "EDEL"
   ],
-  "fear_greed": 55,
+  "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-20T23:41:30.888632+00:00",
    "notified": false
   },
@@ -2072,23 +2073,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
-   "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
-   "published": "2026-10-18T23:28:06+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N026f2d8016cd",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-18T23:57:22.255398+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Launches Covered Call & Cash-Secured Put — Short Options Strategies Now Available",
    "url": "https://www.binance.com/en/support/announcement/9fe16193d2ca442ca4d0fca0d608c910",
@@ -2745,8 +2729,8 @@
  ],
  "symbols": {
   "SUIUSDT": {
-   "sentiment": -0.022,
-   "risk": 0.544,
+   "sentiment": -0.02,
+   "risk": 0.538,
    "events": [
     "regulation",
     "listing"
@@ -2766,8 +2750,8 @@
    "last": "2026-10-20T18:14:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.478,
-   "risk": 0.77,
+   "sentiment": -0.479,
+   "risk": 0.76,
    "events": [
     "security",
     "etf_flow"
@@ -2776,7 +2760,7 @@
    "last": "2026-10-20T16:31:24+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.156,
+   "sentiment": 0.154,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2803,7 +2787,7 @@
    "last": "2026-10-19T12:16:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.154,
+   "sentiment": -0.158,
    "risk": 0.0,
    "events": [
     "etf_flow"
