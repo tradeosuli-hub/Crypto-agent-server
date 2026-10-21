@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-21T19:23:47.431524+00:00",
+ "updated_at": "2026-10-21T19:53:41.404770+00:00",
  "market": {
-  "btc_dominance": 59.62,
-  "usdt_dominance": 6.43,
-  "mcap_change_24h": -0.63,
+  "btc_dominance": 59.64,
+  "usdt_dominance": 6.42,
+  "mcap_change_24h": -0.51,
   "trending": [
    "UHI",
-   "LIT",
    "AERO",
+   "LIT",
    "PEARL",
-   "AXIS",
-   "PENGU",
-   "NEAR",
    "CARDS",
-   "BTC",
-   "ZEC"
+   "NEAR",
+   "AXIS",
+   "XMR",
+   "VVV",
+   "QTC"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T19:23:47.431524+00:00",
    "notified": false
   },
@@ -2239,40 +2240,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Visa, Mesh partner to enable crypto spending at 175M merchant locations",
-   "url": "https://cointelegraph.com/news/visa-mesh-partner-crypto-spending-175m-merchant-locations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-19T19:16:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nda131b0e8832",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T19:38:22.567742+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Mastercard launches stablecoin risk screening for banks and payment providers",
-   "url": "https://cointelegraph.com/news/mastercard-stablecoin-risk-screening-banks-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-19T19:03:23+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N94eb35b6b8c8",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T19:38:22.567742+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2844,7 +2811,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.159,
-   "risk": 0.56,
+   "risk": 0.553,
    "events": [
     "regulation"
    ],
@@ -2853,7 +2820,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.56,
+   "risk": 0.553,
    "events": [
     "regulation"
    ],
@@ -2862,7 +2829,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.118,
-   "risk": 0.298,
+   "risk": 0.291,
    "events": [
     "regulation"
    ],
@@ -2870,8 +2837,8 @@
    "last": "2026-10-21T15:22:46+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.068,
-   "risk": 0.422,
+   "sentiment": 0.067,
+   "risk": 0.417,
    "events": [
     "macro",
     "etf_flow"
@@ -2880,7 +2847,7 @@
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.274,
+   "sentiment": 0.275,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2901,7 +2868,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.422,
+   "risk": 0.417,
    "events": [
     "macro"
    ],
@@ -2910,7 +2877,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.594,
-   "risk": 0.809,
+   "risk": 0.799,
    "events": [
     "security",
     "etf_flow"
