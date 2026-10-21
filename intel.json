@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-10-21T03:38:14.009225+00:00",
+ "updated_at": "2026-10-21T04:07:44.527799+00:00",
  "market": {
-  "btc_dominance": 59.5,
+  "btc_dominance": 59.52,
   "usdt_dominance": 6.54,
-  "mcap_change_24h": -1.34,
+  "mcap_change_24h": -1.78,
   "trending": [
-   "PENGU",
-   "PYBOBO",
-   "HYPE",
    "PEARL",
    "CARDS",
-   "XMR",
-   "PONS",
-   "NEAR",
-   "VVV",
-   "SUI"
+   "PENGU",
+   "ZEC",
+   "TAO",
+   "SUI",
+   "LIT",
+   "PYBOBO",
+   "QTC",
+   "NEAR"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
+   "url": "https://www.coindesk.com/markets/2026/10/21/bitcoin-hovers-around-usd83-000-as-ai-earnings-revive-tech-zec-jumps-11",
+   "published": "2026-10-21T04:07:07+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ZEC",
+    "BTC"
+   ],
+   "symbols": [
+    "ZECUSDT",
+    "BTCUSDT"
+   ],
+   "id": "N1a0d5c49e012",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T04:07:44.527799+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-10-22)",
+   "url": "https://www.binance.com/en/support/announcement/84b9812b7a88404baedec318c5d60b37",
+   "published": "2026-10-21T04:00:35.977000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8aa51b1be604",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T04:07:44.527799+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
@@ -33,6 +71,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T03:38:14.009225+00:00",
    "notified": false
   },
@@ -2060,27 +2099,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
-   "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
-   "published": "2026-10-19T03:36:58+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ne7f998f9bd74",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T03:53:29.029920+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support Dell Technologies (DELL) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/2a76c51632a14a3ebfb1910e3fc3ae4d",
@@ -2299,23 +2317,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-13T03:40:36.736317+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Notice on the Closure of Binance Pool Services",
-   "url": "https://www.binance.com/en/support/announcement/2b45800173fd44f48b4517f25f941434",
-   "published": "2026-10-13T03:00:09.478000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3588a169659f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-13T03:11:09.238036+00:00",
    "notified": false
   },
   {
@@ -2694,29 +2695,36 @@
   }
  ],
  "symbols": {
-  "SUIUSDT": {
-   "sentiment": -0.2,
-   "risk": 0.495,
-   "events": [
-    "regulation"
-   ],
-   "count": 1,
-   "last": "2026-10-20T19:12:38+00:00"
+  "ZECUSDT": {
+   "sentiment": 0.167,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-21T04:07:07+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.081,
+   "sentiment": 0.085,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing",
     "market"
    ],
-   "count": 34,
-   "last": "2026-10-20T18:14:28+00:00"
+   "count": 35,
+   "last": "2026-10-21T04:07:07+00:00"
+  },
+  "SUIUSDT": {
+   "sentiment": -0.2,
+   "risk": 0.489,
+   "events": [
+    "regulation"
+   ],
+   "count": 1,
+   "last": "2026-10-20T19:12:38+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.48,
-   "risk": 0.688,
+   "risk": 0.677,
    "events": [
     "security",
     "etf_flow"
@@ -2725,7 +2733,7 @@
    "last": "2026-10-20T16:31:24+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.144,
+   "sentiment": 0.143,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2759,13 +2767,6 @@
    ],
    "count": 2,
    "last": "2026-10-19T11:05:54+00:00"
-  },
-  "ZECUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-19T05:23:02+00:00"
   }
  },
  "social": {},
