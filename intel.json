@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-21T07:34:33.005676+00:00",
+ "updated_at": "2026-10-21T08:04:02.829758+00:00",
  "market": {
-  "btc_dominance": 59.48,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -1.32,
+  "btc_dominance": 59.5,
+  "usdt_dominance": 6.51,
+  "mcap_change_24h": -0.93,
   "trending": [
    "PEARL",
+   "NEAR",
    "PENGU",
    "CARDS",
    "SUI",
-   "VVV",
+   "JUP",
+   "QTC",
+   "ORBIO",
    "ZEC",
-   "NEAR",
-   "TIA",
-   "AERO",
-   "XMR"
+   "VVV"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T07:34:33.005676+00:00",
    "notified": false
   },
@@ -2693,7 +2694,7 @@
  ],
  "symbols": {
   "XRPUSDT": {
-   "sentiment": 0.121,
+   "sentiment": 0.12,
    "risk": 0.0,
    "events": [
     "market",
@@ -2703,7 +2704,7 @@
    "last": "2026-10-21T05:25:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.102,
+   "sentiment": 0.101,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -2720,18 +2721,18 @@
    "last": "2026-10-21T04:07:07+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.085,
+   "sentiment": 0.097,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing"
    ],
-   "count": 34,
+   "count": 33,
    "last": "2026-10-21T04:07:07+00:00"
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.445,
+   "risk": 0.439,
    "events": [
     "regulation"
    ],
@@ -2739,13 +2740,12 @@
    "last": "2026-10-20T19:12:38+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.473,
-   "risk": 0.606,
+   "sentiment": -0.481,
+   "risk": 0.595,
    "events": [
-    "security",
-    "etf_flow"
+    "security"
    ],
-   "count": 8,
+   "count": 7,
    "last": "2026-10-20T16:31:24+00:00"
   },
   "ADAUSDT": {
@@ -2756,12 +2756,10 @@
    "last": "2026-10-19T12:16:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.22,
+   "sentiment": 0.2,
    "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 2,
+   "events": [],
+   "count": 1,
    "last": "2026-10-19T11:05:54+00:00"
   }
  },
