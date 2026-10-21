@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-21T13:58:08.265262+00:00",
+ "updated_at": "2026-10-21T14:27:36.952465+00:00",
  "market": {
-  "btc_dominance": 59.64,
-  "usdt_dominance": 6.48,
-  "mcap_change_24h": -0.23,
+  "btc_dominance": 59.67,
+  "usdt_dominance": 6.46,
+  "mcap_change_24h": -0.55,
   "trending": [
    "UHI",
-   "AXIS",
    "PENGU",
+   "AXIS",
    "PEARL",
    "AERO",
+   "ZEC",
    "BTC",
    "QTC",
-   "VVV",
-   "ZEC",
-   "LIT"
+   "CARDS",
+   "NEAR"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Anza’s Alpenglow goes live on Solana, cutting finality to 150 milliseconds",
+   "url": "https://www.theblock.co/news/ecosystems/2026-10-21-anzas-alpenglow-goes-live-on-solana-cutting-finality-to-150-milliseconds-421508",
+   "published": "2026-10-21T14:24:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N6e8f4eb8323e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T14:27:36.952465+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Solana’s Alpenglow launches on mainnet, targets 99% faster finality",
+   "url": "https://cointelegraph.com/news/solanas-alpenglow-launches-mainnet-99-faster-finality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T13:57:14+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N315ce41b451b",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T14:27:36.952465+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -50,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T13:58:08.265262+00:00",
    "notified": false
   },
@@ -70,6 +111,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T13:58:08.265262+00:00",
    "notified": false
   },
@@ -369,7 +411,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin rises above $83,000 as SpaceX results, possible Tesla merger, lift markets",
+   "title": "Live updates: Bitcoin rises to $84,000 as SpaceX leads markets higher",
    "url": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures",
    "published": "2026-10-21T10:30:40+00:00",
    "kind": "news",
@@ -2194,27 +2236,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Strive scoops up another 1,223 bitcoin for $100 million as total holdings reach 36,818 BTC",
-   "url": "https://www.theblock.co/news/business/2026-10-19-strive-scoops-1223-bitcoin-100-million-total-holdings-reach-36818-btc-421020",
-   "published": "2026-10-19T13:45:41+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na0f2a541d712",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T14:13:26.769446+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2777,9 +2798,20 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.27,
+   "risk": 0.0,
+   "events": [
+    "listing",
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 7,
+   "last": "2026-10-21T14:24:39+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.068,
-   "risk": 0.479,
+   "risk": 0.474,
    "events": [
     "macro",
     "etf_flow",
@@ -2799,7 +2831,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.479,
+   "risk": 0.474,
    "events": [
     "macro"
    ],
@@ -2807,8 +2839,8 @@
    "last": "2026-10-21T11:55:08+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.6,
-   "risk": 0.922,
+   "sentiment": -0.599,
+   "risk": 0.912,
    "events": [
     "security",
     "etf_flow"
@@ -2826,16 +2858,6 @@
    "count": 3,
    "last": "2026-10-21T05:25:57+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.105,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 5,
-   "last": "2026-10-21T04:35:52+00:00"
-  },
   "ZECUSDT": {
    "sentiment": 0.2,
    "risk": 0.0,
@@ -2845,7 +2867,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.366,
+   "risk": 0.359,
    "events": [
     "regulation"
    ],
