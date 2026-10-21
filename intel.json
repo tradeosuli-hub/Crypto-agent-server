@@ -1,25 +1,97 @@
 {
- "updated_at": "2026-10-21T10:01:59.495827+00:00",
+ "updated_at": "2026-10-21T10:31:23.937947+00:00",
  "market": {
-  "btc_dominance": 59.57,
-  "usdt_dominance": 6.5,
-  "mcap_change_24h": -0.34,
+  "btc_dominance": 59.6,
+  "usdt_dominance": 6.51,
+  "mcap_change_24h": -0.5,
   "trending": [
    "PEARL",
    "PENGU",
-   "QTC",
-   "CARDS",
-   "HYPE",
    "ZEC",
-   "PONS",
-   "LIT",
+   "QTC",
+   "BTC",
    "NEAR",
-   "BTC"
+   "HYPE",
+   "CARDS",
+   "DOOD",
+   "STRK"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin clings to $82,500 as SpaceX results lift stock futures",
+   "url": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures",
+   "published": "2026-10-21T10:30:40+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N8cfa15914322",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T10:31:23.937947+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Shinhan, SBI make Japan-Korea tourist spending a test case for yen stablecoins",
+   "url": "https://cointelegraph.com/news/shinhan-sbi-japan-korea-travel-yen-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T10:22:44+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5f6bf2a7b869",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T10:31:23.937947+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Zcash rallies 12% as developers finalize NU7 activation height",
+   "url": "https://cointelegraph.com/markets/zcash-zec-rallies-12-percent-nu7-mainnet-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T10:15:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf3cdd9df7376",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T10:31:23.937947+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Drift exploiter sends $109M in Ether to Tornado Cash in 2 days",
+   "url": "https://cointelegraph.com/news/drift-exploiter-moves-109m-eth-tornado-cash-2-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T10:13:52+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N019246d1d68f",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-21T10:31:23.937947+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
@@ -2099,27 +2171,6 @@
   },
   {
    "source": "coindesk",
-   "title": "JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum",
-   "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
-   "published": "2026-10-19T10:03:47+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N4e3f041cfa46",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T10:17:19.900713+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
    "title": "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s",
    "url": "https://www.coindesk.com/tech/2026/10/19/bitcoin-mining-offshoot-nscale-loses-microsoft-ai-deal-as-power-delay-stretches-into-2030s",
    "published": "2026-10-19T09:15:00+00:00",
@@ -2686,24 +2737,24 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.096,
+   "sentiment": 0.089,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "listing"
    ],
-   "count": 32,
-   "last": "2026-10-21T09:23:00+00:00"
+   "count": 31,
+   "last": "2026-10-21T10:30:40+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.405,
-   "risk": 0.554,
+   "sentiment": -0.589,
+   "risk": 0.994,
    "events": [
-    "etf_flow",
-    "security"
+    "security",
+    "etf_flow"
    ],
    "count": 7,
-   "last": "2026-10-21T08:47:11+00:00"
+   "last": "2026-10-21T10:13:52+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.119,
@@ -2734,7 +2785,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.415,
+   "risk": 0.409,
    "events": [
     "regulation"
    ],
