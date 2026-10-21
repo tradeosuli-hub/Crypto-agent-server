@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-21T15:26:45.268041+00:00",
+ "updated_at": "2026-10-21T15:56:15.544546+00:00",
  "market": {
-  "btc_dominance": 59.67,
+  "btc_dominance": 59.59,
   "usdt_dominance": 6.42,
-  "mcap_change_24h": -1.35,
+  "mcap_change_24h": -1.36,
   "trending": [
    "UHI",
-   "AXIS",
-   "PENGU",
-   "PEARL",
    "AERO",
+   "PENGU",
    "ZEC",
-   "QTC",
+   "PEARL",
+   "AXIS",
    "VVV",
-   "BTC",
-   "SOL"
+   "QTC",
+   "STRK",
+   "BTC"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal",
+   "url": "https://www.coindesk.com/business/2026/10/21/how-a16z-backed-data-is-rethinking-its-blockchain-strategy-after-usd30-million-sui-deal",
+   "published": "2026-10-21T15:22:46+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SUI"
+   ],
+   "symbols": [
+    "SUIUSDT"
+   ],
+   "id": "N29151f5d5c07",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T15:56:15.544546+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T15:26:45.268041+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 6,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T15:26:45.268041+00:00",
    "notified": false
   },
@@ -69,6 +91,7 @@
    "importance": 4,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T15:26:45.268041+00:00",
    "notified": false
   },
@@ -85,6 +108,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T15:26:45.268041+00:00",
    "notified": false
   },
@@ -2247,27 +2271,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "SkyAI sells off entire Solana treasury as it launches $201 million buyback",
-   "url": "https://www.theblock.co/news/business/2026-10-19-skyai-sells-off-entire-solana-treasury-launches-201-million-buyback-421037",
-   "published": "2026-10-19T15:28:43+00:00",
-   "kind": "token_burn",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nf3f43455aca7",
-   "kind_fa": "سوزاندن توکن",
-   "importance": 6,
-   "sentiment": 0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T15:42:12.117047+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2830,9 +2833,18 @@
   }
  ],
  "symbols": {
+  "SUIUSDT": {
+   "sentiment": -0.121,
+   "risk": 0.341,
+   "events": [
+    "regulation"
+   ],
+   "count": 2,
+   "last": "2026-10-21T15:22:46+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.052,
-   "risk": 0.463,
+   "risk": 0.458,
    "events": [
     "macro",
     "etf_flow"
@@ -2841,14 +2853,14 @@
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.273,
+   "sentiment": 0.265,
    "risk": 0.0,
    "events": [
     "listing",
     "etf_flow",
     "token_burn"
    ],
-   "count": 7,
+   "count": 6,
    "last": "2026-10-21T14:24:39+00:00"
   },
   "DOGEUSDT": {
@@ -2862,7 +2874,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.463,
+   "risk": 0.458,
    "events": [
     "macro"
    ],
@@ -2871,7 +2883,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.598,
-   "risk": 0.891,
+   "risk": 0.881,
    "events": [
     "security",
     "etf_flow"
@@ -2895,15 +2907,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-21T04:07:07+00:00"
-  },
-  "SUIUSDT": {
-   "sentiment": -0.2,
-   "risk": 0.347,
-   "events": [
-    "regulation"
-   ],
-   "count": 1,
-   "last": "2026-10-20T19:12:38+00:00"
   }
  },
  "social": {},
