@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-21T20:52:47.506180+00:00",
+ "updated_at": "2026-10-21T21:22:21.310863+00:00",
  "market": {
   "btc_dominance": 59.68,
   "usdt_dominance": 6.41,
-  "mcap_change_24h": -0.4,
+  "mcap_change_24h": -0.77,
   "trending": [
    "UHI",
    "AERO",
    "PEARL",
    "PENGU",
-   "LIT",
-   "AXIS",
    "NEAR",
-   "PUMP",
-   "ZEC",
-   "CARDS"
+   "AXIS",
+   "LIT",
+   "SUI",
+   "QNT",
+   "QTC"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T20:52:47.506180+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T20:52:47.506180+00:00",
    "notified": false
   },
@@ -2785,7 +2787,7 @@
  "symbols": {
   "ETHUSDT": {
    "sentiment": -0.53,
-   "risk": 0.778,
+   "risk": 0.768,
    "events": [
     "security",
     "etf_flow"
@@ -2802,7 +2804,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.159,
-   "risk": 0.541,
+   "risk": 0.535,
    "events": [
     "regulation"
    ],
@@ -2811,7 +2813,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.541,
+   "risk": 0.535,
    "events": [
     "regulation"
    ],
@@ -2819,8 +2821,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.117,
-   "risk": 0.279,
+   "sentiment": -0.116,
+   "risk": 0.273,
    "events": [
     "regulation"
    ],
@@ -2828,8 +2830,8 @@
    "last": "2026-10-21T15:22:46+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.052,
-   "risk": 0.407,
+   "sentiment": 0.051,
+   "risk": 0.402,
    "events": [
     "macro",
     "etf_flow"
@@ -2838,14 +2840,13 @@
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.278,
+   "sentiment": 0.269,
    "risk": 0.0,
    "events": [
     "listing",
-    "etf_flow",
-    "token_burn"
+    "etf_flow"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-21T14:24:39+00:00"
   },
   "DOGEUSDT": {
@@ -2859,7 +2860,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.407,
+   "risk": 0.402,
    "events": [
     "macro"
    ],
