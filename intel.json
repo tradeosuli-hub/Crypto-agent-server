@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-10-21T15:56:15.544546+00:00",
+ "updated_at": "2026-10-21T16:25:49.194544+00:00",
  "market": {
-  "btc_dominance": 59.59,
-  "usdt_dominance": 6.42,
-  "mcap_change_24h": -1.36,
+  "btc_dominance": 59.63,
+  "usdt_dominance": 6.41,
+  "mcap_change_24h": -0.42,
   "trending": [
    "UHI",
-   "AERO",
-   "PENGU",
-   "ZEC",
    "PEARL",
+   "PENGU",
+   "AERO",
+   "ZEC",
    "AXIS",
    "VVV",
    "QTC",
-   "STRK",
-   "BTC"
+   "ENA",
+   "PONS"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Trump to throw spotlight on overseas crypto abuses at White House event",
+   "url": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
+   "published": "2026-10-21T16:23:44+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1a3f08ed80bb",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T16:25:49.194544+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Chainlink, Cardano, other blockchain groups push SEC for clearer crypto rules",
+   "url": "https://cointelegraph.com/news/chainlink-cardano-and-other-blockchain-groups-push-sec-for-clearer-crypto-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T16:09:26+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "ADA",
+    "LINK"
+   ],
+   "symbols": [
+    "ADAUSDT",
+    "LINKUSDT"
+   ],
+   "id": "N6959cf1bdd5f",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-21T16:25:49.194544+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal",
@@ -37,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T15:56:15.544546+00:00",
    "notified": false
   },
@@ -2199,23 +2238,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Mesh taps Visa to let users spend crypto without a separate card",
-   "url": "https://www.theblock.co/news/business/2026-10-19-mesh-visa-partner-spend-crypto-stablecoins-421058",
-   "published": "2026-10-19T16:10:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb6a4e167e9f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T16:11:42.839790+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Bitcoin is rejected at $83K as US bond yields reverse higher with equities",
    "url": "https://cointelegraph.com/markets/bitcoin-is-rejected-at-83k-as-us-bond-yields-reverse-higher-with-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2234,40 +2256,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-19T16:41:13.444174+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Mastercard unveils Stablecoin Security tool to screen payments for fraud and sanctions risks",
-   "url": "https://www.theblock.co/news/business/2026-10-19-mastercard-unveils-stablecoin-security-tool-to-screen-payments-for-fraud-and-sanctions-risks-420658",
-   "published": "2026-10-19T16:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na98f399e1d58",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T16:11:42.839790+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Galaxy’s AI data center business is undervalued amid CoreWeave debt concerns, StoneX says",
-   "url": "https://www.theblock.co/news/markets/2026-10-19-galaxy-digital-glxy-stonex-buy-coreweave-helios-ai-data-center-421045",
-   "published": "2026-10-19T15:53:42+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2b1c19e4ec2c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T16:11:42.839790+00:00",
    "notified": false
   },
   {
@@ -2833,9 +2821,27 @@
   }
  ],
  "symbols": {
+  "ADAUSDT": {
+   "sentiment": -0.2,
+   "risk": 0.597,
+   "events": [
+    "regulation"
+   ],
+   "count": 1,
+   "last": "2026-10-21T16:09:26+00:00"
+  },
+  "LINKUSDT": {
+   "sentiment": -0.2,
+   "risk": 0.597,
+   "events": [
+    "regulation"
+   ],
+   "count": 1,
+   "last": "2026-10-21T16:09:26+00:00"
+  },
   "SUIUSDT": {
    "sentiment": -0.121,
-   "risk": 0.341,
+   "risk": 0.335,
    "events": [
     "regulation"
    ],
@@ -2843,17 +2849,17 @@
    "last": "2026-10-21T15:22:46+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.052,
-   "risk": 0.458,
+   "sentiment": 0.055,
+   "risk": 0.453,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 30,
+   "count": 29,
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.265,
+   "sentiment": 0.266,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2874,7 +2880,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.458,
+   "risk": 0.453,
    "events": [
     "macro"
    ],
@@ -2882,8 +2888,8 @@
    "last": "2026-10-21T11:55:08+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.598,
-   "risk": 0.881,
+   "sentiment": -0.597,
+   "risk": 0.871,
    "events": [
     "security",
     "etf_flow"
@@ -2892,7 +2898,7 @@
    "last": "2026-10-21T10:13:52+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.116,
+   "sentiment": 0.115,
    "risk": 0.0,
    "events": [
     "market",
