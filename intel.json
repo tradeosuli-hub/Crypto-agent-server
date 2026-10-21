@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-21T18:24:35.409276+00:00",
+ "updated_at": "2026-10-21T18:54:11.824470+00:00",
  "market": {
   "btc_dominance": 59.58,
   "usdt_dominance": 6.4,
-  "mcap_change_24h": -0.52,
+  "mcap_change_24h": -0.54,
   "trending": [
    "UHI",
    "AERO",
-   "PENGU",
+   "LIT",
    "PEARL",
+   "PENGU",
    "AXIS",
    "ZEC",
    "BTC",
-   "ZAMA",
-   "QNT",
-   "PONS"
+   "STRK",
+   "ZAMA"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T18:24:35.409276+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T18:24:35.409276+00:00",
    "notified": false
   },
@@ -2815,7 +2817,7 @@
  "symbols": {
   "ADAUSDT": {
    "sentiment": -0.159,
-   "risk": 0.572,
+   "risk": 0.566,
    "events": [
     "regulation"
    ],
@@ -2824,7 +2826,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.572,
+   "risk": 0.566,
    "events": [
     "regulation"
    ],
@@ -2833,7 +2835,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.119,
-   "risk": 0.31,
+   "risk": 0.304,
    "events": [
     "regulation"
    ],
@@ -2842,7 +2844,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.054,
-   "risk": 0.432,
+   "risk": 0.427,
    "events": [
     "macro",
     "etf_flow"
@@ -2851,7 +2853,7 @@
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.271,
+   "sentiment": 0.272,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2872,7 +2874,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.432,
+   "risk": 0.427,
    "events": [
     "macro"
    ],
@@ -2881,7 +2883,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.595,
-   "risk": 0.83,
+   "risk": 0.819,
    "events": [
     "security",
     "etf_flow"
