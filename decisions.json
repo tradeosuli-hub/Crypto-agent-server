@@ -1583,5 +1583,114 @@
    "پارامترها 9/10 (قابل‌بررسی 8)"
   ],
   "entered_at": "2026-10-20T18:45:00+00:00"
+ },
+ {
+  "id": "Da9e76a5fb9",
+  "ts": "2026-10-21T08:54:16.457863+00:00",
+  "status": "open",
+  "symbol": "WLDUSDT",
+  "direction": "long",
+  "entry": 0.5900996428571429,
+  "stop": 0.578800357142857,
+  "targets": [
+   0.6145060897853493,
+   0.595475,
+   0.5983,
+   0.6145060897853493
+  ],
+  "rr1": 2.16,
+  "leverage": 1.0,
+  "regime": "risk_on/up",
+  "wall_verdict": "hammer_dulling",
+  "confidence": 0.402,
+  "consensus_strength": 0.402,
+  "weights": {
+   "dominance": 0.222222,
+   "structure": 0.222222,
+   "liquidity": 0.166667,
+   "volume": 0.111111,
+   "news": 0.111111,
+   "order_block": 0.111111,
+   "pattern": 0.055556
+  },
+  "votes": {
+   "dominance": {
+    "direction": "long",
+    "strength": 0.684,
+    "silent": false,
+    "flags": [],
+    "note_fa": "پول تازه / ریسک‌آن محتمل"
+   },
+   "structure": {
+    "direction": "long",
+    "strength": 0.3,
+    "silent": false,
+    "flags": [],
+    "note_fa": "H4 اصلی · H1 تأیید · M15 ورود — long"
+   },
+   "liquidity": {
+    "direction": "long",
+    "strength": 1.0,
+    "silent": false,
+    "flags": [
+     "sweep_rejection"
+    ],
+    "note_fa": "شدوی پس‌زننده = برداشت نقدینگی + ریجکت"
+   },
+   "volume": {
+    "direction": "long",
+    "strength": 0.5,
+    "silent": false,
+    "flags": [],
+    "note_fa": "حجم (z=0.14)"
+   },
+   "news": {
+    "direction": "flat",
+    "strength": 0.1,
+    "silent": false,
+    "flags": [],
+    "note_fa": "ترس‌وطمع 63 خنثی"
+   },
+   "order_block": {
+    "direction": "short",
+    "strength": 0.6,
+    "silent": false,
+    "flags": [
+     "wall_hammer_dulling"
+    ],
+    "note_fa": "دیوار hammer_dulling · 8 واکنش"
+   },
+   "pattern": {
+    "direction": "long",
+    "strength": 0.5,
+    "silent": false,
+    "flags": [
+     "history_rsi_div",
+     "trendline"
+    ],
+    "note_fa": "2 الگوی هم‌جهت"
+   },
+   "social": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "سوشال بی‌داده (Grok وصل نیست یا این ارز پوشش ندارد)"
+   },
+   "historical_memory": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "تجربهٔ کافی نیست (0/3)"
+   }
+  },
+  "objections": [],
+  "why_fa": [
+   "ماشهٔ شدوی پس‌زننده (long) · نفوذ 0.50 · نسبت شدو 4.25",
+   "بازگشت به کانال → long · تارگت 0.614506",
+   "دیوار hammer_dulling · واکنش‌های گذشته 8",
+   "پارامترها 6/10 (قابل‌بررسی 8)"
+  ]
  }
 ]
