@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-21T04:07:44.527799+00:00",
+ "updated_at": "2026-10-21T04:37:15.098836+00:00",
  "market": {
   "btc_dominance": 59.52,
   "usdt_dominance": 6.54,
-  "mcap_change_24h": -1.78,
+  "mcap_change_24h": -1.83,
   "trending": [
    "PEARL",
-   "CARDS",
-   "PENGU",
    "ZEC",
-   "TAO",
+   "CARDS",
    "SUI",
-   "LIT",
-   "PYBOBO",
    "QTC",
-   "NEAR"
+   "PYBOBO",
+   "SOL",
+   "TAO",
+   "LIT",
+   "ZBCN"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Solana’s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday",
+   "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
+   "published": "2026-10-21T04:35:52+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nd08f987d6839",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T04:37:15.098836+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "A company that vouches for websites had secret keys so weak that 8 of them were cracked",
+   "url": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
+   "published": "2026-10-21T04:11:58+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N07b3ff05c6f1",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T04:37:15.098836+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%",
@@ -39,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T04:07:44.527799+00:00",
    "notified": false
   },
@@ -55,6 +92,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T04:07:44.527799+00:00",
    "notified": false
   },
@@ -2695,8 +2733,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.108,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 5,
+   "last": "2026-10-21T04:35:52+00:00"
+  },
   "ZECUSDT": {
-   "sentiment": 0.167,
+   "sentiment": 0.166,
    "risk": 0.0,
    "events": [],
    "count": 2,
@@ -2715,7 +2763,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.489,
+   "risk": 0.482,
    "events": [
     "regulation"
    ],
@@ -2723,8 +2771,8 @@
    "last": "2026-10-20T19:12:38+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.48,
-   "risk": 0.677,
+   "sentiment": -0.479,
+   "risk": 0.667,
    "events": [
     "security",
     "etf_flow"
@@ -2732,18 +2780,8 @@
    "count": 8,
    "last": "2026-10-20T16:31:24+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.143,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 4,
-   "last": "2026-10-20T16:31:24+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.161,
+   "sentiment": 0.16,
    "risk": 0.0,
    "events": [
     "market",
