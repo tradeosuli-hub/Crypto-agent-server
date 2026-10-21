@@ -1,12 +1,12 @@
 {
- "checked_at": "2026-10-21T14:57:30.887129+00:00",
+ "checked_at": "2026-10-21T15:12:01.947030+00:00",
  "checks": [
   {
    "name": "scan_fresh",
    "fa": "آخرین اسکن موفق",
    "ok": true,
-   "value": "15 دقیقه پیش",
-   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39619019987"
+   "value": "14 دقیقه پیش",
+   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39621369902"
   },
   {
    "name": "scan_failures",
@@ -18,14 +18,14 @@
   {
    "name": "scan_loop",
    "fa": "حلقهٔ اسکن (اجرای بعدی در صف)",
-   "ok": true,
-   "value": "زنده"
+   "ok": false,
+   "value": "مرده"
   },
   {
    "name": "intel_fresh",
    "fa": "ایجنت اطلاعات",
    "ok": true,
-   "value": "0 دقیقه پیش"
+   "value": "15 دقیقه پیش"
   },
   {
    "name": "intel_loop",
@@ -37,19 +37,55 @@
    "name": "memory_fresh",
    "fa": "حافظهٔ دائمی (phoenix-memory)",
    "ok": true,
-   "value": "0 دقیقه پیش"
+   "value": "15 دقیقه پیش"
   }
  ],
- "problems": [],
+ "problems": [
+  {
+   "kind": "scan_loop_dead",
+   "runs": [
+    {
+     "id": 39621369902,
+     "status": "completed",
+     "conclusion": "success",
+     "event": "workflow_dispatch",
+     "created_at": "2026-10-21T14:57:05Z",
+     "updated_at": "2026-10-21T14:58:05Z",
+     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39621369902",
+     "branch": "cursor/phoenix-signal-panel-69df"
+    },
+    {
+     "id": 39619019987,
+     "status": "completed",
+     "conclusion": "success",
+     "event": "workflow_dispatch",
+     "created_at": "2026-10-21T14:41:17Z",
+     "updated_at": "2026-10-21T14:42:57Z",
+     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39619019987",
+     "branch": "cursor/phoenix-signal-panel-69df"
+    },
+    {
+     "id": 39619017014,
+     "status": "completed",
+     "conclusion": "success",
+     "event": "workflow_dispatch",
+     "created_at": "2026-10-21T14:41:15Z",
+     "updated_at": "2026-10-21T14:42:07Z",
+     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39619017014",
+     "branch": "cursor/phoenix-signal-panel-69df"
+    }
+   ]
+  }
+ ],
  "runs": {
   "scan": [
    {
     "id": 39621369902,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "workflow_dispatch",
     "created_at": "2026-10-21T14:57:05Z",
-    "updated_at": "2026-10-21T14:57:11Z",
+    "updated_at": "2026-10-21T14:58:05Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39621369902",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -127,21 +163,21 @@
   "intel": [
    {
     "id": 39621403765,
-    "status": "pending",
+    "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
     "created_at": "2026-10-21T14:57:19Z",
-    "updated_at": "2026-10-21T14:57:28Z",
+    "updated_at": "2026-10-21T14:57:40Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39621403765",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
    {
     "id": 39616996617,
-    "status": "in_progress",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "success",
     "event": "workflow_dispatch",
     "created_at": "2026-10-21T14:27:45Z",
-    "updated_at": "2026-10-21T14:31:59Z",
+    "updated_at": "2026-10-21T14:57:43Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39616996617",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -177,6 +213,26 @@
    }
   ]
  },
- "open_incidents": [],
+ "open_incidents": [
+  {
+   "id": "I202610211512",
+   "ts": "2026-10-21T15:12:01.947030+00:00",
+   "kind": "scan_loop_dead",
+   "kind_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+   "cause": "scan_loop_dead",
+   "cause_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+   "severity": "high",
+   "summary_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · علت: حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · این علت 3 بار قبلاً دیده شده؛ آخرین اقدام: حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+   "brain": null,
+   "log_excerpt": "",
+   "action": "revive",
+   "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39621369902",
+   "last_action_ts": "2026-10-21T15:12:03.592027+00:00",
+   "checks": 1,
+   "escalations": 0,
+   "resolved_at": null
+  }
+ ],
  "brain": null
 }
