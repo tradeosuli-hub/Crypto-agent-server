@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-21T08:04:02.829758+00:00",
+ "updated_at": "2026-10-21T08:33:31.277543+00:00",
  "market": {
-  "btc_dominance": 59.5,
+  "btc_dominance": 59.52,
   "usdt_dominance": 6.51,
-  "mcap_change_24h": -0.93,
+  "mcap_change_24h": -0.63,
   "trending": [
    "PEARL",
-   "NEAR",
    "PENGU",
-   "CARDS",
-   "SUI",
-   "JUP",
    "QTC",
-   "ORBIO",
-   "ZEC",
-   "VVV"
+   "NEAR",
+   "SUI",
+   "CARDS",
+   "QNT",
+   "HYPE",
+   "JUP",
+   "PUMP"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Ether ETF outflows continue, pass $1B in October so far",
+   "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T08:11:50+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Ndd4074017808",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T08:33:31.277543+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Zcash developers confirm November date for upgrade that triples payment speed",
+   "url": "https://www.coindesk.com/markets/2026/10/21/zcash-developers-confirm-november-date-for-upgrade-that-triples-payment-speed",
+   "published": "2026-10-21T08:10:12+00:00",
+   "kind": "project",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N69675d727bad",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 4,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T08:33:31.277543+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Important Updates on TradFi Perpetual Contracts (2026-10-21)",
@@ -2106,31 +2142,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin, Ether ETFs shed $549M as October ETH outflows near $1B",
-   "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-19T07:54:13+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "ETH",
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "ETHUSDT",
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N5057b1745de0",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T08:19:11.122972+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support Dell Technologies (DELL) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/2a76c51632a14a3ebfb1910e3fc3ae4d",
@@ -2693,6 +2704,16 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.464,
+   "risk": 0.585,
+   "events": [
+    "etf_flow",
+    "security"
+   ],
+   "count": 7,
+   "last": "2026-10-21T08:11:50+00:00"
+  },
   "XRPUSDT": {
    "sentiment": 0.12,
    "risk": 0.0,
@@ -2732,21 +2753,12 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.439,
+   "risk": 0.433,
    "events": [
     "regulation"
    ],
    "count": 1,
    "last": "2026-10-20T19:12:38+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.481,
-   "risk": 0.595,
-   "events": [
-    "security"
-   ],
-   "count": 7,
-   "last": "2026-10-20T16:31:24+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
