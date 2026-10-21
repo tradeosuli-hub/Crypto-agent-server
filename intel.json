@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-21T16:25:49.194544+00:00",
+ "updated_at": "2026-10-21T16:55:21.374933+00:00",
  "market": {
-  "btc_dominance": 59.63,
+  "btc_dominance": 59.62,
   "usdt_dominance": 6.41,
-  "mcap_change_24h": -0.42,
+  "mcap_change_24h": -0.37,
   "trending": [
    "UHI",
-   "PEARL",
    "PENGU",
+   "PEARL",
    "AERO",
-   "ZEC",
    "AXIS",
+   "ZEC",
+   "PONS",
    "VVV",
-   "QTC",
-   "ENA",
-   "PONS"
+   "BTC",
+   "NEAR"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Dataline raises $10.6 million for decentralized data network for AI agents, plans ICO",
+   "url": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
+   "published": "2026-10-21T16:44:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfdcea4d1905e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T16:55:21.374933+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Trump to throw spotlight on overseas crypto abuses at White House event",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-21T16:25:49.194544+00:00",
    "notified": false
   },
@@ -55,6 +72,7 @@
    "importance": 8,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-21T16:25:49.194544+00:00",
    "notified": false
   },
@@ -2238,27 +2256,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin is rejected at $83K as US bond yields reverse higher with equities",
-   "url": "https://cointelegraph.com/markets/bitcoin-is-rejected-at-83k-as-us-bond-yields-reverse-higher-with-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-19T16:05:57+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N2e045f715c30",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T16:41:13.444174+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2823,7 +2820,7 @@
  "symbols": {
   "ADAUSDT": {
    "sentiment": -0.2,
-   "risk": 0.597,
+   "risk": 0.59,
    "events": [
     "regulation"
    ],
@@ -2832,7 +2829,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.597,
+   "risk": 0.59,
    "events": [
     "regulation"
    ],
@@ -2840,8 +2837,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.121,
-   "risk": 0.335,
+   "sentiment": -0.12,
+   "risk": 0.329,
    "events": [
     "regulation"
    ],
@@ -2849,17 +2846,17 @@
    "last": "2026-10-21T15:22:46+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.055,
-   "risk": 0.453,
+   "sentiment": 0.056,
+   "risk": 0.448,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 29,
+   "count": 27,
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.266,
+   "sentiment": 0.267,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2880,7 +2877,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.453,
+   "risk": 0.448,
    "events": [
     "macro"
    ],
@@ -2889,7 +2886,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.597,
-   "risk": 0.871,
+   "risk": 0.861,
    "events": [
     "security",
     "etf_flow"
