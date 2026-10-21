@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-21T20:23:11.689264+00:00",
+ "updated_at": "2026-10-21T20:52:47.506180+00:00",
  "market": {
-  "btc_dominance": 59.63,
-  "usdt_dominance": 6.42,
-  "mcap_change_24h": -0.54,
+  "btc_dominance": 59.68,
+  "usdt_dominance": 6.41,
+  "mcap_change_24h": -0.4,
   "trending": [
    "UHI",
    "AERO",
-   "LIT",
-   "CARDS",
    "PEARL",
-   "NEAR",
-   "AXIS",
-   "XMR",
    "PENGU",
-   "JUP"
+   "LIT",
+   "AXIS",
+   "NEAR",
+   "PUMP",
+   "ZEC",
+   "CARDS"
   ],
   "fear_greed": 63,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking",
+   "url": "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T20:26:07+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N142a360a5893",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T20:52:47.506180+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Trump didn‘t mention ‘crypto’ once in White House cybercrime roundtable",
+   "url": "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-21T20:19:39+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N21452969edd3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-21T20:52:47.506180+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -2185,44 +2221,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Crypto PAC pours $362K into California race voters essentially decided in August",
-   "url": "https://cointelegraph.com/news/crypto-pac-california-race-voters-special-election?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-19T20:22:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd04c98f86042",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T20:37:29.247212+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Tether: Senator's investigation misses positive work that's led to lower Iran volumes",
-   "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
-   "published": "2026-10-19T20:21:13+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nb0b647fa4586",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T20:37:29.247212+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2785,6 +2783,16 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.53,
+   "risk": 0.778,
+   "events": [
+    "security",
+    "etf_flow"
+   ],
+   "count": 6,
+   "last": "2026-10-21T20:26:07+00:00"
+  },
   "TRXUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2794,7 +2802,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.159,
-   "risk": 0.547,
+   "risk": 0.541,
    "events": [
     "regulation"
    ],
@@ -2803,7 +2811,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.547,
+   "risk": 0.541,
    "events": [
     "regulation"
    ],
@@ -2812,7 +2820,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.117,
-   "risk": 0.285,
+   "risk": 0.279,
    "events": [
     "regulation"
    ],
@@ -2820,8 +2828,8 @@
    "last": "2026-10-21T15:22:46+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.053,
-   "risk": 0.412,
+   "sentiment": 0.052,
+   "risk": 0.407,
    "events": [
     "macro",
     "etf_flow"
@@ -2830,7 +2838,7 @@
    "last": "2026-10-21T15:13:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.277,
+   "sentiment": 0.278,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2851,25 +2859,15 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.412,
+   "risk": 0.407,
    "events": [
     "macro"
    ],
    "count": 1,
    "last": "2026-10-21T11:55:08+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.611,
-   "risk": 0.788,
-   "events": [
-    "security",
-    "etf_flow"
-   ],
-   "count": 5,
-   "last": "2026-10-21T10:13:52+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.111,
+   "sentiment": 0.11,
    "risk": 0.0,
    "events": [
     "market",
