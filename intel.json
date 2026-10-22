@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-22T03:45:57.225000+00:00",
+ "updated_at": "2026-10-22T04:15:27.388716+00:00",
  "market": {
-  "btc_dominance": 59.54,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -2.75,
+  "btc_dominance": 59.53,
+  "usdt_dominance": 6.53,
+  "mcap_change_24h": -2.54,
   "trending": [
    "AERO",
    "PEARL",
-   "AXIS",
    "NEAR",
-   "QTC",
    "PENGU",
-   "HYPE",
-   "PEPE",
-   "LIT",
-   "CARDS"
+   "AXIS",
+   "BTC",
+   "ZEC",
+   "ETH",
+   "QTC",
+   "HYPE"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
+   "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+   "published": "2026-10-22T03:51:34+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfd366c9e5ec5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T04:15:27.388716+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Updates on Tick Size for Spot Trading Pairs (2026-10-29)",
@@ -2773,9 +2793,19 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.045,
+   "risk": 0.33,
+   "events": [
+    "macro",
+    "etf_flow"
+   ],
+   "count": 26,
+   "last": "2026-10-22T03:51:34+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.52,
-   "risk": 0.635,
+   "sentiment": -0.521,
+   "risk": 0.624,
    "events": [
     "security",
     "etf_flow"
@@ -2792,7 +2822,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.455,
+   "risk": 0.449,
    "events": [
     "regulation"
    ],
@@ -2801,7 +2831,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.455,
+   "risk": 0.449,
    "events": [
     "regulation"
    ],
@@ -2809,26 +2839,16 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.107,
-   "risk": 0.193,
+   "sentiment": -0.106,
+   "risk": 0.187,
    "events": [
     "regulation"
    ],
    "count": 2,
    "last": "2026-10-21T15:22:46+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": 0.048,
-   "risk": 0.335,
-   "events": [
-    "macro",
-    "etf_flow"
-   ],
-   "count": 25,
-   "last": "2026-10-21T15:13:17+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.274,
+   "sentiment": 0.275,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2848,7 +2868,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.335,
+   "risk": 0.33,
    "events": [
     "macro"
    ],
@@ -2856,7 +2876,7 @@
    "last": "2026-10-21T11:55:08+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.1,
+   "sentiment": 0.101,
    "risk": 0.0,
    "events": [
     "market",
