@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-22T14:05:55.501730+00:00",
+ "updated_at": "2026-10-22T14:35:33.554346+00:00",
  "market": {
-  "btc_dominance": 59.4,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -4.72,
+  "btc_dominance": 59.44,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -4.81,
   "trending": [
    "UHI",
    "OA",
    "AERO",
-   "PEARL",
-   "XMR",
-   "BTC",
-   "QTC",
-   "PENGU",
    "NEAR",
-   "ETH"
+   "PEARL",
+   "SUI",
+   "BTC",
+   "ENA",
+   "BMT",
+   "MAGMA"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T14:05:55.501730+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T14:05:55.501730+00:00",
    "notified": false
   },
@@ -73,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T14:05:55.501730+00:00",
    "notified": false
   },
@@ -2242,23 +2245,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Injective partners with BDACS to bring Korean won stablecoin to RWA ecosystem",
-   "url": "https://www.theblock.co/news/markets/2026-10-20-injective-partners-bdacs-418883",
-   "published": "2026-10-20T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N744a19325ee2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T14:20:49.068493+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/7d76e6a921024e09a91523f983503014",
@@ -2877,8 +2863,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.29,
-   "risk": 0.419,
+   "sentiment": -0.289,
+   "risk": 0.409,
    "events": [
     "etf_flow",
     "security"
@@ -2887,13 +2873,13 @@
    "last": "2026-10-22T13:55:03+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.024,
-   "risk": 0.227,
+   "sentiment": -0.021,
+   "risk": 0.222,
    "events": [
     "etf_flow",
     "macro"
    ],
-   "count": 26,
+   "count": 25,
    "last": "2026-10-22T13:42:34+00:00"
   },
   "AIUSDT": {
@@ -2905,7 +2891,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.227,
+   "risk": 0.222,
    "events": [
     "macro"
    ],
@@ -2913,7 +2899,7 @@
    "last": "2026-10-22T09:11:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.233,
+   "sentiment": 0.232,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2937,7 +2923,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.326,
+   "risk": 0.32,
    "events": [
     "regulation"
    ],
@@ -2946,7 +2932,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.326,
+   "risk": 0.32,
    "events": [
     "regulation"
    ],
@@ -2954,7 +2940,7 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.101,
+   "sentiment": -0.102,
    "risk": 0.12,
    "events": [
     "regulation"
