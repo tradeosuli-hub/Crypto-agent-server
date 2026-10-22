@@ -1,25 +1,93 @@
 {
- "updated_at": "2026-10-22T09:10:29.913307+00:00",
+ "updated_at": "2026-10-22T09:40:02.938555+00:00",
  "market": {
   "btc_dominance": 60.02,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -4.99,
+  "usdt_dominance": 6.68,
+  "mcap_change_24h": -5.12,
   "trending": [
    "OA",
    "AERO",
-   "XMR",
    "AXIS",
-   "LIT",
-   "PENGU",
    "BTC",
+   "PENGU",
+   "XMR",
+   "LIT",
    "PEARL",
-   "ENA",
-   "QTC"
+   "SOL",
+   "KAS"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Starknet community overwhelmingly backs research into becoming an independent post-quantum Layer 1",
+   "url": "https://www.theblock.co/news/ecosystems/2026-10-22-starknet-community-backs-independent-post-quantum-layer-1-421885",
+   "published": "2026-10-22T09:32:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1a4bdb1170b5",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T09:40:02.938555+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Layer 2 Scaling Solutions",
+   "url": "https://www.theblock.co/learn/campus/layer-2-scaling-solutions-419685",
+   "published": "2026-10-22T09:15:50+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb52888c9ab12",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T09:40:02.938555+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "South Korea’s crypto bill nears completion while tax debate intensifies: reports",
+   "url": "https://www.theblock.co/news/regulation/2026-10-22-south-koreas-crypto-bill-nears-completion-421880",
+   "published": "2026-10-22T09:11:57+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "NEAR"
+   ],
+   "symbols": [
+    "NEARUSDT"
+   ],
+   "id": "N61cebec06b0a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T09:40:02.938555+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns",
+   "url": "https://cointelegraph.com/news/cloudflare-millions-exploit-attempts-php-vulnerability-disclosure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T09:06:02+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf472c81275aa",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-22T09:40:02.938555+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
@@ -37,6 +105,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T09:10:29.913307+00:00",
    "notified": false
   },
@@ -2776,9 +2845,18 @@
   }
  ],
  "symbols": {
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.273,
+   "events": [
+    "macro"
+   ],
+   "count": 2,
+   "last": "2026-10-22T09:11:57+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": 0.065,
-   "risk": 0.279,
+   "sentiment": 0.066,
+   "risk": 0.273,
    "events": [
     "etf_flow",
     "macro"
@@ -2796,7 +2874,7 @@
    "last": "2026-10-22T05:24:58+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.08,
+   "sentiment": 0.081,
    "risk": 0.0,
    "events": [
     "market"
@@ -2806,7 +2884,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.528,
-   "risk": 0.522,
+   "risk": 0.512,
    "events": [
     "security",
     "etf_flow"
@@ -2823,7 +2901,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.143,
-   "risk": 0.387,
+   "risk": 0.381,
    "events": [
     "regulation"
    ],
@@ -2832,7 +2910,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.387,
+   "risk": 0.381,
    "events": [
     "regulation"
    ],
@@ -2840,8 +2918,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.094,
-   "risk": 0.125,
+   "sentiment": -0.093,
+   "risk": 0.12,
    "events": [
     "regulation"
    ],
@@ -2856,15 +2934,6 @@
    ],
    "count": 2,
    "last": "2026-10-21T12:00:00+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.279,
-   "events": [
-    "macro"
-   ],
-   "count": 1,
-   "last": "2026-10-21T11:55:08+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.2,
