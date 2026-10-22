@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-22T16:07:16.560307+00:00",
+ "updated_at": "2026-10-22T16:36:47.956848+00:00",
  "market": {
-  "btc_dominance": 59.47,
-  "usdt_dominance": 6.62,
-  "mcap_change_24h": -5.8,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -5.86,
   "trending": [
    "UHI",
    "OA",
    "PEARL",
+   "PENGU",
+   "LIT",
+   "BTC",
    "QTC",
    "AERO",
-   "NEAR",
-   "LIT",
-   "VVV",
-   "SUI",
-   "TAO"
+   "ETH",
+   "SUI"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
+   "url": "https://cointelegraph.com/markets/bitcoin-circles-815k-etf-cost-basis-as-trump-iran-comments-send-stocks-lower?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T16:20:35+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4f8b09cbac1a",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T16:36:47.956848+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures",
@@ -2256,23 +2276,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Mastercard opens early access to AI agent payments following pilots with Coinbase, Base and Cloudflare",
-   "url": "https://www.theblock.co/news/business/2026-10-20-mastercard-opens-early-access-to-ai-agent-payments-following-pilots-with-coinbase-base-and-cloudflare-421406",
-   "published": "2026-10-20T16:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncb538df43eb4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T16:18:56.065849+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/7d76e6a921024e09a91523f983503014",
@@ -2890,25 +2893,25 @@
   }
  ],
  "symbols": {
-  "ETHUSDT": {
-   "sentiment": -0.284,
-   "risk": 0.377,
-   "events": [
-    "etf_flow",
-    "security"
-   ],
-   "count": 9,
-   "last": "2026-10-22T13:55:03+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.021,
-   "risk": 0.206,
+   "sentiment": -0.018,
+   "risk": 0.201,
    "events": [
     "etf_flow",
     "macro"
    ],
    "count": 25,
-   "last": "2026-10-22T13:42:34+00:00"
+   "last": "2026-10-22T16:20:35+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.29,
+   "risk": 0.367,
+   "events": [
+    "etf_flow",
+    "security"
+   ],
+   "count": 8,
+   "last": "2026-10-22T13:55:03+00:00"
   },
   "AIUSDT": {
    "sentiment": 0.015,
@@ -2919,7 +2922,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.206,
+   "risk": 0.201,
    "events": [
     "macro"
    ],
@@ -2927,12 +2930,12 @@
    "last": "2026-10-22T09:11:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.231,
+   "sentiment": 0.248,
    "risk": 0.0,
    "events": [
     "listing"
    ],
-   "count": 5,
+   "count": 4,
    "last": "2026-10-22T05:24:58+00:00"
   },
   "XRPUSDT": {
@@ -2951,7 +2954,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.153,
-   "risk": 0.3,
+   "risk": 0.294,
    "events": [
     "regulation"
    ],
@@ -2960,7 +2963,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.3,
+   "risk": 0.294,
    "events": [
     "regulation"
    ],
@@ -2968,7 +2971,7 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.105,
+   "sentiment": -0.106,
    "risk": 0.12,
    "events": [
     "regulation"
