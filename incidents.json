@@ -2134,7 +2134,7 @@
   "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
   "url": null,
   "last_action_ts": "2026-10-22T16:29:48.743792+00:00",
-  "checks": 4,
+  "checks": 5,
   "escalations": 1,
   "resolved_at": null
  },
@@ -2174,6 +2174,26 @@
   "url": null,
   "last_action_ts": "2026-10-22T16:15:08.047056+00:00",
   "checks": 2,
+  "escalations": 0,
+  "resolved_at": "2026-10-22T16:44:20.176392+00:00",
+  "resolution_fa": "برطرف شد پس از اقدام «حلقه دوباره روشن شد (dispatch روی همین شاخه)»"
+ },
+ {
+  "id": "I202610221644",
+  "ts": "2026-10-22T16:44:20.176392+00:00",
+  "kind": "scan_stalled",
+  "kind_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "cause": "scan_stalled",
+  "cause_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "severity": "high",
+  "summary_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · علت: اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · این علت 99 بار قبلاً دیده شده؛ آخرین اقدام: اجرای مجدد اخیراً زده شده (1)؛ منتظر نتیجه",
+  "brain": null,
+  "log_excerpt": "",
+  "action": "redispatch",
+  "action_fa": "اجرای دوبارهٔ Workflow اسکن زده شد",
+  "url": null,
+  "last_action_ts": "2026-10-22T16:44:22.343409+00:00",
+  "checks": 1,
   "escalations": 0,
   "resolved_at": null
  }
