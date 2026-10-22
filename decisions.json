@@ -1474,7 +1474,7 @@
  {
   "id": "D3b52602173",
   "ts": "2026-10-20T14:01:00.405666+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "SNDKBUSDT",
   "direction": "long",
   "entry": 1367.1106785714287,
@@ -1582,7 +1582,29 @@
    "دیوار solid · واکنش‌های گذشته 2",
    "پارامترها 9/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-20T18:45:00+00:00"
+  "entered_at": "2026-10-20T18:45:00+00:00",
+  "outcome": "SL",
+  "exit": 1323.1993214285715,
+  "pnl_r": -1.0,
+  "closed_at": "2026-10-22T08:00:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "news"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "volume",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، volume، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، news"
+  }
  },
  {
   "id": "Da9e76a5fb9",
