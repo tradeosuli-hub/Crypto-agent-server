@@ -1896,6 +1896,26 @@
   "last_action_ts": "2026-10-22T09:24:50.379530+00:00",
   "checks": 2,
   "escalations": 0,
+  "resolved_at": "2026-10-22T09:39:52.122410+00:00",
+  "resolution_fa": "برطرف شد پس از اقدام «اجرای دوبارهٔ Workflow اسکن زده شد»"
+ },
+ {
+  "id": "I202610220939",
+  "ts": "2026-10-22T09:39:52.122410+00:00",
+  "kind": "scan_loop_dead",
+  "kind_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+  "cause": "scan_loop_dead",
+  "cause_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+  "severity": "high",
+  "summary_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · علت: حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · این علت 4 بار قبلاً دیده شده؛ آخرین اقدام: حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+  "brain": null,
+  "log_excerpt": "",
+  "action": "revive",
+  "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/39755227918",
+  "last_action_ts": "2026-10-22T09:39:54.430242+00:00",
+  "checks": 1,
+  "escalations": 0,
   "resolved_at": null
  }
 ]
