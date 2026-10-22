@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-10-22T08:11:20.836068+00:00",
+ "updated_at": "2026-10-22T08:40:53.172614+00:00",
  "market": {
-  "btc_dominance": 59.48,
-  "usdt_dominance": 6.58,
-  "mcap_change_24h": -3.76,
+  "btc_dominance": 60.05,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -4.95,
   "trending": [
+   "OA",
    "AERO",
+   "PENGU",
    "PEARL",
    "XMR",
-   "AXIS",
-   "PENGU",
-   "NEAR",
-   "SUI",
    "LIT",
-   "VVV",
+   "AXIS",
+   "NEAR",
+   "ENA",
    "CARDS"
   ],
   "fear_greed": 68,
@@ -37,6 +37,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T08:11:20.836068+00:00",
    "notified": false
   },
@@ -2214,52 +2215,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock",
-   "url": "https://www.coindesk.com/business/2026/10/20/bitcoin-etfs-just-saw-their-biggest-day-in-a-month-thanks-entirely-to-blackrock",
-   "published": "2026-10-20T08:24:01+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7bef91eb9f71",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T08:26:17.937976+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "BlackRock files for third Bitcoin ETF, still no Solana or XRP",
-   "url": "https://cointelegraph.com/news/blackrock-ishares-bitcoin-managed-protection-etf-pbit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T08:12:57+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "XRP",
-    "BTC",
-    "SOL"
-   ],
-   "symbols": [
-    "XRPUSDT",
-    "BTCUSDT",
-    "SOLUSDT"
-   ],
-   "id": "N04d44927ae32",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T08:26:17.937976+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance to Support 24/7 Dynamic Updates of the bStocks Collateral Index Price",
    "url": "https://www.binance.com/en/support/announcement/1a5f87ab3b77476b9ad0177b560e3054",
@@ -2823,38 +2778,36 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.065,
-   "risk": 0.289,
+   "sentiment": 0.069,
+   "risk": 0.284,
    "events": [
     "etf_flow",
     "macro"
    ],
-   "count": 27,
+   "count": 25,
    "last": "2026-10-22T07:37:32+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.211,
+   "sentiment": 0.238,
    "risk": 0.0,
    "events": [
-    "listing",
-    "etf_flow"
+    "listing"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-22T05:24:58+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.062,
+   "sentiment": 0.079,
    "risk": 0.0,
    "events": [
-    "market",
-    "etf_flow"
+    "market"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-10-22T04:36:20+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.527,
-   "risk": 0.543,
+   "sentiment": -0.528,
+   "risk": 0.532,
    "events": [
     "security",
     "etf_flow"
@@ -2871,7 +2824,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.143,
-   "risk": 0.4,
+   "risk": 0.393,
    "events": [
     "regulation"
    ],
@@ -2880,7 +2833,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.4,
+   "risk": 0.393,
    "events": [
     "regulation"
    ],
@@ -2888,8 +2841,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.097,
-   "risk": 0.138,
+   "sentiment": -0.096,
+   "risk": 0.132,
    "events": [
     "regulation"
    ],
@@ -2907,7 +2860,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.289,
+   "risk": 0.284,
    "events": [
     "macro"
    ],
