@@ -1,25 +1,87 @@
 {
- "updated_at": "2026-10-22T09:40:02.938555+00:00",
+ "updated_at": "2026-10-22T10:09:39.250876+00:00",
  "market": {
-  "btc_dominance": 60.02,
-  "usdt_dominance": 6.68,
+  "btc_dominance": 60.01,
+  "usdt_dominance": 6.66,
   "mcap_change_24h": -5.12,
   "trending": [
    "OA",
+   "UHI",
    "AERO",
-   "AXIS",
-   "BTC",
-   "PENGU",
-   "XMR",
-   "LIT",
    "PEARL",
-   "SOL",
-   "KAS"
+   "BTC",
+   "XMR",
+   "AXIS",
+   "PENGU",
+   "LIT",
+   "NEAR"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak",
+   "url": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
+   "published": "2026-10-22T09:56:16+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N8dd90dbf693e",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T10:09:39.250876+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
+   "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
+   "published": "2026-10-22T09:54:26+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5d1b5004f4a0",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 6,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T10:09:39.250876+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Starknet voters back research into life beyond Ethereum",
+   "url": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T09:37:54+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nae655ca22e24",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T10:09:39.250876+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Starknet community overwhelmingly backs research into becoming an independent post-quantum Layer 1",
@@ -33,6 +95,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T09:40:02.938555+00:00",
    "notified": false
   },
@@ -49,6 +112,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T09:40:02.938555+00:00",
    "notified": false
   },
@@ -69,6 +133,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T09:40:02.938555+00:00",
    "notified": false
   },
@@ -85,6 +150,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T09:40:02.938555+00:00",
    "notified": false
   },
@@ -2232,23 +2298,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "South Korean IPO slump adds to AI market jitters as Brent crude tops $111",
-   "url": "https://www.coindesk.com/markets/2026/10/20/south-korean-ipo-plunge-deepens-ai-market-jitters-as-brent-tops-usd111",
-   "published": "2026-10-20T09:32:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbc5be6afab40",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T09:54:57.307362+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Margin Tiers of USDⓈ-M Perpetual Contracts (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/dfdb6d70a9c24ba19b814fbd92b516d4",
@@ -2845,24 +2894,35 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.044,
+   "risk": 0.268,
+   "events": [
+    "etf_flow",
+    "token_burn",
+    "macro"
+   ],
+   "count": 27,
+   "last": "2026-10-22T09:56:16+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.427,
+   "risk": 0.501,
+   "events": [
+    "etf_flow",
+    "security"
+   ],
+   "count": 8,
+   "last": "2026-10-22T09:56:16+00:00"
+  },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.273,
+   "risk": 0.268,
    "events": [
     "macro"
    ],
    "count": 2,
    "last": "2026-10-22T09:11:57+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.066,
-   "risk": 0.273,
-   "events": [
-    "etf_flow",
-    "macro"
-   ],
-   "count": 25,
-   "last": "2026-10-22T08:49:08+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.237,
@@ -2874,23 +2934,13 @@
    "last": "2026-10-22T05:24:58+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.081,
+   "sentiment": 0.082,
    "risk": 0.0,
    "events": [
     "market"
    ],
    "count": 3,
    "last": "2026-10-22T04:36:20+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.528,
-   "risk": 0.512,
-   "events": [
-    "security",
-    "etf_flow"
-   ],
-   "count": 6,
-   "last": "2026-10-21T20:26:07+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
@@ -2901,7 +2951,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.143,
-   "risk": 0.381,
+   "risk": 0.375,
    "events": [
     "regulation"
    ],
@@ -2910,7 +2960,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.381,
+   "risk": 0.375,
    "events": [
     "regulation"
    ],
