@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-22T08:40:53.172614+00:00",
+ "updated_at": "2026-10-22T09:10:29.913307+00:00",
  "market": {
-  "btc_dominance": 60.05,
+  "btc_dominance": 60.02,
   "usdt_dominance": 6.67,
-  "mcap_change_24h": -4.95,
+  "mcap_change_24h": -4.99,
   "trending": [
    "OA",
    "AERO",
-   "PENGU",
-   "PEARL",
    "XMR",
-   "LIT",
    "AXIS",
-   "NEAR",
+   "LIT",
+   "PENGU",
+   "BTC",
+   "PEARL",
    "ENA",
-   "CARDS"
+   "QTC"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
+   "url": "https://www.coindesk.com/markets/2026/10/22/asian-stocks-tumble-bitcoin-retreats-as-china-enters-bear-market",
+   "published": "2026-10-22T08:49:08+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N03664aa71534",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T09:10:29.913307+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
@@ -2177,27 +2197,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "JPMorgan projects Bitcoin to outperform US stocks and gold over next decade",
-   "url": "https://cointelegraph.com/markets/jpmorgan-bitcoin-outperform-stocks-gold-annual-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T08:54:27+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nd1f2d30ccb8d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T08:55:50.663849+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Notice of Removal of Spot Trading Pairs - 2026-10-23",
    "url": "https://www.binance.com/en/support/announcement/ad54863d7b0446ebae48bbf3b868ee20",
@@ -2778,17 +2777,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.069,
-   "risk": 0.284,
+   "sentiment": 0.065,
+   "risk": 0.279,
    "events": [
     "etf_flow",
     "macro"
    ],
    "count": 25,
-   "last": "2026-10-22T07:37:32+00:00"
+   "last": "2026-10-22T08:49:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.238,
+   "sentiment": 0.237,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2797,7 +2796,7 @@
    "last": "2026-10-22T05:24:58+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.079,
+   "sentiment": 0.08,
    "risk": 0.0,
    "events": [
     "market"
@@ -2807,7 +2806,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.528,
-   "risk": 0.532,
+   "risk": 0.522,
    "events": [
     "security",
     "etf_flow"
@@ -2824,7 +2823,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.143,
-   "risk": 0.393,
+   "risk": 0.387,
    "events": [
     "regulation"
    ],
@@ -2833,7 +2832,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.393,
+   "risk": 0.387,
    "events": [
     "regulation"
    ],
@@ -2841,8 +2840,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.096,
-   "risk": 0.132,
+   "sentiment": -0.094,
+   "risk": 0.125,
    "events": [
     "regulation"
    ],
@@ -2860,7 +2859,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.284,
+   "risk": 0.279,
    "events": [
     "macro"
    ],
