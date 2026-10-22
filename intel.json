@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-10-22T07:12:26.685108+00:00",
+ "updated_at": "2026-10-22T07:41:54.222424+00:00",
  "market": {
-  "btc_dominance": 59.51,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -3.03,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": -3.14,
   "trending": [
    "AERO",
-   "XMR",
-   "PENGU",
    "PEARL",
+   "XMR",
    "AXIS",
-   "ZEC",
-   "LIT",
-   "QTC",
+   "PENGU",
    "SUI",
+   "QTC",
+   "LIT",
+   "PUMP",
    "CARDS"
   ],
   "fear_greed": 68,
@@ -2257,27 +2257,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "BlackRock’s IBIT Bitcoin ETF draws $665 million inflow, highest since October 2025",
-   "url": "https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102",
-   "published": "2026-10-20T07:05:24+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N58ea1f1aca45",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T07:27:11.868824+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2825,7 +2804,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.075,
-   "risk": 0.299,
+   "risk": 0.294,
    "events": [
     "etf_flow",
     "macro"
@@ -2834,7 +2813,7 @@
    "last": "2026-10-22T06:24:10+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.213,
+   "sentiment": 0.212,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2844,7 +2823,7 @@
    "last": "2026-10-22T05:24:58+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.06,
+   "sentiment": 0.061,
    "risk": 0.0,
    "events": [
     "market",
@@ -2855,7 +2834,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.527,
-   "risk": 0.563,
+   "risk": 0.553,
    "events": [
     "security",
     "etf_flow"
@@ -2872,7 +2851,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.143,
-   "risk": 0.412,
+   "risk": 0.406,
    "events": [
     "regulation"
    ],
@@ -2881,7 +2860,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.412,
+   "risk": 0.406,
    "events": [
     "regulation"
    ],
@@ -2889,8 +2868,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.1,
-   "risk": 0.15,
+   "sentiment": -0.098,
+   "risk": 0.144,
    "events": [
     "regulation"
    ],
@@ -2908,7 +2887,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.299,
+   "risk": 0.294,
    "events": [
     "macro"
    ],
