@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-22T06:13:31.640573+00:00",
+ "updated_at": "2026-10-22T06:42:59.377202+00:00",
  "market": {
-  "btc_dominance": 59.56,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": -2.48,
+  "btc_dominance": 59.52,
+  "usdt_dominance": 6.56,
+  "mcap_change_24h": -2.79,
   "trending": [
    "AERO",
-   "PENGU",
-   "LIT",
-   "PEARL",
    "AXIS",
+   "PEARL",
+   "XMR",
+   "BTC",
+   "LIT",
    "ZEC",
-   "QTC",
+   "TAO",
    "SOL",
-   "PONS",
-   "INJ"
+   "LINK"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
+   "url": "https://www.coindesk.com/markets/2026/10/22/china-seeks-to-seize-61-800-btc-tied-to-usd5-7-billion-fraud-scheme",
+   "published": "2026-10-22T06:24:10+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N842112905785",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T06:42:59.377202+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -2802,6 +2822,16 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.085,
+   "risk": 0.304,
+   "events": [
+    "etf_flow",
+    "macro"
+   ],
+   "count": 27,
+   "last": "2026-10-22T06:24:10+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.213,
    "risk": 0.0,
@@ -2812,18 +2842,8 @@
    "count": 6,
    "last": "2026-10-22T05:24:58+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": 0.09,
-   "risk": 0.309,
-   "events": [
-    "etf_flow",
-    "macro"
-   ],
-   "count": 26,
-   "last": "2026-10-22T04:41:59+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.059,
+   "sentiment": 0.06,
    "risk": 0.0,
    "events": [
     "market",
@@ -2833,8 +2853,8 @@
    "last": "2026-10-22T04:36:20+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.525,
-   "risk": 0.583,
+   "sentiment": -0.526,
+   "risk": 0.573,
    "events": [
     "security",
     "etf_flow"
@@ -2851,7 +2871,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.143,
-   "risk": 0.424,
+   "risk": 0.418,
    "events": [
     "regulation"
    ],
@@ -2860,7 +2880,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.424,
+   "risk": 0.418,
    "events": [
     "regulation"
    ],
@@ -2868,8 +2888,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.102,
-   "risk": 0.162,
+   "sentiment": -0.101,
+   "risk": 0.156,
    "events": [
     "regulation"
    ],
@@ -2887,7 +2907,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.309,
+   "risk": 0.304,
    "events": [
     "macro"
    ],
