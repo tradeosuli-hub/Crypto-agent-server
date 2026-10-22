@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-22T22:32:04.834503+00:00",
+ "updated_at": "2026-10-22T23:01:34.345284+00:00",
  "market": {
-  "btc_dominance": 59.5,
+  "btc_dominance": 59.51,
   "usdt_dominance": 6.65,
-  "mcap_change_24h": -6.41,
+  "mcap_change_24h": -6.43,
   "trending": [
    "UHI",
    "DACITY",
    "OA",
    "PEARL",
-   "NEAR",
-   "BTC",
    "PENGU",
-   "AVAX",
-   "AERO",
-   "HYPE"
+   "BTC",
+   "HYPE",
+   "PUMP",
+   "PYTH",
+   "VVV"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm",
+   "url": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
+   "published": "2026-10-22T22:43:36+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N7e90e2a6c53a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T23:01:34.345284+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals",
@@ -2738,6 +2758,16 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.227,
+   "risk": 0.233,
+   "events": [
+    "etf_flow",
+    "security"
+   ],
+   "count": 9,
+   "last": "2026-10-22T22:43:36+00:00"
+  },
   "AIUSDT": {
    "sentiment": 0.01,
    "risk": 0.0,
@@ -2747,7 +2777,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.027,
-   "risk": 0.139,
+   "risk": 0.134,
    "events": [
     "etf_flow",
     "macro"
@@ -2755,19 +2785,9 @@
    "count": 22,
    "last": "2026-10-22T16:50:51+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.267,
-   "risk": 0.244,
-   "events": [
-    "etf_flow",
-    "security"
-   ],
-   "count": 8,
-   "last": "2026-10-22T13:55:03+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.139,
+   "risk": 0.134,
    "events": [
     "macro"
    ],
@@ -2775,7 +2795,7 @@
    "last": "2026-10-22T09:11:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.234,
+   "sentiment": 0.232,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2798,8 +2818,8 @@
    "last": "2026-10-21T18:54:36+00:00"
   },
   "ADAUSDT": {
-   "sentiment": -0.142,
-   "risk": 0.22,
+   "sentiment": -0.141,
+   "risk": 0.214,
    "events": [
     "regulation"
    ],
@@ -2808,7 +2828,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.22,
+   "risk": 0.214,
    "events": [
     "regulation"
    ],
