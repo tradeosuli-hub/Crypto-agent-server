@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-22T02:46:45.982389+00:00",
+ "updated_at": "2026-10-22T03:16:20.931552+00:00",
  "market": {
-  "btc_dominance": 59.53,
+  "btc_dominance": 59.52,
   "usdt_dominance": 6.53,
-  "mcap_change_24h": -2.8,
+  "mcap_change_24h": -2.63,
   "trending": [
    "AERO",
-   "AXIS",
    "PEARL",
-   "BTC",
-   "LIT",
+   "AXIS",
+   "HYPE",
+   "QTC",
    "PENGU",
-   "ZEC",
-   "CARDS",
    "VVV",
-   "PUMP"
+   "PEPE",
+   "LIT",
+   "ZEC"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Updates on Tick Size for Spot Trading Pairs (2026-10-29)",
+   "url": "https://www.binance.com/en/support/announcement/929cf3d29e21443fad70c9eca98bed23",
+   "published": "2026-10-22T03:00:09.062000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N46ac850bb73d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T03:16:20.931552+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "PHP Foundation admits ‘structural failure’ delayed critical security fix",
@@ -2382,23 +2398,6 @@
   },
   {
    "source": "binance",
-   "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-10-15)",
-   "url": "https://www.binance.com/en/support/announcement/7157d432816e455dbf9fe7f3e452b0cf",
-   "published": "2026-10-14T02:00:07.740000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8f5a0d9283b6",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T02:20:32.320828+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
    "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
    "published": "2026-10-13T03:30:01.158000+00:00",
@@ -2775,7 +2774,7 @@
  "symbols": {
   "ETHUSDT": {
    "sentiment": -0.519,
-   "risk": 0.655,
+   "risk": 0.645,
    "events": [
     "security",
     "etf_flow"
@@ -2792,7 +2791,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.467,
+   "risk": 0.461,
    "events": [
     "regulation"
    ],
@@ -2801,7 +2800,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.467,
+   "risk": 0.461,
    "events": [
     "regulation"
    ],
@@ -2809,8 +2808,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.109,
-   "risk": 0.205,
+   "sentiment": -0.108,
+   "risk": 0.199,
    "events": [
     "regulation"
    ],
@@ -2819,7 +2818,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.047,
-   "risk": 0.345,
+   "risk": 0.34,
    "events": [
     "macro",
     "etf_flow"
@@ -2848,7 +2847,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.345,
+   "risk": 0.34,
    "events": [
     "macro"
    ],
@@ -2856,7 +2855,7 @@
    "last": "2026-10-21T11:55:08+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.098,
+   "sentiment": 0.099,
    "risk": 0.0,
    "events": [
     "market",
