@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-22T05:14:27.347953+00:00",
+ "updated_at": "2026-10-22T05:44:00.398224+00:00",
  "market": {
-  "btc_dominance": 59.53,
+  "btc_dominance": 59.56,
   "usdt_dominance": 6.54,
-  "mcap_change_24h": -2.63,
+  "mcap_change_24h": -2.67,
   "trending": [
    "AERO",
+   "PENGU",
    "PEARL",
    "AXIS",
    "QTC",
-   "BTC",
+   "LIT",
    "ZEC",
-   "QNT",
-   "PENGU",
-   "NEAR",
-   "PHA"
+   "PUMP",
+   "ONDO",
+   "JUP"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Move over memecoins: Crypto ‘meme games’ coming, bagholders and all",
+   "url": "https://cointelegraph.com/news/move-over-memecoins-crypto-meme-games-coming-bagholders-and-all?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T05:35:38+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndd9f37507f32",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T05:44:00.398224+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Solana’s biggest network change since 2020 is live. Here’s how users benefit",
+   "url": "https://www.coindesk.com/tech/2026/10/22/solana-completes-alpenglow-upgrade-here-s-what-it-means-for-users",
+   "published": "2026-10-22T05:24:58+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N19f3d7051ae7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T05:44:00.398224+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
@@ -2240,23 +2276,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Sophon sets Nov. 25 withdrawal deadline ahead of mainnet shutdown",
-   "url": "https://cointelegraph.com/news/sophon-sets-nov-25-withdrawal-deadline-ahead-of-mainnet-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T05:14:11+00:00",
-   "kind": "project",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb1a8243af2a0",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 4,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T05:29:08.123497+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2802,18 +2821,28 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.213,
+   "risk": 0.0,
+   "events": [
+    "listing",
+    "etf_flow"
+   ],
+   "count": 6,
+   "last": "2026-10-22T05:24:58+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": 0.086,
-   "risk": 0.32,
+   "sentiment": 0.09,
+   "risk": 0.314,
    "events": [
     "etf_flow",
     "macro"
    ],
-   "count": 27,
+   "count": 26,
    "last": "2026-10-22T04:41:59+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.058,
+   "sentiment": 0.059,
    "risk": 0.0,
    "events": [
     "market",
@@ -2823,8 +2852,8 @@
    "last": "2026-10-22T04:36:20+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.523,
-   "risk": 0.604,
+   "sentiment": -0.524,
+   "risk": 0.594,
    "events": [
     "security",
     "etf_flow"
@@ -2841,7 +2870,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.436,
+   "risk": 0.43,
    "events": [
     "regulation"
    ],
@@ -2850,7 +2879,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.436,
+   "risk": 0.43,
    "events": [
     "regulation"
    ],
@@ -2858,23 +2887,13 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.104,
-   "risk": 0.175,
+   "sentiment": -0.103,
+   "risk": 0.168,
    "events": [
     "regulation"
    ],
    "count": 2,
    "last": "2026-10-21T15:22:46+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.275,
-   "risk": 0.0,
-   "events": [
-    "listing",
-    "etf_flow"
-   ],
-   "count": 5,
-   "last": "2026-10-21T14:24:39+00:00"
   },
   "DOGEUSDT": {
    "sentiment": 0.42,
@@ -2887,7 +2906,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.32,
+   "risk": 0.314,
    "events": [
     "macro"
    ],
