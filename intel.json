@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-10-22T10:39:15.540024+00:00",
+ "updated_at": "2026-10-22T11:08:47.792336+00:00",
  "market": {
-  "btc_dominance": 60.01,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -4.96,
+  "btc_dominance": 60.04,
+  "usdt_dominance": 6.66,
+  "mcap_change_24h": -4.98,
   "trending": [
    "UHI",
    "OA",
    "AERO",
-   "XMR",
-   "PEARL",
+   "PENGU",
    "BTC",
+   "XMR",
    "AXIS",
    "ZEC",
-   "STRK",
-   "PONS"
+   "MAGMA",
+   "QTC"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "CoinDCX pledges no user losses after $16M transfers draw scrutiny",
+   "url": "https://cointelegraph.com/news/coindcx-suspicious-outflows-wallet-compromised-2025-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T10:53:10+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf8897aafa599",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T11:08:47.792336+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
+   "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+   "published": "2026-10-22T10:50:04+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "AI",
+    "BTC"
+   ],
+   "symbols": [
+    "AIUSDT",
+    "BTCUSDT"
+   ],
+   "id": "Nce3344e6aedd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T11:08:47.792336+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls",
+   "url": "https://cointelegraph.com/markets/bitcoin-corrects-below-82k-after-tesla-q3-results-kospi-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T10:38:51+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N9d38fd4a52a7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T11:08:47.792336+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion",
@@ -33,6 +91,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T10:39:15.540024+00:00",
    "notified": false
   },
@@ -2232,44 +2291,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "XRP 30-day exchange inflows pass 6B tokens as whales move to the sidelines",
-   "url": "https://cointelegraph.com/markets/xrp-30-day-exchange-inflows-pass-6b-tokens-as-whales-move-to-the-sidelines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T10:20:58+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N452d52385f97",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": 0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T10:53:56.243054+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Mt. Gox pushes creditor repayment deadline to 2027 in sixth extension",
-   "url": "https://cointelegraph.com/news/mt-gox-creditor-repayment-deadline-extended-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T10:20:13+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2322b64af086",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T10:53:56.243054+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Margin Tiers of USDⓈ-M Perpetual Contracts (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/dfdb6d70a9c24ba19b814fbd92b516d4",
@@ -2870,20 +2891,27 @@
   }
  ],
  "symbols": {
+  "AIUSDT": {
+   "sentiment": 0.018,
+   "risk": 0.0,
+   "events": [],
+   "count": 5,
+   "last": "2026-10-22T10:50:04+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": 0.048,
-   "risk": 0.263,
+   "sentiment": 0.034,
+   "risk": 0.258,
    "events": [
     "etf_flow",
     "token_burn",
     "macro"
    ],
-   "count": 25,
-   "last": "2026-10-22T09:56:16+00:00"
+   "count": 27,
+   "last": "2026-10-22T10:50:04+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.427,
-   "risk": 0.491,
+   "risk": 0.481,
    "events": [
     "etf_flow",
     "security"
@@ -2893,7 +2921,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.263,
+   "risk": 0.258,
    "events": [
     "macro"
    ],
@@ -2916,13 +2944,6 @@
    "count": 2,
    "last": "2026-10-22T04:36:20+00:00"
   },
-  "AIUSDT": {
-   "sentiment": 0.027,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-10-22T03:51:34+00:00"
-  },
   "TRXUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2932,7 +2953,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.369,
+   "risk": 0.363,
    "events": [
     "regulation"
    ],
@@ -2941,7 +2962,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.369,
+   "risk": 0.363,
    "events": [
     "regulation"
    ],
@@ -2949,7 +2970,7 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.094,
+   "sentiment": -0.095,
    "risk": 0.12,
    "events": [
     "regulation"
