@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-22T04:15:27.388716+00:00",
+ "updated_at": "2026-10-22T04:44:54.991939+00:00",
  "market": {
   "btc_dominance": 59.53,
-  "usdt_dominance": 6.53,
-  "mcap_change_24h": -2.54,
+  "usdt_dominance": 6.54,
+  "mcap_change_24h": -2.64,
   "trending": [
    "AERO",
-   "PEARL",
-   "NEAR",
    "PENGU",
+   "PEARL",
    "AXIS",
    "BTC",
+   "NEAR",
    "ZEC",
-   "ETH",
    "QTC",
-   "HYPE"
+   "HYPE",
+   "VVV"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
+   "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
+   "published": "2026-10-22T04:41:59+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfbe85391f202",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T04:44:54.991939+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "XRP Ledger bug fix moved to November after validator support dipped for two hours",
+   "url": "https://www.coindesk.com/tech/2026/10/22/xrp-ledger-bug-fix-moved-to-november-after-validator-support-dipped-for-two-hours",
+   "published": "2026-10-22T04:36:20+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Nb7b0d5a929b6",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T04:44:54.991939+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
@@ -37,6 +77,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T04:15:27.388716+00:00",
    "notified": false
   },
@@ -2214,40 +2255,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "US bans DeepSeek from civilian agency IT systems",
-   "url": "https://cointelegraph.com/news/us-bans-deepseek-from-civilian-agency-it-systems?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T04:07:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na68dc285b80d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T04:30:05.382271+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Blockchain Association says Treasury’s GENIUS Act rollout needs clearer DeFi, foreign issuer rules",
-   "url": "https://www.theblock.co/news/regulation/2026-10-20-blockchain-association-clearer-rules-genius-act-421092",
-   "published": "2026-10-20T04:07:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1ee566d895d7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T04:30:05.382271+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance AI Pro",
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
@@ -2794,18 +2801,28 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.045,
-   "risk": 0.33,
+   "sentiment": 0.086,
+   "risk": 0.325,
    "events": [
-    "macro",
+    "etf_flow",
+    "macro"
+   ],
+   "count": 27,
+   "last": "2026-10-22T04:41:59+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.058,
+   "risk": 0.0,
+   "events": [
+    "market",
     "etf_flow"
    ],
-   "count": 26,
-   "last": "2026-10-22T03:51:34+00:00"
+   "count": 4,
+   "last": "2026-10-22T04:36:20+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.521,
-   "risk": 0.624,
+   "sentiment": -0.522,
+   "risk": 0.614,
    "events": [
     "security",
     "etf_flow"
@@ -2822,7 +2839,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.449,
+   "risk": 0.443,
    "events": [
     "regulation"
    ],
@@ -2831,7 +2848,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.449,
+   "risk": 0.443,
    "events": [
     "regulation"
    ],
@@ -2839,8 +2856,8 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.106,
-   "risk": 0.187,
+   "sentiment": -0.105,
+   "risk": 0.181,
    "events": [
     "regulation"
    ],
@@ -2868,22 +2885,12 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.33,
+   "risk": 0.325,
    "events": [
     "macro"
    ],
    "count": 1,
    "last": "2026-10-21T11:55:08+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.101,
-   "risk": 0.0,
-   "events": [
-    "market",
-    "etf_flow"
-   ],
-   "count": 3,
-   "last": "2026-10-21T05:25:57+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.2,
