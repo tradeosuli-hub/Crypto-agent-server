@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-22T11:38:19.337756+00:00",
+ "updated_at": "2026-10-22T12:07:50.842262+00:00",
  "market": {
-  "btc_dominance": 60.02,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -5.11,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -4.49,
   "trending": [
    "UHI",
    "OA",
    "AERO",
-   "PENGU",
-   "BTC",
-   "AXIS",
-   "QTC",
    "XMR",
+   "PEARL",
+   "QTC",
+   "AXIS",
    "STRK",
-   "LIT"
+   "BTC",
+   "SUI"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Dune launches onchain trading data feeds as tokenized markets expand",
+   "url": "https://www.theblock.co/news/business/2026-10-22-dune-onchain-trading-data-feeds-421889",
+   "published": "2026-10-22T12:00:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9f1734e35a0b",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T12:07:50.842262+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
+   "url": "https://www.theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
+   "published": "2026-10-22T12:00:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd1a558ed176a",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T12:07:50.842262+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
@@ -37,6 +69,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T11:38:19.337756+00:00",
    "notified": false
   },
@@ -143,20 +176,22 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
+   "title": "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge",
    "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
    "published": "2026-10-22T09:54:26+00:00",
-   "kind": "token_burn",
+   "kind": "news",
    "raw_symbols": [
+    "AI",
     "BTC"
    ],
    "symbols": [
+    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "N5d1b5004f4a0",
-   "kind_fa": "سوزاندن توکن",
-   "importance": 6,
-   "sentiment": 0.4,
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-22T10:09:39.250876+00:00",
@@ -2221,57 +2256,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "France's parliament approves vote to hit stablecoin trades with 31% capital gains tax",
-   "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy",
-   "published": "2026-10-20T11:25:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N12043e279f28",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T11:53:07.382105+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Netflix FTX trailer was ‘enough to upset me’ in first 30 seconds: former FTX COO",
-   "url": "https://cointelegraph.com/news/netflix-ftx-trailer-upset-first-30-seconds-ftx-coo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T11:23:00+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N80a356e067da",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T11:53:07.382105+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Kazakhstan court orders curbs on Coinbase, BingX and four others",
-   "url": "https://cointelegraph.com/news/kazakhstan-court-limits-coinbase-bingx-four?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T11:12:21+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N38f295c1958c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T11:53:07.382105+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Margin Tiers of USDⓈ-M Perpetual Contracts (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/dfdb6d70a9c24ba19b814fbd92b516d4",
@@ -2873,26 +2857,25 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.023,
-   "risk": 0.253,
+   "sentiment": -0.013,
+   "risk": 0.248,
    "events": [
     "etf_flow",
-    "token_burn",
     "macro"
    ],
    "count": 26,
    "last": "2026-10-22T11:20:04+00:00"
   },
   "AIUSDT": {
-   "sentiment": 0.018,
+   "sentiment": 0.014,
    "risk": 0.0,
    "events": [],
-   "count": 5,
+   "count": 6,
    "last": "2026-10-22T10:50:04+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.426,
-   "risk": 0.471,
+   "risk": 0.46,
    "events": [
     "etf_flow",
     "security"
@@ -2902,7 +2885,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.253,
+   "risk": 0.248,
    "events": [
     "macro"
    ],
@@ -2934,7 +2917,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.356,
+   "risk": 0.35,
    "events": [
     "regulation"
    ],
@@ -2943,7 +2926,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.356,
+   "risk": 0.35,
    "events": [
     "regulation"
    ],
@@ -2951,7 +2934,7 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.096,
+   "sentiment": -0.097,
    "risk": 0.12,
    "events": [
     "regulation"
