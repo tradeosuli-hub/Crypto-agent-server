@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-22T12:07:50.842262+00:00",
+ "updated_at": "2026-10-22T12:37:19.512772+00:00",
  "market": {
-  "btc_dominance": 59.46,
+  "btc_dominance": 59.45,
   "usdt_dominance": 6.61,
-  "mcap_change_24h": -4.49,
+  "mcap_change_24h": -4.39,
   "trending": [
    "UHI",
    "OA",
    "AERO",
+   "PENGU",
    "XMR",
    "PEARL",
    "QTC",
-   "AXIS",
+   "ZEC",
    "STRK",
-   "BTC",
-   "SUI"
+   "NEAR"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
+   "url": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
+   "published": "2026-10-22T12:14:29+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N2c5f0e3deeec",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T12:37:19.512772+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "The UK needs a workable route to regulated DeFi access",
+   "url": "https://cointelegraph.com/opinion/uk-crypto-rules-regulated-defi-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T12:00:00+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4acc938df405",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-22T12:37:19.512772+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Dune launches onchain trading data feeds as tokenized markets expand",
@@ -33,6 +69,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T12:07:50.842262+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T12:07:50.842262+00:00",
    "notified": false
   },
@@ -2201,44 +2239,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Swiss regulator FINMA approves country’s first spot bitcoin ETF for retail investors",
-   "url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127",
-   "published": "2026-10-20T12:15:05+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N15e801b2d04f",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T12:22:35.028870+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Lloyds and Barclays among UK banks named in crypto transfer complaints, advocacy group says",
-   "url": "https://cointelegraph.com/news/uk-banks-crypto-transfer-complaints-stand-with-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T12:13:44+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncab2c30f2bb1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T12:22:35.028870+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/7d76e6a921024e09a91523f983503014",
@@ -2856,36 +2856,36 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.376,
+   "risk": 0.45,
+   "events": [
+    "etf_flow",
+    "security"
+   ],
+   "count": 9,
+   "last": "2026-10-22T12:14:29+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.013,
-   "risk": 0.248,
+   "sentiment": -0.02,
+   "risk": 0.243,
    "events": [
     "etf_flow",
     "macro"
    ],
-   "count": 26,
+   "count": 25,
    "last": "2026-10-22T11:20:04+00:00"
   },
   "AIUSDT": {
-   "sentiment": 0.014,
+   "sentiment": 0.013,
    "risk": 0.0,
    "events": [],
    "count": 6,
    "last": "2026-10-22T10:50:04+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.426,
-   "risk": 0.46,
-   "events": [
-    "etf_flow",
-    "security"
-   ],
-   "count": 8,
-   "last": "2026-10-22T09:56:16+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.248,
+   "risk": 0.243,
    "events": [
     "macro"
    ],
@@ -2893,7 +2893,7 @@
    "last": "2026-10-22T09:11:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.235,
+   "sentiment": 0.234,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2917,7 +2917,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.35,
+   "risk": 0.344,
    "events": [
     "regulation"
    ],
@@ -2926,7 +2926,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.35,
+   "risk": 0.344,
    "events": [
     "regulation"
    ],
@@ -2934,7 +2934,7 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.097,
+   "sentiment": -0.098,
    "risk": 0.12,
    "events": [
     "regulation"
