@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-22T12:37:19.512772+00:00",
+ "updated_at": "2026-10-22T13:06:53.671176+00:00",
  "market": {
-  "btc_dominance": 59.45,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -4.39,
+  "btc_dominance": 59.44,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -4.58,
   "trending": [
    "UHI",
    "OA",
    "AERO",
    "PENGU",
-   "XMR",
    "PEARL",
    "QTC",
-   "ZEC",
-   "STRK",
+   "VVV",
+   "XMR",
+   "PUMP",
    "NEAR"
   ],
   "fear_greed": 68,
   "fear_greed_label": "Greed"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence",
+   "url": "https://www.coindesk.com/news-analysis/2026/10/21/crypto-is-making-a-splash-in-u-s-elections-but-chiefly-in-jabs-about-industry-influence",
+   "published": "2026-10-22T13:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nce156c7f23be",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-22T13:06:53.671176+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-22T12:37:19.512772+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-22T12:37:19.512772+00:00",
    "notified": false
   },
@@ -2184,61 +2202,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
-   "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
-   "published": "2026-10-20T12:40:17+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2b435228d810",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T12:52:03.186918+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Drift exploiter sends $61M ETH to Tornado Cash, holds $194M",
-   "url": "https://cointelegraph.com/news/drift-exploiter-eth-tornado-cash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T12:38:28+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N9274d4f7dcec",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T12:52:03.186918+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Tx launches USTX stablecoin to pull RWA liquidity onto its chain",
-   "url": "https://cointelegraph.com/news/tx-ustx-stablecoin-rwa-liquidity-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-20T12:30:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1dd634bd6a2e",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T12:52:03.186918+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/7d76e6a921024e09a91523f983503014",
@@ -2857,18 +2820,18 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.376,
-   "risk": 0.45,
+   "sentiment": -0.331,
+   "risk": 0.44,
    "events": [
     "etf_flow",
     "security"
    ],
-   "count": 9,
+   "count": 8,
    "last": "2026-10-22T12:14:29+00:00"
   },
   "BTCUSDT": {
    "sentiment": -0.02,
-   "risk": 0.243,
+   "risk": 0.238,
    "events": [
     "etf_flow",
     "macro"
@@ -2885,7 +2848,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.243,
+   "risk": 0.238,
    "events": [
     "macro"
    ],
@@ -2917,7 +2880,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.158,
-   "risk": 0.344,
+   "risk": 0.338,
    "events": [
     "regulation"
    ],
@@ -2926,7 +2889,7 @@
   },
   "LINKUSDT": {
    "sentiment": -0.2,
-   "risk": 0.344,
+   "risk": 0.338,
    "events": [
     "regulation"
    ],
@@ -2934,7 +2897,7 @@
    "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.098,
+   "sentiment": -0.099,
    "risk": 0.12,
    "events": [
     "regulation"
