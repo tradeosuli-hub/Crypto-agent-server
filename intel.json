@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-23T05:25:25.169601+00:00",
+ "updated_at": "2026-10-23T05:54:56.071870+00:00",
  "market": {
-  "btc_dominance": 59.43,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -3.88,
+  "btc_dominance": 59.44,
+  "usdt_dominance": 6.6,
+  "mcap_change_24h": -3.76,
   "trending": [
    "BTC",
    "PENGU",
-   "AXIS",
-   "ZEC",
-   "PEARL",
-   "STRK",
    "QTC",
-   "PUMP",
    "PONS",
-   "TSC"
+   "AERO",
+   "PUMP",
+   "PEARL",
+   "AXIS",
+   "NEAR",
+   "ZEC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -54,6 +54,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T05:25:25.169601+00:00",
    "notified": false
   },
@@ -70,6 +71,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T05:25:25.169601+00:00",
    "notified": false
   },
@@ -86,6 +88,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T05:25:25.169601+00:00",
    "notified": false
   },
@@ -106,6 +109,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T05:25:25.169601+00:00",
    "notified": false
   },
@@ -2139,44 +2143,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin",
-   "url": "https://www.coindesk.com/markets/2026/10/21/ripple-brings-wall-street-into-24-7-stock-bets-but-hsbc-warns-markets-are-still-thin",
-   "published": "2026-10-21T05:25:57+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N226e2b27118e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T05:36:19.189108+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Tech giants rush to block 8 eMudhra certs that could enable fake sites",
-   "url": "https://cointelegraph.com/news/tech-giants-rush-to-block-flawed-emudhra-certs-that-could-enable-fake-sites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T05:15:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7edf3f95ba11",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T05:36:19.189108+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Earn Yield Arena: Earn Up to 5,888 USDC With This Week’s New Limited-Time Offers! (2026-10-21)",
    "url": "https://www.binance.com/en/support/announcement/665c0fe4e9d24b8f8e26f2190d125b57",
@@ -2880,7 +2846,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.223,
+   "sentiment": -0.224,
    "risk": 0.2,
    "events": [
     "etf_flow",
@@ -2890,8 +2856,8 @@
    "last": "2026-10-23T05:09:41+00:00"
   },
   "ADAUSDT": {
-   "sentiment": -0.065,
-   "risk": 0.134,
+   "sentiment": -0.063,
+   "risk": 0.128,
    "events": [
     "regulation"
    ],
@@ -2925,8 +2891,8 @@
    "last": "2026-10-23T03:13:01+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.045,
-   "risk": 0.134,
+   "sentiment": 0.049,
+   "risk": 0.128,
    "events": [
     "regulation"
    ],
@@ -2934,7 +2900,7 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.24,
+   "sentiment": 0.242,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2946,7 +2912,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-22T04:36:20+00:00"
   },
   "TRXUSDT": {
