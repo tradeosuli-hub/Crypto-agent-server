@@ -1,25 +1,67 @@
 {
- "updated_at": "2026-10-23T04:26:23.533103+00:00",
+ "updated_at": "2026-10-23T04:55:59.963542+00:00",
  "market": {
   "btc_dominance": 59.46,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -3.93,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -4.05,
   "trending": [
-   "AXIS",
-   "STRK",
    "QTC",
-   "PENGU",
-   "PEARL",
    "MON",
-   "PEPE",
-   "UNI",
-   "AKE",
-   "INJ"
+   "STRK",
+   "AXIS",
+   "PEARL",
+   "BTC",
+   "ZEC",
+   "AERO",
+   "QNT",
+   "VVV"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Cardano holders are being asked to bet $5 million on copper hitting a new record",
+   "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record",
+   "published": "2026-10-23T04:36:51+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ADA"
+   ],
+   "symbols": [
+    "ADAUSDT"
+   ],
+   "id": "Nd496f625ba9f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T04:55:59.963542+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin Core changes security policy as AI makes bugs easier to find",
+   "url": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-23T04:34:14+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "AI",
+    "BTC"
+   ],
+   "symbols": [
+    "AIUSDT",
+    "BTCUSDT"
+   ],
+   "id": "Nb6ed306a5733",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T04:55:59.963542+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "HSBC rolls out its first HKD stablecoin RedCoin to retail users",
@@ -33,6 +75,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T04:26:23.533103+00:00",
    "notified": false
   },
@@ -2077,44 +2120,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Solana’s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday",
-   "url": "https://www.coindesk.com/tech/2026/10/21/solana-s-alpenglow-its-biggest-network-overhaul-since-2020-goes-live-wednesday",
-   "published": "2026-10-21T04:35:52+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nd08f987d6839",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T04:37:15.098836+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "A company that vouches for websites had secret keys so weak that 8 of them were cracked",
-   "url": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
-   "published": "2026-10-21T04:11:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N07b3ff05c6f1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T04:37:15.098836+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-10-22)",
    "url": "https://www.binance.com/en/support/announcement/84b9812b7a88404baedec318c5d60b37",
@@ -2817,6 +2822,22 @@
   }
  ],
  "symbols": {
+  "ADAUSDT": {
+   "sentiment": -0.066,
+   "risk": 0.14,
+   "events": [
+    "regulation"
+   ],
+   "count": 3,
+   "last": "2026-10-23T04:36:51+00:00"
+  },
+  "AIUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 7,
+   "last": "2026-10-23T04:34:14+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.005,
    "risk": 0.1,
@@ -2824,8 +2845,8 @@
     "etf_flow",
     "macro"
    ],
-   "count": 24,
-   "last": "2026-10-23T03:13:01+00:00"
+   "count": 25,
+   "last": "2026-10-23T04:34:14+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
@@ -2837,8 +2858,8 @@
    "last": "2026-10-23T03:13:01+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.039,
-   "risk": 0.146,
+   "sentiment": 0.042,
+   "risk": 0.14,
    "events": [
     "regulation"
    ],
@@ -2846,7 +2867,7 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.229,
+   "sentiment": -0.23,
    "risk": 0.2,
    "events": [
     "etf_flow",
@@ -2855,20 +2876,13 @@
    "count": 9,
    "last": "2026-10-22T22:43:36+00:00"
   },
-  "AIUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 6,
-   "last": "2026-10-22T18:30:57+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.201,
+   "sentiment": 0.238,
    "risk": 0.0,
    "events": [
     "listing"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-10-22T05:24:58+00:00"
   },
   "XRPUSDT": {
@@ -2884,15 +2898,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-21T18:54:36+00:00"
-  },
-  "ADAUSDT": {
-   "sentiment": -0.14,
-   "risk": 0.146,
-   "events": [
-    "regulation"
-   ],
-   "count": 2,
-   "last": "2026-10-21T17:57:39+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.0,
