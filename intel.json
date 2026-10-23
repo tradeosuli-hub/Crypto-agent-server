@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-10-23T08:22:27.193122+00:00",
+ "updated_at": "2026-10-23T08:51:59.562838+00:00",
  "market": {
-  "btc_dominance": 59.4,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -2.36,
+  "btc_dominance": 59.42,
+  "usdt_dominance": 6.6,
+  "mcap_change_24h": -2.23,
   "trending": [
    "PEARL",
    "BTC",
-   "PENGU",
-   "STRK",
-   "VVV",
    "PEPE",
-   "AERO",
-   "AVAX",
-   "ANSEM",
+   "NEAR",
+   "ONDO",
+   "IRYS",
+   "SUI",
+   "TSC",
+   "KAS",
    "AKE"
   ],
   "fear_greed": 50,
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -1.0,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T08:22:27.193122+00:00",
    "notified": false
   },
@@ -2125,44 +2126,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Ether ETF outflows continue, pass $1B in October so far",
-   "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T08:11:50+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Ndd4074017808",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T08:33:31.277543+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Zcash developers confirm November date for upgrade that triples payment speed",
-   "url": "https://www.coindesk.com/markets/2026/10/21/zcash-developers-confirm-november-date-for-upgrade-that-triples-payment-speed",
-   "published": "2026-10-21T08:10:12+00:00",
-   "kind": "project",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N69675d727bad",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 4,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T08:33:31.277543+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Updates on TradFi Perpetual Contracts (2026-10-21)",
    "url": "https://www.binance.com/en/support/announcement/0308cba2eb53446e8207e7b227106fc5",
@@ -2893,17 +2856,17 @@
    "last": "2026-10-23T07:09:39+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.218,
+   "sentiment": -0.226,
    "risk": 0.2,
    "events": [
     "etf_flow",
     "security"
    ],
-   "count": 10,
+   "count": 9,
    "last": "2026-10-23T05:09:41+00:00"
   },
   "ADAUSDT": {
-   "sentiment": -0.064,
+   "sentiment": -0.065,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2915,7 +2878,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 7,
+   "count": 6,
    "last": "2026-10-23T04:34:14+00:00"
   },
   "NEARUSDT": {
@@ -2928,7 +2891,7 @@
    "last": "2026-10-23T03:13:01+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.049,
+   "sentiment": 0.048,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2937,7 +2900,7 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.253,
+   "sentiment": 0.256,
    "risk": 0.0,
    "events": [
     "listing"
