@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-23T13:47:26.491671+00:00",
+ "updated_at": "2026-10-23T14:16:56.060509+00:00",
  "market": {
-  "btc_dominance": 59.47,
-  "usdt_dominance": 6.6,
-  "mcap_change_24h": -2.41,
+  "btc_dominance": 59.41,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -2.94,
   "trending": [
    "UHI",
    "DACITY",
-   "PENGU",
    "PEARL",
    "PEPE",
-   "XMR",
+   "PENGU",
    "QTC",
    "IRYS",
    "AERO",
-   "NEAR"
+   "TAO",
+   "PUMP"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+   "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
+   "published": "2026-10-23T13:58:56+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N9f667d2fe6cc",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T14:16:56.060509+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -50,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T13:47:26.491671+00:00",
    "notified": false
   },
@@ -131,6 +152,26 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-23T12:48:28.443492+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+   "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
+   "published": "2026-10-23T12:03:53+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N3ca18cb27b3d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T14:16:56.060509+00:00",
    "notified": false
   },
   {
@@ -1988,44 +2029,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Big Tech’s eMudhra fixes may leave crypto bots exposed, CertiK warns",
-   "url": "https://cointelegraph.com/news/certik-warning-crypto-emudhra-flaw-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T13:31:39+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7101f264f5c7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T13:58:08.265262+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "5 alternatives to Ledger to store your Bitcoin",
-   "url": "https://cointelegraph.com/magazine/5-alternatives-to-ledger-to-store-your-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T13:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N9e7faeacd85f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T13:58:08.265262+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2741,9 +2744,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.003,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 28,
+   "last": "2026-10-23T13:58:56+00:00"
+  },
   "SUIUSDT": {
    "sentiment": -0.186,
-   "risk": 0.59,
+   "risk": 0.584,
    "events": [
     "regulation"
    ],
@@ -2756,15 +2768,6 @@
    "events": [],
    "count": 2,
    "last": "2026-10-23T12:55:26+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.017,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 26,
-   "last": "2026-10-23T12:23:58+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.089,
@@ -2790,7 +2793,7 @@
    "last": "2026-10-23T05:09:41+00:00"
   },
   "ADAUSDT": {
-   "sentiment": -0.069,
+   "sentiment": -0.07,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2799,7 +2802,7 @@
    "last": "2026-10-23T04:36:51+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.036,
+   "sentiment": 0.035,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2808,12 +2811,10 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.282,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 3,
+   "events": [],
+   "count": 2,
    "last": "2026-10-22T05:24:58+00:00"
   },
   "AIUSDT": {
