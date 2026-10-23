@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-23T21:10:25.306616+00:00",
+ "updated_at": "2026-10-23T21:39:54.673394+00:00",
  "market": {
-  "btc_dominance": 59.42,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -2.28,
+  "btc_dominance": 59.44,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -2.39,
   "trending": [
-   "IRYS",
    "UHI",
+   "IRYS",
+   "DACITY",
    "BTC",
    "PENGU",
-   "PEARL",
+   "STRK",
    "PEPE",
    "ETH",
    "VVV",
-   "STRK",
-   "PUMP"
+   "BP"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T21:10:25.306616+00:00",
    "notified": false
   },
@@ -730,7 +731,7 @@
    ],
    "id": "Nd496f625ba9f",
    "kind_fa": "خبر",
-   "importance": 2,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2567,7 +2568,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.098,
+   "sentiment": -0.097,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2576,7 +2577,7 @@
    "last": "2026-10-23T17:46:09+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.0,
+   "sentiment": 0.001,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2586,7 +2587,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.498,
+   "risk": 0.492,
    "events": [
     "regulation"
    ],
