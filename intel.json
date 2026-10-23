@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-23T12:48:28.443492+00:00",
+ "updated_at": "2026-10-23T13:17:54.306581+00:00",
  "market": {
-  "btc_dominance": 59.45,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -2.64,
+  "btc_dominance": 59.44,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -2.7,
   "trending": [
    "UHI",
    "DACITY",
    "PEPE",
-   "IRYS",
-   "PONS",
-   "PENGU",
    "PEARL",
+   "XMR",
    "NEAR",
-   "TAO",
-   "BTC"
+   "PENGU",
+   "BTC",
+   "IRYS",
+   "QTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Phantom rolls out Kalshi prediction markets to US users, says it’s ‘confident and comfortable’ amid state lawsuits",
+   "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652",
+   "published": "2026-10-23T13:00:00+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "SUI"
+   ],
+   "symbols": [
+    "SUIUSDT"
+   ],
+   "id": "N074b3e9f2185",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-23T13:17:54.306581+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
+   "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
+   "published": "2026-10-23T12:55:26+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N87056e513e87",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T13:17:54.306581+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme",
@@ -33,6 +73,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T12:48:28.443492+00:00",
    "notified": false
   },
@@ -53,6 +94,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T12:48:28.443492+00:00",
    "notified": false
   },
@@ -1966,40 +2008,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Standard Chartered signs definitive agreements to acquire Zodia Custody",
-   "url": "https://www.theblock.co/news/business/2026-10-21-standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody-421535",
-   "published": "2026-10-21T12:44:53+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbcfdbb2b5241",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T12:58:53.613343+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "OCC finalizes GENIUS Act rules for stablecoin issuers and custody",
-   "url": "https://cointelegraph.com/news/occ-finalizes-genius-act-rules-stablecoin-issuers-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T12:26:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1d3105661375",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T12:58:53.613343+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2715,6 +2723,22 @@
   }
  ],
  "symbols": {
+  "SUIUSDT": {
+   "sentiment": -0.186,
+   "risk": 0.596,
+   "events": [
+    "regulation"
+   ],
+   "count": 2,
+   "last": "2026-10-23T13:00:00+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-23T12:55:26+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.017,
    "risk": 0.0,
@@ -2739,7 +2763,7 @@
    "last": "2026-10-23T10:54:41+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.148,
+   "sentiment": -0.147,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2748,7 +2772,7 @@
    "last": "2026-10-23T05:09:41+00:00"
   },
   "ADAUSDT": {
-   "sentiment": -0.068,
+   "sentiment": -0.069,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2757,7 +2781,7 @@
    "last": "2026-10-23T04:36:51+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.039,
+   "sentiment": 0.038,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2766,20 +2790,13 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.276,
+   "sentiment": 0.279,
    "risk": 0.0,
    "events": [
     "listing"
    ],
    "count": 3,
    "last": "2026-10-22T05:24:58+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-22T04:36:20+00:00"
   },
   "AIUSDT": {
    "sentiment": 0.0,
@@ -2794,13 +2811,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-21T18:54:36+00:00"
-  },
-  "SUIUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-21T15:22:46+00:00"
   }
  },
  "social": {},
