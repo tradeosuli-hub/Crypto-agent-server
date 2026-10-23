@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-23T02:57:54.516127+00:00",
+ "updated_at": "2026-10-23T03:27:24.298420+00:00",
  "market": {
   "btc_dominance": 59.46,
-  "usdt_dominance": 6.6,
-  "mcap_change_24h": -4.28,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -3.96,
   "trending": [
-   "OA",
-   "BTC",
    "PEARL",
-   "PONS",
-   "VVV",
-   "XRP",
+   "AXIS",
+   "BTC",
    "STRK",
-   "PENGU",
+   "XRP",
+   "PENDLE",
    "QTC",
+   "AERO",
+   "QNT",
    "LIT"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+   "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-gold-trim-early-losses-as-yen-gives-up-gains-oil-stays-near-usd100",
+   "published": "2026-10-23T03:13:01+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N5ff2381eb008",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T03:27:24.298420+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
@@ -37,6 +59,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T02:57:54.516127+00:00",
    "notified": false
   },
@@ -2800,27 +2823,36 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.003,
+   "risk": 0.1,
+   "events": [
+    "etf_flow",
+    "macro"
+   ],
+   "count": 25,
+   "last": "2026-10-23T03:13:01+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.1,
+   "events": [
+    "macro"
+   ],
+   "count": 3,
+   "last": "2026-10-23T03:13:01+00:00"
+  },
   "LINKUSDT": {
-   "sentiment": 0.03,
-   "risk": 0.165,
+   "sentiment": 0.033,
+   "risk": 0.159,
    "events": [
     "regulation"
    ],
    "count": 2,
    "last": "2026-10-23T02:48:13+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.004,
-   "risk": 0.1,
-   "events": [
-    "etf_flow",
-    "macro"
-   ],
-   "count": 24,
-   "last": "2026-10-23T02:21:30+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": -0.225,
+   "sentiment": -0.226,
    "risk": 0.2,
    "events": [
     "etf_flow",
@@ -2836,17 +2868,8 @@
    "count": 6,
    "last": "2026-10-22T18:30:57+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.1,
-   "events": [
-    "macro"
-   ],
-   "count": 2,
-   "last": "2026-10-22T09:11:57+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.21,
+   "sentiment": 0.207,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2870,7 +2893,7 @@
   },
   "ADAUSDT": {
    "sentiment": -0.14,
-   "risk": 0.165,
+   "risk": 0.159,
    "events": [
     "regulation"
    ],
