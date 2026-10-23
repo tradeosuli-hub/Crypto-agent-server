@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-23T11:19:47.054962+00:00",
+ "updated_at": "2026-10-23T11:49:24.985530+00:00",
  "market": {
-  "btc_dominance": 60.02,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -4.02,
+  "btc_dominance": 59.98,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -3.84,
   "trending": [
    "UHI",
    "DACITY",
    "IRYS",
-   "PEPE",
+   "PEARL",
    "PENGU",
    "AERO",
+   "PEPE",
    "ENA",
-   "PEARL",
-   "BTC",
-   "QTC"
+   "PONS",
+   "BTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin ETFs swing back to net outflows as $636 million in withdrawals erase previous day’s inflows",
+   "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483",
+   "published": "2026-10-23T11:39:45+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N59737c3eea6e",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T11:49:24.985530+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+   "published": "2026-10-23T11:22:33+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N874a74fab19a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T11:49:24.985530+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
@@ -27,11 +67,9 @@
    "published": "2026-10-23T11:13:01+00:00",
    "kind": "news",
    "raw_symbols": [
-    "AI",
     "BTC"
    ],
    "symbols": [
-    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "Nd71a18256f5f",
@@ -39,6 +77,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T11:19:47.054962+00:00",
    "notified": false
   },
@@ -63,6 +102,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T11:19:47.054962+00:00",
    "notified": false
   },
@@ -83,6 +123,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T11:19:47.054962+00:00",
    "notified": false
   },
@@ -398,11 +439,9 @@
    "published": "2026-10-23T04:34:14+00:00",
    "kind": "news",
    "raw_symbols": [
-    "AI",
     "BTC"
    ],
    "symbols": [
-    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "Nb6ed306a5733",
@@ -663,15 +702,11 @@
    "url": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
    "published": "2026-10-22T18:30:57+00:00",
    "kind": "news",
-   "raw_symbols": [
-    "AI"
-   ],
-   "symbols": [
-    "AIUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "Nff8406666fc2",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -702,11 +737,9 @@
    "published": "2026-10-22T16:50:51+00:00",
    "kind": "news",
    "raw_symbols": [
-    "AI",
     "BTC"
    ],
    "symbols": [
-    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "N155a808b4f5d",
@@ -1089,11 +1122,9 @@
    "published": "2026-10-22T10:50:04+00:00",
    "kind": "news",
    "raw_symbols": [
-    "AI",
     "BTC"
    ],
    "symbols": [
-    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "Nce3344e6aedd",
@@ -2030,44 +2061,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin risk management grows more popular as the 'just bet on price' era fades",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/21/bitcoin-risk-management-grows-more-popular-as-the-just-bet-on-price-era-fades",
-   "published": "2026-10-21T11:15:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N0f74cc2fe5e8",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:30:26.360752+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "First out the gate: OCC debuts final rule implementing Trump-signed GENIUS Act",
-   "url": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
-   "published": "2026-10-21T11:01:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8c9d70d83fd2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:30:26.360752+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2277,15 +2270,11 @@
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
    "published": "2026-10-19T12:00:07.031000+00:00",
    "kind": "news",
-   "raw_symbols": [
-    "AI"
-   ],
-   "symbols": [
-    "AIUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "N22d338ec6f34",
    "kind_fa": "خبر",
-   "importance": 4,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2787,22 +2776,15 @@
   }
  ],
  "symbols": {
-  "AIUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 7,
-   "last": "2026-10-23T11:13:01+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.02,
+   "sentiment": -0.009,
    "risk": 0.1,
    "events": [
     "etf_flow",
     "macro"
    ],
-   "count": 25,
-   "last": "2026-10-23T11:13:01+00:00"
+   "count": 27,
+   "last": "2026-10-23T11:39:45+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.071,
@@ -2839,7 +2821,7 @@
    "last": "2026-10-23T04:36:51+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.043,
+   "sentiment": 0.041,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2848,7 +2830,7 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.268,
+   "sentiment": 0.271,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2862,6 +2844,13 @@
    "events": [],
    "count": 1,
    "last": "2026-10-22T04:36:20+00:00"
+  },
+  "AIUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-22T03:51:34+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
