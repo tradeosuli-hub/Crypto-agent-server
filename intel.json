@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-23T07:52:58.359872+00:00",
+ "updated_at": "2026-10-23T08:22:27.193122+00:00",
  "market": {
   "btc_dominance": 59.4,
-  "usdt_dominance": 6.6,
-  "mcap_change_24h": -3.38,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -2.36,
   "trending": [
-   "BTC",
    "PEARL",
-   "AXIS",
+   "BTC",
    "PENGU",
-   "AKE",
-   "ETH",
-   "AERO",
+   "STRK",
+   "VVV",
    "PEPE",
-   "PUMP",
-   "PONS"
+   "AERO",
+   "AVAX",
+   "ANSEM",
+   "AKE"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows",
+   "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
+   "published": "2026-10-23T08:02:35+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N941c1ff4da4a",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -1.0,
+   "risk": 1.0,
+   "first_seen": "2026-10-23T08:22:27.193122+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Malaysia, Thailand join Singapore’s cross-border stablecoin push",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T07:52:58.359872+00:00",
    "notified": false
   },
@@ -2876,13 +2893,13 @@
    "last": "2026-10-23T07:09:39+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.229,
+   "sentiment": -0.218,
    "risk": 0.2,
    "events": [
     "etf_flow",
     "security"
    ],
-   "count": 11,
+   "count": 10,
    "last": "2026-10-23T05:09:41+00:00"
   },
   "ADAUSDT": {
@@ -2911,7 +2928,7 @@
    "last": "2026-10-23T03:13:01+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.051,
+   "sentiment": 0.049,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2920,7 +2937,7 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.251,
+   "sentiment": 0.253,
    "risk": 0.0,
    "events": [
     "listing"
