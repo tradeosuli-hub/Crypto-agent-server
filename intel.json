@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-23T15:45:35.942763+00:00",
+ "updated_at": "2026-10-23T16:15:07.570997+00:00",
  "market": {
   "btc_dominance": 59.41,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -3.04,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -2.61,
   "trending": [
    "UHI",
-   "DACITY",
    "IRYS",
-   "PENGU",
-   "PEARL",
-   "QTC",
+   "DACITY",
+   "INIT",
    "PEPE",
    "BTC",
+   "PEARL",
+   "PENGU",
    "NEAR",
-   "HYPE"
+   "QTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "SEC flags tokenization as high-risk area in 2027 market examinations",
+   "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-23T16:08:40+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4f10a01515e7",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-23T16:15:07.570997+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
+   "url": "https://cointelegraph.com/markets/bitcoin-seeks-support-above-81k-as-brent-crude-oil-hits-highest-level-since-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-23T15:39:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N258d60201e47",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T16:15:07.570997+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
@@ -1896,27 +1932,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal",
-   "url": "https://www.coindesk.com/business/2026/10/21/how-a16z-backed-data-is-rethinking-its-blockchain-strategy-after-usd30-million-sui-deal",
-   "published": "2026-10-21T15:22:46+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SUI"
-   ],
-   "symbols": [
-    "SUIUSDT"
-   ],
-   "id": "N29151f5d5c07",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T15:56:15.544546+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2638,12 +2653,12 @@
    "events": [
     "etf_flow"
    ],
-   "count": 27,
-   "last": "2026-10-23T13:58:56+00:00"
+   "count": 28,
+   "last": "2026-10-23T15:39:17+00:00"
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.566,
+   "risk": 0.559,
    "events": [
     "regulation"
    ],
@@ -2681,21 +2696,17 @@
    "last": "2026-10-23T05:09:41+00:00"
   },
   "ADAUSDT": {
-   "sentiment": -0.071,
-   "risk": 0.12,
-   "events": [
-    "regulation"
-   ],
-   "count": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
    "last": "2026-10-23T04:36:51+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.031,
-   "risk": 0.12,
-   "events": [
-    "regulation"
-   ],
-   "count": 2,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
