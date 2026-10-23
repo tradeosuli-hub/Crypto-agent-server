@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-23T17:43:40.253822+00:00",
+ "updated_at": "2026-10-23T18:13:12.175424+00:00",
  "market": {
-  "btc_dominance": 59.42,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -2.09,
+  "btc_dominance": 59.41,
+  "usdt_dominance": 6.62,
+  "mcap_change_24h": -2.16,
   "trending": [
-   "IRYS",
    "UHI",
+   "IRYS",
    "DACITY",
-   "PENGU",
    "PEARL",
-   "INIT",
-   "AERO",
    "PEPE",
+   "INIT",
    "HYPE",
-   "BTC"
+   "AERO",
+   "PENGU",
+   "QTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
+   "url": "https://www.theblock.co/news/regulation/2026-10-23-sen-blumenthal-seeks-answers-tether-payments-firm-founded-ex-white-house-crypto-adviser-427785",
+   "published": "2026-10-23T17:46:09+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N709f883d1314",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T18:13:12.175424+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US senator probes Tether after reported deal with ex-Trump crypto adviser",
+   "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-23T17:42:12+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N157b40ca48df",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T18:13:12.175424+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Initia halts network after security incident as attacker reportedly mints tokens",
@@ -1240,23 +1280,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "The UK needs a workable route to regulated DeFi access",
-   "url": "https://cointelegraph.com/opinion/uk-crypto-rules-regulated-defi-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-22T12:00:00+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4acc938df405",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T12:37:19.512772+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Dune launches onchain trading data feeds as tokenized markets expand",
    "url": "https://www.theblock.co/news/business/2026-10-22-dune-onchain-trading-data-feeds-421889",
@@ -1288,6 +1311,23 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-22T12:07:50.842262+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "The UK needs a workable route to regulated DeFi access",
+   "url": "https://cointelegraph.com/opinion/uk-crypto-rules-regulated-defi-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-22T12:00:00+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4acc938df405",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "summary_fa": null,
+   "first_seen": "2026-10-22T12:37:19.512772+00:00",
    "notified": false
   },
   {
@@ -1853,23 +1893,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-21T18:24:35.409276+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "UK financial watchdog opens consultations for DeFi guidance, crypto laws",
-   "url": "https://cointelegraph.com/news/uk-fca-consultations-defi-crypto-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T17:25:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc7e7c1082577",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T17:54:59.248617+00:00",
    "notified": false
   },
   {
@@ -2588,6 +2611,15 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.098,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 10,
+   "last": "2026-10-23T17:46:09+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.002,
    "risk": 0.0,
@@ -2599,7 +2631,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.541,
+   "risk": 0.535,
    "events": [
     "regulation"
    ],
@@ -2614,7 +2646,7 @@
    "last": "2026-10-23T12:55:26+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.091,
+   "sentiment": 0.092,
    "risk": 0.0,
    "events": [],
    "count": 3,
@@ -2627,20 +2659,11 @@
    "count": 1,
    "last": "2026-10-23T10:54:41+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.145,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 8,
-   "last": "2026-10-23T05:09:41+00:00"
-  },
   "ADAUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-23T04:36:51+00:00"
   },
   "LINKUSDT": {
