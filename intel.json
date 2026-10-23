@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-23T22:09:25.617787+00:00",
+ "updated_at": "2026-10-23T22:38:52.475273+00:00",
  "market": {
-  "btc_dominance": 59.43,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -2.61,
+  "btc_dominance": 59.49,
+  "usdt_dominance": 6.66,
+  "mcap_change_24h": -2.97,
   "trending": [
-   "UHI",
-   "DACITY",
    "IRYS",
+   "UHI",
    "PEARL",
-   "BTC",
    "PENGU",
-   "STRK",
-   "VVV",
+   "BTC",
+   "AAVE",
    "AERO",
-   "DRV"
+   "DOT",
+   "CC",
+   "DACITY"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T22:09:25.617787+00:00",
    "notified": false
   },
@@ -1851,23 +1852,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
-   "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T21:53:48+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2405188bb007",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T22:21:22.240658+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2603,7 +2587,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.486,
+   "risk": 0.479,
    "events": [
     "regulation"
    ],
