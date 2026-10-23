@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-23T10:50:13.919710+00:00",
+ "updated_at": "2026-10-23T11:19:47.054962+00:00",
  "market": {
-  "btc_dominance": 59.99,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -2.92,
+  "btc_dominance": 60.02,
+  "usdt_dominance": 6.68,
+  "mcap_change_24h": -4.02,
   "trending": [
    "UHI",
    "DACITY",
@@ -11,15 +11,81 @@
    "PEPE",
    "PENGU",
    "AERO",
-   "SUI",
-   "QTC",
-   "PUMP",
-   "ZEC"
+   "ENA",
+   "PEARL",
+   "BTC",
+   "QTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
+   "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+   "published": "2026-10-23T11:13:01+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "AI",
+    "BTC"
+   ],
+   "symbols": [
+    "AIUSDT",
+    "BTCUSDT"
+   ],
+   "id": "Nd71a18256f5f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T11:19:47.054962+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
+   "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
+   "published": "2026-10-23T10:54:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR",
+    "PEPE"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT",
+    "PEPEUSDT"
+   ],
+   "id": "N6169539c1ffb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T11:19:47.054962+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin appears to have decoupled from midterm cycle bottom history",
+   "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-approaches-midterms-as-july-low-challenges-historical-cycle-pattern",
+   "published": "2026-10-23T10:53:09+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1c5ac2d5d38c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T11:19:47.054962+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
@@ -33,6 +99,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T10:50:13.919710+00:00",
    "notified": false
   },
@@ -2001,112 +2068,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban",
-   "url": "https://www.coindesk.com/policy/2026/10/21/occ-s-final-rule-to-start-fresh-in-weighing-stablecoin-rewards-against-genius-act-ban",
-   "published": "2026-10-21T11:00:00+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N76dcd7489be3",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:00:54.113034+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "BitGo launches innovation unit to design crypto’s next breakout application",
-   "url": "https://www.theblock.co/news/business/2026-10-21-bitgo-launches-research-unit-421502",
-   "published": "2026-10-21T11:00:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N120ece405ecb",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:00:54.113034+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "PancakeSwap TVL tops $380M as major fee overhaul heads to vote",
-   "url": "https://cointelegraph.com/markets/pancakeswap-tvl-jumps-19-percent-fee-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T10:50:52+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5172256455f1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:00:54.113034+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "France proposes liability for crypto exchanges offering DeFi access",
-   "url": "https://cointelegraph.com/news/france-liability-crypto-exchange-defi-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T10:46:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6c0661508e9c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:00:54.113034+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin ‘top buyers’ halt BTC price upside with $87.7K now key: Glassnode",
-   "url": "https://cointelegraph.com/markets/bitcoin-top-buyers-halt-btc-price-upside-with-877k-now-key-glassnode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T10:39:13+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N95799f9fc9d5",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:00:54.113034+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date",
-   "url": "https://www.coindesk.com/markets/2026/10/21/crypto-rises-with-asian-tech-stocks-zcash-extends-gain-after-setting-upgrade-date",
-   "published": "2026-10-21T10:34:37+00:00",
-   "kind": "project",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N612cdd5f7aa2",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 4,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T11:00:54.113034+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2826,15 +2787,38 @@
   }
  ],
  "symbols": {
+  "AIUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 7,
+   "last": "2026-10-23T11:13:01+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.034,
+   "sentiment": -0.02,
    "risk": 0.1,
    "events": [
     "etf_flow",
     "macro"
    ],
-   "count": 23,
-   "last": "2026-10-23T07:09:39+00:00"
+   "count": 25,
+   "last": "2026-10-23T11:13:01+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.071,
+   "risk": 0.1,
+   "events": [
+    "macro"
+   ],
+   "count": 4,
+   "last": "2026-10-23T10:54:41+00:00"
+  },
+  "PEPEUSDT": {
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-23T10:54:41+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.148,
@@ -2854,24 +2838,8 @@
    "count": 3,
    "last": "2026-10-23T04:36:51+00:00"
   },
-  "AIUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 6,
-   "last": "2026-10-23T04:34:14+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.1,
-   "events": [
-    "macro"
-   ],
-   "count": 3,
-   "last": "2026-10-23T03:13:01+00:00"
-  },
   "LINKUSDT": {
-   "sentiment": 0.044,
+   "sentiment": 0.043,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2880,7 +2848,7 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.266,
+   "sentiment": 0.268,
    "risk": 0.0,
    "events": [
     "listing"
