@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-23T16:15:07.570997+00:00",
+ "updated_at": "2026-10-23T16:44:39.702474+00:00",
  "market": {
-  "btc_dominance": 59.41,
+  "btc_dominance": 59.42,
   "usdt_dominance": 6.61,
-  "mcap_change_24h": -2.61,
+  "mcap_change_24h": -2.6,
   "trending": [
-   "UHI",
    "IRYS",
+   "UHI",
    "DACITY",
    "INIT",
-   "PEPE",
-   "BTC",
    "PEARL",
    "PENGU",
-   "NEAR",
-   "QTC"
+   "PEPE",
+   "BTC",
+   "QTC",
+   "NEAR"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-23T16:15:07.570997+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T16:15:07.570997+00:00",
    "notified": false
   },
@@ -1892,46 +1894,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Trump to throw spotlight on overseas crypto abuses at White House event",
-   "url": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
-   "published": "2026-10-21T16:23:44+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1a3f08ed80bb",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T16:25:49.194544+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Chainlink, Cardano, other blockchain groups push SEC for clearer crypto rules",
-   "url": "https://cointelegraph.com/news/chainlink-cardano-and-other-blockchain-groups-push-sec-for-clearer-crypto-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T16:09:26+00:00",
-   "kind": "regulation",
-   "raw_symbols": [
-    "ADA",
-    "LINK"
-   ],
-   "symbols": [
-    "ADAUSDT",
-    "LINKUSDT"
-   ],
-   "id": "N6959cf1bdd5f",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T16:25:49.194544+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2658,7 +2620,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.559,
+   "risk": 0.553,
    "events": [
     "regulation"
    ],
@@ -2673,7 +2635,7 @@
    "last": "2026-10-23T12:55:26+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.09,
+   "sentiment": 0.091,
    "risk": 0.0,
    "events": [],
    "count": 3,
@@ -2720,7 +2682,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-22T03:51:34+00:00"
   },
   "TRXUSDT": {
