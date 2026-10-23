@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-23T02:28:26.057450+00:00",
+ "updated_at": "2026-10-23T02:57:54.516127+00:00",
  "market": {
-  "btc_dominance": 59.43,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -4.69,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.6,
+  "mcap_change_24h": -4.28,
   "trending": [
-   "PEARL",
-   "PENGU",
-   "PONS",
-   "XRP",
-   "VVV",
+   "OA",
    "BTC",
-   "UHI",
-   "LINK",
-   "GTC",
-   "AERO"
+   "PEARL",
+   "PONS",
+   "VVV",
+   "XRP",
+   "STRK",
+   "PENGU",
+   "QTC",
+   "LIT"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
+   "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993",
+   "published": "2026-10-23T02:48:13+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "LINK"
+   ],
+   "symbols": [
+    "LINKUSDT"
+   ],
+   "id": "N64a418b71173",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T02:57:54.516127+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin slides below $81,500 as tech stock sell-off spreads to Asian equities",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T02:28:26.057450+00:00",
    "notified": false
   },
@@ -2128,23 +2149,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "MoonPay, Upbit parent Dunamu explore collaboration on stablecoin payments, GIWA expansion",
-   "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476",
-   "published": "2026-10-21T02:30:08+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9112f5e3a5c9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T02:39:08.721392+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)",
    "url": "https://www.binance.com/en/support/announcement/29e4e52d711946c88762f0ba2259de2e",
@@ -2796,6 +2800,15 @@
   }
  ],
  "symbols": {
+  "LINKUSDT": {
+   "sentiment": 0.03,
+   "risk": 0.165,
+   "events": [
+    "regulation"
+   ],
+   "count": 2,
+   "last": "2026-10-23T02:48:13+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.004,
    "risk": 0.1,
@@ -2807,7 +2820,7 @@
    "last": "2026-10-23T02:21:30+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.224,
+   "sentiment": -0.225,
    "risk": 0.2,
    "events": [
     "etf_flow",
@@ -2833,7 +2846,7 @@
    "last": "2026-10-22T09:11:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.214,
+   "sentiment": 0.21,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2857,21 +2870,12 @@
   },
   "ADAUSDT": {
    "sentiment": -0.14,
-   "risk": 0.171,
+   "risk": 0.165,
    "events": [
     "regulation"
    ],
    "count": 2,
    "last": "2026-10-21T17:57:39+00:00"
-  },
-  "LINKUSDT": {
-   "sentiment": -0.2,
-   "risk": 0.171,
-   "events": [
-    "regulation"
-   ],
-   "count": 1,
-   "last": "2026-10-21T16:09:26+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.0,
