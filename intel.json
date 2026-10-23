@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-23T06:53:55.488438+00:00",
+ "updated_at": "2026-10-23T07:23:24.966992+00:00",
  "market": {
-  "btc_dominance": 59.44,
+  "btc_dominance": 59.42,
   "usdt_dominance": 6.6,
-  "mcap_change_24h": -3.6,
+  "mcap_change_24h": -3.34,
   "trending": [
    "BTC",
-   "QTC",
-   "PENGU",
-   "PUMP",
    "AXIS",
    "PEARL",
-   "PONS",
+   "PENGU",
+   "ETH",
+   "QTC",
+   "PUMP",
    "ZEC",
-   "PYTH",
-   "ETH"
+   "VVV",
+   "TAO"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin ETFs bleed $635M as October slides back into the red",
+   "url": "https://cointelegraph.com/markets/bitcoin-etfs-erase-october-gains-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-23T07:09:39+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc2a4a8e25b8b",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-23T07:23:24.966992+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -2828,8 +2848,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.033,
+   "risk": 0.1,
+   "events": [
+    "etf_flow",
+    "macro"
+   ],
+   "count": 26,
+   "last": "2026-10-23T07:09:39+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.226,
+   "sentiment": -0.227,
    "risk": 0.2,
    "events": [
     "etf_flow",
@@ -2839,7 +2869,7 @@
    "last": "2026-10-23T05:09:41+00:00"
   },
   "ADAUSDT": {
-   "sentiment": -0.062,
+   "sentiment": -0.063,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2854,16 +2884,6 @@
    "count": 7,
    "last": "2026-10-23T04:34:14+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.037,
-   "risk": 0.1,
-   "events": [
-    "etf_flow",
-    "macro"
-   ],
-   "count": 25,
-   "last": "2026-10-23T04:34:14+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
    "risk": 0.1,
@@ -2874,7 +2894,7 @@
    "last": "2026-10-23T03:13:01+00:00"
   },
   "LINKUSDT": {
-   "sentiment": 0.053,
+   "sentiment": 0.052,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -2883,7 +2903,7 @@
    "last": "2026-10-23T02:48:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.247,
+   "sentiment": 0.249,
    "risk": 0.0,
    "events": [
     "listing"
