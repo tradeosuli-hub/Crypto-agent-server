@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-23T17:14:10.098041+00:00",
+ "updated_at": "2026-10-23T17:43:40.253822+00:00",
  "market": {
-  "btc_dominance": 59.44,
+  "btc_dominance": 59.42,
   "usdt_dominance": 6.61,
-  "mcap_change_24h": -2.03,
+  "mcap_change_24h": -2.09,
   "trending": [
    "IRYS",
    "UHI",
    "DACITY",
    "PENGU",
-   "INIT",
-   "PEPE",
    "PEARL",
-   "XMR",
+   "INIT",
    "AERO",
-   "QTC"
+   "PEPE",
+   "HYPE",
+   "BTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-23T17:14:10.098041+00:00",
    "notified": false
   },
@@ -637,7 +638,7 @@
    ],
    "id": "Nd496f625ba9f",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -1872,23 +1873,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform",
-   "url": "https://cointelegraph.com/news/occ-finalizes-stablecoin-rules-genius-act-bessent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-21T17:10:54+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9990265b5b3e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T17:25:26.633819+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/c30e6891afa54651ba950f8af144f861",
@@ -2605,7 +2589,7 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.003,
+   "sentiment": -0.002,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2615,7 +2599,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.547,
+   "risk": 0.541,
    "events": [
     "regulation"
    ],
