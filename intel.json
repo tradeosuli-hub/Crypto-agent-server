@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-24T14:23:42.583907+00:00",
+ "updated_at": "2026-10-24T14:53:19.120514+00:00",
  "market": {
-  "btc_dominance": 59.58,
+  "btc_dominance": 59.55,
   "usdt_dominance": 6.74,
-  "mcap_change_24h": -4.91,
+  "mcap_change_24h": -4.89,
   "trending": [
-   "UHI",
    "HYPE",
+   "UHI",
    "BSC",
    "DACITY",
-   "IRYS",
    "PEARL",
-   "SOL",
-   "ENA",
-   "SUI",
-   "AXIS"
+   "PENGU",
+   "NEAR",
+   "IRYS",
+   "BTC",
+   "JCT"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
+   "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
+   "published": "2026-10-24T14:38:47+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N652beee0d14a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-24T14:53:19.120514+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-24T14:23:42.583907+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-24T14:23:42.583907+00:00",
    "notified": false
   },
@@ -1415,27 +1433,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
-   "published": "2026-10-22T11:20:04+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N23c47853fb60",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T11:38:19.337756+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak",
    "url": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
@@ -2212,7 +2209,7 @@
    "last": "2026-10-24T04:45:43+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.063,
+   "sentiment": -0.062,
    "risk": 0.0,
    "events": [],
    "count": 5,
@@ -2220,7 +2217,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.283,
+   "risk": 0.276,
    "events": [
     "regulation"
    ],
@@ -2235,7 +2232,7 @@
    "last": "2026-10-23T12:23:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.123,
+   "sentiment": 0.124,
    "risk": 0.0,
    "events": [],
    "count": 2,
