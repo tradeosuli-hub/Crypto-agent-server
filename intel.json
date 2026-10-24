@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-24T09:58:01.158253+00:00",
+ "updated_at": "2026-10-24T10:27:38.044486+00:00",
  "market": {
   "btc_dominance": 60.11,
-  "usdt_dominance": 6.78,
-  "mcap_change_24h": -4.27,
+  "usdt_dominance": 6.77,
+  "mcap_change_24h": -4.07,
   "trending": [
-   "DACITY",
    "UHI",
-   "BTC",
+   "DACITY",
+   "BSC",
    "ORDER",
-   "IRYS",
-   "BIRB",
+   "PENGU",
    "HYPE",
-   "PEARL",
-   "QNT",
-   "AXIS"
+   "AXIS",
+   "BTC",
+   "IRYS",
+   "BIRB"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -327,9 +327,11 @@
    "published": "2026-10-23T12:23:58+00:00",
    "kind": "news",
    "raw_symbols": [
+    "AI",
     "BTC"
    ],
    "symbols": [
+    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "Naa58f9f0ffa3",
@@ -348,9 +350,11 @@
    "published": "2026-10-23T12:03:53+00:00",
    "kind": "news",
    "raw_symbols": [
+    "AI",
     "BTC"
    ],
    "symbols": [
+    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "N3ca18cb27b3d",
@@ -783,9 +787,11 @@
    "published": "2026-10-23T04:34:14+00:00",
    "kind": "news",
    "raw_symbols": [
+    "AI",
     "BTC"
    ],
    "symbols": [
+    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "Nb6ed306a5733",
@@ -851,7 +857,7 @@
    ],
    "id": "N64a418b71173",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
    "summary_fa": null,
@@ -1046,11 +1052,15 @@
    "url": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
    "published": "2026-10-22T18:30:57+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "AI"
+   ],
+   "symbols": [
+    "AIUSDT"
+   ],
    "id": "Nff8406666fc2",
    "kind_fa": "خبر",
-   "importance": 2,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -1081,9 +1091,11 @@
    "published": "2026-10-22T16:50:51+00:00",
    "kind": "news",
    "raw_symbols": [
+    "AI",
     "BTC"
    ],
    "symbols": [
+    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "N155a808b4f5d",
@@ -1466,9 +1478,11 @@
    "published": "2026-10-22T10:50:04+00:00",
    "kind": "news",
    "raw_symbols": [
+    "AI",
     "BTC"
    ],
    "symbols": [
+    "AIUSDT",
     "BTCUSDT"
    ],
    "id": "Nce3344e6aedd",
@@ -1557,27 +1571,6 @@
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T10:09:39.250876+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Starknet voters back research into life beyond Ethereum",
-   "url": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-22T09:37:54+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nae655ca22e24",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-22T10:09:39.250876+00:00",
@@ -1810,11 +1803,15 @@
    "url": "https://www.binance.com/en/support/announcement/c50ffc85804f45f08d0d7727ea508157",
    "published": "2026-10-19T12:00:07.031000+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "AI"
+   ],
+   "symbols": [
+    "AIUSDT"
+   ],
    "id": "N22d338ec6f34",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 4,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2341,15 +2338,22 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.338,
+   "risk": 0.332,
    "events": [
     "regulation"
    ],
    "count": 1,
    "last": "2026-10-23T13:00:00+00:00"
   },
+  "AIUSDT": {
+   "sentiment": -0.053,
+   "risk": 0.0,
+   "events": [],
+   "count": 6,
+   "last": "2026-10-23T12:23:58+00:00"
+  },
   "NEARUSDT": {
-   "sentiment": 0.118,
+   "sentiment": 0.119,
    "risk": 0.0,
    "events": [],
    "count": 2,
