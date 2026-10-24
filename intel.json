@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-24T17:20:58.384975+00:00",
+ "updated_at": "2026-10-24T17:50:23.100003+00:00",
  "market": {
   "btc_dominance": 59.6,
   "usdt_dominance": 6.75,
-  "mcap_change_24h": -4.73,
+  "mcap_change_24h": -4.7,
   "trending": [
    "UHI",
    "HYPE",
@@ -11,15 +11,35 @@
    "BSC",
    "DACITY",
    "BTC",
-   "ZEC",
    "PENGU",
+   "ZEC",
    "PEARL",
-   "UNI"
+   "QTC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
+   "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+   "published": "2026-10-24T17:44:36+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5bb4754027fd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-24T17:50:23.100003+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’",
@@ -1442,23 +1462,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
-   "url": "https://www.theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
-   "published": "2026-10-22T12:00:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd1a558ed176a",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T12:07:50.842262+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Spot Trading Pairs (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/929cf3d29e21443fad70c9eca98bed23",
@@ -2196,16 +2199,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.016,
+   "sentiment": 0.014,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 17,
-   "last": "2026-10-24T16:00:00+00:00"
+   "count": 18,
+   "last": "2026-10-24T17:44:36+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.124,
+   "sentiment": -0.125,
    "risk": 0.0,
    "events": [],
    "count": 5,
@@ -2219,7 +2222,7 @@
    "last": "2026-10-24T04:45:43+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.057,
+   "sentiment": -0.056,
    "risk": 0.0,
    "events": [],
    "count": 5,
@@ -2227,7 +2230,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.246,
+   "risk": 0.24,
    "events": [
     "regulation"
    ],
