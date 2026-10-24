@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-24T16:21:52.617758+00:00",
+ "updated_at": "2026-10-24T16:51:23.371201+00:00",
  "market": {
-  "btc_dominance": 59.57,
-  "usdt_dominance": 6.77,
-  "mcap_change_24h": -5.03,
+  "btc_dominance": 59.59,
+  "usdt_dominance": 6.78,
+  "mcap_change_24h": -5.07,
   "trending": [
    "UHI",
    "HYPE",
    "DACITY",
-   "BSC",
    "SOL",
+   "BSC",
    "BTC",
    "PENGU",
-   "PEARL",
-   "USDT",
-   "SUI"
+   "ZEC",
+   "AERO",
+   "LIT"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’",
+   "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+   "published": "2026-10-24T16:24:13+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Need3aa9dbd8e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-24T16:51:23.371201+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-24T16:21:52.617758+00:00",
    "notified": false
   },
@@ -1441,29 +1458,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak",
-   "url": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
-   "published": "2026-10-22T09:56:16+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "N8dd90dbf693e",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T10:09:39.250876+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Spot Trading Pairs (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/929cf3d29e21443fad70c9eca98bed23",
@@ -2206,14 +2200,14 @@
    "events": [
     "etf_flow"
    ],
-   "count": 18,
+   "count": 17,
    "last": "2026-10-24T16:00:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.113,
+   "sentiment": -0.124,
    "risk": 0.0,
    "events": [],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-24T15:21:06+00:00"
   },
   "XRPUSDT": {
@@ -2224,7 +2218,7 @@
    "last": "2026-10-24T04:45:43+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.059,
+   "sentiment": -0.058,
    "risk": 0.0,
    "events": [],
    "count": 5,
@@ -2232,7 +2226,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.258,
+   "risk": 0.252,
    "events": [
     "regulation"
    ],
@@ -2240,7 +2234,7 @@
    "last": "2026-10-23T13:00:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.126,
+   "sentiment": 0.127,
    "risk": 0.0,
    "events": [],
    "count": 2,
