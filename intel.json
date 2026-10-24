@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-24T04:33:15.769440+00:00",
+ "updated_at": "2026-10-24T05:02:44.499716+00:00",
  "market": {
-  "btc_dominance": 59.46,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -3.81,
+  "btc_dominance": 59.45,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -3.75,
   "trending": [
+   "PEARL",
    "BMT",
    "BIRB",
-   "IRYS",
-   "PEARL",
    "NEAR",
-   "BTC",
+   "IRYS",
    "AXIS",
-   "SOL",
-   "ZEC",
-   "ETH"
+   "PENGU",
+   "BTC",
+   "QTC",
+   "AERO"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
+   "url": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+   "published": "2026-10-24T04:45:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N7f5533f2e777",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-24T05:02:44.499716+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
@@ -1736,48 +1756,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
-   "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
-   "published": "2026-10-22T04:41:59+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nfbe85391f202",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T04:44:54.991939+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "XRP Ledger bug fix moved to November after validator support dipped for two hours",
-   "url": "https://www.coindesk.com/tech/2026/10/22/xrp-ledger-bug-fix-moved-to-november-after-validator-support-dipped-for-two-hours",
-   "published": "2026-10-22T04:36:20+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Nb7b0d5a929b6",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T04:44:54.991939+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Spot Trading Pairs (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/929cf3d29e21443fad70c9eca98bed23",
@@ -2510,8 +2488,15 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-10-24T04:45:43+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.097,
+   "sentiment": -0.098,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2520,29 +2505,22 @@
    "last": "2026-10-23T17:46:09+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.005,
+   "sentiment": -0.005,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 27,
+   "count": 26,
    "last": "2026-10-23T15:39:17+00:00"
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.406,
+   "risk": 0.399,
    "events": [
     "regulation"
    ],
    "count": 1,
    "last": "2026-10-23T13:00:00+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-23T12:55:26+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.097,
