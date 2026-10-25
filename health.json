@@ -1,11 +1,11 @@
 {
- "checked_at": "2026-10-25T11:32:38.846070+00:00",
+ "checked_at": "2026-10-25T11:47:12.091967+00:00",
  "checks": [
   {
    "name": "scan_fresh",
    "fa": "آخرین اسکن موفق",
    "ok": true,
-   "value": "13 دقیقه پیش",
+   "value": "28 دقیقه پیش",
    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40188292948"
   },
   {
@@ -25,7 +25,7 @@
    "name": "intel_fresh",
    "fa": "ایجنت اطلاعات",
    "ok": true,
-   "value": "29 دقیقه پیش"
+   "value": "14 دقیقه پیش"
   },
   {
    "name": "intel_loop",
@@ -162,12 +162,22 @@
   ],
   "intel": [
    {
-    "id": 40187288695,
+    "id": 40189344607,
     "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
+    "created_at": "2026-10-25T11:33:10Z",
+    "updated_at": "2026-10-25T11:33:18Z",
+    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40189344607",
+    "branch": "cursor/phoenix-signal-panel-69df"
+   },
+   {
+    "id": 40187288695,
+    "status": "completed",
+    "conclusion": "success",
+    "event": "workflow_dispatch",
     "created_at": "2026-10-25T11:03:36Z",
-    "updated_at": "2026-10-25T11:03:47Z",
+    "updated_at": "2026-10-25T11:33:16Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40187288695",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -200,16 +210,6 @@
     "updated_at": "2026-10-25T10:04:37Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40181244602",
     "branch": "cursor/phoenix-signal-panel-69df"
-   },
-   {
-    "id": 40179221585,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-10-25T09:05:33Z",
-    "updated_at": "2026-10-25T09:35:08Z",
-    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40179221585",
-    "branch": "cursor/phoenix-signal-panel-69df"
    }
   ]
  },
@@ -229,7 +229,7 @@
    "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
    "url": null,
    "last_action_ts": "2026-10-25T11:18:12.631371+00:00",
-   "checks": 282,
+   "checks": 283,
    "escalations": 93,
    "resolved_at": null
   }
