@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-26T18:04:36.739592+00:00",
+ "updated_at": "2026-10-26T18:34:05.285469+00:00",
  "market": {
   "btc_dominance": 59.44,
   "usdt_dominance": 6.72,
-  "mcap_change_24h": -2.25,
+  "mcap_change_24h": -2.31,
   "trending": [
    "BTC",
    "EVMZONE",
    "PEPINA",
-   "BTC",
    "CHIP",
+   "BTC",
+   "PEARL",
    "PENGU",
-   "SOL",
-   "QNT",
    "HYPE",
-   "NEAR"
+   "ENA",
+   "SOL"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Hyperliquid says Kraken parent Payward to be first CFTC-regulated HIP-3 deployer",
+   "url": "https://www.theblock.co/news/markets/2026-10-26-hyperliquid-payward-kraken-cftc-regulated-hip-3-deployer-431787",
+   "published": "2026-10-26T18:21:17+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6c681ba96abc",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-10-26T18:34:05.285469+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Y Combinator-backed Mochatrade raises $5.5 million to offer US stock perpetuals to Indian traders",
@@ -1397,27 +1413,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitcoin ETFs swing back to net outflows as $636 million in withdrawals erase previous day’s inflows",
-   "url": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483",
-   "published": "2026-10-23T11:39:45+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N59737c3eea6e",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T11:49:24.985530+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash",
    "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2168,7 +2163,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.223,
+   "sentiment": 0.224,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2178,7 +2173,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.014,
-   "risk": 0.431,
+   "risk": 0.425,
    "events": [
     "token_burn",
     "macro",
@@ -2198,7 +2193,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.081,
-   "risk": 0.431,
+   "risk": 0.425,
    "events": [
     "macro"
    ],
