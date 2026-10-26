@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-26T09:41:18.582612+00:00",
+ "updated_at": "2026-10-26T10:10:49.215516+00:00",
  "market": {
   "btc_dominance": 60.09,
   "usdt_dominance": 6.78,
-  "mcap_change_24h": -2.46,
+  "mcap_change_24h": -2.38,
   "trending": [
-   "BTC",
    "PEPINA",
-   "ENA",
-   "AXIS",
    "BTC",
+   "AXIS",
+   "PENGU",
    "PEARL",
-   "ETH",
+   "ENA",
    "QNT",
-   "DOOD",
-   "AERO"
+   "ETH",
+   "MON",
+   "VVV"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "South Korea weighs fourth delay of crypto gains tax, eyes 2029 start: report",
+   "url": "https://www.theblock.co/news/regulation/2026-10-26-south-korea-weighs-fourth-delay-crypto-tax-431649",
+   "published": "2026-10-26T10:06:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6eb94a587c7f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T10:10:49.215516+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T09:41:18.582612+00:00",
    "notified": false
   },
@@ -1493,27 +1510,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Uniswap’s aggregator hooks go live on Ethereum, Base and Robinhood Chain",
-   "url": "https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932",
-   "published": "2026-10-22T13:55:03+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nc30163ec2f4f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T14:05:55.501730+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Spot Trading Pairs (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/929cf3d29e21443fad70c9eca98bed23",
@@ -2196,8 +2192,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.11,
-   "risk": 0.447,
+   "sentiment": -0.109,
+   "risk": 0.442,
    "events": [
     "etf_flow",
     "macro"
