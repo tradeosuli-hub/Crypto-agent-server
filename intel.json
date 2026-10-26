@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-26T04:16:45.185954+00:00",
+ "updated_at": "2026-10-26T04:46:14.182116+00:00",
  "market": {
-  "btc_dominance": 60.03,
-  "usdt_dominance": 6.83,
-  "mcap_change_24h": -4.74,
+  "btc_dominance": 60.04,
+  "usdt_dominance": 6.82,
+  "mcap_change_24h": -4.61,
   "trending": [
-   "EVMZONE",
    "BTC",
+   "NEAR",
+   "PENGU",
    "QTC",
+   "ZEC",
    "PEARL",
    "SOL",
-   "TIA",
-   "NEAR",
-   "LIT",
-   "CARDS",
+   "AERO",
+   "LINK",
    "GRASS"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
+   "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting",
+   "published": "2026-10-26T04:37:02+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N225db51341cd",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-10-26T04:46:14.182116+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
@@ -1236,29 +1256,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
-   "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-gold-trim-early-losses-as-yen-gives-up-gains-oil-stays-near-usd100",
-   "published": "2026-10-23T03:13:01+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N5ff2381eb008",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T03:27:24.298420+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
    "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993",
@@ -2194,6 +2191,15 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.498,
+   "events": [
+    "macro"
+   ],
+   "count": 7,
+   "last": "2026-10-26T04:37:02+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2207,20 +2213,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-25T22:48:40+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 6,
-   "last": "2026-10-25T22:48:40+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-24T04:45:43+00:00"
   }
  },
  "social": {},
