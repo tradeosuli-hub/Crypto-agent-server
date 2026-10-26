@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-26T13:37:06.708386+00:00",
+ "updated_at": "2026-10-26T14:06:39.884826+00:00",
  "market": {
   "btc_dominance": 59.4,
-  "usdt_dominance": 6.77,
-  "mcap_change_24h": -3.3,
+  "usdt_dominance": 6.78,
+  "mcap_change_24h": -2.43,
   "trending": [
-   "BTC",
    "EVMZONE",
+   "BTC",
    "PEPINA",
-   "PENGU",
-   "PEARL",
-   "CHIP",
    "QNT",
+   "PEARL",
    "SOL",
+   "NEAR",
+   "CHIP",
    "IRYS",
-   "ENA"
+   "PENGU"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -37,6 +37,7 @@
    "importance": 6,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T13:37:06.708386+00:00",
    "notified": false
   },
@@ -74,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T13:37:06.708386+00:00",
    "notified": false
   },
@@ -90,6 +92,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T13:37:06.708386+00:00",
    "notified": false
   },
@@ -110,6 +113,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T13:37:06.708386+00:00",
    "notified": false
   },
@@ -126,6 +130,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T13:37:06.708386+00:00",
    "notified": false
   },
@@ -238,10 +243,10 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin barely holding $80,000 ahead of Fed on Wednesday, tech earnings this week",
+   "title": "Live news: Bitcoin slips below $80,000 as Anthropic files for massive IPO",
    "url": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
    "published": "2026-10-26T11:05:31+00:00",
-   "kind": "macro",
+   "kind": "news",
    "raw_symbols": [
     "BTC"
    ],
@@ -249,10 +254,10 @@
     "BTCUSDT"
    ],
    "id": "Nb16905578c4e",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
+   "kind_fa": "خبر",
+   "importance": 3,
    "sentiment": 0.0,
-   "risk": 0.5,
+   "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-26T11:09:45.423120+00:00",
    "notified": false
@@ -2203,13 +2208,13 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.002,
-   "risk": 0.477,
+   "risk": 0.472,
    "events": [
     "token_burn",
     "macro",
     "etf_flow"
    ],
-   "count": 18,
+   "count": 16,
    "last": "2026-10-26T13:27:38+00:00"
   },
   "XRPUSDT": {
@@ -2223,7 +2228,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.477,
+   "risk": 0.472,
    "events": [
     "macro"
    ],
