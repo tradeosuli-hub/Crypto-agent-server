@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-26T11:39:11.341396+00:00",
+ "updated_at": "2026-10-26T12:08:38.795621+00:00",
  "market": {
-  "btc_dominance": 60.06,
+  "btc_dominance": 60.03,
   "usdt_dominance": 6.79,
-  "mcap_change_24h": -2.45,
+  "mcap_change_24h": -3.8,
   "trending": [
-   "EVMZONE",
+   "BTC",
    "PENGU",
-   "BTC",
    "PEPINA",
-   "PEARL",
-   "QNT",
    "BTC",
+   "QNT",
+   "PEARL",
    "AXIS",
+   "ZEC",
    "QTC",
-   "XLM"
+   "XMR"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000",
+   "published": "2026-10-26T11:53:07+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na684c187eada",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T12:08:38.795621+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger",
+   "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-26T11:39:27+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N940840bd2777",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T12:08:38.795621+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Aviva Investors, Ripple launch tokenized share class of $29 billion sterling fund on XRP Ledger",
@@ -37,6 +77,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T11:39:11.341396+00:00",
    "notified": false
   },
@@ -59,6 +100,7 @@
    "importance": 8,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-26T11:39:11.341396+00:00",
    "notified": false
   },
@@ -1168,31 +1210,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
-   "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
-   "published": "2026-10-23T10:54:41+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "NEAR",
-    "PEPE"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT",
-    "PEPEUSDT"
-   ],
-   "id": "N6169539c1ffb",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T11:19:47.054962+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash",
    "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1469,23 +1486,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-23T01:29:22.066930+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Pentagon bans US forces from using military info to bet in prediction markets",
-   "url": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-22T23:50:42+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N971c2896368c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T00:00:44.063633+00:00",
    "notified": false
   },
   {
@@ -2204,26 +2204,28 @@
   }
  ],
  "symbols": {
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-26T11:34:12+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.055,
-   "risk": 0.497,
+   "sentiment": -0.051,
+   "risk": 0.492,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 13,
-   "last": "2026-10-26T11:24:33+00:00"
+   "count": 14,
+   "last": "2026-10-26T11:53:07+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.42,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 2,
+   "last": "2026-10-26T11:39:27+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.497,
+   "risk": 0.492,
    "events": [
     "macro"
    ],
