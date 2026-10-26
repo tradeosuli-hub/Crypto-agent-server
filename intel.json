@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-26T15:06:20.865472+00:00",
+ "updated_at": "2026-10-26T15:36:00.376714+00:00",
  "market": {
-  "btc_dominance": 59.45,
-  "usdt_dominance": 6.71,
-  "mcap_change_24h": -1.82,
+  "btc_dominance": 59.48,
+  "usdt_dominance": 6.69,
+  "mcap_change_24h": -1.56,
   "trending": [
-   "EVMZONE",
    "BTC",
+   "EVMZONE",
    "PEPINA",
-   "PENGU",
    "CHIP",
+   "HYPE",
+   "QNT",
+   "BTC",
    "NEAR",
-   "PEARL",
    "QTC",
-   "SOL",
-   "BTC"
+   "LIT"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T15:06:20.865472+00:00",
    "notified": false
   },
@@ -314,20 +315,22 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin slips below $80,000 as Anthropic files for massive IPO",
+   "title": "Live news: Bitcoin sits near $80,000 as tech rallies following Anthropic IPO filing",
    "url": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
    "published": "2026-10-26T11:05:31+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "Nb16905578c4e",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": 0.3,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-26T11:09:45.423120+00:00",
@@ -2180,14 +2183,14 @@
    "last": "2026-10-26T14:12:59+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.002,
-   "risk": 0.461,
+   "sentiment": 0.013,
+   "risk": 0.456,
    "events": [
     "token_burn",
     "macro",
     "etf_flow"
    ],
-   "count": 16,
+   "count": 15,
    "last": "2026-10-26T13:27:38+00:00"
   },
   "XRPUSDT": {
@@ -2200,12 +2203,12 @@
    "last": "2026-10-26T11:39:27+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.461,
+   "sentiment": 0.081,
+   "risk": 0.456,
    "events": [
     "macro"
    ],
-   "count": 1,
+   "count": 2,
    "last": "2026-10-26T11:24:33+00:00"
   },
   "SOLUSDT": {
