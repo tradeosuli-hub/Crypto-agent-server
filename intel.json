@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-26T19:33:27.915051+00:00",
+ "updated_at": "2026-10-26T20:03:20.249833+00:00",
  "market": {
-  "btc_dominance": 59.41,
+  "btc_dominance": 59.43,
   "usdt_dominance": 6.74,
-  "mcap_change_24h": -2.37,
+  "mcap_change_24h": -2.47,
   "trending": [
    "BTC",
-   "CHIP",
-   "PEARL",
-   "BTC",
-   "QTC",
-   "PENGU",
    "HYPE",
-   "SUI",
+   "QTC",
+   "PEARL",
+   "PENGU",
+   "BTC",
+   "CHIP",
+   "ENA",
    "QNT",
-   "VVV"
+   "ETH"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
+   "url": "https://cointelegraph.com/news/canada-consultation-stablecoins-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-26T19:47:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N73ae7e463744",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T20:03:20.249833+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "CZ pitches BNB Chain’s role in AI as BNB Standard rings Nasdaq bell",
+   "url": "https://www.theblock.co/news/ecosystems/2026-10-26-cz-pitches-bnb-chains-role-ai-bnb-standard-rings-nasdaq-bell-431790",
+   "published": "2026-10-26T19:43:47+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BNB"
+   ],
+   "symbols": [
+    "BNBUSDT"
+   ],
+   "id": "Nbb9e81a26c53",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T20:03:20.249833+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "AI company Anthropic announces IPO, expected as early as November",
@@ -1355,27 +1391,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Singapore, Malaysia and Thailand central banks expand cross-border stablecoin initiative involving Ripple, Visa and Mastercard",
-   "url": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492",
-   "published": "2026-10-23T12:55:26+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N87056e513e87",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T13:17:54.306581+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme",
    "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1428,23 +1443,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-23T12:18:55.905293+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash",
-   "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-23T10:13:06+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nae1cff04fdd8",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T10:20:42.502281+00:00",
    "notified": false
   },
   {
@@ -2163,6 +2161,13 @@
   }
  ],
  "symbols": {
+  "BNBUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-26T19:43:47+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.224,
    "risk": 0.0,
@@ -2174,7 +2179,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.014,
-   "risk": 0.415,
+   "risk": 0.41,
    "events": [
     "token_burn",
     "macro",
@@ -2194,7 +2199,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.081,
-   "risk": 0.415,
+   "risk": 0.41,
    "events": [
     "macro"
    ],
