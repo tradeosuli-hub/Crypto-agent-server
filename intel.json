@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-26T14:36:47.542648+00:00",
+ "updated_at": "2026-10-26T15:06:20.865472+00:00",
  "market": {
-  "btc_dominance": 59.36,
-  "usdt_dominance": 6.76,
-  "mcap_change_24h": -2.25,
+  "btc_dominance": 59.45,
+  "usdt_dominance": 6.71,
+  "mcap_change_24h": -1.82,
   "trending": [
    "EVMZONE",
    "BTC",
    "PEPINA",
    "PENGU",
-   "QNT",
-   "PEARL",
+   "CHIP",
    "NEAR",
+   "PEARL",
    "QTC",
-   "BTC",
-   "TAO"
+   "SOL",
+   "BTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
+   "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
+   "published": "2026-10-26T14:51:07+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne14548e162aa",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T15:06:20.865472+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "PHP flaw shows AI ‘vulnerability apocalypse’ is on schedule: Immunefi CEO",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T14:36:47.542648+00:00",
    "notified": false
   },
@@ -49,6 +66,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-10-26T14:36:47.542648+00:00",
    "notified": false
   },
@@ -69,6 +87,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T14:36:47.542648+00:00",
    "notified": false
   },
@@ -1260,27 +1279,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
-   "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
-   "published": "2026-10-23T12:03:53+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N3ca18cb27b3d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T14:16:56.060509+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Was crypto self-custody ever designed for beginners?",
    "url": "https://cointelegraph.com/news/self-custody-crypto-beginners-mainstream-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2183,7 +2181,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.002,
-   "risk": 0.467,
+   "risk": 0.461,
    "events": [
     "token_burn",
     "macro",
@@ -2203,7 +2201,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.467,
+   "risk": 0.461,
    "events": [
     "macro"
    ],
