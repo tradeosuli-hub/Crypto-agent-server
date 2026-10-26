@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-26T12:38:08.457298+00:00",
+ "updated_at": "2026-10-26T13:07:38.868208+00:00",
  "market": {
-  "btc_dominance": 59.49,
-  "usdt_dominance": 6.71,
-  "mcap_change_24h": -2.69,
+  "btc_dominance": 59.47,
+  "usdt_dominance": 6.73,
+  "mcap_change_24h": -2.79,
   "trending": [
-   "EVMZONE",
    "BTC",
+   "EVMZONE",
    "PEPINA",
    "PENGU",
    "QNT",
-   "BTC",
-   "AXIS",
-   "CHIP",
    "PEARL",
-   "ZEC"
+   "CHIP",
+   "AXIS",
+   "QTC",
+   "DRV"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Galaxy says bitcoin bear market is over; now is the time to buy and hold",
+   "url": "https://www.theblock.co/news/markets/2026-10-26-galaxy-says-bitcoin-bear-market-is-over-now-is-the-time-to-buy-and-hold-431720",
+   "published": "2026-10-26T13:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7fe866ac4643",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T13:07:38.868208+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
@@ -1532,23 +1552,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Blockchain Association pushes for crypto tax clarity as broader bill stalls",
-   "url": "https://www.theblock.co/news/regulation/2026-10-22-blockchain-association-pushes-crypto-tax-clarity-broader-bill-stalls-423475",
-   "published": "2026-10-22T18:59:25+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N48179e4f1398",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T19:05:21.974665+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Spot Trading Pairs (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/929cf3d29e21443fad70c9eca98bed23",
@@ -2235,14 +2238,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.051,
-   "risk": 0.487,
+   "sentiment": -0.048,
+   "risk": 0.482,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 14,
-   "last": "2026-10-26T11:53:07+00:00"
+   "count": 15,
+   "last": "2026-10-26T13:00:00+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.42,
@@ -2255,7 +2258,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.487,
+   "risk": 0.482,
    "events": [
     "macro"
    ],
