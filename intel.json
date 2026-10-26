@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-26T20:03:20.249833+00:00",
+ "updated_at": "2026-10-26T20:32:50.481539+00:00",
  "market": {
-  "btc_dominance": 59.43,
-  "usdt_dominance": 6.74,
-  "mcap_change_24h": -2.47,
+  "btc_dominance": 59.42,
+  "usdt_dominance": 6.75,
+  "mcap_change_24h": -2.46,
   "trending": [
    "BTC",
+   "PEARL",
    "HYPE",
    "QTC",
-   "PEARL",
-   "PENGU",
    "BTC",
-   "CHIP",
-   "ENA",
+   "ONDO",
+   "PENGU",
    "QNT",
-   "ETH"
+   "ZEC",
+   "AERO"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T20:03:20.249833+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T20:03:20.249833+00:00",
    "notified": false
   },
@@ -542,22 +544,20 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin sits near $80,000 as tech rallies following Anthropic IPO filing",
+   "title": "Live news: Bitcoin dips below $80,000 as stocks rally following Anthropic IPO filing",
    "url": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
    "published": "2026-10-26T11:05:31+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC",
-    "NEAR"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
+    "BTCUSDT"
    ],
    "id": "Nb16905578c4e",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.3,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-26T11:09:45.423120+00:00",
@@ -2169,7 +2169,7 @@
    "last": "2026-10-26T19:43:47+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.224,
+   "sentiment": 0.225,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2178,8 +2178,8 @@
    "last": "2026-10-26T16:05:12+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.014,
-   "risk": 0.41,
+   "sentiment": -0.001,
+   "risk": 0.405,
    "events": [
     "token_burn",
     "macro",
@@ -2198,12 +2198,12 @@
    "last": "2026-10-26T11:39:27+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.081,
-   "risk": 0.41,
+   "sentiment": 0.0,
+   "risk": 0.405,
    "events": [
     "macro"
    ],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-26T11:24:33+00:00"
   },
   "SOLUSDT": {
