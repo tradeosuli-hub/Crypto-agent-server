@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-26T10:10:49.215516+00:00",
+ "updated_at": "2026-10-26T10:40:15.155011+00:00",
  "market": {
-  "btc_dominance": 60.09,
+  "btc_dominance": 60.07,
   "usdt_dominance": 6.78,
-  "mcap_change_24h": -2.38,
+  "mcap_change_24h": -2.4,
   "trending": [
-   "PEPINA",
-   "BTC",
-   "AXIS",
    "PENGU",
+   "AXIS",
    "PEARL",
-   "ENA",
    "QNT",
-   "ETH",
-   "MON",
-   "VVV"
+   "BTC",
+   "BTC",
+   "SOL",
+   "ENA",
+   "ZEC",
+   "HYPE"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
+   "url": "https://www.coindesk.com/markets/2026/10/26/calpers-pulls-back-from-big-tech-as-ai-jitters-deepen-neocloud-sell-off",
+   "published": "2026-10-26T10:33:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6adc7071f1d0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T10:40:15.155011+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Securitize’s tokenized stock value halves as Circle widens lead",
+   "url": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-26T10:25:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf55b8be6f277",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T10:40:15.155011+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "South Korea weighs fourth delay of crypto gains tax, eyes 2029 start: report",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T10:10:49.215516+00:00",
    "notified": false
   },
@@ -1197,23 +1230,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Sweden’s central bank revives e-krona debate as stablecoins and digital euro loom",
-   "url": "https://www.coindesk.com/business/2026/10/23/sweden-s-central-bank-revives-e-krona-debate-as-stablecoins-and-digital-euro-loom",
-   "published": "2026-10-23T08:57:34+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N568c5cce48f1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T09:21:36.477467+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "HSBC launches Hong Kong dollar stablecoin for retail payments",
    "url": "https://cointelegraph.com/news/hsbc-launches-redcoin-hong-kong-dollar-stablecoin-payme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1439,23 +1455,6 @@
    "risk": 0.6,
    "summary_fa": null,
    "first_seen": "2026-10-22T23:31:06.950275+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals",
-   "url": "https://cointelegraph.com/news/circle-shareholder-lawsuit-donald-trump-world-liberty-financial-steve-witkoff-crypto-corruption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-22T21:39:18+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf7d8b1380a83",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T22:02:34.214082+00:00",
    "notified": false
   },
   {
@@ -2193,7 +2192,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.109,
-   "risk": 0.442,
+   "risk": 0.437,
    "events": [
     "etf_flow",
     "macro"
