@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-26T09:11:45.073490+00:00",
+ "updated_at": "2026-10-26T09:41:18.582612+00:00",
  "market": {
-  "btc_dominance": 60.06,
-  "usdt_dominance": 6.8,
-  "mcap_change_24h": -2.76,
+  "btc_dominance": 60.09,
+  "usdt_dominance": 6.78,
+  "mcap_change_24h": -2.46,
   "trending": [
    "BTC",
+   "PEPINA",
+   "ENA",
+   "AXIS",
    "BTC",
    "PEARL",
-   "PENGU",
-   "AXIS",
-   "ENA",
-   "ZEC",
-   "QTC",
-   "PEPINA",
+   "ETH",
+   "QNT",
+   "DOOD",
    "AERO"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead",
+   "url": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
+   "published": "2026-10-26T09:14:47+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N15e97e9fd60d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T09:41:18.582612+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
@@ -1198,23 +1214,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows",
-   "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
-   "published": "2026-10-23T08:02:35+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N941c1ff4da4a",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -1.0,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T08:22:27.193122+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Malaysia, Thailand join Singapore’s cross-border stablecoin push",
    "url": "https://cointelegraph.com/news/malaysia-thailand-join-singapores-cross-border-stablecoin-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2198,7 +2197,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.11,
-   "risk": 0.452,
+   "risk": 0.447,
    "events": [
     "etf_flow",
     "macro"
