@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-26T10:40:15.155011+00:00",
+ "updated_at": "2026-10-26T11:09:45.423120+00:00",
  "market": {
-  "btc_dominance": 60.07,
-  "usdt_dominance": 6.78,
-  "mcap_change_24h": -2.4,
+  "btc_dominance": 60.08,
+  "usdt_dominance": 6.79,
+  "mcap_change_24h": -2.41,
   "trending": [
+   "EVMZONE",
    "PENGU",
-   "AXIS",
+   "BTC",
    "PEARL",
+   "AXIS",
+   "PEPINA",
    "QNT",
    "BTC",
-   "BTC",
-   "SOL",
-   "ENA",
-   "ZEC",
+   "QTC",
    "HYPE"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live news: Brent Crude slides below $110 as Iran deal hopes grow and Brazil stocks sink",
+   "url": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
+   "published": "2026-10-26T11:05:31+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb16905578c4e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T11:09:45.423120+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week",
+   "url": "https://cointelegraph.com/markets/btc-price-risks-80k-loss-into-fomc-earnings-three-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-26T10:49:55+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne4fa6b8e1e72",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-10-26T11:09:45.423120+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T10:40:15.155011+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-26T10:40:15.155011+00:00",
    "notified": false
   },
@@ -1128,23 +1166,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
-   "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
-   "published": "2026-10-23T10:22:56+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N85fc56c51052",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T10:50:13.919710+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash",
    "url": "https://cointelegraph.com/news/cysic-exploiter-eth-tornado-cash-white-hat-offer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1438,23 +1459,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-23T00:00:44.063633+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
-   "url": "https://cointelegraph.com/magazine/new-deepseek-ban-in-us-swiss-asia-crypto-ties-deepen-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-22T22:50:22+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2ae9f843b682",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T23:31:06.950275+00:00",
    "notified": false
   },
   {
@@ -2191,14 +2195,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.109,
-   "risk": 0.437,
+   "sentiment": -0.082,
+   "risk": 0.497,
    "events": [
-    "etf_flow",
-    "macro"
+    "macro",
+    "etf_flow"
    ],
-   "count": 10,
-   "last": "2026-10-26T08:20:49+00:00"
+   "count": 11,
+   "last": "2026-10-26T10:49:55+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
