@@ -1,18 +1,18 @@
 {
- "updated_at": "2026-10-26T08:12:38.833851+00:00",
+ "updated_at": "2026-10-26T08:42:10.124913+00:00",
  "market": {
   "btc_dominance": 60.07,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -3.45,
+  "usdt_dominance": 6.8,
+  "mcap_change_24h": -3.17,
   "trending": [
    "BTC",
-   "BTC",
-   "PENGU",
-   "AXIS",
    "PEARL",
-   "ZEC",
+   "BTC",
+   "AXIS",
+   "PENGU",
    "ENA",
-   "SOL",
+   "ZEC",
+   "QTC",
    "AERO",
    "TAO"
   ],
@@ -20,6 +20,26 @@
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
+   "url": "https://cointelegraph.com/markets/bitcoin-etfs-rebound-weekly-inflow-301-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-26T08:20:49+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nbbdc28aa6b70",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T08:42:10.124913+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-10-28",
@@ -1422,23 +1442,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Dune launches real-time data feeds covering 200 onchain trading venues",
-   "url": "https://cointelegraph.com/news/dune-launches-real-time-data-feeds-covering-200-onchain-trading-venues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-22T20:36:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne6daf4724abd",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-22T21:03:30.088540+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "JPMorgan says crypto regulatory moves partly offset Clarity Act failure, but risks remain",
    "url": "https://www.theblock.co/news/regulation/2026-10-22-jpmorgan-crypto-regulatory-moves-clarity-act-failure-risks-423473",
@@ -2193,13 +2196,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.463,
+   "sentiment": -0.11,
+   "risk": 0.457,
    "events": [
+    "etf_flow",
     "macro"
    ],
-   "count": 9,
-   "last": "2026-10-26T07:18:24+00:00"
+   "count": 10,
+   "last": "2026-10-26T08:20:49+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
