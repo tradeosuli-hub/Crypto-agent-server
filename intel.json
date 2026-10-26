@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-26T04:46:14.182116+00:00",
+ "updated_at": "2026-10-26T05:15:38.257839+00:00",
  "market": {
-  "btc_dominance": 60.04,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -4.61,
+  "btc_dominance": 60.02,
+  "usdt_dominance": 6.8,
+  "mcap_change_24h": -4.51,
   "trending": [
+   "EVMZONE",
    "BTC",
-   "NEAR",
+   "QNT",
    "PENGU",
-   "QTC",
-   "ZEC",
+   "NEAR",
    "PEARL",
    "SOL",
-   "AERO",
-   "LINK",
-   "GRASS"
+   "XRP",
+   "ZEC",
+   "TAO"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
+   "url": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments",
+   "published": "2026-10-26T05:15:20+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N128bbb42a21b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T05:15:38.257839+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
@@ -37,6 +57,7 @@
    "importance": 8,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-26T04:46:14.182116+00:00",
    "notified": false
   },
@@ -1197,27 +1218,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Cardano holders are being asked to bet $5 million on copper hitting a new record",
-   "url": "https://www.coindesk.com/markets/2026/10/23/cardano-holders-are-being-asked-to-bet-usd5-million-on-copper-hitting-a-new-record",
-   "published": "2026-10-23T04:36:51+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ADA"
-   ],
-   "symbols": [
-    "ADAUSDT"
-   ],
-   "id": "Nd496f625ba9f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T04:55:59.963542+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Bitcoin Core changes security policy as AI makes bugs easier to find",
    "url": "https://cointelegraph.com/news/bitcoin-core-changes-security-policy-as-ai-makes-bugs-easier-to-find?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2193,12 +2193,12 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.0,
-   "risk": 0.498,
+   "risk": 0.493,
    "events": [
     "macro"
    ],
-   "count": 7,
-   "last": "2026-10-26T04:37:02+00:00"
+   "count": 8,
+   "last": "2026-10-26T05:15:20+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
