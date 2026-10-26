@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-26T07:13:34.655107+00:00",
+ "updated_at": "2026-10-26T07:43:06.350775+00:00",
  "market": {
   "btc_dominance": 60.06,
-  "usdt_dominance": 6.8,
-  "mcap_change_24h": -2.9,
+  "usdt_dominance": 6.81,
+  "mcap_change_24h": -3.07,
   "trending": [
    "BTC",
+   "PENGU",
    "AXIS",
-   "ENA",
    "QNT",
-   "SOL",
    "AERO",
-   "ICP",
-   "QTC",
+   "ENA",
+   "PEARL",
+   "SOL",
    "DOOD",
-   "XRP"
+   "PONS"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-10-28",
+   "url": "https://www.binance.com/en/support/announcement/8a61b05a34694eab8e2044b6e005e85a",
+   "published": "2026-10-26T07:30:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc4e3b243014b",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T07:43:06.350775+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Over 11 million bitcoin has no known owner. Here's what it means",
+   "url": "https://www.coindesk.com/markets/2026/10/26/over-11-million-btc-can-t-be-linked-to-any-known-owner-even-after-wall-street-buying",
+   "published": "2026-10-26T07:18:24+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N655213fe8d75",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-26T07:43:06.350775+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
@@ -1215,23 +1251,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO",
-   "url": "https://www.coindesk.com/markets/2026/10/23/polymarket-has-reportedly-fired-its-marketing-chief-also-a-close-friend-of-the-ceo",
-   "published": "2026-10-23T05:01:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N140982d24e49",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T05:25:25.169601+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the ASML Holding N.V. (ASML) and Nokia Corporation (NOK) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/b3609ecc681f4be1a56da77f5fd26c9f",
@@ -2018,23 +2037,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
-   "url": "https://www.binance.com/en/support/announcement/172e44302d6143578e40acc48570a2e5",
-   "published": "2026-09-30T03:00:04.692000+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N631c4ac2265d",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Notice of Removal of Spot Trading Pairs - 2026-10-02",
    "url": "https://www.binance.com/en/support/announcement/63415de54a164619aaaf245850349654",
    "published": "2026-09-29T09:15:00+00:00",
@@ -2190,12 +2192,12 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.0,
-   "risk": 0.473,
+   "risk": 0.468,
    "events": [
     "macro"
    ],
-   "count": 8,
-   "last": "2026-10-26T05:15:20+00:00"
+   "count": 9,
+   "last": "2026-10-26T07:18:24+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
