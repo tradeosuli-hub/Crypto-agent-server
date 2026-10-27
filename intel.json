@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-10-27T12:18:00.074607+00:00",
+ "updated_at": "2026-10-27T12:47:33.669751+00:00",
  "market": {
   "btc_dominance": 59.44,
-  "usdt_dominance": 6.76,
-  "mcap_change_24h": -3.22,
+  "usdt_dominance": 6.72,
+  "mcap_change_24h": -2.75,
   "trending": [
    "AIN",
-   "Q",
+   "VVV",
+   "PENGU",
+   "QTC",
    "PEARL",
    "BTC",
-   "QTC",
-   "PENGU",
-   "ETH",
-   "DOT",
-   "VVV",
-   "SOL"
+   "Q",
+   "QNT",
+   "SOL",
+   "SUI"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T12:18:24+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "TRX"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "TRXUSDT"
+   ],
+   "id": "N4b7fff0ca0c4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T12:47:33.669751+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Zcash co-founder proposes ending grants subsidy, citing $125 million treasury",
@@ -33,6 +55,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T12:18:00.074607+00:00",
    "notified": false
   },
@@ -55,6 +78,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T12:18:00.074607+00:00",
    "notified": false
   },
@@ -1636,23 +1660,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
-   "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-23T21:32:16+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N035780ef93e4",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T22:09:25.617787+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/ab3a0eac9e614819b7b6fa0c03504b1f",
@@ -2283,24 +2290,31 @@
   }
  ],
  "symbols": {
-  "XRPUSDT": {
-   "sentiment": 0.229,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 6,
-   "last": "2026-10-27T12:00:39+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": 0.014,
-   "risk": 0.492,
+   "sentiment": 0.028,
+   "risk": 0.487,
    "events": [
     "macro",
     "etf_flow",
     "token_burn"
    ],
-   "count": 21,
+   "count": 22,
+   "last": "2026-10-27T12:18:24+00:00"
+  },
+  "TRXUSDT": {
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-27T12:18:24+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.228,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 6,
    "last": "2026-10-27T12:00:39+00:00"
   },
   "SOLUSDT": {
@@ -2328,7 +2342,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.241,
+   "risk": 0.236,
    "events": [
     "macro"
    ],
