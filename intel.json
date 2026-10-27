@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-27T03:55:55.923274+00:00",
+ "updated_at": "2026-10-27T04:25:29.048373+00:00",
  "market": {
   "btc_dominance": 59.41,
-  "usdt_dominance": 6.75,
-  "mcap_change_24h": -1.37,
+  "usdt_dominance": 6.76,
+  "mcap_change_24h": -1.42,
   "trending": [
-   "BTC",
-   "Q",
    "XRP",
-   "CHIP",
-   "LIT",
-   "PEARL",
+   "Q",
+   "BTC",
    "PENGU",
-   "ZEC",
    "NEAR",
-   "PONS"
+   "LIT",
+   "PONS",
+   "ETH",
+   "ZEC",
+   "SUI"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
+   "url": "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818",
+   "published": "2026-10-27T03:58:07+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N52799aecf3b2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T04:25:29.048373+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-10-28)",
@@ -1425,23 +1445,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Initia halts network after security incident as attacker reportedly mints tokens",
-   "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755",
-   "published": "2026-10-23T17:03:56+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncbcc79e89a1c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T17:14:10.098041+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "SEC flags tokenization as high-risk area in 2027 market examinations",
    "url": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2178,6 +2181,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.001,
+   "risk": 0.323,
+   "events": [
+    "token_burn",
+    "macro",
+    "etf_flow"
+   ],
+   "count": 14,
+   "last": "2026-10-27T03:58:07+00:00"
+  },
   "XRPUSDT": {
    "sentiment": 0.365,
    "risk": 0.0,
@@ -2203,20 +2217,9 @@
    "count": 3,
    "last": "2026-10-26T16:05:12+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": 0.001,
-   "risk": 0.328,
-   "events": [
-    "token_burn",
-    "macro",
-    "etf_flow"
-   ],
-   "count": 13,
-   "last": "2026-10-26T13:27:38+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.328,
+   "risk": 0.323,
    "events": [
     "macro"
    ],
