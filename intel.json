@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-27T21:10:45.408658+00:00",
+ "updated_at": "2026-10-27T21:40:16.106946+00:00",
  "market": {
   "btc_dominance": 59.48,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -1.56,
+  "usdt_dominance": 6.69,
+  "mcap_change_24h": -1.62,
   "trending": [
-   "NEAR",
-   "PENGU",
-   "BTC",
-   "ETH",
-   "PEARL",
-   "SOL",
    "STONK",
-   "AKE",
-   "SUI",
-   "XRP"
+   "NEAR",
+   "PEARL",
+   "XRP",
+   "ETH",
+   "CHIP",
+   "ZEC",
+   "PENGU",
+   "PONS",
+   "OSMO"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure",
+   "url": "https://cointelegraph.com/news/vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T21:28:22+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N75d67c65d8c9",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T21:40:16.106946+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks",
+   "url": "https://cointelegraph.com/news/intel-ibm-oracle-ionq-object-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T21:26:41+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6fe0e169b31e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T21:40:16.106946+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Robinhood Chain brings in $26 million as crypto revenue rises 20% in Q3",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T21:10:45.408658+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T21:10:45.408658+00:00",
    "notified": false
   },
@@ -2658,15 +2696,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.029,
-   "risk": 0.4,
+   "sentiment": 0.091,
+   "risk": 0.395,
    "events": [
+    "listing",
     "macro",
     "etf_flow",
     "token_burn"
    ],
-   "count": 26,
-   "last": "2026-10-27T20:33:19+00:00"
+   "count": 27,
+   "last": "2026-10-27T21:28:22+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.239,
@@ -2680,7 +2719,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.574,
+   "risk": 0.568,
    "events": [
     "regulation"
    ],
@@ -2702,7 +2741,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.154,
+   "sentiment": 0.153,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2719,7 +2758,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.148,
+   "risk": 0.143,
    "events": [
     "macro"
    ],
