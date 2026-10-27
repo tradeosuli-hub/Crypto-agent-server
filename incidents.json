@@ -5718,5 +5718,24 @@
   "escalations": 0,
   "resolved_at": "2026-10-27T23:09:07.697635+00:00",
   "resolution_fa": "برطرف شد پس از اقدام «حلقه دوباره روشن شد (dispatch روی همین شاخه)»"
+ },
+ {
+  "id": "I202610272323",
+  "ts": "2026-10-27T23:23:40.586114+00:00",
+  "kind": "scan_loop_dead",
+  "kind_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+  "cause": "scan_loop_dead",
+  "cause_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+  "severity": "high",
+  "summary_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · علت: حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · این علت 7 بار قبلاً دیده شده؛ آخرین اقدام: حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+  "brain": null,
+  "log_excerpt": "",
+  "action": "revive",
+  "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40600040288",
+  "last_action_ts": "2026-10-27T23:23:42.148029+00:00",
+  "checks": 1,
+  "escalations": 0,
+  "resolved_at": null
  }
 ]
