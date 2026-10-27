@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-27T06:53:11.330877+00:00",
+ "updated_at": "2026-10-27T07:22:43.255854+00:00",
  "market": {
-  "btc_dominance": 59.43,
+  "btc_dominance": 59.42,
   "usdt_dominance": 6.77,
-  "mcap_change_24h": -2.37,
+  "mcap_change_24h": -2.17,
   "trending": [
    "Q",
-   "AIN",
    "PEARL",
-   "HYPE",
-   "QNT",
-   "OSMO",
-   "NEAR",
-   "ONDO",
+   "PENGU",
+   "AIN",
    "SOL",
-   "AKT"
+   "QNT",
+   "BTC",
+   "NEAR",
+   "HYPE",
+   "OSMO"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders",
+   "url": "https://www.coindesk.com/tech/2026/10/27/ethereum-fixes-glamsterdam-bug-that-could-have-sent-staking-deposits-to-builders",
+   "published": "2026-10-27T07:09:56+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nf53e2dc2d784",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T07:22:43.255854+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance to Adjust Leverage on Select Isolated Margin Trading Pairs",
+   "url": "https://www.binance.com/en/support/announcement/98f858ce2402474a88369532d54494ef",
+   "published": "2026-10-27T07:00:14.462000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc4e24b062366",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T07:22:43.255854+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Circle faces up to 20% revenue risk from AI agents, Mizuho says",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T06:53:11.330877+00:00",
    "notified": false
   },
@@ -1352,23 +1389,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
-   "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
-   "published": "2026-10-24T14:38:47+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N652beee0d14a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-24T14:53:19.120514+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
    "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1799,23 +1819,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Updates Limited-Time Promotion for bStocks in Spot Liquidity Provider Program (2026-10-19)",
-   "url": "https://www.binance.com/en/support/announcement/74f92a17a4c84cf09c692a6010362c27",
-   "published": "2026-10-15T07:00:08.552000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb11563739ffa",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T07:23:50.023655+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/290a660c0b2e4e888c582cd29ecf9ecc",
    "published": "2026-10-14T06:00:08.049000+00:00",
@@ -2173,8 +2176,17 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.164,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 4,
+   "last": "2026-10-27T07:09:56+00:00"
+  },
   "XRPUSDT": {
-   "sentiment": 0.291,
+   "sentiment": 0.29,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2184,7 +2196,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.001,
-   "risk": 0.297,
+   "risk": 0.292,
    "events": [
     "token_burn",
     "macro",
@@ -2200,18 +2212,9 @@
    "count": 1,
    "last": "2026-10-26T19:43:47+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": 0.234,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 3,
-   "last": "2026-10-26T16:05:12+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.297,
+   "risk": 0.292,
    "events": [
     "macro"
    ],
