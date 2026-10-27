@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-10-27T11:48:29.954005+00:00",
+ "updated_at": "2026-10-27T12:18:00.074607+00:00",
  "market": {
-  "btc_dominance": 60.01,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -3.11,
+  "btc_dominance": 59.44,
+  "usdt_dominance": 6.76,
+  "mcap_change_24h": -3.22,
   "trending": [
    "AIN",
-   "BTC",
    "Q",
-   "VVV",
    "PEARL",
+   "BTC",
    "QTC",
-   "ETH",
    "PENGU",
-   "PUMP",
-   "AERO"
+   "ETH",
+   "DOT",
+   "VVV",
+   "SOL"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Zcash co-founder proposes ending grants subsidy, citing $125 million treasury",
+   "url": "https://www.theblock.co/news/ecosystems/2026-10-27-zcash-co-founder-proposes-ending-grants-subsidy-citing-125-million-treasury-431847",
+   "published": "2026-10-27T12:05:17+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndbd84af69a4d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T12:18:00.074607+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/27/bitcoin-shows-signs-of-weakness-while-ripple-s-bank-win-fails-to-bolster-xrp",
+   "published": "2026-10-27T12:00:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP",
+    "BTC"
+   ],
+   "symbols": [
+    "XRPUSDT",
+    "BTCUSDT"
+   ],
+   "id": "N6b2837be0f86",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T12:18:00.074607+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital",
@@ -37,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T11:48:29.954005+00:00",
    "notified": false
   },
@@ -53,6 +92,7 @@
    "importance": 2,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T11:48:29.954005+00:00",
    "notified": false
   },
@@ -73,6 +113,7 @@
    "importance": 8,
    "sentiment": 0.1,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-27T11:48:29.954005+00:00",
    "notified": false
   },
@@ -1595,23 +1636,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’",
-   "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
-   "published": "2026-10-24T16:24:13+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Need3aa9dbd8e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-24T16:51:23.371201+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
    "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2259,16 +2283,25 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.229,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 6,
+   "last": "2026-10-27T12:00:39+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": 0.015,
-   "risk": 0.497,
+   "sentiment": 0.014,
+   "risk": 0.492,
    "events": [
     "macro",
     "etf_flow",
     "token_burn"
    ],
-   "count": 20,
-   "last": "2026-10-27T11:40:50+00:00"
+   "count": 21,
+   "last": "2026-10-27T12:00:39+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2286,15 +2319,6 @@
    "count": 4,
    "last": "2026-10-27T07:09:56+00:00"
   },
-  "XRPUSDT": {
-   "sentiment": 0.286,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 5,
-   "last": "2026-10-27T04:28:49+00:00"
-  },
   "BNBUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2304,7 +2328,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.246,
+   "risk": 0.241,
    "events": [
     "macro"
    ],
