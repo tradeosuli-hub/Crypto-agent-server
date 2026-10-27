@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-27T08:51:19.483657+00:00",
+ "updated_at": "2026-10-27T09:20:47.661119+00:00",
  "market": {
-  "btc_dominance": 60.02,
+  "btc_dominance": 60.0,
   "usdt_dominance": 6.83,
-  "mcap_change_24h": -2.83,
+  "mcap_change_24h": -3.18,
   "trending": [
-   "BTC",
-   "BTC",
    "AIN",
-   "PENGU",
-   "NIL",
-   "PEARL",
-   "SUI",
+   "BTC",
    "QNT",
+   "PEARL",
    "TAO",
-   "OSMO"
+   "NIL",
+   "Q",
+   "XRP",
+   "AERO",
+   "QTC"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bloom bot hackers loot $953K faster than you can microwave popcorn",
+   "url": "https://cointelegraph.com/news/bloom-bot-hackers-953k-faster-popcorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T09:07:37+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5b672ff01764",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-27T09:20:47.661119+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-30)",
+   "url": "https://www.binance.com/en/support/announcement/5b6849270abd4e41a98d94abbf7b28f0",
+   "published": "2026-10-27T09:00:07.580000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N42801379a7ab",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T09:20:47.661119+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Notice of Removal of Spot Trading Pairs - 2026-10-30",
@@ -33,6 +65,7 @@
    "importance": 9,
    "sentiment": -0.8,
    "risk": 0.9,
+   "summary_fa": null,
    "first_seen": "2026-10-27T08:51:19.483657+00:00",
    "notified": false
   },
@@ -49,6 +82,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T08:51:19.483657+00:00",
    "notified": false
   },
@@ -1495,23 +1529,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Initia halts blockchain after exploit reportedly drains over $2.6M",
-   "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-23T18:39:02+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na6ab63dbe60c",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T19:12:11.594571+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
    "url": "https://www.theblock.co/news/markets/2026-10-23-netanyahu-israel-blockchain-plan-possible-sanctions-427792",
@@ -1832,23 +1849,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-19T00:26:51.140401+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Launches Covered Call & Cash-Secured Put — Short Options Strategies Now Available",
-   "url": "https://www.binance.com/en/support/announcement/9fe16193d2ca442ca4d0fca0d608c910",
-   "published": "2026-10-15T10:00:08.418000+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfc300f174903",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-15T10:20:43.700167+00:00",
    "notified": false
   },
   {
@@ -2184,8 +2184,8 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.001,
-   "risk": 0.277,
+   "sentiment": 0.002,
+   "risk": 0.271,
    "events": [
     "etf_flow",
     "token_burn",
@@ -2221,7 +2221,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.277,
+   "risk": 0.271,
    "events": [
     "macro"
    ],
