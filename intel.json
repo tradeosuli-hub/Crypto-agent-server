@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-27T14:45:50.904530+00:00",
+ "updated_at": "2026-10-27T15:15:25.471257+00:00",
  "market": {
-  "btc_dominance": 59.44,
-  "usdt_dominance": 6.72,
-  "mcap_change_24h": -1.96,
+  "btc_dominance": 59.43,
+  "usdt_dominance": 6.71,
+  "mcap_change_24h": -2.68,
   "trending": [
-   "AKT",
    "AIN",
    "BTC",
-   "QTC",
-   "PEARL",
-   "SOL",
    "NEAR",
+   "AKT",
    "CHIP",
-   "QNT",
-   "KAS"
+   "SOL",
+   "PENGU",
+   "HYPE",
+   "ZEC",
+   "OSMO"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Ripple, BNY explore using the XRP Ledger to finance approved invoices",
+   "url": "https://www.theblock.co/news/business/2026-10-27-ripple-bny-explore-using-xrp-ledger-finance-approved-invoices-431891",
+   "published": "2026-10-27T15:01:12+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N678324b148b3",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T15:15:25.471257+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Galaxy Digital swings to $323 million quarterly profit, announces new $200 million share buyback",
@@ -33,6 +53,7 @@
    "importance": 5,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T14:45:50.904530+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T14:45:50.904530+00:00",
    "notified": false
   },
@@ -69,6 +91,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T14:45:50.904530+00:00",
    "notified": false
   },
@@ -264,15 +287,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital",
+   "title": "Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital",
    "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
    "published": "2026-10-27T11:40:50+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "N3aae13badaee",
    "kind_fa": "خبر",
@@ -2398,9 +2423,18 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.238,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 7,
+   "last": "2026-10-27T15:01:12+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.025,
-   "risk": 0.466,
+   "risk": 0.461,
    "events": [
     "macro",
     "etf_flow",
@@ -2416,14 +2450,14 @@
    "count": 1,
    "last": "2026-10-27T12:18:24+00:00"
   },
-  "XRPUSDT": {
-   "sentiment": 0.226,
-   "risk": 0.0,
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.21,
    "events": [
-    "listing"
+    "macro"
    ],
-   "count": 6,
-   "last": "2026-10-27T12:00:39+00:00"
+   "count": 2,
+   "last": "2026-10-27T11:40:50+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2447,15 +2481,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-26T19:43:47+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.215,
-   "events": [
-    "macro"
-   ],
-   "count": 1,
-   "last": "2026-10-26T11:24:33+00:00"
   }
  },
  "social": {},
