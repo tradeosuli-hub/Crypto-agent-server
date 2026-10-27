@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-27T03:26:23.523229+00:00",
+ "updated_at": "2026-10-27T03:55:55.923274+00:00",
  "market": {
-  "btc_dominance": 59.4,
-  "usdt_dominance": 6.77,
-  "mcap_change_24h": -1.56,
+  "btc_dominance": 59.41,
+  "usdt_dominance": 6.75,
+  "mcap_change_24h": -1.37,
   "trending": [
-   "Q",
-   "PENGU",
    "BTC",
-   "CHIP",
-   "PEARL",
+   "Q",
    "XRP",
-   "ETH",
-   "HYPE",
-   "AKT",
-   "QNT"
+   "CHIP",
+   "LIT",
+   "PEARL",
+   "PENGU",
+   "ZEC",
+   "NEAR",
+   "PONS"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T03:26:23.523229+00:00",
    "notified": false
   },
@@ -2194,7 +2195,7 @@
    "last": "2026-10-26T19:43:47+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.23,
+   "sentiment": 0.231,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2203,8 +2204,8 @@
    "last": "2026-10-26T16:05:12+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.333,
+   "sentiment": 0.001,
+   "risk": 0.328,
    "events": [
     "token_burn",
     "macro",
@@ -2215,7 +2216,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.333,
+   "risk": 0.328,
    "events": [
     "macro"
    ],
