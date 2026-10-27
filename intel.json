@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-27T15:44:59.986895+00:00",
+ "updated_at": "2026-10-27T16:14:38.114665+00:00",
  "market": {
   "btc_dominance": 59.41,
   "usdt_dominance": 6.7,
-  "mcap_change_24h": -2.44,
+  "mcap_change_24h": -2.42,
   "trending": [
+   "SQUEEK",
    "AIN",
-   "PENGU",
-   "NEAR",
-   "HYPE",
    "BTC",
    "CHIP",
+   "PENGU",
    "XRP",
-   "SOL",
-   "ETH",
-   "PEARL"
+   "PEARL",
+   "HYPE",
+   "ENA",
+   "QTC"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko",
+   "url": "https://cointelegraph.com/news/usdc-overtakes-usdt-euro-stablecoin-trading-mica-kaiko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T15:59:58+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc2f8f8107bb3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T16:14:38.114665+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "SoFi discloses 503,000 crypto products as gross crypto revenue hits $162 million",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T15:44:59.986895+00:00",
    "notified": false
   },
@@ -1742,23 +1759,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Keystone customers say breach exposed data the hardware wallet maker promised to delete",
-   "url": "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613",
-   "published": "2026-10-25T15:56:30+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd37fddecc3cb",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-25T15:58:36.190511+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
    "url": "https://www.binance.com/en/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
@@ -2407,7 +2407,7 @@
  ],
  "symbols": {
   "XRPUSDT": {
-   "sentiment": 0.238,
+   "sentiment": 0.237,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2416,8 +2416,8 @@
    "last": "2026-10-27T15:01:12+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.025,
-   "risk": 0.456,
+   "sentiment": 0.026,
+   "risk": 0.451,
    "events": [
     "macro",
     "etf_flow",
@@ -2435,7 +2435,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.205,
+   "risk": 0.2,
    "events": [
     "macro"
    ],
@@ -2450,7 +2450,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.162,
+   "sentiment": 0.161,
    "risk": 0.0,
    "events": [
     "token_burn"
