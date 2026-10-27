@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-27T02:27:19.737567+00:00",
+ "updated_at": "2026-10-27T02:56:53.012904+00:00",
  "market": {
   "btc_dominance": 59.43,
-  "usdt_dominance": 6.74,
-  "mcap_change_24h": -1.42,
+  "usdt_dominance": 6.75,
+  "mcap_change_24h": -1.53,
   "trending": [
    "PENGU",
-   "CHIP",
    "Q",
-   "PEARL",
-   "HYPE",
-   "AERO",
-   "XRP",
    "BTC",
-   "NEAR",
-   "SOL"
+   "CHIP",
+   "XRP",
+   "ETH",
+   "PEARL",
+   "SUI",
+   "HYPE",
+   "TOSHI"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Ripple gains final OCC approval to launch national trust bank and bring RLUSD under federal oversight",
+   "url": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810",
+   "published": "2026-10-27T02:28:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Na981244b2ea5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T02:56:53.012904+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
@@ -33,6 +53,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T02:27:19.737567+00:00",
    "notified": false
   },
@@ -2157,13 +2178,13 @@
  ],
  "symbols": {
   "XRPUSDT": {
-   "sentiment": 0.385,
+   "sentiment": 0.365,
    "risk": 0.0,
    "events": [
     "listing"
    ],
-   "count": 3,
-   "last": "2026-10-27T00:06:41+00:00"
+   "count": 4,
+   "last": "2026-10-27T02:28:18+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
@@ -2173,7 +2194,7 @@
    "last": "2026-10-26T19:43:47+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.229,
+   "sentiment": 0.23,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2183,7 +2204,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.0,
-   "risk": 0.343,
+   "risk": 0.338,
    "events": [
     "token_burn",
     "macro",
@@ -2194,7 +2215,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.343,
+   "risk": 0.338,
    "events": [
     "macro"
    ],
