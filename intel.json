@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-27T14:16:20.797049+00:00",
+ "updated_at": "2026-10-27T14:45:50.904530+00:00",
  "market": {
-  "btc_dominance": 59.42,
-  "usdt_dominance": 6.74,
-  "mcap_change_24h": -2.19,
+  "btc_dominance": 59.44,
+  "usdt_dominance": 6.72,
+  "mcap_change_24h": -1.96,
   "trending": [
+   "AKT",
    "AIN",
    "BTC",
-   "PEARL",
    "QTC",
-   "AKT",
-   "PENGU",
-   "NEAR",
-   "ZEC",
+   "PEARL",
    "SOL",
-   "SPX"
+   "NEAR",
+   "CHIP",
+   "QNT",
+   "KAS"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Galaxy Digital swings to $323 million quarterly profit, announces new $200 million share buyback",
+   "url": "https://www.theblock.co/news/business/2026-10-27-galaxy-digital-323-million-quarterly-profit-new-200-million-share-buyback-431860",
+   "published": "2026-10-27T14:39:22+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3c4fd6bb7026",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 5,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T14:45:50.904530+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Bitcoin mining infrastructure firm Luxor raises $16 million to expand AI business",
+   "url": "https://www.theblock.co/news/deals/2026-10-27-bitcoin-mining-ai-luxor-technology-funding-431858",
+   "published": "2026-10-27T14:32:08+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N97b1c0305bf4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T14:45:50.904530+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
+   "url": "https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund",
+   "published": "2026-10-27T14:21:10+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na9f5d030670f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T14:45:50.904530+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Crypto Market Structure Explained",
@@ -33,6 +85,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T14:16:20.797049+00:00",
    "notified": false
   },
@@ -49,6 +102,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T14:16:20.797049+00:00",
    "notified": false
   },
@@ -2345,15 +2399,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.026,
-   "risk": 0.472,
+   "sentiment": 0.025,
+   "risk": 0.466,
    "events": [
     "macro",
     "etf_flow",
     "token_burn"
    ],
-   "count": 24,
-   "last": "2026-10-27T13:13:50+00:00"
+   "count": 25,
+   "last": "2026-10-27T14:32:08+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.3,
@@ -2379,7 +2433,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.164,
+   "sentiment": 0.163,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2396,7 +2450,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.22,
+   "risk": 0.215,
    "events": [
     "macro"
    ],
