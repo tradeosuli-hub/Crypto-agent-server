@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-10-27T11:18:55.808683+00:00",
+ "updated_at": "2026-10-27T11:48:29.954005+00:00",
  "market": {
-  "btc_dominance": 60.03,
-  "usdt_dominance": 6.8,
-  "mcap_change_24h": -2.9,
+  "btc_dominance": 60.01,
+  "usdt_dominance": 6.82,
+  "mcap_change_24h": -3.11,
   "trending": [
    "AIN",
    "BTC",
-   "PENGU",
-   "PEARL",
-   "VVV",
    "Q",
-   "NIL",
-   "AAVE",
-   "QNT",
-   "SUI"
+   "VVV",
+   "PEARL",
+   "QTC",
+   "ETH",
+   "PENGU",
+   "PUMP",
+   "AERO"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital",
+   "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
+   "published": "2026-10-27T11:40:50+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N3aae13badaee",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T11:48:29.954005+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+   "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
+   "published": "2026-10-27T11:37:52+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N63878664dc1e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T11:48:29.954005+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
+   "url": "https://www.coindesk.com/markets/2026/10/27/bitcoin-drops-below-usd80-000-as-crypto-ignores-asian-tech-rally-fed-meeting-begins",
+   "published": "2026-10-27T11:32:45+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nd19d3a4e53f1",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.1,
+   "risk": 0.5,
+   "first_seen": "2026-10-27T11:48:29.954005+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
@@ -33,6 +89,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T11:18:55.808683+00:00",
    "notified": false
   },
@@ -53,6 +110,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T11:18:55.808683+00:00",
    "notified": false
   },
@@ -73,6 +131,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T11:18:55.808683+00:00",
    "notified": false
   },
@@ -2201,15 +2260,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.002,
-   "risk": 0.251,
+   "sentiment": 0.015,
+   "risk": 0.497,
    "events": [
+    "macro",
     "etf_flow",
-    "token_burn",
-    "macro"
+    "token_burn"
    ],
-   "count": 18,
-   "last": "2026-10-27T10:57:51+00:00"
+   "count": 20,
+   "last": "2026-10-27T11:40:50+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2228,7 +2287,7 @@
    "last": "2026-10-27T07:09:56+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.287,
+   "sentiment": 0.286,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2245,7 +2304,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.251,
+   "risk": 0.246,
    "events": [
     "macro"
    ],
