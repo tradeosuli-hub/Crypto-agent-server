@@ -1,22 +1,61 @@
 {
- "updated_at": "2026-10-27T20:11:40.211549+00:00",
+ "updated_at": "2026-10-27T20:41:13.113234+00:00",
  "market": {
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.69,
+  "mcap_change_24h": -1.88,
   "trending": [
-   "SUI",
-   "AIN",
-   "CHIP",
-   "PENGU",
-   "BTC",
-   "XRP",
-   "PEARL",
    "NEAR",
-   "QNT",
-   "DRV"
+   "SOL",
+   "SUI",
+   "PENGU",
+   "CHIP",
+   "HYPE",
+   "BTC",
+   "DRV",
+   "LINK",
+   "JASMY"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Quantum fears already limiting Bitcoin’s growth, Stacks founder says",
+   "url": "https://cointelegraph.com/news/quantum-fears-already-limiting-bitcoins-growth-stacks-founder-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T20:33:19+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne18a6a6249e4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T20:41:13.113234+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
+   "url": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
+   "published": "2026-10-27T20:32:21+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N31c7e593ed47",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T20:41:13.113234+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets",
@@ -34,6 +73,7 @@
    "importance": 5,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T20:11:40.211549+00:00",
    "notified": false
   },
@@ -517,22 +557,20 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital",
+   "title": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
    "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
    "published": "2026-10-27T11:40:50+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC",
-    "NEAR"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
+    "BTCUSDT"
    ],
    "id": "N3aae13badaee",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": 0.3,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-27T11:48:29.954005+00:00",
@@ -2585,6 +2623,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.029,
+   "risk": 0.405,
+   "events": [
+    "macro",
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 26,
+   "last": "2026-10-27T20:33:19+00:00"
+  },
   "XRPUSDT": {
    "sentiment": 0.24,
    "risk": 0.0,
@@ -2597,23 +2646,12 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.587,
+   "risk": 0.581,
    "events": [
     "regulation"
    ],
    "count": 1,
    "last": "2026-10-27T19:07:59+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.027,
-   "risk": 0.41,
-   "events": [
-    "macro",
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 25,
-   "last": "2026-10-27T14:32:08+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.3,
@@ -2621,15 +2659,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-27T12:18:24+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.158,
-   "events": [
-    "macro"
-   ],
-   "count": 2,
-   "last": "2026-10-27T11:40:50+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2653,6 +2682,15 @@
    "events": [],
    "count": 1,
    "last": "2026-10-26T19:43:47+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.153,
+   "events": [
+    "macro"
+   ],
+   "count": 1,
+   "last": "2026-10-26T11:24:33+00:00"
   }
  },
  "social": {},
