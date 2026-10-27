@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-27T09:20:47.661119+00:00",
+ "updated_at": "2026-10-27T09:50:19.806988+00:00",
  "market": {
-  "btc_dominance": 60.0,
-  "usdt_dominance": 6.83,
-  "mcap_change_24h": -3.18,
+  "btc_dominance": 60.02,
+  "usdt_dominance": 6.84,
+  "mcap_change_24h": -3.25,
   "trending": [
    "AIN",
-   "BTC",
-   "QNT",
-   "PEARL",
-   "TAO",
    "NIL",
+   "BTC",
+   "PENGU",
+   "TAO",
+   "QTC",
+   "PEARL",
+   "QNT",
    "Q",
-   "XRP",
-   "AERO",
-   "QTC"
+   "SOL"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Now is the time to accumulate bitcoin, Galaxy says",
+   "url": "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
+   "published": "2026-10-27T09:42:46+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N177b4201edfd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T09:50:19.806988+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bloom bot hackers loot $953K faster than you can microwave popcorn",
@@ -33,6 +53,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T09:20:47.661119+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T09:20:47.661119+00:00",
    "notified": false
   },
@@ -1478,23 +1500,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
-   "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
-   "published": "2026-10-24T15:21:06+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N14cdf5b43829",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-24T15:22:51.910257+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
    "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2176,23 +2181,23 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": 0.002,
+   "risk": 0.266,
+   "events": [
+    "etf_flow",
+    "token_burn",
+    "macro"
+   ],
+   "count": 16,
+   "last": "2026-10-27T09:42:46+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 2,
    "last": "2026-10-27T07:44:04+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": 0.002,
-   "risk": 0.271,
-   "events": [
-    "etf_flow",
-    "token_burn",
-    "macro"
-   ],
-   "count": 15,
-   "last": "2026-10-27T07:35:37+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.164,
@@ -2204,7 +2209,7 @@
    "last": "2026-10-27T07:09:56+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.289,
+   "sentiment": 0.288,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2221,7 +2226,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.271,
+   "risk": 0.266,
    "events": [
     "macro"
    ],
