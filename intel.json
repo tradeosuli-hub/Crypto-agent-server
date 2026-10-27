@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-27T04:25:29.048373+00:00",
+ "updated_at": "2026-10-27T04:54:57.846421+00:00",
  "market": {
-  "btc_dominance": 59.41,
-  "usdt_dominance": 6.76,
-  "mcap_change_24h": -1.42,
+  "btc_dominance": 59.4,
+  "usdt_dominance": 6.77,
+  "mcap_change_24h": -1.56,
   "trending": [
-   "XRP",
    "Q",
-   "BTC",
    "PENGU",
-   "NEAR",
-   "LIT",
-   "PONS",
+   "BTC",
+   "XRP",
    "ETH",
+   "QTC",
+   "QNT",
    "ZEC",
-   "SUI"
+   "NEAR",
+   "PEARL"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
+   "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
+   "published": "2026-10-27T04:28:49+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N58b1d4145604",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T04:54:57.846421+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "RedotPay weighs confidential US IPO filing by year-end: Bloomberg",
+   "url": "https://cointelegraph.com/news/redotpay-weighs-confidential-us-ipo-filing-by-year-end-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T04:26:51+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ned1ec635bd13",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T04:54:57.846421+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T04:25:29.048373+00:00",
    "notified": false
   },
@@ -1314,27 +1351,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
-   "url": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
-   "published": "2026-10-24T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nd9bb4b4d2153",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-24T18:19:51.661214+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
    "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1457,27 +1473,6 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T16:15:07.570997+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
-   "url": "https://cointelegraph.com/markets/bitcoin-seeks-support-above-81k-as-brent-crude-oil-hits-highest-level-since-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-23T15:39:17+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N258d60201e47",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-23T16:15:07.570997+00:00",
    "notified": false
@@ -2181,9 +2176,18 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.292,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 5,
+   "last": "2026-10-27T04:28:49+00:00"
+  },
   "BTCUSDT": {
    "sentiment": 0.001,
-   "risk": 0.323,
+   "risk": 0.318,
    "events": [
     "token_burn",
     "macro",
@@ -2191,15 +2195,6 @@
    ],
    "count": 14,
    "last": "2026-10-27T03:58:07+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.365,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 4,
-   "last": "2026-10-27T02:28:18+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
@@ -2209,7 +2204,7 @@
    "last": "2026-10-26T19:43:47+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.231,
+   "sentiment": 0.232,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -2219,7 +2214,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.323,
+   "risk": 0.318,
    "events": [
     "macro"
    ],
