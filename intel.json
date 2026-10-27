@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-27T08:21:49.220785+00:00",
+ "updated_at": "2026-10-27T08:51:19.483657+00:00",
  "market": {
-  "btc_dominance": 60.0,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -2.77,
+  "btc_dominance": 60.02,
+  "usdt_dominance": 6.83,
+  "mcap_change_24h": -2.83,
   "trending": [
-   "NIL",
    "BTC",
-   "SUI",
-   "PENGU",
+   "BTC",
    "AIN",
-   "Q",
+   "PENGU",
+   "NIL",
    "PEARL",
+   "SUI",
    "QNT",
-   "NEAR",
-   "SOL"
+   "TAO",
+   "OSMO"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Notice of Removal of Spot Trading Pairs - 2026-10-30",
+   "url": "https://www.binance.com/en/support/announcement/de45689cbd7b4e1fa87055cdf5a85997",
+   "published": "2026-10-27T08:30:00+00:00",
+   "kind": "delisting",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfba5e764535f",
+   "kind_fa": "حذف از صرافی",
+   "importance": 9,
+   "sentiment": -0.8,
+   "risk": 0.9,
+   "first_seen": "2026-10-27T08:51:19.483657+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "An AI label alone no longer wins lenders, JPMorgan says",
+   "url": "https://www.coindesk.com/markets/2026/10/27/an-ai-label-alone-no-longer-wins-lenders-jpmorgan-says",
+   "published": "2026-10-27T08:24:39+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7bf62edff33a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T08:51:19.483657+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance files for Brazil crypto license ahead of Friday deadline",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T08:21:49.220785+00:00",
    "notified": false
   },
@@ -49,6 +82,7 @@
    "importance": 9,
    "sentiment": -0.8,
    "risk": 0.9,
+   "summary_fa": null,
    "first_seen": "2026-10-27T08:21:49.220785+00:00",
    "notified": false
   },
@@ -1427,27 +1461,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
-   "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
-   "published": "2026-10-24T15:11:24+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5d8aed6b88bf",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-24T15:22:51.910257+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
    "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2160,23 +2173,6 @@
    "summary_fa": null,
    "first_seen": "2026-10-07T21:42:49.326766+00:00",
    "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Will Delist USDP on 2026-09-24",
-   "url": "https://www.binance.com/en/support/announcement/8e6fd91b79a34bddbd7643ef002db47e",
-   "published": "2026-09-10T06:00:12.727000+00:00",
-   "kind": "delisting",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N012eaff4b373",
-   "kind_fa": "حذف از صرافی",
-   "importance": 9,
-   "sentiment": -0.8,
-   "risk": 0.9,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
   }
  ],
  "symbols": {
@@ -2189,7 +2185,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.001,
-   "risk": 0.282,
+   "risk": 0.277,
    "events": [
     "etf_flow",
     "token_burn",
@@ -2225,7 +2221,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.282,
+   "risk": 0.277,
    "events": [
     "macro"
    ],
