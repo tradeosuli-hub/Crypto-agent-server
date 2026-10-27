@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-10-27T10:49:22.890104+00:00",
+ "updated_at": "2026-10-27T11:18:55.808683+00:00",
  "market": {
   "btc_dominance": 60.03,
-  "usdt_dominance": 6.81,
-  "mcap_change_24h": -3.11,
+  "usdt_dominance": 6.8,
+  "mcap_change_24h": -2.9,
   "trending": [
    "AIN",
    "BTC",
+   "PENGU",
    "PEARL",
+   "VVV",
    "Q",
-   "QNT",
-   "SOL",
-   "ZEC",
    "NIL",
-   "AERO",
-   "ETH"
+   "AAVE",
+   "QNT",
+   "SUI"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
+   "url": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
+   "published": "2026-10-27T11:13:54+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb1b914e55cbb",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-27T11:18:55.808683+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
+   "url": "https://www.coindesk.com/markets/2026/10/27/investor-who-called-for-ai-pivot-in-2023-says-bitcoin-is-going-to-usd57-000",
+   "published": "2026-10-27T10:57:51+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N98978948ee78",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T11:18:55.808683+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ark Invest buys $5.2 million of Circle shares, sells $15.9 million of its own Bitcoin ETF as BTC grinds lower",
+   "url": "https://www.theblock.co/news/markets/2026-10-27-ark-invest-buys-5-2-million-of-circle-shares-sells-15-9-million-of-its-own-bitcoin-etf-as-btc-grinds-lower-431838",
+   "published": "2026-10-27T10:57:34+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N30c10b4521ea",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T11:18:55.808683+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Zcash co-founder calls to stop funding ‘over $125M’ grants program",
@@ -33,6 +89,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T10:49:22.890104+00:00",
    "notified": false
   },
@@ -1496,27 +1553,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
-   "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
-   "published": "2026-10-24T16:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ndf6d79ad7991",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-24T16:21:52.617758+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
    "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1531,23 +1567,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-23T22:09:25.617787+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
-   "url": "https://www.theblock.co/news/markets/2026-10-23-netanyahu-israel-blockchain-plan-possible-sanctions-427792",
-   "published": "2026-10-23T18:15:55+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd05f1c261a5f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T18:42:40.070478+00:00",
    "notified": false
   },
   {
@@ -2183,14 +2202,14 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.002,
-   "risk": 0.256,
+   "risk": 0.251,
    "events": [
     "etf_flow",
     "token_burn",
     "macro"
    ],
-   "count": 16,
-   "last": "2026-10-27T09:42:46+00:00"
+   "count": 18,
+   "last": "2026-10-27T10:57:51+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2226,7 +2245,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.256,
+   "risk": 0.251,
    "events": [
     "macro"
    ],
