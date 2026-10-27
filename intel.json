@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-27T07:52:14.863011+00:00",
+ "updated_at": "2026-10-27T08:21:49.220785+00:00",
  "market": {
-  "btc_dominance": 59.4,
-  "usdt_dominance": 6.77,
-  "mcap_change_24h": -2.12,
+  "btc_dominance": 60.0,
+  "usdt_dominance": 6.82,
+  "mcap_change_24h": -2.77,
   "trending": [
-   "Q",
-   "AIN",
    "NIL",
    "BTC",
-   "QNT",
+   "SUI",
    "PENGU",
-   "SOL",
+   "AIN",
+   "Q",
    "PEARL",
-   "TAO",
-   "XRP"
+   "QNT",
+   "NEAR",
+   "SOL"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance files for Brazil crypto license ahead of Friday deadline",
+   "url": "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T08:04:21+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ncef8ed5dbdd2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T08:21:49.220785+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Notice of Removal of Margin Trading Pairs - 2026-10-30",
+   "url": "https://www.binance.com/en/support/announcement/b4015154ce33445ebf7b98d1bc12c072",
+   "published": "2026-10-27T08:00:09.176000+00:00",
+   "kind": "delisting",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8feaeec7f172",
+   "kind_fa": "حذف از صرافی",
+   "importance": 9,
+   "sentiment": -0.8,
+   "risk": 0.9,
+   "first_seen": "2026-10-27T08:21:49.220785+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
@@ -37,6 +69,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T07:52:14.863011+00:00",
    "notified": false
   },
@@ -57,6 +90,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T07:52:14.863011+00:00",
    "notified": false
   },
@@ -1482,27 +1516,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "US senator probes Tether after reported deal with ex-Trump crypto adviser",
-   "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-23T17:42:12+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N157b40ca48df",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T18:13:12.175424+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/ab3a0eac9e614819b7b6fa0c03504b1f",
@@ -2164,23 +2177,6 @@
    "summary_fa": null,
    "first_seen": "2026-10-07T21:42:49.326766+00:00",
    "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Notice of Removal of Margin Trading Pairs and Collateral - 2026-09-11",
-   "url": "https://www.binance.com/en/support/announcement/6951f54839734dfb93be3541756c6454",
-   "published": "2026-09-08T10:30:08.750000+00:00",
-   "kind": "delisting",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N32dc9bbdd427",
-   "kind_fa": "حذف از صرافی",
-   "importance": 9,
-   "sentiment": -0.8,
-   "risk": 0.9,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
   }
  ],
  "symbols": {
@@ -2193,7 +2189,7 @@
   },
   "BTCUSDT": {
    "sentiment": 0.001,
-   "risk": 0.287,
+   "risk": 0.282,
    "events": [
     "etf_flow",
     "token_burn",
@@ -2212,7 +2208,7 @@
    "last": "2026-10-27T07:09:56+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.29,
+   "sentiment": 0.289,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2229,7 +2225,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.287,
+   "risk": 0.282,
    "events": [
     "macro"
    ],
