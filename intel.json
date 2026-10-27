@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-27T09:50:19.806988+00:00",
+ "updated_at": "2026-10-27T10:19:50.241733+00:00",
  "market": {
   "btc_dominance": 60.02,
-  "usdt_dominance": 6.84,
-  "mcap_change_24h": -3.25,
+  "usdt_dominance": 6.85,
+  "mcap_change_24h": -3.69,
   "trending": [
    "AIN",
-   "NIL",
    "BTC",
+   "NIL",
+   "Q",
+   "SOL",
+   "PEARL",
    "PENGU",
    "TAO",
-   "QTC",
-   "PEARL",
-   "QNT",
-   "Q",
-   "SOL"
+   "ZEC",
+   "QTC"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-27T09:50:19.806988+00:00",
    "notified": false
   },
@@ -2183,7 +2184,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.002,
-   "risk": 0.266,
+   "risk": 0.261,
    "events": [
     "etf_flow",
     "token_burn",
@@ -2226,7 +2227,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.266,
+   "risk": 0.261,
    "events": [
     "macro"
    ],
