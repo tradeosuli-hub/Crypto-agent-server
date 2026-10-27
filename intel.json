@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-27T17:43:28.163814+00:00",
+ "updated_at": "2026-10-27T18:13:09.945018+00:00",
  "market": {
   "btc_dominance": 59.42,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -1.96,
+  "usdt_dominance": 6.7,
+  "mcap_change_24h": -2.31,
   "trending": [
-   "SQUEEK",
    "PEARL",
    "QTC",
+   "PENGU",
+   "AERO",
    "Q",
+   "ZEC",
    "NEAR",
-   "LINK",
-   "SOL",
-   "GRASS",
-   "AIN",
-   "XRP"
+   "PEPE",
+   "VVV",
+   "GRASS"
   ],
   "fear_greed": 48,
   "fear_greed_label": "Neutral"
@@ -86,6 +86,26 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-27T16:44:15.030351+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+   "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
+   "published": "2026-10-27T16:35:29+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N71b1d394fd44",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T18:13:09.945018+00:00",
    "notified": false
   },
   {
@@ -2476,17 +2496,17 @@
  ],
  "symbols": {
   "XRPUSDT": {
-   "sentiment": 0.235,
+   "sentiment": 0.197,
    "risk": 0.0,
    "events": [
     "listing"
    ],
-   "count": 7,
-   "last": "2026-10-27T15:01:12+00:00"
+   "count": 8,
+   "last": "2026-10-27T16:35:29+00:00"
   },
   "BTCUSDT": {
    "sentiment": 0.026,
-   "risk": 0.436,
+   "risk": 0.43,
    "events": [
     "macro",
     "etf_flow",
@@ -2504,7 +2524,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.184,
+   "risk": 0.179,
    "events": [
     "macro"
    ],
