@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-26T23:59:30.375411+00:00",
+ "updated_at": "2026-10-27T00:29:02.170310+00:00",
  "market": {
-  "btc_dominance": 59.41,
-  "usdt_dominance": 6.73,
-  "mcap_change_24h": -2.06,
+  "btc_dominance": 59.43,
+  "usdt_dominance": 6.72,
+  "mcap_change_24h": -1.55,
   "trending": [
    "Q",
-   "PENGU",
+   "PEARL",
+   "IRYS",
+   "BTC",
+   "LIT",
    "AERO",
    "NEAR",
-   "IRYS",
-   "PEARL",
-   "CHIP",
-   "DOGE",
-   "APT",
-   "LIT"
+   "XRP",
+   "AVAX",
+   "PUMP"
   ],
-  "fear_greed": 50,
+  "fear_greed": 48,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Ripple wins final US approval for national trust bank",
+   "url": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-27T00:06:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N4594570b6925",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-27T00:29:02.170310+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "US OCC calls on community banks to become payment stablecoin issuers",
@@ -1425,23 +1445,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme",
-   "url": "https://cointelegraph.com/news/new-york-ag-novatech-founders-companies-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-23T12:33:37+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncfffcf78405d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-23T12:48:28.443492+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
    "url": "https://www.binance.com/en/support/announcement/ab3a0eac9e614819b7b6fa0c03504b1f",
@@ -2157,6 +2160,15 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.386,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 3,
+   "last": "2026-10-27T00:06:41+00:00"
+  },
   "BNBUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2175,7 +2187,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.0,
-   "risk": 0.369,
+   "risk": 0.364,
    "events": [
     "token_burn",
     "macro",
@@ -2184,18 +2196,9 @@
    "count": 13,
    "last": "2026-10-26T13:27:38+00:00"
   },
-  "XRPUSDT": {
-   "sentiment": 0.42,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 2,
-   "last": "2026-10-26T11:39:27+00:00"
-  },
   "NEARUSDT": {
    "sentiment": 0.0,
-   "risk": 0.369,
+   "risk": 0.364,
    "events": [
     "macro"
    ],
