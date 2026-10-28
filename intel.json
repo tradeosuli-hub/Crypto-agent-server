@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-28T05:32:50.072003+00:00",
+ "updated_at": "2026-10-28T06:02:25.280660+00:00",
  "market": {
-  "btc_dominance": 59.4,
+  "btc_dominance": 59.43,
   "usdt_dominance": 6.64,
   "mcap_change_24h": -1.16,
   "trending": [
+   "PEPE",
    "PENGU",
    "PONS",
-   "PEPE",
-   "QTC",
-   "BTC",
-   "HYPE",
-   "SUI",
-   "VVV",
    "PEARL",
-   "Q"
+   "HYPE",
+   "VVV",
+   "BTC",
+   "SOL",
+   "OSMO",
+   "ONDO"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Futures Updates Trading Fee Discount for TradFi Perps (2026-11-05)",
+   "url": "https://www.binance.com/en/support/announcement/4f406308840549ffb8fdaac9873c25a8",
+   "published": "2026-10-28T06:00:10.486000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N29e9317ce343",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T06:02:25.280660+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T05:32:50.072003+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T05:32:50.072003+00:00",
    "notified": false
   },
@@ -2063,40 +2081,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet",
-   "url": "https://www.coindesk.com/markets/2026/10/26/coindcx-absorbs-usd16-million-loss-from-internal-process-failure-tied-to-retired-wallet",
-   "published": "2026-10-26T05:39:17+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc3859884fb76",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T05:45:09.182609+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Musk warns over 200 AI neoclouds face ‘guppy-level death’",
-   "url": "https://cointelegraph.com/news/musk-warns-over-200-ai-neoclouds-face-guppy-level-death?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-26T05:13:33+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N07bb4c90d71b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T05:45:09.182609+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
    "url": "https://www.binance.com/en/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
@@ -2383,23 +2367,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-19T12:15:15.459698+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Will Support Dell Technologies (DELL) Cash Dividend Distribution via bStocks",
-   "url": "https://www.binance.com/en/support/announcement/2a76c51632a14a3ebfb1910e3fc3ae4d",
-   "published": "2026-10-19T01:00:18.349000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N42cf8cd33b20",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-19T01:25:57.674236+00:00",
    "notified": false
   },
   {
@@ -2694,8 +2661,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.086,
-   "risk": 0.487,
+   "sentiment": 0.085,
+   "risk": 0.481,
    "events": [
     "macro",
     "listing",
@@ -2707,7 +2674,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.487,
+   "risk": 0.481,
    "events": [
     "macro"
    ],
@@ -2716,7 +2683,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.166,
-   "risk": 0.487,
+   "risk": 0.481,
    "events": [
     "macro"
    ],
@@ -2735,7 +2702,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.47,
+   "risk": 0.464,
    "events": [
     "regulation"
    ],
@@ -2757,7 +2724,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.15,
+   "sentiment": 0.147,
    "risk": 0.0,
    "events": [
     "token_burn"
