@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-28T03:34:43.108143+00:00",
+ "updated_at": "2026-10-28T04:04:16.370038+00:00",
  "market": {
-  "btc_dominance": 59.4,
+  "btc_dominance": 59.42,
   "usdt_dominance": 6.62,
-  "mcap_change_24h": -1.05,
+  "mcap_change_24h": -1.03,
   "trending": [
    "PEPE",
    "PONS",
-   "BTC",
-   "PEARL",
-   "SOL",
    "PENGU",
-   "ENA",
-   "LIT",
-   "ALGO",
-   "ZK"
+   "PEARL",
+   "BTC",
+   "Q",
+   "SOL",
+   "QTC",
+   "FET",
+   "USELESS"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Robinhood’s Tenev warns US tokenization uncertainty deters ‘serious assets’",
+   "url": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-28T03:55:57+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na8df74f7d1fd",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T04:04:16.370038+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
@@ -33,6 +49,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T03:34:43.108143+00:00",
    "notified": false
   },
@@ -49,6 +66,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T03:34:43.108143+00:00",
    "notified": false
   },
@@ -2059,27 +2077,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
-   "url": "https://cointelegraph.com/news/hong-kong-names-nasdaq-listed-solana-company-a-strategic-enterprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-26T03:21:26+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nfca4c031bc6d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T03:47:17.365966+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
    "url": "https://www.binance.com/en/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
@@ -2694,8 +2691,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.088,
-   "risk": 0.333,
+   "sentiment": 0.087,
+   "risk": 0.328,
    "events": [
     "listing",
     "macro",
@@ -2717,7 +2714,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.494,
+   "risk": 0.488,
    "events": [
     "regulation"
    ],
@@ -2739,7 +2736,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.158,
+   "sentiment": 0.157,
    "risk": 0.0,
    "events": [
     "token_burn"
