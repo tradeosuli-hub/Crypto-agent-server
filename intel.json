@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-28T14:24:38.176209+00:00",
+ "updated_at": "2026-10-28T14:54:10.074816+00:00",
  "market": {
-  "btc_dominance": 59.48,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -2.1,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -2.03,
   "trending": [
+   "HYPE",
    "PENGU",
-   "NEAR",
-   "ENA",
-   "PEARL",
    "INIT",
-   "PEPE",
-   "QNT",
-   "ONDO",
+   "NEAR",
+   "CHIP",
    "SOL",
-   "CC"
+   "ONDO",
+   "QNT",
+   "BNB",
+   "PEARL"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Crypto braces for potential shift in congressional oversight after midterms",
+   "url": "https://www.theblock.co/news/regulation/2026-10-28-crypto-braces-for-potential-shift-in-congressional-oversight-after-midterms-431949",
+   "published": "2026-10-28T14:43:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N06c5af6161e4",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T14:54:10.074816+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Google Cloud outlines MPC service for institutional Bitcoin custody",
@@ -2108,61 +2124,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "PHP flaw shows AI ‘vulnerability apocalypse’ is on schedule: Immunefi CEO",
-   "url": "https://cointelegraph.com/news/php-flaw-ai-vulnerability-apocalypse-immunefi-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-26T14:25:22+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N22f45ca753f3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T14:36:47.542648+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
-   "url": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
-   "published": "2026-10-26T14:23:41+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N98142ecf4a46",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T14:36:47.542648+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Tom Lee insists ‘crypto bull market is underway’ as Bitmine adds 10,452 ETH",
-   "url": "https://www.theblock.co/news/business/2026-10-26-tom-lee-insists-crypto-bull-market-is-underway-as-bitmine-adds-10452-eth-431743",
-   "published": "2026-10-26T14:12:59+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N18a28407ad94",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T14:36:47.542648+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
    "url": "https://www.binance.com/en/support/announcement/02d204fc963f4f8687599fc22a13d538",
@@ -2744,7 +2705,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.166,
-   "risk": 0.469,
+   "risk": 0.463,
    "events": [
     "macro",
     "etf_flow",
@@ -2778,7 +2739,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.139,
-   "risk": 0.394,
+   "risk": 0.389,
    "events": [
     "macro"
    ],
@@ -2787,7 +2748,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.394,
+   "risk": 0.389,
    "events": [
     "macro"
    ],
@@ -2796,7 +2757,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.359,
+   "risk": 0.353,
    "events": [
     "regulation"
    ],
@@ -2811,7 +2772,7 @@
    "last": "2026-10-27T12:18:24+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.214,
+   "sentiment": 0.217,
    "risk": 0.0,
    "events": [
     "token_burn"
