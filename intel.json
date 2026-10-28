@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-28T15:23:38.591300+00:00",
+ "updated_at": "2026-10-28T15:53:13.061904+00:00",
  "market": {
-  "btc_dominance": 59.47,
+  "btc_dominance": 59.45,
   "usdt_dominance": 6.67,
-  "mcap_change_24h": -2.32,
+  "mcap_change_24h": -2.31,
   "trending": [
-   "HYPE",
    "INIT",
-   "CHIP",
-   "BTC",
    "PEARL",
+   "PONS",
+   "BTC",
+   "SUI",
+   "CHIP",
    "SOL",
-   "PENGU",
-   "ONDO",
-   "QTC",
-   "CC"
+   "ETH",
+   "AXIS",
+   "PEPE"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T15:23:38.591300+00:00",
    "notified": false
   },
@@ -2704,8 +2705,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.18,
-   "risk": 0.384,
+   "sentiment": 0.181,
+   "risk": 0.379,
    "events": [
     "etf_flow",
     "macro",
@@ -2739,7 +2740,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.139,
-   "risk": 0.384,
+   "risk": 0.379,
    "events": [
     "macro"
    ],
@@ -2748,7 +2749,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.384,
+   "risk": 0.379,
    "events": [
     "macro"
    ],
@@ -2757,7 +2758,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.347,
+   "risk": 0.341,
    "events": [
     "regulation"
    ],
@@ -2772,7 +2773,7 @@
    "last": "2026-10-27T12:18:24+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.22,
+   "sentiment": 0.223,
    "risk": 0.0,
    "events": [
     "token_burn"
