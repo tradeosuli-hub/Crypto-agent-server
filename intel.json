@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-10-28T11:27:27.976905+00:00",
+ "updated_at": "2026-10-28T11:56:59.440773+00:00",
  "market": {
-  "btc_dominance": 60.04,
+  "btc_dominance": 60.02,
   "usdt_dominance": 6.67,
-  "mcap_change_24h": -1.86,
+  "mcap_change_24h": -1.79,
   "trending": [
-   "PEPE",
    "PONS",
-   "PENGU",
-   "PEARL",
-   "BTC",
-   "HYPE",
-   "ZEC",
-   "QTC",
+   "PEPE",
    "ONDO",
-   "AERO"
+   "ZEC",
+   "PEARL",
+   "INIT",
+   "STONK",
+   "QTC",
+   "CHIP",
+   "PUMP"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
+   "url": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
+   "published": "2026-10-28T11:52:14+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N707ab69ca6bd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T11:56:59.440773+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
+   "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-rebounds-above-usd81-000-as-asian-chip-rally-spills-into-crypto-pepe-jumps-9",
+   "published": "2026-10-28T11:32:31+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "PEPE"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "PEPEUSDT"
+   ],
+   "id": "N83570556fce9",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.7,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T11:56:59.440773+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Settlement concerns prompt Euronext to halt CoinShares’ Zcash ETP ahead of debut",
+   "url": "https://cointelegraph.com/news/euronext-suspends-coinshares-zcash-etp-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-28T11:24:07+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N92e5945c7124",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T11:56:59.440773+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision",
@@ -37,6 +95,7 @@
    "importance": 8,
    "sentiment": 0.3,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-28T11:27:27.976905+00:00",
    "notified": false
   },
@@ -57,6 +116,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T11:27:27.976905+00:00",
    "notified": false
   },
@@ -73,6 +133,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T11:27:27.976905+00:00",
    "notified": false
   },
@@ -2132,67 +2193,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Aviva Investors, Ripple launch tokenized share class of $29 billion sterling fund on XRP Ledger",
-   "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712",
-   "published": "2026-10-26T11:34:12+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N153c84fefd45",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T11:39:11.341396+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
-   "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms",
-   "published": "2026-10-26T11:24:33+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N6c5dd4219384",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T11:39:11.341396+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-10-28",
-   "url": "https://www.binance.com/en/support/announcement/8a61b05a34694eab8e2044b6e005e85a",
-   "published": "2026-10-26T07:30:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc4e3b243014b",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T07:43:06.350775+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
    "url": "https://www.binance.com/en/support/announcement/02d204fc963f4f8687599fc22a13d538",
@@ -2619,6 +2619,22 @@
   },
   {
    "source": "binance",
+   "title": "Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01)",
+   "url": "https://www.binance.com/en/support/announcement/6bd26adeb6f742fe88eb72faca183566",
+   "published": "2026-10-01T06:30:01.040000+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N27c479cf5487",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T11:56:59.440773+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
    "title": "Binance Futures Will Delist Multiple USDⓈ-M Perpetual Contracts (2026-10-05)",
    "url": "https://www.binance.com/en/support/announcement/2f1a743334f044abbd82e34093c7b771",
    "published": "2026-10-01T02:45:13.435000+00:00",
@@ -2755,9 +2771,18 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.139,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 9,
+   "last": "2026-10-28T11:52:14+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": 0.182,
-   "risk": 0.499,
+   "sentiment": 0.206,
+   "risk": 0.494,
    "events": [
     "macro",
     "etf_flow",
@@ -2765,7 +2790,14 @@
     "token_burn"
    ],
    "count": 26,
-   "last": "2026-10-28T11:23:34+00:00"
+   "last": "2026-10-28T11:32:31+00:00"
+  },
+  "PEPEUSDT": {
+   "sentiment": 0.7,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-10-28T11:32:31+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2776,26 +2808,16 @@
   },
   "NEARUSDT": {
    "sentiment": 0.139,
-   "risk": 0.425,
+   "risk": 0.42,
    "events": [
     "macro"
    ],
    "count": 2,
    "last": "2026-10-28T10:41:51+00:00"
   },
-  "XRPUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [
-    "project",
-    "listing"
-   ],
-   "count": 10,
-   "last": "2026-10-28T09:15:20+00:00"
-  },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.425,
+   "risk": 0.42,
    "events": [
     "macro"
    ],
@@ -2804,7 +2826,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.396,
+   "risk": 0.39,
    "events": [
     "regulation"
    ],
@@ -2819,7 +2841,7 @@
    "last": "2026-10-27T12:18:24+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.158,
+   "sentiment": 0.16,
    "risk": 0.0,
    "events": [
     "token_burn"
