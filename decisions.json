@@ -1741,7 +1741,7 @@
  {
   "id": "D30e86aa110",
   "ts": "2026-10-26T22:12:09.028741+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "DOGEUSDT",
   "direction": "short",
   "entry": 0.07715828571428572,
@@ -1852,6 +1852,28 @@
    "دیوار solid · واکنش‌های گذشته 9",
    "پارامترها 9/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-10-26T22:30:00+00:00"
+  "entered_at": "2026-10-26T22:30:00+00:00",
+  "outcome": "SL",
+  "exit": 0.07949218742857142,
+  "pnl_r": -1.0,
+  "closed_at": "2026-10-28T02:15:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "news",
+    "historical_memory"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "volume",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، volume، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، news، historical_memory"
+  }
  }
 ]
