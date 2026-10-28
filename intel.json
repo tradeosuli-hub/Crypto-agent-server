@@ -1,28 +1,48 @@
 {
- "updated_at": "2026-10-28T09:29:15.890043+00:00",
+ "updated_at": "2026-10-28T09:58:53.040970+00:00",
  "market": {
-  "btc_dominance": 59.48,
+  "btc_dominance": 59.46,
   "usdt_dominance": 6.6,
-  "mcap_change_24h": 0.22,
+  "mcap_change_24h": 0.33,
   "trending": [
    "PEPE",
-   "PEARL",
-   "AERO",
-   "QTC",
-   "DOGE",
    "BTC",
-   "PENGU",
+   "HYPE",
+   "DOGE",
+   "QTC",
+   "PEARL",
+   "VVV",
+   "PI",
    "SUI",
-   "PONS",
-   "HYPE"
+   "AERO"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
   {
+   "source": "cointelegraph",
+   "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-82k-as-morgan-stanley-strategist-says-most-of-correction-is-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-28T09:55:29+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nd351934569bf",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T09:58:53.040970+00:00",
+   "notified": false
+  },
+  {
    "source": "coindesk",
-   "title": "Bitcoin has soared 50% on average after midterms. The S&P 500 has gained 15%.",
+   "title": "Here's how much bitcoin and the S&P 500 could rally after midterms",
    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
    "published": "2026-10-28T09:15:22+00:00",
    "kind": "news",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T09:29:15.890043+00:00",
    "notified": false
   },
@@ -57,6 +78,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T09:29:15.890043+00:00",
    "notified": false
   },
@@ -73,6 +95,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T09:29:15.890043+00:00",
    "notified": false
   },
@@ -2117,23 +2140,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead",
-   "url": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
-   "published": "2026-10-26T09:14:47+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N15e97e9fd60d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T09:41:18.582612+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/8a61b05a34694eab8e2044b6e005e85a",
@@ -2496,15 +2502,11 @@
    "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
    "published": "2026-10-13T03:30:01.158000+00:00",
    "kind": "listing",
-   "raw_symbols": [
-    "RWUSD"
-   ],
-   "symbols": [
-    "RWUSDUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "Nb12e9f3ec668",
    "kind_fa": "لیستینگ",
-   "importance": 8,
+   "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -2735,16 +2737,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.162,
-   "risk": 0.445,
+   "sentiment": 0.155,
+   "risk": 0.44,
    "events": [
     "etf_flow",
     "macro",
     "listing",
     "token_burn"
    ],
-   "count": 27,
-   "last": "2026-10-28T09:15:22+00:00"
+   "count": 28,
+   "last": "2026-10-28T09:55:29+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.199,
@@ -2758,7 +2760,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.445,
+   "risk": 0.44,
    "events": [
     "macro"
    ],
@@ -2767,7 +2769,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.163,
-   "risk": 0.445,
+   "risk": 0.44,
    "events": [
     "macro"
    ],
@@ -2776,7 +2778,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.421,
+   "risk": 0.414,
    "events": [
     "regulation"
    ],
@@ -2798,7 +2800,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.152,
+   "sentiment": 0.154,
    "risk": 0.0,
    "events": [
     "token_burn"
