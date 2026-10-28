@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-10-28T17:21:58.014172+00:00",
+ "updated_at": "2026-10-28T17:51:31.439635+00:00",
  "market": {
-  "btc_dominance": 59.45,
-  "usdt_dominance": 6.68,
-  "mcap_change_24h": -2.81,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -2.63,
   "trending": [
-   "BTC",
-   "CHIP",
-   "PONS",
-   "PEARL",
    "SOL",
-   "LIT",
-   "CC",
+   "CHIP",
    "PENGU",
+   "PEARL",
+   "CC",
+   "PONS",
+   "INIT",
    "KNTQ",
+   "BTC",
    "QTC"
   ],
   "fear_greed": 51,
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T17:21:58.014172+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T17:21:58.014172+00:00",
    "notified": false
   },
@@ -65,7 +67,28 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T17:21:58.014172+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-bounce-rejected-at-50-day-trend-line-ahead-of-fomc-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-28T16:53:26+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5c86e4035289",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": -0.3,
+   "risk": 0.5,
+   "first_seen": "2026-10-28T17:51:31.439635+00:00",
    "notified": false
   },
   {
@@ -2726,14 +2749,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.114,
-   "risk": 0.495,
+   "sentiment": 0.068,
+   "risk": 0.49,
    "events": [
     "macro",
     "etf_flow",
     "listing"
    ],
-   "count": 25,
+   "count": 26,
    "last": "2026-10-28T16:53:26+00:00"
   },
   "XRPUSDT": {
@@ -2761,7 +2784,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.138,
-   "risk": 0.363,
+   "risk": 0.358,
    "events": [
     "macro"
    ],
@@ -2770,7 +2793,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.363,
+   "risk": 0.358,
    "events": [
     "macro"
    ],
@@ -2779,7 +2802,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.322,
+   "risk": 0.316,
    "events": [
     "regulation"
    ],
