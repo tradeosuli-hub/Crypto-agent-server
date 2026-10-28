@@ -1,25 +1,73 @@
 {
- "updated_at": "2026-10-28T09:58:53.040970+00:00",
+ "updated_at": "2026-10-28T10:28:25.967780+00:00",
  "market": {
-  "btc_dominance": 59.46,
+  "btc_dominance": 59.47,
   "usdt_dominance": 6.6,
-  "mcap_change_24h": 0.33,
+  "mcap_change_24h": 0.43,
   "trending": [
-   "PEPE",
    "BTC",
+   "PEPE",
    "HYPE",
+   "PONS",
+   "ZEC",
    "DOGE",
-   "QTC",
-   "PEARL",
-   "VVV",
-   "PI",
    "SUI",
-   "AERO"
+   "XLM",
+   "PEARL",
+   "PENGU"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Brazil’s largest lender becomes first bank to formalize crypto brokerage under new rules",
+   "url": "https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules",
+   "published": "2026-10-28T10:07:54+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfce2761d9e55",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T10:28:25.967780+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Important Notice on PREDICT Airdrop Token Allocation",
+   "url": "https://www.binance.com/en/support/announcement/58d55610f5954d6c867bfa71658585dd",
+   "published": "2026-10-28T10:00:06.438000+00:00",
+   "kind": "project",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N40e30a42e9cd",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T10:28:25.967780+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Kospi surges 7% as SK Hynix earnings fuel AI stock rebound",
+   "url": "https://www.coindesk.com/markets/2026/10/28/kospi-surges-7-as-sk-hynix-earnings-fuel-ai-stock-rebound",
+   "published": "2026-10-28T09:59:25+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd3d5a455d906",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.5,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T10:28:25.967780+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
@@ -37,6 +85,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T09:58:53.040970+00:00",
    "notified": false
   },
@@ -2123,23 +2172,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "South Korea weighs fourth delay of crypto gains tax, eyes 2029 start: report",
-   "url": "https://www.theblock.co/news/regulation/2026-10-26-south-korea-weighs-fourth-delay-crypto-tax-431649",
-   "published": "2026-10-26T10:06:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6eb94a587c7f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T10:10:49.215516+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-10-28",
    "url": "https://www.binance.com/en/support/announcement/8a61b05a34694eab8e2044b6e005e85a",
@@ -2426,23 +2458,6 @@
    "risk": 0.9,
    "summary_fa": null,
    "first_seen": "2026-10-20T08:55:50.663849+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance to Support 24/7 Dynamic Updates of the bStocks Collateral Index Price",
-   "url": "https://www.binance.com/en/support/announcement/1a5f87ab3b77476b9ad0177b560e3054",
-   "published": "2026-10-20T08:00:06.609000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N53bb69996256",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-20T08:26:17.937976+00:00",
    "notified": false
   },
   {
@@ -2738,7 +2753,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.155,
-   "risk": 0.44,
+   "risk": 0.435,
    "events": [
     "etf_flow",
     "macro",
@@ -2749,7 +2764,7 @@
    "last": "2026-10-28T09:55:29+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.199,
+   "sentiment": 0.2,
    "risk": 0.0,
    "events": [
     "project",
@@ -2760,7 +2775,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.44,
+   "risk": 0.435,
    "events": [
     "macro"
    ],
@@ -2769,7 +2784,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.163,
-   "risk": 0.44,
+   "risk": 0.435,
    "events": [
     "macro"
    ],
@@ -2778,7 +2793,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.414,
+   "risk": 0.408,
    "events": [
     "regulation"
    ],
@@ -2800,7 +2815,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.154,
+   "sentiment": 0.155,
    "risk": 0.0,
    "events": [
     "token_burn"
