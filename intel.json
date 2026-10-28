@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-28T04:33:45.653795+00:00",
+ "updated_at": "2026-10-28T05:03:15.947398+00:00",
  "market": {
-  "btc_dominance": 59.4,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -1.22,
+  "btc_dominance": 59.41,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -1.13,
   "trending": [
-   "PEARL",
-   "PEPE",
    "QTC",
-   "PENGU",
-   "Q",
    "BTC",
+   "PENGU",
+   "PEPE",
+   "PEARL",
    "PONS",
-   "ZEC",
+   "Q",
    "HYPE",
-   "AIN"
+   "ONDO",
+   "XAN"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T04:33:45.653795+00:00",
    "notified": false
   },
@@ -57,6 +58,7 @@
    "importance": 8,
    "sentiment": 0.2,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-10-28T04:33:45.653795+00:00",
    "notified": false
   },
@@ -2097,27 +2099,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
-   "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting",
-   "published": "2026-10-26T04:37:02+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N225db51341cd",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T04:46:14.182116+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25)",
    "url": "https://www.binance.com/en/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5",
@@ -2716,7 +2697,7 @@
  "symbols": {
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.497,
+   "risk": 0.492,
    "events": [
     "macro"
    ],
@@ -2724,20 +2705,20 @@
    "last": "2026-10-28T04:15:20+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.102,
-   "risk": 0.497,
+   "sentiment": 0.104,
+   "risk": 0.492,
    "events": [
     "macro",
     "listing",
     "etf_flow",
     "token_burn"
    ],
-   "count": 28,
+   "count": 27,
    "last": "2026-10-28T04:15:20+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.166,
-   "risk": 0.497,
+   "risk": 0.492,
    "events": [
     "macro"
    ],
@@ -2756,7 +2737,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.482,
+   "risk": 0.476,
    "events": [
     "regulation"
    ],
@@ -2778,7 +2759,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.155,
+   "sentiment": 0.153,
    "risk": 0.0,
    "events": [
     "token_burn"
