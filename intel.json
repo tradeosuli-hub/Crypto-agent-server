@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-28T21:47:55.476089+00:00",
+ "updated_at": "2026-10-28T22:17:32.286905+00:00",
  "market": {
-  "btc_dominance": 59.44,
-  "usdt_dominance": 6.62,
-  "mcap_change_24h": -2.01,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -2.13,
   "trending": [
    "PENGU",
-   "KNTQ",
-   "PEPE",
-   "PEARL",
-   "CC",
-   "PONS",
-   "SOL",
    "BTC",
-   "AERO",
-   "QNT"
+   "PEPE",
+   "CC",
+   "KNTQ",
+   "PONS",
+   "FET",
+   "PEARL",
+   "STRK",
+   "MON"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T21:47:55.476089+00:00",
    "notified": false
   },
@@ -2152,23 +2153,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "US OCC calls on community banks to become payment stablecoin issuers",
-   "url": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-26T21:38:30+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N89177d5b4500",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T22:01:22.259473+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
    "url": "https://www.binance.com/en/support/announcement/02d204fc963f4f8687599fc22a13d538",
@@ -2749,8 +2733,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.059,
-   "risk": 0.449,
+   "sentiment": 0.058,
+   "risk": 0.444,
    "events": [
     "macro",
     "etf_flow",
@@ -2783,8 +2767,8 @@
    "last": "2026-10-28T11:05:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.138,
-   "risk": 0.317,
+   "sentiment": 0.137,
+   "risk": 0.312,
    "events": [
     "macro"
    ],
@@ -2793,7 +2777,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.317,
+   "risk": 0.312,
    "events": [
     "macro"
    ],
@@ -2802,7 +2786,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.267,
+   "risk": 0.261,
    "events": [
     "regulation"
    ],
