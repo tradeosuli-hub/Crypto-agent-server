@@ -1,25 +1,93 @@
 {
- "updated_at": "2026-10-28T16:52:23.514554+00:00",
+ "updated_at": "2026-10-28T17:21:58.014172+00:00",
  "market": {
-  "btc_dominance": 59.44,
+  "btc_dominance": 59.45,
   "usdt_dominance": 6.68,
-  "mcap_change_24h": -2.76,
+  "mcap_change_24h": -2.81,
   "trending": [
-   "PONS",
    "BTC",
    "CHIP",
-   "CC",
-   "PENGU",
+   "PONS",
    "PEARL",
-   "PEPE",
    "SOL",
    "LIT",
-   "INIT"
+   "CC",
+   "PENGU",
+   "KNTQ",
+   "QTC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street’s bullish outlook",
+   "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
+   "published": "2026-10-28T17:06:24+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd7c8afc370d8",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T17:21:58.014172+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
+   "url": "https://cointelegraph.com/news/crypto-pac-spending-midterms-fec-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-28T17:05:42+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne895f5c39734",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-28T17:21:58.014172+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+   "url": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+   "published": "2026-10-28T17:02:57+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8f27761c130c",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T17:21:58.014172+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+   "url": "https://cointelegraph.com/markets/market-update?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-28T16:53:26+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N114d43b178e4",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": -0.3,
+   "risk": 0.5,
+   "first_seen": "2026-10-28T17:21:58.014172+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Phantom launches Kalshi-powered prediction markets for US users",
@@ -33,6 +101,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T16:52:23.514554+00:00",
    "notified": false
   },
@@ -2077,23 +2146,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Prediction markets and derivatives drive Bernstein’s crypto stock outlook for Coinbase, Robinhood and Circle",
-   "url": "https://www.theblock.co/news/markets/2026-10-26-prediction-markets-derivatives-drive-bernstein-crypto-stock-outlook-coinbase-robinhood-circle-431750",
-   "published": "2026-10-26T16:36:43+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1998fb4245f6",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T17:04:44.821899+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
    "url": "https://www.binance.com/en/support/announcement/02d204fc963f4f8687599fc22a13d538",
@@ -2674,15 +2726,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.173,
-   "risk": 0.369,
+   "sentiment": 0.114,
+   "risk": 0.495,
    "events": [
-    "etf_flow",
     "macro",
+    "etf_flow",
     "listing"
    ],
-   "count": 24,
-   "last": "2026-10-28T16:07:08+00:00"
+   "count": 25,
+   "last": "2026-10-28T16:53:26+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.096,
@@ -2708,8 +2760,8 @@
    "last": "2026-10-28T11:05:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.139,
-   "risk": 0.369,
+   "sentiment": 0.138,
+   "risk": 0.363,
    "events": [
     "macro"
    ],
@@ -2718,7 +2770,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.369,
+   "risk": 0.363,
    "events": [
     "macro"
    ],
@@ -2727,7 +2779,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.328,
+   "risk": 0.322,
    "events": [
     "regulation"
    ],
