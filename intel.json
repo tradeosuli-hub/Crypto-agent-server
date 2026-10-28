@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-28T20:48:41.798325+00:00",
+ "updated_at": "2026-10-28T21:18:15.666242+00:00",
  "market": {
   "btc_dominance": 59.46,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -2.24,
+  "usdt_dominance": 6.61,
+  "mcap_change_24h": -1.88,
   "trending": [
-   "BTC",
    "PEARL",
-   "PENGU",
-   "PONS",
-   "CC",
+   "BTC",
    "JUP",
    "AERO",
-   "ETH",
-   "LIT",
-   "CHIP"
+   "CC",
+   "PONS",
+   "KNTQ",
+   "QNT",
+   "PENGU",
+   "QTC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+   "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost",
+   "published": "2026-10-28T21:13:44+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf64d7448dae8",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T21:18:15.666242+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -2729,15 +2749,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.062,
-   "risk": 0.459,
+   "sentiment": 0.059,
+   "risk": 0.454,
    "events": [
     "macro",
     "etf_flow",
     "listing"
    ],
-   "count": 26,
-   "last": "2026-10-28T16:53:26+00:00"
+   "count": 27,
+   "last": "2026-10-28T21:13:44+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.095,
@@ -2764,7 +2784,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.138,
-   "risk": 0.328,
+   "risk": 0.322,
    "events": [
     "macro"
    ],
@@ -2773,7 +2793,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.328,
+   "risk": 0.322,
    "events": [
     "macro"
    ],
@@ -2782,7 +2802,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.279,
+   "risk": 0.273,
    "events": [
     "regulation"
    ],
