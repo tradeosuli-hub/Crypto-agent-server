@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-28T14:54:10.074816+00:00",
+ "updated_at": "2026-10-28T15:23:38.591300+00:00",
  "market": {
-  "btc_dominance": 59.46,
+  "btc_dominance": 59.47,
   "usdt_dominance": 6.67,
-  "mcap_change_24h": -2.03,
+  "mcap_change_24h": -2.32,
   "trending": [
    "HYPE",
-   "PENGU",
    "INIT",
-   "NEAR",
    "CHIP",
+   "BTC",
+   "PEARL",
    "SOL",
+   "PENGU",
    "ONDO",
-   "QNT",
-   "BNB",
-   "PEARL"
+   "QTC",
+   "CC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Avail launches ShieldTX privacy tool targeting copy-trading bots on Hyperliquid",
+   "url": "https://www.theblock.co/news/defi/2026-10-28-avail-launches-shieldtx-privacy-tool-targeting-copy-trading-bots-on-hyperliquid-431977",
+   "published": "2026-10-28T15:00:02+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3b7c6a0ec77d",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T15:23:38.591300+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Crypto braces for potential shift in congressional oversight after midterms",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T14:54:10.074816+00:00",
    "notified": false
   },
@@ -243,10 +260,10 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin sheds early gains, with Fed decision looming",
+   "title": "Live updates: Bitcoin sheds early gains; Strategy's STRC moves to daily dividends",
    "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
    "published": "2026-10-28T11:23:34+00:00",
-   "kind": "macro",
+   "kind": "news",
    "raw_symbols": [
     "BTC"
    ],
@@ -254,10 +271,10 @@
     "BTCUSDT"
    ],
    "id": "N6843a12b0ad5",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
+   "kind_fa": "خبر",
+   "importance": 3,
    "sentiment": 0.0,
-   "risk": 0.5,
+   "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-28T11:27:27.976905+00:00",
    "notified": false
@@ -2107,23 +2124,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
-   "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
-   "published": "2026-10-26T14:51:07+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne14548e162aa",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T15:06:20.865472+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
    "url": "https://www.binance.com/en/support/announcement/02d204fc963f4f8687599fc22a13d538",
@@ -2704,18 +2704,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.166,
-   "risk": 0.463,
+   "sentiment": 0.18,
+   "risk": 0.384,
    "events": [
-    "macro",
     "etf_flow",
+    "macro",
     "listing"
    ],
    "count": 23,
    "last": "2026-10-28T13:47:51+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.115,
+   "sentiment": 0.114,
    "risk": 0.0,
    "events": [
     "project"
@@ -2739,7 +2739,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.139,
-   "risk": 0.389,
+   "risk": 0.384,
    "events": [
     "macro"
    ],
@@ -2748,7 +2748,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.389,
+   "risk": 0.384,
    "events": [
     "macro"
    ],
@@ -2757,7 +2757,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.353,
+   "risk": 0.347,
    "events": [
     "regulation"
    ],
@@ -2772,7 +2772,7 @@
    "last": "2026-10-27T12:18:24+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.217,
+   "sentiment": 0.22,
    "risk": 0.0,
    "events": [
     "token_burn"
