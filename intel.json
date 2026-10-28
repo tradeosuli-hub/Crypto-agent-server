@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-28T07:01:24.627351+00:00",
+ "updated_at": "2026-10-28T07:30:54.868515+00:00",
  "market": {
-  "btc_dominance": 59.4,
+  "btc_dominance": 59.42,
   "usdt_dominance": 6.64,
-  "mcap_change_24h": -1.44,
+  "mcap_change_24h": -1.07,
   "trending": [
-   "HYPE",
    "PEARL",
+   "HYPE",
    "PONS",
-   "PENGU",
-   "BTC",
-   "QTC",
    "Q",
+   "PENGU",
+   "STONK",
+   "SOL",
    "ZEC",
-   "AIN",
-   "PEPE"
+   "PEPE",
+   "QTC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-28T07:01:24.627351+00:00",
    "notified": false
   },
@@ -2678,20 +2679,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.085,
-   "risk": 0.471,
+   "sentiment": 0.086,
+   "risk": 0.466,
    "events": [
     "macro",
     "listing",
     "etf_flow",
     "token_burn"
    ],
-   "count": 27,
+   "count": 26,
    "last": "2026-10-28T05:28:13+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.471,
+   "risk": 0.466,
    "events": [
     "macro"
    ],
@@ -2700,7 +2701,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.165,
-   "risk": 0.471,
+   "risk": 0.466,
    "events": [
     "macro"
    ],
@@ -2708,7 +2709,7 @@
    "last": "2026-10-28T04:15:20+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.238,
+   "sentiment": 0.239,
    "risk": 0.0,
    "events": [
     "project",
@@ -2719,7 +2720,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.451,
+   "risk": 0.445,
    "events": [
     "regulation"
    ],
@@ -2741,7 +2742,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.145,
+   "sentiment": 0.146,
    "risk": 0.0,
    "events": [
     "token_burn"
