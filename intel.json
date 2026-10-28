@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-28T05:03:15.947398+00:00",
+ "updated_at": "2026-10-28T05:32:50.072003+00:00",
  "market": {
-  "btc_dominance": 59.41,
-  "usdt_dominance": 6.63,
-  "mcap_change_24h": -1.13,
+  "btc_dominance": 59.4,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -1.16,
   "trending": [
+   "PENGU",
+   "PONS",
+   "PEPE",
    "QTC",
    "BTC",
-   "PENGU",
-   "PEPE",
-   "PEARL",
-   "PONS",
-   "Q",
    "HYPE",
-   "ONDO",
-   "XAN"
+   "SUI",
+   "VVV",
+   "PEARL",
+   "Q"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
+   "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
+   "published": "2026-10-28T05:28:13+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7d2bcc3e6abf",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-28T05:32:50.072003+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bithumb hacked through employee system as South Korean financial firms face cyberattacks",
+   "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
+   "published": "2026-10-28T05:10:36+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2cc5194e3bbf",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-28T05:32:50.072003+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Futures Will Apply Last Price Protected Mechanism on USDⓈ-Margined BULLAUSDT Perpetual Contract (2026-10-28)",
@@ -314,23 +350,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-27T20:11:40.211549+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T19:36:13+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T06:35:32.168947+00:00",
    "notified": false
   },
   {
@@ -2061,27 +2080,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
-   "url": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments",
-   "published": "2026-10-26T05:15:20+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N128bbb42a21b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T05:15:38.257839+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Musk warns over 200 AI neoclouds face ‘guppy-level death’",
    "url": "https://cointelegraph.com/news/musk-warns-over-200-ai-neoclouds-face-guppy-level-death?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2695,18 +2693,9 @@
   }
  ],
  "symbols": {
-  "ZECUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.492,
-   "events": [
-    "macro"
-   ],
-   "count": 1,
-   "last": "2026-10-28T04:15:20+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": 0.104,
-   "risk": 0.492,
+   "sentiment": 0.086,
+   "risk": 0.487,
    "events": [
     "macro",
     "listing",
@@ -2714,11 +2703,20 @@
     "token_burn"
    ],
    "count": 27,
+   "last": "2026-10-28T05:28:13+00:00"
+  },
+  "ZECUSDT": {
+   "sentiment": 0.2,
+   "risk": 0.487,
+   "events": [
+    "macro"
+   ],
+   "count": 1,
    "last": "2026-10-28T04:15:20+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.166,
-   "risk": 0.492,
+   "risk": 0.487,
    "events": [
     "macro"
    ],
@@ -2726,7 +2724,7 @@
    "last": "2026-10-28T04:15:20+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.236,
+   "sentiment": 0.237,
    "risk": 0.0,
    "events": [
     "project",
@@ -2737,7 +2735,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.476,
+   "risk": 0.47,
    "events": [
     "regulation"
    ],
@@ -2759,7 +2757,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.153,
+   "sentiment": 0.15,
    "risk": 0.0,
    "events": [
     "token_burn"
