@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-28T07:30:54.868515+00:00",
+ "updated_at": "2026-10-28T08:00:25.698143+00:00",
  "market": {
-  "btc_dominance": 59.42,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -1.07,
+  "btc_dominance": 59.43,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -0.94,
   "trending": [
    "PEARL",
-   "HYPE",
-   "PONS",
+   "PEPE",
    "Q",
-   "PENGU",
    "STONK",
    "SOL",
+   "HYPE",
    "ZEC",
-   "PEPE",
+   "QNT",
+   "AERO",
    "QTC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Coinbase denies systems breach, says vendor exposed customer data",
+   "url": "https://cointelegraph.com/news/coinbase-analytics-provider-customer-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-28T07:42:55+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne7c72a8af482",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-28T08:00:25.698143+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Earn Yield Arena: Earn Up to 35% APR With This Week’s New Limited-Time Offers! (2026-10-28)",
@@ -2078,27 +2094,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Over 11 million bitcoin has no known owner. Here's what it means",
-   "url": "https://www.coindesk.com/markets/2026/10/26/over-11-million-btc-can-t-be-linked-to-any-known-owner-even-after-wall-street-buying",
-   "published": "2026-10-26T07:18:24+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N655213fe8d75",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-26T07:43:06.350775+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
    "url": "https://www.binance.com/en/support/announcement/02d204fc963f4f8687599fc22a13d538",
@@ -2680,7 +2675,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": 0.086,
-   "risk": 0.466,
+   "risk": 0.461,
    "events": [
     "macro",
     "listing",
@@ -2692,7 +2687,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.466,
+   "risk": 0.461,
    "events": [
     "macro"
    ],
@@ -2700,8 +2695,8 @@
    "last": "2026-10-28T04:15:20+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.165,
-   "risk": 0.466,
+   "sentiment": 0.164,
+   "risk": 0.461,
    "events": [
     "macro"
    ],
@@ -2720,7 +2715,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.445,
+   "risk": 0.439,
    "events": [
     "regulation"
    ],
@@ -2742,7 +2737,7 @@
    "last": "2026-10-27T07:44:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.146,
+   "sentiment": 0.148,
    "risk": 0.0,
    "events": [
     "token_burn"
