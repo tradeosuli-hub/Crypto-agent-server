@@ -1,25 +1,5 @@
 [
  {
-  "id": "I202610072142",
-  "ts": "2026-10-07T21:42:48.767477+00:00",
-  "kind": "intel_stalled",
-  "kind_fa": "ایجنت اطلاعات عقب افتاده",
-  "cause": "intel_stalled",
-  "cause_fa": "ایجنت اطلاعات عقب افتاده",
-  "severity": "low",
-  "summary_fa": "ایجنت اطلاعات عقب افتاده · علت: ایجنت اطلاعات عقب افتاده · اولین بار است",
-  "brain": null,
-  "log_excerpt": "",
-  "action": "none",
-  "action_fa": "—",
-  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/37691291220",
-  "last_action_ts": "2026-10-08T04:05:31.908789+00:00",
-  "checks": 2,
-  "escalations": 1,
-  "resolved_at": "2026-10-08T04:20:01.795426+00:00",
-  "resolution_fa": "برطرف شد پس از اقدام «—»"
- },
- {
   "id": "I202610080405",
   "ts": "2026-10-08T04:05:28.701022+00:00",
   "kind": "scan_stalled",
@@ -5733,9 +5713,9 @@
   "action": "revive",
   "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40600040288",
-  "last_action_ts": "2026-10-28T08:50:27.880175+00:00",
-  "checks": 42,
-  "escalations": 13,
+  "last_action_ts": "2026-10-28T09:34:06.132933+00:00",
+  "checks": 43,
+  "escalations": 14,
   "resolved_at": null
  },
  {
@@ -5997,5 +5977,24 @@
   "escalations": 0,
   "resolved_at": "2026-10-28T09:04:57.965459+00:00",
   "resolution_fa": "برطرف شد پس از اقدام «اجرای دوبارهٔ Workflow اسکن زده شد»"
+ },
+ {
+  "id": "I202610280934",
+  "ts": "2026-10-28T09:34:03.049714+00:00",
+  "kind": "scan_stalled",
+  "kind_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "cause": "scan_stalled",
+  "cause_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "severity": "high",
+  "summary_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · علت: اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · این علت 287 بار قبلاً دیده شده؛ آخرین اقدام: اجرای دوبارهٔ Workflow اسکن زده شد",
+  "brain": null,
+  "log_excerpt": "",
+  "action": "redispatch",
+  "action_fa": "اجرای دوبارهٔ Workflow اسکن زده شد",
+  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40659690644",
+  "last_action_ts": "2026-10-28T09:34:04.794877+00:00",
+  "checks": 1,
+  "escalations": 0,
+  "resolved_at": null
  }
 ]
