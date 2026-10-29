@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-10-29T11:05:12.903032+00:00",
+ "updated_at": "2026-10-29T11:34:44.173410+00:00",
  "market": {
   "btc_dominance": 60.01,
-  "usdt_dominance": 6.73,
-  "mcap_change_24h": -4.01,
+  "usdt_dominance": 6.74,
+  "mcap_change_24h": -5.0,
   "trending": [
    "HYPE",
    "PEARL",
-   "AXIS",
    "PEPE",
-   "NEAR",
+   "BTC",
    "PENGU",
+   "ETH",
    "BNB",
-   "SUI",
-   "MON",
-   "ETH"
+   "AXIS",
+   "GRASS",
+   "SUI"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
+   "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
+   "published": "2026-10-29T11:11:48+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "AI",
+    "BTC"
+   ],
+   "symbols": [
+    "AIUSDT",
+    "BTCUSDT"
+   ],
+   "id": "N6d1e5fdc0bf1",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.5,
+   "first_seen": "2026-10-29T11:34:44.173410+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S.",
+   "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+   "published": "2026-10-29T11:11:25+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbf2f46685b5e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T11:34:44.173410+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Curve Finance launches on Stellar in first native deployment outside EVM ecosystem",
@@ -33,6 +71,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T11:05:12.903032+00:00",
    "notified": false
   },
@@ -49,6 +88,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T11:05:12.903032+00:00",
    "notified": false
   },
@@ -69,6 +109,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T11:05:12.903032+00:00",
    "notified": false
   },
@@ -89,6 +130,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T11:05:12.903032+00:00",
    "notified": false
   },
@@ -109,6 +151,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T11:05:12.903032+00:00",
    "notified": false
   },
@@ -116,7 +159,7 @@
    "source": "cointelegraph",
    "title": "ECB President Christine Lagarde to step down in February 2027",
    "url": "https://cointelegraph.com/news/ecb-president-lagarde-step-down-february-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T10:29:38+00:00",
+   "published": "2026-10-29T10:33:00+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
@@ -2108,65 +2151,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
-   "url": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
-   "published": "2026-10-27T11:13:54+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb1b914e55cbb",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T11:18:55.808683+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
-   "url": "https://www.coindesk.com/markets/2026/10/27/investor-who-called-for-ai-pivot-in-2023-says-bitcoin-is-going-to-usd57-000",
-   "published": "2026-10-27T10:57:51+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N98978948ee78",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T11:18:55.808683+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Ark Invest buys $5.2 million of Circle shares, sells $15.9 million of its own Bitcoin ETF as BTC grinds lower",
-   "url": "https://www.theblock.co/news/markets/2026-10-27-ark-invest-buys-5-2-million-of-circle-shares-sells-15-9-million-of-its-own-bitcoin-etf-as-btc-grinds-lower-431838",
-   "published": "2026-10-27T10:57:34+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N30c10b4521ea",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T11:18:55.808683+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/5b6849270abd4e41a98d94abbf7b28f0",
@@ -2831,16 +2815,25 @@
   }
  ],
  "symbols": {
-  "BTCUSDT": {
-   "sentiment": -0.018,
-   "risk": 0.421,
+  "AIUSDT": {
+   "sentiment": -0.115,
+   "risk": 0.496,
    "events": [
-    "etf_flow",
+    "macro"
+   ],
+   "count": 9,
+   "last": "2026-10-29T11:11:48+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.04,
+   "risk": 0.496,
+   "events": [
     "macro",
+    "etf_flow",
     "listing"
    ],
    "count": 30,
-   "last": "2026-10-29T10:46:43+00:00"
+   "last": "2026-10-29T11:11:48+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2848,13 +2841,6 @@
    "events": [],
    "count": 2,
    "last": "2026-10-29T10:44:48+00:00"
-  },
-  "AIUSDT": {
-   "sentiment": -0.058,
-   "risk": 0.0,
-   "events": [],
-   "count": 8,
-   "last": "2026-10-29T05:54:39+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -2864,7 +2850,7 @@
    "last": "2026-10-29T05:30:34+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.063,
+   "sentiment": 0.064,
    "risk": 0.0,
    "events": [
     "project"
@@ -2881,7 +2867,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.132,
-   "risk": 0.179,
+   "risk": 0.174,
    "events": [
     "macro"
    ],
@@ -2890,7 +2876,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.179,
+   "risk": 0.174,
    "events": [
     "macro"
    ],
