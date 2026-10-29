@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-29T01:14:43.374632+00:00",
+ "updated_at": "2026-10-29T01:44:17.745398+00:00",
  "market": {
-  "btc_dominance": 59.49,
-  "usdt_dominance": 6.61,
-  "mcap_change_24h": -2.38,
+  "btc_dominance": 59.47,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -2.69,
   "trending": [
    "PEPE",
-   "PENGU",
-   "PEARL",
-   "PONS",
-   "XRP",
    "KNTQ",
    "BTC",
+   "VVV",
+   "PEARL",
+   "PONS",
    "PUMP",
-   "ETH",
-   "NEAR"
+   "LIT",
+   "NEAR",
+   "PLUME"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T01:14:43.374632+00:00",
    "notified": false
   },
@@ -2135,23 +2136,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "BlackRock joins SBI and Startale to link tokenized MMFs with Japanese yen stablecoins",
-   "url": "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642",
-   "published": "2026-10-27T01:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne253bfe5467b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T01:28:08.393521+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)",
    "url": "https://www.binance.com/en/support/announcement/02d204fc963f4f8687599fc22a13d538",
@@ -2732,8 +2716,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": 0.053,
-   "risk": 0.413,
+   "sentiment": 0.052,
+   "risk": 0.408,
    "events": [
     "macro",
     "etf_flow",
@@ -2766,8 +2750,8 @@
    "last": "2026-10-28T11:05:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.137,
-   "risk": 0.281,
+   "sentiment": 0.136,
+   "risk": 0.276,
    "events": [
     "macro"
    ],
@@ -2776,7 +2760,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.281,
+   "risk": 0.276,
    "events": [
     "macro"
    ],
@@ -2785,7 +2769,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.224,
+   "risk": 0.217,
    "events": [
     "regulation"
    ],
