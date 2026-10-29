@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-29T19:27:12.730672+00:00",
+ "updated_at": "2026-10-29T19:56:43.294300+00:00",
  "market": {
   "btc_dominance": 59.52,
   "usdt_dominance": 6.63,
-  "mcap_change_24h": -3.05,
+  "mcap_change_24h": -2.92,
   "trending": [
-   "HYPE",
    "SP",
-   "PEPE",
+   "HYPE",
    "KNTQ",
+   "PEPE",
    "ZEC",
-   "NEAR",
-   "PENGU",
-   "PEARL",
+   "QTC",
    "POL",
-   "QTC"
+   "NEAR",
+   "CC",
+   "SYRUP"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Polymarket suspended trading amid reports of user funds being drained",
+   "url": "https://cointelegraph.com/news/polymarket-suspends-trading-user-funds-compromised?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T19:23:03+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N32c4d4b2250c",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-29T19:56:43.294300+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Polymarket pauses trading after $2.65 million exploit, says third-party provider was compromised",
@@ -33,6 +49,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T19:27:12.730672+00:00",
    "notified": false
   },
@@ -2321,23 +2338,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "CFTC sues Utah to block action against prediction markets",
-   "url": "https://cointelegraph.com/news/cftc-lawsuit-utah-action-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T19:21:59+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N55d098e481d6",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T19:42:00.859759+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "CFTC sues Utah as battle over prediction market regulation intensifies",
    "url": "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
@@ -3097,7 +3097,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.034,
-   "risk": 0.414,
+   "risk": 0.409,
    "events": [
     "etf_flow",
     "macro",
@@ -3128,7 +3128,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.063,
+   "sentiment": 0.064,
    "risk": 0.1,
    "events": [
     "macro"
@@ -3137,8 +3137,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.131,
-   "risk": 0.414,
+   "sentiment": -0.132,
+   "risk": 0.409,
    "events": [
     "macro"
    ],
@@ -3146,12 +3146,10 @@
    "last": "2026-10-29T11:11:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.076,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 5,
+   "events": [],
+   "count": 4,
    "last": "2026-10-28T15:56:36+00:00"
   },
   "PEPEUSDT": {
