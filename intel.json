@@ -1,25 +1,79 @@
 {
- "updated_at": "2026-10-29T12:04:13.799936+00:00",
+ "updated_at": "2026-10-29T12:33:44.147433+00:00",
  "market": {
-  "btc_dominance": 59.99,
-  "usdt_dominance": 6.74,
-  "mcap_change_24h": -5.01,
+  "btc_dominance": 59.39,
+  "usdt_dominance": 6.68,
+  "mcap_change_24h": -3.98,
   "trending": [
    "HYPE",
-   "BTC",
-   "PEPE",
-   "PEARL",
    "LIT",
+   "PEARL",
+   "BTC",
    "Q",
-   "ETH",
+   "QTC",
+   "AERO",
    "SOL",
-   "SUI",
-   "QNT"
+   "PEPE",
+   "AXIS"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
+   "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T12:20:27+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N539d526f38e2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T12:33:44.147433+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
+   "url": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
+   "published": "2026-10-29T12:18:20+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1e9eaf32ada4",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T12:33:44.147433+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "As $10 billion in bitcoin options near expiry, the tell is in the pricing",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/29/as-usd10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing",
+   "published": "2026-10-29T12:04:50+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N3730752feff0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T12:33:44.147433+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey",
@@ -33,6 +87,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T12:04:13.799936+00:00",
    "notified": false
   },
@@ -49,6 +104,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T12:04:13.799936+00:00",
    "notified": false
   },
@@ -69,6 +125,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T12:04:13.799936+00:00",
    "notified": false
   },
@@ -85,6 +142,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T12:04:13.799936+00:00",
    "notified": false
   },
@@ -2139,29 +2197,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/27/bitcoin-shows-signs-of-weakness-while-ripple-s-bank-win-fails-to-bolster-xrp",
-   "published": "2026-10-27T12:00:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP",
-    "BTC"
-   ],
-   "symbols": [
-    "XRPUSDT",
-    "BTCUSDT"
-   ],
-   "id": "N6b2837be0f86",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T12:18:00.074607+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/5b6849270abd4e41a98d94abbf7b28f0",
@@ -2810,19 +2845,28 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.042,
-   "risk": 0.491,
+   "sentiment": -0.044,
+   "risk": 0.486,
    "events": [
     "macro",
     "etf_flow",
     "listing"
    ],
    "count": 29,
-   "last": "2026-10-29T12:00:00+00:00"
+   "last": "2026-10-29T12:04:50+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.075,
+   "risk": 0.163,
+   "events": [
+    "macro"
+   ],
+   "count": 3,
+   "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.115,
-   "risk": 0.491,
+   "sentiment": -0.116,
+   "risk": 0.486,
    "events": [
     "macro"
    ],
@@ -2844,7 +2888,7 @@
    "last": "2026-10-29T05:30:34+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.07,
+   "sentiment": 0.071,
    "risk": 0.0,
    "events": [
     "project"
@@ -2859,18 +2903,9 @@
    "count": 1,
    "last": "2026-10-28T11:32:31+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.131,
-   "risk": 0.169,
-   "events": [
-    "macro"
-   ],
-   "count": 2,
-   "last": "2026-10-28T10:41:51+00:00"
-  },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.169,
+   "risk": 0.163,
    "events": [
     "macro"
    ],
@@ -2885,13 +2920,6 @@
    ],
    "count": 1,
    "last": "2026-10-27T19:07:59+00:00"
-  },
-  "TRXUSDT": {
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-27T12:18:24+00:00"
   }
  },
  "social": {},
