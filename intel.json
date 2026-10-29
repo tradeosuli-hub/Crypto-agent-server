@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-29T20:55:52.768772+00:00",
+ "updated_at": "2026-10-29T21:25:24.695257+00:00",
  "market": {
-  "btc_dominance": 59.62,
-  "usdt_dominance": 6.83,
-  "mcap_change_24h": -6.45,
+  "btc_dominance": 59.47,
+  "usdt_dominance": 6.74,
+  "mcap_change_24h": -4.93,
   "trending": [
    "SP",
    "HYPE",
+   "BNB",
+   "XMR",
+   "ETH",
+   "BTC",
+   "SOL",
    "KNTQ",
    "LIT",
-   "SOL",
-   "PENGU",
-   "PEPE",
-   "ETH",
-   "VVV",
-   "TAO"
+   "ZEC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Multi-billion Binance hack hitting crypto markets",
+   "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+   "published": "2026-10-29T21:12:45+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N74ca9507e599",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-29T21:25:24.695257+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Strategy reports $19.5 billion in Q3 net income as preferred shareholders approve daily dividends",
+   "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+   "published": "2026-10-29T20:58:35+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N0965a5d4cf8f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T21:25:24.695257+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -2280,23 +2312,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
-   "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
-   "published": "2026-10-27T20:41:33+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6d1529edadad",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T21:10:45.408658+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "CFTC sues Utah as battle over prediction market regulation intensifies",
    "url": "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
@@ -2362,27 +2377,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-27T15:44:59.986895+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Ripple, BNY explore using the XRP Ledger to finance approved invoices",
-   "url": "https://www.theblock.co/news/business/2026-10-27-ripple-bny-explore-using-xrp-ledger-finance-approved-invoices-431891",
-   "published": "2026-10-27T15:01:12+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N678324b148b3",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T15:15:25.471257+00:00",
    "notified": false
   },
   {
@@ -3056,7 +3050,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.04,
-   "risk": 0.399,
+   "risk": 0.393,
    "events": [
     "etf_flow",
     "macro",
@@ -3087,7 +3081,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.065,
+   "sentiment": 0.066,
    "risk": 0.1,
    "events": [
     "macro"
@@ -3096,8 +3090,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.135,
-   "risk": 0.399,
+   "sentiment": -0.136,
+   "risk": 0.393,
    "events": [
     "macro"
    ],
