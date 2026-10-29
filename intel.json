@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-29T08:07:59.061999+00:00",
+ "updated_at": "2026-10-29T08:37:27.614331+00:00",
  "market": {
   "btc_dominance": 59.46,
-  "usdt_dominance": 6.7,
-  "mcap_change_24h": -4.04,
+  "usdt_dominance": 6.69,
+  "mcap_change_24h": -3.91,
   "trending": [
    "BTC",
-   "PENGU",
+   "AXIS",
+   "PEPE",
    "PEARL",
-   "LIT",
+   "Q",
    "AERO",
    "CC",
-   "AXIS",
-   "XRP",
-   "PI",
-   "Q"
+   "PENGU",
+   "MON",
+   "LIT"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T08:07:59.061999+00:00",
    "notified": false
   },
@@ -2091,23 +2092,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance files for Brazil crypto license ahead of Friday deadline",
-   "url": "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T08:04:21+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncef8ed5dbdd2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T08:21:49.220785+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Notice of Removal of Margin Trading Pairs - 2026-10-30",
    "url": "https://www.binance.com/en/support/announcement/b4015154ce33445ebf7b98d1bc12c072",
@@ -2739,8 +2723,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.015,
-   "risk": 0.452,
+   "sentiment": -0.016,
+   "risk": 0.447,
    "events": [
     "etf_flow",
     "macro",
@@ -2764,7 +2748,7 @@
    "last": "2026-10-29T05:30:34+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.066,
+   "sentiment": 0.065,
    "risk": 0.0,
    "events": [
     "project"
@@ -2788,7 +2772,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.134,
-   "risk": 0.21,
+   "risk": 0.204,
    "events": [
     "macro"
    ],
@@ -2797,7 +2781,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.21,
+   "risk": 0.204,
    "events": [
     "macro"
    ],
@@ -2806,7 +2790,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.137,
+   "risk": 0.131,
    "events": [
     "regulation"
    ],
