@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-29T20:26:18.756519+00:00",
+ "updated_at": "2026-10-29T20:55:52.768772+00:00",
  "market": {
-  "btc_dominance": 59.51,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -4.09,
+  "btc_dominance": 59.62,
+  "usdt_dominance": 6.83,
+  "mcap_change_24h": -6.45,
   "trending": [
    "SP",
    "HYPE",
    "KNTQ",
-   "ZEC",
    "LIT",
-   "QTC",
+   "SOL",
    "PENGU",
    "PEPE",
-   "SOL",
-   "CC"
+   "ETH",
+   "VVV",
+   "TAO"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -50,6 +50,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T20:26:18.756519+00:00",
    "notified": false
   },
@@ -879,7 +880,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin gives up gains as Nasdaq slides to session low",
+   "title": "Live updates: Bitcoin falls below $80,000 as weak tech earnings set Nasdaq up for more losses",
    "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
    "published": "2026-10-29T10:41:39+00:00",
    "kind": "news",
@@ -892,7 +893,7 @@
    "id": "Nfcf26d7a63e1",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": -0.2,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-29T11:05:12.903032+00:00",
@@ -2296,44 +2297,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Quantum fears already limiting Bitcoin’s growth, Stacks founder says",
-   "url": "https://cointelegraph.com/news/quantum-fears-already-limiting-bitcoins-growth-stacks-founder-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T20:33:19+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ne18a6a6249e4",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T20:41:13.113234+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
-   "url": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
-   "published": "2026-10-27T20:32:21+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N31c7e593ed47",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T20:41:13.113234+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "CFTC sues Utah as battle over prediction market regulation intensifies",
    "url": "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
@@ -3085,21 +3048,21 @@
    "last": "2026-10-29T16:35:43+00:00"
   },
   "POLUSDT": {
-   "sentiment": 0.07,
+   "sentiment": 0.071,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-29T16:35:43+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.034,
-   "risk": 0.404,
+   "sentiment": -0.04,
+   "risk": 0.399,
    "events": [
     "etf_flow",
     "macro",
     "listing"
    ],
-   "count": 30,
+   "count": 29,
    "last": "2026-10-29T15:39:54+00:00"
   },
   "LINKUSDT": {
@@ -3124,7 +3087,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.064,
+   "sentiment": 0.065,
    "risk": 0.1,
    "events": [
     "macro"
@@ -3133,8 +3096,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.133,
-   "risk": 0.404,
+   "sentiment": -0.135,
+   "risk": 0.399,
    "events": [
     "macro"
    ],
