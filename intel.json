@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-29T06:09:51.114505+00:00",
+ "updated_at": "2026-10-29T06:39:22.299259+00:00",
  "market": {
   "btc_dominance": 59.45,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -3.46,
+  "usdt_dominance": 6.68,
+  "mcap_change_24h": -3.63,
   "trending": [
    "PEARL",
+   "BTC",
    "PENGU",
-   "ENA",
-   "AXIS",
-   "QTC",
-   "STONK",
-   "AERO",
+   "KNTQ",
    "PONS",
-   "JUP",
-   "CC"
+   "AXIS",
+   "AERO",
+   "SUI",
+   "SOL",
+   "SEI"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -54,6 +54,7 @@
    "importance": 3,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T06:09:51.114505+00:00",
    "notified": false
   },
@@ -2139,23 +2140,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
-   "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
-   "published": "2026-10-27T06:14:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb4341a401c71",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T06:23:37.164274+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-10-28)",
    "url": "https://www.binance.com/en/support/announcement/4688df6f250848478383acf772a7424c",
@@ -2753,8 +2737,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.014,
-   "risk": 0.473,
+   "sentiment": -0.015,
+   "risk": 0.468,
    "events": [
     "macro",
     "etf_flow",
@@ -2795,7 +2779,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.135,
-   "risk": 0.23,
+   "risk": 0.225,
    "events": [
     "macro"
    ],
@@ -2804,7 +2788,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.23,
+   "risk": 0.225,
    "events": [
     "macro"
    ],
@@ -2813,7 +2797,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.162,
+   "risk": 0.156,
    "events": [
     "regulation"
    ],
