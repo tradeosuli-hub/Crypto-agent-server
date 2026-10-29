@@ -1,22 +1,61 @@
 {
- "updated_at": "2026-10-29T15:30:54.264547+00:00",
+ "updated_at": "2026-10-29T16:00:28.463543+00:00",
  "market": {
+  "btc_dominance": 59.54,
+  "usdt_dominance": 6.56,
+  "mcap_change_24h": -1.34,
   "trending": [
    "HYPE",
    "AXIS",
-   "LIT",
    "BTC",
    "PENGU",
-   "BP",
+   "LIT",
    "KNTQ",
+   "SOL",
+   "BP",
    "ETH",
-   "NEAR",
-   "SOL"
+   "LINK"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
+   "url": "https://cointelegraph.com/news/kalshi-closes-1b-funding-round-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T15:52:43+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N571676e6c96f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T16:00:28.463543+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price jumps to $81.5K as US GDP data beats expectations",
+   "url": "https://cointelegraph.com/markets/bitcoin-reaction-to-pce-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T15:39:54+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N96515f6ae5fc",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T16:00:28.463543+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "French Senate adopts bill for automatic sharing of crypto tax data",
@@ -30,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T15:30:54.264547+00:00",
    "notified": false
   },
@@ -46,6 +86,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T15:30:54.264547+00:00",
    "notified": false
   },
@@ -83,6 +124,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T15:30:54.264547+00:00",
    "notified": false
   },
@@ -3012,23 +3054,23 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.032,
+   "risk": 0.45,
+   "events": [
+    "etf_flow",
+    "macro",
+    "listing"
+   ],
+   "count": 30,
+   "last": "2026-10-29T15:39:54+00:00"
+  },
   "HYPEUSDT": {
    "sentiment": 0.3,
    "risk": 0.0,
    "events": [],
    "count": 1,
    "last": "2026-10-29T14:44:53+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.04,
-   "risk": 0.455,
-   "events": [
-    "etf_flow",
-    "macro",
-    "listing"
-   ],
-   "count": 29,
-   "last": "2026-10-29T14:15:46+00:00"
   },
   "LINKUSDT": {
    "sentiment": 0.2,
@@ -3066,8 +3108,8 @@
    "last": "2026-10-29T13:00:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.07,
-   "risk": 0.133,
+   "sentiment": 0.068,
+   "risk": 0.128,
    "events": [
     "macro"
    ],
@@ -3075,8 +3117,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.124,
-   "risk": 0.455,
+   "sentiment": -0.125,
+   "risk": 0.45,
    "events": [
     "macro"
    ],
@@ -3084,7 +3126,7 @@
    "last": "2026-10-29T11:11:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.058,
+   "sentiment": 0.059,
    "risk": 0.0,
    "events": [
     "project"
@@ -3101,7 +3143,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.133,
+   "risk": 0.128,
    "events": [
     "macro"
    ],
