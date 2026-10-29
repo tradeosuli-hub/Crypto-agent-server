@@ -1,25 +1,62 @@
 {
- "updated_at": "2026-10-29T05:40:23.161394+00:00",
+ "updated_at": "2026-10-29T06:09:51.114505+00:00",
  "market": {
   "btc_dominance": 59.45,
-  "usdt_dominance": 6.66,
-  "mcap_change_24h": -3.45,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -3.46,
   "trending": [
    "PEARL",
-   "ENA",
-   "QTC",
-   "JUP",
-   "AXIS",
-   "KNTQ",
    "PENGU",
+   "ENA",
+   "AXIS",
+   "QTC",
+   "STONK",
+   "AERO",
    "PONS",
-   "XRP",
-   "AERO"
+   "JUP",
+   "CC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T06:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-10-28T06:31:51.970540+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+   "url": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
+   "published": "2026-10-29T05:54:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf2713dfd80c4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T06:09:51.114505+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
@@ -37,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T05:40:23.161394+00:00",
    "notified": false
   },
@@ -190,23 +228,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-28T21:18:15.666242+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-28T19:46:45+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T06:31:51.970540+00:00",
    "notified": false
   },
   {
@@ -2731,6 +2752,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.014,
+   "risk": 0.473,
+   "events": [
+    "macro",
+    "etf_flow",
+    "listing"
+   ],
+   "count": 29,
+   "last": "2026-10-29T05:54:39+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2738,19 +2770,8 @@
    "count": 3,
    "last": "2026-10-29T05:30:34+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": 0.005,
-   "risk": 0.478,
-   "events": [
-    "macro",
-    "etf_flow",
-    "listing"
-   ],
-   "count": 28,
-   "last": "2026-10-29T03:32:43+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.07,
+   "sentiment": 0.069,
    "risk": 0.0,
    "events": [
     "project"
@@ -2774,7 +2795,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.135,
-   "risk": 0.235,
+   "risk": 0.23,
    "events": [
     "macro"
    ],
@@ -2783,7 +2804,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.235,
+   "risk": 0.23,
    "events": [
     "macro"
    ],
@@ -2792,7 +2813,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.168,
+   "risk": 0.162,
    "events": [
     "regulation"
    ],
