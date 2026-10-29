@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-29T22:24:31.315781+00:00",
+ "updated_at": "2026-10-29T22:54:02.284607+00:00",
  "market": {
-  "btc_dominance": 59.47,
-  "usdt_dominance": 6.8,
-  "mcap_change_24h": -5.81,
+  "btc_dominance": 59.49,
+  "usdt_dominance": 6.78,
+  "mcap_change_24h": -5.64,
   "trending": [
    "SP",
-   "HYPE",
-   "BNB",
-   "XMR",
-   "ETH",
-   "BTC",
-   "ENA",
    "UNI",
+   "HYPE",
    "PEPE",
-   "AAVE"
+   "ENA",
+   "BNB",
+   "BTC",
+   "ETH",
+   "SOL",
+   "XMR"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Tampered Ledger reported in Singapore a month before news broke: Asia Express",
+   "url": "https://cointelegraph.com/magazine/tampered-ledger-reported-in-singapore-a-month-before-news-broke-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T22:31:07+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfc8b7a833a3d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T22:54:02.284607+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
@@ -39,15 +55,19 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Binance hacked for over $5.8B in massive crypto exploit",
+   "title": "Binance hit by $5.8B hack as Tether and Circle freeze billions",
    "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-29T21:24:36+00:00",
    "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
    "id": "N09dbf237fddb",
    "kind_fa": "هک / امنیت",
-   "importance": 9,
+   "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
    "summary_fa": null,
@@ -3004,6 +3024,15 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.549,
+   "risk": 0.969,
+   "events": [
+    "security"
+   ],
+   "count": 4,
+   "last": "2026-10-29T21:24:36+00:00"
+  },
   "HYPEUSDT": {
    "sentiment": 0.3,
    "risk": 0.0,
@@ -3027,7 +3056,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.049,
-   "risk": 0.383,
+   "risk": 0.378,
    "events": [
     "etf_flow",
     "macro"
@@ -3042,13 +3071,6 @@
    "count": 1,
    "last": "2026-10-29T14:15:00+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 3,
-   "last": "2026-10-29T13:30:00+00:00"
-  },
   "TRXUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -3057,7 +3079,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.068,
+   "sentiment": 0.069,
    "risk": 0.1,
    "events": [
     "macro"
@@ -3066,8 +3088,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.139,
-   "risk": 0.383,
+   "sentiment": -0.14,
+   "risk": 0.378,
    "events": [
     "macro"
    ],
