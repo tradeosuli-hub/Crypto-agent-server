@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-29T05:10:53.795880+00:00",
+ "updated_at": "2026-10-29T05:40:23.161394+00:00",
  "market": {
-  "btc_dominance": 59.47,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -3.52,
+  "btc_dominance": 59.45,
+  "usdt_dominance": 6.66,
+  "mcap_change_24h": -3.45,
   "trending": [
-   "PENGU",
-   "ENA",
-   "BTC",
    "PEARL",
-   "KNTQ",
-   "PEPE",
-   "LIT",
-   "AXIS",
+   "ENA",
    "QTC",
-   "PONS"
+   "JUP",
+   "AXIS",
+   "KNTQ",
+   "PENGU",
+   "PONS",
+   "XRP",
+   "AERO"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
+   "url": "https://www.coindesk.com/tech/2026/10/29/ethereum-clients-patch-flaw-that-could-let-attackers-redirect-eth-rewards",
+   "published": "2026-10-29T05:30:34+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nddc05e4fdc6e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T05:40:23.161394+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Utah charges predictions platform Kalshi with illegal gambling",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T05:10:53.795880+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T05:10:53.795880+00:00",
    "notified": false
   },
@@ -2713,12 +2735,12 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
-   "last": "2026-10-29T04:39:49+00:00"
+   "count": 3,
+   "last": "2026-10-29T05:30:34+00:00"
   },
   "BTCUSDT": {
-   "sentiment": 0.006,
-   "risk": 0.483,
+   "sentiment": 0.005,
+   "risk": 0.478,
    "events": [
     "macro",
     "etf_flow",
@@ -2728,7 +2750,7 @@
    "last": "2026-10-29T03:32:43+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.071,
+   "sentiment": 0.07,
    "risk": 0.0,
    "events": [
     "project"
@@ -2752,7 +2774,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.135,
-   "risk": 0.24,
+   "risk": 0.235,
    "events": [
     "macro"
    ],
@@ -2761,7 +2783,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.24,
+   "risk": 0.235,
    "events": [
     "macro"
    ],
@@ -2770,7 +2792,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.174,
+   "risk": 0.168,
    "events": [
     "regulation"
    ],
