@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-29T09:36:35.469495+00:00",
+ "updated_at": "2026-10-29T10:06:09.115961+00:00",
  "market": {
-  "btc_dominance": 59.46,
-  "usdt_dominance": 6.67,
-  "mcap_change_24h": -4.05,
+  "btc_dominance": 59.47,
+  "usdt_dominance": 6.68,
+  "mcap_change_24h": -4.11,
   "trending": [
-   "AXIS",
    "PEPE",
-   "NEAR",
    "PEARL",
-   "BTC",
-   "SOL",
    "QTC",
-   "AERO",
+   "AXIS",
+   "NEAR",
    "PENGU",
-   "LTC"
+   "SOL",
+   "SUI",
+   "LTC",
+   "LIT"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
+   "url": "https://www.coindesk.com/policy/2026/10/29/thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
+   "published": "2026-10-29T10:04:36+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc1e03a27d548",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T10:06:09.115961+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bermuda taps WalletConnect to advance its onchain economy plan",
+   "url": "https://www.coindesk.com/business/2026/10/29/bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
+   "published": "2026-10-29T10:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N56df8418a8b9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T10:06:09.115961+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Former Swift CEO joins stablecoin firm OpenTrade as chairman",
@@ -2037,27 +2073,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Now is the time to accumulate bitcoin, Galaxy says",
-   "url": "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
-   "published": "2026-10-27T09:42:46+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N177b4201edfd",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T09:50:19.806988+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/5b6849270abd4e41a98d94abbf7b28f0",
@@ -2724,17 +2739,17 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.017,
-   "risk": 0.437,
+   "risk": 0.432,
    "events": [
     "etf_flow",
     "macro",
     "listing"
    ],
    "count": 30,
-   "last": "2026-10-29T07:44:44+00:00"
+   "last": "2026-10-29T10:04:36+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.056,
+   "sentiment": -0.057,
    "risk": 0.0,
    "events": [],
    "count": 8,
@@ -2748,7 +2763,7 @@
    "last": "2026-10-29T05:30:34+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.063,
+   "sentiment": 0.062,
    "risk": 0.0,
    "events": [
     "project"
@@ -2772,7 +2787,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.133,
-   "risk": 0.194,
+   "risk": 0.189,
    "events": [
     "macro"
    ],
@@ -2781,7 +2796,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.194,
+   "risk": 0.189,
    "events": [
     "macro"
    ],
