@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-29T07:38:25.816097+00:00",
+ "updated_at": "2026-10-29T08:07:59.061999+00:00",
  "market": {
-  "btc_dominance": 59.47,
+  "btc_dominance": 59.46,
   "usdt_dominance": 6.7,
-  "mcap_change_24h": -3.87,
+  "mcap_change_24h": -4.04,
   "trending": [
-   "PENGU",
    "BTC",
-   "AERO",
+   "PENGU",
    "PEARL",
-   "AXIS",
    "LIT",
-   "Q",
-   "KNTQ",
-   "MON",
-   "CC"
+   "AERO",
+   "CC",
+   "AXIS",
+   "XRP",
+   "PI",
+   "Q"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "The chart bitcoin traders should be paying attention to",
+   "url": "https://www.coindesk.com/markets/2026/10/29/the-chart-bitcoin-traders-should-be-paying-attention-to",
+   "published": "2026-10-29T07:44:44+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne2316f19df76",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T08:07:59.061999+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs add $137M, pushing October back into the green",
@@ -37,6 +57,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T07:38:25.816097+00:00",
    "notified": false
   },
@@ -2104,48 +2125,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
-   "url": "https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam",
-   "published": "2026-10-27T07:44:04+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nb56d47ca791f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T07:52:14.863011+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin ETFs claw back $110M after $774M exit",
-   "url": "https://cointelegraph.com/markets/bitcoin-etf-rebound-110-million-btc-dip-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T07:35:37+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nc77e0a9aec4a",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T07:52:14.863011+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance to Adjust Leverage on Select Isolated Margin Trading Pairs",
    "url": "https://www.binance.com/en/support/announcement/98f858ce2402474a88369532d54494ef",
@@ -2761,17 +2740,17 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.015,
-   "risk": 0.457,
+   "risk": 0.452,
    "events": [
     "etf_flow",
     "macro",
     "listing"
    ],
-   "count": 29,
-   "last": "2026-10-29T07:32:20+00:00"
+   "count": 30,
+   "last": "2026-10-29T07:44:44+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.054,
+   "sentiment": -0.055,
    "risk": 0.0,
    "events": [],
    "count": 8,
@@ -2785,7 +2764,7 @@
    "last": "2026-10-29T05:30:34+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.067,
+   "sentiment": 0.066,
    "risk": 0.0,
    "events": [
     "project"
@@ -2804,12 +2783,12 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-28T11:05:33+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.134,
-   "risk": 0.215,
+   "risk": 0.21,
    "events": [
     "macro"
    ],
@@ -2818,7 +2797,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.215,
+   "risk": 0.21,
    "events": [
     "macro"
    ],
@@ -2827,7 +2806,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.144,
+   "risk": 0.137,
    "events": [
     "regulation"
    ],
