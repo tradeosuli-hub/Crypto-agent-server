@@ -1,25 +1,79 @@
 {
- "updated_at": "2026-10-29T16:30:03.657043+00:00",
+ "updated_at": "2026-10-29T16:59:36.841850+00:00",
  "market": {
-  "btc_dominance": 59.5,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": -1.55,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.59,
+  "mcap_change_24h": -1.8,
   "trending": [
    "HYPE",
-   "PENGU",
-   "KNTQ",
-   "LIT",
    "PEPE",
+   "LIT",
+   "KNTQ",
    "AXIS",
-   "VVV",
-   "ZEC",
-   "SOL",
-   "BTC"
+   "PEARL",
+   "PENGU",
+   "ETH",
+   "PUMP",
+   "ZEC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
+   "url": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
+   "published": "2026-10-29T16:51:18+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndb5e84b7ce14",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T16:59:36.841850+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
+   "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+   "published": "2026-10-29T16:35:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL",
+    "POL"
+   ],
+   "symbols": [
+    "SOLUSDT",
+    "POLUSDT"
+   ],
+   "id": "N17a79d8d3921",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T16:59:36.841850+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
+   "url": "https://cointelegraph.com/news/canton-strategic-holdings-tokenized-stock-trading-november-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T16:27:39+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N47cd363dd5cc",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T16:59:36.841850+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto exchange HTX exits the UK after settling with the FCA",
@@ -33,6 +87,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T16:30:03.657043+00:00",
    "notified": false
   },
@@ -2315,23 +2370,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar",
-   "url": "https://cointelegraph.com/news/janus-henderson-centrifuge-launch-tokenized-nasdaq-100-fund-on-stellar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T16:37:15+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N83e63efc125b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T16:44:15.030351+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
    "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
@@ -3055,9 +3093,23 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.049,
+   "risk": 0.0,
+   "events": [],
+   "count": 5,
+   "last": "2026-10-29T16:35:43+00:00"
+  },
+  "POLUSDT": {
+   "sentiment": 0.07,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-10-29T16:35:43+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.032,
-   "risk": 0.445,
+   "risk": 0.44,
    "events": [
     "etf_flow",
     "macro",
@@ -3094,23 +3146,9 @@
    "count": 2,
    "last": "2026-10-29T13:30:00+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-10-29T13:00:00+00:00"
-  },
-  "POLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-10-29T13:00:00+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": 0.067,
-   "risk": 0.122,
+   "sentiment": 0.066,
+   "risk": 0.117,
    "events": [
     "macro"
    ],
@@ -3118,8 +3156,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.126,
-   "risk": 0.445,
+   "sentiment": -0.127,
+   "risk": 0.44,
    "events": [
     "macro"
    ],
@@ -3127,12 +3165,12 @@
    "last": "2026-10-29T11:11:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.061,
+   "sentiment": 0.068,
    "risk": 0.0,
    "events": [
     "project"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-28T15:56:36+00:00"
   },
   "PEPEUSDT": {
@@ -3144,7 +3182,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.122,
+   "risk": 0.117,
    "events": [
     "macro"
    ],
