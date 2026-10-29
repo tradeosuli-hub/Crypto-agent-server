@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-29T09:07:00.167724+00:00",
+ "updated_at": "2026-10-29T09:36:35.469495+00:00",
  "market": {
-  "btc_dominance": 59.45,
-  "usdt_dominance": 6.69,
-  "mcap_change_24h": -3.99,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -4.05,
   "trending": [
    "AXIS",
-   "BTC",
-   "PEARL",
-   "NEAR",
-   "AERO",
    "PEPE",
-   "HYPE",
-   "Q",
-   "ETH",
-   "PENGU"
+   "NEAR",
+   "PEARL",
+   "BTC",
+   "SOL",
+   "QTC",
+   "AERO",
+   "PENGU",
+   "LTC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T09:07:00.167724+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T09:07:00.167724+00:00",
    "notified": false
   },
@@ -2056,23 +2058,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bloom bot hackers loot $953K faster than you can microwave popcorn",
-   "url": "https://cointelegraph.com/news/bloom-bot-hackers-953k-faster-popcorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T09:07:37+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5b672ff01764",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T09:20:47.661119+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Update on the Collateral Ratio Under Cross Margin and Portfolio Margin (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/5b6849270abd4e41a98d94abbf7b28f0",
@@ -2738,8 +2723,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.016,
-   "risk": 0.442,
+   "sentiment": -0.017,
+   "risk": 0.437,
    "events": [
     "etf_flow",
     "macro",
@@ -2763,7 +2748,7 @@
    "last": "2026-10-29T05:30:34+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.064,
+   "sentiment": 0.063,
    "risk": 0.0,
    "events": [
     "project"
@@ -2787,7 +2772,7 @@
   },
   "NEARUSDT": {
    "sentiment": 0.133,
-   "risk": 0.199,
+   "risk": 0.194,
    "events": [
     "macro"
    ],
@@ -2796,7 +2781,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.199,
+   "risk": 0.194,
    "events": [
     "macro"
    ],
@@ -2805,7 +2790,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.125,
+   "risk": 0.12,
    "events": [
     "regulation"
    ],
