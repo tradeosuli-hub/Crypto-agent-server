@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-29T16:00:28.463543+00:00",
+ "updated_at": "2026-10-29T16:30:03.657043+00:00",
  "market": {
-  "btc_dominance": 59.54,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": -1.34,
+  "btc_dominance": 59.5,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": -1.55,
   "trending": [
    "HYPE",
-   "AXIS",
-   "BTC",
    "PENGU",
-   "LIT",
    "KNTQ",
+   "LIT",
+   "PEPE",
+   "AXIS",
+   "VVV",
+   "ZEC",
    "SOL",
-   "BP",
-   "ETH",
-   "LINK"
+   "BTC"
   ],
   "fear_greed": 51,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto exchange HTX exits the UK after settling with the FCA",
+   "url": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
+   "published": "2026-10-29T16:11:18+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb3de4f3d9710",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-29T16:30:03.657043+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T16:00:28.463543+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T16:00:28.463543+00:00",
    "notified": false
   },
@@ -2335,23 +2353,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko",
-   "url": "https://cointelegraph.com/news/usdc-overtakes-usdt-euro-stablecoin-trading-mica-kaiko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T15:59:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc2f8f8107bb3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T16:14:38.114665+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "SoFi discloses 503,000 crypto products as gross crypto revenue hits $162 million",
    "url": "https://www.theblock.co/news/markets/2026-10-27-sofi-discloses-503000-crypto-products-as-gross-crypto-revenue-hits-162-million-431897",
@@ -3056,7 +3057,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.032,
-   "risk": 0.45,
+   "risk": 0.445,
    "events": [
     "etf_flow",
     "macro",
@@ -3108,8 +3109,8 @@
    "last": "2026-10-29T13:00:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.068,
-   "risk": 0.128,
+   "sentiment": 0.067,
+   "risk": 0.122,
    "events": [
     "macro"
    ],
@@ -3117,8 +3118,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.125,
-   "risk": 0.45,
+   "sentiment": -0.126,
+   "risk": 0.445,
    "events": [
     "macro"
    ],
@@ -3126,7 +3127,7 @@
    "last": "2026-10-29T11:11:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.059,
+   "sentiment": 0.061,
    "risk": 0.0,
    "events": [
     "project"
@@ -3143,7 +3144,7 @@
   },
   "ZECUSDT": {
    "sentiment": 0.2,
-   "risk": 0.128,
+   "risk": 0.122,
    "events": [
     "macro"
    ],
