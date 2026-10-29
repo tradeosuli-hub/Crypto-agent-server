@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-10-29T21:25:24.695257+00:00",
+ "updated_at": "2026-10-29T21:54:54.733693+00:00",
  "market": {
-  "btc_dominance": 59.47,
-  "usdt_dominance": 6.74,
-  "mcap_change_24h": -4.93,
+  "btc_dominance": 59.46,
+  "usdt_dominance": 6.77,
+  "mcap_change_24h": -5.37,
   "trending": [
    "SP",
-   "HYPE",
    "BNB",
+   "HYPE",
    "XMR",
-   "ETH",
    "BTC",
-   "SOL",
-   "KNTQ",
+   "ETH",
    "LIT",
+   "ENA",
+   "KNTQ",
    "ZEC"
   ],
   "fear_greed": 51,
@@ -21,8 +21,40 @@
  },
  "items": [
   {
+   "source": "theblock",
+   "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
+   "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+   "published": "2026-10-29T21:49:16+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5009bf44fab5",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -1.0,
+   "risk": 1.0,
+   "first_seen": "2026-10-29T21:54:54.733693+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance investigates potential multibillion-dollar hack",
+   "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-29T21:24:36+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N09dbf237fddb",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-29T21:54:54.733693+00:00",
+   "notified": false
+  },
+  {
    "source": "coindesk",
-   "title": "Multi-billion Binance hack hitting crypto markets",
+   "title": "Binance loses $5.7 billion in largest crypto hack to date",
    "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
    "published": "2026-10-29T21:12:45+00:00",
    "kind": "security",
@@ -33,6 +65,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T21:25:24.695257+00:00",
    "notified": false
   },
@@ -49,6 +82,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T21:25:24.695257+00:00",
    "notified": false
   },
@@ -912,21 +946,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin falls below $80,000 as weak tech earnings set Nasdaq up for more losses",
+   "title": "Live updates: Crypto falls amid report of multi-billion Binance hack",
    "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
    "published": "2026-10-29T10:41:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
    "id": "Nfcf26d7a63e1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -1.0,
+   "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-29T11:05:12.903032+00:00",
    "notified": false
@@ -2257,44 +2287,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure",
-   "url": "https://cointelegraph.com/news/vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T21:28:22+00:00",
-   "kind": "listing",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N75d67c65d8c9",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T21:40:16.106946+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks",
-   "url": "https://cointelegraph.com/news/intel-ibm-oracle-ionq-object-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-27T21:26:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6fe0e169b31e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T21:40:16.106946+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Robinhood Chain brings in $26 million as crypto revenue rises 20% in Q3",
    "url": "https://www.theblock.co/news/business/2026-10-27-robinhood-chain-brings-in-26-million-crypto-revenue-rises-20-q2-431935",
@@ -2360,23 +2352,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-27T17:13:52.936029+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "SoFi discloses 503,000 crypto products as gross crypto revenue hits $162 million",
-   "url": "https://www.theblock.co/news/markets/2026-10-27-sofi-discloses-503000-crypto-products-as-gross-crypto-revenue-hits-162-million-431897",
-   "published": "2026-10-27T15:35:32+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6ebf2ef243dc",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-27T15:44:59.986895+00:00",
    "notified": false
   },
   {
@@ -3049,14 +3024,13 @@
    "last": "2026-10-29T16:35:43+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.04,
-   "risk": 0.393,
+   "sentiment": -0.048,
+   "risk": 0.388,
    "events": [
     "etf_flow",
-    "macro",
-    "listing"
+    "macro"
    ],
-   "count": 29,
+   "count": 27,
    "last": "2026-10-29T15:39:54+00:00"
   },
   "LINKUSDT": {
@@ -3081,7 +3055,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.066,
+   "sentiment": 0.067,
    "risk": 0.1,
    "events": [
     "macro"
@@ -3090,8 +3064,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.136,
-   "risk": 0.393,
+   "sentiment": -0.137,
+   "risk": 0.388,
    "events": [
     "macro"
    ],
