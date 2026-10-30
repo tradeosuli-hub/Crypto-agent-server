@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-30T21:33:53.033999+00:00",
+ "updated_at": "2026-10-30T22:03:26.077314+00:00",
  "market": {
-  "btc_dominance": 59.06,
+  "btc_dominance": 59.11,
   "usdt_dominance": 6.89,
-  "mcap_change_24h": -4.2,
+  "mcap_change_24h": -4.29,
   "trending": [
-   "SP",
    "BTC",
-   "BNB",
    "SOL",
    "PENGU",
    "HYPE",
    "CC",
-   "LIT",
+   "MON",
+   "ETH",
+   "BNB",
    "PEARL",
-   "UNI"
+   "FET"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T21:33:53.033999+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T21:33:53.033999+00:00",
    "notified": false
   },
@@ -2202,23 +2204,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Canadian ‘crypto king’ case to go to jury as criminal trial winds down",
-   "url": "https://cointelegraph.com/news/canada-crypto-king-jury-criminal-trial-closing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-28T21:35:52+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8557a209ec80",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T21:47:55.476089+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street’s bullish outlook",
    "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
@@ -2978,7 +2963,7 @@
  "symbols": {
   "ETHUSDT": {
    "sentiment": -0.648,
-   "risk": 0.792,
+   "risk": 0.782,
    "events": [
     "security"
    ],
@@ -2987,7 +2972,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.589,
-   "risk": 0.538,
+   "risk": 0.528,
    "events": [
     "security"
    ],
@@ -2995,8 +2980,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.651,
-   "risk": 0.798,
+   "sentiment": -0.652,
+   "risk": 0.787,
    "events": [
     "security",
     "etf_flow",
@@ -3014,7 +2999,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.6,
+   "risk": 0.59,
    "events": [
     "security"
    ],
@@ -3029,14 +3014,14 @@
    "last": "2026-10-29T17:12:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.06,
+   "sentiment": 0.061,
    "risk": 0.0,
    "events": [],
    "count": 4,
    "last": "2026-10-29T16:35:43+00:00"
   },
   "POLUSDT": {
-   "sentiment": 0.076,
+   "sentiment": 0.077,
    "risk": 0.0,
    "events": [],
    "count": 3,
