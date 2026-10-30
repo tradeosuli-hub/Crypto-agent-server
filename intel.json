@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-30T19:35:44.350502+00:00",
+ "updated_at": "2026-10-30T20:05:20.744842+00:00",
  "market": {
-  "btc_dominance": 59.1,
-  "usdt_dominance": 6.91,
-  "mcap_change_24h": -7.05,
+  "btc_dominance": 59.04,
+  "usdt_dominance": 6.89,
+  "mcap_change_24h": -6.55,
   "trending": [
+   "SP",
    "HYPE",
    "BTC",
-   "NEAR",
    "LIT",
-   "UNI",
+   "NEAR",
+   "BNB",
+   "AERO",
    "AAVE",
-   "TAO",
-   "PENGU",
-   "SOL",
-   "PUMP"
+   "UNI",
+   "LINK"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+   "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+   "published": "2026-10-30T19:55:00+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5cb8608a5402",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T20:05:20.744842+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Security Incident Update #2 (2026-10-30)",
@@ -33,6 +49,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T19:35:44.350502+00:00",
    "notified": false
   },
@@ -55,6 +72,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T19:35:44.350502+00:00",
    "notified": false
   },
@@ -2985,8 +3003,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.647,
-   "risk": 0.833,
+   "sentiment": -0.648,
+   "risk": 0.823,
    "events": [
     "security"
    ],
@@ -2994,8 +3012,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.592,
-   "risk": 0.579,
+   "sentiment": -0.591,
+   "risk": 0.569,
    "events": [
     "security"
    ],
@@ -3003,8 +3021,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.641,
-   "risk": 0.839,
+   "sentiment": -0.642,
+   "risk": 0.829,
    "events": [
     "security",
     "etf_flow",
@@ -3022,7 +3040,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.641,
+   "risk": 0.631,
    "events": [
     "security"
    ],
