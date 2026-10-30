@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-30T03:20:17.409759+00:00",
+ "updated_at": "2026-10-30T03:49:55.331311+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 6.86,
-  "mcap_change_24h": -5.39,
+  "btc_dominance": 59.33,
+  "usdt_dominance": 6.83,
+  "mcap_change_24h": -4.81,
   "trending": [
    "SP",
-   "BNB",
    "HYPE",
    "BTC",
-   "AAVE",
+   "PENGU",
+   "BNB",
+   "PEARL",
    "ENA",
-   "NEAR",
+   "XRP",
    "LIT",
-   "UNI",
-   "XRP"
+   "SOL"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
+   "url": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+   "published": "2026-10-30T03:36:11+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3366d82cd930",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T03:49:55.331311+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Predict (PREDICT) Listing Will Be Postponed",
@@ -2329,23 +2345,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Coinbase says user funds are safe after third-party vendor exposes customer contact info",
-   "url": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
-   "published": "2026-10-28T03:11:14+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7191f5213989",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T03:34:43.108143+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Datavault AI stock plummets 50% after firm says it cannot withdraw bitcoin tied to $150 million deal",
    "url": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962",
@@ -3050,7 +3049,7 @@
  "symbols": {
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.98,
+   "risk": 0.97,
    "events": [
     "security"
    ],
@@ -3058,8 +3057,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.299,
-   "risk": 0.98,
+   "sentiment": -0.3,
+   "risk": 0.97,
    "events": [
     "security",
     "etf_flow",
@@ -3069,8 +3068,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.66,
-   "risk": 0.918,
+   "sentiment": -0.659,
+   "risk": 0.908,
    "events": [
     "security",
     "macro"
@@ -3121,7 +3120,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.104,
+   "sentiment": -0.103,
    "risk": 0.0,
    "events": [],
    "count": 6,
