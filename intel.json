@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-30T04:48:57.851838+00:00",
+ "updated_at": "2026-10-30T05:18:26.298692+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 6.8,
-  "mcap_change_24h": -4.33,
+  "btc_dominance": 59.35,
+  "usdt_dominance": 6.79,
+  "mcap_change_24h": -4.54,
   "trending": [
    "SP",
-   "HYPE",
    "BTC",
-   "ENA",
-   "PEARL",
-   "BNB",
+   "HYPE",
    "UNI",
+   "ENA",
+   "PENGU",
+   "BNB",
+   "PEPE",
    "AAVE",
-   "ZEC",
-   "QTC"
+   "TAO"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+   "url": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+   "published": "2026-10-30T04:50:42+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na30053a4a6b3",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T05:18:26.298692+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
@@ -246,7 +266,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Live updates: Binance eyes withdrawal restart within 48 hours after $6.3B hack",
+   "title": "Live updates: Binance $6.3B hack linked to North Korea’s TraderTraitor",
    "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-29T21:24:36+00:00",
    "kind": "security",
@@ -3064,19 +3084,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.388,
-   "risk": 0.983,
+   "sentiment": -0.449,
+   "risk": 0.99,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 28,
-   "last": "2026-10-30T04:00:43+00:00"
+   "count": 29,
+   "last": "2026-10-30T04:50:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.594,
-   "risk": 0.983,
+   "sentiment": -0.595,
+   "risk": 0.973,
    "events": [
     "security"
    ],
@@ -3085,7 +3105,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.949,
+   "risk": 0.939,
    "events": [
     "security"
    ],
@@ -3093,8 +3113,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.776,
-   "risk": 0.887,
+   "sentiment": -0.777,
+   "risk": 0.877,
    "events": [
     "security"
    ],
@@ -3116,7 +3136,7 @@
    "last": "2026-10-29T16:35:43+00:00"
   },
   "POLUSDT": {
-   "sentiment": 0.071,
+   "sentiment": 0.072,
    "risk": 0.0,
    "events": [],
    "count": 3,
