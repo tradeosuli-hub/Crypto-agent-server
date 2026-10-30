@@ -1,28 +1,44 @@
 {
- "updated_at": "2026-10-30T09:44:12.104548+00:00",
+ "updated_at": "2026-10-30T10:13:40.511762+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 6.85,
-  "mcap_change_24h": -5.19,
+  "btc_dominance": 59.24,
+  "usdt_dominance": 6.87,
+  "mcap_change_24h": -4.63,
   "trending": [
    "HYPE",
+   "BNB",
    "BEAM",
    "BTC",
-   "PENGU",
-   "BNB",
-   "PEPE",
    "AAVE",
+   "PEPE",
+   "UNI",
    "ENA",
    "KNTQ",
-   "UNI"
+   "TAO"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
   {
+   "source": "cointelegraph",
+   "title": "THORChain’s RUNE jumps 13% after Binance’s record $6.3B hack",
+   "url": "https://cointelegraph.com/markets/rune-token-surges-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T09:52:29+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1514c4e6e031",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.7,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T10:13:40.511762+00:00",
+   "notified": false
+  },
+  {
    "source": "coindesk",
-   "title": "Strategy CFO resigns as company posts record quarterly profit. MSTR stock falls 6%",
+   "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
    "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
    "published": "2026-10-30T09:41:07+00:00",
    "kind": "news",
@@ -31,8 +47,9 @@
    "id": "Nbc6dc704c91d",
    "kind_fa": "خبر",
    "importance": 2,
-   "sentiment": -0.2,
+   "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T09:44:12.104548+00:00",
    "notified": false
   },
@@ -49,6 +66,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T09:44:12.104548+00:00",
    "notified": false
   },
@@ -278,17 +296,15 @@
   },
   {
    "source": "coindesk",
-   "title": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+   "title": "Standard Chartered sees more pain after $6 billion Binance hack sends bitcoin lower",
    "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
    "published": "2026-10-30T04:00:43+00:00",
    "kind": "security",
    "raw_symbols": [
-    "BTC",
-    "ETH"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
+    "BTCUSDT"
    ],
    "id": "N784c4585f197",
    "kind_fa": "هک / امنیت",
@@ -2374,27 +2390,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-82k-as-morgan-stanley-strategist-says-most-of-correction-is-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-28T09:56:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nd351934569bf",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T09:58:53.040970+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Moody’s assigns investment-grade ratings to Ripple’s RLUSD stablecoin",
    "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
@@ -3160,28 +3155,26 @@
    "last": "2026-10-30T06:22:00+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.459,
-   "risk": 0.898,
+   "sentiment": -0.464,
+   "risk": 0.888,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 28,
+   "count": 27,
    "last": "2026-10-30T06:22:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.556,
-   "risk": 0.881,
-   "events": [
-    "security"
-   ],
-   "count": 5,
+   "sentiment": -0.121,
+   "risk": 0.0,
+   "events": [],
+   "count": 4,
    "last": "2026-10-30T06:22:00+00:00"
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.847,
+   "risk": 0.836,
    "events": [
     "security"
    ],
@@ -3189,8 +3182,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.777,
-   "risk": 0.785,
+   "sentiment": -0.778,
+   "risk": 0.775,
    "events": [
     "security"
    ],
@@ -3233,10 +3226,10 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.056,
+   "sentiment": -0.162,
    "risk": 0.0,
    "events": [],
-   "count": 5,
+   "count": 4,
    "last": "2026-10-29T05:54:39+00:00"
   },
   "PEPEUSDT": {
