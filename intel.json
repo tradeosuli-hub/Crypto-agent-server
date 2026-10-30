@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-30T17:36:32.184022+00:00",
+ "updated_at": "2026-10-30T18:07:06.735716+00:00",
  "market": {
-  "btc_dominance": 59.19,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -6.93,
+  "btc_dominance": 59.18,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -6.65,
   "trending": [
    "BTC",
+   "HYPE",
    "PENGU",
    "BNB",
    "BEAM",
-   "HYPE",
+   "PEARL",
    "NEAR",
+   "PEPE",
    "ENA",
-   "KNTQ",
-   "HBAR",
-   "PEPE"
+   "FET"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+   "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T17:48:27+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc3a4301b50c0",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -1.0,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T18:07:06.735716+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T17:36:32.184022+00:00",
    "notified": false
   },
@@ -2239,27 +2256,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-bounce-rejected-at-50-day-trend-line-ahead-of-fomc-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-28T16:53:26+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5c86e4035289",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": -0.3,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T17:51:31.439635+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Bitwise raises bitcoin price target to $1.6 million by 2036, projects 34% annualized returns",
    "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-projects-34-annualized-returns-432010",
@@ -3056,8 +3052,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.636,
-   "risk": 0.88,
+   "sentiment": -0.637,
+   "risk": 0.87,
    "events": [
     "security",
     "etf_flow",
@@ -3067,8 +3063,8 @@
    "last": "2026-10-30T17:09:31+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.731,
-   "risk": 0.875,
+   "sentiment": -0.733,
+   "risk": 0.864,
    "events": [
     "security"
    ],
@@ -3084,7 +3080,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.683,
+   "risk": 0.672,
    "events": [
     "security"
    ],
@@ -3092,8 +3088,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.843,
-   "risk": 0.621,
+   "sentiment": -0.845,
+   "risk": 0.61,
    "events": [
     "security"
    ],
@@ -3115,7 +3111,7 @@
    "last": "2026-10-29T16:35:43+00:00"
   },
   "POLUSDT": {
-   "sentiment": 0.074,
+   "sentiment": 0.075,
    "risk": 0.0,
    "events": [],
    "count": 3,
@@ -3136,7 +3132,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.225,
+   "sentiment": -0.22,
    "risk": 0.0,
    "events": [],
    "count": 2,
