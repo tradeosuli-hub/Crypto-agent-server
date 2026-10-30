@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-30T16:07:52.738745+00:00",
+ "updated_at": "2026-10-30T16:37:28.219494+00:00",
  "market": {
-  "btc_dominance": 59.38,
+  "btc_dominance": 59.28,
   "usdt_dominance": 6.85,
-  "mcap_change_24h": -7.25,
+  "mcap_change_24h": -7.1,
   "trending": [
    "BTC",
    "HYPE",
    "BNB",
+   "KNTQ",
+   "NEAR",
+   "LIT",
    "PEARL",
    "PENGU",
-   "KNTQ",
-   "PEPE",
-   "LIT",
-   "NEAR",
-   "SUI"
+   "TAO",
+   "BEAM"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+   "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+   "published": "2026-10-30T16:31:17+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6e10d3859b9b",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T16:37:28.219494+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
+   "url": "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221",
+   "published": "2026-10-30T16:26:07+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4e111d8ff00d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-30T16:37:28.219494+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
+   "url": "https://cointelegraph.com/markets/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T16:06:28+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N85de0bc043ef",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-10-30T16:37:28.219494+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Strategy’s preferred-stock fix sets up renewed bitcoin buying, analysts say",
@@ -2260,27 +2312,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto Long & Short: What happens when an AI agent pays for the wrong thing",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/10/28/crypto-long-and-short-what-happens-when-an-ai-agent-pays-for-the-wrong-thing",
-   "published": "2026-10-28T16:01:36+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "AI"
-   ],
-   "symbols": [
-    "AIUSDT"
-   ],
-   "id": "N1f75dc99d30c",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T16:22:49.478595+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Coinbase adds Ripple’s RLUSD stablecoin across retail, exchange and Prime platforms",
    "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009",
@@ -2371,27 +2402,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-28T10:28:25.967780+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Moody’s assigns investment-grade ratings to Ripple’s RLUSD stablecoin",
-   "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
-   "published": "2026-10-28T09:15:20+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N0251e23abda8",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T09:29:15.890043+00:00",
    "notified": false
   },
   {
@@ -3077,19 +3087,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.649,
-   "risk": 0.911,
+   "sentiment": -0.641,
+   "risk": 0.901,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 30,
-   "last": "2026-10-30T14:30:49+00:00"
+   "count": 31,
+   "last": "2026-10-30T16:06:28+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.725,
-   "risk": 0.905,
+   "sentiment": -0.727,
+   "risk": 0.895,
    "events": [
     "security"
    ],
@@ -3105,7 +3115,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.713,
+   "risk": 0.703,
    "events": [
     "security"
    ],
@@ -3113,8 +3123,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.839,
-   "risk": 0.652,
+   "sentiment": -0.841,
+   "risk": 0.641,
    "events": [
     "security"
    ],
@@ -3157,7 +3167,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.236,
+   "sentiment": -0.232,
    "risk": 0.0,
    "events": [],
    "count": 2,
