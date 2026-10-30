@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-30T02:50:45.490723+00:00",
+ "updated_at": "2026-10-30T03:20:17.409759+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -5.55,
+  "btc_dominance": 59.28,
+  "usdt_dominance": 6.86,
+  "mcap_change_24h": -5.39,
   "trending": [
    "SP",
    "BNB",
-   "BTC",
    "HYPE",
+   "BTC",
    "AAVE",
    "ENA",
-   "UNI",
-   "OGN",
    "NEAR",
-   "PEPE"
+   "LIT",
+   "UNI",
+   "XRP"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T02:50:45.490723+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T02:50:45.490723+00:00",
    "notified": false
   },
@@ -71,6 +73,7 @@
    "importance": 10,
    "sentiment": -1.0,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T02:50:45.490723+00:00",
    "notified": false
   },
@@ -169,7 +172,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Live updates: Binance says $3B in crypto frozen in connection to hack",
+   "title": "Live updates: Binance says $6.3B hack involved compromised engineer’s laptop",
    "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-29T21:24:36+00:00",
    "kind": "security",
@@ -186,7 +189,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Binance loses $5.7 billion in 'biggest crypto hack in history'",
+   "title": "Binance loses over $6 billion in 'biggest crypto hack in history'",
    "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
    "published": "2026-10-29T21:12:45+00:00",
    "kind": "security",
@@ -3047,7 +3050,7 @@
  "symbols": {
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.99,
+   "risk": 0.98,
    "events": [
     "security"
    ],
@@ -3055,19 +3058,19 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.297,
-   "risk": 0.99,
+   "sentiment": -0.299,
+   "risk": 0.98,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 29,
+   "count": 28,
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.661,
-   "risk": 0.928,
+   "sentiment": -0.66,
+   "risk": 0.918,
    "events": [
     "security",
     "macro"
