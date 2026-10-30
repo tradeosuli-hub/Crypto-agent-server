@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-10-30T05:18:26.298692+00:00",
+ "updated_at": "2026-10-30T05:47:55.378278+00:00",
  "market": {
-  "btc_dominance": 59.35,
-  "usdt_dominance": 6.79,
-  "mcap_change_24h": -4.54,
+  "btc_dominance": 59.4,
+  "usdt_dominance": 6.77,
+  "mcap_change_24h": -4.35,
   "trending": [
    "SP",
    "BTC",
    "HYPE",
-   "UNI",
+   "PEPE",
    "ENA",
    "PENGU",
    "BNB",
-   "PEPE",
-   "AAVE",
-   "TAO"
+   "UNI",
+   "PEARL",
+   "FET"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens",
+   "url": "https://www.coindesk.com/tech/2026/10/30/xrp-ledger-developers-tighten-the-rules-for-who-can-hold-restricted-tokens",
+   "published": "2026-10-30T05:45:27+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N8a7f40bfabbf",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-30T05:47:55.378278+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "India's largest exchange curbs crypto futures trading as Binance incident disrupts liquidity",
+   "url": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
+   "published": "2026-10-30T05:43:07+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N005fcf424dee",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-30T05:47:55.378278+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
@@ -37,6 +73,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T05:18:26.298692+00:00",
    "notified": false
   },
@@ -2307,46 +2344,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
-   "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
-   "published": "2026-10-28T05:28:13+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "AI",
-    "BTC"
-   ],
-   "symbols": [
-    "AIUSDT",
-    "BTCUSDT"
-   ],
-   "id": "N7d2bcc3e6abf",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T05:32:50.072003+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bithumb hacked through employee system as South Korean financial firms face cyberattacks",
-   "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks",
-   "published": "2026-10-28T05:10:36+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2cc5194e3bbf",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T05:32:50.072003+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Apply Last Price Protected Mechanism on USDⓈ-Margined BULLAUSDT Perpetual Contract (2026-10-28)",
    "url": "https://www.binance.com/en/support/announcement/8d59d768fac54356b6038b41b0d0145f",
@@ -3083,20 +3080,27 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 5,
+   "last": "2026-10-30T05:45:27+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.449,
-   "risk": 0.99,
+   "sentiment": -0.451,
+   "risk": 0.98,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 29,
+   "count": 28,
    "last": "2026-10-30T04:50:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.595,
-   "risk": 0.973,
+   "sentiment": -0.597,
+   "risk": 0.963,
    "events": [
     "security"
    ],
@@ -3105,7 +3109,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.939,
+   "risk": 0.929,
    "events": [
     "security"
    ],
@@ -3114,7 +3118,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.777,
-   "risk": 0.877,
+   "risk": 0.867,
    "events": [
     "security"
    ],
@@ -3157,18 +3161,11 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.102,
+   "sentiment": -0.073,
    "risk": 0.0,
    "events": [],
-   "count": 6,
+   "count": 5,
    "last": "2026-10-29T05:54:39+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-10-28T15:56:36+00:00"
   },
   "PEPEUSDT": {
    "sentiment": 0.7,
