@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-10-29T23:53:00.260819+00:00",
+ "updated_at": "2026-10-30T00:22:28.648655+00:00",
  "market": {
   "btc_dominance": 59.36,
-  "usdt_dominance": 6.84,
-  "mcap_change_24h": -6.39,
+  "usdt_dominance": 6.86,
+  "mcap_change_24h": -6.92,
   "trending": [
-   "PEPE",
    "SP",
-   "BNB",
+   "PEPE",
    "HYPE",
-   "AAVE",
-   "ENA",
+   "BNB",
    "UNI",
+   "ENA",
    "ETH",
-   "BTC",
-   "LINK"
+   "AAVE",
+   "PENGU",
+   "ZAMA"
   ],
-  "fear_greed": 51,
-  "fear_greed_label": "Neutral"
+  "fear_greed": 30,
+  "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance hack drained wallets backing customer assets, reserve data shows",
+   "url": "https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
+   "published": "2026-10-30T00:17:10+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N53777a5ad0ef",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T00:22:28.648655+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance hack may involve private key ‘misuse,’ not theft: Blockaid CEO",
+   "url": "https://cointelegraph.com/news/binance-hack-may-involve-private-key-misuse-not-theft-blockaid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T00:11:26+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N31c145e3b0f1",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T00:22:28.648655+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides",
@@ -39,6 +71,7 @@
    "importance": 10,
    "sentiment": -1.0,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-29T23:53:00.260819+00:00",
    "notified": false
   },
@@ -3045,7 +3078,7 @@
  "symbols": {
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.99,
+   "risk": 0.98,
    "events": [
     "security"
    ],
@@ -3054,7 +3087,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.185,
-   "risk": 0.99,
+   "risk": 0.98,
    "events": [
     "security",
     "etf_flow",
@@ -3115,8 +3148,8 @@
    "last": "2026-10-29T12:04:50+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.143,
-   "risk": 0.368,
+   "sentiment": -0.145,
+   "risk": 0.363,
    "events": [
     "macro"
    ],
