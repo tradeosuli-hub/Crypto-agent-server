@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-30T01:22:05.835552+00:00",
+ "updated_at": "2026-10-30T01:51:36.389765+00:00",
  "market": {
   "btc_dominance": 59.27,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -7.09,
+  "usdt_dominance": 6.92,
+  "mcap_change_24h": -7.45,
   "trending": [
    "SP",
    "HYPE",
    "BTC",
-   "ENA",
    "AAVE",
+   "ENA",
+   "PEPE",
    "BNB",
-   "ETH",
-   "UNI",
-   "TAO",
-   "PEARL"
+   "PENGU",
+   "PUMP",
+   "LIT"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -56,17 +56,19 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides",
+   "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
    "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-29T23:24:21+00:00",
    "kind": "security",
    "raw_symbols": [
     "BNB",
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
     "BNBUSDT",
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "N7044402578f0",
    "kind_fa": "هک / امنیت",
@@ -3059,7 +3061,7 @@
  "symbols": {
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.959,
+   "risk": 0.949,
    "events": [
     "security"
    ],
@@ -3068,13 +3070,23 @@
   },
   "BTCUSDT": {
    "sentiment": -0.186,
-   "risk": 0.959,
+   "risk": 0.949,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
    "count": 28,
+   "last": "2026-10-29T23:24:21+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.663,
+   "risk": 0.949,
+   "events": [
+    "security",
+    "macro"
+   ],
+   "count": 4,
    "last": "2026-10-29T23:24:21+00:00"
   },
   "HYPEUSDT": {
@@ -3119,17 +3131,8 @@
    "count": 2,
    "last": "2026-10-29T13:30:00+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.073,
-   "risk": 0.1,
-   "events": [
-    "macro"
-   ],
-   "count": 3,
-   "last": "2026-10-29T12:04:50+00:00"
-  },
   "AIUSDT": {
-   "sentiment": -0.106,
+   "sentiment": -0.105,
    "risk": 0.0,
    "events": [],
    "count": 6,
