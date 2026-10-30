@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-10-30T19:06:13.489590+00:00",
+ "updated_at": "2026-10-30T19:35:44.350502+00:00",
  "market": {
-  "btc_dominance": 59.15,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -6.97,
+  "btc_dominance": 59.1,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -7.05,
   "trending": [
-   "BTC",
    "HYPE",
+   "BTC",
    "NEAR",
+   "LIT",
    "UNI",
    "AAVE",
-   "LIT",
+   "TAO",
    "PENGU",
-   "BNB",
-   "BEAM",
-   "KAS"
+   "SOL",
+   "PUMP"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Security Incident Update #2 (2026-10-30)",
+   "url": "https://www.binance.com/en/support/announcement/d3306d9dca5243548c813b605e1d1751",
+   "published": "2026-10-30T19:33:34.443000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc9a5962566fa",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-30T19:35:44.350502+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+   "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T19:01:58+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH",
+    "NEAR"
+   ],
+   "symbols": [
+    "ETHUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N83a4ad23971d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-30T19:35:44.350502+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
@@ -2151,44 +2189,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series",
-   "url": "https://cointelegraph.com/news/sam-bankman-fried-actor-anthony-boyle-netflix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-28T19:10:40+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N20c49b859880",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T19:19:56.347300+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading'",
-   "url": "https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading",
-   "published": "2026-10-28T19:01:53+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "AI"
-   ],
-   "symbols": [
-    "AIUSDT"
-   ],
-   "id": "N272a613f2d4e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T19:19:56.347300+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street’s bullish outlook",
    "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
@@ -2695,23 +2695,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Margin Will Initiate Routine Cleanup of Small-Balance Debt Accounts (2026-10-27)",
-   "url": "https://www.binance.com/en/support/announcement/4de277a9d372407f85c05ae3e7e54e03",
-   "published": "2026-10-21T02:00:00.902000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1ea66e24877e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T02:09:38.304576+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Notice of Removal of Spot Trading Pairs - 2026-10-23",
    "url": "https://www.binance.com/en/support/announcement/ad54863d7b0446ebae48bbf3b868ee20",
    "published": "2026-10-20T08:30:00+00:00",
@@ -3001,9 +2984,27 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.647,
+   "risk": 0.833,
+   "events": [
+    "security"
+   ],
+   "count": 7,
+   "last": "2026-10-30T19:01:58+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.592,
+   "risk": 0.579,
+   "events": [
+    "security"
+   ],
+   "count": 3,
+   "last": "2026-10-30T19:01:58+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.64,
-   "risk": 0.849,
+   "sentiment": -0.641,
+   "risk": 0.839,
    "events": [
     "security",
     "etf_flow",
@@ -3011,15 +3012,6 @@
    ],
    "count": 30,
    "last": "2026-10-30T17:09:31+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.737,
-   "risk": 0.843,
-   "events": [
-    "security"
-   ],
-   "count": 6,
-   "last": "2026-10-30T11:35:16+00:00"
   },
   "XRPUSDT": {
    "sentiment": -0.151,
@@ -3030,21 +3022,12 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.651,
+   "risk": 0.641,
    "events": [
     "security"
    ],
    "count": 2,
    "last": "2026-10-30T02:22:31+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.847,
-   "risk": 0.59,
-   "events": [
-    "security"
-   ],
-   "count": 2,
-   "last": "2026-10-29T23:24:21+00:00"
   },
   "HYPEUSDT": {
    "sentiment": 0.3,
