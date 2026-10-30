@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-30T18:07:06.735716+00:00",
+ "updated_at": "2026-10-30T18:36:41.280004+00:00",
  "market": {
   "btc_dominance": 59.18,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -6.65,
+  "usdt_dominance": 6.9,
+  "mcap_change_24h": -6.92,
   "trending": [
    "BTC",
    "HYPE",
-   "PENGU",
    "BNB",
-   "BEAM",
-   "PEARL",
    "NEAR",
-   "PEPE",
-   "ENA",
-   "FET"
+   "PEARL",
+   "PENGU",
+   "AAVE",
+   "STRK",
+   "SOL",
+   "ENA"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -1.0,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T18:07:06.735716+00:00",
    "notified": false
   },
@@ -518,7 +519,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
+   "title": "Live updates: Bitcoin falls below $77,000 as Binance exploit combines with tech woes",
    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
    "published": "2026-10-30T08:36:52+00:00",
    "kind": "security",
@@ -2188,57 +2189,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto isn’t a partisan fight, proven by data",
-   "url": "https://www.coindesk.com/opinion/2026/10/28/crypto-isn-t-a-partisan-fight-proven-by-data",
-   "published": "2026-10-28T18:11:31+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd5793047b3cf",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T18:20:58.678792+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Strategy shareholders approve daily dividends for four preferred stocks",
-   "url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-28T18:00:54+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2bf255337052",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T18:20:58.678792+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Fed leaves interest rates unchanged, as expected",
-   "url": "https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected",
-   "published": "2026-10-28T18:00:42+00:00",
-   "kind": "macro",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc32109048767",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T18:20:58.678792+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street’s bullish outlook",
    "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
@@ -3052,8 +3002,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.637,
-   "risk": 0.87,
+   "sentiment": -0.639,
+   "risk": 0.859,
    "events": [
     "security",
     "etf_flow",
@@ -3063,8 +3013,8 @@
    "last": "2026-10-30T17:09:31+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.733,
-   "risk": 0.864,
+   "sentiment": -0.735,
+   "risk": 0.854,
    "events": [
     "security"
    ],
@@ -3080,7 +3030,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.672,
+   "risk": 0.662,
    "events": [
     "security"
    ],
@@ -3088,8 +3038,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.845,
-   "risk": 0.61,
+   "sentiment": -0.846,
+   "risk": 0.6,
    "events": [
     "security"
    ],
@@ -3104,7 +3054,7 @@
    "last": "2026-10-29T17:12:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.058,
+   "sentiment": 0.059,
    "risk": 0.0,
    "events": [],
    "count": 4,
@@ -3132,7 +3082,7 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.22,
+   "sentiment": -0.216,
    "risk": 0.0,
    "events": [],
    "count": 2,
