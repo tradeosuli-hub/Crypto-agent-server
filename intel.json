@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-30T11:12:43.150608+00:00",
+ "updated_at": "2026-10-30T11:42:12.361257+00:00",
  "market": {
-  "btc_dominance": 59.79,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -6.24,
+  "btc_dominance": 59.77,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -6.4,
   "trending": [
    "HYPE",
    "BEAM",
-   "PEPE",
    "BNB",
-   "UNI",
-   "AERO",
-   "PENGU",
+   "PEPE",
    "BTC",
+   "AERO",
+   "UNI",
+   "KNTQ",
    "AAVE",
-   "SOL"
+   "ZRO"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
+   "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
+   "published": "2026-10-30T11:35:16+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Ne3e972f430cf",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T11:42:12.361257+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T11:29:23+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncafcaf15b9f3",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T11:42:12.361257+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
@@ -39,6 +79,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T11:12:43.150608+00:00",
    "notified": false
   },
@@ -55,6 +96,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T11:12:43.150608+00:00",
    "notified": false
   },
@@ -75,6 +117,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-30T11:12:43.150608+00:00",
    "notified": false
   },
@@ -131,7 +174,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Live updates: Binance uncovers more breach points in $6.3B hack",
+   "title": "Live updates: Binance says $6.34B set aside to cover hack losses",
    "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-10-30T09:08:25+00:00",
    "kind": "security",
@@ -444,7 +487,7 @@
   },
   {
    "source": "binance",
-   "title": "Security Incident Update",
+   "title": "Security Incident Update (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/c5a8729a97ac486d963784d96c5642d7",
    "published": "2026-10-30T02:23:22.672000+00:00",
    "kind": "news",
@@ -2310,69 +2353,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin trading just above $81,000 as Fed delivers hold on rates",
-   "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
-   "published": "2026-10-28T11:23:34+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6843a12b0ad5",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T11:27:27.976905+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Mirae Asset Securities issues tokenized notes on Solana",
-   "url": "https://cointelegraph.com/news/mirae-asset-securities-tokenized-notes-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-28T11:05:33+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Ne484d6fded62",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T11:27:27.976905+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Google to preview crypto custody security system as AI threats grow",
-   "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
-   "published": "2026-10-28T11:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "AI"
-   ],
-   "symbols": [
-    "AIUSDT"
-   ],
-   "id": "N1786ba9e95a7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T11:27:27.976905+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Notice on PREDICT Airdrop Token Allocation",
    "url": "https://www.binance.com/en/support/announcement/58d55610f5954d6c867bfa71658585dd",
@@ -3147,25 +3127,25 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.71,
+   "risk": 0.998,
+   "events": [
+    "security"
+   ],
+   "count": 6,
+   "last": "2026-10-30T11:35:16+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.558,
-   "risk": 0.999,
+   "sentiment": -0.61,
+   "risk": 0.996,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 29,
-   "last": "2026-10-30T11:09:24+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.592,
-   "risk": 0.999,
-   "events": [
-    "security"
-   ],
-   "count": 5,
-   "last": "2026-10-30T11:09:24+00:00"
+   "count": 28,
+   "last": "2026-10-30T11:29:23+00:00"
   },
   "XRPUSDT": {
    "sentiment": -0.113,
@@ -3176,7 +3156,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.816,
+   "risk": 0.806,
    "events": [
     "security"
    ],
@@ -3184,8 +3164,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.829,
-   "risk": 0.754,
+   "sentiment": -0.83,
+   "risk": 0.744,
    "events": [
     "security"
    ],
@@ -3228,18 +3208,11 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.197,
+   "sentiment": -0.195,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-10-29T05:54:39+00:00"
-  },
-  "PEPEUSDT": {
-   "sentiment": 0.7,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-28T11:32:31+00:00"
   }
  },
  "social": {},
