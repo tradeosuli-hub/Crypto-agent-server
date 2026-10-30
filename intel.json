@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-10-30T10:43:12.955903+00:00",
+ "updated_at": "2026-10-30T11:12:43.150608+00:00",
  "market": {
-  "btc_dominance": 59.77,
-  "usdt_dominance": 6.91,
-  "mcap_change_24h": -5.2,
+  "btc_dominance": 59.79,
+  "usdt_dominance": 6.9,
+  "mcap_change_24h": -6.24,
   "trending": [
    "HYPE",
-   "PEPE",
    "BEAM",
+   "PEPE",
    "BNB",
-   "BTC",
    "UNI",
-   "AAVE",
-   "PENGU",
    "AERO",
+   "PENGU",
+   "BTC",
+   "AAVE",
    "SOL"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+   "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+   "published": "2026-10-30T11:09:24+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N3f6c4c27db19",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T11:12:43.150608+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "EIP-7702 didn’t cause Binance hack, but may have amplified losses",
+   "url": "https://cointelegraph.com/news/binance-hack-security-ethereum-eip-7702-role?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T11:00:10+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1c63cde91751",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T11:12:43.150608+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
+   "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-30T10:54:30+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na02cc17a77a8",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-30T11:12:43.150608+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "THORChain’s RUNE jumps 13% after Binance’s record $6.3B hack",
@@ -2315,27 +2373,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS",
-   "url": "https://www.coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs",
-   "published": "2026-10-28T10:41:51+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "NEAR"
-   ],
-   "symbols": [
-    "NEARUSDT"
-   ],
-   "id": "Ne4406dad7027",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T10:57:56.348198+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Notice on PREDICT Airdrop Token Allocation",
    "url": "https://www.binance.com/en/support/announcement/58d55610f5954d6c867bfa71658585dd",
@@ -3110,6 +3147,26 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.558,
+   "risk": 0.999,
+   "events": [
+    "security",
+    "etf_flow",
+    "macro"
+   ],
+   "count": 29,
+   "last": "2026-10-30T11:09:24+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.592,
+   "risk": 0.999,
+   "events": [
+    "security"
+   ],
+   "count": 5,
+   "last": "2026-10-30T11:09:24+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.113,
    "risk": 0.0,
@@ -3117,27 +3174,9 @@
    "count": 5,
    "last": "2026-10-30T06:22:00+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.465,
-   "risk": 0.878,
-   "events": [
-    "security",
-    "etf_flow",
-    "macro"
-   ],
-   "count": 27,
-   "last": "2026-10-30T06:22:00+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.122,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-10-30T06:22:00+00:00"
-  },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.826,
+   "risk": 0.816,
    "events": [
     "security"
    ],
@@ -3145,8 +3184,8 @@
    "last": "2026-10-30T02:22:31+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.828,
-   "risk": 0.764,
+   "sentiment": -0.829,
+   "risk": 0.754,
    "events": [
     "security"
    ],
@@ -3161,14 +3200,14 @@
    "last": "2026-10-29T17:12:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.051,
+   "sentiment": 0.056,
    "risk": 0.0,
    "events": [],
-   "count": 5,
+   "count": 4,
    "last": "2026-10-29T16:35:43+00:00"
   },
   "POLUSDT": {
-   "sentiment": 0.072,
+   "sentiment": 0.073,
    "risk": 0.0,
    "events": [],
    "count": 3,
@@ -3189,10 +3228,10 @@
    "last": "2026-10-29T13:30:00+00:00"
   },
   "AIUSDT": {
-   "sentiment": -0.16,
+   "sentiment": -0.197,
    "risk": 0.0,
    "events": [],
-   "count": 4,
+   "count": 3,
    "last": "2026-10-29T05:54:39+00:00"
   },
   "PEPEUSDT": {
