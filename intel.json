@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-31T10:22:03.649661+00:00",
+ "updated_at": "2026-10-31T10:51:33.256930+00:00",
  "market": {
-  "btc_dominance": 59.88,
+  "btc_dominance": 59.85,
   "usdt_dominance": 6.91,
-  "mcap_change_24h": -2.85,
+  "mcap_change_24h": -2.8,
   "trending": [
+   "PENGU",
    "HYPE",
    "AERO",
    "SUI",
-   "BTC",
-   "LSK",
    "AIN",
-   "AAVE",
-   "PENGU",
-   "QNT",
-   "ETH"
+   "ETH",
+   "CC",
+   "BTC",
+   "BNB",
+   "PEARL"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T10:22:03.649661+00:00",
    "notified": false
   },
@@ -1969,23 +1970,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "ECB President Christine Lagarde to step down in February 2027",
-   "url": "https://cointelegraph.com/news/ecb-president-lagarde-step-down-february-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T10:33:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na553dd5219cd",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T10:35:41.145761+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/784c65be33d44de0b2099cadf8742846",
@@ -2778,19 +2762,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.644,
-   "risk": 0.531,
+   "sentiment": -0.648,
+   "risk": 0.521,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 24,
+   "count": 23,
    "last": "2026-10-31T05:01:32+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.681,
-   "risk": 0.525,
+   "risk": 0.515,
    "events": [
     "security"
    ],
@@ -2798,8 +2782,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.507,
-   "risk": 0.272,
+   "sentiment": -0.5,
+   "risk": 0.261,
    "events": [
     "security"
    ],
@@ -2815,7 +2799,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.333,
+   "risk": 0.323,
    "events": [
     "security"
    ],
@@ -2830,10 +2814,10 @@
    "last": "2026-10-29T17:12:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.05,
+   "sentiment": 0.067,
    "risk": 0.0,
    "events": [],
-   "count": 4,
+   "count": 3,
    "last": "2026-10-29T16:35:43+00:00"
   },
   "POLUSDT": {
