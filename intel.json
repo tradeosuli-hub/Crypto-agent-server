@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-31T01:00:31.310069+00:00",
+ "updated_at": "2026-10-31T01:30:01.734124+00:00",
  "market": {
-  "btc_dominance": 59.15,
-  "usdt_dominance": 6.83,
-  "mcap_change_24h": -2.73,
+  "btc_dominance": 59.21,
+  "usdt_dominance": 6.82,
+  "mcap_change_24h": -1.87,
   "trending": [
-   "SP",
    "HYPE",
-   "NEAR",
-   "PENGU",
-   "PEARL",
-   "KNTQ",
    "MON",
-   "BTC",
+   "NEAR",
+   "KNTQ",
+   "SOL",
+   "PEARL",
+   "LIT",
+   "AERO",
    "QNT",
-   "ETH"
+   "DOT"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T01:00:31.310069+00:00",
    "notified": false
   },
@@ -2216,27 +2217,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts",
-   "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-pressure-after-feds-hawkish-rate-hold-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T01:12:01+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ncdc88ac93e20",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T01:14:43.374632+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street’s bullish outlook",
    "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
@@ -2996,7 +2976,7 @@
  "symbols": {
   "ETHUSDT": {
    "sentiment": -0.647,
-   "risk": 0.72,
+   "risk": 0.71,
    "events": [
     "security"
    ],
@@ -3005,7 +2985,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.584,
-   "risk": 0.467,
+   "risk": 0.456,
    "events": [
     "security"
    ],
@@ -3013,14 +2993,14 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.657,
-   "risk": 0.726,
+   "sentiment": -0.662,
+   "risk": 0.716,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 29,
+   "count": 28,
    "last": "2026-10-30T17:09:31+00:00"
   },
   "XRPUSDT": {
@@ -3032,7 +3012,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.528,
+   "risk": 0.518,
    "events": [
     "security"
    ],
