@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-10-31T12:49:38.072642+00:00",
+ "updated_at": "2026-10-31T13:19:08.163473+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -2.35,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 6.84,
+  "mcap_change_24h": -2.53,
   "trending": [
    "SI",
    "BTC",
    "HYPE",
    "LSK",
-   "PEARL",
    "PENGU",
-   "PEPE",
    "LIT",
-   "LINK",
-   "BNB"
+   "PEARL",
+   "PEPE",
+   "BNB",
+   "BEAM"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "18 years in, what has Bitcoin truly done?",
+   "url": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
+   "published": "2026-10-31T13:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N45b4798e0b02",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T13:19:08.163473+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+   "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+   "published": "2026-10-31T12:49:47+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N89844ad0eea9",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -1.0,
+   "risk": 1.0,
+   "first_seen": "2026-10-31T13:19:08.163473+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
@@ -1676,74 +1716,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "A new framework for tokenized asset tracking",
-   "url": "https://www.coindesk.com/opinion/2026/10/28/a-new-framework-for-tokenized-asset-tracking",
-   "published": "2026-10-29T12:57:51+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc88afe2e14aa",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T13:03:15.658095+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Tokenized stock venue on Canton could beat OKX–ICE to first trade under SEC framework",
-   "url": "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
-   "published": "2026-10-29T12:51:48+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncaa9d9987c0e",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T13:03:15.658095+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Chainalysis traces North Korean crypto cash-outs through Garantex",
-   "url": "https://cointelegraph.com/news/chainalysis-dprk-crypto-cash-out-network-ofac-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T12:38:03+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5ae2d3598649",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T13:03:15.658095+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Unlimit founder backs Phase blockchain with $45M as mainnet launches",
-   "url": "https://cointelegraph.com/news/unlimit-founder-phase-blockchain-mainnet-launches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T12:30:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf3baed265ea6",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T13:03:15.658095+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
    "url": "https://www.binance.com/en/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
@@ -2570,18 +2542,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.667,
-   "risk": 0.48,
+   "sentiment": -0.686,
+   "risk": 0.99,
    "events": [
     "security",
     "etf_flow"
    ],
-   "count": 20,
-   "last": "2026-10-31T05:01:32+00:00"
+   "count": 22,
+   "last": "2026-10-31T13:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.677,
-   "risk": 0.474,
+   "sentiment": -0.676,
+   "risk": 0.464,
    "events": [
     "security"
    ],
@@ -2589,8 +2561,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.539,
-   "risk": 0.22,
+   "sentiment": -0.531,
+   "risk": 0.21,
    "events": [
     "security"
    ],
@@ -2606,7 +2578,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.282,
+   "risk": 0.272,
    "events": [
     "security"
    ],
@@ -2621,17 +2593,17 @@
    "last": "2026-10-29T17:12:03+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.067,
+   "sentiment": 0.2,
    "risk": 0.0,
    "events": [],
-   "count": 3,
+   "count": 1,
    "last": "2026-10-29T16:35:43+00:00"
   },
   "POLUSDT": {
-   "sentiment": 0.067,
+   "sentiment": 0.2,
    "risk": 0.0,
    "events": [],
-   "count": 3,
+   "count": 1,
    "last": "2026-10-29T16:35:43+00:00"
   },
   "LINKUSDT": {
@@ -2645,7 +2617,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-29T13:30:00+00:00"
   }
  },
