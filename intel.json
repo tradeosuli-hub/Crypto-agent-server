@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-31T10:51:33.256930+00:00",
+ "updated_at": "2026-10-31T11:21:01.913203+00:00",
  "market": {
-  "btc_dominance": 59.85,
-  "usdt_dominance": 6.91,
-  "mcap_change_24h": -2.8,
+  "btc_dominance": 59.83,
+  "usdt_dominance": 6.92,
+  "mcap_change_24h": -3.14,
   "trending": [
    "PENGU",
-   "HYPE",
    "AERO",
-   "SUI",
-   "AIN",
    "ETH",
-   "CC",
+   "SUI",
+   "PEARL",
+   "AIN",
+   "PEPE",
+   "AAVE",
    "BTC",
-   "BNB",
-   "PEARL"
+   "SOL"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -1894,82 +1894,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Cathie Wood’s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump",
-   "url": "https://www.coindesk.com/markets/2026/10/29/cathie-wood-s-ark-buys-the-dip-on-robinhood-in-its-largest-purchase-in-6-months-after-23-slump",
-   "published": "2026-10-29T10:51:10+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfbb132c90296",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T11:05:12.903032+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K",
-   "url": "https://cointelegraph.com/markets/bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T10:46:43+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N312956dd2420",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T11:05:12.903032+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline",
-   "url": "https://www.coindesk.com/markets/2026/10/29/solana-wallet-solflare-pledges-to-pay-missed-rewards-on-staked-usd160-million-after-validator-goes-offline",
-   "published": "2026-10-29T10:44:48+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N02bf2d2e215e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T11:05:12.903032+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Live updates: Binance says exploit is likely due to 'compromised DevOps engineer’s laptop'",
-   "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
-   "published": "2026-10-29T10:41:39+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfcf26d7a63e1",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T11:05:12.903032+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/784c65be33d44de0b2099cadf8742846",
@@ -2762,19 +2686,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.648,
-   "risk": 0.521,
+   "sentiment": -0.659,
+   "risk": 0.511,
    "events": [
     "security",
-    "etf_flow",
-    "macro"
+    "etf_flow"
    ],
-   "count": 23,
+   "count": 22,
    "last": "2026-10-31T05:01:32+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.681,
-   "risk": 0.515,
+   "sentiment": -0.68,
+   "risk": 0.505,
    "events": [
     "security"
    ],
@@ -2782,8 +2705,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.5,
-   "risk": 0.261,
+   "sentiment": -0.493,
+   "risk": 0.251,
    "events": [
     "security"
    ],
@@ -2799,7 +2722,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.323,
+   "risk": 0.313,
    "events": [
     "security"
    ],
