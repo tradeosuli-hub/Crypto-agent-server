@@ -1,25 +1,58 @@
 {
- "updated_at": "2026-10-31T14:47:33.195138+00:00",
+ "updated_at": "2026-10-31T15:17:08.757709+00:00",
  "market": {
-  "btc_dominance": 59.24,
-  "usdt_dominance": 6.84,
-  "mcap_change_24h": -2.0,
+  "btc_dominance": 59.19,
+  "usdt_dominance": 6.85,
+  "mcap_change_24h": -2.4,
   "trending": [
    "SP",
    "SI",
-   "HYPE",
    "LSK",
-   "BTC",
-   "SOL",
    "PENGU",
+   "HYPE",
+   "SOL",
+   "NEAR",
    "LIT",
-   "LINK",
-   "SUI"
+   "BTC",
+   "ETH"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-31T15:09:55+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-10-28T06:31:51.970540+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Institutions embrace crypto staking despite shrinking yields",
+   "url": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
+   "published": "2026-10-31T15:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N64d132805cf2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T15:17:08.757709+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
@@ -33,6 +66,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T14:47:33.195138+00:00",
    "notified": false
   },
@@ -53,6 +87,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T14:47:33.195138+00:00",
    "notified": false
   },
@@ -69,6 +104,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T14:47:33.195138+00:00",
    "notified": false
   },
@@ -529,23 +565,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T14:39:19.367833+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T14:07:42+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T06:31:51.970540+00:00",
    "notified": false
   },
   {
@@ -1621,23 +1640,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bank of England opens consultation on tokenized collateral for clearing",
-   "url": "https://cointelegraph.com/news/bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T14:27:46+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N89a1f63d1190",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T15:01:20.026525+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Polygon adds Solana to payment stack linking bank accounts, crypto and payouts",
    "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
@@ -2453,8 +2455,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.644,
-   "risk": 0.959,
+   "sentiment": -0.643,
+   "risk": 0.949,
    "events": [
     "security"
    ],
@@ -2463,7 +2465,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.708,
-   "risk": 0.433,
+   "risk": 0.423,
    "events": [
     "security"
    ],
@@ -2471,7 +2473,7 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.531,
+   "sentiment": -0.536,
    "risk": 0.2,
    "events": [
     "security"
@@ -2488,7 +2490,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.241,
+   "risk": 0.231,
    "events": [
     "security"
    ],
