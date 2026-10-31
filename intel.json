@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-10-31T16:16:06.446877+00:00",
+ "updated_at": "2026-10-31T16:45:40.603746+00:00",
  "market": {
   "btc_dominance": 59.23,
-  "usdt_dominance": 6.83,
-  "mcap_change_24h": -2.5,
+  "usdt_dominance": 6.84,
+  "mcap_change_24h": -2.53,
   "trending": [
    "SP",
    "SI",
+   "PENGU",
    "NEAR",
    "HYPE",
    "BTC",
-   "CC",
-   "PEARL",
-   "SOL",
    "LIT",
-   "PENGU"
+   "CC",
+   "TAO",
+   "VVV"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T16:16:06.446877+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T16:16:06.446877+00:00",
    "notified": false
   },
@@ -1601,23 +1603,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto exchange HTX exits the UK after settling with the FCA",
-   "url": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
-   "published": "2026-10-29T16:11:18+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb3de4f3d9710",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T16:30:03.657043+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "HYPE surges 15% as NYSE parent ICE moves to bring Hyperliquid perps to US",
    "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
@@ -2450,8 +2435,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.686,
-   "risk": 0.983,
+   "sentiment": -0.685,
+   "risk": 0.973,
    "events": [
     "security"
    ],
@@ -2459,8 +2444,8 @@
    "last": "2026-10-31T15:26:46+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.707,
-   "risk": 0.402,
+   "sentiment": -0.706,
+   "risk": 0.392,
    "events": [
     "security"
    ],
@@ -2468,7 +2453,7 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.545,
+   "sentiment": -0.549,
    "risk": 0.2,
    "events": [
     "security"
@@ -2485,7 +2470,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.211,
+   "risk": 0.2,
    "events": [
     "security"
    ],
@@ -2498,20 +2483,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-29T17:12:03+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-29T16:35:43+00:00"
-  },
-  "POLUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-29T16:35:43+00:00"
   }
  },
  "social": {},
