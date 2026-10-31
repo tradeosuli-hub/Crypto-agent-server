@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-31T11:21:01.913203+00:00",
+ "updated_at": "2026-10-31T11:50:34.134826+00:00",
  "market": {
-  "btc_dominance": 59.83,
-  "usdt_dominance": 6.92,
-  "mcap_change_24h": -3.14,
+  "btc_dominance": 59.8,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -3.01,
   "trending": [
-   "PENGU",
-   "AERO",
-   "ETH",
-   "SUI",
-   "PEARL",
-   "AIN",
-   "PEPE",
-   "AAVE",
    "BTC",
-   "SOL"
+   "PEARL",
+   "ZEC",
+   "BNB",
+   "PENGU",
+   "POL",
+   "PEPE",
+   "ENA",
+   "RAY",
+   "TRX"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+   "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-31T11:22:49+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N85b05f4073bf",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T11:50:34.134826+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance $6.3B record hack sparks pre-election political chatter",
@@ -1839,44 +1855,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
-   "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
-   "published": "2026-10-29T11:11:48+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6d1e5fdc0bf1",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T11:34:44.173410+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S.",
-   "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
-   "published": "2026-10-29T11:11:25+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbf2f46685b5e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T11:34:44.173410+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Curve Finance launches on Stellar in first native deployment outside EVM ecosystem",
    "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121",
@@ -2686,8 +2664,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.659,
-   "risk": 0.511,
+   "sentiment": -0.656,
+   "risk": 0.5,
    "events": [
     "security",
     "etf_flow"
@@ -2696,8 +2674,8 @@
    "last": "2026-10-31T05:01:32+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.68,
-   "risk": 0.505,
+   "sentiment": -0.679,
+   "risk": 0.495,
    "events": [
     "security"
    ],
@@ -2705,8 +2683,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.493,
-   "risk": 0.251,
+   "sentiment": -0.486,
+   "risk": 0.241,
    "events": [
     "security"
    ],
@@ -2714,7 +2692,7 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.152,
+   "sentiment": -0.153,
    "risk": 0.0,
    "events": [],
    "count": 2,
@@ -2722,7 +2700,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.313,
+   "risk": 0.303,
    "events": [
     "security"
    ],
