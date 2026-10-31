@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-10-31T09:52:28.219487+00:00",
+ "updated_at": "2026-10-31T10:22:03.649661+00:00",
  "market": {
-  "btc_dominance": 59.87,
+  "btc_dominance": 59.88,
   "usdt_dominance": 6.91,
-  "mcap_change_24h": -4.04,
+  "mcap_change_24h": -2.85,
   "trending": [
    "HYPE",
-   "BTC",
-   "SUI",
-   "PENGU",
-   "CC",
    "AERO",
-   "AAVE",
+   "SUI",
+   "BTC",
    "LSK",
-   "MON",
-   "AIN"
+   "AIN",
+   "AAVE",
+   "PENGU",
+   "QNT",
+   "ETH"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance $6.3B record hack sparks pre-election political chatter",
+   "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-31T09:58:50+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N56a4020c8827",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-10-31T10:22:03.649661+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
@@ -1970,44 +1986,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
-   "url": "https://www.coindesk.com/policy/2026/10/29/thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
-   "published": "2026-10-29T10:04:36+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nc1e03a27d548",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T10:06:09.115961+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bermuda taps WalletConnect to advance its onchain economy plan",
-   "url": "https://www.coindesk.com/business/2026/10/29/bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
-   "published": "2026-10-29T10:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N56df8418a8b9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T10:06:09.115961+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)",
    "url": "https://www.binance.com/en/support/announcement/784c65be33d44de0b2099cadf8742846",
@@ -2800,19 +2778,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.64,
-   "risk": 0.541,
+   "sentiment": -0.644,
+   "risk": 0.531,
    "events": [
     "security",
     "etf_flow",
     "macro"
    ],
-   "count": 25,
+   "count": 24,
    "last": "2026-10-31T05:01:32+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.682,
-   "risk": 0.536,
+   "sentiment": -0.681,
+   "risk": 0.525,
    "events": [
     "security"
    ],
@@ -2820,8 +2798,8 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.513,
-   "risk": 0.282,
+   "sentiment": -0.507,
+   "risk": 0.272,
    "events": [
     "security"
    ],
@@ -2837,7 +2815,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.344,
+   "risk": 0.333,
    "events": [
     "security"
    ],
