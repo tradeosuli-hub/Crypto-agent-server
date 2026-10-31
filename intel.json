@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-31T13:48:36.607441+00:00",
+ "updated_at": "2026-10-31T14:18:04.996024+00:00",
  "market": {
-  "btc_dominance": 59.2,
+  "btc_dominance": 59.27,
   "usdt_dominance": 6.84,
-  "mcap_change_24h": -2.52,
+  "mcap_change_24h": -2.04,
   "trending": [
    "SI",
    "SP",
    "BTC",
+   "PENGU",
    "HYPE",
    "LSK",
-   "LIT",
-   "PENGU",
-   "STX",
    "ETH",
-   "PYTH"
+   "LIT",
+   "BNB",
+   "SOL"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+   "url": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+   "published": "2026-10-31T14:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc97bb576aeda",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T14:18:04.996024+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Texas brothers sentenced to 15 years in prison for armed crypto robbery, kidnapping",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T13:48:36.607441+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T13:48:36.607441+00:00",
    "notified": false
   },
@@ -1622,86 +1644,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
-   "url": "https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
-   "published": "2026-10-29T13:55:42+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N046f5ffccb1d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T14:02:17.754350+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Walmart, Eli Lilly join growing pushback against OKX–ICE tokenized stock plans",
-   "url": "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
-   "published": "2026-10-29T13:39:18+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N400f36d69730",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T14:02:17.754350+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Brazil’s Halloween eve crypto deadline brings more tricks than treats",
-   "url": "https://cointelegraph.com/news/brazil-crypto-license-filing-deadline-hurdles-uncertainty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T13:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N85b9166e8cfe",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T14:02:17.754350+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron?",
-   "url": "https://cointelegraph.com/magazine/private-fast-usdt-is-coming-to-bitcoin-can-it-compete-with-ethereum-and-tron?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T13:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "ETH",
-    "TRX"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT",
-    "TRXUSDT"
-   ],
-   "id": "Na04dd9b9eef9",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T14:02:17.754350+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Polygon adds Solana to payment stack linking bank accounts, crypto and payouts",
    "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
@@ -2534,18 +2476,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.691,
-   "risk": 0.98,
+   "sentiment": -0.679,
+   "risk": 0.969,
    "events": [
-    "security",
-    "etf_flow"
+    "security"
    ],
-   "count": 21,
-   "last": "2026-10-31T13:00:00+00:00"
+   "count": 20,
+   "last": "2026-10-31T14:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.709,
-   "risk": 0.454,
+   "sentiment": -0.708,
+   "risk": 0.443,
    "events": [
     "security"
    ],
@@ -2553,7 +2494,7 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.523,
+   "sentiment": -0.527,
    "risk": 0.2,
    "events": [
     "security"
@@ -2570,7 +2511,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.262,
+   "risk": 0.252,
    "events": [
     "security"
    ],
@@ -2597,13 +2538,6 @@
    "events": [],
    "count": 1,
    "last": "2026-10-29T16:35:43+00:00"
-  },
-  "LINKUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-10-29T14:15:00+00:00"
   }
  },
  "social": {},
