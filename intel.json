@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-10-31T17:44:38.901485+00:00",
+ "updated_at": "2026-10-31T18:14:22.457996+00:00",
  "market": {
   "btc_dominance": 59.24,
-  "usdt_dominance": 6.84,
-  "mcap_change_24h": -2.34,
+  "usdt_dominance": 6.83,
+  "mcap_change_24h": -2.05,
   "trending": [
    "SP",
    "SI",
+   "PENGU",
    "CC",
-   "BTC",
    "HYPE",
-   "LIT",
+   "BTC",
    "PEARL",
-   "QTC",
-   "NEAR",
-   "PENGU"
+   "BNB",
+   "MON",
+   "SUI"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+   "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+   "published": "2026-10-31T18:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N652afa7d1d67",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T18:14:22.457996+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
@@ -2323,17 +2343,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.684,
-   "risk": 0.952,
+   "sentiment": -0.652,
+   "risk": 0.942,
    "events": [
     "security"
    ],
-   "count": 21,
-   "last": "2026-10-31T15:26:46+00:00"
+   "count": 22,
+   "last": "2026-10-31T18:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.705,
-   "risk": 0.372,
+   "sentiment": -0.704,
+   "risk": 0.361,
    "events": [
     "security"
    ],
@@ -2341,7 +2361,7 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.559,
+   "sentiment": -0.563,
    "risk": 0.2,
    "events": [
     "security"
