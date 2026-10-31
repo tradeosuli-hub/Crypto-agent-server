@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-10-31T14:18:04.996024+00:00",
+ "updated_at": "2026-10-31T14:47:33.195138+00:00",
  "market": {
-  "btc_dominance": 59.27,
+  "btc_dominance": 59.24,
   "usdt_dominance": 6.84,
-  "mcap_change_24h": -2.04,
+  "mcap_change_24h": -2.0,
   "trending": [
-   "SI",
    "SP",
-   "BTC",
-   "PENGU",
+   "SI",
    "HYPE",
    "LSK",
-   "ETH",
+   "BTC",
+   "SOL",
+   "PENGU",
    "LIT",
-   "BNB",
-   "SOL"
+   "LINK",
+   "SUI"
   ],
   "fear_greed": 30,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
+   "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+   "published": "2026-10-31T14:40:29+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N40b05d394f16",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T14:47:33.195138+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin turns 18: Has the original rebel grown up?",
+   "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-31T14:27:52+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N39823fdc0212",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T14:47:33.195138+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)",
+   "url": "https://www.binance.com/en/support/announcement/1fdf1f61559c401da0435895ffcccb62",
+   "published": "2026-10-31T14:24:57.063000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N53278ba5ec2f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-10-31T14:47:33.195138+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
@@ -37,6 +89,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-10-31T14:18:04.996024+00:00",
    "notified": false
   },
@@ -1585,65 +1638,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
-   "url": "https://www.coindesk.com/business/2026/10/29/switzerland-s-first-bitcoin-etf-gets-rare-exemption-will-open-to-overseas-brokers",
-   "published": "2026-10-29T14:15:46+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N8884e23566e0",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T14:31:48.092304+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
-   "url": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
-   "published": "2026-10-29T14:15:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "LINK"
-   ],
-   "symbols": [
-    "LINKUSDT"
-   ],
-   "id": "N57f092557f54",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T14:31:48.092304+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard",
-   "url": "https://cointelegraph.com/news/canton-foundation-redstone-coin-pricing-standard?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nff70b18f3c4a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T14:31:48.092304+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Polygon adds Solana to payment stack linking bank accounts, crypto and payouts",
    "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
@@ -2118,23 +2112,6 @@
   },
   {
    "source": "binance",
-   "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-10-22)",
-   "url": "https://www.binance.com/en/support/announcement/84b9812b7a88404baedec318c5d60b37",
-   "published": "2026-10-21T04:00:35.977000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8aa51b1be604",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T04:07:44.527799+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
    "url": "https://www.binance.com/en/support/announcement/3afa938f499d403382d01d0c0644507e",
    "published": "2026-10-21T03:31:11.286000+00:00",
@@ -2476,17 +2453,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.679,
-   "risk": 0.969,
+   "sentiment": -0.644,
+   "risk": 0.959,
    "events": [
     "security"
    ],
-   "count": 20,
-   "last": "2026-10-31T14:00:00+00:00"
+   "count": 21,
+   "last": "2026-10-31T14:27:52+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.708,
-   "risk": 0.443,
+   "risk": 0.433,
    "events": [
     "security"
    ],
@@ -2494,7 +2471,7 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.527,
+   "sentiment": -0.531,
    "risk": 0.2,
    "events": [
     "security"
@@ -2511,7 +2488,7 @@
   },
   "BNBUSDT": {
    "sentiment": -1.0,
-   "risk": 0.252,
+   "risk": 0.241,
    "events": [
     "security"
    ],
@@ -2522,7 +2499,7 @@
    "sentiment": 0.3,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-29T17:12:03+00:00"
   },
   "SOLUSDT": {
