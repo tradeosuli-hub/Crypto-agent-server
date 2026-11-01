@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-01T16:51:33.585862+00:00",
+ "updated_at": "2026-11-01T17:21:08.513589+00:00",
  "market": {
-  "btc_dominance": 59.99,
+  "btc_dominance": 60.0,
   "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.16,
+  "mcap_change_24h": -3.14,
   "trending": [
    "SI",
    "LIT",
-   "KNTQ",
    "BTC",
    "PEARL",
    "ETH",
+   "KNTQ",
+   "PONS",
    "PENGU",
    "AERO",
-   "HYPE",
-   "NEAR"
+   "AAVE"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+   "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+   "published": "2026-11-01T17:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5f142f5c91db",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-01T17:21:08.513589+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Binance sees $3.64 billion in net outflows after reopening withdrawals following record hack",
@@ -33,6 +49,7 @@
    "importance": 9,
    "sentiment": -1.0,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-01T16:51:33.585862+00:00",
    "notified": false
   },
@@ -1060,29 +1077,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T11:42:12.361257+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
-   "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
-   "published": "2026-10-30T11:09:24+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "N3f6c4c27db19",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T11:12:43.150608+00:00",
    "notified": false
   },
   {
@@ -2170,17 +2164,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.715,
-   "risk": 0.869,
+   "sentiment": -0.73,
+   "risk": 0.859,
    "events": [
     "security"
    ],
-   "count": 10,
+   "count": 9,
    "last": "2026-11-01T10:35:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.826,
-   "risk": 0.673,
+   "sentiment": -0.825,
+   "risk": 0.663,
    "events": [
     "security"
    ],
@@ -2189,7 +2183,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.673,
+   "risk": 0.663,
    "events": [
     "security"
    ],
