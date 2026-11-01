@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-01T10:27:57.425234+00:00",
+ "updated_at": "2026-11-01T10:57:25.786872+00:00",
  "market": {
-  "btc_dominance": 59.95,
-  "usdt_dominance": 6.86,
-  "mcap_change_24h": -1.86,
+  "btc_dominance": 59.94,
+  "usdt_dominance": 6.87,
+  "mcap_change_24h": -1.94,
   "trending": [
    "LIT",
-   "BTC",
-   "HYPE",
-   "KNTQ",
    "PENGU",
+   "KNTQ",
+   "BTC",
+   "MORPHO",
+   "KAS",
+   "HYPE",
+   "UNI",
    "PONS",
-   "SOL",
-   "BEAM",
-   "AERO",
-   "RHEA"
+   "BEAM"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+   "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+   "published": "2026-11-01T10:35:42+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N89fa2a7b4b9d",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-01T10:57:25.786872+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance says phase one of withdrawals opens after $6.3B hack",
@@ -1188,27 +1208,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens",
-   "url": "https://www.coindesk.com/tech/2026/10/30/xrp-ledger-developers-tighten-the-rules-for-who-can-hold-restricted-tokens",
-   "published": "2026-10-30T05:45:27+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N8a7f40bfabbf",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T05:47:55.378278+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
    "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2195,17 +2194,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.668,
-   "risk": 0.806,
+   "sentiment": -0.709,
+   "risk": 0.992,
    "events": [
     "security"
    ],
    "count": 16,
-   "last": "2026-11-01T01:10:05+00:00"
+   "last": "2026-11-01T10:35:42+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.857,
-   "risk": 0.806,
+   "risk": 0.796,
    "events": [
     "security"
    ],
@@ -2214,7 +2213,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.806,
+   "risk": 0.796,
    "events": [
     "security"
    ],
