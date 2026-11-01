@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-01T04:04:36.484142+00:00",
+ "updated_at": "2026-11-01T04:34:02.184776+00:00",
  "market": {
   "btc_dominance": 59.28,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -2.33,
+  "usdt_dominance": 6.81,
+  "mcap_change_24h": -2.03,
   "trending": [
    "ANSEM",
-   "HYPE",
-   "KNTQ",
-   "LIT",
    "PUMP",
    "PEPE",
-   "AERO",
+   "AIN",
    "PENGU",
-   "PONS",
-   "XLM"
+   "KNTQ",
+   "LIT",
+   "AERO",
+   "SUI",
+   "HYPE"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
+   "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
+   "published": "2026-11-01T04:08:56.849000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nae103a395a09",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-01T04:34:02.184776+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
@@ -1196,44 +1212,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Standard Chartered sees more pain after $6 billion Binance hack sends bitcoin lower",
-   "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
-   "published": "2026-10-30T04:00:43+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N784c4585f197",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T04:19:26.738033+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Institutional crypto investors rush to pull funds from exchanges after Binance hack",
-   "url": "https://www.coindesk.com/markets/2026/10/30/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
-   "published": "2026-10-30T03:56:40+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne8faf700cb8a",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T04:19:26.738033+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
    "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1909,23 +1887,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Earn Yield Arena: Earn Up to 5,888 USDC With This Week’s New Limited-Time Offers! (2026-10-21)",
-   "url": "https://www.binance.com/en/support/announcement/665c0fe4e9d24b8f8e26f2190d125b57",
-   "published": "2026-10-21T05:00:03.489000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N299e255de00f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T05:06:48.895295+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
    "url": "https://www.binance.com/en/support/announcement/3afa938f499d403382d01d0c0644507e",
    "published": "2026-10-21T03:31:11.286000+00:00",
@@ -2271,8 +2232,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.668,
-   "risk": 0.939,
+   "sentiment": -0.67,
+   "risk": 0.929,
    "events": [
     "security"
    ],
@@ -2280,8 +2241,8 @@
    "last": "2026-11-01T01:10:05+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.82,
-   "risk": 0.939,
+   "sentiment": -0.821,
+   "risk": 0.929,
    "events": [
     "security"
    ],
@@ -2290,7 +2251,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.939,
+   "risk": 0.929,
    "events": [
     "security"
    ],
