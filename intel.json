@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-01T18:20:16.069196+00:00",
+ "updated_at": "2026-11-01T18:49:48.905951+00:00",
  "market": {
-  "btc_dominance": 59.98,
+  "btc_dominance": 60.0,
   "usdt_dominance": 6.88,
-  "mcap_change_24h": -3.43,
+  "mcap_change_24h": -3.44,
   "trending": [
    "SI",
-   "PEARL",
    "LIT",
    "KNTQ",
-   "PENGU",
+   "PEARL",
    "PONS",
-   "LINK",
+   "PENGU",
    "NEAR",
-   "SUI",
-   "SOL"
+   "PUMP",
+   "PEPE",
+   "BNB"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "North Korean hackers launder $242 million of Binance loot via Tron as FBI presses THORChain: analyst",
+   "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
+   "published": "2026-11-01T18:25:48+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "TRX"
+   ],
+   "symbols": [
+    "TRXUSDT"
+   ],
+   "id": "Neff0ace7403b",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-01T18:49:48.905951+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
@@ -1496,23 +1516,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street’s bullish outlook",
-   "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
-   "published": "2026-10-28T17:06:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd7c8afc370d8",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T17:21:58.014172+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Notice on PREDICT Airdrop Token Allocation",
    "url": "https://www.binance.com/en/support/announcement/58d55610f5954d6c867bfa71658585dd",
@@ -2164,9 +2167,18 @@
   }
  ],
  "symbols": {
+  "TRXUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.992,
+   "events": [
+    "security"
+   ],
+   "count": 1,
+   "last": "2026-11-01T18:25:48+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.732,
-   "risk": 0.839,
+   "sentiment": -0.734,
+   "risk": 0.828,
    "events": [
     "security"
    ],
@@ -2174,8 +2186,8 @@
    "last": "2026-11-01T10:35:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.823,
-   "risk": 0.642,
+   "sentiment": -0.822,
+   "risk": 0.632,
    "events": [
     "security"
    ],
@@ -2184,7 +2196,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.642,
+   "risk": 0.632,
    "events": [
     "security"
    ],
