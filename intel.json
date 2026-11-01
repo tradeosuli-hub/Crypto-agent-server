@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-01T17:21:08.513589+00:00",
+ "updated_at": "2026-11-01T17:50:42.932785+00:00",
  "market": {
   "btc_dominance": 60.0,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.14,
+  "usdt_dominance": 6.86,
+  "mcap_change_24h": -3.13,
   "trending": [
    "SI",
    "LIT",
-   "BTC",
    "PEARL",
-   "ETH",
-   "KNTQ",
+   "BTC",
    "PONS",
    "PENGU",
-   "AERO",
-   "AAVE"
+   "KNTQ",
+   "INJ",
+   "AAVE",
+   "ETH"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-01T17:21:08.513589+00:00",
    "notified": false
   },
@@ -2164,8 +2165,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.73,
-   "risk": 0.859,
+   "sentiment": -0.731,
+   "risk": 0.849,
    "events": [
     "security"
    ],
@@ -2173,8 +2174,8 @@
    "last": "2026-11-01T10:35:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.825,
-   "risk": 0.663,
+   "sentiment": -0.824,
+   "risk": 0.653,
    "events": [
     "security"
    ],
@@ -2183,7 +2184,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.663,
+   "risk": 0.653,
    "events": [
     "security"
    ],
