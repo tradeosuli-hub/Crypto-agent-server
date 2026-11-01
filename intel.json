@@ -1,25 +1,49 @@
 {
- "updated_at": "2026-11-01T01:07:26.762945+00:00",
+ "updated_at": "2026-11-01T01:36:57.906570+00:00",
  "market": {
   "btc_dominance": 59.23,
   "usdt_dominance": 6.82,
-  "mcap_change_24h": -2.34,
+  "mcap_change_24h": -2.52,
   "trending": [
    "SP",
-   "PENGU",
    "VVV",
-   "KNTQ",
-   "LIT",
-   "JUP",
+   "PENGU",
    "BTC",
-   "PONS",
+   "KNTQ",
    "SOL",
-   "ZRO"
+   "PEPE",
+   "PEARL",
+   "HYPE",
+   "TAO"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+   "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+   "published": "2026-11-01T01:10:05+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC",
+    "ETH",
+    "SOL"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT"
+   ],
+   "id": "Nb78be0f14654",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-01T01:36:57.906570+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
@@ -2263,22 +2287,31 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.634,
-   "risk": 0.798,
+   "sentiment": -0.681,
+   "risk": 0.991,
    "events": [
     "security"
    ],
-   "count": 21,
-   "last": "2026-10-31T18:00:00+00:00"
+   "count": 22,
+   "last": "2026-11-01T01:10:05+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.672,
-   "risk": 0.218,
+   "sentiment": -0.815,
+   "risk": 0.991,
    "events": [
     "security"
    ],
-   "count": 4,
-   "last": "2026-10-30T19:01:58+00:00"
+   "count": 5,
+   "last": "2026-11-01T01:10:05+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.991,
+   "events": [
+    "security"
+   ],
+   "count": 1,
+   "last": "2026-11-01T01:10:05+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
