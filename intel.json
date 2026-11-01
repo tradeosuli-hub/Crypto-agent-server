@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-01T05:33:07.111720+00:00",
+ "updated_at": "2026-11-01T06:02:37.608763+00:00",
  "market": {
-  "btc_dominance": 59.28,
+  "btc_dominance": 59.29,
   "usdt_dominance": 6.81,
-  "mcap_change_24h": -1.92,
+  "mcap_change_24h": -1.87,
   "trending": [
    "ANSEM",
    "LIT",
-   "PENGU",
-   "BTC",
-   "XPL",
    "PEPE",
-   "PEARL",
+   "BTC",
    "KNTQ",
-   "SOL",
-   "NEAR"
+   "XPL",
+   "PENGU",
+   "AIN",
+   "PENDLE",
+   "ENA"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
@@ -1175,23 +1175,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Binance hack bites India's largest crypto exchange as it curbs futures trading",
-   "url": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
-   "published": "2026-10-30T05:43:07+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N005fcf424dee",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T05:47:55.378278+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
    "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2212,17 +2195,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.662,
-   "risk": 0.909,
+   "sentiment": -0.672,
+   "risk": 0.898,
    "events": [
     "security"
    ],
-   "count": 19,
+   "count": 18,
    "last": "2026-11-01T01:10:05+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.823,
-   "risk": 0.909,
+   "sentiment": -0.824,
+   "risk": 0.898,
    "events": [
     "security"
    ],
@@ -2231,7 +2214,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.909,
+   "risk": 0.898,
    "events": [
     "security"
    ],
@@ -2246,10 +2229,10 @@
    "last": "2026-10-30T19:01:58+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.15,
+   "sentiment": -0.3,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-10-30T06:22:00+00:00"
   }
  },
