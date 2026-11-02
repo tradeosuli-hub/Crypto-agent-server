@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-02T14:31:13.272350+00:00",
+ "updated_at": "2026-11-02T15:00:40.835343+00:00",
  "market": {
   "btc_dominance": 59.27,
   "usdt_dominance": 6.82,
-  "mcap_change_24h": -1.79,
+  "mcap_change_24h": -1.77,
   "trending": [
    "SI",
    "DACITYCOIN",
    "BTC",
-   "NEAR",
-   "HYPE",
    "KNTQ",
-   "XRP",
-   "PENGU",
    "SOL",
-   "PEPE"
+   "INJ",
+   "PENGU",
+   "LIT",
+   "ZEC",
+   "AERO"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto's Washington playbook is working. Don't abandon it now.",
+   "url": "https://www.coindesk.com/opinion/2026/11/02/crypto-s-washington-playbook-is-working-don-t-abandon-it-now",
+   "published": "2026-11-02T15:00:09+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6b82202b2535",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T15:00:40.835343+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Bitmine adds 8,573 ETH as Tom Lee flags muted Binance hack reaction",
+   "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+   "published": "2026-11-02T14:40:53+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Naeecf90279ef",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T15:00:40.835343+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Coinbase downgraded at Morgan Stanely; price target slashed 53% on weak earnings outlook",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T14:31:13.272350+00:00",
    "notified": false
   },
@@ -1079,23 +1116,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
-   "url": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
-   "published": "2026-10-31T14:40:29+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N40b05d394f16",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T14:47:33.195138+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Bitcoin turns 18: Has the original rebel grown up?",
    "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1563,29 +1583,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-29T15:01:20.026525+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Polygon adds Solana to payment stack linking bank accounts, crypto and payouts",
-   "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
-   "published": "2026-10-29T13:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL",
-    "POL"
-   ],
-   "symbols": [
-    "SOLUSDT",
-    "POLUSDT"
-   ],
-   "id": "N88a1a5081a8d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T13:03:15.658095+00:00",
    "notified": false
   },
   {
@@ -2257,9 +2254,18 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.993,
+   "events": [
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-02T14:40:53+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.652,
-   "risk": 0.962,
+   "sentiment": -0.651,
+   "risk": 0.951,
    "events": [
     "token_burn",
     "security",
@@ -2271,7 +2277,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.962,
+   "risk": 0.951,
    "events": [
     "security"
    ],
@@ -2287,21 +2293,12 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.581,
+   "risk": 0.571,
    "events": [
     "security"
    ],
    "count": 1,
    "last": "2026-11-01T18:25:48+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.222,
-   "events": [
-    "security"
-   ],
-   "count": 1,
-   "last": "2026-11-01T01:10:05+00:00"
   }
  },
  "social": {},
