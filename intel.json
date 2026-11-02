@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-02T04:40:46.517137+00:00",
+ "updated_at": "2026-11-02T05:10:16.080367+00:00",
  "market": {
-  "btc_dominance": 60.01,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -2.71,
+  "btc_dominance": 60.02,
+  "usdt_dominance": 6.84,
+  "mcap_change_24h": -2.99,
   "trending": [
-   "PEARL",
    "LIT",
-   "ONDO",
+   "PEARL",
    "NEAR",
    "PENGU",
-   "INJ",
-   "PI",
-   "HYPE",
-   "GTC",
-   "BTC"
+   "CARDS",
+   "KNTQ",
+   "ZEC",
+   "ONDO",
+   "PONS",
+   "CC"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
+   "published": "2026-11-02T04:42:22+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb9f9806ef54e",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T05:10:16.080367+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+   "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+   "published": "2026-11-02T04:41:16+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na52597637b4f",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T05:10:16.080367+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
@@ -1111,44 +1151,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
-   "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
-   "published": "2026-10-30T12:13:02+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N16bb4140c583",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T12:41:13.017596+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Here's how big bitcoin traders responded after the Binance hack hit",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
-   "published": "2026-10-30T11:51:26+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N0e0319f06b3a",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T12:11:39.258982+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Zcash grants group offers $124M compromise as governance backlash grows",
    "url": "https://cointelegraph.com/news/zcash-grants-46m-proposal-governance-backlash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2161,17 +2163,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.838,
+   "sentiment": -0.875,
    "risk": 0.99,
    "events": [
     "security"
    ],
-   "count": 10,
-   "last": "2026-11-02T04:11:05+00:00"
+   "count": 11,
+   "last": "2026-11-02T04:42:22+00:00"
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.786,
+   "risk": 0.776,
    "events": [
     "security"
    ],
@@ -2180,7 +2182,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.427,
+   "risk": 0.417,
    "events": [
     "security"
    ],
@@ -2189,7 +2191,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.427,
+   "risk": 0.417,
    "events": [
     "security"
    ],
