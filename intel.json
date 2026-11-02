@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-02T05:10:16.080367+00:00",
+ "updated_at": "2026-11-02T05:39:42.758941+00:00",
  "market": {
-  "btc_dominance": 60.02,
-  "usdt_dominance": 6.84,
-  "mcap_change_24h": -2.99,
+  "btc_dominance": 60.0,
+  "usdt_dominance": 6.85,
+  "mcap_change_24h": -3.1,
   "trending": [
-   "LIT",
-   "PEARL",
    "NEAR",
+   "BTC",
    "PENGU",
    "CARDS",
-   "KNTQ",
-   "ZEC",
-   "ONDO",
-   "PONS",
-   "CC"
+   "HYPE",
+   "QTC",
+   "AERO",
+   "AZTEC",
+   "LIT",
+   "PONS"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
+   "url": "https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
+   "published": "2026-11-02T05:18:12+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N351b681a82af",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T05:39:42.758941+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
@@ -37,6 +57,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T05:10:16.080367+00:00",
    "notified": false
   },
@@ -57,6 +78,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T05:10:16.080367+00:00",
    "notified": false
   },
@@ -1057,23 +1079,6 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T14:39:19.367833+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
-   "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
-   "published": "2026-10-30T14:13:34+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9ff16ae2dca3",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T14:39:19.367833+00:00",
    "notified": false
@@ -2163,17 +2168,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.875,
-   "risk": 0.99,
+   "sentiment": -0.88,
+   "risk": 0.993,
    "events": [
     "security"
    ],
-   "count": 11,
-   "last": "2026-11-02T04:42:22+00:00"
+   "count": 12,
+   "last": "2026-11-02T05:18:12+00:00"
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.776,
+   "risk": 0.766,
    "events": [
     "security"
    ],
@@ -2182,7 +2187,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.417,
+   "risk": 0.406,
    "events": [
     "security"
    ],
@@ -2191,7 +2196,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.417,
+   "risk": 0.406,
    "events": [
     "security"
    ],
