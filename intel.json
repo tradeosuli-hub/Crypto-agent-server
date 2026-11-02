@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-02T15:59:46.321843+00:00",
+ "updated_at": "2026-11-02T16:29:40.843641+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 6.83,
-  "mcap_change_24h": -2.01,
+  "btc_dominance": 59.25,
+  "usdt_dominance": 6.86,
+  "mcap_change_24h": -2.28,
   "trending": [
    "SI",
    "DACITYCOIN",
+   "NEAR",
    "KNTQ",
    "PEARL",
-   "LIT",
-   "NEAR",
-   "STONK",
-   "BTC",
    "HYPE",
-   "ETH"
+   "BTC",
+   "LIT",
+   "XRP",
+   "QTC"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
@@ -37,6 +37,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T15:59:46.321843+00:00",
    "notified": false
   },
@@ -1084,40 +1085,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-31T18:14:22.457996+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
-   "url": "https://www.coindesk.com/business/2026/11/01/a-stolen-iphone-usd14-000-in-losses-and-london-s-crypto-theft-problem",
-   "published": "2026-10-31T16:09:30+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne960500eefce",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T16:16:06.446877+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
-   "url": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
-   "published": "2026-10-31T16:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N77111fa313ab",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T16:16:06.446877+00:00",
    "notified": false
   },
   {
@@ -2299,7 +2266,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.651,
-   "risk": 0.998,
+   "risk": 0.987,
    "events": [
     "security",
     "token_burn",
@@ -2311,7 +2278,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.973,
+   "risk": 0.962,
    "events": [
     "security"
    ],
@@ -2320,7 +2287,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.931,
+   "risk": 0.921,
    "events": [
     "security"
    ],
@@ -2336,7 +2303,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.551,
+   "risk": 0.54,
    "events": [
     "security"
    ],
