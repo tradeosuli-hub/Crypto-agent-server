@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-02T16:29:40.843641+00:00",
+ "updated_at": "2026-11-02T16:59:27.854155+00:00",
  "market": {
-  "btc_dominance": 59.25,
-  "usdt_dominance": 6.86,
-  "mcap_change_24h": -2.28,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 6.85,
+  "mcap_change_24h": -2.21,
   "trending": [
    "SI",
    "DACITYCOIN",
-   "NEAR",
-   "KNTQ",
-   "PEARL",
    "HYPE",
+   "NEAR",
    "BTC",
+   "PENGU",
+   "PEARL",
+   "KNTQ",
    "LIT",
-   "XRP",
-   "QTC"
+   "MON"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Binance completes latest proof of reserves as it works to restore assets, withdrawals after record hack",
+   "url": "https://www.theblock.co/news/business/2026-11-02-binance-zero-knowledge-proof-of-reserves-snapshot-hack-recovery-432321",
+   "published": "2026-11-02T16:52:55+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na0a7ca7f7d75",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T16:59:27.854155+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "NYSE taps Wall Street giant Broadridge to bring shareholder voting to tokenized stocks",
+   "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
+   "published": "2026-11-02T16:41:46+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Neae3719dc2cc",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T16:59:27.854155+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
@@ -153,7 +185,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Coinbase downgraded at Morgan Stanely; price target slashed 53% on weak earnings outlook",
+   "title": "Coinbase downgraded at Morgan Stanley; price target slashed 53% on weak earnings outlook",
    "url": "https://www.coindesk.com/markets/2026/11/02/morgan-stanley-downgrades-coinbase-slashes-price-target-53-on-weak-earnings-outlook",
    "published": "2026-11-02T14:29:33+00:00",
    "kind": "news",
@@ -341,7 +373,7 @@
   },
   {
    "source": "coindesk",
-   "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
+   "title": "XRP Ledger set to fix flaw that could have let stablecoin partners print new tokens",
    "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
    "published": "2026-11-02T12:37:24+00:00",
    "kind": "news",
@@ -548,7 +580,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin posts small rise as Binance records $6 billion outflows after starting withdrawals",
+   "title": "Live updates: Bitcoin bounce fades as Binance records $6 billion outflows after starting withdrawals",
    "url": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
    "published": "2026-11-02T08:49:30+00:00",
    "kind": "market",
@@ -1575,27 +1607,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "HYPE surges 15% as NYSE parent ICE moves to bring Hyperliquid perps to US",
-   "url": "https://www.theblock.co/news/business/2026-10-29-ice-tradexyz-hyperliquid-perpetual-futures-us-432132",
-   "published": "2026-10-29T14:44:53+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "HYPE"
-   ],
-   "symbols": [
-    "HYPEUSDT"
-   ],
-   "id": "Ncea717c76d9d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T15:01:20.026525+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
    "url": "https://www.binance.com/en/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
@@ -2265,8 +2276,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.651,
-   "risk": 0.987,
+   "sentiment": -0.65,
+   "risk": 0.977,
    "events": [
     "security",
     "token_burn",
@@ -2278,7 +2289,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.962,
+   "risk": 0.952,
    "events": [
     "security"
    ],
@@ -2287,7 +2298,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.921,
+   "risk": 0.91,
    "events": [
     "security"
    ],
@@ -2303,7 +2314,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.54,
+   "risk": 0.53,
    "events": [
     "security"
    ],
