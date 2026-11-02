@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-02T06:38:44.386674+00:00",
+ "updated_at": "2026-11-02T07:08:20.619773+00:00",
  "market": {
-  "btc_dominance": 60.0,
+  "btc_dominance": 59.98,
   "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.43,
+  "mcap_change_24h": -3.49,
   "trending": [
-   "BTC",
-   "QTC",
-   "NEAR",
    "HYPE",
-   "PEARL",
-   "INJ",
+   "PENGU",
+   "BTC",
    "LIT",
-   "PONS",
+   "INJ",
    "KNTQ",
-   "PENGU"
+   "PONS",
+   "PEARL",
+   "NEAR",
+   "SOL"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
+   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-etfs-lost-usd643-million-in-outflows-friday-and-2026-is-barely-green-now",
+   "published": "2026-11-02T06:46:41+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1547210f4826",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T07:08:20.619773+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "BTCPay Server warns of hot wallet thefts running on outdated software",
@@ -1023,23 +1043,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T07:45:57.768233+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
-   "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
-   "published": "2026-10-30T16:31:17+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6e10d3859b9b",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T16:37:28.219494+00:00",
    "notified": false
   },
   {
@@ -2169,17 +2172,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.88,
-   "risk": 0.972,
+   "sentiment": -0.825,
+   "risk": 0.962,
    "events": [
+    "etf_flow",
     "security"
    ],
-   "count": 12,
-   "last": "2026-11-02T05:18:12+00:00"
+   "count": 13,
+   "last": "2026-11-02T06:46:41+00:00"
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.746,
+   "risk": 0.735,
    "events": [
     "security"
    ],
@@ -2188,7 +2192,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.386,
+   "risk": 0.376,
    "events": [
     "security"
    ],
@@ -2197,7 +2201,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.386,
+   "risk": 0.376,
    "events": [
     "security"
    ],
