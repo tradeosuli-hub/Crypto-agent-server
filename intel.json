@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-02T03:41:50.594537+00:00",
+ "updated_at": "2026-11-02T04:11:13.771217+00:00",
  "market": {
-  "btc_dominance": 60.04,
+  "btc_dominance": 60.05,
   "usdt_dominance": 6.81,
-  "mcap_change_24h": -2.59,
+  "mcap_change_24h": -2.63,
   "trending": [
-   "LIT",
-   "BTC",
    "PEARL",
+   "INJ",
+   "BTC",
+   "HYPE",
    "ONDO",
-   "PENGU",
+   "LIT",
+   "PEPE",
    "AKE",
    "SUI",
-   "INJ",
-   "HYPE",
-   "PONS"
+   "PI"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
+   "url": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270",
+   "published": "2026-11-02T04:11:05+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb6d1512749ca",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -1.0,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T04:11:13.771217+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
+   "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T03:55:50+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbf80be3450f2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T04:11:13.771217+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
@@ -1255,27 +1291,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
-   "url": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T05:53:07+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7dac748a7e81",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T06:17:23.954964+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Predict (PREDICT) Listing Will Be Postponed",
    "url": "https://www.binance.com/en/support/announcement/eb1fb9e5f41f43b682332aff0b7b89ce",
@@ -1493,23 +1508,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-29T09:07:00.167724+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Utah files criminal charges against Kalshi, executives over alleged illegal gambling",
-   "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
-   "published": "2026-10-29T06:40:32+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N695dacafa7c8",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T07:08:51.705566+00:00",
    "notified": false
   },
   {
@@ -2160,27 +2158,27 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.837,
+   "risk": 1.0,
+   "events": [
+    "security"
+   ],
+   "count": 10,
+   "last": "2026-11-02T04:11:05+00:00"
+  },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.807,
+   "risk": 0.797,
    "events": [
     "security"
    ],
    "count": 1,
    "last": "2026-11-01T18:25:48+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.747,
-   "risk": 0.644,
-   "events": [
-    "security"
-   ],
-   "count": 9,
-   "last": "2026-11-01T10:35:42+00:00"
-  },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.447,
+   "risk": 0.437,
    "events": [
     "security"
    ],
@@ -2189,7 +2187,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.447,
+   "risk": 0.437,
    "events": [
     "security"
    ],
