@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-02T19:28:08.250863+00:00",
+ "updated_at": "2026-11-02T19:58:19.026790+00:00",
  "market": {
   "btc_dominance": 59.31,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -2.71,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -2.84,
   "trending": [
    "SI",
    "DACITYCOIN",
    "BTC",
    "LIT",
-   "TAO",
-   "NEAR",
    "PEARL",
-   "ZEC",
-   "KNTQ",
-   "ETH"
+   "NEAR",
+   "SOL",
+   "AERO",
+   "PENGU",
+   "KNTQ"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
+   "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T19:27:58+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfe7bdb06c2f1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.1,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T19:58:19.026790+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "DTCC’s tokenization launch could accelerate adoption and boost Securitize, StoneX says",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T19:28:08.250863+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T19:28:08.250863+00:00",
    "notified": false
   },
@@ -1421,29 +1443,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
-   "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T19:01:58+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH",
-    "NEAR"
-   ],
-   "symbols": [
-    "ETHUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N83a4ad23971d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T19:35:44.350502+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
    "url": "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221",
@@ -2293,20 +2292,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.651,
-   "risk": 0.992,
+   "sentiment": -0.63,
+   "risk": 0.982,
    "events": [
     "security",
     "market",
     "token_burn",
     "etf_flow"
    ],
-   "count": 21,
-   "last": "2026-11-02T19:05:35+00:00"
+   "count": 22,
+   "last": "2026-11-02T19:27:58+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.9,
+   "risk": 0.89,
    "events": [
     "security"
    ],
@@ -2315,7 +2314,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.859,
+   "risk": 0.848,
    "events": [
     "security"
    ],
@@ -2331,7 +2330,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.478,
+   "risk": 0.468,
    "events": [
     "security"
    ],
