@@ -1,25 +1,89 @@
 {
- "updated_at": "2026-11-02T08:36:47.729485+00:00",
+ "updated_at": "2026-11-02T09:06:14.602249+00:00",
  "market": {
-  "btc_dominance": 59.95,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -2.42,
+  "btc_dominance": 59.96,
+  "usdt_dominance": 6.86,
+  "mcap_change_24h": -2.66,
   "trending": [
    "BTC",
-   "PEARL",
-   "KNTQ",
-   "PONS",
-   "PENGU",
-   "TRUMP",
-   "ETH",
    "LIT",
+   "PEARL",
+   "LINK",
+   "NEAR",
    "QNT",
-   "NEAR"
+   "PONS",
+   "LTC",
+   "AAVE",
+   "ETH"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead",
+   "url": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+   "published": "2026-11-02T09:04:49+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8e0608db9928",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T09:06:14.602249+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "OKX draws $445M in net inflows as Binance outflows exceed $7B",
+   "url": "https://cointelegraph.com/news/okx-leads-crypto-exchanges-445m-inflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T08:56:03+00:00",
+   "kind": "market",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8efa06200218",
+   "kind_fa": "جریان بازار",
+   "importance": 4,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T09:06:14.602249+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings",
+   "url": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
+   "published": "2026-11-02T08:49:30+00:00",
+   "kind": "market",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N98995fa1bd39",
+   "kind_fa": "جریان بازار",
+   "importance": 4,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T09:06:14.602249+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "China’s Communist Party calls for a crackdown on corruption that uses crypto and blockchain",
+   "url": "https://www.coindesk.com/markets/2026/11/02/china-s-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain",
+   "published": "2026-11-02T08:41:28+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Naaaea2a59746",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T09:06:14.602249+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft",
@@ -33,6 +97,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T08:36:47.729485+00:00",
    "notified": false
   },
@@ -866,44 +931,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
-   "url": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
-   "published": "2026-10-31T05:01:32+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N11187a59fc5d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T05:26:33.331118+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
-   "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
-   "published": "2026-10-31T00:48:56+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne4e9e8e63503",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T01:00:31.310069+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance hackers raced to move billions before it could be frozen",
    "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1246,27 +1273,6 @@
    "id": "N1c63cde91751",
    "kind_fa": "هک / امنیت",
    "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T11:12:43.150608+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
-   "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T10:54:30+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na02cc17a77a8",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
    "summary_fa": null,
@@ -2177,7 +2183,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.85,
-   "risk": 0.984,
+   "risk": 0.974,
    "events": [
     "security",
     "etf_flow"
@@ -2187,7 +2193,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.705,
+   "risk": 0.694,
    "events": [
     "security"
    ],
@@ -2196,7 +2202,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.345,
+   "risk": 0.335,
    "events": [
     "security"
    ],
@@ -2205,7 +2211,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.345,
+   "risk": 0.335,
    "events": [
     "security"
    ],
