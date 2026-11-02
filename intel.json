@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-02T12:03:26.798599+00:00",
+ "updated_at": "2026-11-02T12:33:00.920544+00:00",
  "market": {
   "btc_dominance": 59.91,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -2.91,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -3.59,
   "trending": [
+   "KAS",
    "DACITYCOIN",
    "BTC",
    "HYPE",
-   "PEARL",
-   "MON",
-   "KNTQ",
-   "TAO",
-   "KAS",
    "NEAR",
-   "BNB"
+   "PEARL",
+   "PENGU",
+   "SOL",
+   "KNTQ",
+   "ZEC"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin's 'volatility curve' has a midterm bump",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/02/bitcoin-s-volatility-curve-has-a-midterm-bump",
+   "published": "2026-11-02T12:30:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nea21cd4dceee",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T12:33:00.920544+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "No proof of AI in North Korean hackers move of stolen Binance funds",
@@ -33,6 +53,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T12:03:26.798599+00:00",
    "notified": false
   },
@@ -1011,23 +1032,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-31T13:19:08.163473+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
-   "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
-   "published": "2026-10-31T12:00:00+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1ed24d4b4d6f",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T12:20:06.283360+00:00",
    "notified": false
   },
   {
@@ -2026,11 +2030,15 @@
    "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
    "published": "2026-10-13T03:30:01.158000+00:00",
    "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "RWUSD"
+   ],
+   "symbols": [
+    "RWUSDUSDT"
+   ],
    "id": "Nb12e9f3ec668",
    "kind_fa": "لیستینگ",
-   "importance": 7,
+   "importance": 8,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -2244,18 +2252,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.791,
-   "risk": 0.985,
+   "sentiment": -0.761,
+   "risk": 0.974,
    "events": [
     "security",
     "etf_flow"
    ],
-   "count": 17,
-   "last": "2026-11-02T11:30:00+00:00"
+   "count": 18,
+   "last": "2026-11-02T12:30:17+00:00"
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.633,
+   "risk": 0.622,
    "events": [
     "security"
    ],
@@ -2264,7 +2272,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.273,
+   "risk": 0.263,
    "events": [
     "security"
    ],
@@ -2273,7 +2281,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.273,
+   "risk": 0.263,
    "events": [
     "security"
    ],
