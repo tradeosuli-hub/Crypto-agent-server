@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-02T21:57:07.274013+00:00",
+ "updated_at": "2026-11-02T22:26:39.270318+00:00",
  "market": {
-  "btc_dominance": 59.2,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -2.74,
+  "btc_dominance": 59.25,
+  "usdt_dominance": 6.89,
+  "mcap_change_24h": -2.67,
   "trending": [
    "SI",
    "DACITYCOIN",
    "HYPE",
-   "VVV",
-   "PEARL",
-   "LIT",
    "PENGU",
-   "KMNO",
+   "BTC",
+   "AAVE",
    "KNTQ",
-   "XLM"
+   "KMNO",
+   "LIT",
+   "VVV"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Kim Jong-un’s sister rejects FBI claims linking North Korea to record $6 billion Binance hack: reports",
+   "url": "https://www.theblock.co/news/regulation/2026-11-02-kim-jong-un-sister-rejects-fbi-claims-linking-north-korea-binance-hack-432344",
+   "published": "2026-11-02T22:26:06+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf01a03babec7",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -1.0,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T22:26:39.270318+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
+   "url": "https://cointelegraph.com/news/ai-hackers-threat-bitcoin-quantum-computing-swan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T21:54:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc3c1cf2439f5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T22:26:39.270318+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Big crypto wants the one thing it can’t buy: your vote",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T21:57:07.274013+00:00",
    "notified": false
   },
@@ -1417,23 +1454,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
-   "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-31T11:22:49+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N85b05f4073bf",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T11:50:34.134826+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
    "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
@@ -1628,23 +1648,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T02:50:45.490723+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
-   "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
-   "published": "2026-10-29T21:49:16+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5009bf44fab5",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -1.0,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T21:54:54.733693+00:00",
    "notified": false
   },
   {
@@ -2316,30 +2319,30 @@
   }
  ],
  "symbols": {
-  "SOLUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.986,
-   "events": [
-    "security"
-   ],
-   "count": 3,
-   "last": "2026-11-02T21:16:24+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.674,
-   "risk": 0.966,
+   "sentiment": -0.657,
+   "risk": 0.956,
    "events": [
     "security",
     "market",
     "token_burn",
     "etf_flow"
    ],
-   "count": 23,
-   "last": "2026-11-02T20:19:49+00:00"
+   "count": 24,
+   "last": "2026-11-02T21:54:41+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.976,
+   "events": [
+    "security"
+   ],
+   "count": 3,
+   "last": "2026-11-02T21:16:24+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.849,
+   "risk": 0.838,
    "events": [
     "security"
    ],
@@ -2355,7 +2358,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.427,
+   "risk": 0.416,
    "events": [
     "security"
    ],
