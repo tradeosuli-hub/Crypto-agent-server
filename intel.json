@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-02T10:34:48.336665+00:00",
+ "updated_at": "2026-11-02T11:04:20.094438+00:00",
  "market": {
   "btc_dominance": 59.95,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -2.83,
+  "usdt_dominance": 6.89,
+  "mcap_change_24h": -2.78,
   "trending": [
    "DACITYCOIN",
-   "BTC",
-   "MON",
    "PEARL",
-   "AERO",
+   "MON",
+   "BTC",
+   "PENGU",
    "KNTQ",
-   "ETH",
    "SOL",
-   "PUMP",
-   "QNT"
+   "NEAR",
+   "LIT",
+   "RUNE"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Trezor lifts password ceiling after Coldcard’s $100M wallet thefts",
+   "url": "https://cointelegraph.com/news/trezor-wallet-passphrase-limit-128-characters-coldcard-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T10:46:59+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf4e501349171",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T11:04:20.094438+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Hong Kong takes tokenized settlement to 24/7, plans stablecoin trials",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T10:34:48.336665+00:00",
    "notified": false
   },
@@ -1283,23 +1300,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Zcash grants group offers $124M compromise as governance backlash grows",
-   "url": "https://cointelegraph.com/news/zcash-grants-46m-proposal-governance-backlash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T11:36:23+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne47a44b98e31",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T12:11:39.258982+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Coinbase Q3 net income jumps 66% as prediction markets gain traction",
    "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189",
@@ -2202,8 +2202,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.812,
-   "risk": 0.943,
+   "sentiment": -0.811,
+   "risk": 0.933,
    "events": [
     "security",
     "etf_flow"
@@ -2213,7 +2213,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.664,
+   "risk": 0.653,
    "events": [
     "security"
    ],
@@ -2222,7 +2222,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.304,
+   "risk": 0.294,
    "events": [
     "security"
    ],
@@ -2231,7 +2231,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.304,
+   "risk": 0.294,
    "events": [
     "security"
    ],
