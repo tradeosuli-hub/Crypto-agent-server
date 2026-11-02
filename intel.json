@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-11-02T12:33:00.920544+00:00",
+ "updated_at": "2026-11-02T13:02:32.533355+00:00",
  "market": {
-  "btc_dominance": 59.91,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -3.59,
+  "btc_dominance": 59.9,
+  "usdt_dominance": 6.9,
+  "mcap_change_24h": -3.86,
   "trending": [
    "KAS",
+   "SI",
    "DACITYCOIN",
-   "BTC",
-   "HYPE",
    "NEAR",
+   "BTC",
    "PEARL",
-   "PENGU",
-   "SOL",
+   "HYPE",
+   "ZEC",
    "KNTQ",
-   "ZEC"
+   "PENGU"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
+   "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
+   "published": "2026-11-02T12:45:05.577000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbebb51fc9089",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T13:02:32.533355+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis",
+   "url": "https://cointelegraph.com/news/binance-hackers-solana-new-phase-laundering-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T12:40:45+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC",
+    "SOL"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "SOLUSDT"
+   ],
+   "id": "N57c992a6e9f3",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T13:02:32.533355+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
+   "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
+   "published": "2026-11-02T12:37:24+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N53e52d4b792e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T13:02:32.533355+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin's 'volatility curve' has a midterm bump",
@@ -37,6 +95,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T12:33:00.920544+00:00",
    "notified": false
   },
@@ -1329,23 +1388,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "FBI and Secret Service join response to Binance’s $6.3B hack",
-   "url": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T13:11:10+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N841e67478e87",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T13:40:16.214643+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Coinbase Q3 net income jumps 66% as prediction markets gain traction",
    "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189",
@@ -1890,23 +1932,6 @@
   },
   {
    "source": "binance",
-   "title": "Important Updates on TradFi Perpetual Contracts (2026-10-21)",
-   "url": "https://www.binance.com/en/support/announcement/0308cba2eb53446e8207e7b227106fc5",
-   "published": "2026-10-21T07:17:18.641000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfab0a765f6f2",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-21T07:34:33.005676+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
    "url": "https://www.binance.com/en/support/announcement/3afa938f499d403382d01d0c0644507e",
    "published": "2026-10-21T03:31:11.286000+00:00",
@@ -2252,18 +2277,34 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.761,
-   "risk": 0.974,
+   "sentiment": -0.777,
+   "risk": 0.992,
    "events": [
     "security",
     "etf_flow"
    ],
-   "count": 18,
-   "last": "2026-11-02T12:30:17+00:00"
+   "count": 17,
+   "last": "2026-11-02T12:40:45+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.992,
+   "events": [
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-02T12:40:45+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-02T12:37:24+00:00"
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.622,
+   "risk": 0.612,
    "events": [
     "security"
    ],
@@ -2272,16 +2313,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.263,
-   "events": [
-    "security"
-   ],
-   "count": 1,
-   "last": "2026-11-01T01:10:05+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.263,
+   "risk": 0.253,
    "events": [
     "security"
    ],
