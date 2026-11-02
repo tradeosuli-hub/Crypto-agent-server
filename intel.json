@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-02T17:58:38.100350+00:00",
+ "updated_at": "2026-11-02T18:28:11.909865+00:00",
  "market": {
   "btc_dominance": 59.31,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -3.02,
+  "usdt_dominance": 6.89,
+  "mcap_change_24h": -2.68,
   "trending": [
    "SI",
    "DACITYCOIN",
    "BTC",
-   "AERO",
+   "KNTQ",
+   "PEARL",
    "LIT",
    "HYPE",
    "SOL",
-   "NEAR",
-   "KNTQ",
-   "PEARL"
+   "AERO",
+   "NEAR"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+   "published": "2026-11-02T18:13:57+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7d8ca012ea28",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": -0.1,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T18:28:11.909865+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Animoca Brands clears final hurdle for Abu Dhabi fund management",
+   "url": "https://cointelegraph.com/news/animoca-brands-expands-asset-management-business-with-abu-dhabi-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T18:00:16+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N92ad8e54058a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T18:28:11.909865+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
@@ -1118,27 +1154,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
-   "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
-   "published": "2026-10-31T18:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N652afa7d1d67",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T18:14:22.457996+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
    "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1405,27 +1420,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T18:07:06.735716+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
-   "url": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T17:09:31+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6256f55ab55f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T17:36:32.184022+00:00",
    "notified": false
   },
   {
@@ -2295,20 +2289,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.65,
-   "risk": 0.957,
+   "sentiment": -0.627,
+   "risk": 0.946,
    "events": [
+    "market",
     "security",
     "token_burn",
-    "market",
     "etf_flow"
    ],
    "count": 20,
-   "last": "2026-11-02T15:53:29+00:00"
+   "last": "2026-11-02T18:13:57+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.931,
+   "risk": 0.921,
    "events": [
     "security"
    ],
@@ -2317,7 +2311,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.89,
+   "risk": 0.879,
    "events": [
     "security"
    ],
@@ -2333,7 +2327,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.509,
+   "risk": 0.499,
    "events": [
     "security"
    ],
