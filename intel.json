@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-02T08:07:18.797162+00:00",
+ "updated_at": "2026-11-02T08:36:47.729485+00:00",
  "market": {
-  "btc_dominance": 59.97,
+  "btc_dominance": 59.95,
   "usdt_dominance": 6.87,
-  "mcap_change_24h": -2.49,
+  "mcap_change_24h": -2.42,
   "trending": [
    "BTC",
-   "LIT",
    "PEARL",
    "KNTQ",
+   "PONS",
    "PENGU",
-   "QNT",
-   "ENA",
+   "TRUMP",
    "ETH",
-   "NEAR",
-   "PEPE"
+   "LIT",
+   "QNT",
+   "NEAR"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft",
+   "url": "https://www.coindesk.com/business/2026/11/02/why-crypto-exchange-hacks-can-be-harder-to-contain-versus-global-banks",
+   "published": "2026-11-02T08:32:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2eb5261b5943",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T08:36:47.729485+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
@@ -37,6 +53,7 @@
    "importance": 10,
    "sentiment": -1.0,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T08:07:18.797162+00:00",
    "notified": false
   },
@@ -935,23 +952,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T21:33:53.033999+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
-   "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
-   "published": "2026-10-30T19:55:00+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5cb8608a5402",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T20:05:20.744842+00:00",
    "notified": false
   },
   {
@@ -2177,7 +2177,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.85,
-   "risk": 0.994,
+   "risk": 0.984,
    "events": [
     "security",
     "etf_flow"
@@ -2187,7 +2187,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.715,
+   "risk": 0.705,
    "events": [
     "security"
    ],
@@ -2196,7 +2196,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.355,
+   "risk": 0.345,
    "events": [
     "security"
    ],
@@ -2205,7 +2205,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.355,
+   "risk": 0.345,
    "events": [
     "security"
    ],
