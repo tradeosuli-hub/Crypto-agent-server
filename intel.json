@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-02T20:57:34.949165+00:00",
+ "updated_at": "2026-11-02T21:27:09.587885+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -2.63,
+  "btc_dominance": 59.26,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -2.83,
   "trending": [
-   "DACITYCOIN",
    "SI",
+   "DACITYCOIN",
    "HYPE",
-   "KNTQ",
    "PEARL",
+   "VVV",
+   "LIT",
+   "KNTQ",
    "NEAR",
-   "ETH",
-   "QNT",
-   "SOL",
-   "BTC"
+   "HOT",
+   "KMNO"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
+   "url": "https://cointelegraph.com/news/zachxbt-flags-suspected-106m-crypto-theft-as-solana-bot-faces-possible-786k-drain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T21:16:24+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N0cd0327a58df",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T21:27:09.587885+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
@@ -1397,23 +1417,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance $6.3B record hack sparks pre-election political clashes",
-   "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-31T09:58:50+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N56a4020c8827",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T10:22:03.649661+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
    "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
@@ -2296,9 +2299,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.996,
+   "events": [
+    "security"
+   ],
+   "count": 3,
+   "last": "2026-11-02T21:16:24+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.675,
-   "risk": 0.987,
+   "sentiment": -0.674,
+   "risk": 0.977,
    "events": [
     "security",
     "market",
@@ -2310,21 +2322,12 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.869,
+   "risk": 0.859,
    "events": [
     "security"
    ],
    "count": 2,
    "last": "2026-11-02T14:40:53+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.827,
-   "events": [
-    "security"
-   ],
-   "count": 2,
-   "last": "2026-11-02T12:40:45+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.2,
@@ -2335,7 +2338,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.447,
+   "risk": 0.437,
    "events": [
     "security"
    ],
