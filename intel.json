@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-02T18:58:33.507067+00:00",
+ "updated_at": "2026-11-02T19:28:08.250863+00:00",
  "market": {
   "btc_dominance": 59.31,
   "usdt_dominance": 6.9,
-  "mcap_change_24h": -2.82,
+  "mcap_change_24h": -2.71,
   "trending": [
    "SI",
    "DACITYCOIN",
-   "PEARL",
    "BTC",
-   "KNTQ",
-   "TAO",
-   "PENGU",
-   "NEAR",
    "LIT",
-   "AAVE"
+   "TAO",
+   "NEAR",
+   "PEARL",
+   "ZEC",
+   "KNTQ",
+   "ETH"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "DTCC’s tokenization launch could accelerate adoption and boost Securitize, StoneX says",
+   "url": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
+   "published": "2026-11-02T19:15:48+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb5f9edd027c1",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T19:28:08.250863+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Mercado Bitcoin wallets keep moving funds after $46M hack",
+   "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T19:05:35+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na930f919739c",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T19:28:08.250863+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
@@ -1408,23 +1444,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
-   "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T17:48:27+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc3a4301b50c0",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -1.0,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T18:07:06.735716+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Texas brothers sentenced to 15 years for holding Minnesota family at gunpoint in $8 million crypto heist",
    "url": "https://www.theblock.co/news/regulation/2026-10-30-texas-brothers-sentenced-15-years-8-million-crypto-robbery-minnesota-432221",
@@ -1602,23 +1621,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-29T21:25:24.695257+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Polymarket resumes trading after $2.65 million exploit, says third-party provider was compromised",
-   "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158",
-   "published": "2026-10-29T19:00:06+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N12f9e601d637",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T19:27:12.730672+00:00",
    "notified": false
   },
   {
@@ -2291,20 +2293,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.626,
-   "risk": 0.936,
+   "sentiment": -0.651,
+   "risk": 0.992,
    "events": [
-    "market",
     "security",
+    "market",
     "token_burn",
     "etf_flow"
    ],
-   "count": 20,
-   "last": "2026-11-02T18:13:57+00:00"
+   "count": 21,
+   "last": "2026-11-02T19:05:35+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.911,
+   "risk": 0.9,
    "events": [
     "security"
    ],
@@ -2313,7 +2315,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.869,
+   "risk": 0.859,
    "events": [
     "security"
    ],
@@ -2329,7 +2331,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.489,
+   "risk": 0.478,
    "events": [
     "security"
    ],
