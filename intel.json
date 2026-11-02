@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-02T19:58:19.026790+00:00",
+ "updated_at": "2026-11-02T20:27:58.435303+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 6.91,
-  "mcap_change_24h": -2.84,
+  "btc_dominance": 59.3,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -2.36,
   "trending": [
    "SI",
    "DACITYCOIN",
    "BTC",
-   "LIT",
    "PEARL",
-   "NEAR",
-   "SOL",
-   "AERO",
    "PENGU",
-   "KNTQ"
+   "HYPE",
+   "NEAR",
+   "KNTQ",
+   "SOL",
+   "AERO"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
+   "url": "https://cointelegraph.com/news/morgan-stanley-cuts-coinbase-target-to-120-as-earnings-recovery-outlook-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T20:22:23+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N77721f9274fd",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T20:27:58.435303+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Mercado Bitcoin, Brazil’s largest crypto exchange, hit by $46 million security breach",
+   "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
+   "published": "2026-11-02T20:19:49+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N881f170a39ca",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T20:27:58.435303+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.1,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T19:58:19.026790+00:00",
    "notified": false
   },
@@ -59,7 +96,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Mercado Bitcoin wallets keep moving funds after $46M hack",
+   "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
    "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-02T19:05:35+00:00",
    "kind": "security",
@@ -695,10 +732,10 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin bounce fades as Binance records $6 billion outflows after starting withdrawals",
+   "title": "Live updates: Bitcoin bounce fades as Binance exploit continues to weigh",
    "url": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
    "published": "2026-11-02T08:49:30+00:00",
-   "kind": "market",
+   "kind": "security",
    "raw_symbols": [
     "BTC"
    ],
@@ -706,10 +743,10 @@
     "BTCUSDT"
    ],
    "id": "N98995fa1bd39",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": -0.4,
-   "risk": 0.0,
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-11-02T09:06:14.602249+00:00",
    "notified": false
@@ -1375,23 +1412,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance hackers raced to move billions before it could be frozen",
-   "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T22:00:00+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd1ae876d4cf4",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T22:32:54.509021+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
    "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
@@ -1603,23 +1623,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-29T21:54:54.733693+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Strategy reports $19.5 billion in Q3 net income as preferred shareholders approve daily dividends",
-   "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
-   "published": "2026-10-29T20:58:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N0965a5d4cf8f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-29T21:25:24.695257+00:00",
    "notified": false
   },
   {
@@ -2292,20 +2295,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.63,
-   "risk": 0.982,
+   "sentiment": -0.675,
+   "risk": 0.997,
    "events": [
     "security",
     "market",
     "token_burn",
     "etf_flow"
    ],
-   "count": 22,
-   "last": "2026-11-02T19:27:58+00:00"
+   "count": 23,
+   "last": "2026-11-02T20:19:49+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.89,
+   "risk": 0.879,
    "events": [
     "security"
    ],
@@ -2314,7 +2317,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.848,
+   "risk": 0.838,
    "events": [
     "security"
    ],
@@ -2330,7 +2333,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.468,
+   "risk": 0.458,
    "events": [
     "security"
    ],
