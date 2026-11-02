@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-02T11:04:20.094438+00:00",
+ "updated_at": "2026-11-02T11:33:49.831112+00:00",
  "market": {
-  "btc_dominance": 59.95,
+  "btc_dominance": 59.93,
   "usdt_dominance": 6.89,
-  "mcap_change_24h": -2.78,
+  "mcap_change_24h": -2.88,
   "trending": [
    "DACITYCOIN",
    "PEARL",
-   "MON",
-   "BTC",
    "PENGU",
+   "BTC",
    "KNTQ",
-   "SOL",
+   "MON",
+   "HYPE",
    "NEAR",
-   "LIT",
+   "TAO",
    "RUNE"
   ],
   "fear_greed": 37,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen",
+   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-eases-to-usd77-900-as-binance-customers-pull-usd3-6-billion-after-withdrawals-reopen",
+   "published": "2026-11-02T11:30:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7518271afdf6",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-02T11:33:49.831112+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "From Uptober to Hacktober: Are Bitcoin’s seasonal patterns becoming obsolete?",
+   "url": "https://cointelegraph.com/markets/uptober-hacktober-bitcoin-seasonal-pattern?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-02T11:19:18+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N2c525d27f9a0",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-02T11:33:49.831112+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Trezor lifts password ceiling after Coldcard’s $100M wallet thefts",
@@ -33,6 +73,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-02T11:04:20.094438+00:00",
    "notified": false
   },
@@ -1283,23 +1324,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance says it holds $5B in matching tokens to cover hack losses",
-   "url": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T12:41:43+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb521889f7654",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T13:10:42.384919+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Coinbase Q3 net income jumps 66% as prediction markets gain traction",
    "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189",
@@ -2202,18 +2226,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.811,
-   "risk": 0.933,
+   "sentiment": -0.792,
+   "risk": 0.995,
    "events": [
     "security",
     "etf_flow"
    ],
-   "count": 15,
-   "last": "2026-11-02T09:41:36+00:00"
+   "count": 17,
+   "last": "2026-11-02T11:30:00+00:00"
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.653,
+   "risk": 0.643,
    "events": [
     "security"
    ],
@@ -2222,7 +2246,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.294,
+   "risk": 0.283,
    "events": [
     "security"
    ],
@@ -2231,7 +2255,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.294,
+   "risk": 0.283,
    "events": [
     "security"
    ],
