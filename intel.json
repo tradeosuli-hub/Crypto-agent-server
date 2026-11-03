@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-03T09:45:57.890339+00:00",
+ "updated_at": "2026-11-03T10:15:22.508178+00:00",
  "market": {
-  "btc_dominance": 59.86,
-  "usdt_dominance": 6.93,
-  "mcap_change_24h": -4.09,
+  "btc_dominance": 59.88,
+  "usdt_dominance": 6.92,
+  "mcap_change_24h": -3.71,
   "trending": [
    "DACITYCOIN",
    "PEARL",
-   "AERO",
-   "HYPE",
    "NEAR",
-   "SUI",
+   "AERO",
+   "MON",
+   "HYPE",
    "PENGU",
-   "VVV",
+   "QTC",
    "QNT",
-   "MON"
+   "ETH"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-support-loss-recent-buyers-underwater?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T10:04:05+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfbee84f66d69",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T10:15:22.508178+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+   "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
+   "published": "2026-11-03T09:50:16+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nca2fff18de22",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T10:15:22.508178+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
@@ -33,6 +73,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T09:45:57.890339+00:00",
    "notified": false
   },
@@ -53,6 +94,7 @@
    "importance": 3,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T09:45:57.890339+00:00",
    "notified": false
   },
@@ -1642,23 +1684,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance says phase one of withdrawals opens after $6.3B hack",
-   "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-01T09:38:18+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na1f39b32c57d",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-01T09:58:28.495002+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -2518,30 +2543,30 @@
   }
  ],
  "symbols": {
-  "NEARUSDT": {
-   "sentiment": -0.621,
-   "risk": 0.983,
-   "events": [
-    "security"
-   ],
-   "count": 2,
-   "last": "2026-11-03T09:19:41+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.604,
-   "risk": 0.983,
+   "sentiment": -0.572,
+   "risk": 0.973,
    "events": [
     "security",
     "etf_flow",
     "market",
     "token_burn"
    ],
-   "count": 29,
-   "last": "2026-11-03T08:56:48+00:00"
+   "count": 31,
+   "last": "2026-11-03T10:04:05+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.621,
+   "risk": 0.973,
+   "events": [
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-03T09:19:41+00:00"
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.909,
+   "risk": 0.899,
    "events": [
     "security"
    ],
@@ -2550,7 +2575,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.74,
+   "risk": 0.73,
    "events": [
     "security"
    ],
@@ -2559,7 +2584,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.602,
+   "risk": 0.592,
    "events": [
     "security"
    ],
