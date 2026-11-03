@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-03T03:22:21.244932+00:00",
+ "updated_at": "2026-11-03T03:51:46.655775+00:00",
  "market": {
-  "btc_dominance": 59.32,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.4,
+  "btc_dominance": 59.3,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -3.56,
   "trending": [
    "BTC",
-   "SUI",
-   "PEPE",
-   "POL",
    "NEAR",
+   "SUI",
    "KNTQ",
-   "TAO",
+   "PENGU",
    "MON",
-   "SOL",
-   "ETH"
+   "XRP",
+   "POL",
+   "ETH",
+   "LIT"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
@@ -22,17 +22,18 @@
  "items": [
   {
    "source": "cointelegraph",
-   "title": "Binance begins second withdrawal phase following record hack",
+   "title": "Binance begins second withdrawal phase, exchange outflows slow",
    "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-03T03:03:44+00:00",
-   "kind": "security",
+   "kind": "market",
    "raw_symbols": [],
    "symbols": [],
    "id": "Nea0237d999a0",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
+   "kind_fa": "جریان بازار",
+   "importance": 4,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T03:22:21.244932+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T03:22:21.244932+00:00",
    "notified": false
   },
@@ -2281,8 +2283,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.65,
-   "risk": 0.853,
+   "sentiment": -0.649,
+   "risk": 0.843,
    "events": [
     "security",
     "market",
@@ -2294,7 +2296,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.873,
+   "risk": 0.863,
    "events": [
     "security"
    ],
@@ -2303,7 +2305,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.736,
+   "risk": 0.725,
    "events": [
     "security"
    ],
@@ -2319,7 +2321,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.314,
+   "risk": 0.303,
    "events": [
     "security"
    ],
