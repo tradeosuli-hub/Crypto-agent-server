@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-03T11:14:22.541890+00:00",
+ "updated_at": "2026-11-03T11:43:53.833946+00:00",
  "market": {
   "btc_dominance": 59.87,
-  "usdt_dominance": 6.91,
-  "mcap_change_24h": -3.49,
+  "usdt_dominance": 6.92,
+  "mcap_change_24h": -3.58,
   "trending": [
    "DACITYCOIN",
-   "MON",
-   "NEAR",
-   "QTC",
+   "SI",
    "BTC",
+   "NEAR",
+   "MON",
+   "PENGU",
    "ZEC",
    "FET",
-   "Q",
-   "PEARL",
-   "AXIS"
+   "AAVE",
+   "HYPE"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance’s net inflows turn positive at $2.3B as withdrawals expand",
+   "url": "https://cointelegraph.com/news/binances-daily-inflows-positive-18b-withdrawals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T11:32:02+00:00",
+   "kind": "market",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N36c4b55e185d",
+   "kind_fa": "جریان بازار",
+   "importance": 4,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T11:43:53.833946+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
+   "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+   "published": "2026-11-03T11:28:00+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf11591d70e32",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T11:43:53.833946+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
@@ -37,6 +73,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T11:14:22.541890+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T11:14:22.541890+00:00",
    "notified": false
   },
@@ -2584,20 +2622,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.578,
-   "risk": 0.999,
+   "sentiment": -0.568,
+   "risk": 0.989,
    "events": [
-    "security",
     "etf_flow",
+    "security",
     "market",
     "token_burn"
    ],
-   "count": 32,
-   "last": "2026-11-03T11:12:12+00:00"
+   "count": 33,
+   "last": "2026-11-03T11:28:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.594,
-   "risk": 0.572,
+   "sentiment": -0.593,
+   "risk": 0.561,
    "events": [
     "security"
    ],
@@ -2606,7 +2644,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.621,
-   "risk": 0.952,
+   "risk": 0.942,
    "events": [
     "security"
    ],
@@ -2615,7 +2653,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.879,
+   "risk": 0.869,
    "events": [
     "security"
    ],
@@ -2624,7 +2662,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.709,
+   "risk": 0.699,
    "events": [
     "security"
    ],
