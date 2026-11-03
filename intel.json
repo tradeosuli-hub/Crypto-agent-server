@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-03T02:52:48.402615+00:00",
+ "updated_at": "2026-11-03T03:22:21.244932+00:00",
  "market": {
-  "btc_dominance": 59.29,
+  "btc_dominance": 59.32,
   "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.39,
+  "mcap_change_24h": -3.4,
   "trending": [
    "BTC",
    "SUI",
-   "POL",
-   "KNTQ",
-   "NEAR",
-   "SOL",
-   "ETH",
    "PEPE",
+   "POL",
+   "NEAR",
+   "KNTQ",
    "TAO",
-   "XMR"
+   "MON",
+   "SOL",
+   "ETH"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance begins second withdrawal phase following record hack",
+   "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T03:03:44+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nea0237d999a0",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T03:22:21.244932+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ark Invest buys $3.4 million in Coinbase, adds Circle and Robinhood as stocks trade lower",
+   "url": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
+   "published": "2026-11-03T02:57:33+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N0255fe8e83cd",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T03:22:21.244932+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
@@ -33,6 +65,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T02:52:48.402615+00:00",
    "notified": false
   },
@@ -1371,23 +1404,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
-   "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-31T15:36:01+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc0b182553c5c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T15:46:38.073164+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
    "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
@@ -1608,29 +1624,6 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T02:50:45.490723+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Bitcoin slides below $77,000, BNB drops amid Binance hack",
-   "url": "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
-   "published": "2026-10-30T02:22:31+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BNB",
-    "BTC"
-   ],
-   "symbols": [
-    "BNBUSDT",
-    "BTCUSDT"
-   ],
-   "id": "Nb52a6699eb2c",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -1.0,
-   "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-30T02:50:45.490723+00:00",
    "notified": false
@@ -2289,7 +2282,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.65,
-   "risk": 0.864,
+   "risk": 0.853,
    "events": [
     "security",
     "market",
@@ -2301,7 +2294,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.883,
+   "risk": 0.873,
    "events": [
     "security"
    ],
@@ -2310,7 +2303,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.746,
+   "risk": 0.736,
    "events": [
     "security"
    ],
@@ -2326,7 +2319,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.324,
+   "risk": 0.314,
    "events": [
     "security"
    ],
