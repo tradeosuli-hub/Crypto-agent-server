@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-03T07:48:03.887556+00:00",
+ "updated_at": "2026-11-03T08:17:33.508568+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.05,
+  "btc_dominance": 59.26,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -3.16,
   "trending": [
-   "NEAR",
-   "SOL",
-   "XMR",
-   "MON",
    "BTC",
-   "PENGU",
    "AAVE",
+   "PEARL",
+   "NEAR",
+   "ZEC",
+   "ETH",
+   "SUI",
    "LINK",
-   "PONS",
-   "XPL"
+   "SOL",
+   "PONS"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "BlackRock’s IBIT sees biggest Bitcoin ETF outflows since June",
+   "url": "https://cointelegraph.com/markets/blackrocks-ibit-biggest-bitcoin-etf-outflow-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T07:49:51+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N66c8791c1b0f",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T08:17:33.508568+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -1486,23 +1506,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "FBI blames North Korea for record $6.3B Binance hack",
-   "url": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-01T07:44:38+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N0912e1a665c3",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-01T08:00:40.426891+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -2397,20 +2400,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.614,
-   "risk": 0.761,
+   "sentiment": -0.599,
+   "risk": 0.751,
    "events": [
+    "etf_flow",
     "security",
     "market",
-    "token_burn",
-    "etf_flow"
+    "token_burn"
    ],
-   "count": 25,
-   "last": "2026-11-03T05:36:56+00:00"
+   "count": 26,
+   "last": "2026-11-03T07:49:51+00:00"
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.95,
+   "risk": 0.94,
    "events": [
     "security"
    ],
@@ -2419,7 +2422,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.781,
+   "risk": 0.77,
    "events": [
     "security"
    ],
@@ -2428,7 +2431,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.643,
+   "risk": 0.633,
    "events": [
     "security"
    ],
@@ -2444,7 +2447,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.221,
+   "risk": 0.211,
    "events": [
     "security"
    ],
