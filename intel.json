@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-03T01:24:11.892363+00:00",
+ "updated_at": "2026-11-03T01:53:41.152664+00:00",
  "market": {
-  "btc_dominance": 59.3,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -2.71,
+  "btc_dominance": 59.34,
+  "usdt_dominance": 6.85,
+  "mcap_change_24h": -2.74,
   "trending": [
-   "MON",
    "BTC",
-   "QNT",
    "HYPE",
-   "SOL",
+   "QNT",
+   "MON",
    "LIT",
    "DACITYCOIN",
-   "AERO",
+   "PONS",
+   "ZEC",
    "PENGU",
-   "AKE"
+   "CRV"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "South Korea urges exchanges to boost cold storage after Binance hack",
+   "url": "https://cointelegraph.com/news/south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T01:32:39+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N32772df2ca0d",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T01:53:41.152664+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
@@ -1338,31 +1354,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-   "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
-   "published": "2026-11-01T01:10:05+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC",
-    "ETH",
-    "SOL"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT",
-    "SOLUSDT"
-   ],
-   "id": "Nb78be0f14654",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-01T01:36:57.906570+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
    "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1375,27 +1366,6 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T15:46:38.073164+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
-   "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-31T15:26:46+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N1a723a2c8f68",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-10-31T15:46:38.073164+00:00",
    "notified": false
@@ -2319,7 +2289,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.651,
-   "risk": 0.894,
+   "risk": 0.884,
    "events": [
     "security",
     "market",
@@ -2331,7 +2301,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.914,
+   "risk": 0.904,
    "events": [
     "security"
    ],
@@ -2340,7 +2310,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.777,
+   "risk": 0.766,
    "events": [
     "security"
    ],
@@ -2356,7 +2326,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.355,
+   "risk": 0.344,
    "events": [
     "security"
    ],
