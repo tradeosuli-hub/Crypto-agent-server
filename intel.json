@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-03T14:11:28.569134+00:00",
+ "updated_at": "2026-11-03T14:41:00.973300+00:00",
  "market": {
   "btc_dominance": 59.19,
-  "usdt_dominance": 6.83,
-  "mcap_change_24h": -3.37,
+  "usdt_dominance": 6.82,
+  "mcap_change_24h": -3.15,
   "trending": [
-   "DACITYCOIN",
    "SI",
+   "DACITYCOIN",
    "HYPE",
-   "BTC",
    "LIT",
-   "ZEC",
-   "PEARL",
+   "PENGU",
+   "BTC",
    "SOL",
-   "SUI",
-   "AERO"
+   "NEAR",
+   "XMR",
+   "PEARL"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
+   "url": "https://www.coindesk.com/business/2026/11/03/cz-warns-of-more-ai-driven-hacks-following-binance-s-historic-usd6-4-billion-heist",
+   "published": "2026-11-03T14:22:09+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N264a749fa553",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T14:41:00.973300+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Ethereum Layer 2 Aztec gets Tierra V6 upgrade to support faster private apps",
@@ -37,6 +53,7 @@
    "importance": 5,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T14:11:28.569134+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T14:11:28.569134+00:00",
    "notified": false
   },
@@ -69,6 +87,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T14:11:28.569134+00:00",
    "notified": false
   },
@@ -1889,23 +1908,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
-   "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
-   "published": "2026-11-01T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N72e33e552164",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-01T14:24:06.986398+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -2728,8 +2730,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.193,
-   "risk": 0.51,
+   "sentiment": -0.191,
+   "risk": 0.5,
    "events": [
     "project",
     "security"
@@ -2738,8 +2740,8 @@
    "last": "2026-11-03T14:00:00+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.563,
-   "risk": 0.951,
+   "sentiment": -0.562,
+   "risk": 0.94,
    "events": [
     "security",
     "etf_flow",
@@ -2751,7 +2753,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.497,
-   "risk": 0.891,
+   "risk": 0.88,
    "events": [
     "security"
    ],
@@ -2760,7 +2762,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.817,
+   "risk": 0.807,
    "events": [
     "security"
    ],
@@ -2769,7 +2771,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.648,
+   "risk": 0.637,
    "events": [
     "security"
    ],
