@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-03T08:17:33.508568+00:00",
+ "updated_at": "2026-11-03T08:46:59.641884+00:00",
  "market": {
-  "btc_dominance": 59.26,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -3.16,
+  "btc_dominance": 59.85,
+  "usdt_dominance": 6.96,
+  "mcap_change_24h": -4.32,
   "trending": [
    "BTC",
    "AAVE",
-   "PEARL",
    "NEAR",
-   "ZEC",
-   "ETH",
+   "HYPE",
+   "MON",
    "SUI",
-   "LINK",
-   "SOL",
-   "PONS"
+   "ETH",
+   "RUNE",
+   "PUMP",
+   "PEARL"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
+   "url": "https://cointelegraph.com/news/ark-buys-coinbase-circle-trims-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T08:35:13+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4d7bd1e21e4d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T08:46:59.641884+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Suspected EU crypto theft estimate rises to $133M: ZachXBT",
+   "url": "https://cointelegraph.com/news/zachxbt-eu-crypto-theft-133m-alleged-cover-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T08:18:22+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfd49adacb815",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T08:46:59.641884+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "BlackRock’s IBIT sees biggest Bitcoin ETF outflows since June",
@@ -37,6 +69,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T08:17:33.508568+00:00",
    "notified": false
   },
@@ -76,6 +109,26 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-03T05:49:56.623800+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin miner Cipher posts $31 million profit as AI pivot begins",
+   "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-miner-cipher-posts-usd31-million-profit-as-ai-pivot-begins",
+   "published": "2026-11-03T05:29:48+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nd395e7e3857f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T08:46:59.641884+00:00",
    "notified": false
   },
   {
@@ -2400,20 +2453,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.599,
-   "risk": 0.751,
+   "sentiment": -0.582,
+   "risk": 0.741,
    "events": [
     "etf_flow",
     "security",
     "market",
     "token_burn"
    ],
-   "count": 26,
+   "count": 27,
    "last": "2026-11-03T07:49:51+00:00"
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.94,
+   "risk": 0.93,
    "events": [
     "security"
    ],
@@ -2422,7 +2475,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.77,
+   "risk": 0.76,
    "events": [
     "security"
    ],
@@ -2431,7 +2484,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.633,
+   "risk": 0.623,
    "events": [
     "security"
    ],
@@ -2447,7 +2500,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.211,
+   "risk": 0.201,
    "events": [
     "security"
    ],
