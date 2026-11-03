@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-03T10:44:51.611728+00:00",
+ "updated_at": "2026-11-03T11:14:22.541890+00:00",
  "market": {
-  "btc_dominance": 59.85,
-  "usdt_dominance": 6.92,
-  "mcap_change_24h": -3.76,
+  "btc_dominance": 59.87,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -3.49,
   "trending": [
    "DACITYCOIN",
-   "NEAR",
-   "PEARL",
    "MON",
-   "PENGU",
+   "NEAR",
    "QTC",
    "BTC",
    "ZEC",
-   "ETH",
-   "KNTQ"
+   "FET",
+   "Q",
+   "PEARL",
+   "AXIS"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
+   "url": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
+   "published": "2026-11-03T11:12:12+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na7816c982d9c",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T11:14:22.541890+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped",
+   "url": "https://cointelegraph.com/news/france-postpones-2027-budget-vote-reject-crypto-exit-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T10:49:26+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7f6db2bca071",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T11:14:22.541890+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
@@ -39,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T10:44:51.611728+00:00",
    "notified": false
   },
@@ -1687,27 +1724,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
-   "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
-   "published": "2026-11-01T10:35:42+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N89fa2a7b4b9d",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-01T10:57:25.786872+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -2568,20 +2584,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.55,
-   "risk": 0.962,
+   "sentiment": -0.578,
+   "risk": 0.999,
    "events": [
     "security",
     "etf_flow",
     "market",
     "token_burn"
    ],
-   "count": 31,
-   "last": "2026-11-03T10:15:53+00:00"
+   "count": 32,
+   "last": "2026-11-03T11:12:12+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.596,
-   "risk": 0.582,
+   "sentiment": -0.594,
+   "risk": 0.572,
    "events": [
     "security"
    ],
@@ -2590,7 +2606,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.621,
-   "risk": 0.962,
+   "risk": 0.952,
    "events": [
     "security"
    ],
@@ -2599,7 +2615,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.889,
+   "risk": 0.879,
    "events": [
     "security"
    ],
@@ -2608,7 +2624,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.719,
+   "risk": 0.709,
    "events": [
     "security"
    ],
