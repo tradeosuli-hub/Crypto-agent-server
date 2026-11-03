@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-03T20:40:46.949526+00:00",
+ "updated_at": "2026-11-03T21:10:55.848269+00:00",
  "market": {
-  "btc_dominance": 59.35,
+  "btc_dominance": 59.33,
   "usdt_dominance": 6.79,
-  "mcap_change_24h": -1.54,
+  "mcap_change_24h": -1.22,
   "trending": [
-   "SNOWMOON",
    "DACITYCOIN",
+   "SNOWMOON",
    "SP",
-   "PEARL",
-   "AERO",
+   "PENGU",
    "LIT",
+   "LINK",
    "XMR",
-   "QTC",
-   "ZEC",
-   "PENGU"
+   "NEAR",
+   "AERO",
+   "SUI"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "CZ calls for crypto security alliance as AI-driven attacks accelerate after Binance hack",
+   "url": "https://www.theblock.co/news/regulation/2026-11-03-cz-calls-for-crypto-security-alliance-ai-driven-attacks-accelerate-binance-hack-432458",
+   "published": "2026-11-03T20:43:38+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N731cd4b282d8",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T21:10:55.848269+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "CFTC clears stock perpetual futures for trading on US exchanges",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T20:40:46.949526+00:00",
    "notified": false
   },
@@ -634,7 +651,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+   "title": "Live updates: Bitcoin and tech stocks edge higher as U.S. voters head to the polls",
    "url": "https://www.coindesk.com/markets/2026/11/03/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-uncertainty-and-apple-warning-weigh-on-markets",
    "published": "2026-11-03T09:50:16+00:00",
    "kind": "news",
@@ -2137,23 +2154,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
-   "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
-   "published": "2026-10-31T15:26:27+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8384020e0057",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T15:46:38.073164+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)",
    "url": "https://www.binance.com/en/support/announcement/1fdf1f61559c401da0435895ffcccb62",
@@ -2875,7 +2875,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.518,
-   "risk": 0.815,
+   "risk": 0.805,
    "events": [
     "security",
     "etf_flow",
@@ -2886,8 +2886,8 @@
    "last": "2026-11-03T16:47:01+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.163,
-   "risk": 0.375,
+   "sentiment": -0.16,
+   "risk": 0.365,
    "events": [
     "project",
     "security"
@@ -2896,8 +2896,8 @@
    "last": "2026-11-03T14:00:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.496,
-   "risk": 0.756,
+   "sentiment": -0.495,
+   "risk": 0.745,
    "events": [
     "security"
    ],
@@ -2906,7 +2906,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.682,
+   "risk": 0.672,
    "events": [
     "security"
    ],
@@ -2915,7 +2915,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.512,
+   "risk": 0.502,
    "events": [
     "security"
    ],
