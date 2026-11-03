@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-03T04:21:19.973013+00:00",
+ "updated_at": "2026-11-03T04:50:49.455466+00:00",
  "market": {
   "btc_dominance": 59.3,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.71,
+  "usdt_dominance": 6.86,
+  "mcap_change_24h": -3.64,
   "trending": [
    "NEAR",
-   "BTC",
-   "KNTQ",
-   "PEARL",
-   "HYPE",
    "MON",
-   "PENGU",
+   "BTC",
+   "HYPE",
+   "KNTQ",
    "CC",
-   "SUI",
-   "ETH"
+   "RENDER",
+   "ETH",
+   "SOL",
+   "PEARL"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
+   "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
+   "published": "2026-11-03T04:48:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N38e4c1e822c8",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T04:50:49.455466+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
+   "url": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T04:14:32+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4f14962fdb6f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T04:50:49.455466+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance begins second withdrawal phase, exchange outflows slow",
@@ -2283,20 +2319,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.649,
-   "risk": 0.833,
+   "sentiment": -0.636,
+   "risk": 0.823,
    "events": [
     "security",
     "market",
     "token_burn",
     "etf_flow"
    ],
-   "count": 23,
-   "last": "2026-11-02T21:54:41+00:00"
+   "count": 24,
+   "last": "2026-11-03T04:48:17+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.852,
+   "risk": 0.842,
    "events": [
     "security"
    ],
@@ -2305,7 +2341,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.715,
+   "risk": 0.705,
    "events": [
     "security"
    ],
@@ -2321,7 +2357,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.293,
+   "risk": 0.283,
    "events": [
     "security"
    ],
