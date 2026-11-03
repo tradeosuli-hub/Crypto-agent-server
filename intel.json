@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-11-03T08:46:59.641884+00:00",
+ "updated_at": "2026-11-03T09:16:29.271391+00:00",
  "market": {
-  "btc_dominance": 59.85,
-  "usdt_dominance": 6.96,
-  "mcap_change_24h": -4.32,
+  "btc_dominance": 59.84,
+  "usdt_dominance": 6.94,
+  "mcap_change_24h": -4.23,
   "trending": [
-   "BTC",
-   "AAVE",
-   "NEAR",
-   "HYPE",
-   "MON",
+   "PENGU",
    "SUI",
-   "ETH",
-   "RUNE",
+   "BTC",
+   "HYPE",
+   "NEAR",
+   "MON",
+   "VVV",
+   "PEARL",
    "PUMP",
-   "PEARL"
+   "SOL"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
+   "url": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
+   "published": "2026-11-03T08:56:48+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N4940c81b34f3",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T09:16:29.271391+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Consensys launches cross-ledger settlement and routing stack for institutional networks",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
+   "published": "2026-11-03T08:56:07+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf6448f4bc38a",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T09:16:29.271391+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin’s latest chart signal looks a lot like the ones before its big crashes",
+   "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-s-price-chart-is-flashing-a-red-signal",
+   "published": "2026-11-03T08:50:56+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne754feeffe95",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T09:16:29.271391+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
@@ -33,6 +91,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T08:46:59.641884+00:00",
    "notified": false
   },
@@ -49,6 +108,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T08:46:59.641884+00:00",
    "notified": false
   },
@@ -128,6 +188,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T08:46:59.641884+00:00",
    "notified": false
   },
@@ -1750,23 +1811,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Trezor reports suspected hardware implant in Safe 5 sold by CryptoBilis",
-   "url": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196",
-   "published": "2026-10-30T08:55:39+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N23232f0b3d20",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T09:14:43.976360+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Predict (PREDICT) Listing Will Be Postponed",
    "url": "https://www.binance.com/en/support/announcement/eb1fb9e5f41f43b682332aff0b7b89ce",
@@ -2453,20 +2497,29 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.582,
-   "risk": 0.741,
+   "sentiment": -0.604,
+   "risk": 0.993,
    "events": [
-    "etf_flow",
     "security",
+    "etf_flow",
     "market",
     "token_burn"
    ],
-   "count": 27,
-   "last": "2026-11-03T07:49:51+00:00"
+   "count": 29,
+   "last": "2026-11-03T08:56:48+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.993,
+   "events": [
+    "security"
+   ],
+   "count": 1,
+   "last": "2026-11-03T08:56:48+00:00"
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.93,
+   "risk": 0.92,
    "events": [
     "security"
    ],
@@ -2475,7 +2528,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.76,
+   "risk": 0.75,
    "events": [
     "security"
    ],
@@ -2484,7 +2537,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.623,
+   "risk": 0.613,
    "events": [
     "security"
    ],
@@ -2500,7 +2553,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.201,
+   "risk": 0.2,
    "events": [
     "security"
    ],
