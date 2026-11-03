@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-03T12:42:54.488437+00:00",
+ "updated_at": "2026-11-03T13:12:29.683287+00:00",
  "market": {
-  "btc_dominance": 59.85,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -2.99,
+  "btc_dominance": 59.21,
+  "usdt_dominance": 6.82,
+  "mcap_change_24h": -2.97,
   "trending": [
    "SI",
    "DACITYCOIN",
-   "NEAR",
-   "HYPE",
-   "BTC",
    "PEARL",
+   "PENGU",
+   "BTC",
+   "HYPE",
    "HOT",
-   "MON",
-   "KNTQ",
-   "STRK"
+   "NEAR",
+   "QTC",
+   "UNI"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
+   "url": "https://www.coindesk.com/business/2026/11/03/binance-net-outflows-reach-usd5-3b-after-record-hack-though-ceo-cites-recovery",
+   "published": "2026-11-03T12:57:28+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne01190bbcd00",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -1.0,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T13:12:29.683287+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "NEAR token sinks 7% as proposal to cut annual token issuance passes",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T12:42:54.488437+00:00",
    "notified": false
   },
@@ -57,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T12:42:54.488437+00:00",
    "notified": false
   },
@@ -2690,7 +2708,7 @@
  "symbols": {
   "NEARUSDT": {
    "sentiment": -0.497,
-   "risk": 0.921,
+   "risk": 0.911,
    "events": [
     "security"
    ],
@@ -2698,8 +2716,8 @@
    "last": "2026-11-03T12:30:13+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.578,
-   "risk": 0.981,
+   "sentiment": -0.577,
+   "risk": 0.971,
    "events": [
     "security",
     "etf_flow",
@@ -2710,8 +2728,8 @@
    "last": "2026-11-03T12:30:09+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.434,
-   "risk": 0.541,
+   "sentiment": -0.432,
+   "risk": 0.531,
    "events": [
     "security"
    ],
@@ -2720,7 +2738,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.848,
+   "risk": 0.838,
    "events": [
     "security"
    ],
@@ -2729,7 +2747,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.678,
+   "risk": 0.668,
    "events": [
     "security"
    ],
