@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-11-03T10:15:22.508178+00:00",
+ "updated_at": "2026-11-03T10:44:51.611728+00:00",
  "market": {
-  "btc_dominance": 59.88,
+  "btc_dominance": 59.85,
   "usdt_dominance": 6.92,
-  "mcap_change_24h": -3.71,
+  "mcap_change_24h": -3.76,
   "trending": [
    "DACITYCOIN",
-   "PEARL",
    "NEAR",
-   "AERO",
+   "PEARL",
    "MON",
-   "HYPE",
    "PENGU",
    "QTC",
-   "QNT",
-   "ETH"
+   "BTC",
+   "ZEC",
+   "ETH",
+   "KNTQ"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
+   "url": "https://www.coindesk.com/business/2026/11/03/tether-holds-150-000-bitcoin-worth-usd11-5-billion-ceo-paolo-ardoino-says",
+   "published": "2026-11-03T10:15:53+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N140302e9ba0e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T10:44:51.611728+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
@@ -37,6 +59,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T10:15:22.508178+00:00",
    "notified": false
   },
@@ -57,6 +80,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T10:15:22.508178+00:00",
    "notified": false
   },
@@ -2544,8 +2568,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.572,
-   "risk": 0.973,
+   "sentiment": -0.55,
+   "risk": 0.962,
    "events": [
     "security",
     "etf_flow",
@@ -2553,11 +2577,20 @@
     "token_burn"
    ],
    "count": 31,
-   "last": "2026-11-03T10:04:05+00:00"
+   "last": "2026-11-03T10:15:53+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.596,
+   "risk": 0.582,
+   "events": [
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-03T10:15:53+00:00"
   },
   "NEARUSDT": {
    "sentiment": -0.621,
-   "risk": 0.973,
+   "risk": 0.962,
    "events": [
     "security"
    ],
@@ -2566,7 +2599,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.899,
+   "risk": 0.889,
    "events": [
     "security"
    ],
@@ -2575,21 +2608,12 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.73,
+   "risk": 0.719,
    "events": [
     "security"
    ],
    "count": 2,
    "last": "2026-11-02T21:16:24+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.592,
-   "events": [
-    "security"
-   ],
-   "count": 1,
-   "last": "2026-11-02T14:40:53+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.2,
