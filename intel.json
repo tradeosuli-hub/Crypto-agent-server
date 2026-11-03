@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-11-03T13:12:29.683287+00:00",
+ "updated_at": "2026-11-03T13:42:00.663147+00:00",
  "market": {
-  "btc_dominance": 59.21,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -2.97,
+  "btc_dominance": 59.24,
+  "usdt_dominance": 6.79,
+  "mcap_change_24h": -2.64,
   "trending": [
-   "SI",
    "DACITYCOIN",
+   "SI",
    "PEARL",
    "PENGU",
+   "SUI",
    "BTC",
-   "HYPE",
-   "HOT",
-   "NEAR",
+   "LIT",
+   "KNTQ",
    "QTC",
-   "UNI"
+   "ALGO"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+   "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T13:15:47+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N8102695566fe",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T13:42:00.663147+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
@@ -33,6 +55,7 @@
    "importance": 9,
    "sentiment": -1.0,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T13:12:29.683287+00:00",
    "notified": false
   },
@@ -1847,23 +1870,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
-   "url": "https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
-   "published": "2026-11-01T13:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N47d11abef232",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-01T13:25:12.348416+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -2706,39 +2712,39 @@
   }
  ],
  "symbols": {
-  "NEARUSDT": {
-   "sentiment": -0.497,
-   "risk": 0.911,
-   "events": [
-    "security"
-   ],
-   "count": 3,
-   "last": "2026-11-03T12:30:13+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.577,
-   "risk": 0.971,
+   "sentiment": -0.564,
+   "risk": 0.961,
    "events": [
     "security",
     "etf_flow",
     "market",
     "token_burn"
    ],
-   "count": 35,
-   "last": "2026-11-03T12:30:09+00:00"
+   "count": 36,
+   "last": "2026-11-03T13:15:47+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.432,
-   "risk": 0.531,
+   "sentiment": -0.338,
+   "risk": 0.52,
+   "events": [
+    "security"
+   ],
+   "count": 4,
+   "last": "2026-11-03T13:15:47+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.497,
+   "risk": 0.901,
    "events": [
     "security"
    ],
    "count": 3,
-   "last": "2026-11-03T12:01:05+00:00"
+   "last": "2026-11-03T12:30:13+00:00"
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.838,
+   "risk": 0.827,
    "events": [
     "security"
    ],
@@ -2747,7 +2753,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.668,
+   "risk": 0.658,
    "events": [
     "security"
    ],
