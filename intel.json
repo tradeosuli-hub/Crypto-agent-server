@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-03T05:20:27.964776+00:00",
+ "updated_at": "2026-11-03T05:49:56.623800+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -3.46,
+  "btc_dominance": 59.26,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -3.59,
   "trending": [
-   "NEAR",
+   "BTC",
    "HYPE",
    "MON",
-   "PEARL",
-   "KNTQ",
-   "SUI",
-   "PENGU",
    "LIT",
-   "AKE",
-   "BTC"
+   "PENGU",
+   "NEAR",
+   "PEARL",
+   "SOL",
+   "ZEC",
+   "SUI"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows",
+   "url": "https://www.coindesk.com/markets/2026/11/03/binance-has-spent-half-its-safu-bitcoin-about-usd580-million-worth-data-shows",
+   "published": "2026-11-03T05:36:56+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N95e61d66e0a0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T05:49:56.623800+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Arbitrum’s council moved $30 million of Binance hack funds without the hacker’s key",
+   "url": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
+   "published": "2026-11-03T05:25:12+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ARB"
+   ],
+   "symbols": [
+    "ARBUSDT"
+   ],
+   "id": "Nf85746de9c57",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T05:49:56.623800+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
@@ -33,6 +73,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-03T05:20:27.964776+00:00",
    "notified": false
   },
@@ -2320,20 +2361,29 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.635,
-   "risk": 0.812,
+   "sentiment": -0.616,
+   "risk": 0.802,
    "events": [
     "security",
     "market",
     "token_burn",
     "etf_flow"
    ],
-   "count": 24,
-   "last": "2026-11-03T04:48:17+00:00"
+   "count": 25,
+   "last": "2026-11-03T05:36:56+00:00"
+  },
+  "ARBUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.991,
+   "events": [
+    "security"
+   ],
+   "count": 1,
+   "last": "2026-11-03T05:25:12+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.832,
+   "risk": 0.822,
    "events": [
     "security"
    ],
@@ -2342,7 +2392,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.695,
+   "risk": 0.684,
    "events": [
     "security"
    ],
@@ -2358,7 +2408,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.273,
+   "risk": 0.262,
    "events": [
     "security"
    ],
