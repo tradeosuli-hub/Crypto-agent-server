@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-03T15:40:06.196831+00:00",
+ "updated_at": "2026-11-03T16:09:41.157335+00:00",
  "market": {
-  "btc_dominance": 59.2,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -3.06,
+  "btc_dominance": 59.25,
+  "usdt_dominance": 6.8,
+  "mcap_change_24h": -2.34,
   "trending": [
    "SP",
    "SI",
    "DACITYCOIN",
    "HYPE",
-   "PENGU",
-   "PEARL",
-   "MON",
    "LIT",
-   "PEPE",
-   "BTC"
+   "PENGU",
+   "MON",
+   "PEARL",
+   "AERO",
+   "CARDS"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Justin Sun seeks sanctions against World Liberty, alleging Trump-linked firm hid UAE ties",
+   "url": "https://www.theblock.co/news/regulation/2026-11-03-justin-sun-sanctions-world-liberty-uae-ties-wlfi-432439",
+   "published": "2026-11-03T16:08:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N256ac2df5ab0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T16:09:41.157335+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-defends-76k-lows-as-analysis-sees-stocks-pricing-in-political-gridlock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T15:44:42+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0446df59cf46",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T16:09:41.157335+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "CFTC approves individual stock perpetual futures trading in US for the first time",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T15:40:06.196831+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T15:40:06.196831+00:00",
    "notified": false
   },
@@ -2026,23 +2064,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
-   "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
-   "published": "2026-10-30T21:20:23+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N0b5f598e0819",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T21:33:53.033999+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident Update #2 (2026-10-30)",
    "url": "https://www.binance.com/en/support/announcement/d3306d9dca5243548c813b605e1d1751",
@@ -2745,9 +2766,21 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.546,
+   "risk": 0.91,
+   "events": [
+    "security",
+    "etf_flow",
+    "market",
+    "token_burn"
+   ],
+   "count": 37,
+   "last": "2026-11-03T15:44:42+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.187,
-   "risk": 0.479,
+   "sentiment": -0.185,
+   "risk": 0.469,
    "events": [
     "project",
     "security"
@@ -2755,21 +2788,9 @@
    "count": 5,
    "last": "2026-11-03T14:00:00+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.56,
-   "risk": 0.92,
-   "events": [
-    "security",
-    "etf_flow",
-    "market",
-    "token_burn"
-   ],
-   "count": 36,
-   "last": "2026-11-03T13:15:47+00:00"
-  },
   "NEARUSDT": {
    "sentiment": -0.497,
-   "risk": 0.86,
+   "risk": 0.85,
    "events": [
     "security"
    ],
@@ -2778,7 +2799,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.786,
+   "risk": 0.776,
    "events": [
     "security"
    ],
@@ -2787,7 +2808,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.617,
+   "risk": 0.606,
    "events": [
     "security"
    ],
