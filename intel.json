@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-03T04:50:49.455466+00:00",
+ "updated_at": "2026-11-03T05:20:27.964776+00:00",
  "market": {
-  "btc_dominance": 59.3,
-  "usdt_dominance": 6.86,
-  "mcap_change_24h": -3.64,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 6.87,
+  "mcap_change_24h": -3.46,
   "trending": [
    "NEAR",
-   "MON",
-   "BTC",
    "HYPE",
+   "MON",
+   "PEARL",
    "KNTQ",
-   "CC",
-   "RENDER",
-   "ETH",
-   "SOL",
-   "PEARL"
+   "SUI",
+   "PENGU",
+   "LIT",
+   "AKE",
+   "BTC"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
+   "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T05:10:19+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3650193dee13",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-03T05:20:27.964776+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T04:50:49.455466+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T04:50:49.455466+00:00",
    "notified": false
   },
@@ -139,23 +157,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-11-02T23:25:56.857715+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T22:36:09+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T06:31:51.970540+00:00",
    "notified": false
   },
   {
@@ -2319,8 +2320,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.636,
-   "risk": 0.823,
+   "sentiment": -0.635,
+   "risk": 0.812,
    "events": [
     "security",
     "market",
@@ -2332,7 +2333,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.842,
+   "risk": 0.832,
    "events": [
     "security"
    ],
@@ -2341,7 +2342,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.705,
+   "risk": 0.695,
    "events": [
     "security"
    ],
@@ -2357,7 +2358,7 @@
   },
   "TRXUSDT": {
    "sentiment": -0.9,
-   "risk": 0.283,
+   "risk": 0.273,
    "events": [
     "security"
    ],
