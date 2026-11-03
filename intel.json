@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-03T09:16:29.271391+00:00",
+ "updated_at": "2026-11-03T09:45:57.890339+00:00",
  "market": {
-  "btc_dominance": 59.84,
-  "usdt_dominance": 6.94,
-  "mcap_change_24h": -4.23,
+  "btc_dominance": 59.86,
+  "usdt_dominance": 6.93,
+  "mcap_change_24h": -4.09,
   "trending": [
-   "PENGU",
-   "SUI",
-   "BTC",
+   "DACITYCOIN",
+   "PEARL",
+   "AERO",
    "HYPE",
    "NEAR",
-   "MON",
+   "SUI",
+   "PENGU",
    "VVV",
-   "PEARL",
-   "PUMP",
-   "SOL"
+   "QNT",
+   "MON"
   ],
   "fear_greed": 26,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
+   "url": "https://www.coindesk.com/business/2026/11/03/north-korea-denies-role-in-usd6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
+   "published": "2026-11-03T09:40:32+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N854f1381698e",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-03T09:45:57.890339+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "NEAR governance approves proposal to cut token issuance ceiling to 1.6%",
+   "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
+   "published": "2026-11-03T09:19:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "NEAR"
+   ],
+   "symbols": [
+    "NEARUSDT"
+   ],
+   "id": "N7ba6b32ef008",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-03T09:45:57.890339+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
@@ -39,6 +75,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T09:16:29.271391+00:00",
    "notified": false
   },
@@ -55,6 +92,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T09:16:29.271391+00:00",
    "notified": false
   },
@@ -75,6 +113,7 @@
    "importance": 3,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-03T09:16:29.271391+00:00",
    "notified": false
   },
@@ -1794,23 +1833,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Coinbase Q3 net income jumps 66% as prediction markets gain traction",
-   "url": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189",
-   "published": "2026-10-30T08:57:09+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9a13e0150a0d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T09:14:43.976360+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Predict (PREDICT) Listing Will Be Postponed",
    "url": "https://www.binance.com/en/support/announcement/eb1fb9e5f41f43b682332aff0b7b89ce",
@@ -2496,9 +2518,18 @@
   }
  ],
  "symbols": {
+  "NEARUSDT": {
+   "sentiment": -0.621,
+   "risk": 0.983,
+   "events": [
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-03T09:19:41+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.604,
-   "risk": 0.993,
+   "risk": 0.983,
    "events": [
     "security",
     "etf_flow",
@@ -2508,18 +2539,9 @@
    "count": 29,
    "last": "2026-11-03T08:56:48+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.993,
-   "events": [
-    "security"
-   ],
-   "count": 1,
-   "last": "2026-11-03T08:56:48+00:00"
-  },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.92,
+   "risk": 0.909,
    "events": [
     "security"
    ],
@@ -2528,7 +2550,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.75,
+   "risk": 0.74,
    "events": [
     "security"
    ],
@@ -2537,7 +2559,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.9,
-   "risk": 0.613,
+   "risk": 0.602,
    "events": [
     "security"
    ],
