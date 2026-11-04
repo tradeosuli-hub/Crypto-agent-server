@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-04T11:00:45.767665+00:00",
+ "updated_at": "2026-11-04T11:30:30.811485+00:00",
  "market": {
   "btc_dominance": 59.94,
-  "usdt_dominance": 6.77,
-  "mcap_change_24h": -0.75,
+  "usdt_dominance": 6.76,
+  "mcap_change_24h": -0.74,
   "trending": [
    "DACITYCOIN",
-   "TAO",
-   "BTC",
-   "KNTQ",
-   "PEARL",
-   "NEAR",
-   "TRUMP",
    "LIT",
-   "HYPE",
-   "SOL"
+   "TAO",
+   "PENGU",
+   "AERO",
+   "SUI",
+   "XRP",
+   "SOL",
+   "BTC",
+   "CARDS"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
+   "url": "https://cointelegraph.com/markets/crypto-market-recovery-grayscale-binance-hack-temporary-setback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-04T11:11:57+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6b35893a6457",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-04T11:30:30.811485+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "DeFi Explained",
+   "url": "https://www.theblock.co/learn/defi/defi-explained-432391",
+   "published": "2026-11-04T11:05:30+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2dc60aa5f239",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T11:30:30.811485+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Justin Sun seeks $264K sanctions over World Liberty’s UAE disclosure",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T11:00:45.767665+00:00",
    "notified": false
   },
@@ -2330,23 +2363,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Trezor lifts password ceiling after Coldcard’s $100M wallet thefts",
-   "url": "https://cointelegraph.com/news/trezor-wallet-passphrase-limit-128-characters-coldcard-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T10:46:59+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf4e501349171",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T11:04:20.094438+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -3067,20 +3083,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.333,
-   "risk": 0.517,
+   "sentiment": -0.32,
+   "risk": 0.507,
    "events": [
     "etf_flow",
     "security",
     "market",
     "token_burn"
    ],
-   "count": 36,
+   "count": 34,
    "last": "2026-11-04T09:38:07+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.964,
+   "risk": 0.953,
    "events": [
     "security"
    ],
@@ -3095,7 +3111,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.084,
+   "sentiment": -0.086,
    "risk": 0.2,
    "events": [
     "project",
@@ -3112,8 +3128,8 @@
    "last": "2026-11-03T23:56:09+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.489,
-   "risk": 0.457,
+   "sentiment": -0.488,
+   "risk": 0.447,
    "events": [
     "security"
    ],
@@ -3122,7 +3138,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.383,
+   "risk": 0.373,
    "events": [
     "security"
    ],
