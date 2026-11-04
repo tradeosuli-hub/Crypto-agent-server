@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-11-04T05:04:31.300096+00:00",
+ "updated_at": "2026-11-04T05:34:04.846104+00:00",
  "market": {
-  "btc_dominance": 59.32,
+  "btc_dominance": 59.33,
   "usdt_dominance": 6.8,
-  "mcap_change_24h": -2.03,
+  "mcap_change_24h": -1.94,
   "trending": [
-   "HYPE",
-   "PENGU",
    "RUNE",
-   "DACITYCOIN",
-   "ZEC",
-   "BTC",
+   "HYPE",
    "XMR",
-   "NEAR",
-   "AKE",
-   "QTC"
+   "PENGU",
+   "QTC",
+   "STONK",
+   "PONS",
+   "BTC",
+   "PEARL",
+   "AERO"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+   "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december",
+   "published": "2026-11-04T05:14:12+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N01ec4634a12f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T05:34:04.846104+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "South Korea's ruling party wants to delay its crypto tax again",
+   "url": "https://www.coindesk.com/policy/2026/11/04/south-korea-s-ruling-party-wants-to-put-off-its-crypto-tax-again",
+   "published": "2026-11-04T05:09:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb6db9fb0b8d0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T05:34:04.846104+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "French bank Crédit Mutuel Arkéa exploited for over $133 million, ZachXBT says",
@@ -33,6 +71,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T05:04:31.300096+00:00",
    "notified": false
   },
@@ -49,6 +88,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T05:04:31.300096+00:00",
    "notified": false
   },
@@ -69,6 +109,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T05:04:31.300096+00:00",
    "notified": false
   },
@@ -102,6 +143,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T05:04:31.300096+00:00",
    "notified": false
   },
@@ -118,6 +160,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T05:04:31.300096+00:00",
    "notified": false
   },
@@ -191,7 +234,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
+   "title": "Live updates: Crypto's election gamble falters as Democratic victories usher in a 'blue wave'",
    "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
    "published": "2026-11-04T00:00:00+00:00",
    "kind": "news",
@@ -2261,48 +2304,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
-   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
-   "published": "2026-11-02T04:42:22+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nb9f9806ef54e",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T05:10:16.080367+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
-   "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
-   "published": "2026-11-02T04:41:16+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na52597637b4f",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T05:10:16.080367+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -3040,8 +3041,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.477,
-   "risk": 0.641,
+   "sentiment": -0.448,
+   "risk": 0.63,
    "events": [
     "security",
     "etf_flow",
@@ -3049,7 +3050,17 @@
     "token_burn"
    ],
    "count": 36,
-   "last": "2026-11-04T04:48:16+00:00"
+   "last": "2026-11-04T05:14:12+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.08,
+   "risk": 0.2,
+   "events": [
+    "project",
+    "security"
+   ],
+   "count": 6,
+   "last": "2026-11-04T05:14:12+00:00"
   },
   "RUNEUSDT": {
    "sentiment": 0.3,
@@ -3058,19 +3069,9 @@
    "count": 1,
    "last": "2026-11-03T23:56:09+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.1,
-   "risk": 0.2,
-   "events": [
-    "project",
-    "security"
-   ],
-   "count": 5,
-   "last": "2026-11-03T14:00:00+00:00"
-  },
   "NEARUSDT": {
    "sentiment": -0.492,
-   "risk": 0.581,
+   "risk": 0.57,
    "events": [
     "security"
    ],
@@ -3079,7 +3080,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.507,
+   "risk": 0.497,
    "events": [
     "security"
    ],
@@ -3088,7 +3089,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.337,
+   "risk": 0.327,
    "events": [
     "security"
    ],
