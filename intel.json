@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-04T16:26:28.757927+00:00",
+ "updated_at": "2026-11-04T16:56:06.907268+00:00",
  "market": {
-  "btc_dominance": 59.49,
-  "usdt_dominance": 6.55,
-  "mcap_change_24h": 0.64,
+  "btc_dominance": 59.51,
+  "usdt_dominance": 6.54,
+  "mcap_change_24h": 0.73,
   "trending": [
    "PEARL",
-   "ETH",
    "NEAR",
-   "DACITYCOIN",
+   "ETH",
    "BTC",
    "PENGU",
-   "XMR",
+   "DACITYCOIN",
    "TRUMP",
-   "QTC",
-   "AERO"
+   "PUMP",
+   "SUI",
+   "LIT"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Schroders launches tokenized emerging markets debt fund on Solana with Centrifuge",
+   "url": "https://www.theblock.co/news/business/2026-11-04-schroders-centrifuge-tokenized-emerging-markets-debt-fund-solana-432878",
+   "published": "2026-11-04T16:27:49+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N458d23b811f2",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T16:56:06.907268+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T16:26:28.757927+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T16:26:28.757927+00:00",
    "notified": false
   },
@@ -86,6 +108,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T16:26:28.757927+00:00",
    "notified": false
   },
@@ -2970,9 +2993,19 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": -0.259,
+   "risk": 0.84,
+   "events": [
+    "listing",
+    "security"
+   ],
+   "count": 4,
+   "last": "2026-11-04T16:27:49+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.266,
-   "risk": 0.404,
+   "sentiment": -0.265,
+   "risk": 0.393,
    "events": [
     "etf_flow",
     "security",
@@ -2980,15 +3013,6 @@
    ],
    "count": 31,
    "last": "2026-11-04T15:29:23+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.711,
-   "risk": 0.85,
-   "events": [
-    "security"
-   ],
-   "count": 3,
-   "last": "2026-11-04T13:00:00+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
@@ -3015,7 +3039,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.483,
-   "risk": 0.344,
+   "risk": 0.334,
    "events": [
     "security"
    ],
@@ -3024,7 +3048,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.27,
+   "risk": 0.26,
    "events": [
     "security"
    ],
