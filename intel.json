@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-04T18:24:44.456753+00:00",
+ "updated_at": "2026-11-04T18:54:16.494474+00:00",
  "market": {
-  "btc_dominance": 59.54,
-  "usdt_dominance": 6.55,
-  "mcap_change_24h": 0.67,
+  "btc_dominance": 59.55,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": 0.4,
   "trending": [
    "DACITYCOIN",
-   "TRUMP",
-   "BTC",
-   "NEAR",
    "PEARL",
-   "PENGU",
+   "NEAR",
+   "TRUMP",
    "ETH",
+   "PENGU",
    "SOL",
+   "BTC",
    "KNTQ",
-   "WLFI"
+   "ZEC"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T18:24:44.456753+00:00",
    "notified": false
   },
@@ -2219,44 +2220,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
-   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
-   "published": "2026-11-02T18:13:57+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7d8ca012ea28",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": -0.1,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T18:28:11.909865+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Animoca Brands clears final hurdle for Abu Dhabi fund management",
-   "url": "https://cointelegraph.com/news/animoca-brands-expands-asset-management-business-with-abu-dhabi-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T18:00:16+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N92ad8e54058a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T18:28:11.909865+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -2978,7 +2941,7 @@
  "symbols": {
   "SOLUSDT": {
    "sentiment": -0.26,
-   "risk": 0.809,
+   "risk": 0.799,
    "events": [
     "listing",
     "security"
@@ -2987,8 +2950,8 @@
    "last": "2026-11-04T16:27:49+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.265,
-   "risk": 0.363,
+   "sentiment": -0.264,
+   "risk": 0.352,
    "events": [
     "etf_flow",
     "security"
@@ -3021,7 +2984,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.48,
-   "risk": 0.303,
+   "risk": 0.293,
    "events": [
     "security"
    ],
@@ -3030,7 +2993,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.229,
+   "risk": 0.219,
    "events": [
     "security"
    ],
