@@ -1,36 +1,56 @@
 {
- "updated_at": "2026-11-04T04:05:23.641323+00:00",
+ "updated_at": "2026-11-04T04:34:58.643039+00:00",
  "market": {
-  "btc_dominance": 59.25,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -2.99,
+  "btc_dominance": 59.28,
+  "usdt_dominance": 6.85,
+  "mcap_change_24h": -2.63,
   "trending": [
    "DACITYCOIN",
    "HYPE",
-   "NEAR",
-   "AKE",
    "BTC",
-   "PENGU",
+   "ZEC",
    "XMR",
-   "LIT",
-   "PEARL",
-   "ZEC"
+   "AKE",
+   "PENGU",
+   "RUNE",
+   "NEAR",
+   "QTC"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
   {
-   "source": "cointelegraph",
-   "title": "US midterms election 2026 live: Democrat flips South Carolina Senate seat in major upset",
-   "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-04T03:45:41+00:00",
+   "source": "theblock",
+   "title": "Block Inc. shares rise 6% after-hours as it raises full-year profit forecast",
+   "url": "https://www.theblock.co/news/business/2026-11-03-block-q3-earnings-shares-rise-432585",
+   "published": "2026-11-04T04:13:10+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "Nf3f04fd68dff",
+   "id": "Ne8d56281b706",
    "kind_fa": "خبر",
    "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T04:34:58.643039+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US midterms election 2026 live: Republican strongholds fall as Democrats gain ground",
+   "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-04T04:04:04+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "TRX"
+   ],
+   "symbols": [
+    "TRXUSDT"
+   ],
+   "id": "Nf3f04fd68dff",
+   "kind_fa": "خبر",
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -50,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T04:05:23.641323+00:00",
    "notified": false
   },
@@ -2201,44 +2222,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
-   "url": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270",
-   "published": "2026-11-02T04:11:05+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nb6d1512749ca",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -1.0,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T04:11:13.771217+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
-   "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T03:55:50+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbf80be3450f2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T04:11:13.771217+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -2975,6 +2958,13 @@
   }
  ],
  "symbols": {
+  "TRXUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-04T04:04:04+00:00"
+  },
   "RUNEUSDT": {
    "sentiment": 0.3,
    "risk": 0.0,
@@ -2983,20 +2973,20 @@
    "last": "2026-11-03T23:56:09+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.528,
-   "risk": 0.661,
+   "sentiment": -0.517,
+   "risk": 0.651,
    "events": [
     "security",
     "etf_flow",
     "market",
     "token_burn"
    ],
-   "count": 38,
+   "count": 37,
    "last": "2026-11-03T16:47:01+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.109,
-   "risk": 0.221,
+   "sentiment": -0.105,
+   "risk": 0.21,
    "events": [
     "project",
     "security"
@@ -3006,7 +2996,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.493,
-   "risk": 0.601,
+   "risk": 0.591,
    "events": [
     "security"
    ],
@@ -3015,7 +3005,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.528,
+   "risk": 0.517,
    "events": [
     "security"
    ],
@@ -3024,7 +3014,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.358,
+   "risk": 0.348,
    "events": [
     "security"
    ],
