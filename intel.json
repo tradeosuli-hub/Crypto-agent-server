@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-04T09:59:59.541013+00:00",
+ "updated_at": "2026-11-04T10:30:30.153181+00:00",
  "market": {
-  "btc_dominance": 59.97,
-  "usdt_dominance": 6.78,
-  "mcap_change_24h": -0.45,
+  "btc_dominance": 59.95,
+  "usdt_dominance": 6.77,
+  "mcap_change_24h": -0.85,
   "trending": [
    "PENGU",
-   "LIT",
    "PEARL",
+   "LIT",
+   "BTC",
+   "KNTQ",
+   "DACITYCOIN",
+   "NEAR",
    "ZEC",
    "TRUMP",
-   "UAI",
-   "PEPE",
-   "AERO",
-   "KNTQ",
-   "BTC"
+   "PEPE"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+   "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
+   "published": "2026-11-04T10:18:50+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2565f2242d9a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T10:30:30.153181+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+   "url": "https://www.coindesk.com/markets/2026/11/04/elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
+   "published": "2026-11-04T10:03:33+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na5d695e30015",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T10:30:30.153181+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
@@ -37,6 +69,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T09:59:59.541013+00:00",
    "notified": false
   },
@@ -53,12 +86,13 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T09:59:59.541013+00:00",
    "notified": false
   },
   {
    "source": "cointelegraph",
-   "title": "US midterm elections 2026 live: Democrats win House, securing control of Congress",
+   "title": "US midterm elections 2026 as it happened: Democrats win control of Congress",
    "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-04T09:27:34+00:00",
    "kind": "news",
@@ -466,7 +500,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Crypto's election gamble falters as Democratic victories usher in a 'blue wave'",
+   "title": "Live updates: Rep. Garcia vows to investigate Trump after 'blue wave' defeats crypto election gamble",
    "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
    "published": "2026-11-04T00:00:00+00:00",
    "kind": "news",
@@ -2312,27 +2346,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-   "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T09:41:36+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na3c71c8c304d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T10:05:18.706950+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -3054,7 +3067,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.334,
-   "risk": 0.538,
+   "risk": 0.527,
    "events": [
     "etf_flow",
     "security",
@@ -3066,7 +3079,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.985,
+   "risk": 0.974,
    "events": [
     "security"
    ],
@@ -3081,7 +3094,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.08,
+   "sentiment": -0.082,
    "risk": 0.2,
    "events": [
     "project",
@@ -3098,8 +3111,8 @@
    "last": "2026-11-03T23:56:09+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.49,
-   "risk": 0.478,
+   "sentiment": -0.489,
+   "risk": 0.467,
    "events": [
     "security"
    ],
@@ -3108,7 +3121,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.405,
+   "risk": 0.394,
    "events": [
     "security"
    ],
