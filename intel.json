@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-04T11:30:30.811485+00:00",
+ "updated_at": "2026-11-04T12:00:04.864192+00:00",
  "market": {
   "btc_dominance": 59.94,
   "usdt_dominance": 6.76,
-  "mcap_change_24h": -0.74,
+  "mcap_change_24h": -0.72,
   "trending": [
    "DACITYCOIN",
-   "LIT",
-   "TAO",
-   "PENGU",
-   "AERO",
    "SUI",
-   "XRP",
-   "SOL",
+   "PENGU",
+   "LIT",
+   "AERO",
    "BTC",
-   "CARDS"
+   "TRUMP",
+   "ENA",
+   "APT",
+   "TAO"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T11:30:30.811485+00:00",
    "notified": false
   },
@@ -49,7 +50,28 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T11:30:30.811485+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
+   "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+   "published": "2026-11-04T10:38:58+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na3fb67c609bb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T12:00:04.864192+00:00",
    "notified": false
   },
   {
@@ -2321,48 +2343,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen",
-   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-eases-to-usd77-900-as-binance-customers-pull-usd3-6-billion-after-withdrawals-reopen",
-   "published": "2026-11-02T11:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7518271afdf6",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T11:33:49.831112+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "From Uptober to Hacktober: Are Bitcoin’s seasonal patterns becoming obsolete?",
-   "url": "https://cointelegraph.com/markets/uptober-hacktober-bitcoin-seasonal-pattern?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T11:19:18+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N2c525d27f9a0",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T11:33:49.831112+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -3083,20 +3063,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.32,
-   "risk": 0.507,
+   "sentiment": -0.299,
+   "risk": 0.496,
    "events": [
     "etf_flow",
     "security",
     "market",
     "token_burn"
    ],
-   "count": 34,
-   "last": "2026-11-04T09:38:07+00:00"
+   "count": 35,
+   "last": "2026-11-04T10:38:58+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.953,
+   "risk": 0.943,
    "events": [
     "security"
    ],
@@ -3111,7 +3091,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.086,
+   "sentiment": -0.088,
    "risk": 0.2,
    "events": [
     "project",
@@ -3129,7 +3109,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.488,
-   "risk": 0.447,
+   "risk": 0.436,
    "events": [
     "security"
    ],
@@ -3138,7 +3118,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.373,
+   "risk": 0.363,
    "events": [
     "security"
    ],
