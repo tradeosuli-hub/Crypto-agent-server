@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-04T23:20:13.146614+00:00",
+ "updated_at": "2026-11-04T23:49:45.206766+00:00",
  "market": {
-  "btc_dominance": 59.52,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": 0.3,
+  "btc_dominance": 59.57,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": 0.53,
   "trending": [
    "FOCO",
+   "BTC",
    "XMR",
+   "DACITYCOIN",
+   "SOL",
    "PEPE",
    "PENGU",
-   "DACITYCOIN",
-   "BTC",
    "TRUMP",
-   "PEARL",
-   "LIT",
-   "HYPE"
+   "AERO",
+   "TAO"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
+   "url": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-04T23:20:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf8f6f45b4873",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T23:49:45.206766+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T23:20:13.146614+00:00",
    "notified": false
   },
@@ -66,6 +87,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T23:20:13.146614+00:00",
    "notified": false
   },
@@ -2206,23 +2228,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
-   "url": "https://cointelegraph.com/news/north-korea-denies-role-in-63b-binance-hack-points-finger-at-us?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T23:07:07+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4c4c74766cbe",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T23:25:56.857715+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -2943,18 +2948,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.26,
-   "risk": 0.934,
+   "sentiment": -0.246,
+   "risk": 0.924,
    "events": [
     "security",
     "etf_flow"
    ],
-   "count": 28,
-   "last": "2026-11-04T21:30:00+00:00"
+   "count": 29,
+   "last": "2026-11-04T23:20:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.179,
-   "risk": 0.707,
+   "sentiment": -0.178,
+   "risk": 0.697,
    "events": [
     "listing",
     "security"
@@ -2986,7 +2991,7 @@
    "last": "2026-11-04T05:46:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.468,
+   "sentiment": -0.478,
    "risk": 0.2,
    "events": [
     "security"
