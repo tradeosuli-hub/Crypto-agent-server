@@ -1,18 +1,18 @@
 {
- "updated_at": "2026-11-04T20:23:05.343367+00:00",
+ "updated_at": "2026-11-04T20:52:33.823688+00:00",
  "market": {
-  "btc_dominance": 59.55,
-  "usdt_dominance": 6.6,
-  "mcap_change_24h": 0.12,
+  "btc_dominance": 59.52,
+  "usdt_dominance": 6.58,
+  "mcap_change_24h": 0.34,
   "trending": [
    "FOCO",
    "DACITYCOIN",
-   "ETH",
-   "SOL",
-   "BTC",
-   "PENGU",
    "XMR",
    "PEPE",
+   "PENGU",
+   "BTC",
+   "ETH",
+   "SOL",
    "PEARL",
    "TRUMP"
   ],
@@ -20,6 +20,22 @@
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto's powerhouse super PAC, Fairshake, found its kryptonite",
+   "url": "https://www.coindesk.com/news-analysis/2026/11/04/crypto-s-powerhouse-super-pac-fairshake-found-its-kryptonite",
+   "published": "2026-11-04T20:29:12+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfdf8f2ade7a2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T20:52:33.823688+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin rebounds past $80,000 as markets shrug off midterms and Binance hack",
@@ -37,6 +53,7 @@
    "importance": 10,
    "sentiment": -0.7,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T20:23:05.343367+00:00",
    "notified": false
   },
@@ -2194,44 +2211,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
-   "url": "https://cointelegraph.com/news/morgan-stanley-cuts-coinbase-target-to-120-as-earnings-recovery-outlook-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T20:22:23+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N77721f9274fd",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T20:27:58.435303+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Mercado Bitcoin, Brazil’s largest crypto exchange, hit by $46 million security breach",
-   "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
-   "published": "2026-11-02T20:19:49+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N881f170a39ca",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T20:27:58.435303+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -2952,8 +2931,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.295,
-   "risk": 0.995,
+   "sentiment": -0.294,
+   "risk": 0.985,
    "events": [
     "security",
     "etf_flow"
@@ -2962,8 +2941,8 @@
    "last": "2026-11-04T20:09:58+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.26,
-   "risk": 0.768,
+   "sentiment": -0.261,
+   "risk": 0.758,
    "events": [
     "listing",
     "security"
@@ -2995,8 +2974,8 @@
    "last": "2026-11-04T05:46:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.477,
-   "risk": 0.262,
+   "sentiment": -0.475,
+   "risk": 0.251,
    "events": [
     "security"
    ],
