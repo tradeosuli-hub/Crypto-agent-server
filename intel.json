@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-04T12:59:26.603414+00:00",
+ "updated_at": "2026-11-04T13:29:02.776595+00:00",
  "market": {
-  "btc_dominance": 59.39,
-  "usdt_dominance": 6.72,
-  "mcap_change_24h": -1.15,
+  "btc_dominance": 59.4,
+  "usdt_dominance": 6.73,
+  "mcap_change_24h": -1.65,
   "trending": [
    "DACITYCOIN",
    "TRUMP",
    "LIT",
-   "PENGU",
    "BTC",
+   "PENGU",
    "NEAR",
-   "QTC",
-   "SUI",
-   "ZEC",
+   "MON",
+   "KNTQ",
+   "PEARL",
    "HYPE"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Circle reports $865 million in Q3 revenue and reserve income, discloses 5% workforce reduction",
+   "url": "https://www.theblock.co/news/business/2026-11-04-circle-reports-865-million-in-q3-revenue-and-reserve-income-discloses-5-workforce-reduction-432671",
+   "published": "2026-11-04T13:17:31+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne633bed50f47",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T13:29:02.776595+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Global asset manager Schroders brings emerging market bond fund to Solana",
+   "url": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+   "published": "2026-11-04T13:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N6b98a34bec59",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T13:29:02.776595+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
@@ -37,6 +73,7 @@
    "importance": 10,
    "sentiment": -0.7,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T12:59:26.603414+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T12:59:26.603414+00:00",
    "notified": false
   },
@@ -69,6 +107,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T12:59:26.603414+00:00",
    "notified": false
   },
@@ -2352,50 +2391,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis",
-   "url": "https://cointelegraph.com/news/binance-hackers-solana-new-phase-laundering-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T12:40:45+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC",
-    "SOL"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "SOLUSDT"
-   ],
-   "id": "N57c992a6e9f3",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T13:02:32.533355+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "XRP Ledger set to fix flaw that could have let stablecoin partners print new tokens",
-   "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
-   "published": "2026-11-02T12:37:24+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N53e52d4b792e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T13:02:32.533355+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -3115,9 +3110,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": -0.71,
+   "risk": 0.912,
+   "events": [
+    "security"
+   ],
+   "count": 3,
+   "last": "2026-11-04T13:00:00+00:00"
+  },
   "RUNEUSDT": {
-   "sentiment": -0.52,
-   "risk": 0.997,
+   "sentiment": -0.521,
+   "risk": 0.986,
    "events": [
     "security"
    ],
@@ -3125,25 +3129,16 @@
    "last": "2026-11-04T12:49:56+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.295,
-   "risk": 0.476,
+   "sentiment": -0.3,
+   "risk": 0.465,
    "events": [
     "etf_flow",
     "security",
     "market",
     "token_burn"
    ],
-   "count": 34,
+   "count": 32,
    "last": "2026-11-04T10:38:58+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.922,
-   "events": [
-    "security"
-   ],
-   "count": 2,
-   "last": "2026-11-04T09:15:55+00:00"
   },
   "ZECUSDT": {
    "sentiment": -0.2,
@@ -3153,7 +3148,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.092,
+   "sentiment": -0.094,
    "risk": 0.2,
    "events": [
     "project",
@@ -3164,7 +3159,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.487,
-   "risk": 0.416,
+   "risk": 0.405,
    "events": [
     "security"
    ],
@@ -3173,7 +3168,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.342,
+   "risk": 0.332,
    "events": [
     "security"
    ],
