@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-04T15:56:56.061756+00:00",
+ "updated_at": "2026-11-04T16:26:28.757927+00:00",
  "market": {
-  "btc_dominance": 59.5,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": 0.77,
+  "btc_dominance": 59.49,
+  "usdt_dominance": 6.55,
+  "mcap_change_24h": 0.64,
   "trending": [
    "PEARL",
-   "NEAR",
    "ETH",
+   "NEAR",
    "DACITYCOIN",
    "BTC",
-   "XMR",
    "PENGU",
+   "XMR",
    "TRUMP",
-   "HYPE",
-   "MON"
+   "QTC",
+   "AERO"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
+   "url": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin",
+   "published": "2026-11-04T16:11:29+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Naf0fc0fa28d9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T16:26:28.757927+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Wall Street rethinks AI data center boom as Texas election raises new risks",
+   "url": "https://www.coindesk.com/markets/2026/11/04/wall-street-cuts-bitcoin-miner-price-targets-after-democrats-texas-win-threatens-ai-data-center-boom",
+   "published": "2026-11-04T16:08:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2f103d7b67ba",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T16:26:28.757927+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
@@ -37,7 +69,24 @@
    "importance": 3,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T15:56:56.061756+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/11/04/crypto-long-and-short-ice-is-betting-on-retail-s-appetite-for-quick-outcomes",
+   "published": "2026-11-04T15:27:20+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N362970b17d72",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T16:26:28.757927+00:00",
    "notified": false
   },
   {
@@ -2202,27 +2251,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
-   "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
-   "published": "2026-11-02T15:53:29+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N850f576e93ba",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T15:59:46.321843+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -2943,8 +2971,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.267,
-   "risk": 0.414,
+   "sentiment": -0.266,
+   "risk": 0.404,
    "events": [
     "etf_flow",
     "security",
@@ -2955,7 +2983,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.711,
-   "risk": 0.861,
+   "risk": 0.85,
    "events": [
     "security"
    ],
@@ -2986,8 +3014,8 @@
    "last": "2026-11-04T05:46:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.484,
-   "risk": 0.354,
+   "sentiment": -0.483,
+   "risk": 0.344,
    "events": [
     "security"
    ],
@@ -2996,7 +3024,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.281,
+   "risk": 0.27,
    "events": [
     "security"
    ],
