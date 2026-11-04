@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-04T17:25:42.103911+00:00",
+ "updated_at": "2026-11-04T17:55:12.643893+00:00",
  "market": {
   "btc_dominance": 59.52,
   "usdt_dominance": 6.57,
-  "mcap_change_24h": 0.35,
+  "mcap_change_24h": 0.37,
   "trending": [
    "NEAR",
    "PEARL",
+   "DACITYCOIN",
    "ETH",
    "BTC",
-   "DACITYCOIN",
-   "PENGU",
    "TRUMP",
-   "LIT",
-   "CC",
-   "SOL"
+   "PENGU",
+   "SOL",
+   "HYPE",
+   "WLFI"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T17:25:42.103911+00:00",
    "notified": false
   },
@@ -2240,23 +2241,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
-   "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
-   "published": "2026-11-02T17:21:04+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd420904f7c23",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T17:28:59.890374+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -2978,7 +2962,7 @@
  "symbols": {
   "SOLUSDT": {
    "sentiment": -0.259,
-   "risk": 0.83,
+   "risk": 0.82,
    "events": [
     "listing",
     "security"
@@ -2987,8 +2971,8 @@
    "last": "2026-11-04T16:27:49+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.264,
-   "risk": 0.383,
+   "sentiment": -0.263,
+   "risk": 0.373,
    "events": [
     "etf_flow",
     "security",
@@ -3021,8 +3005,8 @@
    "last": "2026-11-04T05:46:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.482,
-   "risk": 0.323,
+   "sentiment": -0.481,
+   "risk": 0.313,
    "events": [
     "security"
    ],
@@ -3031,7 +3015,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.25,
+   "risk": 0.24,
    "events": [
     "security"
    ],
