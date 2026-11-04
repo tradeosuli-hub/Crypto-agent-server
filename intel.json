@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-04T19:53:32.500963+00:00",
+ "updated_at": "2026-11-04T20:23:05.343367+00:00",
  "market": {
-  "btc_dominance": 59.51,
-  "usdt_dominance": 6.59,
-  "mcap_change_24h": 0.28,
+  "btc_dominance": 59.55,
+  "usdt_dominance": 6.6,
+  "mcap_change_24h": 0.12,
   "trending": [
    "FOCO",
    "DACITYCOIN",
-   "PEARL",
    "ETH",
-   "NEAR",
    "SOL",
-   "TRUMP",
    "BTC",
    "PENGU",
-   "FIGR_HELOC"
+   "XMR",
+   "PEPE",
+   "PEARL",
+   "TRUMP"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin rebounds past $80,000 as markets shrug off midterms and Binance hack",
+   "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
+   "published": "2026-11-04T20:09:58+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc445b29267fd",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.7,
+   "risk": 1.0,
+   "first_seen": "2026-11-04T20:23:05.343367+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T19:53:32.500963+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T19:53:32.500963+00:00",
    "notified": false
   },
@@ -2210,27 +2232,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
-   "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T19:27:58+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nfe7bdb06c2f1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.1,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T19:58:19.026790+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -2950,25 +2951,25 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.295,
+   "risk": 0.995,
+   "events": [
+    "security",
+    "etf_flow"
+   ],
+   "count": 28,
+   "last": "2026-11-04T20:09:58+00:00"
+  },
   "SOLUSDT": {
    "sentiment": -0.26,
-   "risk": 0.779,
+   "risk": 0.768,
    "events": [
     "listing",
     "security"
    ],
    "count": 4,
    "last": "2026-11-04T16:27:49+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.241,
-   "risk": 0.332,
-   "events": [
-    "etf_flow",
-    "security"
-   ],
-   "count": 28,
-   "last": "2026-11-04T15:29:23+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
@@ -2985,7 +2986,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.042,
+   "sentiment": 0.041,
    "risk": 0.0,
    "events": [
     "project"
@@ -2994,8 +2995,8 @@
    "last": "2026-11-04T05:46:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.478,
-   "risk": 0.272,
+   "sentiment": -0.477,
+   "risk": 0.262,
    "events": [
     "security"
    ],
