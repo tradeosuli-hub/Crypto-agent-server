@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-04T14:28:10.093316+00:00",
+ "updated_at": "2026-11-04T14:57:44.763739+00:00",
  "market": {
-  "btc_dominance": 59.41,
-  "usdt_dominance": 6.72,
-  "mcap_change_24h": -1.63,
+  "btc_dominance": 59.35,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -0.28,
   "trending": [
    "DACITYCOIN",
-   "PENGU",
-   "PEARL",
-   "TRUMP",
-   "LIT",
-   "BTC",
-   "UNI",
    "SOL",
+   "LIT",
+   "TRUMP",
+   "PEARL",
+   "PENGU",
    "NEAR",
-   "MON"
+   "SUI",
+   "BTC",
+   "ETH"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
@@ -33,12 +33,13 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T14:28:10.093316+00:00",
    "notified": false
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
+   "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
    "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
    "published": "2026-11-04T14:00:53+00:00",
    "kind": "news",
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T14:28:10.093316+00:00",
    "notified": false
   },
@@ -2302,23 +2304,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Coinbase downgraded at Morgan Stanley; price target slashed 53% on weak earnings outlook",
-   "url": "https://www.coindesk.com/markets/2026/11/02/morgan-stanley-downgrades-coinbase-slashes-price-target-53-on-weak-earnings-outlook",
-   "published": "2026-11-02T14:29:33+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N49b79a7bacf9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T14:31:13.272350+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -3057,7 +3042,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.311,
-   "risk": 0.445,
+   "risk": 0.435,
    "events": [
     "etf_flow",
     "security",
@@ -3068,7 +3053,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.711,
-   "risk": 0.892,
+   "risk": 0.881,
    "events": [
     "security"
    ],
@@ -3076,8 +3061,8 @@
    "last": "2026-11-04T13:00:00+00:00"
   },
   "RUNEUSDT": {
-   "sentiment": -0.522,
-   "risk": 0.966,
+   "sentiment": -0.523,
+   "risk": 0.956,
    "events": [
     "security"
    ],
@@ -3099,18 +3084,17 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.098,
-   "risk": 0.2,
+   "sentiment": 0.043,
+   "risk": 0.0,
    "events": [
-    "project",
-    "security"
+    "project"
    ],
-   "count": 7,
+   "count": 6,
    "last": "2026-11-04T05:46:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.486,
-   "risk": 0.385,
+   "sentiment": -0.485,
+   "risk": 0.375,
    "events": [
     "security"
    ],
@@ -3119,7 +3103,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.311,
+   "risk": 0.301,
    "events": [
     "security"
    ],
