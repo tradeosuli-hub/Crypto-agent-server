@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-04T15:27:25.228495+00:00",
+ "updated_at": "2026-11-04T15:56:56.061756+00:00",
  "market": {
-  "btc_dominance": 59.48,
-  "usdt_dominance": 6.54,
-  "mcap_change_24h": 1.2,
+  "btc_dominance": 59.5,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": 0.77,
   "trending": [
    "PEARL",
-   "DACITYCOIN",
    "NEAR",
    "ETH",
+   "DACITYCOIN",
    "BTC",
-   "SOL",
-   "LIT",
    "XMR",
    "PENGU",
-   "TRUMP"
+   "TRUMP",
+   "HYPE",
+   "MON"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-us-stocks-rally-midterm-election-result?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-04T15:29:23+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5a14dbd20717",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T15:56:56.061756+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Security Incident | Recovery Update #7: 98% of Stolen Assets Replenished and New PoR Snapshot With Expanded Coverage (2026-11-04)",
@@ -33,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T15:27:25.228495+00:00",
    "notified": false
   },
@@ -2202,78 +2223,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans",
-   "url": "https://www.coindesk.com/business/2026/11/02/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
-   "published": "2026-11-02T15:26:43+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4a448370630b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T15:30:13.809442+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
-   "url": "https://www.coindesk.com/markets/2026/11/02/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
-   "published": "2026-11-02T15:18:55+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N746378c87ff6",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T15:30:13.809442+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients",
-   "url": "https://www.coindesk.com/business/2026/11/02/standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients",
-   "published": "2026-11-02T15:05:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N00eacdd977cc",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T15:30:13.809442+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Strive inches closer to becoming second-largest public bitcoin holder after latest $10 million buy",
-   "url": "https://www.theblock.co/news/business/2026-11-02-strive-inches-closer-second-largest-public-bitcoin-holder-10-million-buy-432312",
-   "published": "2026-11-02T15:01:36+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N8c35f1f44945",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T15:30:13.809442+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -2994,19 +2943,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.314,
-   "risk": 0.424,
+   "sentiment": -0.267,
+   "risk": 0.414,
    "events": [
     "etf_flow",
     "security",
     "market"
    ],
    "count": 31,
-   "last": "2026-11-04T14:00:53+00:00"
+   "last": "2026-11-04T15:29:23+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.711,
-   "risk": 0.871,
+   "risk": 0.861,
    "events": [
     "security"
    ],
@@ -3037,8 +2986,8 @@
    "last": "2026-11-04T05:46:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.485,
-   "risk": 0.364,
+   "sentiment": -0.484,
+   "risk": 0.354,
    "events": [
     "security"
    ],
@@ -3047,7 +2996,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.291,
+   "risk": 0.281,
    "events": [
     "security"
    ],
