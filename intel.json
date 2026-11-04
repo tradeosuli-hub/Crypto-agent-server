@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-04T12:00:04.864192+00:00",
+ "updated_at": "2026-11-04T12:29:51.978395+00:00",
  "market": {
-  "btc_dominance": 59.94,
-  "usdt_dominance": 6.76,
-  "mcap_change_24h": -0.72,
+  "btc_dominance": 59.35,
+  "usdt_dominance": 6.73,
+  "mcap_change_24h": -1.27,
   "trending": [
    "DACITYCOIN",
    "SUI",
-   "PENGU",
-   "LIT",
-   "AERO",
    "BTC",
    "TRUMP",
-   "ENA",
-   "APT",
-   "TAO"
+   "NEAR",
+   "QTC",
+   "HBAR",
+   "LIT",
+   "PENGU",
+   "AERO"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Canton’s CC rises 4% as SEC staff view it as ‘digital commodity’",
+   "url": "https://cointelegraph.com/markets/cantons-cc-rises-sec-no-action-letter-digital-commodity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-04T12:12:15+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1824b6c575cb",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-04T12:29:51.978395+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "BitGo launches institutional trading and financial solutions business led by former NYDIG executive",
+   "url": "https://www.theblock.co/news/business/2026-11-04-bitgo-launches-institutional-trading-and-financial-solutions-business-led-by-former-nydig-executive-432646",
+   "published": "2026-11-04T12:00:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N153b13deba43",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T12:29:51.978395+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
@@ -71,6 +103,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T12:00:04.864192+00:00",
    "notified": false
   },
@@ -279,7 +312,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades",
+   "title": "Bitcoin rises to $78,300 in V-shaped comeback as midterm election uncertainty fades",
    "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-knocks-on-usd78-000-in-v-shaped-comeback-as-midterm-uncertainty-fades",
    "published": "2026-11-04T06:16:40+00:00",
    "kind": "news",
@@ -292,7 +325,7 @@
    "id": "Nb7b2d0cff9e1",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.3,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-04T06:33:17.334970+00:00",
@@ -2326,23 +2359,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "No proof of AI in North Korean hackers move of stolen Binance funds",
-   "url": "https://www.coindesk.com/tech/2026/11/02/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds-through-thousands-of-wallets",
-   "published": "2026-11-02T11:57:45+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N72a08151ac3d",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T12:03:26.798599+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -3063,8 +3079,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.299,
-   "risk": 0.496,
+   "sentiment": -0.31,
+   "risk": 0.486,
    "events": [
     "etf_flow",
     "security",
@@ -3076,7 +3092,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.943,
+   "risk": 0.933,
    "events": [
     "security"
    ],
@@ -3091,7 +3107,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.088,
+   "sentiment": -0.09,
    "risk": 0.2,
    "events": [
     "project",
@@ -3109,7 +3125,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.488,
-   "risk": 0.436,
+   "risk": 0.426,
    "events": [
     "security"
    ],
@@ -3118,7 +3134,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.363,
+   "risk": 0.353,
    "events": [
     "security"
    ],
