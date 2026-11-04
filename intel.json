@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-04T12:29:51.978395+00:00",
+ "updated_at": "2026-11-04T12:59:26.603414+00:00",
  "market": {
-  "btc_dominance": 59.35,
-  "usdt_dominance": 6.73,
-  "mcap_change_24h": -1.27,
+  "btc_dominance": 59.39,
+  "usdt_dominance": 6.72,
+  "mcap_change_24h": -1.15,
   "trending": [
    "DACITYCOIN",
-   "SUI",
-   "BTC",
    "TRUMP",
-   "NEAR",
-   "QTC",
-   "HBAR",
    "LIT",
    "PENGU",
-   "AERO"
+   "BTC",
+   "NEAR",
+   "QTC",
+   "SUI",
+   "ZEC",
+   "HYPE"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
+   "url": "https://www.coindesk.com/markets/2026/11/04/thorchain-s-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+   "published": "2026-11-04T12:49:56+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "RUNE"
+   ],
+   "symbols": [
+    "RUNEUSDT"
+   ],
+   "id": "Nd7b8d00d6c25",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.7,
+   "risk": 1.0,
+   "first_seen": "2026-11-04T12:59:26.603414+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Circle beats earnings and revenue estimates on soaring USDC transaction volume",
+   "url": "https://www.coindesk.com/business/2026/11/04/circle-beats-earnings-and-revenue-estimates-on-soaring-usdc-transaction-volume",
+   "published": "2026-11-04T12:33:54+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5bcf97450afb",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T12:59:26.603414+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Here's how analysts are reacting to the new blue Congress",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+   "published": "2026-11-04T12:14:11+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N22412ddb3f0e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T12:59:26.603414+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Canton’s CC rises 4% as SEC staff view it as ‘digital commodity’",
@@ -33,6 +85,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-04T12:29:51.978395+00:00",
    "notified": false
   },
@@ -49,6 +102,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T12:29:51.978395+00:00",
    "notified": false
   },
@@ -606,16 +660,20 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Rep. Garcia vows to investigate Trump after 'blue wave' defeats crypto election gamble",
+   "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
    "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
    "published": "2026-11-04T00:00:00+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
    "id": "N4ce46e7e5695",
    "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
+   "importance": 3,
+   "sentiment": -0.3,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-04T00:09:12.052452+00:00",
@@ -2338,27 +2396,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin's 'volatility curve' has a midterm bump",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/02/bitcoin-s-volatility-curve-has-a-midterm-bump",
-   "published": "2026-11-02T12:30:17+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nea21cd4dceee",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T12:33:00.920544+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #4: Withdrawals Resume in Phases (2026-11-01)",
    "url": "https://www.binance.com/en/support/announcement/73911fb819b240f88b88256bdd318eda",
@@ -3078,25 +3115,34 @@
   }
  ],
  "symbols": {
+  "RUNEUSDT": {
+   "sentiment": -0.52,
+   "risk": 0.997,
+   "events": [
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-04T12:49:56+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.31,
-   "risk": 0.486,
+   "sentiment": -0.295,
+   "risk": 0.476,
    "events": [
     "etf_flow",
     "security",
     "market",
     "token_burn"
    ],
-   "count": 35,
+   "count": 34,
    "last": "2026-11-04T10:38:58+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.933,
+   "risk": 0.922,
    "events": [
     "security"
    ],
-   "count": 3,
+   "count": 2,
    "last": "2026-11-04T09:15:55+00:00"
   },
   "ZECUSDT": {
@@ -3107,7 +3153,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.09,
+   "sentiment": -0.092,
    "risk": 0.2,
    "events": [
     "project",
@@ -3116,16 +3162,9 @@
    "count": 7,
    "last": "2026-11-04T05:46:33+00:00"
   },
-  "RUNEUSDT": {
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-03T23:56:09+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.488,
-   "risk": 0.426,
+   "sentiment": -0.487,
+   "risk": 0.416,
    "events": [
     "security"
    ],
@@ -3134,19 +3173,12 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.353,
+   "risk": 0.342,
    "events": [
     "security"
    ],
    "count": 1,
    "last": "2026-11-03T05:25:12+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-02T12:37:24+00:00"
   }
  },
  "social": {},
