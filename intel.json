@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-04T13:58:34.145918+00:00",
+ "updated_at": "2026-11-04T14:28:10.093316+00:00",
  "market": {
-  "btc_dominance": 59.38,
-  "usdt_dominance": 6.73,
-  "mcap_change_24h": -1.67,
+  "btc_dominance": 59.41,
+  "usdt_dominance": 6.72,
+  "mcap_change_24h": -1.63,
   "trending": [
    "DACITYCOIN",
-   "MON",
-   "BTC",
-   "TRUMP",
-   "LIT",
-   "NEAR",
    "PENGU",
    "PEARL",
-   "HYPE",
-   "BP"
+   "TRUMP",
+   "LIT",
+   "BTC",
+   "UNI",
+   "SOL",
+   "NEAR",
+   "MON"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "The election changes Washington. The work on crypto continues",
+   "url": "https://www.coindesk.com/opinion/2026/11/04/the-election-changes-washington-the-work-on-crypto-continues",
+   "published": "2026-11-04T14:25:12+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd19693c4c650",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T14:28:10.093316+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
+   "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
+   "published": "2026-11-04T14:00:53+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N21abd1d308a9",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T14:28:10.093316+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -50,6 +86,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T13:58:34.145918+00:00",
    "notified": false
   },
@@ -2282,61 +2319,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Tokenization firm tZERO plans to go public in $350 million SPAC deal",
-   "url": "https://www.coindesk.com/business/2026/11/01/tokenization-firm-tzero-plans-to-go-public-in-usd350-million-spac-deal",
-   "published": "2026-11-02T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf0be0c588ab1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T14:01:38.573161+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
-   "url": "https://cointelegraph.com/news/strategy-repurchases-208m-strc-65m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T13:48:28+00:00",
-   "kind": "token_burn",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nc1b262304c01",
-   "kind_fa": "سوزاندن توکن",
-   "importance": 6,
-   "sentiment": 0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T14:01:38.573161+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "AI agent disputes head to ‘Internet Court’ — and a jury of AI agents",
-   "url": "https://cointelegraph.com/magazine/ai-agent-disputes-sent-to-internet-court-and-a-jury-of-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-02T13:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4360a5f174e3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T14:01:38.573161+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #5: October 31st PoR Snapshot Now Fully Verifiable by Users as ZK Proof Generated (2026-11-02)",
    "url": "https://www.binance.com/en/support/announcement/185bd9a4717f44088b3be70287b8237f",
@@ -3073,9 +3055,20 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.311,
+   "risk": 0.445,
+   "events": [
+    "etf_flow",
+    "security",
+    "market"
+   ],
+   "count": 32,
+   "last": "2026-11-04T14:00:53+00:00"
+  },
   "SOLUSDT": {
-   "sentiment": -0.71,
-   "risk": 0.902,
+   "sentiment": -0.711,
+   "risk": 0.892,
    "events": [
     "security"
    ],
@@ -3083,8 +3076,8 @@
    "last": "2026-11-04T13:00:00+00:00"
   },
   "RUNEUSDT": {
-   "sentiment": -0.521,
-   "risk": 0.976,
+   "sentiment": -0.522,
+   "risk": 0.966,
    "events": [
     "security"
    ],
@@ -3098,17 +3091,6 @@
    "count": 1,
    "last": "2026-11-04T12:33:54+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.312,
-   "risk": 0.455,
-   "events": [
-    "etf_flow",
-    "security",
-    "market"
-   ],
-   "count": 31,
-   "last": "2026-11-04T10:38:58+00:00"
-  },
   "ZECUSDT": {
    "sentiment": -0.2,
    "risk": 0.0,
@@ -3117,7 +3099,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.096,
+   "sentiment": -0.098,
    "risk": 0.2,
    "events": [
     "project",
@@ -3128,7 +3110,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.486,
-   "risk": 0.395,
+   "risk": 0.385,
    "events": [
     "security"
    ],
@@ -3137,7 +3119,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.322,
+   "risk": 0.311,
    "events": [
     "security"
    ],
