@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-04T00:09:12.052452+00:00",
+ "updated_at": "2026-11-04T00:38:48.105821+00:00",
  "market": {
-  "btc_dominance": 59.27,
+  "btc_dominance": 59.32,
   "usdt_dominance": 6.82,
-  "mcap_change_24h": -1.8,
+  "mcap_change_24h": -2.18,
   "trending": [
    "DACITYCOIN",
    "BTC",
-   "PENGU",
    "NEAR",
+   "PENGU",
    "LIT",
-   "AERO",
+   "PEARL",
+   "QNT",
    "KNTQ",
-   "CC",
-   "UNI",
-   "QNT"
+   "HOT",
+   "VIRTUAL"
   ],
   "fear_greed": 34,
   "fear_greed_label": "Fear"
@@ -33,7 +33,24 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-04T00:09:12.052452+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "RUNE rallies 15% as THORChain restarts most swaps after halt",
+   "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-03T23:56:09+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N990bb6ffe8cc",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-04T00:38:48.105821+00:00",
    "notified": false
   },
   {
@@ -55,7 +72,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "US midterms election 2026 live: What they mean for crypto",
+   "title": "US midterms election 2026 live: Mark Warner retains Virginia Senate seat",
    "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-03T23:01:32+00:00",
    "kind": "news",
@@ -2184,23 +2201,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance net outflows surge to $5.8B as withdrawals resume after record hack",
-   "url": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-01T23:59:27+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N58e4a71c4c23",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -1.0,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-02T00:14:45.335416+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "North Korean hackers launder $242 million of Binance loot via Tron as FBI presses THORChain: analyst",
    "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
@@ -2959,8 +2959,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.52,
-   "risk": 0.743,
+   "sentiment": -0.521,
+   "risk": 0.733,
    "events": [
     "security",
     "etf_flow",
@@ -2971,8 +2971,8 @@
    "last": "2026-11-03T16:47:01+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.142,
-   "risk": 0.303,
+   "sentiment": -0.138,
+   "risk": 0.292,
    "events": [
     "project",
     "security"
@@ -2982,7 +2982,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.494,
-   "risk": 0.683,
+   "risk": 0.673,
    "events": [
     "security"
    ],
@@ -2991,7 +2991,7 @@
   },
   "ARBUSDT": {
    "sentiment": -0.9,
-   "risk": 0.61,
+   "risk": 0.599,
    "events": [
     "security"
    ],
@@ -3000,7 +3000,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.44,
+   "risk": 0.43,
    "events": [
     "security"
    ],
