@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-05T18:32:54.944670+00:00",
+ "updated_at": "2026-11-05T19:02:26.394063+00:00",
  "market": {
   "btc_dominance": 59.24,
   "usdt_dominance": 6.87,
-  "mcap_change_24h": -7.24,
+  "mcap_change_24h": -7.27,
   "trending": [
    "BTC",
    "HYPE",
-   "NEAR",
+   "SOL",
    "INJ",
+   "PENGU",
    "TRUMP",
-   "ZEC",
-   "LIT",
+   "NEAR",
    "ETH",
-   "BP",
-   "SOL"
+   "LIT",
+   "ZEC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
+   "url": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats",
+   "published": "2026-11-05T18:59:45+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N033019655805",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T19:02:26.394063+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+   "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
+   "published": "2026-11-05T18:48:40+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nda29a8d3eae2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T19:02:26.394063+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
+   "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T18:32:45+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nda2f323db62b",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-05T19:02:26.394063+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Europe’s largest asset manager Amundi tokenizes equity index fund on Ethereum",
@@ -37,6 +89,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T18:32:54.944670+00:00",
    "notified": false
   },
@@ -2173,23 +2226,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Prediction markets bet on Democratic sweep of House, Senate in midterm elections",
-   "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
-   "published": "2026-11-03T18:30:31+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N0530afb45707",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T18:38:21.645371+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2892,6 +2928,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.091,
+   "risk": 0.827,
+   "events": [
+    "listing",
+    "security",
+    "etf_flow"
+   ],
+   "count": 28,
+   "last": "2026-11-05T18:48:40+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.112,
    "risk": 0.0,
@@ -2901,17 +2948,6 @@
    "count": 4,
    "last": "2026-11-05T18:09:38+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.096,
-   "risk": 0.837,
-   "events": [
-    "listing",
-    "security",
-    "etf_flow"
-   ],
-   "count": 27,
-   "last": "2026-11-05T16:48:41+00:00"
-  },
   "AAVEUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2920,8 +2956,8 @@
    "last": "2026-11-05T15:36:50+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.217,
-   "risk": 0.307,
+   "sentiment": 0.221,
+   "risk": 0.296,
    "events": [
     "listing",
     "security"
@@ -2940,7 +2976,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.437,
+   "risk": 0.431,
    "events": [
     "regulation"
    ],
