@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-05T22:00:13.755688+00:00",
+ "updated_at": "2026-11-05T22:29:55.019363+00:00",
  "market": {
-  "btc_dominance": 59.22,
-  "usdt_dominance": 6.89,
-  "mcap_change_24h": -7.26,
+  "btc_dominance": 59.25,
+  "usdt_dominance": 6.9,
+  "mcap_change_24h": -7.36,
   "trending": [
-   "BTC",
-   "PENGU",
-   "LIT",
    "PEARL",
-   "HYPE",
    "ETH",
-   "BP",
-   "TRUMP",
+   "BTC",
    "INJ",
-   "VVV"
+   "HYPE",
+   "SOL",
+   "ZEC",
+   "LIT",
+   "VVV",
+   "TRUMP"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Asian crypto exchanges bunker down as hacks surge: Asia Express",
+   "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T22:18:42+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N973251c0cf2d",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.6,
+   "risk": 1.0,
+   "first_seen": "2026-11-05T22:29:55.019363+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Hyperliquid Strategies files to become CFTC-registered FCM, posts $13.3 million in quaterly revenue",
+   "url": "https://www.theblock.co/news/markets/2026-11-05-hyperliquid-strategies-files-become-cftc-registered-fcm-posts-13-3-million-quaterly-revenue-435455",
+   "published": "2026-11-05T22:09:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nec19d94981f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T22:29:55.019363+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Crypto ally French Hill wins reelection but set to lose House chair",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T22:00:13.755688+00:00",
    "notified": false
   },
@@ -2220,23 +2253,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
-   "url": "https://cointelegraph.com/news/spacex-tokenization-okxice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T21:47:20+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9bbace6e0687",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T22:10:49.395082+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2941,7 +2957,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.105,
-   "risk": 0.766,
+   "risk": 0.755,
    "events": [
     "market",
     "listing",
@@ -2952,7 +2968,7 @@
    "last": "2026-11-05T20:11:02+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.112,
+   "sentiment": 0.111,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2961,8 +2977,8 @@
    "last": "2026-11-05T18:09:38+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.256,
-   "risk": 0.235,
+   "sentiment": 0.262,
+   "risk": 0.224,
    "events": [
     "listing",
     "security"
@@ -2981,7 +2997,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.393,
+   "risk": 0.387,
    "events": [
     "regulation"
    ],
