@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-05T05:43:47.087761+00:00",
+ "updated_at": "2026-11-05T06:13:13.619434+00:00",
  "market": {
-  "btc_dominance": 59.54,
-  "usdt_dominance": 6.56,
-  "mcap_change_24h": 1.02,
+  "btc_dominance": 59.57,
+  "usdt_dominance": 6.57,
+  "mcap_change_24h": 0.42,
   "trending": [
-   "BTC",
    "PENGU",
-   "PEARL",
-   "TRUMP",
+   "BTC",
    "ZEC",
-   "NEAR",
+   "HYPE",
+   "PEARL",
+   "CARDS",
+   "ZAMA",
+   "TRUMP",
    "AERO",
-   "STONK",
-   "CLANKER",
-   "SOL"
+   "TAO"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto",
+   "url": "https://cointelegraph.com/news/polygon-hard-fork-binance-polymarket-6-8m-hack-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T06:02:29+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "POL"
+   ],
+   "symbols": [
+    "POLUSDT"
+   ],
+   "id": "Nfd3fb5a78522",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 4,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T06:13:13.619434+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Zcash is about to freeze $16 million in its oldest privacy pool",
+   "url": "https://www.coindesk.com/tech/2026/11/05/zcash-is-about-to-freeze-usd16-million-in-its-oldest-privacy-pool",
+   "published": "2026-11-05T05:47:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nad29ba72ee9a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T06:13:13.619434+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "The pile of lawsuits against Kalshi just grew by one",
@@ -37,6 +73,7 @@
    "importance": 8,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-05T05:43:47.087761+00:00",
    "notified": false
   },
@@ -57,6 +94,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T05:43:47.087761+00:00",
    "notified": false
   },
@@ -2194,27 +2232,6 @@
   },
   {
    "source": "coindesk",
-   "title": "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows",
-   "url": "https://www.coindesk.com/markets/2026/11/03/binance-has-spent-half-its-safu-bitcoin-about-usd580-million-worth-data-shows",
-   "published": "2026-11-03T05:36:56+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N95e61d66e0a0",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T05:49:56.623800+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
    "title": "Bitcoin miner Cipher posts $31 million profit as AI pivot begins",
    "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-miner-cipher-posts-usd31-million-profit-as-ai-pivot-begins",
    "published": "2026-11-03T05:29:48+00:00",
@@ -2232,27 +2249,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-03T08:46:59.641884+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Arbitrum’s council moved $30 million of Binance hack funds without the hacker’s key",
-   "url": "https://www.coindesk.com/tech/2026/11/03/arbitrum-s-council-moved-usd30-million-of-binance-hack-funds-without-the-hacker-s-key",
-   "published": "2026-11-03T05:25:12+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "ARB"
-   ],
-   "symbols": [
-    "ARBUSDT"
-   ],
-   "id": "Nf85746de9c57",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T05:49:56.623800+00:00",
    "notified": false
   },
   {
@@ -2992,9 +2988,18 @@
   }
  ],
  "symbols": {
+  "POLUSDT": {
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 1,
+   "last": "2026-11-05T06:02:29+00:00"
+  },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.597,
+   "risk": 0.591,
    "events": [
     "regulation"
    ],
@@ -3009,8 +3014,8 @@
    "last": "2026-11-05T05:25:06+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.21,
-   "risk": 0.801,
+   "sentiment": -0.211,
+   "risk": 0.791,
    "events": [
     "security",
     "etf_flow"
@@ -3019,8 +3024,8 @@
    "last": "2026-11-05T05:13:45+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.166,
-   "risk": 0.574,
+   "sentiment": -0.165,
+   "risk": 0.563,
    "events": [
     "listing",
     "security"
