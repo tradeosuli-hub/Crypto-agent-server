@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-05T11:08:53.342466+00:00",
+ "updated_at": "2026-11-05T11:38:28.411749+00:00",
  "market": {
-  "btc_dominance": 60.08,
+  "btc_dominance": 60.09,
   "usdt_dominance": 6.64,
-  "mcap_change_24h": -1.66,
+  "mcap_change_24h": -1.57,
   "trending": [
-   "TRUMP",
-   "INJ",
-   "PENGU",
-   "CARDS",
    "PEARL",
+   "TRUMP",
    "BTC",
-   "SOL",
+   "INJ",
+   "KNTQ",
+   "AERO",
+   "CARDS",
    "QNT",
-   "QTC",
-   "TAO"
+   "MON",
+   "QTC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin holds above $80,000 after Wednesday’s jump as injective rallies on staked ETF listing",
+   "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-after-wednesday-s-jump-as-injective-rallies-on-staked-etf-listing",
+   "published": "2026-11-05T11:30:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc19756da9cd1",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 1.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T11:38:28.411749+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live updates: Bitcoin steady around $80,000 as markets rally after Democratic sweep",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T11:08:53.342466+00:00",
    "notified": false
   },
@@ -57,6 +78,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T11:08:53.342466+00:00",
    "notified": false
   },
@@ -2221,44 +2243,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-   "url": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
-   "published": "2026-11-03T11:12:12+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na7816c982d9c",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T11:14:22.541890+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped",
-   "url": "https://cointelegraph.com/news/france-postpones-2027-budget-vote-reject-crypto-exit-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T10:49:26+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7f6db2bca071",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T11:14:22.541890+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2962,14 +2946,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.211,
-   "risk": 0.992,
+   "sentiment": -0.068,
+   "risk": 0.981,
    "events": [
+    "listing",
     "security",
     "etf_flow"
    ],
-   "count": 28,
-   "last": "2026-11-05T10:57:11+00:00"
+   "count": 27,
+   "last": "2026-11-05T11:30:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.137,
@@ -2992,7 +2977,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.529,
+   "risk": 0.523,
    "events": [
     "regulation"
    ],
@@ -3007,8 +2992,8 @@
    "last": "2026-11-05T05:25:06+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.151,
-   "risk": 0.461,
+   "sentiment": -0.149,
+   "risk": 0.451,
    "events": [
     "listing",
     "security"
