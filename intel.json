@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-05T18:03:23.505943+00:00",
+ "updated_at": "2026-11-05T18:32:54.944670+00:00",
  "market": {
-  "btc_dominance": 59.18,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -7.75,
+  "btc_dominance": 59.24,
+  "usdt_dominance": 6.87,
+  "mcap_change_24h": -7.24,
   "trending": [
    "BTC",
-   "LIT",
-   "TRUMP",
-   "PEARL",
-   "NEAR",
    "HYPE",
-   "SUI",
+   "NEAR",
    "INJ",
-   "PEPE",
-   "ONDO"
+   "TRUMP",
+   "ZEC",
+   "LIT",
+   "ETH",
+   "BP",
+   "SOL"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Europe’s largest asset manager Amundi tokenizes equity index fund on Ethereum",
+   "url": "https://cointelegraph.com/news/amundi-tokenizes-european-equity-index-fund-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T18:09:38+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nf2872b27b24b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T18:32:54.944670+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Paraguay president resigns after collapse of Ueno digital bank",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T18:03:23.505943+00:00",
    "notified": false
   },
@@ -2871,9 +2892,18 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.112,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 4,
+   "last": "2026-11-05T18:09:38+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.095,
-   "risk": 0.848,
+   "sentiment": -0.096,
+   "risk": 0.837,
    "events": [
     "listing",
     "security",
@@ -2890,23 +2920,14 @@
    "last": "2026-11-05T15:36:50+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.212,
-   "risk": 0.317,
+   "sentiment": 0.217,
+   "risk": 0.307,
    "events": [
     "listing",
     "security"
    ],
    "count": 4,
    "last": "2026-11-05T14:19:51+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.159,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
-   "last": "2026-11-05T08:22:30+00:00"
   },
   "POLUSDT": {
    "sentiment": 0.2,
@@ -2919,7 +2940,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.443,
+   "risk": 0.437,
    "events": [
     "regulation"
    ],
