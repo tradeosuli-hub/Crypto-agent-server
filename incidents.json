@@ -1,25 +1,5 @@
 [
  {
-  "id": "I202610270359",
-  "ts": "2026-10-27T03:59:17.384829+00:00",
-  "kind": "scan_stalled",
-  "kind_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
-  "cause": "scan_stalled",
-  "cause_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
-  "severity": "high",
-  "summary_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · علت: اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · این علت 247 بار قبلاً دیده شده؛ آخرین اقدام: اجرای دوبارهٔ Workflow اسکن زده شد",
-  "brain": null,
-  "log_excerpt": "",
-  "action": "redispatch",
-  "action_fa": "اجرای دوبارهٔ Workflow اسکن زده شد",
-  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/40443186218",
-  "last_action_ts": "2026-10-27T03:59:18.969473+00:00",
-  "checks": 1,
-  "escalations": 0,
-  "resolved_at": "2026-10-27T04:13:47.972581+00:00",
-  "resolution_fa": "برطرف شد پس از اقدام «اجرای دوبارهٔ Workflow اسکن زده شد»"
- },
- {
   "id": "I202610270442",
   "ts": "2026-10-27T04:42:42.614654+00:00",
   "kind": "scan_stalled",
@@ -2413,9 +2393,9 @@
   "action": "revive",
   "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/41100153422",
-  "last_action_ts": "2026-11-05T11:08:03.276143+00:00",
-  "checks": 570,
-  "escalations": 191,
+  "last_action_ts": "2026-11-05T11:51:42.376289+00:00",
+  "checks": 571,
+  "escalations": 192,
   "resolved_at": null
  },
  {
@@ -5997,5 +5977,24 @@
   "escalations": 0,
   "resolved_at": "2026-11-05T11:22:36.023154+00:00",
   "resolution_fa": "برطرف شد پس از اقدام «اجرای دوبارهٔ Workflow اسکن زده شد»"
+ },
+ {
+  "id": "I202611051151",
+  "ts": "2026-11-05T11:51:39.006515+00:00",
+  "kind": "scan_stalled",
+  "kind_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "cause": "scan_stalled",
+  "cause_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
+  "severity": "high",
+  "summary_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · علت: اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · این علت 297 بار قبلاً دیده شده؛ آخرین اقدام: اجرای دوبارهٔ Workflow اسکن زده شد",
+  "brain": null,
+  "log_excerpt": "",
+  "action": "redispatch",
+  "action_fa": "اجرای دوبارهٔ Workflow اسکن زده شد",
+  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/42016446868",
+  "last_action_ts": "2026-11-05T11:51:40.870681+00:00",
+  "checks": 1,
+  "escalations": 0,
+  "resolved_at": null
  }
 ]
