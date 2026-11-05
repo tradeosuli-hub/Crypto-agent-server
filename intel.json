@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-05T15:05:27.996580+00:00",
+ "updated_at": "2026-11-05T15:35:04.318382+00:00",
  "market": {
-  "btc_dominance": 59.41,
-  "usdt_dominance": 6.72,
-  "mcap_change_24h": -2.49,
+  "btc_dominance": 59.19,
+  "usdt_dominance": 6.84,
+  "mcap_change_24h": -5.85,
   "trending": [
-   "TRUMP",
    "BTC",
-   "SOL",
+   "TRUMP",
+   "LIT",
+   "VVV",
+   "PENGU",
    "ETH",
-   "PEARL",
-   "INJ",
    "CARDS",
-   "AAVE",
-   "ZEC",
-   "VVV"
+   "INJ",
+   "HYPE",
+   "NEAR"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T15:05:27.996580+00:00",
    "notified": false
   },
@@ -304,7 +305,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin extends losses as Nasdaq tumbles in early trading",
+   "title": "Live updates: Bitcoin plunges as Nasdaq falls 4% in panicky selloff",
    "url": "https://www.coindesk.com/business/2026/11/05/live-updates-bitcoin-steady-around-usd80-000-as-markets-rally-after-democratic-sweep",
    "published": "2026-11-05T10:57:11+00:00",
    "kind": "news",
@@ -317,7 +318,7 @@
    "id": "Nfb0292c39603",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": -0.8,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-05T11:08:53.342466+00:00",
@@ -2203,57 +2204,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
-   "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
-   "published": "2026-11-03T15:02:13+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb4427db7fe9d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T15:10:37.467396+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
-   "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
-   "published": "2026-11-03T14:53:19+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7feee1423182",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T15:10:37.467396+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
-   "url": "https://www.coindesk.com/business/2026/11/03/south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
-   "published": "2026-11-03T14:42:30+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5bbbf57c93f9",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T15:10:37.467396+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2957,8 +2907,8 @@
  ],
  "symbols": {
   "SOLUSDT": {
-   "sentiment": 0.187,
-   "risk": 0.379,
+   "sentiment": 0.191,
+   "risk": 0.368,
    "events": [
     "listing",
     "security"
@@ -2974,8 +2924,8 @@
    "last": "2026-11-05T14:00:00+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.047,
-   "risk": 0.91,
+   "sentiment": -0.078,
+   "risk": 0.899,
    "events": [
     "listing",
     "security",
@@ -2985,7 +2935,7 @@
    "last": "2026-11-05T13:29:40+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.154,
+   "sentiment": 0.155,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3004,7 +2954,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.48,
+   "risk": 0.474,
    "events": [
     "regulation"
    ],
