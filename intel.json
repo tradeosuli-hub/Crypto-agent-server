@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-05T11:38:28.411749+00:00",
+ "updated_at": "2026-11-05T12:07:58.183525+00:00",
  "market": {
-  "btc_dominance": 60.09,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -1.57,
+  "btc_dominance": 60.1,
+  "usdt_dominance": 6.65,
+  "mcap_change_24h": -1.6,
   "trending": [
    "PEARL",
    "TRUMP",
-   "BTC",
-   "INJ",
    "KNTQ",
-   "AERO",
+   "INJ",
+   "BTC",
    "CARDS",
-   "QNT",
-   "MON",
-   "QTC"
+   "AERO",
+   "PENGU",
+   "NEAR",
+   "XTZ"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin miners are oversold following 35% October rout, VanEck says",
+   "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-miners-are-oversold-following-35-october-rout-says-vaneck",
+   "published": "2026-11-05T11:49:23+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne20f915f6cb0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T12:07:58.183525+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates",
+   "url": "https://www.coindesk.com/business/2026/11/05/trump-linked-american-bitcoin-swings-to-usd126-million-profit-in-q3-2026",
+   "published": "2026-11-05T11:45:54+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1c74d4a02f59",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T12:07:58.183525+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Thailand to block Bitget in December over unlicensed crypto trading",
+   "url": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T11:33:20+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbf90db58513f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T12:07:58.183525+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin holds above $80,000 after Wednesday’s jump as injective rallies on staked ETF listing",
@@ -37,6 +93,7 @@
    "importance": 7,
    "sentiment": 1.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T11:38:28.411749+00:00",
    "notified": false
   },
@@ -2205,44 +2262,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance’s net inflows turn positive at $2.3B as withdrawals expand",
-   "url": "https://cointelegraph.com/news/binances-daily-inflows-positive-18b-withdrawals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T11:32:02+00:00",
-   "kind": "market",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N36c4b55e185d",
-   "kind_fa": "جریان بازار",
-   "importance": 4,
-   "sentiment": 0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T11:43:53.833946+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-   "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
-   "published": "2026-11-03T11:28:00+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nf11591d70e32",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T11:43:53.833946+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2946,24 +2965,24 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.068,
-   "risk": 0.981,
+   "sentiment": -0.04,
+   "risk": 0.971,
    "events": [
     "listing",
     "security",
     "etf_flow"
    ],
-   "count": 27,
-   "last": "2026-11-05T11:30:00+00:00"
+   "count": 28,
+   "last": "2026-11-05T11:49:23+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.137,
+   "sentiment": 0.146,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "project"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-11-05T08:22:30+00:00"
   },
   "POLUSDT": {
@@ -2977,7 +2996,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.523,
+   "risk": 0.517,
    "events": [
     "regulation"
    ],
@@ -2992,8 +3011,8 @@
    "last": "2026-11-05T05:25:06+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.149,
-   "risk": 0.451,
+   "sentiment": -0.147,
+   "risk": 0.44,
    "events": [
     "listing",
     "security"
