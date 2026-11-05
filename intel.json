@@ -1,25 +1,93 @@
 {
- "updated_at": "2026-11-05T16:34:28.727803+00:00",
+ "updated_at": "2026-11-05T17:04:03.338429+00:00",
  "market": {
-  "btc_dominance": 59.23,
-  "usdt_dominance": 6.82,
-  "mcap_change_24h": -6.53,
+  "btc_dominance": 59.24,
+  "usdt_dominance": 6.85,
+  "mcap_change_24h": -6.92,
   "trending": [
    "BTC",
-   "HYPE",
    "TRUMP",
-   "VVV",
-   "ETH",
+   "HYPE",
    "LIT",
-   "NEAR",
+   "ETH",
    "PEARL",
-   "SOL",
-   "TAO"
+   "NEAR",
+   "PENGU",
+   "XRP",
+   "VVV"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist",
+   "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist",
+   "published": "2026-11-05T16:58:21+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N092f0ff0bed4",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-05T17:04:03.338429+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Canary’s Injective ETF debuts on Nasdaq with exposure to staking rewards",
+   "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115",
+   "published": "2026-11-05T16:53:56+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc7130f88e66a",
+   "kind_fa": "جریان ETF",
+   "importance": 6,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T17:04:03.338429+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
+   "url": "https://www.coindesk.com/business/2026/11/05/soter-raises-usd23-5m-plus-btc-and-eth-as-banks-demand-theft-protection",
+   "published": "2026-11-05T16:49:08+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5bb93d25e70a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T17:04:03.338429+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-crashes-7-week-low-stocks-election-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T16:48:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0e3f0febcac9",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T17:04:03.338429+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
@@ -33,6 +101,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T16:34:28.727803+00:00",
    "notified": false
   },
@@ -2115,27 +2184,6 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
-   "url": "https://cointelegraph.com/magazine/wall-street-killed-bitcoins-wild-rallies-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T16:47:01+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N75d42fc8a4e1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T16:39:15.316171+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
    "title": "Binance traces $6.3B hack to fake job interviews, compromised AI tool",
    "url": "https://cointelegraph.com/news/binance-fake-job-interviews-compromised-ai-tool-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-03T16:44:06+00:00",
@@ -2149,40 +2197,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-11-03T17:08:50.917316+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms",
-   "url": "https://www.coindesk.com/business/2026/11/03/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
-   "published": "2026-11-03T16:17:51+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ndf70f36857b0",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T16:39:15.316171+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
-   "url": "https://www.coindesk.com/business/2026/11/03/stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
-   "published": "2026-11-03T16:12:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3ab3757a057d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T16:39:15.316171+00:00",
    "notified": false
   },
   {
@@ -2888,6 +2902,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.095,
+   "risk": 0.868,
+   "events": [
+    "listing",
+    "security",
+    "etf_flow"
+   ],
+   "count": 27,
+   "last": "2026-11-05T16:48:41+00:00"
+  },
   "AAVEUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2896,8 +2921,8 @@
    "last": "2026-11-05T15:36:50+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.199,
-   "risk": 0.348,
+   "sentiment": 0.203,
+   "risk": 0.337,
    "events": [
     "listing",
     "security"
@@ -2905,19 +2930,8 @@
    "count": 4,
    "last": "2026-11-05T14:19:51+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.078,
-   "risk": 0.879,
-   "events": [
-    "listing",
-    "security",
-    "etf_flow"
-   ],
-   "count": 27,
-   "last": "2026-11-05T13:29:40+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": 0.156,
+   "sentiment": 0.157,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2936,7 +2950,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.461,
+   "risk": 0.455,
    "events": [
     "regulation"
    ],
