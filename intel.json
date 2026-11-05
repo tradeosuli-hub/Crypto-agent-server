@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-05T05:14:20.444195+00:00",
+ "updated_at": "2026-11-05T05:43:47.087761+00:00",
  "market": {
   "btc_dominance": 59.54,
   "usdt_dominance": 6.56,
   "mcap_change_24h": 1.02,
   "trending": [
    "BTC",
-   "TRUMP",
    "PENGU",
-   "NEAR",
    "PEARL",
+   "TRUMP",
    "ZEC",
+   "NEAR",
+   "AERO",
    "STONK",
-   "INJ",
-   "UNI",
-   "DRV"
+   "CLANKER",
+   "SOL"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "The pile of lawsuits against Kalshi just grew by one",
+   "url": "https://www.coindesk.com/policy/2026/11/05/the-pile-of-lawsuits-against-kalshi-just-grew-by-one",
+   "published": "2026-11-05T05:28:52+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "SUI"
+   ],
+   "symbols": [
+    "SUIUSDT"
+   ],
+   "id": "N3872710c0ddf",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-05T05:43:47.087761+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
+   "url": "https://www.coindesk.com/markets/2026/11/05/xrp-ledger-closes-bug-that-let-approved-token-burners-create-new-tokens",
+   "published": "2026-11-05T05:25:06+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Ndca525494cb3",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T05:43:47.087761+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
@@ -37,6 +77,7 @@
    "importance": 3,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T05:14:20.444195+00:00",
    "notified": false
   },
@@ -53,6 +94,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T05:14:20.444195+00:00",
    "notified": false
   },
@@ -2215,23 +2257,6 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
-   "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T05:10:19+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3650193dee13",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T05:20:27.964776+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
    "title": "UK warns AI ransomware attack on infrastructure ‘highly likely’ by 2028",
    "url": "https://cointelegraph.com/news/uk-warns-ai-ransomware-attack-on-infrastructure-highly-likely-by-2028?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-03T03:58:45+00:00",
@@ -2967,19 +2992,35 @@
   }
  ],
  "symbols": {
+  "SUIUSDT": {
+   "sentiment": -0.2,
+   "risk": 0.597,
+   "events": [
+    "regulation"
+   ],
+   "count": 1,
+   "last": "2026-11-05T05:28:52+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-05T05:25:06+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.203,
-   "risk": 0.811,
+   "sentiment": -0.21,
+   "risk": 0.801,
    "events": [
     "security",
     "etf_flow"
    ],
-   "count": 30,
+   "count": 28,
    "last": "2026-11-05T05:13:45+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.168,
-   "risk": 0.584,
+   "sentiment": -0.166,
+   "risk": 0.574,
    "events": [
     "listing",
     "security"
@@ -3002,7 +3043,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.034,
+   "sentiment": 0.035,
    "risk": 0.0,
    "events": [
     "project"
@@ -3018,15 +3059,6 @@
    ],
    "count": 3,
    "last": "2026-11-03T12:30:13+00:00"
-  },
-  "ARBUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.2,
-   "events": [
-    "security"
-   ],
-   "count": 1,
-   "last": "2026-11-03T05:25:12+00:00"
   }
  },
  "social": {},
