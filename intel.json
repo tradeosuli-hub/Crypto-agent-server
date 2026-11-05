@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-05T20:01:57.751672+00:00",
+ "updated_at": "2026-11-05T20:31:31.156914+00:00",
  "market": {
-  "btc_dominance": 59.21,
-  "usdt_dominance": 6.85,
-  "mcap_change_24h": -6.89,
+  "btc_dominance": 59.18,
+  "usdt_dominance": 6.87,
+  "mcap_change_24h": -6.75,
   "trending": [
    "BTC",
-   "HYPE",
    "ZEC",
-   "SOL",
-   "INJ",
    "TRUMP",
+   "PENGU",
+   "SOL",
+   "HYPE",
    "NEAR",
-   "LIT",
+   "INJ",
    "ETH",
-   "PEARL"
+   "AAVE"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin erases post-election gains as Wall Street selloff triggers over $1 billion in crypto liquidations",
+   "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+   "published": "2026-11-05T20:11:02+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N2ea7700e2339",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": -0.5,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T20:31:31.156914+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
@@ -50,6 +70,7 @@
    "importance": 4,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T20:01:57.751672+00:00",
    "notified": false
   },
@@ -2245,23 +2266,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "US midterms: Prediction markets favor Democrats in key crypto races",
-   "url": "https://cointelegraph.com/news/us-midterm-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T19:38:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nee0912bb7096",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T20:10:25.037023+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2965,15 +2969,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.091,
-   "risk": 0.807,
+   "sentiment": -0.12,
+   "risk": 0.796,
    "events": [
+    "market",
     "listing",
     "security",
     "etf_flow"
    ],
-   "count": 28,
-   "last": "2026-11-05T18:48:40+00:00"
+   "count": 29,
+   "last": "2026-11-05T20:11:02+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.113,
@@ -2992,8 +2997,8 @@
    "last": "2026-11-05T15:36:50+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.232,
-   "risk": 0.276,
+   "sentiment": 0.238,
+   "risk": 0.265,
    "events": [
     "listing",
     "security"
@@ -3012,7 +3017,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.418,
+   "risk": 0.412,
    "events": [
     "regulation"
    ],
