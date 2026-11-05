@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-05T12:07:58.183525+00:00",
+ "updated_at": "2026-11-05T12:37:30.193832+00:00",
  "market": {
   "btc_dominance": 60.1,
-  "usdt_dominance": 6.65,
-  "mcap_change_24h": -1.6,
+  "usdt_dominance": 6.67,
+  "mcap_change_24h": -2.0,
   "trending": [
-   "PEARL",
    "TRUMP",
-   "KNTQ",
-   "INJ",
-   "BTC",
-   "CARDS",
-   "AERO",
+   "PEARL",
    "PENGU",
+   "CARDS",
+   "KNTQ",
+   "ETH",
+   "CCD",
+   "BTC",
    "NEAR",
-   "XTZ"
+   "AERO"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin is resilient, but leverage is missing and demand still tepid",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/05/bitcoin-is-resilient-but-leverage-is-missing-and-demand-still-tepid",
+   "published": "2026-11-05T12:27:04+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc3621d6cdfb5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T12:37:30.193832+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin miners are oversold following 35% October rout, VanEck says",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T12:07:58.183525+00:00",
    "notified": false
   },
@@ -57,6 +78,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T12:07:58.183525+00:00",
    "notified": false
   },
@@ -73,6 +95,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T12:07:58.183525+00:00",
    "notified": false
   },
@@ -99,7 +122,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin steady around $80,000 as markets rally after Democratic sweep",
+   "title": "Live updates: Bitcoin steady around $80,000 as markets cool following yesterday's rally",
    "url": "https://www.coindesk.com/business/2026/11/05/live-updates-bitcoin-steady-around-usd80-000-as-markets-rally-after-democratic-sweep",
    "published": "2026-11-05T10:57:11+00:00",
    "kind": "news",
@@ -2220,48 +2243,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "ETHGas wants to bring Wall Street to public Ethereum with institutional controls",
-   "url": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
-   "published": "2026-11-03T12:01:05+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N39b73bffc3c0",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T12:13:20.444661+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Liquid Network restores full bitcoin backing following $320 million exploit",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387",
-   "published": "2026-11-03T11:49:20+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N2f6538b8be2f",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T12:13:20.444661+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2965,15 +2946,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.04,
-   "risk": 0.971,
+   "sentiment": -0.038,
+   "risk": 0.961,
    "events": [
     "listing",
     "security",
     "etf_flow"
    ],
    "count": 28,
-   "last": "2026-11-05T11:49:23+00:00"
+   "last": "2026-11-05T12:27:04+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.146,
@@ -2996,7 +2977,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.517,
+   "risk": 0.511,
    "events": [
     "regulation"
    ],
@@ -3011,8 +2992,8 @@
    "last": "2026-11-05T05:25:06+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.147,
-   "risk": 0.44,
+   "sentiment": -0.145,
+   "risk": 0.43,
    "events": [
     "listing",
     "security"
@@ -3033,13 +3014,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-04T08:04:04+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-03T12:30:13+00:00"
   }
  },
  "social": {},
