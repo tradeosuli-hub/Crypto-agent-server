@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-05T15:35:04.318382+00:00",
+ "updated_at": "2026-11-05T16:04:31.893331+00:00",
  "market": {
   "btc_dominance": 59.19,
-  "usdt_dominance": 6.84,
-  "mcap_change_24h": -5.85,
+  "usdt_dominance": 6.89,
+  "mcap_change_24h": -6.34,
   "trending": [
    "BTC",
    "TRUMP",
+   "HYPE",
+   "ETH",
    "LIT",
    "VVV",
+   "NEAR",
    "PENGU",
-   "ETH",
-   "CARDS",
-   "INJ",
-   "HYPE",
-   "NEAR"
+   "BP",
+   "PEARL"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Anchorage Digital seeks CFTC swap dealer registration for crypto options business",
+   "url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
+   "published": "2026-11-05T16:00:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N895ddf98fcb0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T16:04:31.893331+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Payward-affiliated fund and clients buy AAVE token stake on secondary market",
+   "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798",
+   "published": "2026-11-05T15:36:50+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "AAVE"
+   ],
+   "symbols": [
+    "AAVEUSDT"
+   ],
+   "id": "N9148a32da908",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T16:04:31.893331+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance’s",
@@ -2170,40 +2206,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "CFTC approves individual stock perpetual futures trading in US for the first time",
-   "url": "https://www.theblock.co/news/regulation/2026-11-03-cftc-approves-individual-stock-perpetual-futures-trading-in-us-for-first-time-432422",
-   "published": "2026-11-03T15:37:50+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb18a35944f89",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T15:40:06.196831+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Binance says hackers used fake job interview, internal AI tool in $6.3 billion breach",
-   "url": "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406",
-   "published": "2026-11-03T15:34:34+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9a41bfccb2f2",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T15:40:06.196831+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2906,9 +2908,16 @@
   }
  ],
  "symbols": {
+  "AAVEUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-11-05T15:36:50+00:00"
+  },
   "SOLUSDT": {
-   "sentiment": 0.191,
-   "risk": 0.368,
+   "sentiment": 0.195,
+   "risk": 0.358,
    "events": [
     "listing",
     "security"
@@ -2916,26 +2925,19 @@
    "count": 4,
    "last": "2026-11-05T14:19:51+00:00"
   },
-  "AAVEUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-05T14:00:00+00:00"
-  },
   "BTCUSDT": {
    "sentiment": -0.078,
-   "risk": 0.899,
+   "risk": 0.889,
    "events": [
     "listing",
     "security",
     "etf_flow"
    ],
-   "count": 28,
+   "count": 27,
    "last": "2026-11-05T13:29:40+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.155,
+   "sentiment": 0.156,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2954,7 +2956,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.474,
+   "risk": 0.468,
    "events": [
     "regulation"
    ],
