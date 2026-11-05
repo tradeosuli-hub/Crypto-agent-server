@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-05T09:10:39.550078+00:00",
+ "updated_at": "2026-11-05T09:40:09.733683+00:00",
  "market": {
-  "btc_dominance": 59.51,
-  "usdt_dominance": 6.57,
-  "mcap_change_24h": 0.63,
+  "btc_dominance": 60.08,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -0.42,
   "trending": [
    "TRUMP",
-   "PENGU",
    "PEARL",
-   "CARDS",
-   "ETH",
    "BTC",
-   "MON",
+   "ETH",
    "INJ",
-   "VVV",
-   "WLFI"
+   "MON",
+   "CARDS",
+   "FET",
+   "WLFI",
+   "QNT"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T09:10:39.550078+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T09:10:39.550078+00:00",
    "notified": false
   },
@@ -126,6 +128,7 @@
    "importance": 7,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T09:10:39.550078+00:00",
    "notified": false
   },
@@ -2260,67 +2263,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
-   "url": "https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack",
-   "published": "2026-11-03T08:56:48+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N4940c81b34f3",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T09:16:29.271391+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Consensys launches cross-ledger settlement and routing stack for institutional networks",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-03-consensys-cross-ledger-settlement-routing-stack-432375",
-   "published": "2026-11-03T08:56:07+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf6448f4bc38a",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T09:16:29.271391+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin’s latest chart signal looks a lot like the ones before its big crashes",
-   "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-s-price-chart-is-flashing-a-red-signal",
-   "published": "2026-11-03T08:50:56+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ne754feeffe95",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T09:16:29.271391+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -3024,8 +2966,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.12,
-   "risk": 0.729,
+   "sentiment": -0.121,
+   "risk": 0.719,
    "events": [
     "etf_flow",
     "security"
@@ -3054,7 +2996,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.554,
+   "risk": 0.548,
    "events": [
     "regulation"
    ],
@@ -3069,8 +3011,8 @@
    "last": "2026-11-05T05:25:06+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.157,
-   "risk": 0.502,
+   "sentiment": -0.156,
+   "risk": 0.492,
    "events": [
     "listing",
     "security"
@@ -3093,10 +3035,10 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.15,
+   "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-11-03T12:30:13+00:00"
   }
  },
