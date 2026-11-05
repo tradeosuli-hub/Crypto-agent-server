@@ -1,11 +1,11 @@
 {
- "checked_at": "2026-11-05T10:39:04.293468+00:00",
+ "checked_at": "2026-11-05T10:53:31.468296+00:00",
  "checks": [
   {
    "name": "scan_fresh",
    "fa": "آخرین اسکن موفق",
    "ok": true,
-   "value": "13 دقیقه پیش",
+   "value": "27 دقیقه پیش",
    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/42010459461"
   },
   {
@@ -25,7 +25,7 @@
    "name": "intel_fresh",
    "fa": "ایجنت اطلاعات",
    "ok": true,
-   "value": "29 دقیقه پیش"
+   "value": "14 دقیقه پیش"
   },
   {
    "name": "intel_loop",
@@ -162,12 +162,22 @@
   ],
   "intel": [
    {
-    "id": 42008381695,
+    "id": 42012519489,
     "status": "in_progress",
     "conclusion": null,
     "event": "workflow_dispatch",
+    "created_at": "2026-11-05T10:39:26Z",
+    "updated_at": "2026-11-05T10:39:39Z",
+    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/42012519489",
+    "branch": "cursor/phoenix-signal-panel-69df"
+   },
+   {
+    "id": 42008381695,
+    "status": "completed",
+    "conclusion": "success",
+    "event": "workflow_dispatch",
     "created_at": "2026-11-05T10:09:48Z",
-    "updated_at": "2026-11-05T10:09:58Z",
+    "updated_at": "2026-11-05T10:39:36Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/42008381695",
     "branch": "cursor/phoenix-signal-panel-69df"
    },
@@ -200,16 +210,6 @@
     "updated_at": "2026-11-05T09:10:55Z",
     "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/41996392583",
     "branch": "cursor/phoenix-signal-panel-69df"
-   },
-   {
-    "id": 41992597260,
-    "status": "completed",
-    "conclusion": "success",
-    "event": "workflow_dispatch",
-    "created_at": "2026-11-05T08:11:43Z",
-    "updated_at": "2026-11-05T08:41:22Z",
-    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/41992597260",
-    "branch": "cursor/phoenix-signal-panel-69df"
    }
   ]
  },
@@ -229,7 +229,7 @@
    "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
    "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/41100153422",
    "last_action_ts": "2026-11-05T10:24:33.655205+00:00",
-   "checks": 566,
+   "checks": 567,
    "escalations": 190,
    "resolved_at": null
   }
