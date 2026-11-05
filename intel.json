@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-05T09:40:09.733683+00:00",
+ "updated_at": "2026-11-05T10:09:41.234116+00:00",
  "market": {
-  "btc_dominance": 60.08,
-  "usdt_dominance": 6.64,
-  "mcap_change_24h": -0.42,
+  "btc_dominance": 60.1,
+  "usdt_dominance": 6.63,
+  "mcap_change_24h": -0.27,
   "trending": [
+   "PENGU",
    "TRUMP",
-   "PEARL",
-   "BTC",
-   "ETH",
    "INJ",
-   "MON",
+   "PEARL",
+   "ETH",
+   "LIT",
+   "ZEC",
    "CARDS",
-   "FET",
-   "WLFI",
-   "QNT"
+   "BTC",
+   "HYPE"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "South Korea seeks 4th crypto tax delay, targets 2029 start",
+   "url": "https://cointelegraph.com/news/south-korea-crypto-tax-fourth-delay-2029?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T09:35:29+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N82cbb747eeeb",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T10:09:41.234116+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "France budget rejection sidelines stablecoin tax, wallet reporting",
@@ -2225,44 +2241,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
-   "url": "https://www.coindesk.com/business/2026/11/03/north-korea-denies-role-in-usd6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
-   "published": "2026-11-03T09:40:32+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N854f1381698e",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T09:45:57.890339+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "NEAR governance approves proposal to cut token issuance ceiling to 1.6%",
-   "url": "https://www.theblock.co/news/defi/2026-11-03-near-governance-approves-proposal-to-cut-token-issuance-432378",
-   "published": "2026-11-03T09:19:41+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "NEAR"
-   ],
-   "symbols": [
-    "NEARUSDT"
-   ],
-   "id": "N7ba6b32ef008",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T09:45:57.890339+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2966,13 +2944,13 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.121,
-   "risk": 0.719,
+   "sentiment": -0.124,
+   "risk": 0.708,
    "events": [
     "etf_flow",
     "security"
    ],
-   "count": 27,
+   "count": 25,
    "last": "2026-11-05T08:52:32+00:00"
   },
   "ETHUSDT": {
@@ -2996,7 +2974,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.548,
+   "risk": 0.541,
    "events": [
     "regulation"
    ],
@@ -3011,8 +2989,8 @@
    "last": "2026-11-05T05:25:06+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.156,
-   "risk": 0.492,
+   "sentiment": -0.154,
+   "risk": 0.481,
    "events": [
     "listing",
     "security"
