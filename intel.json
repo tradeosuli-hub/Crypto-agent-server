@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-05T22:29:55.019363+00:00",
+ "updated_at": "2026-11-05T22:59:26.839545+00:00",
  "market": {
-  "btc_dominance": 59.25,
-  "usdt_dominance": 6.9,
-  "mcap_change_24h": -7.36,
+  "btc_dominance": 59.21,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -7.51,
   "trending": [
-   "PEARL",
-   "ETH",
    "BTC",
-   "INJ",
-   "HYPE",
+   "ETH",
    "SOL",
+   "PEARL",
+   "HYPE",
+   "INJ",
    "ZEC",
-   "LIT",
-   "VVV",
-   "TRUMP"
+   "PENGU",
+   "TRUMP",
+   "XRP"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -22,7 +22,27 @@
  "items": [
   {
    "source": "cointelegraph",
-   "title": "Asian crypto exchanges bunker down as hacks surge: Asia Express",
+   "title": "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI",
+   "url": "https://cointelegraph.com/news/american-bitcoins-126m-profit-masks-mining-pressure-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T22:43:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N22ea13b05c54",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T22:59:26.839545+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
    "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-05T22:18:42+00:00",
    "kind": "security",
@@ -33,6 +53,7 @@
    "importance": 9,
    "sentiment": -0.6,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T22:29:55.019363+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T22:29:55.019363+00:00",
    "notified": false
   },
@@ -2219,40 +2241,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
-   "url": "https://www.coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
-   "published": "2026-11-03T22:14:44+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N50b94a2c2b3c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T22:40:25.227711+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "SEC division views Canton Coin as digital commodity in no-action letter",
-   "url": "https://www.theblock.co/news/regulation/2026-11-03-sec-no-action-letter-canton-coin-digital-commodity-432492",
-   "published": "2026-11-03T22:11:51+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6ba5163d7307",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T22:40:25.227711+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2956,16 +2944,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.105,
-   "risk": 0.755,
+   "sentiment": -0.1,
+   "risk": 0.745,
    "events": [
     "market",
     "listing",
     "security",
     "etf_flow"
    ],
-   "count": 28,
-   "last": "2026-11-05T20:11:02+00:00"
+   "count": 29,
+   "last": "2026-11-05T22:43:18+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.111,
@@ -2977,8 +2965,8 @@
    "last": "2026-11-05T18:09:38+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.262,
-   "risk": 0.224,
+   "sentiment": 0.269,
+   "risk": 0.214,
    "events": [
     "listing",
     "security"
@@ -2997,7 +2985,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.387,
+   "risk": 0.381,
    "events": [
     "regulation"
    ],
