@@ -1879,7 +1879,7 @@
  {
   "id": "Dc1d0cdd04c",
   "ts": "2026-11-04T15:26:55.253128+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "BMTUSDT",
   "direction": "long",
   "entry": 0.028615178571428573,
@@ -1993,6 +1993,28 @@
    "دیوار hammer_dulling · واکنش‌های گذشته 3",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-11-04T16:15:00+00:00"
+  "entered_at": "2026-11-04T16:15:00+00:00",
+  "outcome": "SL",
+  "exit": 0.02676482142857143,
+  "pnl_r": -1.0,
+  "closed_at": "2026-11-05T03:00:00+00:00",
+  "root_cause": {
+   "right": [
+    "volume",
+    "news"
+   ],
+   "wrong": [
+    "dominance",
+    "structure",
+    "liquidity",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: dominance، structure، liquidity، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: volume، news"
+  }
  }
 ]
