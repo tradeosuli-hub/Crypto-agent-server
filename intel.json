@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-05T14:06:14.214526+00:00",
+ "updated_at": "2026-11-05T14:35:47.924683+00:00",
  "market": {
-  "btc_dominance": 59.49,
-  "usdt_dominance": 6.62,
-  "mcap_change_24h": -0.84,
+  "btc_dominance": 59.45,
+  "usdt_dominance": 6.64,
+  "mcap_change_24h": -1.3,
   "trending": [
    "TRUMP",
    "BTC",
    "CARDS",
+   "PEARL",
+   "SOL",
    "PENGU",
    "ETH",
-   "PEARL",
    "INJ",
-   "ZIL",
-   "SOL",
-   "CC"
+   "NEAR",
+   "ZEC"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Samsung Wallet launches USDC accounts on Solana for US Galaxy users",
+   "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+   "published": "2026-11-05T14:19:51+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N03d99f99c64f",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T14:35:47.924683+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T14:06:14.214526+00:00",
    "notified": false
   },
@@ -70,6 +91,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T14:06:14.214526+00:00",
    "notified": false
   },
@@ -86,6 +108,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T14:06:14.214526+00:00",
    "notified": false
   },
@@ -2231,61 +2254,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Ethereum Layer 2 Aztec gets Tierra V6 upgrade to support faster private apps",
-   "url": "https://www.theblock.co/news/defi/2026-11-03-ethereum-l2-aztec-tierra-v6-upgrade-private-apps-432399",
-   "published": "2026-11-03T14:00:00+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N53f8a1280bfc",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T14:11:28.569134+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
-   "url": "https://www.coindesk.com/business/2026/11/03/lo-tech-raises-usd12-million-to-expand-crypto-trading-into-u-s-and-asia",
-   "published": "2026-11-03T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf66d5e73cf95",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T14:11:28.569134+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "What’s at stake for crypto as the US votes in the 2026 midterms?",
-   "url": "https://cointelegraph.com/news/us-midterms-2026-stake-crypto-election-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T13:53:07+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N722ffc38a1f5",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T14:11:28.569134+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2988,6 +2956,16 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.183,
+   "risk": 0.389,
+   "events": [
+    "listing",
+    "security"
+   ],
+   "count": 4,
+   "last": "2026-11-05T14:19:51+00:00"
+  },
   "AAVEUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2997,7 +2975,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.036,
-   "risk": 0.93,
+   "risk": 0.92,
    "events": [
     "listing",
     "security",
@@ -3007,7 +2985,7 @@
    "last": "2026-11-05T13:29:40+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.152,
+   "sentiment": 0.153,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3026,7 +3004,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.492,
+   "risk": 0.486,
    "events": [
     "regulation"
    ],
@@ -3039,16 +3017,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-05T05:25:06+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.139,
-   "risk": 0.399,
-   "events": [
-    "listing",
-    "security"
-   ],
-   "count": 3,
-   "last": "2026-11-04T16:27:49+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
