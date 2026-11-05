@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-05T03:16:18.213540+00:00",
+ "updated_at": "2026-11-05T03:45:46.387178+00:00",
  "market": {
-  "btc_dominance": 59.53,
-  "usdt_dominance": 6.55,
-  "mcap_change_24h": 2.42,
+  "btc_dominance": 59.55,
+  "usdt_dominance": 6.54,
+  "mcap_change_24h": 2.57,
   "trending": [
    "PENGU",
    "TRUMP",
    "BTC",
-   "LINK",
    "NEAR",
-   "HYPE",
+   "LINK",
    "ENA",
-   "ICP",
-   "INJ",
-   "CC"
+   "HYPE",
+   "SOL",
+   "WLFI",
+   "DASH"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -33,6 +33,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T03:16:18.213540+00:00",
    "notified": false
   },
@@ -2194,40 +2195,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance begins second withdrawal phase, exchange outflows slow",
-   "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T03:03:44+00:00",
-   "kind": "market",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nea0237d999a0",
-   "kind_fa": "جریان بازار",
-   "importance": 4,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T03:22:21.244932+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Ark Invest buys $3.4 million in Coinbase, adds Circle and Robinhood as stocks trade lower",
-   "url": "https://www.theblock.co/news/business/2026-11-02-ark-invest-buys-coinbase-circle-robinhood-432352",
-   "published": "2026-11-03T02:57:33+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N0255fe8e83cd",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T03:22:21.244932+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2948,8 +2915,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.247,
-   "risk": 0.852,
+   "sentiment": -0.249,
+   "risk": 0.842,
    "events": [
     "security",
     "etf_flow"
@@ -2958,8 +2925,8 @@
    "last": "2026-11-04T23:20:17+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.172,
-   "risk": 0.625,
+   "sentiment": -0.171,
+   "risk": 0.615,
    "events": [
     "listing",
     "security"
@@ -2982,7 +2949,7 @@
    "last": "2026-11-04T08:04:04+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.036,
+   "sentiment": 0.035,
    "risk": 0.0,
    "events": [
     "project"
