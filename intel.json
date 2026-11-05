@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-05T20:31:31.156914+00:00",
+ "updated_at": "2026-11-05T21:01:05.832595+00:00",
  "market": {
-  "btc_dominance": 59.18,
+  "btc_dominance": 59.22,
   "usdt_dominance": 6.87,
-  "mcap_change_24h": -6.75,
+  "mcap_change_24h": -6.72,
   "trending": [
    "BTC",
-   "ZEC",
-   "TRUMP",
-   "PENGU",
    "SOL",
-   "HYPE",
    "NEAR",
-   "INJ",
+   "ZEC",
+   "CC",
+   "TRUMP",
    "ETH",
-   "AAVE"
+   "HYPE",
+   "PENGU",
+   "PEARL"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
@@ -37,6 +37,7 @@
    "importance": 5,
    "sentiment": -0.5,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T20:31:31.156914+00:00",
    "notified": false
   },
@@ -279,15 +280,11 @@
    "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798",
    "published": "2026-11-05T15:36:50+00:00",
    "kind": "news",
-   "raw_symbols": [
-    "AAVE"
-   ],
-   "symbols": [
-    "AAVEUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "N9148a32da908",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -338,15 +335,11 @@
    "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
    "published": "2026-11-05T14:00:00+00:00",
    "kind": "news",
-   "raw_symbols": [
-    "AAVE"
-   ],
-   "symbols": [
-    "AAVEUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "N535d0004b4d2",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2249,23 +2242,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "CFTC clears stock perpetual futures for trading on US exchanges",
-   "url": "https://cointelegraph.com/news/cftc-equity-perpetual-futures-trading-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T20:24:55+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf6ccf64b323b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T20:40:46.949526+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2969,8 +2945,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.12,
-   "risk": 0.796,
+   "sentiment": -0.121,
+   "risk": 0.786,
    "events": [
     "market",
     "listing",
@@ -2981,7 +2957,7 @@
    "last": "2026-11-05T20:11:02+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.113,
+   "sentiment": 0.112,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2989,16 +2965,9 @@
    "count": 4,
    "last": "2026-11-05T18:09:38+00:00"
   },
-  "AAVEUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-11-05T15:36:50+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.238,
-   "risk": 0.265,
+   "sentiment": 0.243,
+   "risk": 0.255,
    "events": [
     "listing",
     "security"
@@ -3017,7 +2986,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.412,
+   "risk": 0.406,
    "events": [
     "regulation"
    ],
