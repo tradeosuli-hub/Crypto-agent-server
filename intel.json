@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-05T04:44:49.151730+00:00",
+ "updated_at": "2026-11-05T05:14:20.444195+00:00",
  "market": {
-  "btc_dominance": 59.53,
+  "btc_dominance": 59.54,
   "usdt_dominance": 6.56,
-  "mcap_change_24h": 2.2,
+  "mcap_change_24h": 1.02,
   "trending": [
-   "PENGU",
-   "TRUMP",
    "BTC",
+   "TRUMP",
+   "PENGU",
    "NEAR",
-   "ZEC",
-   "UNI",
-   "ENA",
    "PEARL",
-   "LIT",
-   "VVV"
+   "ZEC",
+   "STONK",
+   "INJ",
+   "UNI",
+   "DRV"
   ],
   "fear_greed": 50,
   "fear_greed_label": "Neutral"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+   "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound",
+   "published": "2026-11-05T05:13:45+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0edaf65d391e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T05:14:20.444195+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "‘Lawyer up’: Democrats target Trump, Big Tech after midterm sweep",
+   "url": "https://cointelegraph.com/news/lawyer-up-democrats-target-trump-big-tech-after-midterm-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-05T04:52:49+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne7614c9a5d96",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-05T05:14:20.444195+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "The Digital Chamber calls Sherrod Brown’s win ‘most consequential unfavorable result’ for crypto",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-05T04:44:49.151730+00:00",
    "notified": false
   },
@@ -2194,44 +2231,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
-   "url": "https://www.coindesk.com/markets/2026/11/03/bitcoin-drops-below-usd77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
-   "published": "2026-11-03T04:48:17+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N38e4c1e822c8",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T04:50:49.455466+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
-   "url": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-03T04:14:32+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4f14962fdb6f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T04:50:49.455466+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "UK warns AI ransomware attack on infrastructure ‘highly likely’ by 2028",
    "url": "https://cointelegraph.com/news/uk-warns-ai-ransomware-attack-on-infrastructure-highly-likely-by-2028?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2969,18 +2968,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.237,
-   "risk": 0.821,
+   "sentiment": -0.203,
+   "risk": 0.811,
    "events": [
     "security",
     "etf_flow"
    ],
    "count": 30,
-   "last": "2026-11-05T04:11:33+00:00"
+   "last": "2026-11-05T05:13:45+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.169,
-   "risk": 0.594,
+   "sentiment": -0.168,
+   "risk": 0.584,
    "events": [
     "listing",
     "security"
