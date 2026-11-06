@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-06T08:50:43.684739+00:00",
+ "updated_at": "2026-11-06T09:20:17.211827+00:00",
  "market": {
-  "btc_dominance": 59.18,
-  "usdt_dominance": 6.92,
-  "mcap_change_24h": -7.7,
+  "btc_dominance": 59.25,
+  "usdt_dominance": 6.89,
+  "mcap_change_24h": -6.62,
   "trending": [
    "DENIM",
-   "BTC",
-   "PENGU",
-   "NEAR",
-   "INJ",
-   "PEPE",
-   "AIN",
    "SOL",
-   "PEARL",
-   "ZEC"
+   "BTC",
+   "PEPE",
+   "NEAR",
+   "ZEC",
+   "XMR",
+   "WLFI",
+   "HYPE",
+   "LIT"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool",
+   "url": "https://cointelegraph.com/news/zcash-nu7-upgrade-15m-sprout-funds-unspendable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T09:00:36+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "ZEC"
+   ],
+   "symbols": [
+    "ZECUSDT"
+   ],
+   "id": "N880328f24fef",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T09:20:17.211827+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T08:50:43.684739+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T08:50:43.684739+00:00",
    "notified": false
   },
@@ -65,6 +87,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T08:50:43.684739+00:00",
    "notified": false
   },
@@ -87,6 +110,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T08:50:43.684739+00:00",
    "notified": false
   },
@@ -2792,9 +2816,18 @@
   }
  ],
  "symbols": {
+  "ZECUSDT": {
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 1,
+   "last": "2026-11-06T09:00:36+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.11,
-   "risk": 0.54,
+   "risk": 0.529,
    "events": [
     "etf_flow",
     "market",
@@ -2805,7 +2838,7 @@
    "last": "2026-11-06T08:19:18+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.167,
+   "sentiment": -0.169,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2814,13 +2847,12 @@
    "last": "2026-11-06T08:19:18+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.195,
-   "risk": 0.2,
+   "sentiment": 0.542,
+   "risk": 0.0,
    "events": [
-    "listing",
-    "security"
+    "listing"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-11-05T14:19:51+00:00"
   },
   "POLUSDT": {
@@ -2834,7 +2866,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.258,
+   "risk": 0.252,
    "events": [
     "regulation"
    ],
