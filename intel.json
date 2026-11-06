@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-06T17:42:38.210833+00:00",
+ "updated_at": "2026-11-06T18:12:18.082458+00:00",
  "market": {
-  "btc_dominance": 59.15,
+  "btc_dominance": 59.16,
   "usdt_dominance": 6.91,
-  "mcap_change_24h": -3.4,
+  "mcap_change_24h": -2.71,
   "trending": [
    "DENIM",
+   "PENGU",
    "REBOOT",
    "HYPE",
    "BTC",
-   "PENGU",
-   "PEARL",
-   "INJ",
-   "VVV",
    "PEPE",
-   "AKE"
+   "SUI",
+   "ZEC",
+   "KNTQ",
+   "ETH"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Elliptic says Binance hackers swap stolen tokens for $124M in bitcoin, exchange plans more withdrawal reopenings",
+   "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930",
+   "published": "2026-11-06T18:06:59+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N04a393999d38",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-06T18:12:18.082458+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T17:49:33+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne37f74c8d0b4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T18:12:18.082458+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
+   "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+   "published": "2026-11-06T17:42:28+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9256da0c729b",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-06T18:12:18.082458+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Strive’s bitcoin gains drive $509 million Q3 profit as BTC buying ramps up",
@@ -2752,20 +2808,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.18,
-   "risk": 0.52,
+   "sentiment": -0.26,
+   "risk": 0.998,
    "events": [
+    "security",
     "regulation",
     "etf_flow",
     "market",
-    "listing",
-    "security"
+    "listing"
    ],
-   "count": 30,
-   "last": "2026-11-06T16:07:24+00:00"
+   "count": 32,
+   "last": "2026-11-06T18:06:59+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.152,
+   "sentiment": -0.153,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2774,7 +2830,7 @@
    "last": "2026-11-06T13:23:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.318,
+   "sentiment": 0.317,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2809,7 +2865,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.147,
+   "risk": 0.141,
    "events": [
     "regulation"
    ],
