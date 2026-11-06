@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-06T10:19:15.047862+00:00",
+ "updated_at": "2026-11-06T10:48:44.924126+00:00",
  "market": {
   "btc_dominance": 59.27,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -6.49,
+  "usdt_dominance": 6.87,
+  "mcap_change_24h": -6.36,
   "trending": [
    "DENIM",
    "SOL",
-   "BTC",
-   "PENGU",
-   "INJ",
    "SUI",
+   "INJ",
+   "BTC",
+   "HYPE",
+   "QNT",
+   "WLFI",
    "KNTQ",
-   "ZEC",
-   "XPL",
-   "PEPE"
+   "ZEC"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance’s $6.3B hack leaves questions over hot wallet safeguards",
+   "url": "https://cointelegraph.com/news/binances-hack-questions-hot-wallet-risk-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T10:40:57+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3ce4f9be7c48",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-06T10:48:44.924126+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
@@ -37,6 +53,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T10:19:15.047862+00:00",
    "notified": false
   },
@@ -2042,40 +2059,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
-   "url": "https://www.coindesk.com/business/2026/11/04/zachxbt-names-french-bank-credit-mutuel-arkea-as-suspected-victim-of-usd133-million-crypto-theft",
-   "published": "2026-11-04T10:18:50+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2565f2242d9a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T10:30:30.153181+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
-   "url": "https://www.coindesk.com/markets/2026/11/04/elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
-   "published": "2026-11-04T10:03:33+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na5d695e30015",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T10:30:30.153181+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Updates Trading Fee Discount for TradFi Perps (2026-11-04)",
    "url": "https://www.binance.com/en/support/announcement/e3424d3a781841eb8b507bc694c0ca3a",
@@ -2762,15 +2745,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.099,
-   "risk": 0.509,
+   "sentiment": -0.103,
+   "risk": 0.499,
    "events": [
     "etf_flow",
     "market",
     "listing",
     "security"
    ],
-   "count": 28,
+   "count": 27,
    "last": "2026-11-06T09:53:27+00:00"
   },
   "ZECUSDT": {
@@ -2783,7 +2766,7 @@
    "last": "2026-11-06T09:00:36+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.171,
+   "sentiment": -0.173,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2792,7 +2775,7 @@
    "last": "2026-11-06T08:19:18+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.541,
+   "sentiment": 0.54,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2811,7 +2794,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.24,
+   "risk": 0.233,
    "events": [
     "regulation"
    ],
