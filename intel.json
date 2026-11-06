@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-06T14:15:22.392476+00:00",
+ "updated_at": "2026-11-06T14:44:58.069405+00:00",
  "market": {
-  "btc_dominance": 59.15,
-  "usdt_dominance": 6.92,
-  "mcap_change_24h": -7.02,
+  "btc_dominance": 59.1,
+  "usdt_dominance": 6.89,
+  "mcap_change_24h": -6.61,
   "trending": [
    "DENIM",
-   "SOL",
-   "HYPE",
    "INJ",
    "BTC",
-   "QNT",
-   "MORPHO",
-   "MON",
+   "SOL",
+   "PENGU",
    "ETH",
-   "KNTQ"
+   "HYPE",
+   "KNTQ",
+   "XMR",
+   "CYBER"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+   "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty",
+   "published": "2026-11-06T14:33:49+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2668d5be205b",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T14:44:58.069405+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "What Democrats’ US midterm sweep means for the CLARITY Act",
+   "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T14:30:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3e898d867825",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T14:44:58.069405+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T14:15:22.392476+00:00",
    "notified": false
   },
@@ -2084,44 +2117,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "The election changes Washington. The work on crypto continues",
-   "url": "https://www.coindesk.com/opinion/2026/11/04/the-election-changes-washington-the-work-on-crypto-continues",
-   "published": "2026-11-04T14:25:12+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd19693c4c650",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T14:28:10.093316+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
-   "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
-   "published": "2026-11-04T14:00:53+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N21abd1d308a9",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T14:28:10.093316+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Updates Trading Fee Discount for TradFi Perps (2026-11-04)",
    "url": "https://www.binance.com/en/support/announcement/e3424d3a781841eb8b507bc694c0ca3a",
@@ -2808,8 +2803,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.177,
-   "risk": 0.563,
+   "sentiment": -0.178,
+   "risk": 0.557,
    "events": [
     "regulation",
     "etf_flow",
@@ -2821,7 +2816,7 @@
    "last": "2026-11-06T13:40:22+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.143,
+   "sentiment": -0.144,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2858,7 +2853,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.19,
+   "risk": 0.184,
    "events": [
     "regulation"
    ],
