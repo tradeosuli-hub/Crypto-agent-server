@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-06T15:43:59.778503+00:00",
+ "updated_at": "2026-11-06T16:13:31.146902+00:00",
  "market": {
-  "btc_dominance": 59.12,
-  "usdt_dominance": 6.92,
-  "mcap_change_24h": -5.48,
+  "btc_dominance": 59.14,
+  "usdt_dominance": 6.91,
+  "mcap_change_24h": -2.9,
   "trending": [
    "REBOOT",
    "BTC",
-   "DENIM",
-   "ZEC",
-   "INJ",
-   "LIT",
-   "SOL",
-   "MON",
    "PENGU",
-   "HYPE"
+   "SOL",
+   "INJ",
+   "HYPE",
+   "DENIM",
+   "XMR",
+   "ZEC",
+   "PEARL"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Strive’s bitcoin gains drive $509 million Q3 profit as BTC buying ramps up",
+   "url": "https://www.theblock.co/news/business/2026-11-06-strives-bitcoin-gains-509-million-q3-profit-btc-buying-ramps-up-435907",
+   "published": "2026-11-06T16:07:24+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4ed0e6fe349f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T16:13:31.146902+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "The crypto industry has found new ways to grow. Making money from them is another story",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T15:43:59.778503+00:00",
    "notified": false
   },
@@ -254,15 +275,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin slips further after blowout October jobs numbers",
+   "title": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
    "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
    "published": "2026-11-06T11:58:40+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "TRX"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "TRXUSDT"
    ],
    "id": "N443f1112db85",
    "kind_fa": "خبر",
@@ -2097,27 +2120,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-us-stocks-rally-midterm-election-result?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-04T15:29:23+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5a14dbd20717",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T15:56:56.061756+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
    "url": "https://www.coindesk.com/coindesk-indices/2026/11/04/crypto-long-and-short-ice-is-betting-on-retail-s-appetite-for-quick-outcomes",
@@ -2838,8 +2840,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.184,
-   "risk": 0.544,
+   "sentiment": -0.177,
+   "risk": 0.538,
    "events": [
     "regulation",
     "etf_flow",
@@ -2847,11 +2849,11 @@
     "listing",
     "security"
    ],
-   "count": 29,
-   "last": "2026-11-06T13:40:22+00:00"
+   "count": 30,
+   "last": "2026-11-06T16:07:24+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.146,
+   "sentiment": -0.148,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2860,13 +2862,20 @@
    "last": "2026-11-06T13:23:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.377,
+   "sentiment": 0.376,
    "risk": 0.0,
    "events": [
     "listing"
    ],
    "count": 3,
    "last": "2026-11-06T12:15:28+00:00"
+  },
+  "TRXUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-06T11:58:40+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.2,
@@ -2888,7 +2897,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.172,
+   "risk": 0.166,
    "events": [
     "regulation"
    ],
