@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-06T05:24:08.185132+00:00",
+ "updated_at": "2026-11-06T05:53:39.223333+00:00",
  "market": {
   "btc_dominance": 59.19,
   "usdt_dominance": 6.91,
-  "mcap_change_24h": -7.8,
+  "mcap_change_24h": -7.89,
   "trending": [
    "BTC",
-   "INJ",
    "AKE",
-   "PENGU",
    "HYPE",
-   "PEARL",
-   "SOL",
-   "SUI",
+   "PENGU",
+   "INJ",
    "NEAR",
-   "MON"
+   "PEARL",
+   "MON",
+   "ZEC",
+   "AERO"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 4,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T05:24:08.185132+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T05:24:08.185132+00:00",
    "notified": false
   },
@@ -2123,46 +2125,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
-   "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december",
-   "published": "2026-11-04T05:14:12+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "N01ec4634a12f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T05:34:04.846104+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "South Korea's ruling party wants to delay its crypto tax again",
-   "url": "https://www.coindesk.com/policy/2026/11/04/south-korea-s-ruling-party-wants-to-put-off-its-crypto-tax-again",
-   "published": "2026-11-04T05:09:40+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb6db9fb0b8d0",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T05:34:04.846104+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2832,8 +2794,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.078,
-   "risk": 0.611,
+   "sentiment": -0.077,
+   "risk": 0.601,
    "events": [
     "market",
     "listing",
@@ -2844,16 +2806,16 @@
    "last": "2026-11-06T04:29:14+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.115,
+   "sentiment": 0.126,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 3,
+   "count": 2,
    "last": "2026-11-05T18:09:38+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.227,
+   "sentiment": 0.221,
    "risk": 0.2,
    "events": [
     "listing",
@@ -2873,7 +2835,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.301,
+   "risk": 0.295,
    "events": [
     "regulation"
    ],
