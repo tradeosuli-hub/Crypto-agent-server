@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-06T01:57:28.899648+00:00",
+ "updated_at": "2026-11-06T02:27:02.353440+00:00",
  "market": {
-  "btc_dominance": 59.22,
-  "usdt_dominance": 6.88,
-  "mcap_change_24h": -7.32,
+  "btc_dominance": 59.21,
+  "usdt_dominance": 6.87,
+  "mcap_change_24h": -7.47,
   "trending": [
    "BTC",
    "NEAR",
-   "ENA",
-   "ETH",
+   "PENGU",
    "VVV",
-   "HYPE",
+   "CC",
    "SOL",
    "LIT",
-   "ZEC",
-   "PEARL"
+   "HYPE",
+   "AERO",
+   "ETH"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
+   "url": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
+   "published": "2026-11-06T02:24:23+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb9e88a95ad93",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-06T02:27:02.353440+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T01:57:28.899648+00:00",
    "notified": false
   },
@@ -241,15 +258,19 @@
   },
   {
    "source": "coindesk",
-   "title": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+   "title": "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
    "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
    "published": "2026-11-05T18:48:40+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
    "id": "Nda29a8d3eae2",
    "kind_fa": "خبر",
-   "importance": 2,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2880,19 +2901,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.075,
-   "risk": 0.683,
+   "sentiment": -0.072,
+   "risk": 0.673,
    "events": [
     "market",
     "listing",
     "security",
     "etf_flow"
    ],
-   "count": 30,
+   "count": 31,
    "last": "2026-11-06T01:30:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.109,
+   "sentiment": 0.108,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2901,7 +2922,7 @@
    "last": "2026-11-05T18:09:38+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.262,
+   "sentiment": 0.258,
    "risk": 0.2,
    "events": [
     "listing",
@@ -2921,7 +2942,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.344,
+   "risk": 0.338,
    "events": [
     "regulation"
    ],
