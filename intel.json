@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-06T20:39:58.284901+00:00",
+ "updated_at": "2026-11-06T21:09:26.305020+00:00",
  "market": {
-  "btc_dominance": 59.22,
+  "btc_dominance": 59.24,
   "usdt_dominance": 6.9,
-  "mcap_change_24h": -3.19,
+  "mcap_change_24h": -2.93,
   "trending": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "BTC",
    "PEARL",
    "HYPE",
-   "INJ",
-   "ETH",
-   "AERO",
-   "KNTQ"
+   "BTC",
+   "QTC",
+   "TRUMP",
+   "MON",
+   "NEAR"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
+   "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+   "published": "2026-11-06T21:02:30+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N223de7652298",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T21:09:26.305020+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
+   "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T20:51:23+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2a3ff93a857c",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-06T21:09:26.305020+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "US Treasury walks back crypto surveillance ‘travel rule’ proposal",
@@ -33,7 +65,24 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T20:39:58.284901+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance hack is ‘cyber war,’ TRM Labs executive says",
+   "url": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T20:36:25+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9fb09030bd25",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-06T21:09:26.305020+00:00",
    "notified": false
   },
   {
@@ -457,17 +506,15 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
+   "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
    "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
    "published": "2026-11-06T11:58:40+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC",
-    "TRX"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "TRXUSDT"
+    "BTCUSDT"
    ],
    "id": "N443f1112db85",
    "kind_fa": "خبر",
@@ -2132,23 +2179,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
-   "url": "https://www.coindesk.com/news-analysis/2026/11/04/crypto-s-powerhouse-super-pac-fairshake-found-its-kryptonite",
-   "published": "2026-11-04T20:29:12+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfdf8f2ade7a2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T20:52:33.823688+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #7: 98% of Stolen Assets Replenished and New PoR Snapshot With Expanded Coverage (2026-11-04)",
    "url": "https://www.binance.com/en/support/announcement/c6ba9aa726974fc6b9332a2c8f63b405",
@@ -2852,8 +2882,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.244,
-   "risk": 0.947,
+   "sentiment": -0.245,
+   "risk": 0.937,
    "events": [
     "security",
     "regulation",
@@ -2865,7 +2895,7 @@
    "last": "2026-11-06T18:22:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.161,
+   "sentiment": -0.163,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2874,20 +2904,13 @@
    "last": "2026-11-06T13:23:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.306,
+   "sentiment": 0.304,
    "risk": 0.0,
    "events": [
     "listing"
    ],
    "count": 2,
    "last": "2026-11-06T12:15:28+00:00"
-  },
-  "TRXUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-06T11:58:40+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.2,
