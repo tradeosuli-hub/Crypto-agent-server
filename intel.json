@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-06T12:17:13.316487+00:00",
+ "updated_at": "2026-11-06T12:46:45.320003+00:00",
  "market": {
-  "btc_dominance": 59.81,
-  "usdt_dominance": 6.95,
-  "mcap_change_24h": -8.2,
+  "btc_dominance": 59.84,
+  "usdt_dominance": 6.94,
+  "mcap_change_24h": -8.09,
   "trending": [
    "DENIM",
    "HYPE",
-   "BTC",
    "INJ",
-   "PUMP",
+   "BTC",
    "NEAR",
    "ETH",
-   "PENGU",
-   "FET",
-   "SUI"
+   "PI",
+   "PUMP",
+   "AERO",
+   "ZAMA"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Crypto ETFs see over half a billion dollars in outflows amid post-midterm market slide",
+   "url": "https://www.theblock.co/news/markets/2026-11-06-crypto-etfs-see-over-half-a-billion-dollars-in-outflows-amid-post-midterm-market-slide-435873",
+   "published": "2026-11-06T12:33:31+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N323d116fd165",
+   "kind_fa": "جریان ETF",
+   "importance": 6,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T12:46:45.320003+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+   "published": "2026-11-06T12:30:00+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7630fd6aea3d",
+   "kind_fa": "جریان ETF",
+   "importance": 6,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T12:46:45.320003+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Solana’s Shanghai event halted over unauthorized promotion: Report",
+   "url": "https://cointelegraph.com/news/solana-shanghai-event-halted-unauthorized-promotion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T12:15:28+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N1aabb8b8d629",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T12:46:45.320003+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live updates: Nasdaq 100 futures rally points to stock market respite",
@@ -33,6 +85,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T12:17:13.316487+00:00",
    "notified": false
   },
@@ -53,6 +106,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T12:17:13.316487+00:00",
    "notified": false
   },
@@ -2079,40 +2133,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Canton’s CC rises 4% as SEC staff view it as ‘digital commodity’",
-   "url": "https://cointelegraph.com/markets/cantons-cc-rises-sec-no-action-letter-digital-commodity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-04T12:12:15+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1824b6c575cb",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T12:29:51.978395+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "BitGo launches institutional trading and financial solutions business led by former NYDIG executive",
-   "url": "https://www.theblock.co/news/business/2026-11-04-bitgo-launches-institutional-trading-and-financial-solutions-business-led-by-former-nydig-executive-432646",
-   "published": "2026-11-04T12:00:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N153b13deba43",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T12:29:51.978395+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Updates Trading Fee Discount for TradFi Perps (2026-11-04)",
    "url": "https://www.binance.com/en/support/announcement/e3424d3a781841eb8b507bc694c0ca3a",
@@ -2798,9 +2818,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.354,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 4,
+   "last": "2026-11-06T12:15:28+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.192,
-   "risk": 0.587,
+   "sentiment": -0.193,
+   "risk": 0.581,
    "events": [
     "regulation",
     "etf_flow",
@@ -2821,22 +2850,13 @@
    "last": "2026-11-06T09:00:36+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.177,
+   "sentiment": -0.178,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
    "count": 3,
    "last": "2026-11-06T08:19:18+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.538,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 3,
-   "last": "2026-11-05T14:19:51+00:00"
   },
   "POLUSDT": {
    "sentiment": 0.2,
@@ -2849,7 +2869,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.215,
+   "risk": 0.209,
    "events": [
     "regulation"
    ],
@@ -2862,13 +2882,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-05T05:25:06+00:00"
-  },
-  "TRXUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-04T12:33:54+00:00"
   }
  },
  "social": {},
