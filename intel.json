@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-06T00:57:53.871071+00:00",
+ "updated_at": "2026-11-06T01:27:25.932523+00:00",
  "market": {
-  "btc_dominance": 59.24,
-  "usdt_dominance": 6.86,
-  "mcap_change_24h": -7.1,
+  "btc_dominance": 59.23,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -7.33,
   "trending": [
    "BTC",
    "NEAR",
-   "ZEC",
    "LIT",
-   "AERO",
-   "PONS",
-   "PENGU",
+   "ENA",
+   "ZEC",
    "ETH",
-   "SUI",
-   "QTC"
+   "HYPE",
+   "PENGU",
+   "PUMP",
+   "SOL"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Will Support the International Business Machines Corporation (IBM), Apple Inc. (AAPL), Corning Incorporated (GLW), and Eli Lilly and Company (LLY) Cash Dividend Distribution via bStocks",
+   "url": "https://www.binance.com/en/support/announcement/f3b32b406278474ab27c02685b33540c",
+   "published": "2026-11-06T01:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4664cbd8a3aa",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T01:27:25.932523+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
@@ -2157,23 +2173,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
-   "url": "https://cointelegraph.com/news/1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-04T00:45:16+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N65bf4af8d4b1",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T01:08:21.579884+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Security Incident | Recovery Update #6: Withdrawals Reopen for More Assets (2026-11-03)",
    "url": "https://www.binance.com/en/support/announcement/2d83c325ab6e49c6bd6c5de8803b11a6",
@@ -2375,23 +2374,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-10-28T06:02:25.280660+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Futures Will Apply Last Price Protected Mechanism on USDⓈ-Margined BULLAUSDT Perpetual Contract (2026-10-28)",
-   "url": "https://www.binance.com/en/support/announcement/8d59d768fac54356b6038b41b0d0145f",
-   "published": "2026-10-28T04:30:15.143000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N686a61e9e921",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-28T04:33:45.653795+00:00",
    "notified": false
   },
   {
@@ -2877,8 +2859,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.08,
-   "risk": 0.704,
+   "sentiment": -0.079,
+   "risk": 0.694,
    "events": [
     "market",
     "listing",
@@ -2889,7 +2871,7 @@
    "last": "2026-11-06T00:19:49+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.11,
+   "sentiment": 0.109,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2898,7 +2880,7 @@
    "last": "2026-11-05T18:09:38+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.27,
+   "sentiment": 0.266,
    "risk": 0.2,
    "events": [
     "listing",
@@ -2918,7 +2900,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.356,
+   "risk": 0.35,
    "events": [
     "regulation"
    ],
