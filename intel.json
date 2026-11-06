@@ -1,25 +1,95 @@
 {
- "updated_at": "2026-11-06T08:21:08.047549+00:00",
+ "updated_at": "2026-11-06T08:50:43.684739+00:00",
  "market": {
   "btc_dominance": 59.18,
-  "usdt_dominance": 6.91,
-  "mcap_change_24h": -7.67,
+  "usdt_dominance": 6.92,
+  "mcap_change_24h": -7.7,
   "trending": [
    "DENIM",
    "BTC",
-   "AKE",
-   "SOL",
-   "INJ",
+   "PENGU",
    "NEAR",
+   "INJ",
+   "PEPE",
    "AIN",
-   "HYPE",
-   "QTC",
-   "BP"
+   "SOL",
+   "PEARL",
+   "ZEC"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+   "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
+   "published": "2026-11-06T08:47:42+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nabd92cfad880",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T08:50:43.684739+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Hyperliquid Strategies seeks futures registration for perps",
+   "url": "https://cointelegraph.com/news/nasdaq-hyperliquid-strategies-futures-broker-license-onchain-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T08:42:54+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N03b8b7980cee",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T08:50:43.684739+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Kalshi hit with injunction over sports contracts on California tribal lands",
+   "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
+   "published": "2026-11-06T08:34:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ncc0045ca5edf",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T08:50:43.684739+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
+   "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-lose-post-election-gains-erased?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T08:19:18+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N43f58e16bf27",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T08:50:43.684739+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
@@ -33,6 +103,7 @@
    "importance": 5,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T08:21:08.047549+00:00",
    "notified": false
   },
@@ -2036,27 +2107,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards",
-   "url": "https://www.coindesk.com/markets/2026/11/04/zcash-grants-committee-drops-plan-to-redirect-98-000-zec-to-future-mining-rewards",
-   "published": "2026-11-04T08:04:04+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ZEC"
-   ],
-   "symbols": [
-    "ZECUSDT"
-   ],
-   "id": "N6fdbbfd4410f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T08:31:23.349112+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Updates Trading Fee Discount for TradFi Perps (2026-11-04)",
    "url": "https://www.binance.com/en/support/announcement/e3424d3a781841eb8b507bc694c0ca3a",
@@ -2743,28 +2793,28 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.073,
-   "risk": 0.55,
+   "sentiment": -0.11,
+   "risk": 0.54,
    "events": [
+    "etf_flow",
     "market",
     "listing",
-    "security",
-    "etf_flow"
+    "security"
    ],
-   "count": 27,
-   "last": "2026-11-06T04:29:14+00:00"
+   "count": 28,
+   "last": "2026-11-06T08:19:18+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.125,
+   "sentiment": -0.167,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 2,
-   "last": "2026-11-05T18:09:38+00:00"
+   "count": 3,
+   "last": "2026-11-06T08:19:18+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.199,
+   "sentiment": 0.195,
    "risk": 0.2,
    "events": [
     "listing",
@@ -2784,7 +2834,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.264,
+   "risk": 0.258,
    "events": [
     "regulation"
    ],
