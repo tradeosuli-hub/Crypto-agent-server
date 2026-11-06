@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-06T11:18:11.379941+00:00",
+ "updated_at": "2026-11-06T11:47:42.753939+00:00",
  "market": {
-  "btc_dominance": 59.86,
-  "usdt_dominance": 6.96,
-  "mcap_change_24h": -7.35,
+  "btc_dominance": 59.85,
+  "usdt_dominance": 6.95,
+  "mcap_change_24h": -7.25,
   "trending": [
    "DENIM",
    "BTC",
-   "SOL",
-   "PENGU",
-   "HYPE",
-   "SUI",
    "NEAR",
    "PUMP",
-   "AAVE",
-   "INJ"
+   "PENGU",
+   "INJ",
+   "MON",
+   "HYPE",
+   "SUI",
+   "PEPE"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Nigeria’s central bank introduces stablecoin licensing rules, bans algorithmic versions",
+   "url": "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867",
+   "published": "2026-11-06T11:43:44+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7b75954bb5f0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T11:47:42.753939+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates",
+   "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T11:26:30+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8e11eecf60a8",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-06T11:47:42.753939+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
+   "url": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T11:16:53+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1a7aeb475450",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.8,
+   "risk": 0.6,
+   "first_seen": "2026-11-06T11:47:42.753939+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Greece approves 10% tax on crypto gains starting in 2027",
@@ -33,6 +85,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T11:18:11.379941+00:00",
    "notified": false
   },
@@ -49,6 +102,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-06T11:18:11.379941+00:00",
    "notified": false
   },
@@ -2020,40 +2074,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
-   "url": "https://cointelegraph.com/markets/crypto-market-recovery-grayscale-binance-hack-temporary-setback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-04T11:11:57+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6b35893a6457",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T11:30:30.811485+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "DeFi Explained",
-   "url": "https://www.theblock.co/learn/defi/defi-explained-432391",
-   "published": "2026-11-04T11:05:30+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2dc60aa5f239",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T11:30:30.811485+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
    "url": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
@@ -2761,16 +2781,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.103,
-   "risk": 0.488,
+   "sentiment": -0.186,
+   "risk": 0.594,
    "events": [
+    "regulation",
     "etf_flow",
     "market",
     "listing",
     "security"
    ],
-   "count": 27,
-   "last": "2026-11-06T09:53:27+00:00"
+   "count": 28,
+   "last": "2026-11-06T11:16:53+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.2,
@@ -2782,7 +2803,7 @@
    "last": "2026-11-06T09:00:36+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.174,
+   "sentiment": -0.175,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2810,7 +2831,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.227,
+   "risk": 0.221,
    "events": [
     "regulation"
    ],
