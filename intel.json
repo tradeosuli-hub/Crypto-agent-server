@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-05T23:58:29.707854+00:00",
+ "updated_at": "2026-11-06T00:27:58.748509+00:00",
  "market": {
-  "btc_dominance": 59.3,
-  "usdt_dominance": 6.89,
-  "mcap_change_24h": -7.8,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -7.3,
   "trending": [
    "BTC",
-   "HYPE",
-   "LIT",
-   "ETH",
    "NEAR",
-   "PENGU",
-   "HBAR",
+   "HYPE",
+   "ETH",
    "SOL",
    "AERO",
+   "ZEC",
+   "LIT",
+   "PENGU",
    "QTC"
   ],
-  "fear_greed": 50,
-  "fear_greed_label": "Neutral"
+  "fear_greed": 28,
+  "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+   "url": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-06T00:19:49+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na1c5a933db58",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T00:27:58.748509+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -2153,27 +2173,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide",
-   "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
-   "published": "2026-11-04T00:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N4ce46e7e5695",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T00:09:12.052452+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "RUNE rallies 15% as THORChain restarts most swaps after halt",
    "url": "https://cointelegraph.com/markets/rune-rallies-15-as-thorchain-restarts-most-swaps-after-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2894,8 +2893,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.1,
-   "risk": 0.724,
+   "sentiment": -0.08,
+   "risk": 0.714,
    "events": [
     "market",
     "listing",
@@ -2903,7 +2902,7 @@
     "etf_flow"
    ],
    "count": 29,
-   "last": "2026-11-05T22:43:18+00:00"
+   "last": "2026-11-06T00:19:49+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.11,
@@ -2915,7 +2914,7 @@
    "last": "2026-11-05T18:09:38+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.277,
+   "sentiment": 0.274,
    "risk": 0.2,
    "events": [
     "listing",
@@ -2935,7 +2934,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.369,
+   "risk": 0.363,
    "events": [
     "regulation"
    ],
