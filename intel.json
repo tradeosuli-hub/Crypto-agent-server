@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-06T01:27:57.923717+00:00",
+ "updated_at": "2026-11-06T01:57:28.899648+00:00",
  "market": {
-  "btc_dominance": 59.23,
+  "btc_dominance": 59.22,
   "usdt_dominance": 6.88,
-  "mcap_change_24h": -7.33,
+  "mcap_change_24h": -7.32,
   "trending": [
    "BTC",
    "NEAR",
-   "LIT",
    "ENA",
-   "ZEC",
    "ETH",
+   "VVV",
    "HYPE",
-   "PENGU",
-   "PUMP",
-   "SOL"
+   "SOL",
+   "LIT",
+   "ZEC",
+   "PEARL"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+   "url": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc",
+   "published": "2026-11-06T01:30:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N3672368a49c1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-06T01:57:28.899648+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Will Support the International Business Machines Corporation (IBM), Apple Inc. (AAPL), Corning Incorporated (GLW), and Eli Lilly and Company (LLY) Cash Dividend Distribution via bStocks",
@@ -2860,16 +2880,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.079,
-   "risk": 0.693,
+   "sentiment": -0.075,
+   "risk": 0.683,
    "events": [
     "market",
     "listing",
     "security",
     "etf_flow"
    ],
-   "count": 29,
-   "last": "2026-11-06T00:19:49+00:00"
+   "count": 30,
+   "last": "2026-11-06T01:30:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.109,
@@ -2881,7 +2901,7 @@
    "last": "2026-11-05T18:09:38+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.266,
+   "sentiment": 0.262,
    "risk": 0.2,
    "events": [
     "listing",
@@ -2901,7 +2921,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.35,
+   "risk": 0.344,
    "events": [
     "regulation"
    ],
