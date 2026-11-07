@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-07T20:45:42.682625+00:00",
+ "updated_at": "2026-11-07T21:15:14.659435+00:00",
  "market": {
-  "btc_dominance": 59.3,
-  "usdt_dominance": 6.89,
-  "mcap_change_24h": -2.92,
+  "btc_dominance": 59.34,
+  "usdt_dominance": 6.9,
+  "mcap_change_24h": -2.97,
   "trending": [
    "PENGU",
-   "BTC",
-   "PEPE",
    "KNTQ",
-   "MON",
    "HYPE",
-   "ONE",
+   "MON",
+   "DACITY",
    "LIT",
-   "XMR",
-   "SOL"
+   "ZEC",
+   "PUMP",
+   "BTC",
+   "QTC"
   ],
   "fear_greed": 25,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Ex-FBI agent pleads guilty to stealing $2.47 million in crypto from wallets tied to 35 investigations",
+   "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988",
+   "published": "2026-11-07T20:59:47+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd76bb7b419f8",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-07T21:15:14.659435+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
@@ -1331,23 +1347,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Canary’s Injective ETF debuts on Nasdaq with exposure to staking rewards",
-   "url": "https://www.theblock.co/news/markets/2026-11-05-canary-staked-inj-etf-launches-nasdaq-injc-435115",
-   "published": "2026-11-05T16:53:56+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc7130f88e66a",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T17:04:03.338429+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
    "url": "https://www.coindesk.com/business/2026/11/05/soter-raises-usd23-5m-plus-btc-and-eth-as-banks-demand-theft-protection",
@@ -1404,11 +1403,15 @@
    "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
    "published": "2026-11-05T14:00:00+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "AAVE"
+   ],
+   "symbols": [
+    "AAVEUSDT"
+   ],
    "id": "N535d0004b4d2",
    "kind_fa": "خبر",
-   "importance": 2,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2174,8 +2177,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.315,
-   "risk": 0.445,
+   "sentiment": -0.314,
+   "risk": 0.435,
    "events": [
     "etf_flow",
     "security",
@@ -2185,7 +2188,7 @@
    "last": "2026-11-07T16:46:02+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.247,
+   "sentiment": -0.246,
    "risk": 0.0,
    "events": [
     "etf_flow"
