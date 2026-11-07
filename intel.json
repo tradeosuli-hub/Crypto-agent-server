@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-11-07T19:17:17.120553+00:00",
+ "updated_at": "2026-11-07T19:46:45.333702+00:00",
  "market": {
   "btc_dominance": 59.29,
   "usdt_dominance": 6.89,
-  "mcap_change_24h": -2.76,
+  "mcap_change_24h": -2.81,
   "trending": [
-   "DACITY",
-   "REBOOT",
    "BTC",
-   "ONE",
+   "DACITY",
    "SOL",
-   "PENGU",
+   "REBOOT",
+   "XMR",
+   "PEPE",
+   "ONE",
    "SUI",
    "KNTQ",
-   "PUMP",
    "HYPE"
   ],
   "fear_greed": 25,
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-07T19:17:17.120553+00:00",
    "notified": false
   },
@@ -1258,23 +1259,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
-   "url": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-fake-teams-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-05T19:02:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nba90b29bbf6d",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T19:32:25.274959+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Base deploys Denim upgrade on mainnet, replacing Flashblocks with 200ms block times",
    "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
@@ -2191,7 +2175,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.323,
-   "risk": 0.476,
+   "risk": 0.465,
    "events": [
     "etf_flow",
     "security",
@@ -2202,7 +2186,7 @@
    "last": "2026-11-07T16:46:02+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.251,
+   "sentiment": -0.25,
    "risk": 0.0,
    "events": [
     "etf_flow"
