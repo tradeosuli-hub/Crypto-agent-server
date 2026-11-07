@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-07T16:49:48.051713+00:00",
+ "updated_at": "2026-11-07T17:19:17.000860+00:00",
  "market": {
-  "btc_dominance": 59.3,
+  "btc_dominance": 59.31,
   "usdt_dominance": 6.89,
-  "mcap_change_24h": -2.86,
+  "mcap_change_24h": -3.03,
   "trending": [
    "REBOOT",
    "DACITY",
    "HYPE",
-   "AERO",
-   "KNTQ",
-   "PENGU",
    "BTC",
    "PEARL",
    "ONE",
-   "LIT"
+   "AERO",
+   "KNTQ",
+   "SOL",
+   "ZEC"
   ],
   "fear_greed": 25,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
+   "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
+   "published": "2026-11-07T16:51:00+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N90f0649e191d",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-07T17:19:17.000860+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
@@ -37,6 +53,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-07T16:49:48.051713+00:00",
    "notified": false
   },
@@ -1385,27 +1402,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-crashes-7-week-low-stocks-election-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-05T16:48:41+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N0e3f0febcac9",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T17:04:03.338429+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
    "url": "https://www.coindesk.com/coindesk-indices/2026/11/05/crypto-for-advisors-where-investors-stake-crypto-shapes-how-much-of-the-reward-they-keep",
@@ -1513,27 +1509,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-05T13:07:06.538332+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin is resilient, but leverage is missing and demand still tepid",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/05/bitcoin-is-resilient-but-leverage-is-missing-and-demand-still-tepid",
-   "published": "2026-11-05T12:27:04+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nc3621d6cdfb5",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T12:37:30.193832+00:00",
    "notified": false
   },
   {
@@ -2274,8 +2249,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.32,
-   "risk": 0.527,
+   "sentiment": -0.319,
+   "risk": 0.517,
    "events": [
     "etf_flow",
     "security",
@@ -2286,7 +2261,7 @@
    "last": "2026-11-07T16:46:02+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.218,
+   "sentiment": -0.217,
    "risk": 0.0,
    "events": [
     "etf_flow"
