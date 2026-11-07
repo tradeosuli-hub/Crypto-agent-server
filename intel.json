@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-07T16:20:23.139042+00:00",
+ "updated_at": "2026-11-07T16:49:48.051713+00:00",
  "market": {
-  "btc_dominance": 59.32,
+  "btc_dominance": 59.3,
   "usdt_dominance": 6.89,
-  "mcap_change_24h": -2.89,
+  "mcap_change_24h": -2.86,
   "trending": [
    "REBOOT",
    "DACITY",
+   "HYPE",
+   "AERO",
    "KNTQ",
-   "PEARL",
    "PENGU",
    "BTC",
-   "LIT",
-   "AERO",
-   "NEAR",
-   "PUMP"
+   "PEARL",
+   "ONE",
+   "LIT"
   ],
   "fear_greed": 25,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
+   "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
+   "published": "2026-11-07T16:46:02+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N8c9ba8df454b",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-07T16:49:48.051713+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -1403,23 +1423,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Anchorage Digital seeks CFTC swap dealer registration for crypto options business",
-   "url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
-   "published": "2026-11-05T16:00:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N895ddf98fcb0",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T16:04:31.893331+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance’s",
    "url": "https://www.coindesk.com/business/2026/11/05/gate-ceo-says-crypto-exchanges-must-prove-they-can-survive-a-hack-like-binance-s",
@@ -2271,19 +2274,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.302,
-   "risk": 0.537,
+   "sentiment": -0.32,
+   "risk": 0.527,
    "events": [
+    "etf_flow",
     "security",
     "regulation",
-    "etf_flow",
     "market"
    ],
    "count": 18,
-   "last": "2026-11-07T13:30:00+00:00"
+   "last": "2026-11-07T16:46:02+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.22,
+   "sentiment": -0.218,
    "risk": 0.0,
    "events": [
     "etf_flow"
