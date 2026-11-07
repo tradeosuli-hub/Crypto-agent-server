@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-11-07T13:52:49.604922+00:00",
+ "updated_at": "2026-11-07T14:22:18.901216+00:00",
  "market": {
-  "btc_dominance": 59.29,
+  "btc_dominance": 59.3,
   "usdt_dominance": 6.87,
-  "mcap_change_24h": -2.8,
+  "mcap_change_24h": -2.71,
   "trending": [
    "REBOOT",
    "DACITY",
-   "PENGU",
-   "QNT",
-   "TAO",
-   "ONE",
    "PEARL",
-   "STONK",
-   "AERO",
+   "ONE",
+   "KNTQ",
+   "QNT",
+   "SOL",
+   "HYPE",
+   "PENGU",
    "LIT"
   ],
   "fear_greed": 25,
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-07T13:52:49.604922+00:00",
    "notified": false
   },
@@ -1482,40 +1483,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Blockchain is ‘perfect solution’ for AI agent trust, VeChain CEO says",
-   "url": "https://cointelegraph.com/news/blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-05T13:34:57+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf6f6f4a0a5df",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T14:06:14.214526+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Can decentralized phone networks power the AI revolution?",
-   "url": "https://cointelegraph.com/magazine/can-decentralized-phone-networks-power-the-ai-revolution?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-05T13:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N36c59c38b87b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T14:06:14.214526+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
    "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
@@ -2330,7 +2297,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.303,
-   "risk": 0.588,
+   "risk": 0.578,
    "events": [
     "security",
     "regulation",
@@ -2341,7 +2308,7 @@
    "last": "2026-11-07T13:30:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.226,
+   "sentiment": -0.225,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2350,12 +2317,10 @@
    "last": "2026-11-06T13:23:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.3,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 2,
+   "events": [],
+   "count": 1,
    "last": "2026-11-06T12:15:28+00:00"
   },
   "ZECUSDT": {
@@ -2371,7 +2336,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-11-05T15:36:50+00:00"
   }
  },
