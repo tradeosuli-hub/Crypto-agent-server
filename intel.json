@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-07T08:57:58.680536+00:00",
+ "updated_at": "2026-11-07T09:27:29.816966+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 6.85,
-  "mcap_change_24h": -2.02,
+  "btc_dominance": 59.31,
+  "usdt_dominance": 6.86,
+  "mcap_change_24h": -2.09,
   "trending": [
+   "DACITY",
    "BTC",
-   "PI",
-   "PENGU",
-   "COGE",
-   "HYPE",
-   "AKE",
    "ONE",
-   "LIT",
+   "AKE",
+   "NEAR",
+   "HYPE",
    "ETH",
-   "NEAR"
+   "ARB",
+   "PENGU",
+   "PI"
   ],
   "fear_greed": 25,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Suspicious prediction market activity seen before election poll release: NYT",
+   "url": "https://cointelegraph.com/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-07T09:10:35+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nddc8938b7d71",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-07T09:27:29.816966+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
@@ -1736,67 +1752,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "France budget rejection sidelines stablecoin tax, wallet reporting",
-   "url": "https://cointelegraph.com/news/france-rejects-budget-revenue-sidelines-crypto-amendments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-05T09:04:42+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf3bf6995f3c4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T09:10:39.550078+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Eric Trump’s American Bitcoin swings to $126 million profit in Q3 on digital asset gains",
-   "url": "https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413",
-   "published": "2026-11-05T08:52:32+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nb753a2f028ea",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T09:10:39.550078+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
-   "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-turn-green-post-election-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-05T08:22:30+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC",
-    "ETH"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT"
-   ],
-   "id": "N412b3fccb070",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T09:10:39.550078+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Updates on Dividend Adjustment Process of SAMSUNGUSDT TradFi Perpetual Contract (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/c88b113255244de1953dd416c4806bc3",
@@ -2535,7 +2490,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.282,
-   "risk": 0.691,
+   "risk": 0.68,
    "events": [
     "security",
     "regulation",
@@ -2547,7 +2502,7 @@
    "last": "2026-11-06T18:22:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.236,
+   "sentiment": -0.235,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2556,7 +2511,7 @@
    "last": "2026-11-06T13:23:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.27,
+   "sentiment": 0.273,
    "risk": 0.0,
    "events": [
     "listing"
