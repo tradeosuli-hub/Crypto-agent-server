@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-07T14:51:48.037668+00:00",
+ "updated_at": "2026-11-07T15:21:19.376878+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 6.87,
-  "mcap_change_24h": -2.67,
+  "btc_dominance": 59.31,
+  "usdt_dominance": 6.88,
+  "mcap_change_24h": -2.56,
   "trending": [
    "REBOOT",
    "DACITY",
-   "PEARL",
    "ZEC",
-   "SOL",
-   "ONE",
-   "KNTQ",
    "PENGU",
+   "PEARL",
    "HYPE",
-   "TAO"
+   "TAO",
+   "SOL",
+   "PI",
+   "BTC"
   ],
   "fear_greed": 25,
   "fear_greed_label": "Extreme Fear"
@@ -50,6 +50,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-07T14:51:48.037668+00:00",
    "notified": false
   },
@@ -2291,8 +2292,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.304,
-   "risk": 0.568,
+   "sentiment": -0.303,
+   "risk": 0.558,
    "events": [
     "security",
     "regulation",
@@ -2303,7 +2304,7 @@
    "last": "2026-11-07T13:30:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.224,
+   "sentiment": -0.222,
    "risk": 0.0,
    "events": [
     "etf_flow"
