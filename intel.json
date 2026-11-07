@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-07T17:48:44.643880+00:00",
+ "updated_at": "2026-11-07T18:18:16.653933+00:00",
  "market": {
-  "btc_dominance": 59.31,
+  "btc_dominance": 59.29,
   "usdt_dominance": 6.88,
-  "mcap_change_24h": -2.97,
+  "mcap_change_24h": -2.64,
   "trending": [
    "DACITY",
    "REBOOT",
-   "BTC",
    "ONE",
+   "BTC",
+   "XRP",
    "PEARL",
-   "HYPE",
-   "PENGU",
-   "SOL",
    "IDOL",
-   "FET"
+   "KNTQ",
+   "ATOM",
+   "NEAR"
   ],
   "fear_greed": 25,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-07T17:48:44.643880+00:00",
    "notified": false
   },
@@ -1351,23 +1352,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Paraguay president resigns after collapse of Ueno digital bank",
-   "url": "https://cointelegraph.com/news/paraguay-president-resigns-after-collapse-ueno-digital-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-05T17:40:25+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd105ae207080",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T18:03:23.505943+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist",
@@ -1458,15 +1442,11 @@
    "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
    "published": "2026-11-05T14:00:00+00:00",
    "kind": "news",
-   "raw_symbols": [
-    "AAVE"
-   ],
-   "symbols": [
-    "AAVEUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "N535d0004b4d2",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2249,8 +2229,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.319,
-   "risk": 0.506,
+   "sentiment": -0.318,
+   "risk": 0.496,
    "events": [
     "etf_flow",
     "security",
@@ -2261,12 +2241,12 @@
    "last": "2026-11-07T16:46:02+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.215,
+   "sentiment": -0.253,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 3,
+   "count": 2,
    "last": "2026-11-06T13:23:08+00:00"
   },
   "SOLUSDT": {
