@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-07T02:33:52.344659+00:00",
+ "updated_at": "2026-11-07T03:03:24.523079+00:00",
  "market": {
-  "btc_dominance": 59.25,
+  "btc_dominance": 59.26,
   "usdt_dominance": 6.86,
-  "mcap_change_24h": -2.65,
+  "mcap_change_24h": -2.73,
   "trending": [
    "COGE",
    "BTC",
-   "ZEC",
    "PEARL",
+   "PENGU",
    "AKE",
-   "SUI",
-   "SOL",
    "AIN",
-   "KNTQ",
-   "PENGU"
+   "ZEC",
+   "SOL",
+   "SUI",
+   "KNTQ"
   ],
   "fear_greed": 25,
   "fear_greed_label": "Extreme Fear"
@@ -1395,11 +1395,15 @@
    "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
    "published": "2026-11-05T14:00:00+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "AAVE"
+   ],
+   "symbols": [
+    "AAVEUSDT"
+   ],
    "id": "N535d0004b4d2",
    "kind_fa": "خبر",
-   "importance": 2,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2755,7 +2759,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.258,
-   "risk": 0.824,
+   "risk": 0.814,
    "events": [
     "security",
     "regulation",
@@ -2767,7 +2771,7 @@
    "last": "2026-11-06T18:22:42+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.164,
+   "sentiment": -0.163,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2776,7 +2780,7 @@
    "last": "2026-11-06T13:23:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.269,
+   "sentiment": 0.265,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2797,7 +2801,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 1,
+   "count": 2,
    "last": "2026-11-05T15:36:50+00:00"
   },
   "POLUSDT": {
