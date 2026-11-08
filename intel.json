@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-08T08:33:42.670140+00:00",
+ "updated_at": "2026-11-08T09:03:09.328754+00:00",
  "market": {
   "btc_dominance": 59.33,
   "usdt_dominance": 6.88,
-  "mcap_change_24h": -2.9,
+  "mcap_change_24h": -2.88,
   "trending": [
    "BTC",
    "PENGU",
-   "PEARL",
-   "QTC",
-   "KNTQ",
-   "ZEC",
-   "STONK",
    "INJ",
-   "BEAM",
-   "AERO"
+   "STONK",
+   "QTC",
+   "PEARL",
+   "ZEC",
+   "UAI",
+   "LIT",
+   "HYPE"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-08T08:33:42.670140+00:00",
    "notified": false
   },
@@ -2160,7 +2161,7 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.328,
+   "sentiment": -0.329,
    "risk": 0.2,
    "events": [
     "etf_flow",
@@ -2183,15 +2184,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-06T12:15:28+00:00"
-  },
-  "ZECUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 1,
-   "last": "2026-11-06T09:00:36+00:00"
   }
  },
  "social": {},
