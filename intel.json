@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-08T15:26:50.161978+00:00",
+ "updated_at": "2026-11-08T15:56:18.768861+00:00",
  "market": {
   "btc_dominance": 60.01,
-  "usdt_dominance": 6.95,
-  "mcap_change_24h": -3.61,
+  "usdt_dominance": 6.94,
+  "mcap_change_24h": -3.58,
   "trending": [
    "WASTED",
    "DACITY",
-   "JCT",
    "ZEC",
+   "KNTQ",
+   "PENGU",
    "BTC",
+   "PEARL",
    "HYPE",
    "NEAR",
-   "PUMP",
-   "SOL",
-   "PENGU"
+   "AIN"
   ],
   "fear_greed": 28,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Vitalik Buterin says ETH should be valued as a store of value, not a fee-burning token",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022",
+   "published": "2026-11-08T15:52:17+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N01d8a5895b6f",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 6,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-08T15:56:18.768861+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -1268,27 +1288,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitcoin erases post-election gains as Wall Street selloff triggers over $1 billion in crypto liquidations",
-   "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
-   "published": "2026-11-05T20:11:02+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N2ea7700e2339",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": -0.5,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T20:31:31.156914+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
    "url": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats",
@@ -2152,6 +2151,15 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 1,
+   "last": "2026-11-08T15:52:17+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.27,
    "risk": 0.2,
