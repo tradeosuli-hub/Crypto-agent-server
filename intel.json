@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-09T03:14:50.995171+00:00",
+ "updated_at": "2026-11-09T03:44:18.680039+00:00",
  "market": {
-  "btc_dominance": 60.24,
+  "btc_dominance": 60.2,
   "usdt_dominance": 7.06,
-  "mcap_change_24h": -4.84,
+  "mcap_change_24h": -4.9,
   "trending": [
-   "BTC",
+   "ETH",
    "PENGU",
-   "GRAM",
-   "PEPE",
    "HYPE",
-   "INJ",
-   "JCT",
-   "QTC",
-   "XRP",
-   "ONDO"
+   "PEPE",
+   "BTC",
+   "NEAR",
+   "PUMP",
+   "GRAM",
+   "ONDO",
+   "AIN"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Nvidia perps slide as market reacts to CEO Jensen Huang’s Chinese spy scandal",
+   "url": "https://www.theblock.co/news/defi/2026-11-08-nvidia-perps-slide-jensen-huang-436047",
+   "published": "2026-11-09T03:36:16+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4df37b8e9cd1",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T03:44:18.680039+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
+   "url": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+   "published": "2026-11-09T03:21:49+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5142a6b47097",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T03:44:18.680039+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "What is Zcash (ZEC)? How shielded transactions work",
@@ -1204,23 +1240,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Zcash’s major network upgrade NU7 goes live on mainnet, cutting block time by threefold",
-   "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807",
-   "published": "2026-11-06T07:36:42+00:00",
-   "kind": "project",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na1364dec1afd",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 4,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T07:51:40.826359+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Chainalysis says breach exposed password hashes and live tokens",
    "url": "https://cointelegraph.com/news/chainalysis-cyberattack-password-hashes-live-tokens-exposed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1396,23 +1415,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-05T17:04:03.338429+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/11/05/crypto-for-advisors-where-investors-stake-crypto-shapes-how-much-of-the-reward-they-keep",
-   "published": "2026-11-05T16:13:32+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7c01a711dd2b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T16:34:28.727803+00:00",
    "notified": false
   },
   {
@@ -2148,6 +2150,15 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.179,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 4,
+   "last": "2026-11-09T03:21:49+00:00"
+  },
   "ZECUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2163,15 +2174,6 @@
    ],
    "count": 2,
    "last": "2026-11-08T22:59:06+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.167,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
-   "last": "2026-11-08T12:55:59+00:00"
   }
  },
  "social": {},
