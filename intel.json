@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-11-09T04:43:12.902674+00:00",
+ "updated_at": "2026-11-09T05:12:40.349857+00:00",
  "market": {
-  "btc_dominance": 60.19,
-  "usdt_dominance": 7.07,
-  "mcap_change_24h": -5.13,
+  "btc_dominance": 60.14,
+  "usdt_dominance": 7.09,
+  "mcap_change_24h": -5.35,
   "trending": [
-   "PENGU",
-   "BTC",
-   "HYPE",
-   "LIT",
-   "PEPE",
    "JCT",
+   "NEAR",
+   "PONS",
+   "BTC",
    "ZEC",
+   "PEPE",
+   "HYPE",
    "PEARL",
-   "XRP",
-   "PUMP"
+   "PENGU",
+   "PI"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
+   "url": "https://www.coindesk.com/tech/2026/11/09/binance-s-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
+   "published": "2026-11-09T04:54:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N86b49251ea08",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T05:12:40.349857+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
@@ -1403,23 +1425,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
-   "url": "https://www.coindesk.com/business/2026/11/05/soter-raises-usd23-5m-plus-btc-and-eth-as-banks-demand-theft-protection",
-   "published": "2026-11-05T16:49:08+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5bb93d25e70a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T17:04:03.338429+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Updates on Dividend Adjustment Process of SAMSUNGUSDT TradFi Perpetual Contract (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/c88b113255244de1953dd416c4806bc3",
@@ -2153,13 +2158,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.176,
+   "sentiment": -0.123,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 4,
-   "last": "2026-11-09T03:21:49+00:00"
+   "count": 5,
+   "last": "2026-11-09T04:54:39+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-09T04:54:39+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.0,
