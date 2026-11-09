@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-09T12:05:43.612271+00:00",
+ "updated_at": "2026-11-09T12:35:13.897881+00:00",
  "market": {
-  "btc_dominance": 60.22,
-  "usdt_dominance": 7.12,
-  "mcap_change_24h": -4.97,
+  "btc_dominance": 60.25,
+  "usdt_dominance": 7.08,
+  "mcap_change_24h": -4.4,
   "trending": [
-   "HYPE",
    "BTC",
-   "STONK",
-   "KNTQ",
+   "DACITY",
+   "HYPE",
    "PENGU",
-   "LIT",
-   "ZEC",
-   "ONDO",
+   "PEPE",
    "QNT",
-   "TAO"
+   "LIT",
+   "RSR",
+   "GRAM",
+   "STONK"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Formation notifies SEC to operate first tokenized securities venue on Solana",
+   "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
+   "published": "2026-11-09T12:30:00+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nbd9a77895fac",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-09T12:35:13.897881+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin bulls can't rely on ETF flows",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
+   "published": "2026-11-09T12:30:00+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5429d8337cda",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T12:35:13.897881+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Nvidia-led tech selloff weighs on crypto majors",
@@ -33,6 +73,7 @@
    "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T12:05:43.612271+00:00",
    "notified": false
   },
@@ -49,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T12:05:43.612271+00:00",
    "notified": false
   },
@@ -88,7 +130,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Nvidia slides on CEO allegations as bitcoin hovers just above its 200-day average",
+   "title": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
    "url": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
    "published": "2026-11-09T10:51:48+00:00",
    "kind": "news",
@@ -428,7 +470,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
+   "title": "Bitcoin drops as Nvidia cheating scandal and failed Iran talks trigger volatility",
    "url": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
    "published": "2026-11-09T03:21:49+00:00",
    "kind": "news",
@@ -1261,23 +1303,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Hypercall to launch first Anthropic-linked pre-IPO options market",
-   "url": "https://www.theblock.co/news/markets/2026-11-06-hypercall-anthropic-linked-pre-ipo-options-market-435453",
-   "published": "2026-11-06T13:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ndc83bfbf50cf",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T13:16:16.022749+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
    "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
@@ -1393,27 +1418,6 @@
    "risk": 0.6,
    "summary_fa": null,
    "first_seen": "2026-11-06T11:47:42.753939+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
-   "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
-   "published": "2026-11-06T09:53:27+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N967650dd1f5b",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T10:19:15.047862+00:00",
    "notified": false
   },
   {
@@ -2170,14 +2174,24 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": -0.566,
+   "risk": 0.876,
+   "events": [
+    "regulation",
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-09T12:30:00+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.174,
+   "sentiment": -0.13,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 8,
-   "last": "2026-11-09T10:51:48+00:00"
+   "count": 9,
+   "last": "2026-11-09T12:30:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.303,
@@ -2188,15 +2202,6 @@
    ],
    "count": 5,
    "last": "2026-11-09T09:05:02+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.886,
-   "events": [
-    "security"
-   ],
-   "count": 1,
-   "last": "2026-11-09T06:36:45+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
