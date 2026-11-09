@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-09T08:09:35.450075+00:00",
+ "updated_at": "2026-11-09T08:39:05.017044+00:00",
  "market": {
-  "btc_dominance": 60.21,
-  "usdt_dominance": 7.18,
-  "mcap_change_24h": -6.68,
+  "btc_dominance": 60.19,
+  "usdt_dominance": 7.14,
+  "mcap_change_24h": -6.12,
   "trending": [
    "BTC",
    "JCT",
-   "ETH",
    "STONK",
    "XRP",
-   "PEARL",
-   "MON",
+   "SOL",
    "PENGU",
-   "QNT",
-   "AERO"
+   "ETH",
+   "MON",
+   "AERO",
+   "HYPE"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
+   "url": "https://cointelegraph.com/markets/bitcoin-etfs-13b-biggest-weekly-outflow-late-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T08:17:35+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc69343678952",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T08:39:05.017044+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
@@ -1305,23 +1325,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Hyperliquid Strategies seeks futures registration for perps",
-   "url": "https://cointelegraph.com/news/nasdaq-hyperliquid-strategies-futures-broker-license-onchain-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T08:42:54+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N03b8b7980cee",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T08:50:43.684739+00:00",
-   "notified": false
-  },
-  {
    "source": "theblock",
    "title": "Kalshi hit with injunction over sports contracts on California tribal lands",
    "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
@@ -2161,17 +2164,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.09,
+   "sentiment": -0.203,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 6,
-   "last": "2026-11-09T06:54:41+00:00"
+   "count": 7,
+   "last": "2026-11-09T08:17:35+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.968,
+   "risk": 0.958,
    "events": [
     "security"
    ],
