@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-09T12:35:13.897881+00:00",
+ "updated_at": "2026-11-09T13:04:45.015446+00:00",
  "market": {
-  "btc_dominance": 60.25,
+  "btc_dominance": 60.24,
   "usdt_dominance": 7.08,
-  "mcap_change_24h": -4.4,
+  "mcap_change_24h": -5.33,
   "trending": [
-   "BTC",
    "DACITY",
-   "HYPE",
-   "PENGU",
-   "PEPE",
+   "BTC",
+   "AVAX",
    "QNT",
-   "LIT",
-   "RSR",
+   "QTC",
+   "PEPE",
    "GRAM",
-   "STONK"
+   "JCT",
+   "DOT",
+   "HYPE"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin loses 50-week moving average as 24-hour crypto long liquidations top $1 billion",
+   "url": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+   "published": "2026-11-09T13:04:21+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nde42bd9ab88b",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T13:04:45.015446+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+   "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+   "published": "2026-11-09T12:41:35+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N53e2e4ed8d44",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T13:04:45.015446+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+   "url": "https://www.coindesk.com/business/2026/11/09/trump-says-he-knows-nothing-about-world-liberty-s-uae-ties-as-justin-sun-challenges-filings",
+   "published": "2026-11-09T12:37:13+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd72cb38278b3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T13:04:45.015446+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Formation notifies SEC to operate first tokenized securities venue on Solana",
@@ -37,6 +93,7 @@
    "importance": 8,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-09T12:35:13.897881+00:00",
    "notified": false
   },
@@ -57,7 +114,24 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T12:35:13.897881+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "EU taps industry to set standards for tokenized securities",
+   "url": "https://cointelegraph.com/news/eu-nominations-tokenization-standards-group?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T12:27:06+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nde1b9a4c09c3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T13:04:45.015446+00:00",
    "notified": false
   },
   {
@@ -1244,27 +1318,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "TeraWulf’s bitcoin mining revenue falls 69% as HPC leasing surges amid Anthropic buildout",
-   "url": "https://www.theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885",
-   "published": "2026-11-06T13:40:22+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N563400961615",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.1,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T13:45:47.864417+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
    "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
@@ -1341,48 +1394,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
-   "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
-   "published": "2026-11-06T11:58:40+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N443f1112db85",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T12:17:13.316487+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
-   "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff",
-   "published": "2026-11-06T11:49:35+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nad421c92f578",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T12:17:13.316487+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance hackers had 8-week intrusion window before $6.3B exploit: SEAL",
    "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1395,27 +1406,6 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T11:47:42.753939+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
-   "url": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T11:16:53+00:00",
-   "kind": "regulation",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N1a7aeb475450",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 8,
-   "sentiment": -0.8,
-   "risk": 0.6,
    "summary_fa": null,
    "first_seen": "2026-11-06T11:47:42.753939+00:00",
    "notified": false
@@ -2174,24 +2164,26 @@
   }
  ],
  "symbols": {
-  "SOLUSDT": {
-   "sentiment": -0.566,
-   "risk": 0.876,
+  "BTCUSDT": {
+   "sentiment": -0.141,
+   "risk": 0.0,
    "events": [
+    "market",
+    "etf_flow"
+   ],
+   "count": 10,
+   "last": "2026-11-09T13:04:21+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": -0.221,
+   "risk": 0.865,
+   "events": [
+    "listing",
     "regulation",
     "security"
    ],
-   "count": 2,
-   "last": "2026-11-09T12:30:00+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.13,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 9,
-   "last": "2026-11-09T12:30:00+00:00"
+   "count": 3,
+   "last": "2026-11-09T12:41:35+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.303,
