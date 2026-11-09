@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-09T03:44:18.680039+00:00",
+ "updated_at": "2026-11-09T04:13:46.781187+00:00",
  "market": {
-  "btc_dominance": 60.2,
-  "usdt_dominance": 7.06,
-  "mcap_change_24h": -4.9,
+  "btc_dominance": 60.18,
+  "usdt_dominance": 7.07,
+  "mcap_change_24h": -5.06,
   "trending": [
+   "BTC",
    "ETH",
-   "PENGU",
+   "NEAR",
    "HYPE",
    "PEPE",
-   "BTC",
-   "NEAR",
-   "PUMP",
-   "GRAM",
-   "ONDO",
-   "AIN"
+   "LIT",
+   "PENGU",
+   "ZRO",
+   "PEARL",
+   "XRP"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
+   "url": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T04:03:08+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N04731910857d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T04:13:46.781187+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Nvidia perps slide as market reacts to CEO Jensen Huang’s Chinese spy scandal",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T03:44:18.680039+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T03:44:18.680039+00:00",
    "notified": false
   },
@@ -1240,23 +1258,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Chainalysis says breach exposed password hashes and live tokens",
-   "url": "https://cointelegraph.com/news/chainalysis-cyberattack-password-hashes-live-tokens-exposed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T06:54:34+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfdb5ffc68c58",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T07:22:09.915845+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
    "url": "https://www.coindesk.com/tech/2026/11/06/zcash-s-landmark-nu7-upgrade-goes-live-speeding-up-private-payments",
@@ -2151,7 +2152,7 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.179,
+   "sentiment": -0.178,
    "risk": 0.0,
    "events": [
     "etf_flow"
