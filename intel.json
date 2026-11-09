@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-09T05:12:40.349857+00:00",
+ "updated_at": "2026-11-09T05:42:09.134682+00:00",
  "market": {
-  "btc_dominance": 60.14,
-  "usdt_dominance": 7.09,
-  "mcap_change_24h": -5.35,
+  "btc_dominance": 60.13,
+  "usdt_dominance": 7.1,
+  "mcap_change_24h": -5.49,
   "trending": [
-   "JCT",
    "NEAR",
-   "PONS",
    "BTC",
-   "ZEC",
-   "PEPE",
    "HYPE",
-   "PEARL",
+   "PONS",
+   "JCT",
    "PENGU",
-   "PI"
+   "UNI",
+   "KNTQ",
+   "AERO",
+   "PEARL"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
+   "url": "https://www.coindesk.com/tech/2026/11/09/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts",
+   "published": "2026-11-09T05:16:54+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N010f7b14b01a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T05:42:09.134682+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
@@ -39,6 +59,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T05:12:40.349857+00:00",
    "notified": false
   },
@@ -1408,23 +1429,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
-   "url": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist",
-   "published": "2026-11-05T16:58:21+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N092f0ff0bed4",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T17:04:03.338429+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Updates on Dividend Adjustment Process of SAMSUNGUSDT TradFi Perpetual Contract (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/c88b113255244de1953dd416c4806bc3",
@@ -2157,8 +2161,17 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.174,
+   "risk": 0.0,
+   "events": [
+    "token_burn"
+   ],
+   "count": 3,
+   "last": "2026-11-09T05:16:54+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.123,
+   "sentiment": -0.122,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2179,15 +2192,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-09T02:36:01+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.25,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 2,
-   "last": "2026-11-08T22:59:06+00:00"
   }
  },
  "social": {},
