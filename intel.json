@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-09T20:00:18.356722+00:00",
+ "updated_at": "2026-11-09T20:29:50.756543+00:00",
  "market": {
-  "btc_dominance": 59.59,
+  "btc_dominance": 59.56,
   "usdt_dominance": 7.0,
-  "mcap_change_24h": -3.21,
+  "mcap_change_24h": -3.15,
   "trending": [
    "DACITY",
    "AVAX",
    "KNTQ",
-   "PEARL",
-   "BTC",
-   "ONDO",
-   "QTC",
+   "PENGU",
+   "LINK",
    "HYPE",
-   "INJ",
-   "ZEC"
+   "ARB",
+   "PEARL",
+   "ZEC",
+   "XRP"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair",
+   "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
+   "published": "2026-11-09T20:04:49+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N0329f98a51ce",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T20:29:50.756543+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Formation Securities plans Solana stock trading venue under SEC exemption",
+   "url": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T19:52:34+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N38f809ba5328",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-09T20:29:50.756543+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T20:00:18.356722+00:00",
    "notified": false
   },
@@ -1436,23 +1473,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
-   "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T18:47:45+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3b3a60defada",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T19:11:28.338462+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Recovery Update #9: Withdrawals for More Assets to Reopen (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/a2dd10b860a14c35a856fe9d66d6032c",
@@ -2206,6 +2226,17 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": -0.21,
+   "risk": 0.711,
+   "events": [
+    "regulation",
+    "listing",
+    "security"
+   ],
+   "count": 4,
+   "last": "2026-11-09T19:52:34+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.19,
    "risk": 0.0,
@@ -2225,7 +2256,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.248,
-   "risk": 0.967,
+   "risk": 0.957,
    "events": [
     "security",
     "market",
@@ -2247,17 +2278,6 @@
    "events": [],
    "count": 3,
    "last": "2026-11-09T16:19:45+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.215,
-   "risk": 0.721,
-   "events": [
-    "listing",
-    "regulation",
-    "security"
-   ],
-   "count": 3,
-   "last": "2026-11-09T12:41:35+00:00"
   },
   "ZECUSDT": {
    "sentiment": 0.0,
