@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-09T17:01:29.983626+00:00",
+ "updated_at": "2026-11-09T17:31:04.141360+00:00",
  "market": {
-  "btc_dominance": 59.6,
-  "usdt_dominance": 6.99,
-  "mcap_change_24h": -3.19,
+  "btc_dominance": 59.58,
+  "usdt_dominance": 7.01,
+  "mcap_change_24h": -3.11,
   "trending": [
    "DACITY",
    "AVAX",
-   "KNTQ",
    "BTC",
-   "HYPE",
+   "KNTQ",
    "ONDO",
    "PEARL",
-   "ZEC",
    "PENGU",
-   "QTC"
+   "ZEC",
+   "AERO",
+   "HYPE"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
+   "url": "https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T17:13:25+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N8d4278d12f0d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T17:31:04.141360+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
@@ -1410,23 +1430,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
-   "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T13:57:14+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb970254d5317",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T14:15:22.392476+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Recovery Update #9: Withdrawals for More Assets to Reopen (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/a2dd10b860a14c35a856fe9d66d6032c",
@@ -2181,14 +2184,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.079,
+   "sentiment": -0.073,
    "risk": 0.0,
    "events": [
     "market",
     "etf_flow"
    ],
-   "count": 11,
-   "last": "2026-11-09T16:19:45+00:00"
+   "count": 12,
+   "last": "2026-11-09T17:13:25+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
@@ -2216,7 +2219,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.218,
-   "risk": 0.783,
+   "risk": 0.773,
    "events": [
     "listing",
     "regulation",
