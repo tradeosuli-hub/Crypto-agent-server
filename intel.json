@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-09T15:32:26.228019+00:00",
+ "updated_at": "2026-11-09T16:02:00.728112+00:00",
  "market": {
-  "btc_dominance": 59.58,
-  "usdt_dominance": 6.98,
-  "mcap_change_24h": -3.02,
+  "btc_dominance": 59.62,
+  "usdt_dominance": 6.95,
+  "mcap_change_24h": -2.58,
   "trending": [
    "DACITY",
    "AVAX",
-   "HYPE",
    "KNTQ",
-   "BTC",
-   "ETH",
-   "ARB",
-   "LIT",
+   "HYPE",
    "PENGU",
-   "XRP"
+   "BTC",
+   "ARB",
+   "PEARL",
+   "JCT",
+   "NEAR"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Coinbase and PNC Bank expand partnership with USDC payments for corporate clients",
+   "url": "https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466",
+   "published": "2026-11-09T16:01:28+00:00",
+   "kind": "project",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N29506fe437a0",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 4,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T16:02:00.728112+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Binance hack launderers mint homemade Elon Musk, animal memecoins to move stolen funds: Elliptic",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-09-binance-hack-launderers-mint-homemade-elon-musk-animal-memecoins-move-stolen-funds-elliptic-436440",
+   "published": "2026-11-09T15:54:16+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc606da2044e0",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-09T16:02:00.728112+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ethereum treasury Sharplink’s Q3 net income hits $751 million on unrealized ether gains",
+   "url": "https://www.theblock.co/news/markets/2026-11-09-sharplink-q3-2026-earnings-net-income-eth-holdings-436459",
+   "published": "2026-11-09T15:40:30+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N857915d5a19d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T16:02:00.728112+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Google’s AI chip push adds more pressure on Nvidia",
@@ -33,6 +85,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T15:32:26.228019+00:00",
    "notified": false
   },
@@ -49,6 +102,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T15:32:26.228019+00:00",
    "notified": false
   },
@@ -415,7 +469,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin remains under pressure as stocks surge, oil slumps",
+   "title": "Live news: Bitcoin narrows loss as Nasdaq surges more than 2%",
    "url": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
    "published": "2026-11-09T10:51:48+00:00",
    "kind": "news",
@@ -1173,23 +1227,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
-   "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
-   "published": "2026-11-06T21:02:30+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N223de7652298",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T21:09:26.305020+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
    "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1204,23 +1241,6 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-11-06T21:09:26.305020+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "US Treasury walks back crypto surveillance ‘travel rule’ proposal",
-   "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
-   "published": "2026-11-06T20:37:34+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nb0c33dbfcee9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T20:39:58.284901+00:00",
    "notified": false
   },
   {
@@ -1272,23 +1292,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-06T20:10:28.015055+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Gnosis Pay data breach exposes customer info; funds unaffected",
-   "url": "https://www.theblock.co/news/defi/2026-11-06-gnosis-pay-data-breach-legacy-debit-card-system-435934",
-   "published": "2026-11-06T18:58:58+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2a004f29453e",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T19:11:28.338462+00:00",
    "notified": false
   },
   {
@@ -2173,14 +2176,14 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.256,
+   "sentiment": 0.221,
    "risk": 0.0,
    "events": [
     "listing",
     "token_burn"
    ],
-   "count": 6,
-   "last": "2026-11-09T14:32:40+00:00"
+   "count": 7,
+   "last": "2026-11-09T15:40:30+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
@@ -2208,7 +2211,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.219,
-   "risk": 0.814,
+   "risk": 0.804,
    "events": [
     "listing",
     "regulation",
