@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-09T06:41:08.134989+00:00",
+ "updated_at": "2026-11-09T07:10:39.571955+00:00",
  "market": {
-  "btc_dominance": 60.16,
-  "usdt_dominance": 7.13,
-  "mcap_change_24h": -5.76,
+  "btc_dominance": 60.21,
+  "usdt_dominance": 7.14,
+  "mcap_change_24h": -5.96,
   "trending": [
-   "ETH",
-   "HYPE",
    "BTC",
+   "ETH",
    "JCT",
-   "AERO",
-   "LINK",
-   "NEAR",
+   "PENGU",
+   "STONK",
+   "HYPE",
    "ZEC",
-   "PUMP",
-   "KNTQ"
+   "NEAR",
+   "AERO",
+   "LINK"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+   "url": "https://www.coindesk.com/markets/2026/11/09/spacex-proposes-a-usd24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile",
+   "published": "2026-11-09T06:54:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N3c2021381ccd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T07:10:39.571955+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+   "url": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack",
+   "published": "2026-11-09T06:36:45+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N71101bc2fc2b",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-09T07:10:39.571955+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
@@ -1403,44 +1443,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
-   "url": "https://www.coindesk.com/policy/2026/11/05/u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats",
-   "published": "2026-11-05T18:59:45+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N033019655805",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T19:02:26.394063+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
-   "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
-   "published": "2026-11-05T18:48:40+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nda29a8d3eae2",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T19:02:26.394063+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Important Updates on Dividend Adjustment Process of SAMSUNGUSDT TradFi Perpetual Contract (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/c88b113255244de1953dd416c4806bc3",
@@ -2156,6 +2158,24 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.089,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 6,
+   "last": "2026-11-09T06:54:41+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.988,
+   "events": [
+    "security"
+   ],
+   "count": 1,
+   "last": "2026-11-09T06:36:45+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.173,
    "risk": 0.0,
@@ -2164,15 +2184,6 @@
    ],
    "count": 3,
    "last": "2026-11-09T05:16:54+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.119,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 5,
-   "last": "2026-11-09T04:54:39+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
