@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-09T09:08:37.312833+00:00",
+ "updated_at": "2026-11-09T09:38:10.266988+00:00",
  "market": {
-  "btc_dominance": 60.19,
-  "usdt_dominance": 7.1,
-  "mcap_change_24h": -4.54,
+  "btc_dominance": 60.17,
+  "usdt_dominance": 7.13,
+  "mcap_change_24h": -4.94,
   "trending": [
    "BTC",
-   "SOL",
-   "STONK",
    "NEAR",
-   "JCT",
    "PEARL",
+   "STONK",
+   "PENGU",
+   "PUMP",
    "ETH",
-   "MON",
-   "PEPE",
-   "HYPE"
+   "XRP",
+   "SOL",
+   "PEPE"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. inflation, corporate earnings: Crypto Week Ahead",
+   "url": "https://www.coindesk.com/markets/2026/11/09/u-s-inflation-corporate-earnings-crypto-week-ahead",
+   "published": "2026-11-09T09:33:27+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf968de4b67ca",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T09:38:10.266988+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Zama spin-off Raycash launches confidential stablecoin payments and private yield on Ethereum",
@@ -37,6 +53,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T09:08:37.312833+00:00",
    "notified": false
   },
@@ -57,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T09:08:37.312833+00:00",
    "notified": false
   },
@@ -1413,27 +1431,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
-   "url": "https://www.coindesk.com/tech/2026/11/05/bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc",
-   "published": "2026-11-06T01:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N3672368a49c1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T01:57:28.899648+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the International Business Machines Corporation (IBM), Apple Inc. (AAPL), Corning Incorporated (GLW), and Eli Lilly and Company (LLY) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/f3b32b406278474ab27c02685b33540c",
@@ -1949,11 +1946,15 @@
    "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
    "published": "2026-10-13T03:30:01.158000+00:00",
    "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "RWUSD"
+   ],
+   "symbols": [
+    "RWUSDUSDT"
+   ],
    "id": "Nb12e9f3ec668",
    "kind_fa": "لیستینگ",
-   "importance": 7,
+   "importance": 8,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -2167,7 +2168,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.302,
+   "sentiment": 0.303,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2187,7 +2188,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.947,
+   "risk": 0.937,
    "events": [
     "security"
    ],
