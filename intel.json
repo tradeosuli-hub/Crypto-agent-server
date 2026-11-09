@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-11-09T16:02:26.169716+00:00",
+ "updated_at": "2026-11-09T16:31:59.234441+00:00",
  "market": {
-  "btc_dominance": 59.62,
-  "usdt_dominance": 6.95,
-  "mcap_change_24h": -2.58,
+  "btc_dominance": 59.58,
+  "usdt_dominance": 6.99,
+  "mcap_change_24h": -3.1,
   "trending": [
    "DACITY",
    "AVAX",
    "KNTQ",
-   "HYPE",
-   "PENGU",
    "BTC",
-   "ARB",
-   "PEARL",
-   "JCT",
-   "NEAR"
+   "ONDO",
+   "HYPE",
+   "NEAR",
+   "PENGU",
+   "ETH",
+   "LIT"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
+   "url": "https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees",
+   "published": "2026-11-09T16:19:45+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N5e3fe8fed6e5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T16:31:59.234441+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "StoneX sees 97% upside for Bullish as $4.2 billion Equiniti deal opens tokenization market",
+   "url": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
+   "published": "2026-11-09T16:07:05+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfd85c67c0543",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T16:31:59.234441+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Coinbase and PNC Bank expand partnership with USDC payments for corporate clients",
@@ -1374,23 +1412,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "The crypto industry has found new ways to grow. Making money from them is another story",
-   "url": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
-   "published": "2026-11-06T15:26:38+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N005b9a50735c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T15:43:59.778503+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "What Democrats’ US midterm sweep means for the CLARITY Act",
    "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2178,6 +2199,23 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.091,
+   "risk": 0.0,
+   "events": [
+    "market",
+    "etf_flow"
+   ],
+   "count": 12,
+   "last": "2026-11-09T16:19:45+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-11-09T16:19:45+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.221,
    "risk": 0.0,
@@ -2188,13 +2226,6 @@
    "count": 7,
    "last": "2026-11-09T15:40:30+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-11-09T14:32:40+00:00"
-  },
   "AVAXUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2202,19 +2233,9 @@
    "count": 2,
    "last": "2026-11-09T14:07:27+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.099,
-   "risk": 0.0,
-   "events": [
-    "market",
-    "etf_flow"
-   ],
-   "count": 11,
-   "last": "2026-11-09T13:29:47+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": -0.219,
-   "risk": 0.804,
+   "sentiment": -0.218,
+   "risk": 0.793,
    "events": [
     "listing",
     "regulation",
