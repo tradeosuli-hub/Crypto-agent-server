@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-09T17:31:04.141360+00:00",
+ "updated_at": "2026-11-09T18:00:40.974768+00:00",
  "market": {
-  "btc_dominance": 59.58,
+  "btc_dominance": 59.59,
   "usdt_dominance": 7.01,
-  "mcap_change_24h": -3.11,
+  "mcap_change_24h": -3.09,
   "trending": [
    "DACITY",
    "AVAX",
    "BTC",
-   "KNTQ",
    "ONDO",
-   "PEARL",
-   "PENGU",
+   "KNTQ",
    "ZEC",
-   "AERO",
-   "HYPE"
+   "PEARL",
+   "INJ",
+   "PUMP",
+   "SOL"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "PNC Bank tests turning USDC payments into dollar deposits",
+   "url": "https://cointelegraph.com/news/pnc-bank-launches-usdc-payment-pilot-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T17:48:35+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5ecb39e69481",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T18:00:40.974768+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Avalanche’s AVAX leads crypto gains following NYSE tokenization deal",
+   "url": "https://cointelegraph.com/news/avalanche-avax-crypto-nyse-tokenization-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T17:41:02+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "AVAX"
+   ],
+   "symbols": [
+    "AVAXUSDT"
+   ],
+   "id": "Ncd689cc9698d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T18:00:40.974768+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T17:31:04.141360+00:00",
    "notified": false
   },
@@ -1375,27 +1412,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T17:49:33+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ne37f74c8d0b4",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T18:12:18.082458+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
    "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
@@ -1410,23 +1426,6 @@
    "risk": 0.6,
    "summary_fa": null,
    "first_seen": "2026-11-06T18:12:18.082458+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "What Democrats’ US midterm sweep means for the CLARITY Act",
-   "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T14:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3e898d867825",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T14:44:58.069405+00:00",
    "notified": false
   },
   {
@@ -2183,6 +2182,13 @@
   }
  ],
  "symbols": {
+  "AVAXUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-11-09T17:41:02+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.073,
    "risk": 0.0,
@@ -2210,16 +2216,9 @@
    "count": 7,
    "last": "2026-11-09T15:40:30+00:00"
   },
-  "AVAXUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-11-09T14:07:27+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": -0.218,
-   "risk": 0.773,
+   "sentiment": -0.217,
+   "risk": 0.763,
    "events": [
     "listing",
     "regulation",
