@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-09T21:58:15.407848+00:00",
+ "updated_at": "2026-11-09T22:27:47.569509+00:00",
  "market": {
-  "btc_dominance": 59.63,
+  "btc_dominance": 59.67,
   "usdt_dominance": 7.0,
-  "mcap_change_24h": -2.89,
+  "mcap_change_24h": -0.54,
   "trending": [
    "DACITY",
    "KNTQ",
@@ -11,15 +11,52 @@
    "PENGU",
    "ETH",
    "HYPE",
-   "PEARL",
-   "BTC",
-   "PYTH",
-   "AR"
+   "ZEC",
+   "ONDO",
+   "MON",
+   "PEARL"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "MARA posts $634 million Q3 net profit on bitcoin gains, sells 13,597 BTC to pay off loans",
+   "url": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
+   "published": "2026-11-09T22:07:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N115883e09f3b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T22:27:47.569509+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T22:06:26+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-11-03T06:19:31.662788+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
@@ -438,23 +475,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-09T14:03:43.040127+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T13:36:56+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T06:19:31.662788+00:00",
    "notified": false
   },
   {
@@ -1243,23 +1263,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-08T08:33:42.670140+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Binance CFO steps down nine days after record hack; co-CEO says transition was planned six months ago",
-   "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992",
-   "published": "2026-11-07T21:57:58+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne2a2deda2482",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T22:14:07.649806+00:00",
    "notified": false
   },
   {
@@ -2207,9 +2210,20 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.261,
+   "risk": 0.916,
+   "events": [
+    "security",
+    "market",
+    "etf_flow"
+   ],
+   "count": 13,
+   "last": "2026-11-09T22:07:00+00:00"
+  },
   "SOLUSDT": {
    "sentiment": -0.209,
-   "risk": 0.68,
+   "risk": 0.67,
    "events": [
     "regulation",
     "listing",
@@ -2234,17 +2248,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-09T18:30:22+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.28,
-   "risk": 0.926,
-   "events": [
-    "security",
-    "market",
-    "etf_flow"
-   ],
-   "count": 12,
-   "last": "2026-11-09T18:25:29+00:00"
   },
   "AVAXUSDT": {
    "sentiment": 0.0,
