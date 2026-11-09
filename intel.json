@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-09T08:39:05.017044+00:00",
+ "updated_at": "2026-11-09T09:08:37.312833+00:00",
  "market": {
   "btc_dominance": 60.19,
-  "usdt_dominance": 7.14,
-  "mcap_change_24h": -6.12,
+  "usdt_dominance": 7.1,
+  "mcap_change_24h": -4.54,
   "trending": [
    "BTC",
-   "JCT",
-   "STONK",
-   "XRP",
    "SOL",
-   "PENGU",
+   "STONK",
+   "NEAR",
+   "JCT",
+   "PEARL",
    "ETH",
    "MON",
-   "AERO",
+   "PEPE",
    "HYPE"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Zama spin-off Raycash launches confidential stablecoin payments and private yield on Ethereum",
+   "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
+   "published": "2026-11-09T09:05:02+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N35bf406360de",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T09:08:37.312833+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance, Tether and Trump crypto firms face Senate records deadline",
+   "url": "https://cointelegraph.com/news/binance-tether-wlfi-senate-crypto-investigation-records-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T09:00:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N969f38e64b01",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T09:08:37.312833+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
@@ -37,6 +77,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T08:39:05.017044+00:00",
    "notified": false
   },
@@ -1287,27 +1328,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool",
-   "url": "https://cointelegraph.com/news/zcash-nu7-upgrade-15m-sprout-funds-unspendable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T09:00:36+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "ZEC"
-   ],
-   "symbols": [
-    "ZECUSDT"
-   ],
-   "id": "N880328f24fef",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T09:20:17.211827+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
    "url": "https://www.coindesk.com/policy/2026/11/06/greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income",
@@ -1319,23 +1339,6 @@
    "kind_fa": "خبر",
    "importance": 2,
    "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T08:50:43.684739+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Kalshi hit with injunction over sports contracts on California tribal lands",
-   "url": "https://www.theblock.co/news/business/2026-11-06-kalshi-injunction-california-tribal-lands-435813",
-   "published": "2026-11-06T08:34:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncc0045ca5edf",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-06T08:50:43.684739+00:00",
@@ -2163,8 +2166,18 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.302,
+   "risk": 0.0,
+   "events": [
+    "listing",
+    "token_burn"
+   ],
+   "count": 5,
+   "last": "2026-11-09T09:05:02+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.203,
+   "sentiment": -0.204,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2174,21 +2187,12 @@
   },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.958,
+   "risk": 0.947,
    "events": [
     "security"
    ],
    "count": 1,
    "last": "2026-11-09T06:36:45+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.172,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 3,
-   "last": "2026-11-09T05:16:54+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
