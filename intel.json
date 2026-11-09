@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-09T10:07:37.671540+00:00",
+ "updated_at": "2026-11-09T10:37:10.635627+00:00",
  "market": {
-  "btc_dominance": 60.2,
-  "usdt_dominance": 7.13,
-  "mcap_change_24h": -5.0,
+  "btc_dominance": 60.19,
+  "usdt_dominance": 7.14,
+  "mcap_change_24h": -5.04,
   "trending": [
    "BTC",
-   "PEARL",
    "STONK",
-   "NEAR",
-   "PENGU",
+   "HYPE",
    "XRP",
-   "JCT",
+   "LIT",
+   "PEARL",
    "KNTQ",
-   "PEPE",
-   "LIT"
+   "ZEC",
+   "PUMP",
+   "PEPE"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Trump says he knows ‘nothing’ about UAE-linked investment in his crypto firm",
+   "url": "https://www.theblock.co/news/business/2026-11-09-trump-says-he-knows-nothing-about-uae-linked-investment-in-his-crypto-firm-436079",
+   "published": "2026-11-09T10:33:55+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N23e5d5fbc546",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T10:37:10.635627+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week",
+   "url": "https://cointelegraph.com/markets/btc-price-nvidia-volatility-three-things-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-09T10:03:40+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf0a0a2e1545d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-09T10:37:10.635627+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Coinbase gets full U.S. trust charter from federal banking regulator",
@@ -33,6 +69,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-09T10:07:37.671540+00:00",
    "notified": false
   },
@@ -1236,23 +1273,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Nigeria’s central bank introduces stablecoin licensing rules, bans algorithmic versions",
-   "url": "https://www.theblock.co/news/regulation/2026-11-06-nigerias-central-bank-introduces-stablecoin-licensing-rules-bans-algorithmic-versions-435867",
-   "published": "2026-11-06T11:43:44+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7b75954bb5f0",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T11:47:42.753939+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Binance hackers had 8-week intrusion window before $6.3B exploit: SEAL",
    "url": "https://cointelegraph.com/news/binance-hackers-8-weeks-access-63b-exploit-security-alliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1322,23 +1342,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-06T11:18:11.379941+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Binance’s $6.3B hack leaves questions over hot wallet safeguards",
-   "url": "https://cointelegraph.com/news/binances-hack-questions-hot-wallet-risk-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T10:40:57+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3ce4f9be7c48",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T10:48:44.924126+00:00",
    "notified": false
   },
   {
@@ -2167,6 +2170,15 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.176,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 8,
+   "last": "2026-11-09T10:03:40+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.303,
    "risk": 0.0,
@@ -2177,18 +2189,9 @@
    "count": 5,
    "last": "2026-11-09T09:05:02+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.204,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 7,
-   "last": "2026-11-09T08:17:35+00:00"
-  },
   "SOLUSDT": {
    "sentiment": -0.9,
-   "risk": 0.927,
+   "risk": 0.917,
    "events": [
     "security"
    ],
