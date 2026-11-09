@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-09T16:31:59.234441+00:00",
+ "updated_at": "2026-11-09T17:01:29.983626+00:00",
  "market": {
-  "btc_dominance": 59.58,
+  "btc_dominance": 59.6,
   "usdt_dominance": 6.99,
-  "mcap_change_24h": -3.1,
+  "mcap_change_24h": -3.19,
   "trending": [
    "DACITY",
    "AVAX",
    "KNTQ",
    "BTC",
-   "ONDO",
    "HYPE",
-   "NEAR",
+   "ONDO",
+   "PEARL",
+   "ZEC",
    "PENGU",
-   "ETH",
-   "LIT"
+   "QTC"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
@@ -39,6 +39,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T16:31:59.234441+00:00",
    "notified": false
   },
@@ -55,6 +56,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-09T16:31:59.234441+00:00",
    "notified": false
   },
@@ -1141,27 +1143,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
-   "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
-   "published": "2026-11-07T16:46:02+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N8c9ba8df454b",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T16:49:48.051713+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
    "url": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2200,13 +2181,13 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.091,
+   "sentiment": -0.079,
    "risk": 0.0,
    "events": [
     "market",
     "etf_flow"
    ],
-   "count": 12,
+   "count": 11,
    "last": "2026-11-09T16:19:45+00:00"
   },
   "NEARUSDT": {
@@ -2217,7 +2198,7 @@
    "last": "2026-11-09T16:19:45+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.221,
+   "sentiment": 0.22,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2235,7 +2216,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.218,
-   "risk": 0.793,
+   "risk": 0.783,
    "events": [
     "listing",
     "regulation",
