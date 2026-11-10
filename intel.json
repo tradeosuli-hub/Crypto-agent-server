@@ -1,25 +1,121 @@
 {
- "updated_at": "2026-11-10T10:16:05.860109+00:00",
+ "updated_at": "2026-11-10T10:45:35.286387+00:00",
  "market": {
   "btc_dominance": 60.3,
-  "usdt_dominance": 7.13,
-  "mcap_change_24h": -2.51,
+  "usdt_dominance": 7.15,
+  "mcap_change_24h": -2.76,
   "trending": [
    "DACITY",
    "SI",
-   "INIT",
    "BTC",
    "NEAR",
+   "INIT",
+   "ZEC",
    "PENGU",
-   "KNTQ",
-   "HYPE",
    "SOL",
-   "ZEC"
+   "KNTQ",
+   "SUI"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live news: Traders price in fed rate hike for December as bitcoin and gold retreat",
+   "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+   "published": "2026-11-10T10:41:45+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4d387c78ad08",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-10T10:45:35.286387+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ark Invest trims Block, Bullish and its own bitcoin ETF holdings while buying Nvidia, SoFi",
+   "url": "https://www.theblock.co/news/business/2026-11-10-ark-invest-trims-block-bullish-holdings-437003",
+   "published": "2026-11-10T10:36:53+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N06412ab0d046",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T10:45:35.286387+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance Futures Will End Last Price Protected Period on USDⓈ-Margined BULLAUSDT Perpetual Contract (2026-11-10)",
+   "url": "https://www.binance.com/en/support/announcement/f7e499194e0748f593f973f1d1959ea5",
+   "published": "2026-11-10T10:31:19.510000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndfa6d700b147",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T10:45:35.286387+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "NEAR AI says SGLang vulnerability exposed user account details in security breach",
+   "url": "https://www.theblock.co/news/defi/2026-11-10-near-ai-security-breach-437002",
+   "published": "2026-11-10T10:17:13+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "NEAR"
+   ],
+   "symbols": [
+    "NEARUSDT"
+   ],
+   "id": "Ned1eab5bb2d9",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-10T10:45:35.286387+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T10:08:22+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0214afe05a09",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-10T10:45:35.286387+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "The crypto wallet that grew up inside Telegram is striking out on its own",
@@ -33,6 +129,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T10:16:05.860109+00:00",
    "notified": false
   },
@@ -1694,23 +1791,6 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
-   "url": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-07T14:16:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N20555ea260b1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T14:51:48.037668+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
    "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-07T07:45:24+00:00",
@@ -1876,23 +1956,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-01T04:34:02.184776+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Security Incident | Recovery Update #3: 90% of Stolen Assets Replenished; Proof of Reserves Snapshot Provided (2026-10-31)",
-   "url": "https://www.binance.com/en/support/announcement/1fdf1f61559c401da0435895ffcccb62",
-   "published": "2026-10-31T14:24:57.063000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N53278ba5ec2f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-31T14:47:33.195138+00:00",
    "notified": false
   },
   {
@@ -2411,27 +2474,29 @@
   }
  ],
  "symbols": {
-  "NEARUSDT": {
-   "sentiment": -0.076,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-11-10T09:05:16+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.21,
-   "risk": 0.67,
+   "sentiment": -0.144,
+   "risk": 0.66,
    "events": [
-    "etf_flow",
     "macro",
+    "etf_flow",
     "security",
     "market"
    ],
-   "count": 18,
-   "last": "2026-11-10T08:02:05+00:00"
+   "count": 21,
+   "last": "2026-11-10T10:41:45+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.542,
+   "risk": 0.99,
+   "events": [
+    "security"
+   ],
+   "count": 5,
+   "last": "2026-11-10T10:17:13+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.151,
+   "sentiment": 0.152,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2442,7 +2507,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.157,
-   "risk": 0.551,
+   "risk": 0.544,
    "events": [
     "regulation"
    ],
@@ -2457,8 +2522,8 @@
    "last": "2026-11-10T04:51:20+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.194,
-   "risk": 0.424,
+   "sentiment": -0.193,
+   "risk": 0.414,
    "events": [
     "regulation",
     "listing",
