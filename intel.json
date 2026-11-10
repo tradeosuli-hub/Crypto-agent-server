@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-10T13:13:21.602414+00:00",
+ "updated_at": "2026-11-10T13:42:48.145028+00:00",
  "market": {
-  "btc_dominance": 59.65,
-  "usdt_dominance": 7.07,
-  "mcap_change_24h": -3.4,
+  "btc_dominance": 59.68,
+  "usdt_dominance": 7.1,
+  "mcap_change_24h": -3.83,
   "trending": [
    "DACITY",
    "BTC",
    "PENGU",
    "AVAX",
-   "HYPE",
    "SI",
-   "KNTQ",
    "SOL",
-   "AERO",
-   "INJ"
+   "HYPE",
+   "SUI",
+   "ETH",
+   "LIT"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+   "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
+   "published": "2026-11-10T13:32:09+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "TRX"
+   ],
+   "symbols": [
+    "TRXUSDT"
+   ],
+   "id": "N28b20b9d472c",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-10T13:42:48.145028+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin may benefit as global tightening slows, Binance Research says",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-global-tightening-binance-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T13:15:59+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N104198e8c1eb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T13:42:48.145028+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
@@ -203,10 +243,10 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike",
+   "title": "Live news: Bitcoin adds to losses after disappointing inflation data",
    "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
    "published": "2026-11-10T10:41:45+00:00",
-   "kind": "macro",
+   "kind": "news",
    "raw_symbols": [
     "BTC"
    ],
@@ -214,10 +254,10 @@
     "BTCUSDT"
    ],
    "id": "N4d387c78ad08",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.5,
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-10T10:45:35.286387+00:00",
    "notified": false
@@ -321,16 +361,16 @@
   },
   {
    "source": "theblock",
-   "title": "Walt expands beyond Telegram with standalone crypto trading app",
+   "title": "Walt launches standalone crypto trading app following Wallet in Telegram rebrand",
    "url": "https://www.theblock.co/news/ecosystems/2026-11-10-walt-standalone-crypto-trading-app-436981",
    "published": "2026-11-10T09:30:00+00:00",
-   "kind": "news",
+   "kind": "listing",
    "raw_symbols": [],
    "symbols": [],
    "id": "N9cfbd20f3a01",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-10T09:46:04.358846+00:00",
@@ -1905,23 +1945,6 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Binance France emails announce closure of its users’ accounts on Dec. 31",
-   "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-08T12:57:51+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N633fb0d0d3d4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-08T13:28:48.894269+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
    "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-07T07:45:24+00:00",
@@ -2605,6 +2628,27 @@
   }
  ],
  "symbols": {
+  "TRXUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.498,
+   "events": [
+    "macro"
+   ],
+   "count": 1,
+   "last": "2026-11-10T13:32:09+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.145,
+   "risk": 0.598,
+   "events": [
+    "etf_flow",
+    "macro",
+    "security",
+    "market"
+   ],
+   "count": 25,
+   "last": "2026-11-10T13:15:59+00:00"
+  },
   "XRPUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2612,21 +2656,9 @@
    "count": 2,
    "last": "2026-11-10T12:38:20+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.16,
-   "risk": 0.608,
-   "events": [
-    "etf_flow",
-    "macro",
-    "security",
-    "market"
-   ],
-   "count": 24,
-   "last": "2026-11-10T12:15:00+00:00"
-  },
   "SUIUSDT": {
    "sentiment": -0.178,
-   "risk": 0.582,
+   "risk": 0.575,
    "events": [
     "regulation"
    ],
@@ -2644,8 +2676,8 @@
    "last": "2026-11-10T10:56:51+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.549,
-   "risk": 0.939,
+   "sentiment": -0.551,
+   "risk": 0.929,
    "events": [
     "security"
    ],
@@ -2653,8 +2685,8 @@
    "last": "2026-11-10T10:17:13+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.187,
-   "risk": 0.383,
+   "sentiment": -0.186,
+   "risk": 0.377,
    "events": [
     "regulation",
     "listing",
