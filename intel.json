@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-10T07:47:57.536389+00:00",
+ "updated_at": "2026-11-10T08:17:28.448319+00:00",
  "market": {
-  "btc_dominance": 59.63,
-  "usdt_dominance": 7.01,
-  "mcap_change_24h": -0.81,
+  "btc_dominance": 59.65,
+  "usdt_dominance": 7.02,
+  "mcap_change_24h": -0.45,
   "trending": [
-   "PENGU",
-   "KNTQ",
-   "AVAX",
    "BTC",
    "HYPE",
-   "INJ",
-   "PEPE",
+   "PENGU",
    "INIT",
-   "DOT",
+   "INJ",
+   "AVAX",
+   "JCT",
+   "KNTQ",
+   "ETH",
    "PEARL"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
+   "url": "https://cointelegraph.com/markets/blackrock-ibit-bitcoin-etf-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T08:02:05+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nd8bff52c1b10",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T08:17:28.448319+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Securitize agrees to buy River One to expand into asset-backed lending",
+   "url": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T07:49:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbb8bdd96be3c",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T08:17:28.448319+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
@@ -1572,40 +1608,6 @@
   },
   {
    "source": "cointelegraph",
-   "title": "US sanctions Canadian money-exchange firms over Iran ties",
-   "url": "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-07T11:10:47+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N141f769fa81b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T11:25:25.878053+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Suspicious prediction market activity seen before election poll release: NYT",
-   "url": "https://cointelegraph.com/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-07T09:10:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nddc8938b7d71",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T09:27:29.816966+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
    "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-07T07:45:24+00:00",
@@ -2340,6 +2342,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.21,
+   "risk": 0.711,
+   "events": [
+    "etf_flow",
+    "macro",
+    "security",
+    "market"
+   ],
+   "count": 18,
+   "last": "2026-11-10T08:02:05+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.151,
    "risk": 0.0,
@@ -2352,24 +2366,12 @@
   },
   "SUIUSDT": {
    "sentiment": -0.156,
-   "risk": 0.582,
+   "risk": 0.575,
    "events": [
     "regulation"
    ],
    "count": 2,
    "last": "2026-11-10T06:19:10+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.182,
-   "risk": 0.721,
-   "events": [
-    "macro",
-    "security",
-    "market",
-    "etf_flow"
-   ],
-   "count": 17,
-   "last": "2026-11-10T05:18:31+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.0,
@@ -2379,8 +2381,8 @@
    "last": "2026-11-10T04:51:20+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.198,
-   "risk": 0.475,
+   "sentiment": -0.197,
+   "risk": 0.465,
    "events": [
     "regulation",
     "listing",
