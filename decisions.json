@@ -2157,7 +2157,7 @@
  {
   "id": "Df61c504c61",
   "ts": "2026-11-09T18:32:25.589647+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "ENAUSDT",
   "direction": "short",
   "entry": 0.1526307142857143,
@@ -2263,6 +2263,28 @@
    "دیوار hammer_dulling · واکنش‌های گذشته 10",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-11-10T00:15:00+00:00"
+  "entered_at": "2026-11-10T00:15:00+00:00",
+  "outcome": "SL",
+  "exit": 0.1576692857142857,
+  "pnl_r": -1.0,
+  "closed_at": "2026-11-09T19:30:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "news"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "volume",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، volume، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، news"
+  }
  }
 ]
