@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-10T03:51:54.667870+00:00",
+ "updated_at": "2026-11-10T04:21:21.674539+00:00",
  "market": {
-  "btc_dominance": 59.6,
-  "usdt_dominance": 7.05,
-  "mcap_change_24h": -2.58,
+  "btc_dominance": 59.61,
+  "usdt_dominance": 7.04,
+  "mcap_change_24h": -2.03,
   "trending": [
    "DACITY",
-   "AVAX",
-   "BTC",
    "PENGU",
-   "SOL",
-   "HYPE",
-   "INIT",
+   "BTC",
+   "AVAX",
    "XRP",
+   "AERO",
+   "HYPE",
    "KNTQ",
-   "ETH"
+   "BP",
+   "INIT"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T03:51:54.667870+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 8,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-11-10T03:51:54.667870+00:00",
    "notified": false
   },
@@ -2274,7 +2276,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.194,
-   "risk": 0.803,
+   "risk": 0.793,
    "events": [
     "macro",
     "security",
@@ -2286,7 +2288,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.203,
-   "risk": 0.557,
+   "risk": 0.547,
    "events": [
     "regulation",
     "listing",
@@ -2296,7 +2298,7 @@
    "last": "2026-11-09T19:52:34+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.184,
+   "sentiment": 0.183,
    "risk": 0.0,
    "events": [
     "listing",
