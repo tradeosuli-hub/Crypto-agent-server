@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-10T06:48:51.445500+00:00",
+ "updated_at": "2026-11-10T07:18:24.921980+00:00",
  "market": {
   "btc_dominance": 59.6,
-  "usdt_dominance": 7.02,
-  "mcap_change_24h": -1.38,
+  "usdt_dominance": 7.03,
+  "mcap_change_24h": -1.09,
   "trending": [
    "HYPE",
-   "BTC",
-   "AVAX",
-   "PENGU",
-   "PEPE",
-   "INIT",
    "KNTQ",
-   "SOL",
+   "AVAX",
+   "PEPE",
+   "BTC",
+   "INIT",
+   "JCT",
+   "ZEC",
    "AAVE",
-   "JUP"
+   "LAB"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
+   "url": "https://www.coindesk.com/tech/2026/11/10/an-11-year-old-ethereum-wallet-moved-usd4-6-million-and-dodged-a-scam-set-up-in-minutes",
+   "published": "2026-11-10T07:01:06+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Ndfccb205263f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T07:18:24.921980+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Coinbase, Kalshi and Payward backs CFTC in lawsuit over single-stock perp futures",
@@ -2319,9 +2339,19 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.151,
+   "risk": 0.0,
+   "events": [
+    "listing",
+    "token_burn"
+   ],
+   "count": 9,
+   "last": "2026-11-10T07:01:06+00:00"
+  },
   "SUIUSDT": {
    "sentiment": -0.156,
-   "risk": 0.594,
+   "risk": 0.588,
    "events": [
     "regulation"
    ],
@@ -2330,7 +2360,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.182,
-   "risk": 0.742,
+   "risk": 0.732,
    "events": [
     "macro",
     "security",
@@ -2349,7 +2379,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.199,
-   "risk": 0.496,
+   "risk": 0.486,
    "events": [
     "regulation",
     "listing",
@@ -2357,16 +2387,6 @@
    ],
    "count": 4,
    "last": "2026-11-09T19:52:34+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.181,
-   "risk": 0.0,
-   "events": [
-    "listing",
-    "token_burn"
-   ],
-   "count": 8,
-   "last": "2026-11-09T18:30:22+00:00"
   },
   "AVAXUSDT": {
    "sentiment": 0.0,
