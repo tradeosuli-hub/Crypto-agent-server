@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-10T11:15:08.994088+00:00",
+ "updated_at": "2026-11-10T11:44:40.336679+00:00",
  "market": {
   "btc_dominance": 60.29,
   "usdt_dominance": 7.15,
-  "mcap_change_24h": -2.7,
+  "mcap_change_24h": -2.64,
   "trending": [
-   "DACITY",
    "SI",
-   "BTC",
-   "SUI",
-   "ZEC",
-   "KNTQ",
+   "AVAX",
+   "AERO",
    "PENGU",
+   "BTC",
+   "SOL",
+   "ONE",
    "NEAR",
    "XRP",
-   "AVAX"
+   "DACITY"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance warns iOS flaw could expose crypto wallet keys",
+   "url": "https://cointelegraph.com/news/binance-warns-ios-flaw-could-expose-crypto-wallet-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T11:25:57+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd8e8b495163a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T11:44:40.336679+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin lags stock rebound in advance of U.S. inflation report",
+   "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+   "published": "2026-11-10T11:24:10+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N34f8d623a6cb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T11:44:40.336679+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T11:15:08.994088+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T11:15:08.994088+00:00",
    "notified": false
   },
@@ -73,12 +111,13 @@
    "importance": 8,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-11-10T11:15:08.994088+00:00",
    "notified": false
   },
   {
    "source": "coindesk",
-   "title": "Live news: Traders price in fed rate hike for December as bitcoin and gold retreat",
+   "title": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
    "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
    "published": "2026-11-10T10:41:45+00:00",
    "kind": "macro",
@@ -1818,23 +1857,6 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
-   "url": "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-08T09:48:48+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncce0d75cdc0e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-08T10:02:20.109500+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
    "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-07T07:45:24+00:00",
@@ -2518,6 +2540,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.118,
+   "risk": 0.639,
+   "events": [
+    "macro",
+    "etf_flow",
+    "security",
+    "market"
+   ],
+   "count": 23,
+   "last": "2026-11-10T11:24:10+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.127,
    "risk": 0.0,
@@ -2528,21 +2562,9 @@
    "count": 10,
    "last": "2026-11-10T10:56:51+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.13,
-   "risk": 0.649,
-   "events": [
-    "macro",
-    "etf_flow",
-    "security",
-    "market"
-   ],
-   "count": 22,
-   "last": "2026-11-10T10:48:37+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.543,
-   "risk": 0.98,
+   "sentiment": -0.545,
+   "risk": 0.97,
    "events": [
     "security"
    ],
@@ -2551,7 +2573,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.157,
-   "risk": 0.538,
+   "risk": 0.532,
    "events": [
     "regulation"
    ],
@@ -2566,8 +2588,8 @@
    "last": "2026-11-10T04:51:20+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.192,
-   "risk": 0.408,
+   "sentiment": -0.191,
+   "risk": 0.402,
    "events": [
     "regulation",
     "listing",
