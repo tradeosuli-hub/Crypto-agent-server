@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-10T18:09:25.637672+00:00",
+ "updated_at": "2026-11-10T18:38:51.620807+00:00",
  "market": {
-  "btc_dominance": 59.77,
-  "usdt_dominance": 7.17,
-  "mcap_change_24h": -4.75,
+  "btc_dominance": 59.73,
+  "usdt_dominance": 7.18,
+  "mcap_change_24h": -4.81,
   "trending": [
    "ZEC",
+   "SI",
+   "MEGA",
    "DACITY",
    "BTC",
-   "SI",
-   "AVAX",
    "SOL",
+   "PENGU",
    "PEARL",
-   "HYPE",
-   "INIT",
-   "INJ"
+   "AERO",
+   "HYPE"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
+   "url": "https://cointelegraph.com/news/pix-withdrawals-resume-mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T18:12:07+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N71eb76c0419f",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-10T18:38:51.620807+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Grayscale pledges $1 million alongside Zcash ad blitz as token and ETF fall 12%",
@@ -33,6 +53,7 @@
    "importance": 6,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T18:09:25.637672+00:00",
    "notified": false
   },
@@ -123,6 +144,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T18:09:25.637672+00:00",
    "notified": false
   },
@@ -2956,6 +2978,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.215,
+   "risk": 0.991,
+   "events": [
+    "security",
+    "macro",
+    "etf_flow",
+    "market"
+   ],
+   "count": 29,
+   "last": "2026-11-10T18:12:07+00:00"
+  },
   "TONUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2970,21 +3004,9 @@
    "count": 1,
    "last": "2026-11-10T17:24:44+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.137,
-   "risk": 0.506,
-   "events": [
-    "macro",
-    "etf_flow",
-    "security",
-    "market"
-   ],
-   "count": 28,
-   "last": "2026-11-10T16:25:03+00:00"
-  },
   "NEARUSDT": {
    "sentiment": -0.35,
-   "risk": 0.836,
+   "risk": 0.826,
    "events": [
     "macro",
     "security"
@@ -3001,7 +3023,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.452,
+   "risk": 0.447,
    "events": [
     "macro"
    ],
@@ -3017,7 +3039,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.179,
-   "risk": 0.52,
+   "risk": 0.514,
    "events": [
     "regulation"
    ],
@@ -3025,7 +3047,7 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.098,
+   "sentiment": 0.096,
    "risk": 0.0,
    "events": [
     "listing"
@@ -3034,8 +3056,8 @@
    "last": "2026-11-10T10:56:51+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.173,
-   "risk": 0.321,
+   "sentiment": -0.171,
+   "risk": 0.315,
    "events": [
     "regulation",
     "listing",
