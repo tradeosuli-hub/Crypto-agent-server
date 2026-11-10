@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-10T14:41:57.469588+00:00",
+ "updated_at": "2026-11-10T15:11:30.646432+00:00",
  "market": {
-  "btc_dominance": 59.67,
-  "usdt_dominance": 7.08,
-  "mcap_change_24h": -3.43,
+  "btc_dominance": 59.73,
+  "usdt_dominance": 7.05,
+  "mcap_change_24h": -3.29,
   "trending": [
-   "DACITY",
    "BTC",
    "SI",
-   "AVAX",
+   "INIT",
    "PEPE",
-   "HYPE",
-   "PENGU",
-   "QTC",
    "LIT",
-   "SOL"
+   "PENGU",
+   "DACITY",
+   "AVAX",
+   "HYPE",
+   "PEARL"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T14:41:57.469588+00:00",
    "notified": false
   },
@@ -51,6 +52,22 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-10T14:12:22.610342+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Will stablecoins survive once the banks catch up?",
+   "url": "https://www.coindesk.com/opinion/2026/11/10/will-stablecoins-survive-once-the-banks-catch-up",
+   "published": "2026-11-10T14:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3e79b60e2454",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T15:11:30.646432+00:00",
    "notified": false
   },
   {
@@ -350,15 +367,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "title": "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
    "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
    "published": "2026-11-10T10:41:45+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "N4d387c78ad08",
    "kind_fa": "خبر",
@@ -2720,7 +2739,7 @@
  "symbols": {
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.488,
+   "risk": 0.483,
    "events": [
     "macro"
    ],
@@ -2728,8 +2747,8 @@
    "last": "2026-11-10T13:32:09+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.14,
-   "risk": 0.578,
+   "sentiment": -0.139,
+   "risk": 0.567,
    "events": [
     "etf_flow",
     "macro",
@@ -2748,7 +2767,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.178,
-   "risk": 0.563,
+   "risk": 0.557,
    "events": [
     "regulation"
    ],
@@ -2756,7 +2775,7 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.126,
+   "sentiment": 0.125,
    "risk": 0.0,
    "events": [
     "listing",
@@ -2766,17 +2785,17 @@
    "last": "2026-11-10T10:56:51+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.554,
-   "risk": 0.908,
+   "sentiment": -0.473,
+   "risk": 0.898,
    "events": [
     "security"
    ],
-   "count": 5,
-   "last": "2026-11-10T10:17:13+00:00"
+   "count": 6,
+   "last": "2026-11-10T10:41:45+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.184,
-   "risk": 0.365,
+   "sentiment": -0.182,
+   "risk": 0.359,
    "events": [
     "regulation",
     "listing",
