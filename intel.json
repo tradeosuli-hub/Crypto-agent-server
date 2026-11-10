@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-10T00:25:40.735334+00:00",
+ "updated_at": "2026-11-10T00:55:05.978796+00:00",
  "market": {
-  "btc_dominance": 59.72,
-  "usdt_dominance": 6.98,
-  "mcap_change_24h": -1.02,
+  "btc_dominance": 59.66,
+  "usdt_dominance": 7.0,
+  "mcap_change_24h": -1.27,
   "trending": [
    "DACITY",
    "AVAX",
-   "XRP",
    "KNTQ",
-   "ONDO",
-   "SOL",
    "LINK",
-   "DRV",
-   "NEAR",
-   "BTC"
+   "ZEC",
+   "PENGU",
+   "BTC",
+   "PEPE",
+   "XRP",
+   "SOL"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "HIVE’s Bitcoin output jumps 49%, but mining revenue still falls",
+   "url": "https://cointelegraph.com/news/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T00:42:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N6297b739cbf5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T00:55:05.978796+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
@@ -1441,23 +1461,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
-   "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-06T20:51:23+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2a3ff93a857c",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T21:09:26.305020+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Recovery Update #9: Withdrawals for More Assets to Reopen (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/a2dd10b860a14c35a856fe9d66d6032c",
@@ -2212,19 +2215,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.262,
-   "risk": 0.875,
+   "sentiment": -0.244,
+   "risk": 0.865,
    "events": [
     "security",
     "market",
     "etf_flow"
    ],
-   "count": 13,
-   "last": "2026-11-09T22:07:00+00:00"
+   "count": 14,
+   "last": "2026-11-10T00:42:39+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.207,
-   "risk": 0.629,
+   "sentiment": -0.206,
+   "risk": 0.619,
    "events": [
     "regulation",
     "listing",
