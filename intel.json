@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-11-10T21:36:40.610237+00:00",
+ "updated_at": "2026-11-10T22:06:11.696836+00:00",
  "market": {
-  "btc_dominance": 59.81,
-  "usdt_dominance": 7.12,
-  "mcap_change_24h": -4.15,
+  "btc_dominance": 59.77,
+  "usdt_dominance": 7.13,
+  "mcap_change_24h": -4.21,
   "trending": [
-   "DACITY",
    "SI",
+   "DACITY",
    "ZEC",
    "INIT",
-   "AVAX",
-   "PEARL",
    "HYPE",
+   "AVAX",
    "GRAM",
-   "SOL",
-   "VVV"
+   "PEARL",
+   "LIT",
+   "PENGU"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Forward Industries grows SOL treasury to 8.7 million as token hits nearly three-month low",
+   "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330",
+   "published": "2026-11-10T21:51:19+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL",
+    "NEAR"
+   ],
+   "symbols": [
+    "SOLUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Nd97170f5773b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T22:06:11.696836+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
+   "url": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T21:34:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7c18be58f683",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T22:06:11.696836+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Across Protocol warns users to avoid app amid reports of drained wallets",
@@ -33,6 +71,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T21:36:40.610237+00:00",
    "notified": false
   },
@@ -49,6 +88,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T21:36:40.610237+00:00",
    "notified": false
   },
@@ -3032,9 +3072,30 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": -0.132,
+   "risk": 0.272,
+   "events": [
+    "regulation",
+    "listing",
+    "security"
+   ],
+   "count": 5,
+   "last": "2026-11-10T21:51:19+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.309,
+   "risk": 0.754,
+   "events": [
+    "macro",
+    "security"
+   ],
+   "count": 8,
+   "last": "2026-11-10T21:51:19+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.215,
-   "risk": 0.929,
+   "risk": 0.919,
    "events": [
     "macro",
     "security",
@@ -3058,16 +3119,6 @@
    "count": 1,
    "last": "2026-11-10T17:24:44+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": -0.352,
-   "risk": 0.764,
-   "events": [
-    "macro",
-    "security"
-   ],
-   "count": 7,
-   "last": "2026-11-10T16:25:03+00:00"
-  },
   "LINKUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -3077,7 +3128,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.416,
+   "risk": 0.411,
    "events": [
     "macro"
    ],
@@ -3093,7 +3144,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.18,
-   "risk": 0.477,
+   "risk": 0.471,
    "events": [
     "regulation"
    ],
@@ -3101,24 +3152,13 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.087,
+   "sentiment": 0.085,
    "risk": 0.0,
    "events": [
     "listing"
    ],
    "count": 9,
    "last": "2026-11-10T10:56:51+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.165,
-   "risk": 0.278,
-   "events": [
-    "regulation",
-    "listing",
-    "security"
-   ],
-   "count": 4,
-   "last": "2026-11-09T19:52:34+00:00"
   },
   "AVAXUSDT": {
    "sentiment": 0.0,
