@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-11-10T16:10:33.357389+00:00",
+ "updated_at": "2026-11-10T16:40:12.239279+00:00",
  "market": {
   "btc_dominance": 59.71,
-  "usdt_dominance": 7.18,
-  "mcap_change_24h": -5.74,
+  "usdt_dominance": 7.21,
+  "mcap_change_24h": -6.22,
   "trending": [
    "BTC",
    "SI",
+   "DACITY",
    "INIT",
+   "ETH",
+   "MEGA",
+   "SOL",
    "PEPE",
    "HYPE",
-   "ETH",
-   "PENGU",
-   "AVAX",
-   "ZEC",
-   "LIT"
+   "AVAX"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat",
+   "url": "https://cointelegraph.com/markets/bitcoin-11-week-low-discouraging-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T16:25:03+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N797080cf211d",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-10T16:40:12.239279+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Alta raises $47.5 million Series A to build a blockchain for financial institutions",
+   "url": "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244",
+   "published": "2026-11-10T16:19:16+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N12cb370d3a74",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T16:40:12.239279+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Canaan’s Q3 revenue plunges 90% to $14.5 million as bitcoin mining hardware sales slump",
@@ -37,6 +75,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T16:10:33.357389+00:00",
    "notified": false
   },
@@ -53,6 +92,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T16:10:33.357389+00:00",
    "notified": false
   },
@@ -69,6 +109,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T16:10:33.357389+00:00",
    "notified": false
   },
@@ -89,6 +130,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T16:10:33.357389+00:00",
    "notified": false
   },
@@ -2790,16 +2832,26 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.151,
-   "risk": 0.547,
+   "sentiment": -0.137,
+   "risk": 0.537,
    "events": [
-    "etf_flow",
     "macro",
+    "etf_flow",
     "security",
     "market"
    ],
-   "count": 27,
-   "last": "2026-11-10T16:02:02+00:00"
+   "count": 28,
+   "last": "2026-11-10T16:25:03+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.348,
+   "risk": 0.867,
+   "events": [
+    "macro",
+    "security"
+   ],
+   "count": 7,
+   "last": "2026-11-10T16:25:03+00:00"
   },
   "LINKUSDT": {
    "sentiment": 0.0,
@@ -2810,7 +2862,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.472,
+   "risk": 0.467,
    "events": [
     "macro"
    ],
@@ -2825,8 +2877,8 @@
    "last": "2026-11-10T12:38:20+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.178,
-   "risk": 0.545,
+   "sentiment": -0.179,
+   "risk": 0.538,
    "events": [
     "regulation"
    ],
@@ -2834,7 +2886,7 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.102,
+   "sentiment": 0.101,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2842,18 +2894,9 @@
    "count": 9,
    "last": "2026-11-10T10:56:51+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": -0.505,
-   "risk": 0.877,
-   "events": [
-    "security"
-   ],
-   "count": 6,
-   "last": "2026-11-10T10:41:45+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": -0.179,
-   "risk": 0.346,
+   "sentiment": -0.178,
+   "risk": 0.34,
    "events": [
     "regulation",
     "listing",
