@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-10T19:37:46.020769+00:00",
+ "updated_at": "2026-11-10T20:07:19.880940+00:00",
  "market": {
-  "btc_dominance": 59.73,
-  "usdt_dominance": 7.17,
-  "mcap_change_24h": -4.56,
+  "btc_dominance": 59.71,
+  "usdt_dominance": 7.16,
+  "mcap_change_24h": -4.46,
   "trending": [
    "SI",
-   "ZEC",
-   "INIT",
-   "BTC",
    "DACITY",
-   "LIT",
+   "ZEC",
    "ETH",
-   "PENGU",
-   "SOL",
-   "MEGA"
+   "BTC",
+   "INIT",
+   "PEARL",
+   "HYPE",
+   "QTC",
+   "LIT"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin slides below $74,000 after hotter-than-expected CPI as analysts warn of drop to $70k",
+   "url": "https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
+   "published": "2026-11-10T19:38:18+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N47cf7d5b9773",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.5,
+   "first_seen": "2026-11-10T20:07:19.880940+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
@@ -2244,23 +2264,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "What the election results mean for crypto: State of Crypto",
-   "url": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto",
-   "published": "2026-11-08T19:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N910bfc42f9f5",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-08T19:52:13.483565+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
    "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2946,16 +2949,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.216,
-   "risk": 0.97,
+   "sentiment": -0.214,
+   "risk": 0.96,
    "events": [
-    "security",
     "macro",
+    "security",
     "etf_flow",
     "market"
    ],
-   "count": 29,
-   "last": "2026-11-10T18:12:07+00:00"
+   "count": 30,
+   "last": "2026-11-10T19:38:18+00:00"
   },
   "TONUSDT": {
    "sentiment": 0.0,
@@ -2973,7 +2976,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.351,
-   "risk": 0.805,
+   "risk": 0.795,
    "events": [
     "macro",
     "security"
@@ -2990,7 +2993,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.437,
+   "risk": 0.431,
    "events": [
     "macro"
    ],
@@ -3005,8 +3008,8 @@
    "last": "2026-11-10T12:38:20+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.179,
-   "risk": 0.501,
+   "sentiment": -0.18,
+   "risk": 0.495,
    "events": [
     "regulation"
    ],
@@ -3014,7 +3017,7 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.094,
+   "sentiment": 0.092,
    "risk": 0.0,
    "events": [
     "listing"
@@ -3023,8 +3026,8 @@
    "last": "2026-11-10T10:56:51+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.167,
-   "risk": 0.303,
+   "sentiment": -0.164,
+   "risk": 0.297,
    "events": [
     "regulation",
     "listing",
