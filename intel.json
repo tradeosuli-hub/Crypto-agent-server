@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-10T03:22:30.722103+00:00",
+ "updated_at": "2026-11-10T03:51:54.667870+00:00",
  "market": {
-  "btc_dominance": 59.64,
-  "usdt_dominance": 7.02,
-  "mcap_change_24h": -2.24,
+  "btc_dominance": 59.6,
+  "usdt_dominance": 7.05,
+  "mcap_change_24h": -2.58,
   "trending": [
    "DACITY",
    "AVAX",
    "BTC",
-   "ETH",
-   "KNTQ",
+   "PENGU",
    "SOL",
    "HYPE",
    "INIT",
-   "NEAR",
-   "XPL"
+   "XRP",
+   "KNTQ",
+   "ETH"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Trump Media swings to $410 million profit in Q3, driven by crypto gains",
+   "url": "https://www.theblock.co/news/business/2026-11-09-trump-media-q3-profit-436964",
+   "published": "2026-11-10T03:36:43+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N42e553c9b1f9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T03:51:54.667870+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
+   "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
+   "published": "2026-11-10T03:22:26+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N99015e068554",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-10T03:51:54.667870+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "OpenAI builds kill switch to stop rogue agents within 35 seconds",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T03:22:30.722103+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T03:22:30.722103+00:00",
    "notified": false
   },
@@ -1426,23 +1464,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-   "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
-   "published": "2026-11-07T16:51:00+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N90f0649e191d",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T17:19:17.000860+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
    "url": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2252,19 +2273,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.23,
-   "risk": 0.814,
+   "sentiment": -0.194,
+   "risk": 0.803,
    "events": [
+    "macro",
     "security",
     "market",
     "etf_flow"
    ],
-   "count": 15,
-   "last": "2026-11-10T00:42:39+00:00"
+   "count": 16,
+   "last": "2026-11-10T03:22:26+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.204,
-   "risk": 0.567,
+   "sentiment": -0.203,
+   "risk": 0.557,
    "events": [
     "regulation",
     "listing",
