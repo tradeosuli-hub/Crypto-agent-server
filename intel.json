@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-10T08:17:28.448319+00:00",
+ "updated_at": "2026-11-10T08:46:59.616226+00:00",
  "market": {
-  "btc_dominance": 59.65,
-  "usdt_dominance": 7.02,
-  "mcap_change_24h": -0.45,
+  "btc_dominance": 59.6,
+  "usdt_dominance": 7.04,
+  "mcap_change_24h": -0.72,
   "trending": [
    "BTC",
-   "HYPE",
+   "ETH",
+   "JCT",
    "PENGU",
+   "AVAX",
+   "HYPE",
    "INIT",
    "INJ",
-   "AVAX",
-   "JCT",
-   "KNTQ",
-   "ETH",
-   "PEARL"
+   "PEARL",
+   "MON"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Important: Transactions with Certain Crypto Platforms",
+   "url": "https://www.binance.com/en/support/announcement/9ef6e347da924cdc90f53577ab483b1f",
+   "published": "2026-11-10T08:30:07.492000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd57f739bc96f",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T08:46:59.616226+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "BitGo revenue falls 51% in Q3 as trading slows; net income rises on treasury gains",
+   "url": "https://www.theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986",
+   "published": "2026-11-10T08:20:53+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N980219d6c630",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T08:46:59.616226+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
@@ -37,6 +69,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T08:17:28.448319+00:00",
    "notified": false
   },
@@ -53,6 +86,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T08:17:28.448319+00:00",
    "notified": false
   },
@@ -1811,23 +1845,6 @@
   },
   {
    "source": "binance",
-   "title": "Predict (PREDICT) Listing Will Be Postponed",
-   "url": "https://www.binance.com/en/support/announcement/eb1fb9e5f41f43b682332aff0b7b89ce",
-   "published": "2026-10-30T02:32:34.004000+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N27b17d86c3a1",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-30T02:50:45.490723+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
    "url": "https://www.binance.com/en/support/announcement/a259777ee4104befa3daba5c1eadc7b5",
    "published": "2026-10-29T11:48:52.329000+00:00",
@@ -2344,7 +2361,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.21,
-   "risk": 0.711,
+   "risk": 0.701,
    "events": [
     "etf_flow",
     "macro",
@@ -2365,8 +2382,8 @@
    "last": "2026-11-10T07:01:06+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.156,
-   "risk": 0.575,
+   "sentiment": -0.157,
+   "risk": 0.569,
    "events": [
     "regulation"
    ],
@@ -2381,8 +2398,8 @@
    "last": "2026-11-10T04:51:20+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.197,
-   "risk": 0.465,
+   "sentiment": -0.196,
+   "risk": 0.455,
    "events": [
     "regulation",
     "listing",
