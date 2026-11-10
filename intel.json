@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-10T04:50:51.115807+00:00",
+ "updated_at": "2026-11-10T05:20:23.425880+00:00",
  "market": {
-  "btc_dominance": 59.63,
-  "usdt_dominance": 7.03,
-  "mcap_change_24h": -1.88,
+  "btc_dominance": 59.62,
+  "usdt_dominance": 7.01,
+  "mcap_change_24h": -1.61,
   "trending": [
-   "DACITY",
-   "PENGU",
-   "PEPE",
-   "INIT",
-   "AVAX",
-   "PEARL",
-   "XRP",
    "HYPE",
-   "PIEVERSE",
-   "JUP"
+   "DACITY",
+   "INIT",
+   "PEPE",
+   "PENGU",
+   "AVAX",
+   "XRP",
+   "PI",
+   "UNI",
+   "BTC"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
+   "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more",
+   "published": "2026-11-10T05:18:31+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb225417e8fef",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T05:20:23.425880+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Crypto exchanges need dollar caps on hot wallets, CertiK says",
+   "url": "https://cointelegraph.com/news/crypto-exchanges-need-dollar-caps-on-hot-wallets-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T05:05:58+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N93c2d526b8f0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T05:20:23.425880+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
+   "url": "https://www.coindesk.com/tech/2026/11/10/xrp-ledger-maps-out-quantum-proof-accounts-with-no-extra-fees-for-users",
+   "published": "2026-11-10T04:51:20+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Nae5ed6e3d8ef",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T05:20:23.425880+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Trump Media swings to $410 million profit in Q3, driven by crypto gains",
@@ -1432,40 +1488,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-   "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
-   "published": "2026-11-07T19:13:16+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2a70a9bf3c53",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T19:17:17.120553+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-   "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
-   "published": "2026-11-07T17:36:46+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N41fe170edde9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T17:48:44.643880+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
    "url": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1535,23 +1557,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-07T09:27:29.816966+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Nvidia may face a more hostile post-election Washington: Report",
-   "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-07T07:45:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9b6655e16309",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-07T07:58:32.800509+00:00",
    "notified": false
   },
   {
@@ -2275,20 +2280,27 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.194,
-   "risk": 0.783,
+   "sentiment": -0.183,
+   "risk": 0.773,
    "events": [
     "macro",
     "security",
     "market",
     "etf_flow"
    ],
-   "count": 16,
-   "last": "2026-11-10T03:22:26+00:00"
+   "count": 17,
+   "last": "2026-11-10T05:18:31+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-10T04:51:20+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.202,
-   "risk": 0.537,
+   "sentiment": -0.201,
+   "risk": 0.527,
    "events": [
     "regulation",
     "listing",
@@ -2298,7 +2310,7 @@
    "last": "2026-11-09T19:52:34+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.183,
+   "sentiment": 0.182,
    "risk": 0.0,
    "events": [
     "listing",
