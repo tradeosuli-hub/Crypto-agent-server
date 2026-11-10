@@ -1,25 +1,95 @@
 {
- "updated_at": "2026-11-10T17:10:24.821261+00:00",
+ "updated_at": "2026-11-10T17:39:54.224908+00:00",
  "market": {
-  "btc_dominance": 59.72,
-  "usdt_dominance": 7.21,
-  "mcap_change_24h": -5.55,
+  "btc_dominance": 59.7,
+  "usdt_dominance": 7.2,
+  "mcap_change_24h": -5.48,
   "trending": [
-   "BTC",
    "DACITY",
-   "SOL",
-   "MEGA",
-   "SI",
-   "INIT",
-   "ETH",
-   "PENGU",
    "ZEC",
-   "MON"
+   "BTC",
+   "INIT",
+   "SI",
+   "SOL",
+   "AVAX",
+   "MEGA",
+   "HYPE",
+   "PEARL"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+   "url": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+   "published": "2026-11-10T17:32:22+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5fc865e5da2f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T17:39:54.224908+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Hot US inflation raises odds of half-point Fed hike in December",
+   "url": "https://cointelegraph.com/news/hot-us-inflation-raises-rate-hike-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T17:31:09+00:00",
+   "kind": "macro",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N85e975c691ae",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-10T17:39:54.224908+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "TON Strategy earns $13.1 million from GRAM staking in Q3 as Telegram rolls out native wallet",
+   "url": "https://www.theblock.co/news/markets/2026-11-10-ton-strategy-tonx-q3-2026-earnings-gram-staking-437278",
+   "published": "2026-11-10T17:24:44+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "TON",
+    "GRAM"
+   ],
+   "symbols": [
+    "TONUSDT",
+    "GRAMUSDT"
+   ],
+   "id": "N6098557df804",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T17:39:54.224908+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Polymarket US trading volume jumps 266% despite regulatory battles",
+   "url": "https://cointelegraph.com/news/polymarket-us-trading-volume-jumps-regulatory-battles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T17:07:48+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf81c4aa183c8",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.6,
+   "first_seen": "2026-11-10T17:39:54.224908+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto teams up with U.S. government to defend stock perps in legal fight",
@@ -2850,9 +2920,23 @@
   }
  ],
  "symbols": {
+  "TONUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-10T17:24:44+00:00"
+  },
+  "GRAMUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-10T17:24:44+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.137,
-   "risk": 0.526,
+   "risk": 0.516,
    "events": [
     "macro",
     "etf_flow",
@@ -2863,8 +2947,8 @@
    "last": "2026-11-10T16:25:03+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.348,
-   "risk": 0.857,
+   "sentiment": -0.349,
+   "risk": 0.846,
    "events": [
     "macro",
     "security"
@@ -2881,7 +2965,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.462,
+   "risk": 0.457,
    "events": [
     "macro"
    ],
@@ -2897,7 +2981,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.179,
-   "risk": 0.532,
+   "risk": 0.526,
    "events": [
     "regulation"
    ],
@@ -2905,7 +2989,7 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.1,
+   "sentiment": 0.099,
    "risk": 0.0,
    "events": [
     "listing"
@@ -2914,8 +2998,8 @@
    "last": "2026-11-10T10:56:51+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.176,
-   "risk": 0.334,
+   "sentiment": -0.174,
+   "risk": 0.328,
    "events": [
     "regulation",
     "listing",
