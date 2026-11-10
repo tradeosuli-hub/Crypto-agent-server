@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-10T11:44:40.336679+00:00",
+ "updated_at": "2026-11-10T12:14:18.877477+00:00",
  "market": {
-  "btc_dominance": 60.29,
-  "usdt_dominance": 7.15,
-  "mcap_change_24h": -2.64,
+  "btc_dominance": 60.33,
+  "usdt_dominance": 7.14,
+  "mcap_change_24h": -2.81,
   "trending": [
    "SI",
    "AVAX",
-   "AERO",
-   "PENGU",
+   "DACITY",
    "BTC",
+   "PENGU",
+   "AERO",
    "SOL",
    "ONE",
    "NEAR",
-   "XRP",
-   "DACITY"
+   "HYPE"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "HIVE reports $79 million quarterly net loss as bitcoin mining revenue falls and AI business grows",
+   "url": "https://www.theblock.co/news/business/2026-11-10-hive-reports-79-million-quarterly-net-loss-as-bitcoin-mining-revenue-falls-and-ai-business-grows-437177",
+   "published": "2026-11-10T11:52:16+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4090cfe13fc1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T12:14:18.877477+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Coinbase, Kalshi join lawsuit backing CFTC over US stock perp futures",
+   "url": "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-10T11:44:55+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "SUI"
+   ],
+   "symbols": [
+    "SUIUSDT"
+   ],
+   "id": "Nfa84aa7da00e",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-10T12:14:18.877477+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance warns iOS flaw could expose crypto wallet keys",
@@ -33,6 +73,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T11:44:40.336679+00:00",
    "notified": false
   },
@@ -53,6 +94,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T11:44:40.336679+00:00",
    "notified": false
   },
@@ -2541,16 +2583,25 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.118,
-   "risk": 0.639,
+   "sentiment": -0.12,
+   "risk": 0.629,
    "events": [
     "macro",
     "etf_flow",
     "security",
     "market"
    ],
-   "count": 23,
-   "last": "2026-11-10T11:24:10+00:00"
+   "count": 24,
+   "last": "2026-11-10T11:52:16+00:00"
+  },
+  "SUIUSDT": {
+   "sentiment": -0.178,
+   "risk": 0.594,
+   "events": [
+    "regulation"
+   ],
+   "count": 3,
+   "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.127,
@@ -2563,22 +2614,13 @@
    "last": "2026-11-10T10:56:51+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.545,
-   "risk": 0.97,
+   "sentiment": -0.546,
+   "risk": 0.959,
    "events": [
     "security"
    ],
    "count": 5,
    "last": "2026-11-10T10:17:13+00:00"
-  },
-  "SUIUSDT": {
-   "sentiment": -0.157,
-   "risk": 0.532,
-   "events": [
-    "regulation"
-   ],
-   "count": 2,
-   "last": "2026-11-10T06:19:10+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.0,
@@ -2588,8 +2630,8 @@
    "last": "2026-11-10T04:51:20+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.191,
-   "risk": 0.402,
+   "sentiment": -0.19,
+   "risk": 0.395,
    "events": [
     "regulation",
     "listing",
