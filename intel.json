@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-10T05:20:23.425880+00:00",
+ "updated_at": "2026-11-10T05:49:55.307715+00:00",
  "market": {
   "btc_dominance": 59.62,
   "usdt_dominance": 7.01,
-  "mcap_change_24h": -1.61,
+  "mcap_change_24h": -1.57,
   "trending": [
    "HYPE",
-   "DACITY",
    "INIT",
    "PEPE",
-   "PENGU",
+   "DACITY",
    "AVAX",
-   "XRP",
-   "PI",
-   "UNI",
-   "BTC"
+   "BTC",
+   "ZEC",
+   "MON",
+   "PIEVERSE",
+   "SHIB"
   ],
   "fear_greed": 32,
   "fear_greed_label": "Fear"
@@ -37,12 +37,13 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T05:20:23.425880+00:00",
    "notified": false
   },
   {
    "source": "cointelegraph",
-   "title": "Crypto exchanges need dollar caps on hot wallets, CertiK says",
+   "title": "Crypto exchanges need hard dollar caps on hot wallets, CertiK says",
    "url": "https://cointelegraph.com/news/crypto-exchanges-need-dollar-caps-on-hot-wallets-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-10T05:05:58+00:00",
    "kind": "news",
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T05:20:23.425880+00:00",
    "notified": false
   },
@@ -73,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-10T05:20:23.425880+00:00",
    "notified": false
   },
@@ -260,23 +263,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-09T22:27:47.569509+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T22:06:26+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-03T06:19:31.662788+00:00",
    "notified": false
   },
   {
@@ -1560,6 +1546,22 @@
    "notified": false
   },
   {
+   "source": "cointelegraph",
+   "title": "Nvidia may face a more hostile post-election Washington: Report",
+   "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-07T07:45:24+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9b6655e16309",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-10T05:49:55.307715+00:00",
+   "notified": false
+  },
+  {
    "source": "binance",
    "title": "Recovery Update #9: Withdrawals for More Assets to Reopen (2026-11-06)",
    "url": "https://www.binance.com/en/support/announcement/a2dd10b860a14c35a856fe9d66d6032c",
@@ -2280,8 +2282,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.183,
-   "risk": 0.773,
+   "sentiment": -0.182,
+   "risk": 0.762,
    "events": [
     "macro",
     "security",
@@ -2300,7 +2302,7 @@
   },
   "SOLUSDT": {
    "sentiment": -0.201,
-   "risk": 0.527,
+   "risk": 0.516,
    "events": [
     "regulation",
     "listing",
@@ -2310,7 +2312,7 @@
    "last": "2026-11-09T19:52:34+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.182,
+   "sentiment": 0.181,
    "risk": 0.0,
    "events": [
     "listing",
