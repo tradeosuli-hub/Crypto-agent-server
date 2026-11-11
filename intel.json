@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-11T16:48:45.527957+00:00",
+ "updated_at": "2026-11-11T17:18:11.957312+00:00",
  "market": {
-  "btc_dominance": 59.77,
+  "btc_dominance": 59.72,
   "usdt_dominance": 7.04,
-  "mcap_change_24h": -1.38,
+  "mcap_change_24h": -0.82,
   "trending": [
    "ZIG",
-   "BTC",
    "ZEC",
-   "AVAX",
+   "BTC",
    "GRASS",
    "HYPE",
-   "GRAM",
+   "AVAX",
+   "AERO",
+   "PEARL",
    "LIT",
-   "SOL",
-   "PEARL"
+   "ARB"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Apex Group joins Hedera Council to explore tokenization and settlement",
+   "url": "https://www.theblock.co/news/deals/2026-11-11-apex-group-joins-hedera-council-tokenization-437917",
+   "published": "2026-11-11T17:07:22+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N394e6e326348",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T17:18:11.957312+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Pyth Network adds NYSE stock and ETF data to its marketplace",
+   "url": "https://www.theblock.co/news/web3/2026-11-11-pyth-network-nyse-data-437928",
+   "published": "2026-11-11T16:56:54+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N603cf2a348b0",
+   "kind_fa": "جریان ETF",
+   "importance": 6,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T17:18:11.957312+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
@@ -39,6 +71,7 @@
    "importance": 3,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T16:48:45.527957+00:00",
    "notified": false
   },
@@ -55,6 +88,7 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T16:48:45.527957+00:00",
    "notified": false
   },
@@ -3014,19 +3048,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.113,
-   "risk": 0.529,
+   "sentiment": -0.114,
+   "risk": 0.519,
    "events": [
     "etf_flow",
     "macro",
     "security"
    ],
-   "count": 34,
+   "count": 33,
    "last": "2026-11-11T16:26:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.214,
-   "risk": 0.364,
+   "sentiment": -0.212,
+   "risk": 0.354,
    "events": [
     "macro",
     "security"
@@ -3050,7 +3084,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.216,
+   "risk": 0.211,
    "events": [
     "macro"
    ],
@@ -3058,7 +3092,7 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.094,
+   "sentiment": -0.095,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -3095,8 +3129,8 @@
    "last": "2026-11-10T12:38:20+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.18,
-   "risk": 0.237,
+   "sentiment": -0.179,
+   "risk": 0.231,
    "events": [
     "regulation"
    ],
