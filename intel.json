@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-11T19:45:47.768801+00:00",
+ "updated_at": "2026-11-11T20:15:18.726732+00:00",
  "market": {
   "btc_dominance": 59.87,
   "usdt_dominance": 7.04,
-  "mcap_change_24h": -1.67,
+  "mcap_change_24h": -1.48,
   "trending": [
    "ZIG",
-   "BTC",
    "PENGU",
+   "BTC",
    "ZEC",
    "VVV",
+   "SOL",
    "NEAR",
-   "AVAX",
-   "KNTQ",
    "ETH",
-   "SOL"
+   "HYPE",
+   "GRAM"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Sen. Warren, Merkley raise ethics concerns over Trump aide’s prediction market bets",
+   "url": "https://www.theblock.co/news/regulation/2026-11-11-sen-warren-merkley-raise-ethics-concerns-over-trump-aides-prediction-market-bets-438394",
+   "published": "2026-11-11T19:48:46+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nff9fa75305bb",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T20:15:18.726732+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "OKXICE moves ahead with tokenized stocks as blue chips push back",
@@ -2368,23 +2384,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
-   "url": "https://www.coindesk.com/business/2026/11/09/robinhood-backs-tokenization-of-its-stock-on-okx-ice-platform-even-as-most-companies-opt-out",
-   "published": "2026-11-09T19:36:15+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nea0e58439c3e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T20:00:18.356722+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -2981,8 +2980,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.093,
-   "risk": 0.467,
+   "sentiment": -0.092,
+   "risk": 0.457,
    "events": [
     "etf_flow",
     "macro",
@@ -2992,8 +2991,8 @@
    "last": "2026-11-11T16:26:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.199,
-   "risk": 0.303,
+   "sentiment": -0.196,
+   "risk": 0.292,
    "events": [
     "macro",
     "security"
@@ -3017,7 +3016,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.185,
+   "risk": 0.18,
    "events": [
     "macro"
    ],
@@ -3025,12 +3024,10 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.099,
-   "risk": 0.12,
-   "events": [
-    "regulation"
-   ],
-   "count": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
    "last": "2026-11-10T21:51:19+00:00"
   },
   "TONUSDT": {
@@ -3063,7 +3060,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.2,
+   "risk": 0.194,
    "events": [
     "regulation"
    ],
