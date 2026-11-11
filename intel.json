@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-11T06:57:52.219515+00:00",
+ "updated_at": "2026-11-11T07:27:22.478632+00:00",
  "market": {
-  "btc_dominance": 59.77,
-  "usdt_dominance": 7.11,
-  "mcap_change_24h": -4.45,
+  "btc_dominance": 59.81,
+  "usdt_dominance": 7.1,
+  "mcap_change_24h": -4.12,
   "trending": [
-   "INIT",
-   "HYPE",
+   "BTC",
+   "PI",
    "JCT",
    "LIT",
-   "PI",
-   "MEGA",
-   "NEAR",
-   "BTC",
+   "INIT",
+   "ZEC",
+   "HYPE",
    "ETH",
-   "ZEC"
+   "GRAM",
+   "SUI"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
@@ -2376,44 +2376,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "SpaceX proposes a $24 billion Texas supercomputer and a gas plant",
-   "url": "https://www.coindesk.com/markets/2026/11/09/spacex-proposes-a-usd24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile",
-   "published": "2026-11-09T06:54:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3c2021381ccd",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T07:10:39.571955+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-   "url": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack",
-   "published": "2026-11-09T06:36:45+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N71101bc2fc2b",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T07:10:39.571955+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3048,7 +3010,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.083,
+   "sentiment": 0.084,
    "risk": 0.0,
    "events": [
     "listing"
@@ -3058,7 +3020,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.318,
+   "risk": 0.313,
    "events": [
     "macro"
    ],
@@ -3067,7 +3029,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.209,
-   "risk": 0.734,
+   "risk": 0.724,
    "events": [
     "macro",
     "security",
@@ -3078,8 +3040,8 @@
    "last": "2026-11-11T01:16:58+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.012,
-   "risk": 0.161,
+   "sentiment": 0.014,
+   "risk": 0.155,
    "events": [
     "regulation",
     "listing"
@@ -3088,8 +3050,8 @@
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.317,
-   "risk": 0.569,
+   "sentiment": -0.316,
+   "risk": 0.559,
    "events": [
     "macro",
     "security"
@@ -3127,7 +3089,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.185,
-   "risk": 0.36,
+   "risk": 0.354,
    "events": [
     "regulation"
    ],
