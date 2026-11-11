@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-11T17:47:43.697858+00:00",
+ "updated_at": "2026-11-11T18:17:18.830437+00:00",
  "market": {
-  "btc_dominance": 59.79,
-  "usdt_dominance": 7.02,
-  "mcap_change_24h": -0.52,
+  "btc_dominance": 59.8,
+  "usdt_dominance": 7.03,
+  "mcap_change_24h": -1.09,
   "trending": [
    "ZIG",
    "BTC",
-   "ZEC",
-   "AERO",
-   "GRASS",
    "LIT",
-   "HYPE",
-   "PEARL",
+   "ZEC",
    "VVV",
-   "SUI"
+   "SUI",
+   "KNTQ",
+   "AVAX",
+   "XRP",
+   "GRAM"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T17:47:43.697858+00:00",
    "notified": false
   },
@@ -2411,44 +2412,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "PNC Bank tests turning USDC payments into dollar deposits",
-   "url": "https://cointelegraph.com/news/pnc-bank-launches-usdc-payment-pilot-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T17:48:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5ecb39e69481",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T18:00:40.974768+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Avalanche’s AVAX leads crypto gains following NYSE tokenization deal",
-   "url": "https://cointelegraph.com/news/avalanche-avax-crypto-nyse-tokenization-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T17:41:02+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "AVAX"
-   ],
-   "symbols": [
-    "AVAXUSDT"
-   ],
-   "id": "Ncd689cc9698d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T18:00:40.974768+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3046,7 +3009,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.114,
-   "risk": 0.508,
+   "risk": 0.498,
    "events": [
     "etf_flow",
     "macro",
@@ -3056,8 +3019,8 @@
    "last": "2026-11-11T16:26:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.21,
-   "risk": 0.344,
+   "sentiment": -0.207,
+   "risk": 0.333,
    "events": [
     "macro",
     "security"
@@ -3081,7 +3044,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.206,
+   "risk": 0.2,
    "events": [
     "macro"
    ],
@@ -3089,7 +3052,7 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.095,
+   "sentiment": -0.096,
    "risk": 0.12,
    "events": [
     "regulation"
@@ -3126,8 +3089,8 @@
    "last": "2026-11-10T12:38:20+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.179,
-   "risk": 0.224,
+   "sentiment": -0.178,
+   "risk": 0.218,
    "events": [
     "regulation"
    ],
