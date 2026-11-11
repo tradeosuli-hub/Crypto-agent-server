@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-11T17:18:11.957312+00:00",
+ "updated_at": "2026-11-11T17:47:43.697858+00:00",
  "market": {
-  "btc_dominance": 59.72,
-  "usdt_dominance": 7.04,
-  "mcap_change_24h": -0.82,
+  "btc_dominance": 59.79,
+  "usdt_dominance": 7.02,
+  "mcap_change_24h": -0.52,
   "trending": [
    "ZIG",
-   "ZEC",
    "BTC",
-   "GRASS",
-   "HYPE",
-   "AVAX",
+   "ZEC",
    "AERO",
-   "PEARL",
+   "GRASS",
    "LIT",
-   "ARB"
+   "HYPE",
+   "PEARL",
+   "VVV",
+   "SUI"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Stablecoin supply drops $14.2 billion in largest contraction since 2022 bear market",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907",
+   "published": "2026-11-11T17:23:10+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N40a21f3f7a92",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T17:47:43.697858+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Apex Group joins Hedera Council to explore tokenization and settlement",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T17:18:11.957312+00:00",
    "notified": false
   },
@@ -49,6 +66,7 @@
    "importance": 6,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T17:18:11.957312+00:00",
    "notified": false
   },
@@ -2431,27 +2449,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
-   "url": "https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T17:13:25+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N8d4278d12f0d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T17:31:04.141360+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3049,7 +3046,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.114,
-   "risk": 0.519,
+   "risk": 0.508,
    "events": [
     "etf_flow",
     "macro",
@@ -3059,8 +3056,8 @@
    "last": "2026-11-11T16:26:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.212,
-   "risk": 0.354,
+   "sentiment": -0.21,
+   "risk": 0.344,
    "events": [
     "macro",
     "security"
@@ -3084,7 +3081,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.211,
+   "risk": 0.206,
    "events": [
     "macro"
    ],
@@ -3130,19 +3127,12 @@
   },
   "SUIUSDT": {
    "sentiment": -0.179,
-   "risk": 0.231,
+   "risk": 0.224,
    "events": [
     "regulation"
    ],
    "count": 3,
    "last": "2026-11-10T11:44:55+00:00"
-  },
-  "AVAXUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-09T17:41:02+00:00"
   }
  },
  "social": {},
