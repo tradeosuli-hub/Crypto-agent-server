@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-11T14:21:07.172872+00:00",
+ "updated_at": "2026-11-11T14:50:43.457811+00:00",
  "market": {
-  "btc_dominance": 59.73,
-  "usdt_dominance": 7.09,
-  "mcap_change_24h": -2.86,
+  "btc_dominance": 59.72,
+  "usdt_dominance": 7.1,
+  "mcap_change_24h": -2.92,
   "trending": [
    "DOGE",
    "GRAM",
    "ZEC",
-   "NIHAO",
    "BTC",
    "HYPE",
-   "XRP",
    "PUMP",
-   "PEARL",
-   "ETH"
+   "AVAX",
+   "LIT",
+   "XRP",
+   "AERO"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin ‘ripe for a squeeze’ as options traders raise odds of sub-$70,000 Christmas",
+   "url": "https://www.theblock.co/news/markets/2026-11-11-bitcoin-ripe-for-squeeze-options-traders-raise-odds-sub-70000-christmas-437897",
+   "published": "2026-11-11T14:44:31+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1869c78ae9ae",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T14:50:43.457811+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Deutsche Bank launches crypto custody for companies and institutions",
@@ -33,6 +53,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T14:21:07.172872+00:00",
    "notified": false
   },
@@ -2487,50 +2508,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Tom Lee’s Bitmine nears 5% Ethereum supply target with $20 million ETH buy as he predicts tokenization and AI ‘supercycle’",
-   "url": "https://www.theblock.co/news/business/2026-11-09-tom-lee-bitmine-nears-ethereum-supply-target-20-million-eth-tokenization-ai-supercycle-436219",
-   "published": "2026-11-09T14:32:40+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH",
-    "NEAR"
-   ],
-   "symbols": [
-    "ETHUSDT",
-    "NEARUSDT"
-   ],
-   "id": "Nd6d98495070d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T14:33:11.525748+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "NYSE to settle tokenized stocks on Avalanche in planned 24/7 market",
-   "url": "https://www.theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208",
-   "published": "2026-11-09T14:07:27+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "AVAX"
-   ],
-   "symbols": [
-    "AVAXUSDT"
-   ],
-   "id": "N8c419d30a671",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T14:33:11.525748+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3126,6 +3103,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.123,
+   "risk": 0.57,
+   "events": [
+    "etf_flow",
+    "macro",
+    "security"
+   ],
+   "count": 34,
+   "last": "2026-11-11T14:44:31+00:00"
+  },
   "BNBUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -3133,27 +3121,16 @@
    "count": 1,
    "last": "2026-11-11T13:35:02+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.127,
-   "risk": 0.58,
-   "events": [
-    "etf_flow",
-    "macro",
-    "security"
-   ],
-   "count": 33,
-   "last": "2026-11-11T13:26:18+00:00"
-  },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 7,
+   "count": 6,
    "last": "2026-11-11T09:58:15+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.241,
+   "risk": 0.236,
    "events": [
     "macro"
    ],
@@ -3170,13 +3147,13 @@
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.3,
-   "risk": 0.415,
+   "sentiment": -0.311,
+   "risk": 0.405,
    "events": [
     "macro",
     "security"
    ],
-   "count": 7,
+   "count": 6,
    "last": "2026-11-10T21:51:19+00:00"
   },
   "TONUSDT": {
@@ -3209,7 +3186,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.182,
-   "risk": 0.267,
+   "risk": 0.261,
    "events": [
     "regulation"
    ],
