@@ -1,25 +1,62 @@
 {
- "updated_at": "2026-11-11T05:58:48.923687+00:00",
+ "updated_at": "2026-11-11T06:28:20.679291+00:00",
  "market": {
-  "btc_dominance": 59.75,
-  "usdt_dominance": 7.07,
-  "mcap_change_24h": -3.83,
+  "btc_dominance": 59.77,
+  "usdt_dominance": 7.08,
+  "mcap_change_24h": -4.11,
   "trending": [
    "LIT",
-   "BTC",
-   "ZEC",
-   "MEGA",
-   "AVAX",
    "INIT",
-   "STONK",
-   "GRAM",
-   "MON",
-   "BDX"
+   "HYPE",
+   "MEGA",
+   "PI",
+   "AERO",
+   "ZEC",
+   "PEARL",
+   "ETH",
+   "INJ"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitmine reports $6.3 billion net loss in latest fiscal year, driven by 44% ether decline",
+   "url": "https://www.theblock.co/news/business/2026-11-11-bitmine-6-3-billion-net-loss-437812",
+   "published": "2026-11-11T06:22:32+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N0d508aa675fd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T06:28:20.679291+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T06:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-11-10T06:19:23.697125+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
@@ -33,6 +70,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T05:58:48.923687+00:00",
    "notified": false
   },
@@ -212,23 +250,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-10T23:34:45.790851+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T22:04:47+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T06:19:23.697125+00:00",
    "notified": false
   },
   {
@@ -2410,23 +2431,6 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Zcash devs propose another block time cut days after NU7 upgrade",
-   "url": "https://cointelegraph.com/news/zcash-developers-propose-20-second-blocks-nu7-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T05:36:08+00:00",
-   "kind": "project",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N69b85c934d97",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 4,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T06:11:36.854742+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
    "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-07T07:45:24+00:00",
@@ -3042,9 +3046,18 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.082,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 8,
+   "last": "2026-11-11T06:22:32+00:00"
+  },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.329,
+   "risk": 0.324,
    "events": [
     "macro"
    ],
@@ -3052,8 +3065,8 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.21,
-   "risk": 0.755,
+   "sentiment": -0.209,
+   "risk": 0.744,
    "events": [
     "macro",
     "security",
@@ -3076,7 +3089,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.318,
-   "risk": 0.59,
+   "risk": 0.579,
    "events": [
     "macro",
     "security"
@@ -3114,21 +3127,12 @@
   },
   "SUIUSDT": {
    "sentiment": -0.184,
-   "risk": 0.372,
+   "risk": 0.366,
    "events": [
     "regulation"
    ],
    "count": 3,
    "last": "2026-11-10T11:44:55+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.114,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 7,
-   "last": "2026-11-10T10:56:51+00:00"
   },
   "AVAXUSDT": {
    "sentiment": 0.0,
