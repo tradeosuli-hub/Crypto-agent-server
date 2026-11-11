@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-11T05:29:18.039898+00:00",
+ "updated_at": "2026-11-11T05:58:48.923687+00:00",
  "market": {
-  "btc_dominance": 59.77,
-  "usdt_dominance": 7.09,
-  "mcap_change_24h": -4.02,
+  "btc_dominance": 59.75,
+  "usdt_dominance": 7.07,
+  "mcap_change_24h": -3.83,
   "trending": [
-   "ZEC",
-   "BTC",
    "LIT",
-   "SOL",
-   "INIT",
+   "BTC",
+   "ZEC",
    "MEGA",
    "AVAX",
+   "INIT",
    "STONK",
-   "HYPE",
-   "PEARL"
+   "GRAM",
+   "MON",
+   "BDX"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
+   "url": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T05:52:14+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6e0a50098433",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-11T05:58:48.923687+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-11)",
@@ -33,6 +49,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T05:29:18.039898+00:00",
    "notified": false
   },
@@ -2409,27 +2426,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
-   "url": "https://www.coindesk.com/tech/2026/11/09/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts",
-   "published": "2026-11-09T05:16:54+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N010f7b14b01a",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T05:42:09.134682+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Nvidia may face a more hostile post-election Washington: Report",
    "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -3048,7 +3044,7 @@
  "symbols": {
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.334,
+   "risk": 0.329,
    "events": [
     "macro"
    ],
@@ -3057,7 +3053,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.21,
-   "risk": 0.765,
+   "risk": 0.755,
    "events": [
     "macro",
     "security",
@@ -3068,7 +3064,7 @@
    "last": "2026-11-11T01:16:58+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.177,
+   "sentiment": -0.178,
    "risk": 0.2,
    "events": [
     "regulation",
@@ -3079,8 +3075,8 @@
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.319,
-   "risk": 0.6,
+   "sentiment": -0.318,
+   "risk": 0.59,
    "events": [
     "macro",
     "security"
@@ -3118,7 +3114,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.184,
-   "risk": 0.378,
+   "risk": 0.372,
    "events": [
     "regulation"
    ],
@@ -3126,7 +3122,7 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.112,
+   "sentiment": 0.114,
    "risk": 0.0,
    "events": [
     "listing"
