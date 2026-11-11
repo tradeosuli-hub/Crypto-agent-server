@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-11T08:56:14.414072+00:00",
+ "updated_at": "2026-11-11T09:25:42.993775+00:00",
  "market": {
-  "btc_dominance": 60.44,
-  "usdt_dominance": 7.17,
-  "mcap_change_24h": -4.21,
+  "btc_dominance": 60.47,
+  "usdt_dominance": 7.18,
+  "mcap_change_24h": -4.22,
   "trending": [
-   "ZEC",
    "LIT",
-   "HYPE",
-   "QTC",
+   "ZEC",
    "ETH",
-   "PI",
+   "HYPE",
+   "MON",
    "BTC",
    "PEARL",
-   "JCT",
-   "LINK"
+   "SUI",
+   "PUMP",
+   "INIT"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "ECB warns legislative delays could postpone digital euro launch",
+   "url": "https://cointelegraph.com/news/ecb-warns-legislative-delays-digital-euro-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T09:03:49+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N78284105f10a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T09:25:42.993775+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
+   "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T08:55:31+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7bc9008e4036",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T09:25:42.993775+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "SEC enforcement actions fall 24%, crypto cases in spotlight",
@@ -33,6 +69,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-11T08:56:14.414072+00:00",
    "notified": false
   },
@@ -2329,48 +2366,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Zama spin-off Raycash launches confidential stablecoin payments and private yield on Ethereum",
-   "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
-   "published": "2026-11-09T09:05:02+00:00",
-   "kind": "listing",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N35bf406360de",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T09:08:37.312833+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Binance, Tether and Trump crypto firms face Senate records deadline",
-   "url": "https://cointelegraph.com/news/binance-tether-wlfi-senate-crypto-investigation-records-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T09:00:17+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N969f38e64b01",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T09:08:37.312833+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3004,39 +2999,37 @@
   }
  ],
  "symbols": {
-  "ETHUSDT": {
-   "sentiment": 0.087,
-   "risk": 0.0,
+  "BTCUSDT": {
+   "sentiment": -0.184,
+   "risk": 0.683,
    "events": [
-    "listing"
+    "etf_flow",
+    "macro",
+    "security",
+    "market"
    ],
-   "count": 8,
+   "count": 29,
+   "last": "2026-11-11T08:55:31+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 6,
    "last": "2026-11-11T06:22:32+00:00"
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.298,
+   "risk": 0.293,
    "events": [
     "macro"
    ],
    "count": 2,
    "last": "2026-11-11T04:02:02+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.204,
-   "risk": 0.693,
-   "events": [
-    "macro",
-    "security",
-    "etf_flow",
-    "market"
-   ],
-   "count": 28,
-   "last": "2026-11-11T01:16:58+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.022,
-   "risk": 0.137,
+   "sentiment": 0.024,
+   "risk": 0.131,
    "events": [
     "regulation",
     "listing"
@@ -3045,8 +3038,8 @@
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.313,
-   "risk": 0.528,
+   "sentiment": -0.312,
+   "risk": 0.518,
    "events": [
     "macro",
     "security"
@@ -3084,7 +3077,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.186,
-   "risk": 0.335,
+   "risk": 0.329,
    "events": [
     "regulation"
    ],
