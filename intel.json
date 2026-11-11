@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-11T11:53:22.979599+00:00",
+ "updated_at": "2026-11-11T12:22:48.376300+00:00",
  "market": {
-  "btc_dominance": 60.49,
+  "btc_dominance": 60.5,
   "usdt_dominance": 7.15,
-  "mcap_change_24h": -3.13,
+  "mcap_change_24h": -4.37,
   "trending": [
+   "DOGE",
    "ZEC",
-   "BTC",
-   "PEARL",
-   "GRAM",
-   "UNI",
-   "PUMP",
    "HYPE",
-   "SOL",
-   "TAO",
-   "AVAX"
+   "AVAX",
+   "GRAM",
+   "BTC",
+   "MON",
+   "PUMP",
+   "PEARL",
+   "LIT"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live news: CoreWeave jumps 14% as earnings fuel rebound across battered AI stocks",
+   "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
+   "published": "2026-11-11T12:21:24+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N27679a818ec3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T12:22:48.376300+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin barely flinches at hot CPI as ETF selling slows",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
+   "published": "2026-11-11T12:19:30+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na9907a59cdd7",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T12:22:48.376300+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings",
+   "url": "https://cointelegraph.com/news/barclays-blackrock-ibit-boost-key-q3-filings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T11:56:23+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N3ad28e3f81e0",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T12:22:48.376300+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Deutsche Bank goes live with digital asset custody service, signs asset management deal",
@@ -33,6 +89,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T11:53:22.979599+00:00",
    "notified": false
   },
@@ -53,6 +110,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T11:53:22.979599+00:00",
    "notified": false
   },
@@ -73,6 +131,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T11:53:22.979599+00:00",
    "notified": false
   },
@@ -89,6 +148,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T11:53:22.979599+00:00",
    "notified": false
   },
@@ -2448,40 +2508,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Nvidia-led tech selloff weighs on crypto majors",
-   "url": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
-   "published": "2026-11-09T11:42:04+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N74f89718a7ce",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T12:05:43.612271+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Coinbase’s US national trust bank charter takes effect",
-   "url": "https://cointelegraph.com/news/coinbase-occ-approval-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T11:38:52+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N60ab0e49efb3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T12:05:43.612271+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3082,16 +3108,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.168,
-   "risk": 0.632,
+   "sentiment": -0.143,
+   "risk": 0.621,
    "events": [
     "etf_flow",
     "macro",
     "security",
     "market"
    ],
-   "count": 32,
-   "last": "2026-11-11T11:43:50+00:00"
+   "count": 34,
+   "last": "2026-11-11T12:19:30+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -3102,7 +3128,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.267,
+   "risk": 0.262,
    "events": [
     "macro"
    ],
@@ -3120,8 +3146,8 @@
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.307,
-   "risk": 0.467,
+   "sentiment": -0.305,
+   "risk": 0.456,
    "events": [
     "macro",
     "security"
@@ -3159,7 +3185,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.184,
-   "risk": 0.298,
+   "risk": 0.292,
    "events": [
     "regulation"
    ],
