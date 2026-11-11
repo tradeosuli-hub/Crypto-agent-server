@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-11T20:15:18.726732+00:00",
+ "updated_at": "2026-11-11T20:44:52.089040+00:00",
  "market": {
-  "btc_dominance": 59.87,
-  "usdt_dominance": 7.04,
-  "mcap_change_24h": -1.48,
+  "btc_dominance": 59.89,
+  "usdt_dominance": 7.03,
+  "mcap_change_24h": -1.47,
   "trending": [
    "ZIG",
-   "PENGU",
    "BTC",
-   "ZEC",
-   "VVV",
    "SOL",
-   "NEAR",
-   "ETH",
    "HYPE",
+   "ETH",
+   "LIT",
+   "PEARL",
+   "AVAX",
+   "TAO",
    "GRAM"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "DogeOS ‘very, very close’ to launching DeFi features, app layer for Dogecoin: CEO",
+   "url": "https://www.theblock.co/news/defi/2026-11-11-dogeos-very-very-close-launching-defi-features-app-layer-dogecoin-ceo-438392",
+   "published": "2026-11-11T20:32:19+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "DOGE"
+   ],
+   "symbols": [
+    "DOGEUSDT"
+   ],
+   "id": "N067dc01d20d7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T20:44:52.089040+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Sen. Warren, Merkley raise ethics concerns over Trump aide’s prediction market bets",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T20:15:18.726732+00:00",
    "notified": false
   },
@@ -2346,44 +2367,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair",
-   "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
-   "published": "2026-11-09T20:04:49+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N0329f98a51ce",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T20:29:50.756543+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Formation Securities plans Solana stock trading venue under SEC exemption",
-   "url": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T19:52:34+00:00",
-   "kind": "regulation",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N38f809ba5328",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T20:29:50.756543+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -2979,9 +2962,16 @@
   }
  ],
  "symbols": {
+  "DOGEUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-11T20:32:19+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.092,
-   "risk": 0.457,
+   "sentiment": -0.091,
+   "risk": 0.447,
    "events": [
     "etf_flow",
     "macro",
@@ -2991,8 +2981,8 @@
    "last": "2026-11-11T16:26:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.196,
-   "risk": 0.292,
+   "sentiment": -0.193,
+   "risk": 0.282,
    "events": [
     "macro",
     "security"
@@ -3016,7 +3006,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.18,
+   "risk": 0.175,
    "events": [
     "macro"
    ],
@@ -3060,7 +3050,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.194,
+   "risk": 0.188,
    "events": [
     "regulation"
    ],
