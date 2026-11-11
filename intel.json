@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-11T01:03:28.016120+00:00",
+ "updated_at": "2026-11-11T01:33:01.130360+00:00",
  "market": {
-  "btc_dominance": 59.73,
-  "usdt_dominance": 7.11,
-  "mcap_change_24h": -4.65,
+  "btc_dominance": 59.74,
+  "usdt_dominance": 7.1,
+  "mcap_change_24h": -4.54,
   "trending": [
-   "SI",
-   "PENGU",
    "ZEC",
-   "XRP",
-   "DACITY",
+   "PENGU",
    "LIT",
-   "SOL",
-   "KNTQ",
+   "XRP",
    "HYPE",
-   "AERO"
+   "SI",
+   "PEARL",
+   "KNTQ",
+   "LINK",
+   "FET"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "LNbits rushes emergency patch after reported Bitcoin wallet thefts",
+   "url": "https://cointelegraph.com/news/lnbits-rushes-emergency-patch-after-reported-bitcoin-wallet-thefts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T01:16:58+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N00aa78e99ad1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T01:33:01.130360+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
@@ -3070,9 +3090,21 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.209,
+   "risk": 0.847,
+   "events": [
+    "macro",
+    "security",
+    "etf_flow",
+    "market"
+   ],
+   "count": 31,
+   "last": "2026-11-11T01:16:58+00:00"
+  },
   "SOLUSDT": {
-   "sentiment": -0.155,
-   "risk": 0.235,
+   "sentiment": -0.16,
+   "risk": 0.229,
    "events": [
     "regulation",
     "listing",
@@ -3083,25 +3115,13 @@
   },
   "NEARUSDT": {
    "sentiment": -0.309,
-   "risk": 0.692,
+   "risk": 0.682,
    "events": [
     "macro",
     "security"
    ],
    "count": 8,
    "last": "2026-11-10T21:51:19+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.216,
-   "risk": 0.857,
-   "events": [
-    "macro",
-    "security",
-    "etf_flow",
-    "market"
-   ],
-   "count": 30,
-   "last": "2026-11-10T19:38:18+00:00"
   },
   "TONUSDT": {
    "sentiment": 0.0,
@@ -3126,7 +3146,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.38,
+   "risk": 0.375,
    "events": [
     "macro"
    ],
@@ -3141,8 +3161,8 @@
    "last": "2026-11-10T12:38:20+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.181,
-   "risk": 0.434,
+   "sentiment": -0.182,
+   "risk": 0.427,
    "events": [
     "regulation"
    ],
@@ -3150,7 +3170,7 @@
    "last": "2026-11-10T11:44:55+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.089,
+   "sentiment": 0.09,
    "risk": 0.0,
    "events": [
     "listing"
