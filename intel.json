@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-11T09:25:42.993775+00:00",
+ "updated_at": "2026-11-11T09:55:17.988233+00:00",
  "market": {
-  "btc_dominance": 60.47,
+  "btc_dominance": 60.43,
   "usdt_dominance": 7.18,
-  "mcap_change_24h": -4.22,
+  "mcap_change_24h": -4.16,
   "trending": [
-   "LIT",
    "ZEC",
-   "ETH",
-   "HYPE",
-   "MON",
+   "LIT",
    "BTC",
+   "SI",
    "PEARL",
    "SUI",
-   "PUMP",
-   "INIT"
+   "HYPE",
+   "PEPE",
+   "UNI",
+   "INJ"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
+   "url": "https://www.binance.com/en/support/announcement/e7a88ff576b541608d0845f3b666ec66",
+   "published": "2026-11-11T09:45:18.328000+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc0a87917cad5",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T09:55:17.988233+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "New York federal judge denies Novig’s injunction bid, rules its sports event contracts are not swaps",
+   "url": "https://www.theblock.co/news/regulation/2026-11-11-new-york-judge-denies-novig-injunction-bid-437828",
+   "published": "2026-11-11T09:40:46+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N233ef9f8b9ed",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T09:55:17.988233+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "ECB warns legislative delays could postpone digital euro launch",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T09:25:42.993775+00:00",
    "notified": false
   },
@@ -53,6 +86,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T09:25:42.993775+00:00",
    "notified": false
   },
@@ -2349,23 +2383,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "U.S. inflation, corporate earnings: Crypto Week Ahead",
-   "url": "https://www.coindesk.com/markets/2026/11/09/u-s-inflation-corporate-earnings-crypto-week-ahead",
-   "published": "2026-11-09T09:33:27+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf968de4b67ca",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T09:38:10.266988+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -2846,23 +2863,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
-   "url": "https://www.binance.com/en/support/announcement/a1a7996170f246da90ea49f199a61bcd",
-   "published": "2026-10-07T04:00:08.051000+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5bca71ca5e00",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-07T21:42:49.326766+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Futures Will Delist Multiple USDⓈ-M Perpetual Contracts (2026-10-05)",
    "url": "https://www.binance.com/en/support/announcement/2f1a743334f044abbd82e34093c7b771",
    "published": "2026-10-01T02:45:13.435000+00:00",
@@ -3000,8 +3000,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.184,
-   "risk": 0.683,
+   "sentiment": -0.185,
+   "risk": 0.673,
    "events": [
     "etf_flow",
     "macro",
@@ -3020,7 +3020,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.293,
+   "risk": 0.288,
    "events": [
     "macro"
    ],
@@ -3028,8 +3028,8 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.024,
-   "risk": 0.131,
+   "sentiment": 0.027,
+   "risk": 0.124,
    "events": [
     "regulation",
     "listing"
@@ -3038,8 +3038,8 @@
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.312,
-   "risk": 0.518,
+   "sentiment": -0.311,
+   "risk": 0.508,
    "events": [
     "macro",
     "security"
@@ -3077,7 +3077,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.186,
-   "risk": 0.329,
+   "risk": 0.323,
    "events": [
     "regulation"
    ],
