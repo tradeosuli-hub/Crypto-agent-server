@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T12:22:48.376300+00:00",
+ "updated_at": "2026-11-11T12:52:16.706044+00:00",
  "market": {
   "btc_dominance": 60.5,
   "usdt_dominance": 7.15,
@@ -7,19 +7,87 @@
   "trending": [
    "DOGE",
    "ZEC",
-   "HYPE",
    "AVAX",
-   "GRAM",
+   "LIT",
+   "HYPE",
    "BTC",
+   "GRAM",
    "MON",
-   "PUMP",
-   "PEARL",
-   "LIT"
+   "KNTQ",
+   "ETH"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin Core discloses three patched security flaws, including high-severity mining bug",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-11-bitcoin-core-discloses-three-patched-security-flaws-including-high-severity-mining-bug-437862",
+   "published": "2026-11-11T12:50:08+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb5859cdd2ddb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T12:52:16.706044+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Crypto fraudster jailed for eight years over $2.7 million theft plot directed from prison",
+   "url": "https://www.theblock.co/news/regulation/2026-11-11-crypto-fraudster-jailed-for-eight-years-over-2-7-million-theft-plot-directed-from-prison-437858",
+   "published": "2026-11-11T12:46:16+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf8ca0898b191",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T12:52:16.706044+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules",
+   "url": "https://cointelegraph.com/news/fsb-turkey-crypto-oversight-stablecoin-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T12:44:10+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N51ae7fdd4312",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T12:52:16.706044+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Zcash falls below $1,000 for first time since September",
+   "url": "https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T12:31:44+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N253f7a457464",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T12:52:16.706044+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live news: CoreWeave jumps 14% as earnings fuel rebound across battered AI stocks",
@@ -33,6 +101,7 @@
    "importance": 2,
    "sentiment": 0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T12:22:48.376300+00:00",
    "notified": false
   },
@@ -53,6 +122,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T12:22:48.376300+00:00",
    "notified": false
   },
@@ -73,6 +143,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T12:22:48.376300+00:00",
    "notified": false
   },
@@ -2449,48 +2520,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin bulls can't rely on ETF flows",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
-   "published": "2026-11-09T12:30:00+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5429d8337cda",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T12:35:13.897881+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Formation notifies SEC to operate first tokenized securities venue on Solana",
-   "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
-   "published": "2026-11-09T12:30:00+00:00",
-   "kind": "regulation",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nbd9a77895fac",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T12:35:13.897881+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "EU taps industry to set standards for tokenized securities",
    "url": "https://cointelegraph.com/news/eu-nominations-tokenization-standards-group?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -3108,8 +3137,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.143,
-   "risk": 0.621,
+   "sentiment": -0.141,
+   "risk": 0.611,
    "events": [
     "etf_flow",
     "macro",
@@ -3117,7 +3146,7 @@
     "market"
    ],
    "count": 34,
-   "last": "2026-11-11T12:19:30+00:00"
+   "last": "2026-11-11T12:50:08+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -3128,7 +3157,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.262,
+   "risk": 0.257,
    "events": [
     "macro"
    ],
@@ -3136,18 +3165,17 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.03,
+   "sentiment": -0.087,
    "risk": 0.12,
    "events": [
-    "regulation",
-    "listing"
+    "regulation"
    ],
-   "count": 4,
+   "count": 2,
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.305,
-   "risk": 0.456,
+   "sentiment": -0.304,
+   "risk": 0.446,
    "events": [
     "macro",
     "security"
@@ -3185,7 +3213,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.184,
-   "risk": 0.292,
+   "risk": 0.286,
    "events": [
     "regulation"
    ],
