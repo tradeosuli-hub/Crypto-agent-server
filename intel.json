@@ -1,25 +1,63 @@
 {
- "updated_at": "2026-11-11T16:19:16.167801+00:00",
+ "updated_at": "2026-11-11T16:48:45.527957+00:00",
  "market": {
-  "btc_dominance": 59.73,
-  "usdt_dominance": 7.05,
-  "mcap_change_24h": -1.49,
+  "btc_dominance": 59.77,
+  "usdt_dominance": 7.04,
+  "mcap_change_24h": -1.38,
   "trending": [
    "ZIG",
    "BTC",
    "ZEC",
    "AVAX",
+   "GRASS",
    "HYPE",
    "GRAM",
-   "PEARL",
-   "VVV",
-   "ETH",
-   "ONDO"
+   "LIT",
+   "SOL",
+   "PEARL"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
+   "url": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T16:26:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Ne6a65f88ab8a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T16:48:45.527957+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "StoneX sees 111% upside for Securitize shares as tokenization revenue rebounds",
+   "url": "https://www.theblock.co/news/markets/2026-11-11-stonex-sees-111-upside-for-securitize-shares-as-tokenization-revenue-rebounds-437910",
+   "published": "2026-11-11T16:22:13+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne19937745eec",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T16:48:45.527957+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
@@ -33,6 +71,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T16:19:16.167801+00:00",
    "notified": false
   },
@@ -2379,46 +2418,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
-   "url": "https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees",
-   "published": "2026-11-09T16:19:45+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N5e3fe8fed6e5",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T16:31:59.234441+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "StoneX sees 97% upside for Bullish as $4.2 billion Equiniti deal opens tokenization market",
-   "url": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
-   "published": "2026-11-09T16:07:05+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfd85c67c0543",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T16:31:59.234441+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3015,15 +3014,25 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.123,
-   "risk": 0.539,
+   "sentiment": -0.113,
+   "risk": 0.529,
    "events": [
     "etf_flow",
     "macro",
     "security"
    ],
    "count": 34,
-   "last": "2026-11-11T14:44:31+00:00"
+   "last": "2026-11-11T16:26:00+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.214,
+   "risk": 0.364,
+   "events": [
+    "macro",
+    "security"
+   ],
+   "count": 6,
+   "last": "2026-11-11T16:26:00+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
@@ -3041,7 +3050,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.221,
+   "risk": 0.216,
    "events": [
     "macro"
    ],
@@ -3049,22 +3058,12 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.093,
+   "sentiment": -0.094,
    "risk": 0.12,
    "events": [
     "regulation"
    ],
    "count": 2,
-   "last": "2026-11-10T21:51:19+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.307,
-   "risk": 0.374,
-   "events": [
-    "macro",
-    "security"
-   ],
-   "count": 6,
    "last": "2026-11-10T21:51:19+00:00"
   },
   "TONUSDT": {
@@ -3096,8 +3095,8 @@
    "last": "2026-11-10T12:38:20+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.181,
-   "risk": 0.243,
+   "sentiment": -0.18,
+   "risk": 0.237,
    "events": [
     "regulation"
    ],
