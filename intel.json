@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-11T06:28:20.679291+00:00",
+ "updated_at": "2026-11-11T06:57:52.219515+00:00",
  "market": {
   "btc_dominance": 59.77,
-  "usdt_dominance": 7.08,
-  "mcap_change_24h": -4.11,
+  "usdt_dominance": 7.11,
+  "mcap_change_24h": -4.45,
   "trending": [
-   "LIT",
    "INIT",
    "HYPE",
-   "MEGA",
+   "JCT",
+   "LIT",
    "PI",
-   "AERO",
-   "ZEC",
-   "PEARL",
+   "MEGA",
+   "NEAR",
+   "BTC",
    "ETH",
-   "INJ"
+   "ZEC"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T06:28:20.679291+00:00",
    "notified": false
   },
@@ -3047,7 +3048,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.082,
+   "sentiment": 0.083,
    "risk": 0.0,
    "events": [
     "listing"
@@ -3057,7 +3058,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.324,
+   "risk": 0.318,
    "events": [
     "macro"
    ],
@@ -3066,7 +3067,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.209,
-   "risk": 0.744,
+   "risk": 0.734,
    "events": [
     "macro",
     "security",
@@ -3077,19 +3078,18 @@
    "last": "2026-11-11T01:16:58+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.178,
-   "risk": 0.2,
+   "sentiment": 0.012,
+   "risk": 0.161,
    "events": [
     "regulation",
-    "listing",
-    "security"
+    "listing"
    ],
-   "count": 5,
+   "count": 4,
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.318,
-   "risk": 0.579,
+   "sentiment": -0.317,
+   "risk": 0.569,
    "events": [
     "macro",
     "security"
@@ -3126,8 +3126,8 @@
    "last": "2026-11-10T12:38:20+00:00"
   },
   "SUIUSDT": {
-   "sentiment": -0.184,
-   "risk": 0.366,
+   "sentiment": -0.185,
+   "risk": 0.36,
    "events": [
     "regulation"
    ],
