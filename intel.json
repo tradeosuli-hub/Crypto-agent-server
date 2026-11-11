@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-11T10:54:24.323146+00:00",
+ "updated_at": "2026-11-11T11:23:54.690572+00:00",
  "market": {
-  "btc_dominance": 60.47,
-  "usdt_dominance": 7.15,
-  "mcap_change_24h": -3.61,
+  "btc_dominance": 60.48,
+  "usdt_dominance": 7.14,
+  "mcap_change_24h": -3.08,
   "trending": [
-   "BTC",
    "ZEC",
-   "SUI",
-   "GRAM",
-   "PEPE",
+   "BTC",
    "PEARL",
+   "GRAM",
    "HYPE",
-   "LIT",
    "ETH",
-   "ARIA"
+   "UNI",
+   "SOL",
+   "SUI",
+   "LIT"
   ],
   "fear_greed": 29,
   "fear_greed_label": "Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin short-term holders send 47K BTC to exchanges at a loss",
+   "url": "https://cointelegraph.com/markets/bitcoin-speculators-btc-exchanges-unrealized-loss-727k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-11T11:05:26+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7519195dfb27",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T11:23:54.690572+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Crosschain protocol Across restores systems after domain hijack",
+   "url": "https://www.theblock.co/news/defi/2026-11-11-crosschain-protocol-across-restores-systems-after-domain-hijack-437843",
+   "published": "2026-11-11T10:55:24+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndddf92d98a01",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T11:23:54.690572+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Kraken parent Payward adds 200 tokenized UK and European equities to xStocks offering",
@@ -33,7 +69,24 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T10:54:24.323146+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
+   "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion",
+   "published": "2026-11-11T10:51:34+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N33837f0dd820",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-11T11:23:54.690572+00:00",
    "notified": false
   },
   {
@@ -53,6 +106,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-11T10:54:24.323146+00:00",
    "notified": false
   },
@@ -2387,40 +2441,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Live news: Crypto prices give ground even as stocks and gold surge, oil plunges",
-   "url": "https://www.coindesk.com/tech/2026/11/09/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
-   "published": "2026-11-09T10:51:48+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N01c68ac41714",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T11:06:46.917067+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Crypto-friendly Robinhood brings US IPO access to UK retail investors",
-   "url": "https://www.theblock.co/news/business/2026-11-09-crypto-friendly-robinhood-brings-us-ipo-access-to-uk-retail-investors-436089",
-   "published": "2026-11-09T10:48:31+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfb29e3794d49",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T11:06:46.917067+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
    "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
@@ -3021,16 +3041,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.179,
-   "risk": 0.652,
+   "sentiment": -0.172,
+   "risk": 0.642,
    "events": [
     "etf_flow",
     "macro",
     "security",
     "market"
    ],
-   "count": 29,
-   "last": "2026-11-11T10:45:49+00:00"
+   "count": 30,
+   "last": "2026-11-11T11:05:26+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -3041,7 +3061,7 @@
   },
   "TRXUSDT": {
    "sentiment": 0.0,
-   "risk": 0.277,
+   "risk": 0.272,
    "events": [
     "macro"
    ],
@@ -3049,7 +3069,7 @@
    "last": "2026-11-11T04:02:02+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.029,
+   "sentiment": 0.03,
    "risk": 0.12,
    "events": [
     "regulation",
@@ -3059,8 +3079,8 @@
    "last": "2026-11-10T21:51:19+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.309,
-   "risk": 0.487,
+   "sentiment": -0.308,
+   "risk": 0.477,
    "events": [
     "macro",
     "security"
@@ -3098,7 +3118,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.185,
-   "risk": 0.311,
+   "risk": 0.304,
    "events": [
     "regulation"
    ],
