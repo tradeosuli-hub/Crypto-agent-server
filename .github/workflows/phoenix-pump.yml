@@ -1,0 +1,82 @@
+name: "Phoenix 4 · Pump radar (similar-pattern memory)"
+
+# ایجنت پامپ (هر ~۱۵ دقیقه): Binance (پنجرهٔ ۱۵m + جهش حجم) + CoinGecko + CoinMarketCap + intel.json
+# → هر ارزی که ≥۸٪ در ۱۵ دقیقه رشد کرد → اثر انگشت عددی/خبری/دسته‌ای → مقایسه با پامپ‌های روزهای قبل →
+# پیگیری ۱h/۴h/۲۴h و یادگیری عوامل → اختیار ۵٪ روی پارامترها → تلگرام + تب «پامپ» پنل.
+# خودگردان روی همین شاخه (بدون cron، بدون مرج به main).
+on:
+  workflow_dispatch:
+    inputs:
+      delay_min:
+        description: "صبر قبل از اجرا (دقیقه) — حلقه خودش این را پر می‌کند؛ برای اجرای فوری ۰"
+        default: "0"
+        required: false
+  push:
+    branches: [cursor/phoenix-signal-panel-69df]
+    paths:
+      - ".github/workflows/phoenix-pump.yml"
+      - "scripts/run_pump.py"
+      - "scripts/loop.sh"
+      - "phoenix/pump/**"
+      - "phoenix/brain.py"
+      - "phoenix/notify.py"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: phoenix-pump
+  cancel-in-progress: false
+
+env:
+  MEMORY_BRANCH: phoenix-memory
+  LOOP_DELAY_MIN: "14"
+
+jobs:
+  pump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Wait for this cycle
+        if: github.event.inputs.delay_min != '' && github.event.inputs.delay_min != '0'
+        env:
+          DELAY: ${{ github.event.inputs.delay_min }}
+        run: |
+          case "$DELAY" in ''|*[!0-9]*) DELAY=0 ;; esac
+          echo "waiting ${DELAY} min for the next cycle"
+          sleep $(( DELAY * 60 ))
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -q numpy pandas requests
+      - name: Restore permanent memory
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh restore memory
+      - name: Run pump agent
+        env:
+          PHOENIX_MEMORY_DIR: ${{ github.workspace }}/memory
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
+        run: python scripts/run_pump.py
+      - name: Persist memory (only this workflow's files)
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/memory_sync.sh persist memory pumps.json pump_state.json notify_pump.json
+      - name: Keep the loops alive (self + guard the other agents)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash scripts/loop.sh self phoenix-pump.yml "$LOOP_DELAY_MIN"
+          bash scripts/loop.sh ensure phoenix-pages.yml || true
+          bash scripts/loop.sh ensure phoenix-watchdog.yml || true
+          bash scripts/loop.sh ensure phoenix-intel.yml || true

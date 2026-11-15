@@ -22,10 +22,12 @@ API = "https://api.github.com"
 SCAN_WF = "phoenix-pages.yml"
 INTEL_WF = "phoenix-intel.yml"
 WATCHDOG_WF = "phoenix-watchdog.yml"
+PUMP_WF = "phoenix-pump.yml"
 
 SCAN_EXPECTED_MIN = 10
 SCAN_STALL_MIN = 35          # صف/تأخیر طبیعی Actions + یک چرخهٔ کامل
 INTEL_STALL_MIN = 100
+PUMP_STALL_MIN = 50
 MEMORY_STALL_MIN = 45
 REDISPATCH_COOLDOWN_MIN = 30
 INCIDENTS_KEEP = 300
@@ -38,6 +40,8 @@ KIND_FA = {
     "scan_failing": "اسکن پیاپی شکست می‌خورد",
     "scan_loop_dead": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
     "intel_loop_dead": "حلقهٔ اطلاعات مرده (هیچ اجرای فعال/در صف)",
+    "pump_loop_dead": "حلقهٔ رادار پامپ مرده (هیچ اجرای فعال/در صف)",
+    "pump_stalled": "رادار پامپ عقب افتاده",
     "intel_stalled": "ایجنت اطلاعات عقب افتاده",
     "memory_stalled": "حافظهٔ دائمی به‌روز نمی‌شود",
     "pages_stale": "صفحهٔ منتشرشده کهنه است",
@@ -215,6 +219,20 @@ def check_health(gh: GitHub, memory_data: dict[str, Any], pages_url: str | None)
         if not ialive:
             problems.append({"kind": "intel_loop_dead", "runs": intel_runs[:3]})
 
+    # رادار پامپ
+    pump_runs = gh.runs(PUMP_WF) if gh.ok else []
+    pump_ts = (memory_data.get("pump_state") or {}).get("updated_at")
+    page_ = _age_min(pump_ts)
+    checks.append({"name": "pump_fresh", "fa": "رادار پامپ (آخرین چرخه)", "ok": page_ is not None and page_ <= PUMP_STALL_MIN,
+                   "value": f"{page_:.0f} دقیقه پیش" if page_ is not None else "هیچ"})
+    if pump_runs and (page_ is None or page_ > PUMP_STALL_MIN):
+        problems.append({"kind": "pump_stalled", "runs": pump_runs[:3]})
+    if gh.ok:
+        palive = loop_alive(pump_runs)
+        checks.append({"name": "pump_loop", "fa": "حلقهٔ رادار پامپ (اجرای بعدی در صف)", "ok": palive, "value": "زنده" if palive else "مرده"})
+        if not palive:
+            problems.append({"kind": "pump_loop_dead", "runs": pump_runs[:3]})
+
     # حافظه
     bage = gh.branch_age_min(os.environ.get("MEMORY_BRANCH", "phoenix-memory")) if gh.ok else None
     checks.append({"name": "memory_fresh", "fa": "حافظهٔ دائمی (phoenix-memory)", "ok": bage is not None and bage <= MEMORY_STALL_MIN,
@@ -236,7 +254,7 @@ def check_health(gh: GitHub, memory_data: dict[str, Any], pages_url: str | None)
             checks.append({"name": "pages_fresh", "fa": "صفحهٔ منتشرشده", "ok": False, "value": "در دسترس نیست"})
 
     return {"checked_at": now.isoformat(), "checks": checks, "problems": problems,
-            "runs": {"scan": scan_runs[:8], "intel": intel_runs[:5]}}
+            "runs": {"scan": scan_runs[:8], "intel": intel_runs[:5], "pump": pump_runs[:5]}}
 
 
 def diagnose(gh: GitHub, problem: dict[str, Any], past: list[dict[str, Any]]) -> dict[str, Any]:
@@ -278,10 +296,10 @@ def remediate(gh: GitHub, diag: dict[str, Any], past: list[dict[str, Any]]) -> d
                        _age_min(p.get("ts")) is not None and _age_min(p.get("ts")) < REDISPATCH_COOLDOWN_MIN]
     action, action_fa, url = "none", "—", None
 
-    if kind in ("scan_loop_dead", "intel_loop_dead"):
+    if kind in ("scan_loop_dead", "intel_loop_dead", "pump_loop_dead"):
         # حلقهٔ خودگردان قطع شده (مثلاً اجرای قبلی لغو/تایم‌اوت شد و نتوانست جانشین بسازد) → بی‌درنگ زنده کن.
         # بدون cooldown: concurrency.group خودِ Workflow مانع دو زنجیرهٔ هم‌زمان می‌شود.
-        wf = SCAN_WF if kind == "scan_loop_dead" else INTEL_WF
+        wf = {"scan_loop_dead": SCAN_WF, "intel_loop_dead": INTEL_WF, "pump_loop_dead": PUMP_WF}[kind]
         if gh.ok and gh.dispatch(wf, {"delay_min": "0"}):
             action, action_fa = "revive", "حلقه دوباره روشن شد (dispatch روی همین شاخه)"
         return {"action": action, "action_fa": action_fa, "url": url, "ts": now.isoformat()}
@@ -298,6 +316,9 @@ def remediate(gh: GitHub, diag: dict[str, Any], past: list[dict[str, Any]]) -> d
     elif kind == "intel_stalled":
         if gh.ok and not recent_dispatch and gh.dispatch(INTEL_WF):
             action, action_fa = "redispatch", "اجرای دوبارهٔ ایجنت اطلاعات"
+    elif kind == "pump_stalled":
+        if gh.ok and not recent_dispatch and gh.dispatch(PUMP_WF, {"delay_min": "0"}):
+            action, action_fa = "redispatch", "اجرای دوبارهٔ رادار پامپ"
     if cause == "pages_disabled":
         action, action_fa = "human", "Settings → Pages → Source: GitHub Actions (فقط صاحب ریپو)"
     if cause in ("code_error", "pip_install") or (diag.get("brain") or {}).get("needs_human"):
@@ -313,7 +334,7 @@ def remediate(gh: GitHub, diag: dict[str, Any], past: list[dict[str, Any]]) -> d
 def severity_of(kind: str, cause: str, recurrence: int) -> str:
     if cause in ("code_error", "pip_install") or kind == "scan_failing" or recurrence >= 3:
         return "high"
-    if kind in ("scan_stalled", "memory_stalled", "scan_loop_dead", "intel_loop_dead"):
+    if kind in ("scan_stalled", "memory_stalled", "scan_loop_dead", "intel_loop_dead", "pump_loop_dead"):
         return "medium"
     return "low"
 

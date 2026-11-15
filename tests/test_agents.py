@@ -108,6 +108,8 @@ class _FakeGH:
                                 "created_at": now, "updated_at": now, "url": "u", "branch": "b"}],
             watchdog.INTEL_WF: [{"id": 2, "status": "in_progress", "conclusion": None, "event": "workflow_dispatch",
                                  "created_at": now, "updated_at": now, "url": "u", "branch": "b"}],
+            watchdog.PUMP_WF: [{"id": 3, "status": "queued", "conclusion": None, "event": "workflow_dispatch",
+                                "created_at": now, "updated_at": now, "url": "u", "branch": "b"}],
         }
 
     def runs(self, wf, n=12):
@@ -126,10 +128,11 @@ class _FakeGH:
 
 def test_watchdog_revives_dead_loop_on_own_branch():
     gh = _FakeGH()
-    mem = {"intel": {"updated_at": datetime.now(timezone.utc).isoformat()}, "incidents": []}
+    mem = {"intel": {"updated_at": datetime.now(timezone.utc).isoformat()},
+           "pump_state": {"updated_at": datetime.now(timezone.utc).isoformat()}, "incidents": []}
     h = watchdog.run(gh, mem, None)
     kinds = {p["kind"] for p in h["problems"]}
-    assert "scan_loop_dead" in kinds and "intel_loop_dead" not in kinds
+    assert "scan_loop_dead" in kinds and "intel_loop_dead" not in kinds and "pump_loop_dead" not in kinds
     assert not any(p["kind"] == "scan_stalled" for p in h["problems"])
     assert gh.dispatched == [(watchdog.SCAN_WF, {"delay_min": "0"}, watchdog.DEFAULT_BRANCH)]
     assert "main" not in watchdog.DEFAULT_BRANCH

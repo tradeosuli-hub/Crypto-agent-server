@@ -78,3 +78,4 @@ jobs:
           bash scripts/loop.sh self phoenix-intel.yml "$LOOP_DELAY_MIN"
           bash scripts/loop.sh ensure phoenix-watchdog.yml || true
           bash scripts/loop.sh ensure phoenix-pages.yml || true
+          bash scripts/loop.sh ensure phoenix-pump.yml || true
