@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-15T08:43:52.152396+00:00",
+ "updated_at": "2026-11-15T09:13:21.512316+00:00",
  "market": {
-  "btc_dominance": 58.71,
-  "usdt_dominance": 7.91,
-  "mcap_change_24h": -6.06,
+  "btc_dominance": 58.87,
+  "usdt_dominance": 7.82,
+  "mcap_change_24h": -4.72,
   "trending": [
-   "BTC",
-   "KAVA",
    "HYPE",
-   "ETH",
-   "XRP",
-   "QTC",
+   "KAVA",
+   "BTC",
    "SOL",
+   "QTC",
+   "ETH",
+   "VVV",
+   "XRP",
    "DOGE",
-   "ZEC",
-   "BDX"
+   "PONS"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-15T08:43:52.152396+00:00",
    "notified": false
   },
@@ -2283,7 +2284,7 @@
   },
   "KAVAUSDT": {
    "sentiment": -0.9,
-   "risk": 0.8,
+   "risk": 0.79,
    "events": [
     "security"
    ],
@@ -2291,18 +2292,17 @@
    "last": "2026-11-14T23:07:35+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.766,
-   "risk": 0.8,
+   "sentiment": -0.9,
+   "risk": 0.79,
    "events": [
-    "security",
-    "etf_flow"
+    "security"
    ],
-   "count": 2,
+   "count": 1,
    "last": "2026-11-14T23:07:35+00:00"
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.43,
+   "risk": 0.424,
    "events": [
     "regulation"
    ],
@@ -2310,15 +2310,15 @@
    "last": "2026-11-14T19:06:59+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.007,
-   "risk": 0.247,
+   "sentiment": -0.008,
+   "risk": 0.241,
    "events": [
     "etf_flow",
     "regulation",
     "listing",
     "market"
    ],
-   "count": 20,
+   "count": 19,
    "last": "2026-11-14T17:50:41+00:00"
   },
   "ETHUSDT": {
