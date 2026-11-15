@@ -45,8 +45,9 @@
    "social_sentiment": null
   },
   "follow": {
-   "peak": null,
-   "status": "running"
+   "peak": -0.32,
+   "status": "running",
+   "last": -0.32
   },
   "notified": false,
   "max_change_15m": 10.41,
@@ -73,5 +74,98 @@
   "attention": 0.5,
   "attention_fa": "معمولی",
   "pattern_fa": "الگوی مشابهی در حافظه نیست — پامپ تازه‌نوع؛ ثبت شد تا دفعهٔ بعد مرجع باشد"
+ },
+ {
+  "id": "P000a859d84",
+  "ts": "2026-11-15T02:34:08.083707+00:00",
+  "symbol": "MACCA",
+  "name": "Macca the Gator",
+  "pair": null,
+  "price": 0.00500348,
+  "change_15m": 9.67,
+  "change_15m_src": "snapshot",
+  "change_1h": -11.8105,
+  "change_24h": null,
+  "change_7d": null,
+  "market_cap": 5003482.0,
+  "mcap_tier": "micro_cap",
+  "rank": 1569,
+  "volume_24h": 15195051.0,
+  "vol_to_mcap": 3.037,
+  "ath_change": 0.0,
+  "tags": [
+   "Ethereum Ecosystem"
+  ],
+  "tags_compact": [],
+  "date_added": null,
+  "trending": false,
+  "btc_15m": 0.571,
+  "btc_1h": -1.2669,
+  "fear_greed": 10,
+  "btc_dominance": 58.56,
+  "hour_utc": 2,
+  "weekday": 6,
+  "news": {
+   "events": [],
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "titles": [],
+   "social_hot": false,
+   "social_sentiment": null
+  },
+  "follow": {
+   "peak": null,
+   "status": "running"
+  },
+  "notified": false,
+  "max_change_15m": 9.67,
+  "factors": [
+   "near_ath",
+   "btc_tailwind",
+   "fear_extreme",
+   "asia_session",
+   "micro_cap",
+   "not_on_binance"
+  ],
+  "factors_fa": [
+   "نزدیک سقف تاریخی",
+   "همراه با رشد BTC",
+   "ترس شدید بازار",
+   "سشن آسیا",
+   "میکروکپ",
+   "خارج از بایننس"
+  ],
+  "similar": [
+   {
+    "id": "Pc0633772e9",
+    "symbol": "MIHAO",
+    "ts": "2026-11-15T02:19:26.929998+00:00",
+    "change_15m": 10.41,
+    "similarity": 0.588,
+    "shared": [
+     "asia_session",
+     "btc_tailwind",
+     "fear_extreme",
+     "micro_cap",
+     "not_on_binance"
+    ],
+    "shared_fa": [
+     "سشن آسیا",
+     "همراه با رشد BTC",
+     "ترس شدید بازار",
+     "میکروکپ",
+     "خارج از بایننس"
+    ],
+    "follow": {
+     "peak": -0.32,
+     "status": "running",
+     "last": -0.32
+    }
+   }
+  ],
+  "brain": null,
+  "attention": 0.5,
+  "attention_fa": "معمولی",
+  "pattern_fa": "شبیه 1 پامپ قبلی (بیشترین: MIHAO 59%)؛ وجه مشترک: سشن آسیا، همراه با رشد BTC، ترس شدید بازار"
  }
 ]
