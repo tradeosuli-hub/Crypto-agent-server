@@ -9,9 +9,10 @@
   signals.json   دفترچهٔ سیگنال‌های نهایی
   intel.json     خبر/رویداد/سوشال (از ایجنت اطلاعات، فقط کپی)
   health.json    سلامت + رخدادهای عیب‌یابی (از واچ‌داگ، فقط کپی)
+  pumps.json     رادار پامپ: رویدادها، مشابه‌ها، مهارت‌ها، ژورنال اختیار ۵٪ (از ایجنت پامپ، فقط کپی)
 
 حافظهٔ دائمی: PHOENIX_MEMORY_DIR (در Actions از شاخهٔ phoenix-memory بازیابی/ذخیره می‌شود).
-این Workflow فقط فایل‌های سازمان و notify_scan را می‌نویسد.
+این Workflow فقط فایل‌های سازمان، notify_scan و history/signals را می‌نویسد.
 """
 from __future__ import annotations
 
@@ -33,6 +34,7 @@ from phoenix.org.memory import Memory  # noqa: E402
 from phoenix.org.office import run_org_cycle  # noqa: E402
 from phoenix.org.outcomes import manual_close  # noqa: E402
 from phoenix.panel import PhoenixPanel, compact_summary  # noqa: E402
+from phoenix.pump.agent import panel_payload as pump_panel_payload  # noqa: E402
 from strategies.hamid_method import SPEC, gates  # noqa: E402
 
 SITE_DATA = os.path.join(ROOT, "site", "data")
@@ -47,8 +49,22 @@ def _env_int(name: str, default: int) -> int:
         return default
 
 
-def _load_previous(name: str) -> Any:
-    """اول از Pages (حافظهٔ بین اجراها)، بعد از دیسک."""
+def _read_json(path: str) -> Any:
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as fh:
+                return json.load(fh)
+        except Exception:  # noqa: BLE001
+            return None
+    return None
+
+
+def _load_previous(name: str, memory_dir: str) -> Any:
+    """ترتیب: حافظهٔ دائمی (شاخهٔ phoenix-memory) → Pages منتشرشده → دیسک.
+    تا وقتی Pages خاموش است فقط حافظه معتبر است؛ قبلاً همین باعث ریست شدن تاریخچهٔ ۴۸ ساعته در هر اجرا می‌شد."""
+    data = _read_json(os.path.join(memory_dir, name))
+    if data is not None:
+        return data
     base = os.environ.get("PHOENIX_PAGES_URL", "").rstrip("/")
     if base:
         try:
@@ -57,14 +73,13 @@ def _load_previous(name: str) -> Any:
                 return r.json()
         except Exception:  # noqa: BLE001
             pass
-    path = os.path.join(SITE_DATA, name)
-    if os.path.exists(path):
-        try:
-            with open(path, encoding="utf-8") as fh:
-                return json.load(fh)
-        except Exception:  # noqa: BLE001
-            return None
-    return None
+    return _read_json(os.path.join(SITE_DATA, name))
+
+
+def _write_json(path: str, payload: Any) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, ensure_ascii=False, default=str)
 
 
 def _apply_pending_closes(memory: Memory) -> list[dict[str, Any]]:
@@ -104,7 +119,11 @@ def main() -> int:
 
     os.makedirs(SITE_DATA, exist_ok=True)
 
-    history = _load_previous("history.json") or []
+    # ---- سازمان (حافظهٔ دائمی اول بارگذاری می‌شود تا تاریخچه/دفترچه هم از همان‌جا بیایند) ----
+    memory = Memory()
+    memory.data.setdefault("notify_scan", {})
+
+    history = _load_previous("history.json", memory.root) or []
     if not isinstance(history, list):
         history = []
     history.append({
@@ -113,15 +132,12 @@ def main() -> int:
     })
     history = history[-HISTORY_KEEP:]
 
-    # ---- سازمان ----
-    memory = Memory()
-    memory.data.setdefault("notify_scan", {})
     learned_manual = _apply_pending_closes(memory)
     org = run_org_cycle(summary.get("results") or [], memory, fetch_klines=klines)
     org["learned_now"] = learned_manual + org["learned_now"]
     memory.save()
 
-    ledger = _load_previous("signals.json") or []
+    ledger = _load_previous("signals.json", memory.root) or []
     if not isinstance(ledger, list):
         ledger = []
     seen = {s.get("id") for s in ledger}
@@ -155,14 +171,18 @@ def main() -> int:
     # کپی خروجی ایجنت‌های دیگر برای تب‌ها (فقط خواندن)
     intel = memory.data.get("intel") or {}
     health = {**(memory.data.get("health") or {}), "incidents": (memory.data.get("incidents") or [])[-60:]}
+    pumps = pump_panel_payload(memory.data.get("pump_state") or {}, memory.data.get("pumps") or [])
     light["intel_updated_at"] = intel.get("updated_at")
     light["market"] = intel.get("market")
+    light["pump_updated_at"] = pumps.get("updated_at")
 
     outputs = (("latest.json", light), ("history.json", history), ("signals.json", ledger), ("org.json", org),
-               ("intel.json", intel), ("health.json", health))
+               ("intel.json", intel), ("health.json", health), ("pumps.json", pumps))
     for name, payload in outputs:
-        with open(os.path.join(SITE_DATA, name), "w", encoding="utf-8") as fh:
-            json.dump(payload, fh, ensure_ascii=False, default=str)
+        _write_json(os.path.join(SITE_DATA, name), payload)
+    # تاریخچه و دفترچه در حافظهٔ دائمی هم می‌مانند (Workflow آن‌ها را روی شاخهٔ phoenix-memory persist می‌کند)
+    _write_json(os.path.join(memory.root, "history.json"), history)
+    _write_json(os.path.join(memory.root, "signals.json"), ledger)
 
     print(
         f"SETUP {light.get('setups')} · WATCH {light.get('watches')} · FLAT {light.get('flats')} · BLIND {light.get('blinds')} · "

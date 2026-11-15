@@ -97,6 +97,7 @@ jobs:
           HAS_TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID != '' }}
           HAS_XAI: ${{ secrets.XAI_API_KEY != '' }}
           HAS_OPENAI: ${{ secrets.OPENAI_API_KEY != '' }}
+          HAS_CMC: ${{ secrets.CMC_API_KEY != '' }}
         run: |
           ok() { [ "$1" = "true" ] && echo "✅" || echo "❌"; }
           {
@@ -109,6 +110,7 @@ jobs:
             echo "| Secret TELEGRAM_CHAT_ID | $(ok "$HAS_TG_CHAT") | همان‌جا؛ chat_id خودت از @userinfobot |"
             echo "| Secret XAI_API_KEY (مغز Grok، اختیاری) | $(ok "$HAS_XAI") | اختیاری |"
             echo "| Secret OPENAI_API_KEY (اختیاری) | $(ok "$HAS_OPENAI") | اختیاری |"
+            echo "| Secret CMC_API_KEY (رادار پامپ، اختیاری — بدون آن از data-api عمومی CMC می‌خواند) | $(ok "$HAS_CMC") | اختیاری |"
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Run scan + organization cycle
@@ -128,7 +130,7 @@ jobs:
         if: always()
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: bash scripts/memory_sync.sh persist memory decisions.json accuracy.json experience.json audits.json counters.json notify_scan.json
+        run: bash scripts/memory_sync.sh persist memory decisions.json accuracy.json experience.json audits.json counters.json notify_scan.json history.json signals.json
 
       - uses: actions/upload-pages-artifact@v3
         if: steps.pages_check.outputs.enabled == 'true'
@@ -157,3 +159,4 @@ jobs:
       - name: Deploy
         id: deploy
         uses: actions/deploy-pages@v4
+          bash scripts/loop.sh ensure phoenix-pump.yml || true
