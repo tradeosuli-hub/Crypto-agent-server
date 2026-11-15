@@ -47,7 +47,7 @@
   "follow": {
    "peak": 7.08,
    "status": "running",
-   "last": 3.98,
+   "last": 6.6,
    "1h": 7.08
   },
   "notified": false,
@@ -117,7 +117,7 @@
   "follow": {
    "peak": -0.19,
    "status": "running",
-   "last": -0.51,
+   "last": -0.64,
    "1h": -0.51
   },
   "notified": false,
@@ -218,7 +218,8 @@
   "follow": {
    "peak": 8.42,
    "status": "running",
-   "last": 7.71
+   "last": 8.23,
+   "1h": 8.23
   },
   "notified": false,
   "max_change_15m": 113.72,
@@ -292,7 +293,7 @@
   "follow": {
    "peak": -9.19,
    "status": "running",
-   "last": -9.19
+   "last": -13.16
   },
   "notified": false,
   "max_change_15m": 17.8,
@@ -350,5 +351,208 @@
   "attention": 0.5,
   "attention_fa": "معمولی",
   "pattern_fa": "شبیه 1 پامپ قبلی (بیشترین: DOPE 54%)؛ وجه مشترک: از قبل در ۲۴h بالا بود، سشن آسیا، ترس شدید بازار"
+ },
+ {
+  "id": "P3bbd5741f2",
+  "ts": "2026-11-15T03:47:35.760475+00:00",
+  "symbol": "GATO",
+  "name": "Gato The Cat",
+  "pair": null,
+  "price": 0.0132851,
+  "change_15m": 12.12,
+  "change_15m_src": "snapshot",
+  "change_1h": 7.2788,
+  "change_24h": null,
+  "change_7d": null,
+  "market_cap": 13290504.0,
+  "mcap_tier": "micro_cap",
+  "rank": 969,
+  "volume_24h": 11112685.0,
+  "vol_to_mcap": 0.836,
+  "ath_change": -18.33295,
+  "tags": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Cat-Themed"
+  ],
+  "tags_compact": [
+   "tag:meme"
+  ],
+  "date_added": null,
+  "trending": false,
+  "btc_15m": 0.353,
+  "btc_1h": 3.5394,
+  "fear_greed": 10,
+  "btc_dominance": 58.71,
+  "hour_utc": 3,
+  "weekday": 6,
+  "news": {
+   "events": [],
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "titles": [],
+   "social_hot": false,
+   "social_sentiment": null
+  },
+  "follow": {
+   "peak": null,
+   "status": "running"
+  },
+  "notified": false,
+  "max_change_15m": 12.12,
+  "factors": [
+   "fear_extreme",
+   "asia_session",
+   "micro_cap",
+   "not_on_binance",
+   "tag:meme"
+  ],
+  "factors_fa": [
+   "ترس شدید بازار",
+   "سشن آسیا",
+   "میکروکپ",
+   "خارج از بایننس",
+   "میم‌کوین"
+  ],
+  "similar": [
+   {
+    "id": "Pc0633772e9",
+    "symbol": "MIHAO",
+    "ts": "2026-11-15T02:19:26.929998+00:00",
+    "change_15m": 10.41,
+    "similarity": 0.658,
+    "shared": [
+     "asia_session",
+     "fear_extreme",
+     "micro_cap",
+     "not_on_binance",
+     "tag:meme"
+    ],
+    "shared_fa": [
+     "سشن آسیا",
+     "ترس شدید بازار",
+     "میکروکپ",
+     "خارج از بایننس",
+     "میم‌کوین"
+    ],
+    "follow": {
+     "peak": 7.08,
+     "status": "running",
+     "last": 6.6,
+     "1h": 7.08
+    }
+   },
+   {
+    "id": "P000a859d84",
+    "symbol": "MACCA",
+    "ts": "2026-11-15T02:34:08.083707+00:00",
+    "change_15m": 9.67,
+    "similarity": 0.602,
+    "shared": [
+     "asia_session",
+     "fear_extreme",
+     "micro_cap",
+     "not_on_binance"
+    ],
+    "shared_fa": [
+     "سشن آسیا",
+     "ترس شدید بازار",
+     "میکروکپ",
+     "خارج از بایننس"
+    ],
+    "follow": {
+     "peak": -0.19,
+     "status": "running",
+     "last": -0.64,
+     "1h": -0.51
+    }
+   }
+  ],
+  "brain": null,
+  "attention": 0.5,
+  "attention_fa": "معمولی",
+  "pattern_fa": "شبیه 2 پامپ قبلی (بیشترین: MIHAO 66%)؛ وجه مشترک: سشن آسیا، ترس شدید بازار، میکروکپ"
+ },
+ {
+  "id": "P3e56ea006e",
+  "ts": "2026-11-15T03:47:35.760475+00:00",
+  "symbol": "H",
+  "name": "Humanity",
+  "pair": null,
+  "price": 0.0187009,
+  "change_15m": 9.12,
+  "change_15m_src": "snapshot",
+  "change_1h": 3.9378,
+  "change_24h": -10.40458,
+  "change_7d": -69.8136,
+  "market_cap": 40400338.0,
+  "mcap_tier": "micro_cap",
+  "rank": 468,
+  "volume_24h": 7692868.0,
+  "vol_to_mcap": 0.19,
+  "ath_change": -97.80955,
+  "tags": [
+   "privacy",
+   "identity",
+   "ethereum-ecosystem",
+   "pantera-capital-portfolio",
+   "animoca-brands-portfolio",
+   "jump-crypto",
+   "binance-alpha",
+   "binance-ecosystem",
+   "binance-listing",
+   "privacy-blockchain"
+  ],
+  "tags_compact": [
+   "tag:privacy",
+   "tag:binance-launch"
+  ],
+  "date_added": "2025-06-23T03:36:52.000Z",
+  "trending": false,
+  "btc_15m": 0.353,
+  "btc_1h": 3.5394,
+  "fear_greed": 10,
+  "btc_dominance": 58.71,
+  "hour_utc": 3,
+  "weekday": 6,
+  "news": {
+   "events": [],
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "titles": [],
+   "social_hot": false,
+   "social_sentiment": null
+  },
+  "follow": {
+   "peak": null,
+   "status": "running"
+  },
+  "notified": false,
+  "max_change_15m": 9.12,
+  "factors": [
+   "deep_drawdown",
+   "weekly_downtrend",
+   "fear_extreme",
+   "asia_session",
+   "micro_cap",
+   "not_on_binance",
+   "tag:privacy",
+   "tag:binance-launch"
+  ],
+  "factors_fa": [
+   "افت سنگین از سقف (> ۸۰٪)",
+   "روند هفتگی نزولی (شورت‌اسکوییز؟)",
+   "ترس شدید بازار",
+   "سشن آسیا",
+   "میکروکپ",
+   "خارج از بایننس",
+   "حریم خصوصی",
+   "Launchpool/Alpha بایننس"
+  ],
+  "similar": [],
+  "brain": null,
+  "attention": 0.5,
+  "attention_fa": "معمولی",
+  "pattern_fa": "الگوی مشابهی در حافظه نیست — پامپ تازه‌نوع؛ ثبت شد تا دفعهٔ بعد مرجع باشد"
  }
 ]
