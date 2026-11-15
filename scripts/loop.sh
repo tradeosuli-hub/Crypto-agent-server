@@ -8,8 +8,13 @@
 #   loop.sh self   <workflow.yml> <delay_min>   → زنجیرهٔ خودم را ادامه بده (اگر جانشینی در صف نیست)
 #   loop.sh ensure <workflow.yml>               → اگر حلقهٔ آن Workflow مرده (هیچ اجرای فعال/در صف ندارد) آن را زنده کن
 #
-# ایمنی در برابر زنجیرهٔ تکراری: فقط وقتی dispatch می‌کنیم که هیچ اجرای فعال/در صفِ دیگری (به‌جز خودمان) روی این شاخه نباشد.
-# concurrency.group هر Workflow هم لایهٔ دوم است: دو زنجیره هم‌زمان نمی‌توانند بدوند.
+# ایمنی در برابر زنجیرهٔ تکراری:
+#   self   → فقط اگر «جانشینِ هنوز شروع‌نشده‌ای» (queued/waiting/pending) وجود نداشته باشد dispatch می‌کنیم.
+#            اجرای in_progress دیگر شمرده نمی‌شود: با concurrency.group فقط یکی می‌دود، پس in_progressِ غیر از خودمان
+#            یا اجرای تازه‌تمام‌شده‌ای است که API هنوز به‌روز نکرده، یا دوقلویی که پشت سر ما می‌دود و خودش جانشین می‌سازد.
+#            (درس ۱۱ نوامبر: دو دوقلو همدیگر را «جانشین» دیدند و هیچ‌کدام dispatch نکردند → حلقه مرد.)
+#   ensure → اگر هیچ اجرای فعال/در صفی (هر وضعیتی) نباشد، حلقه مرده است → زنده کن.
+# concurrency.group هر Workflow لایهٔ دوم است: دو زنجیره هم‌زمان نمی‌توانند بدوند؛ دوقلوی اضافی فقط یک نوبت پشت‌سرهم می‌دود.
 set -euo pipefail
 
 MODE="${1:-}"; WF="${2:-}"; DELAY="${3:-0}"
@@ -18,10 +23,10 @@ REF="${GITHUB_REF_NAME:?GITHUB_REF_NAME}"
 SELF_ID="${GITHUB_RUN_ID:-0}"
 export GH_TOKEN="${GH_TOKEN:-${GITHUB_TOKEN:-}}"
 
-active_runs() {
-  # اجراهای این Workflow روی این شاخه که هنوز تمام نشده‌اند (به‌جز اجرای فعلی)
+count_runs() {
+  # اجراهای این Workflow روی این شاخه در وضعیت‌های داده‌شده (به‌جز اجرای فعلی)
   local total=0 st
-  for st in queued in_progress waiting pending requested; do
+  for st in "$@"; do
     local n
     n="$(gh api "repos/$REPO/actions/workflows/$WF/runs?branch=$REF&status=$st&per_page=10" \
           --jq "[.workflow_runs[] | select(.id != $SELF_ID)] | length" 2>/dev/null || echo 0)"
@@ -29,6 +34,9 @@ active_runs() {
   done
   echo "$total"
 }
+
+pending_runs() { count_runs queued waiting pending requested; }
+active_runs()  { count_runs queued in_progress waiting pending requested; }
 
 dispatch() {
   local delay="$1" tries=0
@@ -42,8 +50,8 @@ dispatch() {
 
 case "$MODE" in
   self)
-    if [ "$(active_runs)" -gt 0 ]; then
-      echo "loop: $WF already has a successor queued/running — not dispatching again"
+    if [ "$(pending_runs)" -gt 0 ]; then
+      echo "loop: $WF already has a successor queued — not dispatching again"
     else
       dispatch "$DELAY"
     fi
