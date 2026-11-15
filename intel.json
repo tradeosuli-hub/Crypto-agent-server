@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-15T02:49:31.726346+00:00",
+ "updated_at": "2026-11-15T03:18:58.963469+00:00",
  "market": {
-  "btc_dominance": 58.66,
-  "usdt_dominance": 7.9,
-  "mcap_change_24h": -7.24,
+  "btc_dominance": 58.71,
+  "usdt_dominance": 7.84,
+  "mcap_change_24h": -5.96,
   "trending": [
    "BTC",
-   "SOL",
    "NEAR",
    "ETH",
+   "SOL",
    "HYPE",
-   "ZEC",
-   "LIT",
+   "UNI",
+   "PEARL",
    "PUMP",
-   "ADA",
-   "XRP"
+   "KAVA",
+   "ZEC"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+   "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
+   "published": "2026-11-15T02:50:57+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N439321df3658",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T03:18:58.963469+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
@@ -2220,9 +2240,16 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-15T02:50:57+00:00"
+  },
   "KAVAUSDT": {
    "sentiment": -0.9,
-   "risk": 0.923,
+   "risk": 0.913,
    "events": [
     "security"
    ],
@@ -2230,8 +2257,8 @@
    "last": "2026-11-14T23:07:35+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.781,
-   "risk": 0.923,
+   "sentiment": -0.78,
+   "risk": 0.913,
    "events": [
     "security",
     "etf_flow"
@@ -2241,7 +2268,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.504,
+   "risk": 0.498,
    "events": [
     "regulation"
    ],
@@ -2250,7 +2277,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.036,
-   "risk": 0.321,
+   "risk": 0.315,
    "events": [
     "etf_flow",
     "regulation",
