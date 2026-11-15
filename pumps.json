@@ -47,7 +47,7 @@
   "follow": {
    "peak": 13.06,
    "status": "running",
-   "last": 9.87,
+   "last": 9.09,
    "1h": 7.08,
    "4h": 4.18
   },
@@ -118,7 +118,7 @@
   "follow": {
    "peak": 7.87,
    "status": "running",
-   "last": 4.51,
+   "last": 6.94,
    "1h": -0.51,
    "4h": -6.56
   },
@@ -218,9 +218,9 @@
    "social_sentiment": null
   },
   "follow": {
-   "peak": 44.39,
+   "peak": 121.26,
    "status": "running",
-   "last": 44.39,
+   "last": 121.26,
    "1h": 8.23,
    "4h": 15.77
   },
@@ -401,7 +401,7 @@
   "follow": {
    "peak": 3.41,
    "status": "running",
-   "last": -4.76,
+   "last": -12.96,
    "1h": 3.33,
    "4h": -8.33
   },
@@ -533,7 +533,7 @@
   "follow": {
    "peak": 3.85,
    "status": "running",
-   "last": -3.45,
+   "last": -4.43,
    "1h": -0.52,
    "4h": -4.93
   },
@@ -622,7 +622,7 @@
   "follow": {
    "peak": 15.45,
    "status": "running",
-   "last": 11.29,
+   "last": 13.1,
    "1h": 7.89,
    "4h": 11.05
   },
@@ -708,7 +708,7 @@
   "follow": {
    "peak": 0.13,
    "status": "running",
-   "last": -2.69,
+   "last": -3.39,
    "1h": -1.57,
    "4h": -6.63
   },
@@ -873,7 +873,7 @@
   "follow": {
    "peak": 0.93,
    "status": "running",
-   "last": -21.03,
+   "last": -24.77,
    "1h": -2.8,
    "4h": -17.76
   },
@@ -957,10 +957,11 @@
    "social_sentiment": null
   },
   "follow": {
-   "peak": 23.78,
+   "peak": 89.67,
    "status": "running",
-   "last": 23.78,
-   "1h": -0.76
+   "last": 89.67,
+   "1h": -0.76,
+   "4h": 89.67
   },
   "notified": false,
   "max_change_15m": 12.47,
@@ -1101,7 +1102,7 @@
   "follow": {
    "peak": 6.66,
    "status": "running",
-   "last": 3.06,
+   "last": 5.18,
    "1h": 4.15
   },
   "notified": false,
@@ -1191,7 +1192,8 @@
   "follow": {
    "peak": -2.24,
    "status": "running",
-   "last": -2.24
+   "last": -9.42,
+   "1h": -9.42
   },
   "notified": false,
   "max_change_15m": 12.06,
@@ -1359,7 +1361,7 @@
   "follow": {
    "peak": 1.96,
    "status": "running",
-   "last": 1.96
+   "last": -6.83
   },
   "notified": false,
   "max_change_15m": 12.43,
@@ -1537,8 +1539,9 @@
    "social_sentiment": null
   },
   "follow": {
-   "peak": null,
-   "status": "running"
+   "peak": -1.99,
+   "status": "running",
+   "last": -1.99
   },
   "notified": false,
   "max_change_15m": 10.05,
@@ -1603,5 +1606,169 @@
   "attention": 0.365,
   "attention_fa": "احتمال برگشت/فیک",
   "pattern_fa": "شبیه 1 پامپ قبلی (بیشترین: INIT 68%)؛ وجه مشترک: افت سنگین از سقف (> ۸۰٪)، سشن اروپا، ترس شدید بازار"
+ },
+ {
+  "id": "Peb55b2703e",
+  "ts": "2026-11-15T09:37:16.820955+00:00",
+  "symbol": "DOPE",
+  "name": "Doge Pepe",
+  "pair": null,
+  "price": 0.01971063,
+  "change_15m": 53.23,
+  "change_15m_src": "snapshot",
+  "change_1h": 1.117,
+  "change_24h": 102.94825,
+  "change_7d": 60847.536,
+  "market_cap": 19710626.0,
+  "mcap_tier": "micro_cap",
+  "rank": 778,
+  "volume_24h": 7243500.0,
+  "vol_to_mcap": 0.367,
+  "ath_change": -63.18069,
+  "tags": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed",
+   "Frog-Themed",
+   "The Boy’s Club"
+  ],
+  "tags_compact": [
+   "tag:meme"
+  ],
+  "date_added": null,
+  "trending": false,
+  "btc_15m": -0.618,
+  "btc_1h": 1.2417,
+  "fear_greed": 10,
+  "btc_dominance": 58.87,
+  "hour_utc": 9,
+  "weekday": 6,
+  "news": {
+   "events": [],
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "titles": [],
+   "social_hot": false,
+   "social_sentiment": null
+  },
+  "follow": {
+   "peak": null,
+   "status": "running"
+  },
+  "notified": false,
+  "max_change_15m": 53.23,
+  "factors": [
+   "weekly_uptrend",
+   "already_up_24h",
+   "against_btc",
+   "fear_extreme",
+   "eu_session",
+   "micro_cap",
+   "not_on_binance",
+   "tag:meme"
+  ],
+  "factors_fa": [
+   "روند هفتگی صعودی",
+   "از قبل در ۲۴h بالا بود",
+   "خلاف BTC",
+   "ترس شدید بازار",
+   "سشن اروپا",
+   "میکروکپ",
+   "خارج از بایننس",
+   "میم‌کوین"
+  ],
+  "similar": [
+   {
+    "id": "P99fb1c4bc4",
+    "symbol": "DOPE",
+    "ts": "2026-11-15T02:48:47.914587+00:00",
+    "change_15m": 113.72,
+    "similarity": 0.706,
+    "shared": [
+     "already_up_24h",
+     "fear_extreme",
+     "micro_cap",
+     "not_on_binance",
+     "tag:meme",
+     "weekly_uptrend"
+    ],
+    "shared_fa": [
+     "از قبل در ۲۴h بالا بود",
+     "ترس شدید بازار",
+     "میکروکپ",
+     "خارج از بایننس",
+     "میم‌کوین",
+     "روند هفتگی صعودی"
+    ],
+    "follow": {
+     "peak": 121.26,
+     "status": "running",
+     "last": 121.26,
+     "1h": 8.23,
+     "4h": 15.77
+    }
+   },
+   {
+    "id": "Pc2b1fd1f21",
+    "symbol": "DOPE",
+    "ts": "2026-11-15T05:44:01.293234+00:00",
+    "change_15m": 8.85,
+    "similarity": 0.584,
+    "shared": [
+     "already_up_24h",
+     "fear_extreme",
+     "micro_cap",
+     "not_on_binance",
+     "tag:meme",
+     "weekly_uptrend"
+    ],
+    "shared_fa": [
+     "از قبل در ۲۴h بالا بود",
+     "ترس شدید بازار",
+     "میکروکپ",
+     "خارج از بایننس",
+     "میم‌کوین",
+     "روند هفتگی صعودی"
+    ],
+    "follow": {
+     "peak": 89.67,
+     "status": "running",
+     "last": 89.67,
+     "1h": -0.76,
+     "4h": 89.67
+    }
+   },
+   {
+    "id": "P37cf01b812",
+    "symbol": "WASTED",
+    "ts": "2026-11-15T03:18:22.552762+00:00",
+    "change_15m": 17.8,
+    "similarity": 0.527,
+    "shared": [
+     "already_up_24h",
+     "fear_extreme",
+     "micro_cap",
+     "not_on_binance",
+     "weekly_uptrend"
+    ],
+    "shared_fa": [
+     "از قبل در ۲۴h بالا بود",
+     "ترس شدید بازار",
+     "میکروکپ",
+     "خارج از بایننس",
+     "روند هفتگی صعودی"
+    ],
+    "follow": {
+     "peak": -6.45,
+     "status": "running",
+     "last": -18.09,
+     "1h": -7.49
+    }
+   }
+  ],
+  "brain": null,
+  "attention": 0.667,
+  "attention_fa": "قابل توجه",
+  "pattern_fa": "شبیه 3 پامپ قبلی (بیشترین: DOPE 71%)؛ وجه مشترک: از قبل در ۲۴h بالا بود، ترس شدید بازار، میکروکپ"
  }
 ]
