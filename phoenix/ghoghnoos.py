@@ -90,17 +90,15 @@ def analyze_tf(
     vol_now = float(vz.iloc[-1]) if not np.isnan(vz.iloc[-1]) else 0.0
     liq = ta.liquidation_map(df)
 
-    # trigger on live walls
+    # ماشه فقط روی دیوار زنده؛ setup فقط روی دیوار قابل‌معامله (solid / hammer_dulling).
+    # دیوار young/untested اجازهٔ bias می‌دهد ولی هرگز setup نمی‌سازد (قانون ۸).
     trigger = None
     wall_used = None
+    tr_cfg = SPEC["trigger"]
     for side in ("below", "above"):
         w = walls.get(side)
         if w is None:
             continue
-        if w.verdict not in TRADE_WALLS and w.verdict not in ("young", "untested"):
-            # still allow young for bias but not setup unless tradeable
-            pass
-        tr_cfg = SPEC["trigger"]
         cand = ta.wick_rejection(
             df,
             w,
@@ -108,13 +106,13 @@ def analyze_tf(
             min_pen_pct=tr_cfg["min_penetration_pct_of_band"],
             lookback=tr_cfg["lookback_candles"],
         )
-        if cand and w.verdict in TRADE_WALLS:
-            trigger = cand
-            wall_used = w
+        if not cand:
+            continue
+        if w.verdict in TRADE_WALLS:
+            trigger, wall_used = cand, w
             break
-        if cand and trigger is None and w.verdict in ("young", "solid", "hammer_dulling"):
-            trigger = cand
-            wall_used = w
+        if trigger is None and w.verdict in ("young", "untested"):
+            trigger, wall_used = cand, w
 
     direction = "flat"
     if trigger:
@@ -355,7 +353,6 @@ def build_geometry(
     atr_v: float,
     reentry: dict | None,
 ) -> dict[str, Any]:
-    price = float(df["close"].iloc[-1])
     edge = SPEC["entry"]["edge_offset_atr"] * atr_v
     if direction == "long":
         entry = wall.high + edge

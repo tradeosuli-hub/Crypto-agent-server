@@ -235,17 +235,13 @@ def live_walls(
     price: float,
     tradeable: set[str] | None = None,
 ) -> dict[str, OrderBlock | None]:
-    """نزدیک‌ترین دیوار زنده زیر و بالای قیمت."""
-    tradeable = tradeable or {"solid", "hammer_dulling", "young", "untested"}
-    below = [b for b in blocks if b.high <= price and b.verdict in tradeable or (
-        b.low < price < b.high and b.verdict in tradeable
-    )]
-    # cleaner: below = mid < price, above = mid > price
+    """نزدیک‌ترین دیوار زنده زیر و بالای قیمت (فقط همین دو، بقیه نمایشی‌اند)."""
+    if tradeable:
+        blocks = [b for b in blocks if b.verdict in tradeable] or blocks
     below = [b for b in blocks if b.mid < price]
     above = [b for b in blocks if b.mid > price]
-    # prefer tradeable when filtering for entries
-    bel = min(below, key=lambda b: price - b.mid, default=None) if below else None
-    abv = min(above, key=lambda b: b.mid - price, default=None) if above else None
+    bel = min(below, key=lambda b: price - b.mid, default=None)
+    abv = min(above, key=lambda b: b.mid - price, default=None)
     return {"below": bel, "above": abv}
 
 
@@ -403,7 +399,6 @@ def detect_fvg(df: pd.DataFrame) -> list[dict[str, Any]]:
     gaps: list[dict[str, Any]] = []
     h = df["high"].values
     l = df["low"].values
-    c = df["close"].values
     for i in range(2, len(df)):
         # bullish FVG: low[i] > high[i-2]
         if l[i] > h[i - 2]:

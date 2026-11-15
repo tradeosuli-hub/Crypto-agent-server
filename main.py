@@ -46,46 +46,18 @@ def cmd_gates(_: argparse.Namespace) -> int:
 
 
 def cmd_serve(args: argparse.Namespace) -> int:
-    from fastapi import FastAPI
     import uvicorn
+    from phoenix.live_app import app
 
-    app = FastAPI(title="Phoenix Panel", version=SPEC["version"])
-
-    @app.get("/health")
-    def health():
-        return {"ok": True, "method": "hamid_method_v3", "version": SPEC["version"]}
-
-    @app.get("/gates")
-    def api_gates():
-        return gates()
-
-    @app.post("/scan")
-    def api_scan(top: int = 20, symbols: str | None = None):
-        syms = [s.strip().upper() for s in symbols.split(",")] if symbols else None
-        panel = PhoenixPanel(symbols=syms, top_n=None if syms else top, workers=4)
-        summary = panel.run_cycle()
-        path = save_cycle(summary)
-        return {
-            "setups": summary["setups"],
-            "watches": summary["watches"],
-            "signals": summary["signals"],
-            "watch_list": summary["watch_list"],
-            "dominance": summary["dominance"],
-            "artifact": path,
-        }
-
-    @app.get("/evaluate/{symbol}")
-    def api_eval(symbol: str):
-        from phoenix.market_data import fetch_dominance_proxy, fetch_multi_tf
-        from phoenix.ghoghnoos import evaluate_symbol
-
-        dom = fetch_dominance_proxy()
-        frames = fetch_multi_tf(symbol.upper(), limit=400)
-        return evaluate_symbol(symbol.upper(), frames, dominance=dom)
-
-    print(f"Serving on http://{args.host}:{args.port}")
+    print(f"پنل مستقل ققنوس · http://{args.host}:{args.port}")
+    print("این سرویس به هیچ پنل دیگری وصل نیست.")
     uvicorn.run(app, host=args.host, port=args.port)
     return 0
+
+
+def cmd_live(args: argparse.Namespace) -> int:
+    """داشبورد لایو مستقل — فقط همین پنل."""
+    return cmd_serve(args)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -103,10 +75,15 @@ def build_parser() -> argparse.ArgumentParser:
     g = sub.add_parser("gates", help="نمایش گیت‌های سخت متد")
     g.set_defaults(func=cmd_gates)
 
-    sv = sub.add_parser("serve", help="API سریع")
+    sv = sub.add_parser("serve", help="داشبورد لایو مستقل در مرورگر")
     sv.add_argument("--host", default="0.0.0.0")
     sv.add_argument("--port", type=int, default=8080)
     sv.set_defaults(func=cmd_serve)
+
+    lv = sub.add_parser("live", help="همان serve — داشبورد لایو")
+    lv.add_argument("--host", default="0.0.0.0")
+    lv.add_argument("--port", type=int, default=8080)
+    lv.set_defaults(func=cmd_live)
     return p
 
 

@@ -8,7 +8,17 @@ import pandas as pd
 import requests
 
 # api.binance.com از برخی لوکیشن‌ها 451 می‌دهد؛ data-api عمومی است.
+# خودترمیمی: اگر میزبان اصلی ۴۵۱/۴۰۳ یا قطع داد، میزبان‌های بعدی امتحان می‌شوند.
 BINANCE_DATA = "https://data-api.binance.vision"
+BINANCE_HOSTS = [
+    BINANCE_DATA,
+    "https://api.binance.com",
+    "https://api1.binance.com",
+    "https://api2.binance.com",
+    "https://api3.binance.com",
+    "https://api4.binance.com",
+]
+_BLOCKED = {451, 403}
 OKX = "https://www.okx.com"
 
 TF_MAP = {
@@ -24,18 +34,28 @@ class MarketDataError(RuntimeError):
 
 
 def _get(url: str, params: dict[str, Any] | None = None, timeout: float = 25.0) -> Any:
+    """GET با تلاش مجدد؛ اگر url روی میزبان بایننس باشد و مسدود/قطع شود، میزبان‌های جایگزین امتحان می‌شوند."""
+    hosts = [h for h in BINANCE_HOSTS if url.startswith(h)]
+    candidates = [url] + [url.replace(hosts[0], h, 1) for h in BINANCE_HOSTS if h != hosts[0]] if hosts else [url]
     last_err: Exception | None = None
-    for attempt in range(4):
-        try:
-            r = requests.get(url, params=params or {}, timeout=timeout)
-            if r.status_code in (429, 418):
-                time.sleep(2 ** attempt)
-                continue
-            r.raise_for_status()
-            return r.json()
-        except Exception as exc:  # noqa: BLE001
-            last_err = exc
-            time.sleep(0.4 * (attempt + 1))
+    for cand in candidates:
+        for attempt in range(3):
+            try:
+                r = requests.get(cand, params=params or {}, timeout=timeout)
+                if r.status_code in (429, 418):
+                    time.sleep(2 ** attempt)
+                    continue
+                if r.status_code in _BLOCKED:
+                    last_err = MarketDataError(f"HTTP {r.status_code} blocked at {cand}")
+                    break  # این میزبان مسدود است → میزبان بعدی
+                r.raise_for_status()
+                return r.json()
+            except requests.exceptions.ConnectionError as exc:
+                last_err = exc
+                break  # قطع ارتباط → میزبان بعدی
+            except Exception as exc:  # noqa: BLE001
+                last_err = exc
+                time.sleep(0.4 * (attempt + 1))
     raise MarketDataError(f"request failed: {url} :: {last_err}")
 
 
