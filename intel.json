@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-11-15T10:12:20.120114+00:00",
+ "updated_at": "2026-11-15T10:41:50.885457+00:00",
  "market": {
-  "btc_dominance": 58.75,
-  "usdt_dominance": 7.83,
-  "mcap_change_24h": -4.21,
+  "btc_dominance": 59.5,
+  "usdt_dominance": 7.93,
+  "mcap_change_24h": -5.42,
   "trending": [
    "BTC",
    "HYPE",
    "KAVA",
-   "VVV",
    "NEAR",
-   "PEARL",
+   "VVV",
    "ETH",
-   "INJ",
+   "SUI",
    "SOL",
-   "SUI"
+   "EVAA",
+   "PI"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+   "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-15T10:23:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N5e8404f23265",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.5,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T10:41:50.885457+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Coinone warns of phishing, identity theft after customer data breach",
@@ -2275,6 +2297,27 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.074,
+   "risk": 0.223,
+   "events": [
+    "etf_flow",
+    "regulation",
+    "listing",
+    "market"
+   ],
+   "count": 17,
+   "last": "2026-11-15T10:23:17+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.787,
+   "risk": 0.759,
+   "events": [
+    "security"
+   ],
+   "count": 2,
+   "last": "2026-11-15T10:23:17+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.4,
    "risk": 0.0,
@@ -2284,16 +2327,7 @@
   },
   "KAVAUSDT": {
    "sentiment": -0.9,
-   "risk": 0.769,
-   "events": [
-    "security"
-   ],
-   "count": 1,
-   "last": "2026-11-14T23:07:35+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.9,
-   "risk": 0.769,
+   "risk": 0.759,
    "events": [
     "security"
    ],
@@ -2302,24 +2336,12 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.411,
+   "risk": 0.405,
    "events": [
     "regulation"
    ],
    "count": 2,
    "last": "2026-11-14T19:06:59+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.018,
-   "risk": 0.229,
-   "events": [
-    "etf_flow",
-    "regulation",
-    "listing",
-    "market"
-   ],
-   "count": 16,
-   "last": "2026-11-14T17:50:41+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
