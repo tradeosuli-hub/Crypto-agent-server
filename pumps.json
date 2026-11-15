@@ -45,9 +45,10 @@
    "social_sentiment": null
   },
   "follow": {
-   "peak": 3.1,
+   "peak": 7.08,
    "status": "running",
-   "last": 3.1
+   "last": 7.08,
+   "1h": 7.08
   },
   "notified": false,
   "max_change_15m": 10.41,
@@ -114,9 +115,9 @@
    "social_sentiment": null
   },
   "follow": {
-   "peak": -2.85,
+   "peak": -0.19,
    "status": "running",
-   "last": -4.1
+   "last": -0.19
   },
   "notified": false,
   "max_change_15m": 9.67,
@@ -216,7 +217,7 @@
   "follow": {
    "peak": 8.42,
    "status": "running",
-   "last": 8.42
+   "last": 8.27
   },
   "notified": false,
   "max_change_15m": 113.72,
@@ -245,5 +246,107 @@
   "attention": 0.5,
   "attention_fa": "معمولی",
   "pattern_fa": "الگوی مشابهی در حافظه نیست — پامپ تازه‌نوع؛ ثبت شد تا دفعهٔ بعد مرجع باشد"
+ },
+ {
+  "id": "P37cf01b812",
+  "ts": "2026-11-15T03:18:22.552762+00:00",
+  "symbol": "WASTED",
+  "name": "WASTED",
+  "pair": null,
+  "price": 0.00698038,
+  "change_15m": 17.8,
+  "change_15m_src": "snapshot",
+  "change_1h": -2.3087,
+  "change_24h": 356.59908,
+  "change_7d": 561.3823,
+  "market_cap": 6750298.0,
+  "mcap_tier": "micro_cap",
+  "rank": 1384,
+  "volume_24h": 4474796.0,
+  "vol_to_mcap": 0.663,
+  "ath_change": -3.37079,
+  "tags": [
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem"
+  ],
+  "tags_compact": [
+   "tag:solana-eco"
+  ],
+  "date_added": null,
+  "trending": false,
+  "btc_15m": -0.254,
+  "btc_1h": 3.5394,
+  "fear_greed": 10,
+  "btc_dominance": 58.66,
+  "hour_utc": 3,
+  "weekday": 6,
+  "news": {
+   "events": [],
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "titles": [],
+   "social_hot": false,
+   "social_sentiment": null
+  },
+  "follow": {
+   "peak": null,
+   "status": "running"
+  },
+  "notified": false,
+  "max_change_15m": 17.8,
+  "factors": [
+   "near_ath",
+   "weekly_uptrend",
+   "already_up_24h",
+   "fear_extreme",
+   "asia_session",
+   "micro_cap",
+   "not_on_binance",
+   "tag:solana-eco"
+  ],
+  "factors_fa": [
+   "نزدیک سقف تاریخی",
+   "روند هفتگی صعودی",
+   "از قبل در ۲۴h بالا بود",
+   "ترس شدید بازار",
+   "سشن آسیا",
+   "میکروکپ",
+   "خارج از بایننس",
+   "اکوسیستم سولانا"
+  ],
+  "similar": [
+   {
+    "id": "P99fb1c4bc4",
+    "symbol": "DOPE",
+    "ts": "2026-11-15T02:48:47.914587+00:00",
+    "change_15m": 113.72,
+    "similarity": 0.543,
+    "shared": [
+     "already_up_24h",
+     "asia_session",
+     "fear_extreme",
+     "micro_cap",
+     "not_on_binance",
+     "weekly_uptrend"
+    ],
+    "shared_fa": [
+     "از قبل در ۲۴h بالا بود",
+     "سشن آسیا",
+     "ترس شدید بازار",
+     "میکروکپ",
+     "خارج از بایننس",
+     "روند هفتگی صعودی"
+    ],
+    "follow": {
+     "peak": 8.42,
+     "status": "running",
+     "last": 8.27
+    }
+   }
+  ],
+  "brain": null,
+  "attention": 0.5,
+  "attention_fa": "معمولی",
+  "pattern_fa": "شبیه 1 پامپ قبلی (بیشترین: DOPE 54%)؛ وجه مشترک: از قبل در ۲۴h بالا بود، سشن آسیا، ترس شدید بازار"
  }
 ]
