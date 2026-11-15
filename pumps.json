@@ -47,7 +47,7 @@
   "follow": {
    "peak": 13.06,
    "status": "running",
-   "last": -0.67,
+   "last": 1.66,
    "1h": 7.08,
    "4h": 4.18
   },
@@ -118,7 +118,7 @@
   "follow": {
    "peak": 7.87,
    "status": "running",
-   "last": 5.57,
+   "last": 6.45,
    "1h": -0.51,
    "4h": -6.56
   },
@@ -220,7 +220,7 @@
   "follow": {
    "peak": 40.87,
    "status": "running",
-   "last": 39.47,
+   "last": 40.02,
    "1h": 8.23,
    "4h": 15.77
   },
@@ -401,7 +401,7 @@
   "follow": {
    "peak": 3.41,
    "status": "running",
-   "last": -12.08,
+   "last": -17.52,
    "1h": 3.33,
    "4h": -8.33
   },
@@ -533,7 +533,7 @@
   "follow": {
    "peak": 3.85,
    "status": "running",
-   "last": -5.13,
+   "last": -4.77,
    "1h": -0.52,
    "4h": -4.93
   },
@@ -622,8 +622,9 @@
   "follow": {
    "peak": 15.45,
    "status": "running",
-   "last": 13.4,
-   "1h": 7.89
+   "last": 11.05,
+   "1h": 7.89,
+   "4h": 11.05
   },
   "notified": false,
   "max_change_15m": 15.93,
@@ -707,7 +708,7 @@
   "follow": {
    "peak": 0.13,
    "status": "running",
-   "last": -12.03,
+   "last": -9.97,
    "1h": -1.57
   },
   "notified": false,
@@ -871,7 +872,7 @@
   "follow": {
    "peak": 0.93,
    "status": "running",
-   "last": -15.89,
+   "last": -18.22,
    "1h": -2.8
   },
   "notified": false,
@@ -956,7 +957,7 @@
   "follow": {
    "peak": 20.76,
    "status": "running",
-   "last": 19.56,
+   "last": 20.03,
    "1h": -0.76
   },
   "notified": false,
@@ -1047,5 +1048,91 @@
   "attention": 0.5,
   "attention_fa": "معمولی",
   "pattern_fa": "شبیه 2 پامپ قبلی (بیشترین: DOPE 78%)؛ وجه مشترک: از قبل در ۲۴h بالا بود، سشن آسیا، ترس شدید بازار"
+ },
+ {
+  "id": "Paa61fd95af",
+  "ts": "2026-11-15T08:09:40.813030+00:00",
+  "symbol": "INIT",
+  "name": "Initia",
+  "pair": "INITUSDT",
+  "price": 0.13682,
+  "change_15m": 12.01,
+  "change_15m_src": "binance",
+  "change_1h": 5.0654,
+  "change_24h": 26.07245,
+  "change_7d": 2.7954,
+  "market_cap": 29351051.0,
+  "mcap_tier": "micro_cap",
+  "rank": 587,
+  "volume_24h": 47554753.0,
+  "vol_to_mcap": 1.62,
+  "ath_change": -90.59655,
+  "tags": [
+   "interoperability",
+   "smart-contracts",
+   "binance-launchpool",
+   "binance-labs-portfolio",
+   "layer-1",
+   "binance-ecosystem",
+   "binance-listing"
+  ],
+  "tags_compact": [
+   "tag:l1",
+   "tag:binance-launch"
+  ],
+  "date_added": "2025-04-17T09:02:11.000Z",
+  "trending": false,
+  "btc_15m": 0.413,
+  "btc_1h": -0.7514,
+  "fear_greed": 10,
+  "btc_dominance": 58.57,
+  "hour_utc": 8,
+  "weekday": 6,
+  "news": {
+   "events": [],
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "titles": [],
+   "social_hot": false,
+   "social_sentiment": null
+  },
+  "follow": {
+   "peak": null,
+   "status": "running"
+  },
+  "notified": false,
+  "max_change_15m": 12.01,
+  "vol_spike": 7.67,
+  "vol_pre_spike": 7.25,
+  "green_streak": 3,
+  "ret_1h": 11.31,
+  "ret_4h": 32.87,
+  "factors": [
+   "heavy_money",
+   "pre_accumulation",
+   "green_streak",
+   "deep_drawdown",
+   "fear_extreme",
+   "eu_session",
+   "micro_cap",
+   "tag:l1",
+   "tag:binance-launch"
+  ],
+  "factors_fa": [
+   "حجم سنگین یکهویی (≥۳× میانگین ۲۴h)",
+   "ورود پول قبل از پامپ",
+   "چند کندل سبز پیاپی",
+   "افت سنگین از سقف (> ۸۰٪)",
+   "ترس شدید بازار",
+   "سشن اروپا",
+   "میکروکپ",
+   "لایه ۱",
+   "Launchpool/Alpha بایننس"
+  ],
+  "similar": [],
+  "brain": null,
+  "attention": 0.523,
+  "attention_fa": "معمولی",
+  "pattern_fa": "الگوی مشابهی در حافظه نیست — پامپ تازه‌نوع؛ ثبت شد تا دفعهٔ بعد مرجع باشد"
  }
 ]
