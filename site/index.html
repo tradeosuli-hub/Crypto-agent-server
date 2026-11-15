@@ -111,6 +111,7 @@
       <span class="badge" id="b-time">—</span>
       <span class="badge" id="b-intel">اطلاعات: —</span>
       <span class="badge" id="b-health">عیب‌یابی: —</span>
+      <span class="badge" id="b-pump">رادار پامپ: —</span>
       <span class="badge" id="b-next">—</span>
     </div>
   </header>
@@ -121,6 +122,7 @@
     <button class="tab" data-tab="symbols">همهٔ ارزها <span class="n" id="n-symbols">0</span></button>
     <button class="tab" data-tab="org">سازمان</button>
     <button class="tab" data-tab="intel">خبر و رویداد <span class="n" id="n-intel">0</span></button>
+    <button class="tab" data-tab="pump">رادار پامپ <span class="n" id="n-pump">0</span></button>
     <button class="tab" data-tab="diag">عیب‌یابی <span class="n" id="n-diag">0</span></button>
     <button class="tab" data-tab="memory">حافظه و تجربه <span class="n" id="n-memory">0</span></button>
   </nav>
@@ -200,6 +202,23 @@
     <div class="news" id="news"></div>
   </section>
 
+  <!-- رادار پامپ -->
+  <section class="panel" id="p-pump">
+    <div class="kpis" id="pump-kpis"></div>
+    <div class="card" style="margin-bottom:12px"><div class="row"><span class="k">نظر آزاد ایجنت (اختیار ۵٪)</span></div><div class="why" style="padding:0;color:var(--text)" id="pump-opinion">—</div>
+      <div class="meta" style="color:var(--muted);font-size:.74rem;margin-top:6px" id="pump-src"></div></div>
+    <h2>پامپ‌های ۱۵ دقیقه‌ای (≥ آستانه) — ۷ روز اخیر</h2>
+    <div class="controls"><select id="pump-filter"><option value="all">همه</option><option value="24h">۲۴ ساعت اخیر</option><option value="hot">فقط «قابل توجه»</option><option value="similar">فقط دارای مشابه</option></select>
+      <span class="badge" id="pump-watch-badge">پیش‌پامپ: —</span></div>
+    <div class="grid" id="pump-cards"></div>
+    <h2>پیش‌پامپ‌ها (۵٪ تا آستانه، همین چرخه)</h2>
+    <div id="pump-watch"></div>
+    <h2>مهارت آموخته‌شده: عوامل → نرخ ادامه بعد از ۱h / ۴h / ۲۴h</h2>
+    <div class="card" style="padding:8px 12px"><table class="t" id="pump-stats"></table></div>
+    <h2>ژورنال اختیار ۵٪ (تصمیم‌های خودِ ایجنت روی پارامترها)</h2>
+    <div id="pump-journal"></div>
+  </section>
+
   <!-- عیب‌یابی -->
   <section class="panel" id="p-diag">
     <h2>سلامت (آخرین بررسی واچ‌داگ)</h2>
@@ -226,9 +245,9 @@
   </section>
 
   <p class="foot">
-    ایجنت ۱: اسکن + سازمان (هر ۱۰ دقیقه) · ایجنت ۲: خبر/رویداد/سوشال (هر ۳۰ دقیقه) · ایجنت ۳: عیب‌یابی و خودترمیمی (هر ۱۵ دقیقه)<br/>
+    ایجنت ۱: اسکن + سازمان (هر ۱۰ دقیقه) · ایجنت ۲: خبر/رویداد/سوشال (هر ۳۰ دقیقه) · ایجنت ۳: عیب‌یابی و خودترمیمی (هر ۱۵ دقیقه) · ایجنت ۴: رادار پامپ ≥۸٪/۱۵m با حافظهٔ الگو (هر ۱۵ دقیقه)<br/>
     فضای جدا: حلقهٔ خودگردان روی شاخهٔ <span class="mono">cursor/phoenix-signal-panel-69df</span> (بدون cron، بدون مرج) · حافظهٔ دائمی: شاخهٔ <span class="mono">phoenix-memory</span> · فرمان‌های تلگرام: /status · /signals · /close ID TP|SL [R]<br/>
-    منابع: Binance Vision · اعلان‌های رسمی Binance · CoinGecko · Alternative.me · RSS (CoinDesk, Cointelegraph, The Block) · X از طریق Grok (اختیاری)
+    منابع: Binance Vision · اعلان‌های رسمی Binance · CoinGecko · CoinMarketCap · Alternative.me · RSS (CoinDesk, Cointelegraph, The Block) · X از طریق Grok (اختیاری)
   </p>
 </div>
 
@@ -236,7 +255,7 @@
   const $ = (id) => document.getElementById(id);
   const fmt = (x, d = 6) => (x === null || x === undefined || x === "" ? "—" : (typeof x === "number" ? Number(x.toPrecision(d)) : x));
   const REFRESH_MS = 60000;
-  let state = null, history = [], ledger = [], org = null, intel = null, health = null;
+  let state = null, history = [], ledger = [], org = null, intel = null, health = null, pumps = null;
   let nextAt = Date.now() + REFRESH_MS;
 
   const PARAM_FA = { dxy:"شاخص دلار", trendline:"ترندلاین/کانال", ob_channel_align:"اردربلاک∩کانال", fvg_inside_ob:"FVG داخل OB",
@@ -311,6 +330,7 @@
     $("b-time").textContent = `دامیننس: ${(state.dominance||{}).bias || "—"}`;
     badgeAge($("b-intel"), state.intel_updated_at || (intel||{}).updated_at, 70, 180, "اطلاعات");
     badgeAge($("b-health"), (health||{}).checked_at, 30, 90, "عیب‌یابی");
+    badgeAge($("b-pump"), (pumps||{}).updated_at, 40, 120, "رادار پامپ");
 
     const results = state.results || [];
     const so = state.org || {};
@@ -373,6 +393,9 @@
         <div class="meta"><span class="pill ${i.importance>=7?"high":i.importance>=5?"medium":"low"}">اهمیت ${i.importance}</span><span class="pill info">${i.kind_fa||i.kind}</span><span>${i.source}</span><span>${(i.symbols||[]).map((s)=>s.replace("USDT","")).join("، ")}</span><span>${ago(i.published||i.first_seen)}</span><span class="mono ${i.sentiment>0?"dir long":i.sentiment<0?"dir short":""}">${i.sentiment>0?"+":""}${fmt(i.sentiment,2)}</span></div></div>`).join("") || `<div class="empty">موردی نیست</div>`;
     } else { $("news").innerHTML = `<div class="empty">ایجنت اطلاعات هنوز اجرا نشده</div>`; }
 
+    // pump tab
+    renderPump();
+
     // diag tab
     if (health) {
       const incs = health.incidents || [];
@@ -404,13 +427,66 @@
     }
   }
 
+  const pct = (x, d = 1) => (x === null || x === undefined) ? "—" : `${x > 0 ? "+" : ""}${Number(x).toFixed(d)}٪`;
+  function renderPump() {
+    if (!pumps) {
+      $("pump-cards").innerHTML = `<div class="empty">رادار پامپ هنوز اجرا نشده (Phoenix 4)</div>`;
+      $("pump-kpis").innerHTML = ""; return;
+    }
+    const evs = pumps.events || [];
+    const dayAgo = Date.now() - 86400000;
+    const e24 = evs.filter((e) => new Date(e.ts).getTime() >= dayAgo);
+    $("n-pump").textContent = e24.length;
+    const p = pumps.params || {}, lk = pumps.locked || {};
+    const done = evs.filter((e) => (e.follow||{})["4h"] !== null && (e.follow||{})["4h"] !== undefined);
+    const rate = done.length ? Math.round(100 * done.filter((e) => e.follow["4h"] > 0).length / done.length) : null;
+    $("pump-kpis").innerHTML = [
+      ["پامپ ۲۴h", e24.length], ["پامپ ۷ روز", evs.length], ["کل حافظه", pumps.total_events ?? evs.length],
+      ["آستانه (قفل " + (lk.threshold_pct ?? 8) + "٪)", (p.threshold_pct ?? 8) + "٪"],
+      ["ادامه بعد از ۴h", rate === null ? "—" : rate + "٪"], ["پیگیری‌های کامل", pumps.followups_done ?? 0],
+      ["BTC ۱۵m", pct(pumps.btc_15m, 2)], ["چرخه", pumps.cycle ?? "—"],
+    ].map(([l, v]) => `<div class="kpi"><div class="l">${l}</div><div class="v" style="font-size:1.15rem">${v}</div></div>`).join("");
+    $("pump-opinion").textContent = pumps.opinion_fa || "—";
+    const u = pumps.universe || {};
+    $("pump-src").textContent = `منابع: ${(pumps.sources_ok||[]).join("، ") || "—"} · جهان: بایننس ${u.binance ?? "—"} جفت · CoinGecko ${u.coingecko ?? "—"} · CoinMarketCap ${u.coinmarketcap ?? "—"} · پنجرهٔ دقیق ۱۵m ${u.rolling ?? "—"} · مغز: ${pumps.brain || "خاموش"} · اختیار ±${Math.round((pumps.autonomy||0.05)*100)}٪`;
+    const f = $("pump-filter").value;
+    const list = evs.filter((e) => f === "all" ? true : f === "24h" ? new Date(e.ts).getTime() >= dayAgo : f === "hot" ? e.attention >= 0.62 : (e.similar||[]).length > 0);
+    const fol = (e) => { const x = e.follow || {}; return ["1h","4h","24h"].map((k) => `<span class="p ${x[k] == null ? "" : x[k] > 0 ? "ok" : "no"}">${k}: ${x[k] == null ? "…" : pct(x[k])}</span>`).join("") + (x.peak != null ? `<span class="p">اوج ${pct(x.peak)}</span>` : ""); };
+    const simRows = (e) => (e.similar||[]).slice(0,3).map((s) => `<div class="row"><span class="k">${s.symbol} <span class="mono" style="font-size:.7rem">${String(s.ts||"").slice(0,10)}</span></span><span style="font-size:.76rem">${Math.round(s.similarity*100)}٪${(s.follow||{})["4h"] != null ? ` · بعد ۴h ${pct(s.follow["4h"])}` : ""}${(s.shared_fa||[]).length ? `<br/><span style="color:var(--muted)">${s.shared_fa.slice(0,4).join("، ")}</span>` : ""}</span></div>`).join("");
+    $("pump-cards").innerHTML = list.length ? list.map((e) => `<article class="card ${e.attention >= 0.62 ? "setup" : e.attention <= 0.38 ? "flat" : "watch"}">
+      <div class="head"><span class="sym">${e.symbol}${e.name ? ` <span style="font-weight:400;font-size:.76rem;color:var(--muted)">${e.name}</span>` : ""}</span>
+        <span class="pill ${e.attention >= 0.62 ? "SETUP" : e.attention <= 0.38 ? "FLAT" : "WATCH"}">${e.attention_fa || "—"} ${fmt(e.attention,2)}</span></div>
+      <div class="row"><span class="k">۱۵ دقیقه</span><span class="mono dir long">${pct(e.change_15m)}${e.max_change_15m > e.change_15m ? ` (اوج ${pct(e.max_change_15m)})` : ""} <span style="color:var(--muted);font-size:.7rem">${e.change_15m_src === "snapshot" ? "اسنپ‌شات" : "پنجرهٔ دقیق"}</span></span></div>
+      <div class="row"><span class="k">1h · 24h · 7d</span><span class="mono">${pct(e.change_1h)} · ${pct(e.change_24h)} · ${pct(e.change_7d)}</span></div>
+      <div class="row"><span class="k">حجم · مارکت‌کپ · رتبه</span><span class="mono">${e.vol_spike != null ? e.vol_spike + "× میانگین" : "—"} · ${e.mcap_tier || "—"} · #${e.rank ?? "—"}</span></div>
+      <div class="row"><span class="k">زمان</span><span>${ago(e.ts)}${e.pair ? "" : " · خارج از بایننس"}</span></div>
+      <div class="params">${(e.factors_fa||[]).map((x) => `<span class="p">${x}</span>`).join("")}</div>
+      <div class="params">${fol(e)}</div>
+      ${(e.news||{}).titles && e.news.titles.length ? `<ul class="why">${e.news.titles.slice(0,2).map((t) => `<li>${t}</li>`).join("")}</ul>` : ""}
+      <div class="why" style="padding:0;margin-top:8px">${e.pattern_fa || ""}</div>
+      ${simRows(e)}
+      ${e.brain && e.brain.why_fa ? `<div class="why" style="padding:0;margin-top:6px;color:var(--info)">🧠 ${e.brain.why_fa}${e.brain.remind_fa ? `<br/>یادآوری: ${e.brain.remind_fa}` : ""}</div>` : ""}
+    </article>`).join("") : `<div class="empty">در این بازه پامپ ≥ ${p.threshold_pct ?? 8}٪ در ۱۵ دقیقه ثبت نشده — رادار هر ۱۵ دقیقه ${u.binance ?? "~۷۰۰"} جفت بایننس و ${(u.coingecko ?? 0) + (u.coinmarketcap ?? 0)} ارز CoinGecko/CMC را می‌بیند</div>`;
+    const w = pumps.watch || [];
+    $("pump-watch-badge").textContent = `پیش‌پامپ: ${w.length}`;
+    $("pump-watch").innerHTML = tbl(["ارز","۱۵m","1h","24h","مارکت‌کپ"], w.map((x) => `<tr><td>${x.symbol}${x.pair ? "" : " <span style='color:var(--muted)'>(خارج بایننس)</span>"}</td><td class="mono dir long">${pct(x.change_15m)}</td><td class="mono">${pct(x.change_1h)}</td><td class="mono">${pct(x.change_24h)}</td><td>${x.mcap_tier}</td></tr>`)) || `<div class="empty">هیچ ارزی بین ${p.watch_pct ?? 5}٪ و آستانه نیست</div>`;
+    const st = pumps.factor_stats || [];
+    $("pump-stats").innerHTML = st.length ? `<thead><tr><th>عامل</th><th>نمونه</th><th>ادامه 1h</th><th>ادامه 4h</th><th>ادامه 24h</th><th>میانگین حرکت 4h</th></tr></thead><tbody>${st.map((x) => `<tr><td>${x.fa}</td><td class="mono">${x.n}</td><td class="mono">${x.cont_1h != null ? Math.round(x.cont_1h*100)+"٪" : "—"}</td><td class="mono ${x.cont_4h >= 0.6 ? "dir long" : x.cont_4h <= 0.4 ? "dir short" : ""}">${x.cont_4h != null ? Math.round(x.cont_4h*100)+"٪" : "—"}</td><td class="mono">${x.cont_24h != null ? Math.round(x.cont_24h*100)+"٪" : "—"}</td><td class="mono">${x.move_4h != null ? pct(x.move_4h) : "—"}</td></tr>`).join("")}</tbody>`
+      : `<tbody><tr><td style="color:var(--muted);text-align:center;border:0;padding:12px">هنوز پیگیری‌ای کامل نشده — اولین مهارت ۱ ساعت بعد از اولین پامپ ثبت می‌شود</td></tr></tbody>`;
+    const j = (pumps.journal || []).slice().reverse();
+    $("pump-journal").innerHTML = (pumps.lessons||[]).map((l) => `<div class="check"><span>📘 ${l}</span></div>`).join("") +
+      (tbl(["زمان","تصمیم","دلیل"], j.map((x) => `<tr><td>${ago(x.ts)}</td><td class="mono">${x.decision_fa}</td><td>${x.reason_fa}</td></tr>`)) || `<div class="empty">ایجنت هنوز پارامتری را تغییر نداده — بازبینی هر ~۶ ساعت و فقط با ≥۱۰ پیگیری کامل؛ هر تغییر حداکثر ±۵٪ مقدار قفل‌شده</div>`);
+  }
+
   async function load() {
     try {
-      const [s, h, l, o, i, he] = await Promise.all([
+      const [s, h, l, o, i, he, pu] = await Promise.all([
         getJSON("latest.json"), getJSON("history.json").catch(()=>[]), getJSON("signals.json").catch(()=>[]),
         getJSON("org.json").catch(()=>null), getJSON("intel.json").catch(()=>null), getJSON("health.json").catch(()=>null),
+        getJSON("pumps.json").catch(()=>null),
       ]);
       state = s; history = Array.isArray(h)?h:[]; ledger = Array.isArray(l)?l:[]; org = o; intel = (i && i.items) ? i : null; health = (he && he.checks) ? he : null;
+      pumps = (pu && pu.updated_at) ? pu : null;
       render();
     } catch (e) {
       $("b-status").className = "badge dead";
@@ -420,6 +496,7 @@
   }
   $("btn-refresh").addEventListener("click", load);
   ["filter","kind","minimp"].forEach((id) => $(id).addEventListener("change", render));
+  $("pump-filter").addEventListener("change", renderPump);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
   setInterval(load, REFRESH_MS);
   setInterval(() => { $("b-next").textContent = `تازه‌سازی: ${Math.max(0, Math.round((nextAt - Date.now())/1000))}s`; }, 1000);
