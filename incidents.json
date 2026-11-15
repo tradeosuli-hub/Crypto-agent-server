@@ -1,25 +1,5 @@
 [
  {
-  "id": "I202611021337",
-  "ts": "2026-11-02T13:37:26.903603+00:00",
-  "kind": "scan_stalled",
-  "kind_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
-  "cause": "scan_stalled",
-  "cause_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست)",
-  "severity": "high",
-  "summary_fa": "اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · علت: اسکن متوقف شده (اجرای موفق تازه‌ای نیست) · این علت 297 بار قبلاً دیده شده؛ آخرین اقدام: اجرای دوبارهٔ Workflow اسکن زده شد",
-  "brain": null,
-  "log_excerpt": "",
-  "action": "redispatch",
-  "action_fa": "اجرای دوبارهٔ Workflow اسکن زده شد",
-  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/41448390422",
-  "last_action_ts": "2026-11-02T13:37:28.721327+00:00",
-  "checks": 1,
-  "escalations": 0,
-  "resolved_at": "2026-11-02T13:52:01.207853+00:00",
-  "resolution_fa": "برطرف شد پس از اقدام «اجرای دوبارهٔ Workflow اسکن زده شد»"
- },
- {
   "id": "I202611021421",
   "ts": "2026-11-02T14:21:11.910237+00:00",
   "kind": "scan_stalled",
@@ -5976,7 +5956,8 @@
   "last_action_ts": "2026-11-15T01:50:16.521853+00:00",
   "checks": 1,
   "escalations": 0,
-  "resolved_at": null
+  "resolved_at": "2026-11-15T02:04:56.209112+00:00",
+  "resolution_fa": "برطرف شد پس از اقدام «اجرای دوبارهٔ Workflow اسکن زده شد»"
  },
  {
   "id": "I202611150150",
@@ -5993,6 +5974,26 @@
   "action_fa": "—",
   "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/43664911585",
   "last_action_ts": "2026-11-15T01:50:18.042103+00:00",
+  "checks": 1,
+  "escalations": 0,
+  "resolved_at": "2026-11-15T02:04:56.209112+00:00",
+  "resolution_fa": "برطرف شد پس از اقدام «—»"
+ },
+ {
+  "id": "I202611150204",
+  "ts": "2026-11-15T02:04:56.209112+00:00",
+  "kind": "scan_loop_dead",
+  "kind_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+  "cause": "scan_loop_dead",
+  "cause_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف)",
+  "severity": "medium",
+  "summary_fa": "حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · علت: حلقهٔ اسکن مرده (هیچ اجرای فعال/در صف) · این علت 2 بار قبلاً دیده شده؛ آخرین اقدام: حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+  "brain": null,
+  "log_excerpt": "",
+  "action": "revive",
+  "action_fa": "حلقه دوباره روشن شد (dispatch روی همین شاخه)",
+  "url": "https://github.com/tradeosuli-hub/Crypto-agent-server/actions/runs/43664944139",
+  "last_action_ts": "2026-11-15T02:04:58.019899+00:00",
   "checks": 1,
   "escalations": 0,
   "resolved_at": null
