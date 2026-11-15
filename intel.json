@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-11-15T21:30:51.487319+00:00",
+ "updated_at": "2026-11-15T22:00:24.822641+00:00",
  "market": {
-  "btc_dominance": 59.41,
-  "usdt_dominance": 7.97,
-  "mcap_change_24h": -3.11,
+  "btc_dominance": 59.39,
+  "usdt_dominance": 7.95,
+  "mcap_change_24h": -2.93,
   "trending": [
    "MACCA",
    "MIHAO",
-   "DACITYCOIN",
-   "IMD",
    "GATO",
    "ASTER",
-   "BTC",
+   "IMD",
+   "DACITYCOIN",
+   "ZEC",
    "LINK",
-   "XRP",
-   "UNI"
+   "BTC",
+   "HYPE"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
+   "url": "https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62000-440807",
+   "published": "2026-11-15T21:57:53+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Nf0c503625d16",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T22:00:24.822641+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Traders claim $6 million profit by spotting BitGo’s public pull request and frontrunning memecoin listing",
@@ -2365,24 +2387,23 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.083,
+   "sentiment": -0.13,
    "risk": 0.12,
    "events": [
     "etf_flow",
-    "regulation",
-    "listing"
+    "regulation"
    ],
    "count": 9,
-   "last": "2026-11-15T10:23:17+00:00"
+   "last": "2026-11-15T21:57:53+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.779,
-   "risk": 0.534,
+   "sentiment": -0.557,
+   "risk": 0.523,
    "events": [
     "security"
    ],
-   "count": 2,
-   "last": "2026-11-15T10:23:17+00:00"
+   "count": 3,
+   "last": "2026-11-15T21:57:53+00:00"
   },
   "XRPUSDT": {
    "sentiment": -0.4,
@@ -2393,7 +2414,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.27,
+   "risk": 0.264,
    "events": [
     "regulation"
    ],
