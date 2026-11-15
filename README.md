@@ -7,7 +7,7 @@
 
 ## آیپد / همیشه روشن / بدون هزینه (پیشنهادی)
 
-GitHub محل کار است: سه ایجنت مستقل در GitHub Actions به‌صورت حلقهٔ **خودگردان روی همین شاخه** اجرا می‌شوند
+GitHub محل کار است: چهار ایجنت مستقل در GitHub Actions به‌صورت حلقهٔ **خودگردان روی همین شاخه** اجرا می‌شوند
 (بدون cron، **بدون مرج به `main`**؛ دیتا روی شاخهٔ `phoenix-memory`) و نتیجه روی GitHub Pages منتشر می‌شود؛
 آیپد فقط صفحه را باز می‌کند، هیچ کدی اجرا نمی‌کند، هیچ VPS لازم نیست. شروع: یک‌بار Run workflow روی Phoenix 1.
 
@@ -16,11 +16,12 @@ GitHub محل کار است: سه ایجنت مستقل در GitHub Actions به
 | Phoenix 1 · Scan + Organization | ۱۰ دقیقه | ققنوس → ۹ دپارتمان → A34 → دروازهٔ ریسک → SIGNAL → قاضی نتیجه → تجربه؛ ناشر Pages؛ تلگرام سیگنال/نتیجه |
 | Phoenix 2 · Intel | ۳۰ دقیقه | خبر، لیست/حذف بایننس، ترند، ترس‌وطمع، نبض X (Grok)؛ تلگرام خبر و رویداد مهم |
 | Phoenix 3 · Watchdog | ۱۵ دقیقه | توقف غیرعادی → لاگ + مغز → اجرای مجدد / Issue / تلگرام؛ دستورات بات (`/status /signals /close`) |
+| Phoenix 4 · Pump radar | ۱۵ دقیقه | پامپ ≥۸٪ در ۱۵ دقیقه (Binance + CoinGecko + CoinMarketCap) → اثر انگشت عددی/خبری → مشابه‌های روزهای قبل → پیگیری 1h/4h/24h و یادگیری → اختیار ۵٪ → تلگرام + تب پنل |
 
 - راهنما و Secrets: [`docs/IPAD_ZERO_COST.md`](docs/IPAD_ZERO_COST.md)
 - سازمان ایجنت‌ها، منابع داده و حافظهٔ دائمی: [`docs/ORGANIZATION.md`](docs/ORGANIZATION.md)
 - صفحه: `https://tradeosuli-hub.github.io/Crypto-agent-server/`
-- Workflowها: `.github/workflows/phoenix-{pages,intel,watchdog}.yml` · حافظه: شاخهٔ `phoenix-memory` · UI: `site/`
+- Workflowها: `.github/workflows/phoenix-{pages,intel,watchdog,pump}.yml` · حافظه: شاخهٔ `phoenix-memory` · UI: `site/`
 
 ## داشبورد لایو (کروم، روی سرور خودت)
 
@@ -50,11 +51,12 @@ phoenix/          موتور (ta, ghoghnoos, market_data, panel) + لایو اپ
 phoenix/org/      سازمان: ۹ دپارتمان · اجماع · A34 · دروازهٔ ریسک · قاضی نتیجه · حافظه
 phoenix/intel/    ایجنت اطلاعات: منابع تأییدشده (RSS، بایننس، CoinGecko، F&G) + نبض X با Grok
 phoenix/watchdog.py  ایجنت عیب‌یابی/خودترمیم (GitHub API + لاگ + مغز + حافظهٔ رخدادها)
+phoenix/pump/     رادار پامپ: sources (Binance/CoinGecko/CMC) + agent (اثر انگشت، شباهت، یادگیری، اختیار ۵٪)
 phoenix/notify.py    بات تلگرام (ارسال بدون تکرار + دستورات)
 phoenix/brain.py     مغز اختیاری (Grok → OpenAI → قاعده‌محور)
 phoenix/web/      داشبورد کروم (حالت سرور زنده / WebSocket)
-site/             داشبورد استاتیک GitHub Pages با ۷ تب (حالت آیپد، بدون سرور)
-scripts/          export_static.py · run_intel.py · run_watchdog.py · memory_sync.sh · watchdog_forever.py (سرور)
+site/             داشبورد استاتیک GitHub Pages با ۸ تب (حالت آیپد، بدون سرور)
+scripts/          export_static.py · run_intel.py · run_watchdog.py · run_pump.py · loop.sh · memory_sync.sh · watchdog_forever.py (سرور)
 strategies/       اسپک و پرامپت متد حمید v3
 docs/             پرامپت‌ها · IPAD_ZERO_COST · ORGANIZATION · ALWAYS_ON
 main.py           CLI / live
