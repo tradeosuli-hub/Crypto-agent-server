@@ -23,6 +23,9 @@ FILES = {
     "health": {},            # [watchdog] آخرین وضعیت سلامت
     "notify_watchdog": {},   # [watchdog] ضدتکرار + offset فرمان‌ها + pending_closes
     "notify_scan": {},       # [scan]     ضدتکرار تلگرام
+    "pumps": [],             # [pump]     رویدادهای پامپ با اثر انگشت، مشابه‌ها و پیگیری
+    "pump_state": {},        # [pump]     اسنپ‌شات قیمت، پارامترهای ±۵٪، ژورنال اختیار، مهارت‌ها، نظر آزاد
+    "notify_pump": {},       # [pump]     ضدتکرار تلگرام
 }
 
 DECISIONS_KEEP = 400

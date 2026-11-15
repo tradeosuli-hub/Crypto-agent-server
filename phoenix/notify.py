@@ -140,6 +140,27 @@ def fmt_intel(item: dict[str, Any]) -> str:
     ).strip()
 
 
+def fmt_pump(ev: dict[str, Any]) -> str:
+    sims = ev.get("similar") or []
+    sim_txt = "\n".join(f"• {s['symbol']} ({str(s.get('ts', ''))[:10]}) شباهت {s['similarity']:.0%}"
+                        + (f" · بعد ۴h: {s['follow']['4h']:+.1f}٪" if (s.get('follow') or {}).get('4h') is not None else "")
+                        + (f"\n  مشترک: {'، '.join(s.get('shared_fa') or [])}" if s.get("shared_fa") else "")
+                        for s in sims[:3]) or "• مشابهی در حافظه نیست (ثبت شد)"
+    factors = "، ".join((ev.get("factors_fa") or [])[:7]) or "—"
+    b = ev.get("brain") or {}
+    brain_txt = f"\n🧠 {b.get('why_fa')}" + (f"\nیادآوری: {b.get('remind_fa')}" if b.get("remind_fa") else "") if b.get("why_fa") else ""
+    news = (ev.get("news") or {}).get("titles") or []
+    news_txt = ("\nخبر: " + " | ".join(str(t)[:70] for t in news[:2])) if news else ""
+    return (
+        f"<b>پامپ</b> · {ev.get('symbol')} · <b>+{ev.get('change_15m')}٪ در ۱۵ دقیقه</b>"
+        f" · 1h {ev.get('change_1h') if ev.get('change_1h') is not None else '—'} · 24h {ev.get('change_24h') if ev.get('change_24h') is not None else '—'}\n"
+        f"توجه: <b>{ev.get('attention_fa')}</b> ({ev.get('attention')}) · {ev.get('mcap_tier')} · حجم {ev.get('vol_spike') or '—'}× میانگین\n"
+        f"عوامل: {factors}{news_txt}\n"
+        f"{ev.get('pattern_fa') or ''}\n{sim_txt}{brain_txt}\n"
+        f"<i>هشدار حواس‌جمعی است، نه سیگنال. قوانین ققنوس پابرجاست.</i>"
+    ).strip()
+
+
 def fmt_incident(inc: dict[str, Any]) -> str:
     return (
         f"<b>عیب‌یابی</b> · {inc.get('severity', '').upper()} · {inc.get('kind_fa') or inc.get('kind')}\n"
