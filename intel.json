@@ -1,192 +1,92 @@
 {
- "updated_at": "2026-11-11T20:44:52.089040+00:00",
+ "updated_at": "2026-11-15T01:50:07.536993+00:00",
  "market": {
-  "btc_dominance": 59.89,
-  "usdt_dominance": 7.03,
-  "mcap_change_24h": -1.47,
+  "btc_dominance": 58.41,
+  "usdt_dominance": 8.19,
+  "mcap_change_24h": -10.68,
   "trending": [
-   "ZIG",
    "BTC",
-   "SOL",
    "HYPE",
    "ETH",
+   "SOL",
+   "UNI",
+   "PUMP",
+   "XRP",
+   "NEAR",
    "LIT",
-   "PEARL",
-   "AVAX",
-   "TAO",
-   "GRAM"
+   "ADA"
   ],
-  "fear_greed": 29,
-  "fear_greed_label": "Fear"
+  "fear_greed": 10,
+  "fear_greed_label": "Extreme Fear"
  },
  "items": [
   {
    "source": "theblock",
-   "title": "DogeOS ‘very, very close’ to launching DeFi features, app layer for Dogecoin: CEO",
-   "url": "https://www.theblock.co/news/defi/2026-11-11-dogeos-very-very-close-launching-defi-features-app-layer-dogecoin-ceo-438392",
-   "published": "2026-11-11T20:32:19+00:00",
-   "kind": "news",
+   "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
+   "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+   "published": "2026-11-14T23:07:35+00:00",
+   "kind": "security",
    "raw_symbols": [
-    "DOGE"
-   ],
-   "symbols": [
-    "DOGEUSDT"
-   ],
-   "id": "N067dc01d20d7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "first_seen": "2026-11-11T20:44:52.089040+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Sen. Warren, Merkley raise ethics concerns over Trump aide’s prediction market bets",
-   "url": "https://www.theblock.co/news/regulation/2026-11-11-sen-warren-merkley-raise-ethics-concerns-over-trump-aides-prediction-market-bets-438394",
-   "published": "2026-11-11T19:48:46+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nff9fa75305bb",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T20:15:18.726732+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "OKXICE moves ahead with tokenized stocks as blue chips push back",
-   "url": "https://cointelegraph.com/news/okxice-tokenized-stocks-blue-chips-push-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T18:30:43+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na00aaf09099b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T18:46:50.470348+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Stablecoin supply drops $14.2 billion in largest contraction since 2022 bear market",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907",
-   "published": "2026-11-11T17:23:10+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N40a21f3f7a92",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T17:47:43.697858+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Apex Group joins Hedera Council to explore tokenization and settlement",
-   "url": "https://www.theblock.co/news/deals/2026-11-11-apex-group-joins-hedera-council-tokenization-437917",
-   "published": "2026-11-11T17:07:22+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N394e6e326348",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T17:18:11.957312+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Pyth Network adds NYSE stock and ETF data to its marketplace",
-   "url": "https://www.theblock.co/news/web3/2026-11-11-pyth-network-nyse-data-437928",
-   "published": "2026-11-11T16:56:54+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N603cf2a348b0",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T17:18:11.957312+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
-   "url": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T16:26:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
+    "KAVA",
     "NEAR"
    ],
    "symbols": [
-    "BTCUSDT",
+    "KAVAUSDT",
     "NEARUSDT"
    ],
-   "id": "Ne6a65f88ab8a",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T16:48:45.527957+00:00",
+   "id": "N3ce3646c46f5",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "theblock",
-   "title": "StoneX sees 111% upside for Securitize shares as tokenization revenue rebounds",
-   "url": "https://www.theblock.co/news/markets/2026-11-11-stonex-sees-111-upside-for-securitize-shares-as-tokenization-revenue-rebounds-437910",
-   "published": "2026-11-11T16:22:13+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne19937745eec",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
+   "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
+   "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+   "published": "2026-11-14T19:06:59+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "SUI"
+   ],
+   "symbols": [
+    "SUIUSDT"
+   ],
+   "id": "N063b626dfff6",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+   "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+   "published": "2026-11-14T17:50:41+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nce7bf9209c74",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T16:48:45.527957+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "coindesk",
-   "title": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
-   "published": "2026-11-11T16:00:45+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N78426fafb4ec",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T16:19:16.167801+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Bitcoin ‘ripe for a squeeze’ as options traders raise odds of sub-$70,000 Christmas",
-   "url": "https://www.theblock.co/news/markets/2026-11-11-bitcoin-ripe-for-squeeze-options-traders-raise-odds-sub-70000-christmas-437897",
-   "published": "2026-11-11T14:44:31+00:00",
+   "title": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
+   "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+   "published": "2026-11-14T16:33:29+00:00",
    "kind": "news",
    "raw_symbols": [
     "BTC"
@@ -194,37 +94,113 @@
    "symbols": [
     "BTCUSDT"
    ],
-   "id": "N1869c78ae9ae",
+   "id": "N6639c3891073",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+   "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+   "published": "2026-11-14T16:33:23+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N487c7aec411f",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T14:50:43.457811+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Deutsche Bank launches crypto custody for companies and institutions",
-   "url": "https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T14:02:18+00:00",
-   "kind": "listing",
+   "source": "coindesk",
+   "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
+   "url": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
+   "published": "2026-11-14T15:38:27+00:00",
+   "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "Na767604144c6",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
+   "id": "Nb918d6c7270c",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T14:21:07.172872+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
+   "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
+   "published": "2026-11-14T15:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc6edf19e65a2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+   "url": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+   "published": "2026-11-14T13:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nfc787b1b4f9e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
+   "url": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
+   "published": "2026-11-14T12:57:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N11d1aef5934d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T13:38:15+00:00",
+   "published": "2026-11-14T11:28:12+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
@@ -238,48 +214,116 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Nomura’s Laser Digital helps launch Saudi SME credit vault targeting $100 million on BNB Chain",
-   "url": "https://www.theblock.co/news/markets/2026-11-11-nomuras-laser-digital-helps-launch-saudi-sme-credit-vault-targeting-100-million-on-bnb-chain-437824",
-   "published": "2026-11-11T13:35:02+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BNB"
-   ],
-   "symbols": [
-    "BNBUSDT"
-   ],
-   "id": "N2f1b16fcfd8b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T13:51:34.739689+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
-   "title": "Paraguay bank collapse shows stablecoins can offer a lifeline... of sorts",
-   "url": "https://cointelegraph.com/magazine/paraguay-bank-collapse-shows-stablecoins-can-offer-a-lifeline-of-sorts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T13:30:00+00:00",
+   "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+   "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-14T10:34:06+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "N5243a71851a7",
+   "id": "N053dee406821",
    "kind_fa": "خبر",
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T13:51:34.739689+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "cointelegraph",
-   "title": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
-   "url": "https://cointelegraph.com/research/bitcoin-covenants-part-5-matt-op-ccv?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T13:26:18+00:00",
+   "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+   "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-14T08:12:30+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nefc138c587ee",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+   "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-14T06:33:13+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0ebaf72e5187",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
+   "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+   "published": "2026-11-14T05:40:00+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N0bb88d19cd0f",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+   "url": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+   "published": "2026-11-14T04:30:00+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "BTC",
+    "SUI"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "SUIUSDT"
+   ],
+   "id": "N54fea6baff58",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Recovery Update: Withdrawals Reopened for More Networks (2026-11-14)",
+   "url": "https://www.binance.com/en/support/announcement/432646a7f7c34c2a85b69db99af32c16",
+   "published": "2026-11-14T03:52:38.811000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1de48dccbe2c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+   "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+   "published": "2026-11-13T23:30:00+00:00",
    "kind": "news",
    "raw_symbols": [
     "BTC"
@@ -287,104 +331,151 @@
    "symbols": [
     "BTCUSDT"
    ],
-   "id": "Nb20bf6f5418f",
+   "id": "N5694955e7c25",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T13:51:34.739689+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "cointelegraph",
-   "title": "CoreWeave stock jumps 15% premarket after Q3 revenue beats estimates",
-   "url": "https://cointelegraph.com/markets/coreweave-stock-surges-pre-market-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T13:02:30+00:00",
-   "kind": "news",
+   "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+   "url": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T22:01:03+00:00",
+   "kind": "listing",
    "raw_symbols": [],
    "symbols": [],
-   "id": "N602866bd09ed",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
+   "id": "N2feca863a462",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T13:51:34.739689+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "cointelegraph",
-   "title": "CoreWeave stock jumps 15% premarket after Q3 revenue beats estimates",
-   "url": "https://cointelegraph.com/news/coreweave-stock-surges-pre-market-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T13:02:30+00:00",
+   "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+   "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T21:49:27+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N24677f3980d1",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Kraken parent Payward gains market share as slower trading weighs on earnings",
+   "url": "https://cointelegraph.com/news/kraken-parent-payward-gains-market-share-slower-trading-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T21:01:39+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "N46fa53105578",
+   "id": "N5be016a1fd45",
    "kind_fa": "خبر",
    "importance": 2,
-   "sentiment": 0.2,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "first_seen": "2026-11-11T13:21:58.058211+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "theblock",
-   "title": "OKXICE sets Nov. 23 launch for tokenized securities venue under SEC innovation exemption",
-   "url": "https://www.theblock.co/news/regulation/2026-11-11-okxice-sets-nov-23-launch-for-tokenized-securities-venue-under-sec-innovation-exemption-437342",
-   "published": "2026-11-11T13:01:02+00:00",
+   "title": "Meta tests prediction market app using ‘cred’ points instead of cash: WSJ",
+   "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215",
+   "published": "2026-11-13T20:55:26+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N48b6c4753927",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+   "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T20:53:20+00:00",
    "kind": "regulation",
    "raw_symbols": [],
    "symbols": [],
-   "id": "N5bd22741fba5",
+   "id": "N2c6ba7b64f98",
    "kind_fa": "قانون‌گذاری",
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T13:21:58.058211+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
-   "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month",
-   "published": "2026-11-11T13:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc8872a42ce91",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T13:21:58.058211+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
-   "url": "https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about",
-   "published": "2026-11-11T12:57:36+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3c370aa7b24b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T13:21:58.058211+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "theblock",
-   "title": "Bitcoin Core discloses three patched security flaws, including high-severity mining bug",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-11-bitcoin-core-discloses-three-patched-security-flaws-including-high-severity-mining-bug-437862",
-   "published": "2026-11-11T12:50:08+00:00",
+   "title": "MEGA cuts 20% of workforce as former MegaETH Foundation restructures",
+   "url": "https://www.theblock.co/news/business/2026-11-13-megaeth-mega-layoffs-20-percent-restructuring-440206",
+   "published": "2026-11-13T19:26:53+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N2c65aa31fc67",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "House Oversight Chair calls for possible ban on government officials’ prediction market bets over insider trading concerns",
+   "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207",
+   "published": "2026-11-13T19:09:12+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc4d45f4975d9",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "CFTC’s Selig accuses states of trying to ‘lock up’ prediction market founders",
+   "url": "https://www.theblock.co/news/regulation/2026-11-13-cftcs-selig-accuses-states-trying-lock-up-prediction-market-founders-440199",
+   "published": "2026-11-13T18:51:03+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6b4b33a6c4de",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+   "published": "2026-11-13T18:39:58+00:00",
    "kind": "news",
    "raw_symbols": [
     "BTC"
@@ -392,151 +483,201 @@
    "symbols": [
     "BTCUSDT"
    ],
-   "id": "Nb5859cdd2ddb",
+   "id": "Nddd1fcb7aab1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
+   "url": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T18:28:29+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne3383764d742",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T12:52:16.706044+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+   "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+   "published": "2026-11-13T17:05:43+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7200d5a7c561",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print",
+   "url": "https://cointelegraph.com/markets/bitcoin-below-70k-stocks-slip-cooler-us-ppi-print?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T16:39:11+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N81df1470fd56",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "theblock",
-   "title": "Crypto fraudster jailed for eight years over $2.7 million theft plot directed from prison",
-   "url": "https://www.theblock.co/news/regulation/2026-11-11-crypto-fraudster-jailed-for-eight-years-over-2-7-million-theft-plot-directed-from-prison-437858",
-   "published": "2026-11-11T12:46:16+00:00",
+   "title": "Hyperliquid leapfrogs Bybit, Kraken and OKX in open interest as Q3 positions grow 80%",
+   "url": "https://www.theblock.co/news/markets/2026-11-13-hyperliquid-leapfrogs-bybit-kraken-okx-open-interest-q3-positions-grow-440053",
+   "published": "2026-11-13T16:37:26+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "Nf8ca0898b191",
+   "id": "Ncd2933904b2e",
    "kind_fa": "خبر",
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T12:52:16.706044+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules",
-   "url": "https://cointelegraph.com/news/fsb-turkey-crypto-oversight-stablecoin-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T12:44:10+00:00",
+   "source": "coindesk",
+   "title": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
+   "published": "2026-11-13T16:01:27+00:00",
    "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N51ae7fdd4312",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N82b739f24b42",
    "kind_fa": "خبر",
-   "importance": 2,
+   "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T12:52:16.706044+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Zcash falls below $1,000 for first time since September",
-   "url": "https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T12:31:44+00:00",
+   "source": "theblock",
+   "title": "Kraken parent Payward posts 66% drop in Q3 adjusted EBITDA, plans US prediction markets and personal finance AI agent",
+   "url": "https://www.theblock.co/news/business/2026-11-13-kraken-parent-payward-posts-66-drop-in-q3-adjusted-ebitda-plans-us-prediction-markets-and-personal-finance-ai-agent-439721",
+   "published": "2026-11-13T15:31:22+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "N253f7a457464",
+   "id": "Nbd1f26a6dccd",
    "kind_fa": "خبر",
    "importance": 2,
    "sentiment": -0.2,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T12:52:16.706044+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-   "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
-   "published": "2026-11-11T12:21:24+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N27679a818ec3",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T12:22:48.376300+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
-   "published": "2026-11-11T12:19:30+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na9907a59cdd7",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T12:22:48.376300+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings",
-   "url": "https://cointelegraph.com/news/barclays-blackrock-ibit-boost-key-q3-filings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T11:56:23+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N3ad28e3f81e0",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T12:22:48.376300+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "theblock",
-   "title": "Deutsche Bank goes live with digital asset custody service, signs asset management deal",
-   "url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851",
-   "published": "2026-11-11T11:46:34+00:00",
+   "title": "Tether-backed Twenty One Capital reports $1.09 billion Q3 net income on bitcoin gains",
+   "url": "https://www.theblock.co/news/business/2026-11-13-tether-backed-twenty-one-capital-reports-1-09-billion-q3-net-income-on-bitcoin-gains-439711",
+   "published": "2026-11-13T14:50:49+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N125a0c24f139",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ethereum and Layer 1s Explained",
+   "url": "https://www.theblock.co/learn/campus/ethereum-and-layer-1s-explained-435883",
+   "published": "2026-11-13T14:12:23+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N8d92d1f3d7af",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
+   "url": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
+   "published": "2026-11-13T14:02:00+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "N16f8d616c0cd",
+   "id": "N01752792d9dd",
    "kind_fa": "خبر",
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T11:53:22.979599+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Arthur Hayes ‘flattered’ as Coinbase backs US stock perps",
+   "url": "https://cointelegraph.com/news/arthur-hayes-coinbase-us-stock-perps-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T13:41:26+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ncdb792b7afba",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "theblock",
-   "title": "Bitcoin and Blockchain Basics",
-   "url": "https://www.theblock.co/learn/bitcoin/bitcoin-and-blockchain-basics-434447",
-   "published": "2026-11-11T11:43:50+00:00",
+   "title": "From $6 to $6.9 million: Two dormant Bitcoin addresses wake up to move 100 BTC after more than 16 years",
+   "url": "https://www.theblock.co/news/markets/2026-11-13-from-6-to-6-9-million-two-dormant-bitcoin-addresses-wake-up-to-move-100-btc-after-more-than-16-years-439698",
+   "published": "2026-11-13T13:34:46+00:00",
    "kind": "news",
    "raw_symbols": [
     "BTC"
@@ -544,20 +685,139 @@
    "symbols": [
     "BTCUSDT"
    ],
-   "id": "N5f3a0f4bc232",
+   "id": "N468ad87c4c0d",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T11:53:22.979599+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Nakamoto shares fall 6% premarket after Q3 revenue turns negative",
+   "url": "https://cointelegraph.com/markets/nakamoto-shares-fall-after-negative-q3-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T13:04:19+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N58fbf2699cdc",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "UK, Singapore, and Thailand central banks complete foreign exchange settlement trial linking traditional and tokenized systems",
+   "url": "https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692",
+   "published": "2026-11-13T12:27:41+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd4c65ddb93bb",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Israeli police arrest five in $5M WhatsApp crypto trading probe",
+   "url": "https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T12:19:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Neefd7ef66239",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "coindesk",
-   "title": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-   "url": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day",
-   "published": "2026-11-11T11:37:04+00:00",
+   "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
+   "published": "2026-11-13T12:14:22+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ndd2c1d5bae53",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+   "published": "2026-11-13T11:52:25+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4b6d18197b0a",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.1,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Notice on Share Count Basis of USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp",
+   "url": "https://www.binance.com/en/support/announcement/d5d3474a9b054f23a1867aff5cdece3f",
+   "published": "2026-11-13T11:30:12.447000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne7a99e2903ca",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
+   "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
+   "published": "2026-11-13T10:16:04+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N56b7e38be952",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "JPMorgan reports 36% rise in Strategy share holdings and $540 million in BlackRock’s bitcoin ETF",
+   "url": "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671",
+   "published": "2026-11-13T09:59:16+00:00",
    "kind": "etf_flow",
    "raw_symbols": [
     "BTC"
@@ -565,37 +825,297 @@
    "symbols": [
     "BTCUSDT"
    ],
-   "id": "N5c8f54774c80",
+   "id": "Nc3172ed32929",
    "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
+   "url": "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T09:58:21+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbe0d89cbb43d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next",
+   "url": "https://cointelegraph.com/markets/bitcoin-returns-200-week-trend-line-analyst-sees-risk-57k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T09:39:05+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7d505f6d3533",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "DOJ, CFTC sue Arkansas to block state enforcement action against Kalshi",
+   "url": "https://www.theblock.co/news/regulation/2026-11-13-doj-cftc-sue-arkansas-to-block-state-enforcement-action-against-kalshi-439669",
+   "published": "2026-11-13T09:32:39+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc36aedbbac6a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "DOJ moves to seize $1.2B from Binance hack, disrupts FaceStealer scam",
+   "url": "https://cointelegraph.com/news/doj-12b-north-korean-crypto-seizure-400m-facestealer-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T09:27:14+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7461920ce568",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out",
+   "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+   "published": "2026-11-13T09:16:58+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncf6de2d2e1e7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
+   "url": "https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T09:05:10+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N87946a078074",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Microsoft 365 outage hits Outlook email and Teams calendars worldwide",
+   "url": "https://cointelegraph.com/news/microsoft-365-global-outage-outlook-teams-ai-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T08:26:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N97685abc7013",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+   "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
+   "published": "2026-11-13T07:05:29+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nf60812551964",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Bitcoin tumbles below $69,000 as Nvidia turmoil adds to Fed-driven market jitters",
+   "url": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
+   "published": "2026-11-13T06:23:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N395593ae55d6",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin firm Nakamoto pushes $60 million Kraken loan repayment to 2027 to extend its 'runway'",
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
+   "published": "2026-11-13T06:03:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N2f34e556993a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
+   "url": "https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T06:00:15+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nd096f509d402",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+   "published": "2026-11-13T05:45:26+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5b07f09552a0",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+   "url": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
+   "published": "2026-11-13T05:08:59+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne0384f5c33c1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "TRM Labs launches new service to help police seize stolen crypto in minutes",
+   "url": "https://www.theblock.co/news/defi/2026-11-13-trm-labs-beacon-concierge-439609",
+   "published": "2026-11-13T05:08:25+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne974bf4d7bd5",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "White House sends crypto-relevant picks to fill SEC and CFTC seats",
+   "url": "https://www.theblock.co/news/regulation/2026-11-12-white-house-crypto-picks-sec-cftc-439175",
+   "published": "2026-11-13T04:56:47+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3341fa81c8b1",
+   "kind_fa": "قانون‌گذاری",
    "importance": 7,
    "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T11:53:22.979599+00:00",
+   "risk": 0.6,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Kraken parent adds over 200 tokenized UK and EU stocks to xStocks",
-   "url": "https://cointelegraph.com/news/kraken-xstocks-200-tokenized-uk-eu-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T11:30:36+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N299ddb42b517",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T11:53:22.979599+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin short-term holders send 47K BTC to exchanges at a loss",
-   "url": "https://cointelegraph.com/markets/bitcoin-speculators-btc-exchanges-unrealized-loss-727k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T11:05:26+00:00",
+   "source": "coindesk",
+   "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+   "published": "2026-11-13T03:37:00+00:00",
    "kind": "news",
    "raw_symbols": [
     "BTC"
@@ -603,71 +1123,147 @@
    "symbols": [
     "BTCUSDT"
    ],
-   "id": "N7519195dfb27",
+   "id": "Naecaef79d278",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": -0.3,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T11:23:54.690572+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Crosschain protocol Across restores systems after domain hijack",
-   "url": "https://www.theblock.co/news/defi/2026-11-11-crosschain-protocol-across-restores-systems-after-domain-hijack-437843",
-   "published": "2026-11-11T10:55:24+00:00",
+   "source": "cointelegraph",
+   "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
+   "url": "https://cointelegraph.com/news/trump-nominates-hester-peirce-successor-among-sec-cftc-picks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T02:29:27+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "Ndddf92d98a01",
+   "id": "N258338f17d24",
    "kind_fa": "خبر",
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T11:23:54.690572+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Kraken parent Payward adds 200 tokenized UK and European equities to xStocks offering",
-   "url": "https://www.theblock.co/news/business/2026-11-11-kraken-parent-payward-adds-200-tokenized-uk-and-european-equities-to-xstocks-offering-437837",
-   "published": "2026-11-11T10:54:02+00:00",
+   "source": "cointelegraph",
+   "title": "Former Nvidia CEO Huang had third alleged affair: Reuters",
+   "url": "https://cointelegraph.com/news/former-nvidia-ceo-huang-had-third-alleged-affair-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T01:26:27+00:00",
    "kind": "news",
    "raw_symbols": [],
    "symbols": [],
-   "id": "Nc303e99b29fe",
+   "id": "N5bdda674a58b",
    "kind_fa": "خبر",
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T10:54:24.323146+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Gemini’s quarterly retail trading volume sinks to 3-year low",
+   "url": "https://cointelegraph.com/markets/geminis-quarterly-retail-trading-volume-sinks-to-3-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-13T00:52:42+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N882455621ec1",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Maple Finance’s strategy rift sends co-founder, COO to the exits",
+   "url": "https://cointelegraph.com/news/maple-finance-strategy-rift-co-founder-coo-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T23:12:55+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nab0e3ec75f49",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "coindesk",
-   "title": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-   "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion",
-   "published": "2026-11-11T10:51:34+00:00",
-   "kind": "news",
+   "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+   "published": "2026-11-12T22:55:52+00:00",
+   "kind": "security",
    "raw_symbols": [],
    "symbols": [],
-   "id": "N33837f0dd820",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T11:23:54.690572+00:00",
+   "id": "N7b04d3ccad91",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
    "source": "coindesk",
-   "title": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-   "url": "https://www.coindesk.com/markets/2026/11/11/coreweave-earnings-revive-ai-outlook-as-anthropic-weighs-higher-ipo-valuation",
-   "published": "2026-11-11T10:45:49+00:00",
+   "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
+   "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+   "published": "2026-11-12T22:47:41+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N13a41199ba66",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express",
+   "url": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T22:29:58+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N70d27ddead9d",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Kalshi ends Donald Trump Jr. advisory role over Polymarket investment: Reuters",
+   "url": "https://cointelegraph.com/news/kalshi-ends-donald-trump-jr-advisory-role-polymarket-investment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T22:05:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3a309375bf07",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
+   "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T21:52:04+00:00",
    "kind": "news",
    "raw_symbols": [
     "BTC"
@@ -675,13 +1271,236 @@
    "symbols": [
     "BTCUSDT"
    ],
-   "id": "Nd34c73c9a558",
+   "id": "N0912de944ec5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
+   "url": "https://www.coindesk.com/policy/2026/11/12/kalshi-ends-donald-trump-jr-s-advisory-contract-over-1789-capital-s-polymarket-investment",
+   "published": "2026-11-12T21:07:49+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N25c4264c9162",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax",
+   "url": "https://cointelegraph.com/news/us-justice-department-business-groups-defi-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T20:58:06+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nbd99586f24fc",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
+   "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T20:07:41+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N26f1a5bb6874",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T10:54:24.323146+00:00",
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance Completes Coverage of Assets Impacted in Security Incident; New Proof of Reserves Published",
+   "url": "https://www.binance.com/en/support/announcement/0729ad59cde74700b4eaa96c33441e71",
+   "published": "2026-11-12T16:54:10.592000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N35acf63c284b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+   "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
+   "published": "2026-11-12T16:45:52+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4ebc2d5146f9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T15:46:06+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N14323de2d5be",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+   "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+   "published": "2026-11-12T15:45:48+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N57ca70a6091b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge",
+   "url": "https://cointelegraph.com/news/jensen-huang-resigns-nvidia-ceo-board-member?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-12T13:59:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na6867ca27dbc",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Introducing Binance Square Leaderboards: Discover Top Traders and Share Your Achievements",
+   "url": "https://www.binance.com/en/support/announcement/ab1542773b3b4b28b3722fc4299cd12c",
+   "published": "2026-11-12T12:00:14.811000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N319326cabba7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Notice on ADR Fees for US Stocks on Binance Stock Trading - October 2026",
+   "url": "https://www.binance.com/en/support/announcement/a6de0a8d9ec047ee9615833bfad239e7",
+   "published": "2026-11-12T10:00:19.793000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3492f0037bb0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance Earn: Dual Investment Supports HYPE",
+   "url": "https://www.binance.com/en/support/announcement/de935623913744e2810fab1a8e3446e5",
+   "published": "2026-11-12T08:30:15.508000+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "HYPE"
+   ],
+   "symbols": [
+    "HYPEUSDT"
+   ],
+   "id": "N408496a452f6",
+   "kind_fa": "خبر",
+   "importance": 4,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance Updates Commodity Options Settlement Price Rule",
+   "url": "https://www.binance.com/en/support/announcement/d3b61e5d603e4d0d8ec716496345765a",
+   "published": "2026-11-12T06:00:05.124000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1bd1db2ab774",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Updates on Step Size for Spot Trading Pairs (2026-11-19)",
+   "url": "https://www.binance.com/en/support/announcement/326fabaa8cbb4a97a98c01f571ffcae7",
+   "published": "2026-11-12T03:00:09.790000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na3f99d64c661",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-15T01:50:07.536993+00:00",
    "notified": false
   },
   {
@@ -693,44 +1512,6 @@
    "raw_symbols": [],
    "symbols": [],
    "id": "Nbdce84f366b1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T10:24:51.444343+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitget Wallet reports sevenfold jump in crypto phishing risk alerts",
-   "url": "https://cointelegraph.com/news/bitget-wallet-crypto-phishing-risk-detections-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T10:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncd38bb71e032",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T10:24:51.444343+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitmine posts $6.3B net loss for fiscal 2026 as Ether prices slide",
-   "url": "https://cointelegraph.com/news/bitmine-6b-net-loss-eth-treasury-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T09:58:15+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N3eed90ea9fb4",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
@@ -757,116 +1538,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "New York federal judge denies Novig’s injunction bid, rules its sports event contracts are not swaps",
-   "url": "https://www.theblock.co/news/regulation/2026-11-11-new-york-judge-denies-novig-injunction-bid-437828",
-   "published": "2026-11-11T09:40:46+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N233ef9f8b9ed",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T09:55:17.988233+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "ECB warns legislative delays could postpone digital euro launch",
-   "url": "https://cointelegraph.com/news/ecb-warns-legislative-delays-digital-euro-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T09:03:49+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N78284105f10a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T09:25:42.993775+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
-   "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T08:55:31+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7bc9008e4036",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T09:25:42.993775+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "SEC enforcement actions fall 24%, crypto cases in spotlight",
-   "url": "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T08:43:30+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N84ab03368ed9",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T08:56:14.414072+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Bitmine reports $6.3 billion net loss in latest fiscal year, driven by 44% ether decline",
-   "url": "https://www.theblock.co/news/business/2026-11-11-bitmine-6-3-billion-net-loss-437812",
-   "published": "2026-11-11T06:22:32+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N0d508aa675fd",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T06:28:20.679291+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
-   "url": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T05:52:14+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6e0a50098433",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T05:58:48.923687+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch USDⓈ-Margined HYPEUSDC and TRXUSDC Perpetual Contracts (2026-11-16)",
    "url": "https://www.binance.com/en/support/announcement/2d89a5966b174a2689ab2c2a15db1757",
@@ -884,44 +1555,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Across Protocol restores website after hackers hijack domain",
-   "url": "https://cointelegraph.com/news/across-protocol-restores-website-after-hackers-hijack-domain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T04:42:30+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N12d98b1adeaa",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T04:59:42.247052+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Tron Inc reports 22% rise in Q3 net income as unrealized staking revenue grows",
-   "url": "https://www.theblock.co/news/business/2026-11-10-tron-inc-q3-net-income-437786",
-   "published": "2026-11-11T04:02:02+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "TRX"
-   ],
-   "symbols": [
-    "TRXUSDT"
-   ],
-   "id": "N5daf6c56e16c",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T04:30:08.457657+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Earn Yield Arena: Earn Up to 20% APR With This Week’s New Limited-Time Offers! (2026-11-11)",
    "url": "https://www.binance.com/en/support/announcement/ab1d0c86a83e4e7bbb89be0acd517106",
@@ -936,23 +1569,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-11T04:00:36.834904+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Crypto ally Tom Emmer elected House GOP minority whip",
-   "url": "https://cointelegraph.com/news/crypto-ally-tom-emmer-elected-house-gop-minority-whip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T03:07:45+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd56e62c5f955",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T03:31:02.200057+00:00",
    "notified": false
   },
   {
@@ -990,842 +1606,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "LNbits rushes emergency patch after reported Bitcoin wallet thefts",
-   "url": "https://cointelegraph.com/news/lnbits-rushes-emergency-patch-after-reported-bitcoin-wallet-thefts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-11T01:16:58+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N00aa78e99ad1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T01:33:01.130360+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
-   "url": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T23:49:51+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N14f487fa72c4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-11T00:04:23.539572+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Global banks commit $270M to stablecoin venture targeting 2027 launch",
-   "url": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T23:08:28+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8b394014bccf",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T23:34:45.790851+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Forward Industries grows SOL treasury to 8.7 million as token hits nearly three-month low",
-   "url": "https://www.theblock.co/news/markets/2026-11-10-forward-industries-grows-sol-treasury-8-7-million-token-hits-three-month-low-437330",
-   "published": "2026-11-10T21:51:19+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL",
-    "NEAR"
-   ],
-   "symbols": [
-    "SOLUSDT",
-    "NEARUSDT"
-   ],
-   "id": "Nd97170f5773b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T22:06:11.696836+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
-   "url": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T21:34:40+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7c18be58f683",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T22:06:11.696836+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Across Protocol warns users to avoid app amid reports of drained wallets",
-   "url": "https://cointelegraph.com/news/across-protocol-warns-avoid-app-drained-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T21:24:36+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbeb237136b0f",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T21:36:40.610237+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Ava Labs exec says NYSE deal marks end of blockchain’s ‘general purpose era’",
-   "url": "https://cointelegraph.com/interview/ava-labs-nyse-general-purpose-chains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T21:07:44+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncfb21f2ee022",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T21:36:40.610237+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-   "url": "https://www.coindesk.com/policy/2026/11/10/warren-what-is-white-house-doing-to-prevent-a-repeat-of-teleprompter-s-trump-bets",
-   "published": "2026-11-10T20:36:33+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf5eea7faf451",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T21:07:07.982381+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Kimber Digital Securities gains broker-dealer status for tokenized assets",
-   "url": "https://cointelegraph.com/news/kimber-digital-securities-broker-dealer-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T20:26:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1478694fcaba",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T20:37:31.621790+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
-   "url": "https://www.coindesk.com/business/2026/11/10/former-nyse-president-says-stock-issuers-hold-the-key-to-tokenization-as-bullish-builds-its-platform",
-   "published": "2026-11-10T20:15:08+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf1cad5a8e454",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T20:37:00.773725+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Bitcoin slides below $74,000 after hotter-than-expected CPI as analysts warn of drop to $70k",
-   "url": "https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
-   "published": "2026-11-10T19:38:18+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N47cf7d5b9773",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T20:07:19.880940+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
-   "url": "https://cointelegraph.com/news/pix-withdrawals-resume-mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T18:12:07+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N71eb76c0419f",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T18:38:51.620807+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Grayscale pledges $1 million alongside Zcash ad blitz as token and ETF fall 12%",
-   "url": "https://www.theblock.co/news/markets/2026-11-10-grayscale-pledges-1-million-alongside-zcash-ad-blitz-as-token-and-etf-fall-12-437277",
-   "published": "2026-11-10T17:52:14+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc54fa201b7e0",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T18:09:25.637672+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
-   "url": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
-   "published": "2026-11-10T17:32:22+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5fc865e5da2f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T17:39:54.224908+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Hot US inflation raises odds of half-point Fed hike in December",
-   "url": "https://cointelegraph.com/news/hot-us-inflation-raises-rate-hike-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T17:31:09+00:00",
-   "kind": "macro",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N85e975c691ae",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T17:39:54.224908+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "TON Strategy earns $13.1 million from GRAM staking in Q3 as Telegram rolls out native wallet",
-   "url": "https://www.theblock.co/news/markets/2026-11-10-ton-strategy-tonx-q3-2026-earnings-gram-staking-437278",
-   "published": "2026-11-10T17:24:44+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "TON",
-    "GRAM"
-   ],
-   "symbols": [
-    "TONUSDT",
-    "GRAMUSDT"
-   ],
-   "id": "N6098557df804",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T17:39:54.224908+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Polymarket US trading volume jumps 266% despite regulatory battles",
-   "url": "https://cointelegraph.com/news/polymarket-us-trading-volume-jumps-regulatory-battles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T17:07:48+00:00",
-   "kind": "regulation",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf81c4aa183c8",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T17:39:54.224908+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Crypto is now teamed up with U.S. government in two legal battles over perps",
-   "url": "https://www.coindesk.com/news-analysis/2026/11/10/crypto-teams-up-with-u-s-government-to-defend-stock-perps-in-legal-fight",
-   "published": "2026-11-10T17:07:22+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfe56b2414ff4",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T18:09:25.637672+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Crypto teams up with U.S. government to defend stock perps in legal fight",
-   "url": "https://www.coindesk.com/policy/2026/11/10/crypto-teams-up-with-u-s-government-to-defend-stock-perps-in-legal-fight",
-   "published": "2026-11-10T17:07:22+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1caeccc70b54",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T17:09:45.049251+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat",
-   "url": "https://cointelegraph.com/markets/bitcoin-11-week-low-discouraging-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T16:25:03+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N797080cf211d",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T16:40:12.239279+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Alta raises $47.5 million Series A to build a blockchain for financial institutions",
-   "url": "https://www.theblock.co/news/business/2026-11-10-alta-raises-80-million-build-blockchain-banks-payment-firms-437244",
-   "published": "2026-11-10T16:19:16+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N12cb370d3a74",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T16:40:12.239279+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Canaan’s Q3 revenue plunges 90% to $14.5 million as bitcoin mining hardware sales slump",
-   "url": "https://www.theblock.co/news/business/2026-11-10-canaans-q3-revenue-plunges-90-to-14-5-million-as-bitcoin-mining-hardware-sales-slump-437252",
-   "published": "2026-11-10T16:02:02+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N9fcaef96f238",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T16:10:33.357389+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "MEGA commits $30 million to new products, starting with AI inference",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-10-megaeth-rebrand-30-million-new-products-ai-inference-437249",
-   "published": "2026-11-10T15:56:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N73d506f6d068",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T16:10:33.357389+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
-   "url": "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain",
-   "published": "2026-11-10T15:51:56+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3695cba9ed8c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T16:10:33.357389+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Moody’s and Chainlink test cross-chain credit ratings distribution",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245",
-   "published": "2026-11-10T15:49:59+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "LINK"
-   ],
-   "symbols": [
-    "LINKUSDT"
-   ],
-   "id": "N02a5a337a299",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T16:10:33.357389+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Bitdeer reports record Q3 revenue as net loss widens to $125.5 million",
-   "url": "https://www.theblock.co/news/business/2026-11-10-bitdeer-reports-record-q3-revenue-as-net-loss-widens-to-125-5-million-437217",
-   "published": "2026-11-10T14:26:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nff7206f74169",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T14:41:57.469588+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Visa adds Monad to stablecoin settlement network options",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201",
-   "published": "2026-11-10T14:00:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N471f40ca2d7a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T14:12:22.610342+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Will stablecoins survive once the banks catch up?",
-   "url": "https://www.coindesk.com/opinion/2026/11/10/will-stablecoins-survive-once-the-banks-catch-up",
-   "published": "2026-11-10T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3e79b60e2454",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T15:11:30.646432+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "eToro’s Q3 profit plunges 74% as weaker crypto trading weighs on earnings",
-   "url": "https://www.theblock.co/news/business/2026-11-10-etoros-q3-profit-plunges-74-as-weaker-crypto-trading-weighs-on-earnings-437192",
-   "published": "2026-11-10T13:44:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nebdcf952b797",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T14:12:22.610342+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Poland’s lower house backs sanctions bill covering crypto freezes",
-   "url": "https://cointelegraph.com/news/poland-bill-freeze-sanctions-crypto-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T13:40:39+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N67df6d9c3f9e",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T14:12:22.610342+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
-   "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
-   "published": "2026-11-10T13:32:09+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "TRX"
-   ],
-   "symbols": [
-    "TRXUSDT"
-   ],
-   "id": "N28b20b9d472c",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T13:42:48.145028+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin’s ‘best buying opportunity ever’ has arrived: Mark Moss",
-   "url": "https://cointelegraph.com/magazine/bitcoins-best-buying-opportunity-ever-has-arrived-mark-moss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T13:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nfa463a5b1842",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T14:12:22.610342+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin may benefit as global tightening slows, Binance Research says",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-global-tightening-binance-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T13:15:59+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N104198e8c1eb",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T13:42:48.145028+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
-   "url": "https://www.coindesk.com/business/2026/11/09/ripple-prime-head-marc-asch-to-step-down-noel-kimmel-named-successor",
-   "published": "2026-11-10T12:38:20+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Ne270a5f80967",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T12:43:47.597298+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/10/bitcoin-breaks-with-stocks-declines-as-etf-outflows-mount-mara-sells-holdings",
-   "published": "2026-11-10T12:15:00+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5ec82450b4f5",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T12:43:47.597298+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "HIVE reports $79 million quarterly net loss as bitcoin mining revenue falls and AI business grows",
-   "url": "https://www.theblock.co/news/business/2026-11-10-hive-reports-79-million-quarterly-net-loss-as-bitcoin-mining-revenue-falls-and-ai-business-grows-437177",
-   "published": "2026-11-10T11:52:16+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N4090cfe13fc1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T12:14:18.877477+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Coinbase, Kalshi join lawsuit backing CFTC over US stock perp futures",
-   "url": "https://cointelegraph.com/news/coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T11:44:55+00:00",
-   "kind": "regulation",
-   "raw_symbols": [
-    "SUI"
-   ],
-   "symbols": [
-    "SUIUSDT"
-   ],
-   "id": "Nfa84aa7da00e",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T12:14:18.877477+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Binance warns iOS flaw could expose crypto wallet keys",
-   "url": "https://cointelegraph.com/news/binance-warns-ios-flaw-could-expose-crypto-wallet-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T11:25:57+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd8e8b495163a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T11:44:40.336679+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-   "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
-   "published": "2026-11-10T11:24:10+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N34f8d623a6cb",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T11:44:40.336679+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing",
-   "url": "https://cointelegraph.com/news/ex-employee-sues-ethereum-foundation-vitalik-buterin-over-firing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T10:56:51+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N5960e4553268",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T11:15:08.994088+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Exodus shares rise 10% ahead of Q3 earnings showing 7% revenue growth, $8.3 million loss",
-   "url": "https://www.theblock.co/news/business/2026-11-10-exodus-shares-rise-10-ahead-of-q3-earnings-showing-7-revenue-growth-8-3-million-loss-437012",
-   "published": "2026-11-10T10:53:57+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6df4932ed0c9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T11:15:08.994088+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-   "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
-   "published": "2026-11-10T10:48:37+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5c7fcd71b64a",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T11:15:08.994088+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Live news: Bitcoin falls to nearly three-month low after disappointing inflation data",
-   "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
-   "published": "2026-11-10T10:41:45+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "N4d387c78ad08",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T10:45:35.286387+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Ark Invest trims Block, Bullish and its own bitcoin ETF holdings while buying Nvidia, SoFi",
-   "url": "https://www.theblock.co/news/business/2026-11-10-ark-invest-trims-block-bullish-holdings-437003",
-   "published": "2026-11-10T10:36:53+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N06412ab0d046",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T10:45:35.286387+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will End Last Price Protected Period on USDⓈ-Margined BULLAUSDT Perpetual Contract (2026-11-10)",
    "url": "https://www.binance.com/en/support/announcement/f7e499194e0748f593f973f1d1959ea5",
@@ -1840,120 +1620,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-10T10:45:35.286387+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "NEAR AI says SGLang vulnerability exposed user account details in security breach",
-   "url": "https://www.theblock.co/news/defi/2026-11-10-near-ai-security-breach-437002",
-   "published": "2026-11-10T10:17:13+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "NEAR"
-   ],
-   "symbols": [
-    "NEARUSDT"
-   ],
-   "id": "Ned1eab5bb2d9",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T10:45:35.286387+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T10:08:22+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N0214afe05a09",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T10:45:35.286387+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "The crypto wallet that grew up inside Telegram is striking out on its own",
-   "url": "https://www.coindesk.com/business/2026/11/10/the-crypto-wallet-that-grew-up-inside-telegram-is-striking-out-on-its-own",
-   "published": "2026-11-10T09:59:17+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6c29d4da3154",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T10:16:05.860109+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Walt launches standalone crypto trading app following Wallet in Telegram rebrand",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-10-walt-standalone-crypto-trading-app-436981",
-   "published": "2026-11-10T09:30:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9cfbd20f3a01",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T09:46:04.358846+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
-   "url": "https://www.coindesk.com/policy/2026/11/10/coinbase-kalshi-kraken-parent-back-cftc-in-legal-fight-over-stock-perpetual-futures",
-   "published": "2026-11-10T09:14:30+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ndc219a194b56",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T09:16:32.135933+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "BitGo Q3 profit nearly doubles on crypto gains as revenue falls 51%",
-   "url": "https://cointelegraph.com/news/bitgo-q3-2026-earnings-crypto-treasury-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T09:05:16+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "NEAR"
-   ],
-   "symbols": [
-    "NEARUSDT"
-   ],
-   "id": "N37c41e51e615",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T09:16:32.135933+00:00",
    "notified": false
   },
   {
@@ -1988,500 +1654,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-10T08:46:59.616226+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "BitGo revenue falls 51% in Q3 as trading slows; net income rises on treasury gains",
-   "url": "https://www.theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986",
-   "published": "2026-11-10T08:20:53+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N980219d6c630",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T08:46:59.616226+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
-   "url": "https://cointelegraph.com/markets/blackrock-ibit-bitcoin-etf-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T08:02:05+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nd8bff52c1b10",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T08:17:28.448319+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Securitize agrees to buy River One to expand into asset-backed lending",
-   "url": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T07:49:14+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbb8bdd96be3c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T08:17:28.448319+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-   "url": "https://www.coindesk.com/tech/2026/11/10/an-11-year-old-ethereum-wallet-moved-usd4-6-million-and-dodged-a-scam-set-up-in-minutes",
-   "published": "2026-11-10T07:01:06+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Ndfccb205263f",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T07:18:24.921980+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Coinbase, Kalshi and Payward backs CFTC in lawsuit over single-stock perp futures",
-   "url": "https://www.theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971",
-   "published": "2026-11-10T06:19:10+00:00",
-   "kind": "regulation",
-   "raw_symbols": [
-    "SUI"
-   ],
-   "symbols": [
-    "SUIUSDT"
-   ],
-   "id": "Ne5cd4fe620e1",
-   "kind_fa": "قانون‌گذاری",
-   "importance": 8,
-   "sentiment": -0.2,
-   "risk": 0.6,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T06:19:23.697125+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-   "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more",
-   "published": "2026-11-10T05:18:31+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nb225417e8fef",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T05:20:23.425880+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Crypto exchanges need hard dollar caps on hot wallets, CertiK says",
-   "url": "https://cointelegraph.com/news/crypto-exchanges-need-dollar-caps-on-hot-wallets-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T05:05:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N93c2d526b8f0",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T05:20:23.425880+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
-   "url": "https://www.coindesk.com/tech/2026/11/10/xrp-ledger-maps-out-quantum-proof-accounts-with-no-extra-fees-for-users",
-   "published": "2026-11-10T04:51:20+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "Nae5ed6e3d8ef",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T05:20:23.425880+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Trump Media swings to $410 million profit in Q3, driven by crypto gains",
-   "url": "https://www.theblock.co/news/business/2026-11-09-trump-media-q3-profit-436964",
-   "published": "2026-11-10T03:36:43+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N42e553c9b1f9",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T03:51:54.667870+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
-   "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
-   "published": "2026-11-10T03:22:26+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N99015e068554",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T03:51:54.667870+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "OpenAI builds kill switch to stop rogue agents within 35 seconds",
-   "url": "https://cointelegraph.com/news/openai-builds-kill-switch-stop-rogue-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T03:04:54+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfbf2dab0c34a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T03:22:30.722103+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-11)",
-   "url": "https://www.binance.com/en/support/announcement/95224ce8010046e790f1558283a8a4cf",
-   "published": "2026-11-10T03:00:03.190000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne1d91c8cb3ae",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T03:22:30.722103+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Futures Will Adjust The Contract Size of USDⓈ-Margined BITOUSDT Perpetual Contract (2026-11-19)",
-   "url": "https://www.binance.com/en/support/announcement/dfd8cf5e698146ce83b560026529a752",
-   "published": "2026-11-10T02:30:18.343000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N16b46568a28e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T02:53:00.410593+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Securitize shares surge 12% in after-hours trading on Q3 results and River One acquisition agreement",
-   "url": "https://www.theblock.co/news/business/2026-11-09-securitize-shares-surge-river-one-436955",
-   "published": "2026-11-10T02:13:07+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N424ef014129a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T02:23:34.515188+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
-   "url": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T00:42:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ne969c3de4c53",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T01:54:04.292695+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "HIVE’s Bitcoin output jumps 49%, but mining revenue still falls",
-   "url": "https://cointelegraph.com/news/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-10T00:42:39+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6297b739cbf5",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-10T00:55:05.978796+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
-   "url": "https://www.coindesk.com/business/2026/11/09/securitize-pushes-into-usd6-trillion-asset-backed-finance-market-with-river-one-acquisition",
-   "published": "2026-11-09T22:56:27+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na7e09581d028",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T22:57:19.275061+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "MARA posts $634 million Q3 net profit on bitcoin gains, sells 13,597 BTC to pay off loans",
-   "url": "https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950",
-   "published": "2026-11-09T22:07:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N115883e09f3b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T22:27:47.569509+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
-   "url": "https://cointelegraph.com/magazine/should-you-leave-australia-to-avoid-47-tax-on-crypto-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T21:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5f7bac20c21c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T21:28:48.117380+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
-   "url": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-09T20:26:34+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne6e64f08c410",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T20:59:19.261436+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Introducing Sub-Affiliate: Flexible Commission Sharing on Binance",
-   "url": "https://www.binance.com/en/support/announcement/9a4535f2f65149f1a09932fbefa11c7a",
-   "published": "2026-11-09T06:00:22.520000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nedda932151da",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-09T06:11:36.854742+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Nvidia may face a more hostile post-election Washington: Report",
-   "url": "https://cointelegraph.com/news/nvidia-may-be-facing-a-more-hostile-post-election-washington-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-07T07:45:24+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9b6655e16309",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "first_seen": "2026-11-10T05:49:55.307715+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Recovery Update #9: Withdrawals for More Assets to Reopen (2026-11-06)",
-   "url": "https://www.binance.com/en/support/announcement/a2dd10b860a14c35a856fe9d66d6032c",
-   "published": "2026-11-06T03:06:23.755000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1a4aa0fbb55c",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T03:26:06.472176+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Will Support the International Business Machines Corporation (IBM), Apple Inc. (AAPL), Corning Incorporated (GLW), and Eli Lilly and Company (LLY) Cash Dividend Distribution via bStocks",
-   "url": "https://www.binance.com/en/support/announcement/f3b32b406278474ab27c02685b33540c",
-   "published": "2026-11-06T01:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4664cbd8a3aa",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-06T01:27:25.932523+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Important Updates on Dividend Adjustment Process of SAMSUNGUSDT TradFi Perpetual Contract (2026-11-06)",
-   "url": "https://www.binance.com/en/support/announcement/c88b113255244de1953dd416c4806bc3",
-   "published": "2026-11-05T07:00:06.025000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N55a967ae31c4",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T07:12:29.497692+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Security Incident | Recovery Update #8: Withdrawals for More Assets to Reopen (2026-11-05)",
-   "url": "https://www.binance.com/en/support/announcement/a225a3b6084c41dc8c8dfb33f4de5872",
-   "published": "2026-11-05T03:04:49.654000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N511c7b52523b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-05T03:16:18.213540+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Security Incident | Recovery Update #7: 98% of Stolen Assets Replenished and New PoR Snapshot With Expanded Coverage (2026-11-04)",
-   "url": "https://www.binance.com/en/support/announcement/c6ba9aa726974fc6b9332a2c8f63b405",
-   "published": "2026-11-04T15:23:54.250000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbb05407523ca",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-04T15:27:25.228495+00:00",
    "notified": false
   },
   {
@@ -2779,11 +1951,15 @@
    "url": "https://www.binance.com/en/support/announcement/1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
    "published": "2026-10-13T03:30:01.158000+00:00",
    "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
+   "raw_symbols": [
+    "RWUSD"
+   ],
+   "symbols": [
+    "RWUSDUSDT"
+   ],
    "id": "Nb12e9f3ec668",
    "kind_fa": "لیستینگ",
-   "importance": 7,
+   "importance": 8,
    "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
@@ -2962,100 +2138,52 @@
   }
  ],
  "symbols": {
-  "DOGEUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-11T20:32:19+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.091,
-   "risk": 0.447,
+  "KAVAUSDT": {
+   "sentiment": -0.9,
+   "risk": 0.944,
    "events": [
-    "etf_flow",
-    "macro",
     "security"
    ],
-   "count": 32,
-   "last": "2026-11-11T16:26:00+00:00"
+   "count": 1,
+   "last": "2026-11-14T23:07:35+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.193,
-   "risk": 0.282,
+   "sentiment": -0.784,
+   "risk": 0.944,
    "events": [
-    "macro",
-    "security"
+    "security",
+    "etf_flow"
    ],
-   "count": 6,
-   "last": "2026-11-11T16:26:00+00:00"
+   "count": 2,
+   "last": "2026-11-14T23:07:35+00:00"
   },
-  "BNBUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-11T13:35:02+00:00"
+  "SUIUSDT": {
+   "sentiment": -0.2,
+   "risk": 0.516,
+   "events": [
+    "regulation"
+   ],
+   "count": 2,
+   "last": "2026-11-14T19:06:59+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.034,
+   "risk": 0.333,
+   "events": [
+    "etf_flow",
+    "regulation",
+    "listing",
+    "market"
+   ],
+   "count": 26,
+   "last": "2026-11-14T17:50:41+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 4,
-   "last": "2026-11-11T09:58:15+00:00"
-  },
-  "TRXUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.175,
-   "events": [
-    "macro"
-   ],
-   "count": 2,
-   "last": "2026-11-11T04:02:02+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-10T21:51:19+00:00"
-  },
-  "TONUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-10T17:24:44+00:00"
-  },
-  "GRAMUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-10T17:24:44+00:00"
-  },
-  "LINKUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-10T15:49:59+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-11-10T12:38:20+00:00"
-  },
-  "SUIUSDT": {
-   "sentiment": -0.2,
-   "risk": 0.188,
-   "events": [
-    "regulation"
-   ],
-   "count": 2,
-   "last": "2026-11-10T11:44:55+00:00"
+   "count": 5,
+   "last": "2026-11-14T16:33:23+00:00"
   }
  },
  "social": {},
