@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-16T18:11:57.035447+00:00",
+ "updated_at": "2026-11-16T18:41:32.957337+00:00",
  "market": {
   "btc_dominance": 58.62,
   "usdt_dominance": 7.89,
-  "mcap_change_24h": -1.2,
+  "mcap_change_24h": -1.15,
   "trending": [
    "MACCA",
    "DACITYCOIN",
    "GATO",
    "BTC",
-   "PENGU",
    "LIT",
-   "SOL",
-   "VVV",
+   "PENGU",
    "HYPE",
+   "EVAA",
+   "SOL",
    "SUI"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
+   "url": "https://cointelegraph.com/news/nvidia-turmoil-tests-bitcoin-miners-ai-funding-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T18:07:49+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N55cd8ab8e0e3",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T18:41:32.957337+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Standard Chartered says Japan’s bond tokenization plans could help drive RWA market to $2 trillion",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T18:11:57.035447+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T18:11:57.035447+00:00",
    "notified": false
   },
@@ -634,7 +656,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds near weekend lows as Nasdaq falls more than 1%",
+   "title": "Live updates: Bitcoin holds near weekend lows as Nasdaq extends decline to more than 2%",
    "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
    "published": "2026-11-16T09:34:18+00:00",
    "kind": "news",
@@ -649,7 +671,7 @@
    "id": "Nc19994397ecc",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": -0.2,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-16T09:49:26.799065+00:00",
@@ -3347,6 +3369,17 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.009,
+   "risk": 0.0,
+   "events": [
+    "token_burn",
+    "market",
+    "etf_flow"
+   ],
+   "count": 19,
+   "last": "2026-11-16T18:07:49+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.052,
    "risk": 0.0,
@@ -3356,17 +3389,6 @@
    "count": 6,
    "last": "2026-11-16T17:22:19+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.02,
-   "risk": 0.0,
-   "events": [
-    "token_burn",
-    "market",
-    "etf_flow"
-   ],
-   "count": 18,
-   "last": "2026-11-16T16:49:23+00:00"
-  },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -3375,7 +3397,7 @@
    "last": "2026-11-16T15:00:18+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.28,
+   "sentiment": -0.232,
    "risk": 0.2,
    "events": [
     "security"
