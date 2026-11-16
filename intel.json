@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-16T20:40:01.047392+00:00",
+ "updated_at": "2026-11-16T21:09:36.955351+00:00",
  "market": {
   "btc_dominance": 58.69,
-  "usdt_dominance": 7.86,
-  "mcap_change_24h": -1.33,
+  "usdt_dominance": 7.87,
+  "mcap_change_24h": -1.64,
   "trending": [
    "MACCA",
-   "GATO",
    "DACITYCOIN",
-   "BTC",
+   "GATO",
    "HYPE",
+   "BTC",
    "SOL",
-   "LIT",
    "PENGU",
-   "VVV",
-   "ETH"
+   "ETH",
+   "PEARL",
+   "LIT"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+   "url": "https://cointelegraph.com/markets/bitmine-nears-5-eth-supply-treasuries-report-buys-amid-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T20:45:47+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Ne44399e6cd4c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T21:09:36.955351+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Democratic senators warn SEC’s tokenized stock exemption has illicit finance gaps",
+   "url": "https://www.theblock.co/news/regulation/2026-11-16-democratic-senators-warn-secs-tokenized-stock-exemption-illicit-finance-gaps-441432",
+   "published": "2026-11-16T20:44:01+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N97f51602bce4",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T21:09:36.955351+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+   "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+   "published": "2026-11-16T20:35:21+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N2aa2b760ce03",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T21:09:36.955351+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case",
@@ -37,6 +93,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T20:40:01.047392+00:00",
    "notified": false
   },
@@ -57,6 +114,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T20:40:01.047392+00:00",
    "notified": false
   },
@@ -73,6 +131,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T20:40:01.047392+00:00",
    "notified": false
   },
@@ -3498,8 +3557,19 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 5,
-   "last": "2026-11-16T20:30:37+00:00"
+   "count": 6,
+   "last": "2026-11-16T20:45:47+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.025,
+   "risk": 0.0,
+   "events": [
+    "token_burn",
+    "market",
+    "etf_flow"
+   ],
+   "count": 20,
+   "last": "2026-11-16T20:35:21+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.044,
@@ -3510,19 +3580,8 @@
    "count": 7,
    "last": "2026-11-16T20:27:32+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.008,
-   "risk": 0.0,
-   "events": [
-    "token_burn",
-    "market",
-    "etf_flow"
-   ],
-   "count": 19,
-   "last": "2026-11-16T18:07:49+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.238,
+   "sentiment": -0.239,
    "risk": 0.2,
    "events": [
     "security"
