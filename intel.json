@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-16T09:19:55.597099+00:00",
+ "updated_at": "2026-11-16T09:49:26.799065+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 8.03,
-  "mcap_change_24h": -4.6,
+  "btc_dominance": 59.26,
+  "usdt_dominance": 8.04,
+  "mcap_change_24h": -4.65,
   "trending": [
    "BTC",
    "PEARL",
-   "HYPE",
-   "ZEC",
-   "PENGU",
    "SOL",
-   "UNI",
+   "HYPE",
+   "ASTER",
+   "ZEC",
+   "CASHCAT",
+   "DRV",
    "XMR",
-   "LIT",
-   "TAO"
+   "PI"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
+   "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+   "published": "2026-11-16T09:34:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc19994397ecc",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T09:49:26.799065+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "DBS, JPMorgan launch instant tokenized deposit transfers between US and Singapore",
+   "url": "https://www.theblock.co/news/business/2026-11-16-dbs-jpmorgan-launch-tokenized-deposit-transfers-440854",
+   "published": "2026-11-16T09:26:39+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8959635c599b",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T09:49:26.799065+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
+   "url": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
+   "published": "2026-11-16T09:23:07+00:00",
+   "kind": "macro",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nef1d4da9302d",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-16T09:49:26.799065+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "CoW Swap goes live on Solana with intent-based trading",
@@ -37,6 +89,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T09:19:55.597099+00:00",
    "notified": false
   },
@@ -53,6 +106,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T09:19:55.597099+00:00",
    "notified": false
   },
@@ -69,6 +123,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T09:19:55.597099+00:00",
    "notified": false
   },
@@ -85,6 +140,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T09:19:55.597099+00:00",
    "notified": false
   },
@@ -2708,21 +2764,21 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.058,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 13,
+   "last": "2026-11-16T09:34:18+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 1,
    "last": "2026-11-16T09:05:02+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.065,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 12,
-   "last": "2026-11-16T08:27:39+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -2739,8 +2795,8 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.501,
-   "risk": 0.287,
+   "sentiment": -0.497,
+   "risk": 0.277,
    "events": [
     "security"
    ],
@@ -2756,7 +2812,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.122,
+   "risk": 0.12,
    "events": [
     "regulation"
    ],
