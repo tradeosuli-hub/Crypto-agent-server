@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-16T04:53:33.734872+00:00",
+ "updated_at": "2026-11-16T05:23:02.894520+00:00",
  "market": {
-  "btc_dominance": 59.39,
+  "btc_dominance": 59.38,
   "usdt_dominance": 7.99,
-  "mcap_change_24h": -3.93,
+  "mcap_change_24h": -4.01,
   "trending": [
-   "PENGU",
-   "BTC",
-   "ZEC",
    "VVV",
-   "AKE",
+   "PENGU",
+   "ZEC",
+   "HYPE",
    "ASTER",
-   "TAO",
-   "SOL",
-   "INJ",
-   "SKR"
+   "BTC",
+   "PI",
+   "SKR",
+   "ETH",
+   "MON"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+   "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
+   "published": "2026-11-16T05:01:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nec7074e20c51",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.1,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T05:23:02.894520+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T04:53:33.734872+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T04:53:33.734872+00:00",
    "notified": false
   },
@@ -2479,17 +2501,17 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.15,
+   "sentiment": -0.108,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 9,
-   "last": "2026-11-16T02:33:07+00:00"
+   "count": 10,
+   "last": "2026-11-16T05:01:17+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.529,
-   "risk": 0.38,
+   "sentiment": -0.526,
+   "risk": 0.37,
    "events": [
     "security"
    ],
@@ -2505,7 +2527,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.178,
+   "risk": 0.172,
    "events": [
     "regulation"
    ],
