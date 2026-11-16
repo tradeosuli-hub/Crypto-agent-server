@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-16T16:13:57.681065+00:00",
+ "updated_at": "2026-11-16T16:43:25.127512+00:00",
  "market": {
-  "btc_dominance": 58.49,
-  "usdt_dominance": 7.93,
-  "mcap_change_24h": -1.84,
+  "btc_dominance": 58.52,
+  "usdt_dominance": 7.9,
+  "mcap_change_24h": -1.46,
   "trending": [
-   "MACCA",
+   "MIHAO",
    "GATO",
    "BTC",
    "LIT",
-   "MIHAO",
-   "SOL",
    "PENGU",
-   "ASTER",
-   "PEARL",
-   "HYPE"
+   "MACCA",
+   "SOL",
+   "HYPE",
+   "ZEC",
+   "PEARL"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+   "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
+   "published": "2026-11-16T16:41:42+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ncada900cbfdb",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-16T16:43:25.127512+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+   "url": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T16:26:52+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N77e33d3e8f01",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T16:43:25.127512+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "DeFi Development Corp. adds 9,482 SOL as CHAD dividend streak hits 31 days",
+   "url": "https://www.theblock.co/news/markets/2026-11-16-defi-development-solana-treasury-2-62-million-sol-441361",
+   "published": "2026-11-16T16:16:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N5a6072e6f346",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T16:43:25.127512+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
@@ -33,6 +89,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T16:13:57.681065+00:00",
    "notified": false
   },
@@ -49,6 +106,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T16:13:57.681065+00:00",
    "notified": false
   },
@@ -482,7 +540,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds near weekend lows as Nasdaq sinks 2%",
+   "title": "Live updates: Bitcoin holds near weekend lows as Nasdaq falls more than 1%",
    "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
    "published": "2026-11-16T09:34:18+00:00",
    "kind": "news",
@@ -497,7 +555,7 @@
    "id": "Nc19994397ecc",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": -0.2,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-16T09:49:26.799065+00:00",
@@ -3195,24 +3253,8 @@
   }
  ],
  "symbols": {
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 5,
-   "last": "2026-11-16T15:00:18+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.028,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 4,
-   "last": "2026-11-16T14:55:46+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.004,
+   "sentiment": -0.021,
    "risk": 0.0,
    "events": [
     "token_burn",
@@ -3220,10 +3262,26 @@
     "etf_flow"
    ],
    "count": 18,
-   "last": "2026-11-16T14:52:43+00:00"
+   "last": "2026-11-16T16:26:52+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.023,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 5,
+   "last": "2026-11-16T16:16:17+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 4,
+   "last": "2026-11-16T15:00:18+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.226,
+   "sentiment": -0.276,
    "risk": 0.2,
    "events": [
     "security"
