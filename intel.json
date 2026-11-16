@@ -1,25 +1,93 @@
 {
- "updated_at": "2026-11-16T08:50:10.005966+00:00",
+ "updated_at": "2026-11-16T09:19:55.597099+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 8.0,
-  "mcap_change_24h": -2.99,
+  "btc_dominance": 59.29,
+  "usdt_dominance": 8.03,
+  "mcap_change_24h": -4.6,
   "trending": [
-   "ASTER",
    "BTC",
-   "PENGU",
    "PEARL",
    "HYPE",
-   "LIT",
    "ZEC",
-   "VVV",
-   "SKR",
-   "EVAA"
+   "PENGU",
+   "SOL",
+   "UNI",
+   "XMR",
+   "LIT",
+   "TAO"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "CoW Swap goes live on Solana with intent-based trading",
+   "url": "https://www.theblock.co/news/defi/2026-11-16-cow-swap-goes-live-solana-440840",
+   "published": "2026-11-16T09:05:02+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nab940c24a17c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T09:19:55.597099+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "South Korean fintech giant Toss to launch in-app non-custodial crypto wallet: report",
+   "url": "https://www.theblock.co/news/business/2026-11-16-toss-non-custodial-crypto-wallet-440847",
+   "published": "2026-11-16T08:52:33+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6fbcbdf1e740",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T09:19:55.597099+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "DBS, JPMorgan’s Kinexys launch 24/7 transfers of tokenized deposits",
+   "url": "https://cointelegraph.com/news/dbs-jpmorgans-kinexys-launch-tokenized-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T08:50:50+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd85ee9d34c21",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T09:19:55.597099+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "JPMorgan and DBS let clients move dollars across borders on weekends",
+   "url": "https://www.coindesk.com/business/2026/11/16/j-p-morgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+   "published": "2026-11-16T08:46:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne69284e75f09",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T09:19:55.597099+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
@@ -37,6 +105,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T08:50:10.005966+00:00",
    "notified": false
   },
@@ -2639,8 +2708,15 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-16T09:05:02+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.066,
+   "sentiment": -0.065,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2663,8 +2739,8 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.504,
-   "risk": 0.298,
+   "sentiment": -0.501,
+   "risk": 0.287,
    "events": [
     "security"
    ],
@@ -2680,7 +2756,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.129,
+   "risk": 0.122,
    "events": [
     "regulation"
    ],
