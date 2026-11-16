@@ -1,25 +1,103 @@
 {
- "updated_at": "2026-11-16T14:44:46.394362+00:00",
+ "updated_at": "2026-11-16T15:14:35.726738+00:00",
  "market": {
-  "btc_dominance": 58.53,
-  "usdt_dominance": 7.82,
-  "mcap_change_24h": -2.69,
+  "btc_dominance": 58.56,
+  "usdt_dominance": 7.91,
+  "mcap_change_24h": -1.65,
   "trending": [
    "MACCA",
-   "GATO",
    "LIT",
+   "GATO",
    "BTC",
    "PENGU",
    "SOL",
    "HYPE",
-   "ENA",
-   "SUI",
-   "ASTER"
+   "BLESS",
+   "PEARL",
+   "ETH"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Tom Lee says Ethereum’s ‘waterfall decline in price’ defies fundamentals as Bitmine adds 7,653 ETH",
+   "url": "https://www.theblock.co/news/business/2026-11-16-tom-lee-ethereum-waterfall-decline-price-defies-fundamentals-bitmine-adds-7653-eth-440904",
+   "published": "2026-11-16T15:00:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N568bd8a99df0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T15:14:35.726738+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Layer 2 Scaling Explained",
+   "url": "https://www.theblock.co/learn/basics/layer-2-scaling-explained-436103",
+   "published": "2026-11-16T14:56:48+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf9c66498a7a0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T15:14:35.726738+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Zelle picks Solana for ZelleUSD stablecoin and international payments",
+   "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T14:55:46+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N79df88b3a8e1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T15:14:35.726738+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Bitwise CIO says bitcoin may fall further in the near term but still calls it the best risk-adjusted trade of the next decade",
+   "url": "https://www.theblock.co/news/markets/2026-11-16-bitwise-cio-says-bitcoin-may-fall-further-in-the-near-term-but-still-calls-it-the-best-risk-adjusted-trade-of-the-next-decade-440901",
+   "published": "2026-11-16T14:52:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Ne6e202dca1dd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T15:14:35.726738+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Lighter pauses withdrawals after reported $10M account theft",
@@ -33,6 +111,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T14:44:46.394362+00:00",
    "notified": false
   },
@@ -367,7 +446,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holding weekend plunge as November losses deepen to 17%",
+   "title": "Live updates: Bitcoin rises just a bit from worst levels early in U.S. session",
    "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
    "published": "2026-11-16T09:34:18+00:00",
    "kind": "news",
@@ -380,7 +459,7 @@
    "id": "Nc19994397ecc",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": -0.3,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-16T09:49:26.799065+00:00",
@@ -3078,25 +3157,41 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 5,
+   "last": "2026-11-16T15:00:18+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.028,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 4,
+   "last": "2026-11-16T14:55:46+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.022,
+   "sentiment": -0.004,
    "risk": 0.0,
    "events": [
     "token_burn",
     "market",
     "etf_flow"
    ],
-   "count": 17,
-   "last": "2026-11-16T13:29:11+00:00"
+   "count": 18,
+   "last": "2026-11-16T14:52:43+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.036,
-   "risk": 0.0,
+  "NEARUSDT": {
+   "sentiment": -0.296,
+   "risk": 0.2,
    "events": [
-    "project"
+    "security"
    ],
-   "count": 3,
-   "last": "2026-11-16T13:03:16+00:00"
+   "count": 4,
+   "last": "2026-11-16T14:52:43+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
@@ -3105,28 +3200,12 @@
    "count": 1,
    "last": "2026-11-16T13:00:00+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-11-16T13:00:00+00:00"
-  },
   "ADAUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 1,
    "last": "2026-11-16T06:27:42+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.466,
-   "risk": 0.2,
-   "events": [
-    "security"
-   ],
-   "count": 3,
-   "last": "2026-11-15T21:57:53+00:00"
   },
   "XRPUSDT": {
    "sentiment": -0.4,
