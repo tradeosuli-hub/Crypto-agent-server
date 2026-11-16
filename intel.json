@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-16T07:50:48.060560+00:00",
+ "updated_at": "2026-11-16T08:20:20.995336+00:00",
  "market": {
-  "btc_dominance": 59.35,
-  "usdt_dominance": 7.97,
-  "mcap_change_24h": -3.16,
+  "btc_dominance": 59.31,
+  "usdt_dominance": 7.99,
+  "mcap_change_24h": -2.91,
   "trending": [
    "BTC",
-   "LIT",
    "ASTER",
-   "PENGU",
    "PEARL",
-   "LINK",
+   "PENGU",
    "SKR",
-   "INJ",
+   "LINK",
    "SOL",
-   "HYPE"
+   "LIT",
+   "PUMP",
+   "JUP"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
+   "url": "https://www.coindesk.com/tech/2026/11/16/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+   "published": "2026-11-16T08:18:03+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Ndff19a6269cc",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T08:20:20.995336+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
+   "url": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+   "published": "2026-11-16T07:51:15+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N9aa2110251c8",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T08:20:20.995336+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Cardano holders vote down $5 million bid to buy warehouse copper",
@@ -388,6 +428,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T07:50:48.060560+00:00",
    "notified": false
   },
@@ -2576,6 +2617,22 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 3,
+   "last": "2026-11-16T08:18:03+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.09,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 11,
+   "last": "2026-11-16T07:51:15+00:00"
+  },
   "ADAUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2583,18 +2640,9 @@
    "count": 1,
    "last": "2026-11-16T06:27:42+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.106,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 10,
-   "last": "2026-11-16T05:01:17+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.511,
-   "risk": 0.318,
+   "sentiment": -0.508,
+   "risk": 0.308,
    "events": [
     "security"
    ],
@@ -2610,19 +2658,12 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.141,
+   "risk": 0.135,
    "events": [
     "regulation"
    ],
    "count": 1,
    "last": "2026-11-14T19:06:59+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-11-14T16:33:23+00:00"
   }
  },
  "social": {},
