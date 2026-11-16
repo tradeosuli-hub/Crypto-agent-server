@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-16T07:21:10.294758+00:00",
+ "updated_at": "2026-11-16T07:50:48.060560+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 8.0,
-  "mcap_change_24h": -3.52,
+  "btc_dominance": 59.35,
+  "usdt_dominance": 7.97,
+  "mcap_change_24h": -3.16,
   "trending": [
-   "LIT",
    "BTC",
-   "SKR",
+   "LIT",
    "ASTER",
    "PENGU",
-   "HYPE",
-   "SOL",
    "PEARL",
-   "PUMP",
-   "ETH"
+   "LINK",
+   "SKR",
+   "INJ",
+   "SOL",
+   "HYPE"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -369,6 +369,26 @@
    "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-11-15T08:43:52.152396+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Changing of Lagarde: How the candidates to be next ECB president view bitcoin, stablecoins and CBDCs",
+   "url": "https://www.coindesk.com/policy/2026/11/14/changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+   "published": "2026-11-15T07:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Neb6b4e9ad5b2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T07:50:48.060560+00:00",
    "notified": false
   },
   {
@@ -2564,17 +2584,17 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.116,
+   "sentiment": -0.106,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 9,
+   "count": 10,
    "last": "2026-11-16T05:01:17+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.515,
-   "risk": 0.329,
+   "sentiment": -0.511,
+   "risk": 0.318,
    "events": [
     "security"
    ],
@@ -2590,7 +2610,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.147,
+   "risk": 0.141,
    "events": [
     "regulation"
    ],
