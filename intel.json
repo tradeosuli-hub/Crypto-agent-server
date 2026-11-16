@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-16T15:14:35.726738+00:00",
+ "updated_at": "2026-11-16T15:44:15.789252+00:00",
  "market": {
-  "btc_dominance": 58.56,
-  "usdt_dominance": 7.91,
-  "mcap_change_24h": -1.65,
+  "btc_dominance": 58.51,
+  "usdt_dominance": 7.95,
+  "mcap_change_24h": -2.03,
   "trending": [
    "MACCA",
-   "LIT",
    "GATO",
+   "LIT",
    "BTC",
-   "PENGU",
    "SOL",
+   "PENGU",
    "HYPE",
-   "BLESS",
    "PEARL",
-   "ETH"
+   "ETH",
+   "ONDO"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T15:14:35.726738+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T15:14:35.726738+00:00",
    "notified": false
   },
@@ -73,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T15:14:35.726738+00:00",
    "notified": false
   },
@@ -95,6 +98,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T15:14:35.726738+00:00",
    "notified": false
   },
@@ -446,15 +450,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin rises just a bit from worst levels early in U.S. session",
+   "title": "Live updates: Bitcoin holds near weekend lows as Nasdaq sinks 2%",
    "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
    "published": "2026-11-16T09:34:18+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "Nc19994397ecc",
    "kind_fa": "خبر",
@@ -3185,12 +3191,12 @@
    "last": "2026-11-16T14:52:43+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.296,
+   "sentiment": -0.224,
    "risk": 0.2,
    "events": [
     "security"
    ],
-   "count": 4,
+   "count": 5,
    "last": "2026-11-16T14:52:43+00:00"
   },
   "BNBUSDT": {
