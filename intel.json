@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-16T21:09:36.955351+00:00",
+ "updated_at": "2026-11-16T21:39:05.556637+00:00",
  "market": {
-  "btc_dominance": 58.69,
-  "usdt_dominance": 7.87,
-  "mcap_change_24h": -1.64,
+  "btc_dominance": 58.7,
+  "usdt_dominance": 7.85,
+  "mcap_change_24h": -1.42,
   "trending": [
    "MACCA",
-   "DACITYCOIN",
    "GATO",
+   "DACITYCOIN",
    "HYPE",
-   "BTC",
    "SOL",
-   "PENGU",
-   "ETH",
+   "LIT",
+   "BTC",
    "PEARL",
-   "LIT"
+   "PENGU",
+   "ADA"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T21:09:36.955351+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T21:09:36.955351+00:00",
    "notified": false
   },
@@ -73,6 +75,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T21:09:36.955351+00:00",
    "notified": false
   },
@@ -494,17 +497,17 @@
   },
   {
    "source": "cointelegraph",
-   "title": "Lighter pauses withdrawals after reported $10M account theft",
+   "title": "Lighter recovers $5M after $10M exploit linked to compromised API keys",
    "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-16T14:19:50+00:00",
-   "kind": "news",
+   "kind": "security",
    "raw_symbols": [],
    "symbols": [],
    "id": "Nc1bc8944499f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-11-16T14:44:46.394362+00:00",
    "notified": false
@@ -840,7 +843,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds near weekend lows as Nasdaq extends decline to more than 2%",
+   "title": "Live updates: Bitcoin trades near $65,000 as Nasdaq closes with 2.5% loss",
    "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
    "published": "2026-11-16T09:34:18+00:00",
    "kind": "news",
@@ -3561,7 +3564,7 @@
    "last": "2026-11-16T20:45:47+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.025,
+   "sentiment": -0.024,
    "risk": 0.0,
    "events": [
     "token_burn",
@@ -3581,7 +3584,7 @@
    "last": "2026-11-16T20:27:32+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.239,
+   "sentiment": -0.241,
    "risk": 0.2,
    "events": [
     "security"
