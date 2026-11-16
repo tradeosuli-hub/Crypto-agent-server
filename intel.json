@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-16T02:25:59.716492+00:00",
+ "updated_at": "2026-11-16T02:55:33.085740+00:00",
  "market": {
-  "btc_dominance": 59.38,
-  "usdt_dominance": 7.96,
-  "mcap_change_24h": -0.43,
+  "btc_dominance": 59.42,
+  "usdt_dominance": 7.95,
+  "mcap_change_24h": -0.32,
   "trending": [
    "BTC",
    "PENGU",
    "PEARL",
    "ASTER",
+   "QTC",
+   "SOL",
    "SUI",
-   "DRV",
-   "AERO",
+   "XRP",
    "ZEC",
-   "NEAR",
-   "TAO"
+   "JUP"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Luxor CEO warns of AI ‘dark forest’ after Bitcoin miner hijack",
+   "url": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T02:33:07+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N172afb5505f6",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T02:55:33.085740+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
@@ -2426,18 +2446,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.186,
+   "sentiment": -0.155,
    "risk": 0.12,
    "events": [
     "etf_flow",
     "regulation"
    ],
-   "count": 9,
-   "last": "2026-11-15T22:50:59+00:00"
+   "count": 10,
+   "last": "2026-11-16T02:33:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.54,
-   "risk": 0.431,
+   "sentiment": -0.538,
+   "risk": 0.421,
    "events": [
     "security"
    ],
@@ -2453,7 +2473,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.209,
+   "risk": 0.202,
    "events": [
     "regulation"
    ],
