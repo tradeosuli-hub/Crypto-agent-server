@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-16T11:47:31.444923+00:00",
+ "updated_at": "2026-11-16T12:17:05.052448+00:00",
  "market": {
-  "btc_dominance": 59.29,
-  "usdt_dominance": 8.0,
-  "mcap_change_24h": -3.81,
+  "btc_dominance": 59.23,
+  "usdt_dominance": 8.05,
+  "mcap_change_24h": -4.1,
   "trending": [
-   "LIT",
    "MACCA",
+   "LIT",
    "GATO",
    "BTC",
-   "ASTER",
    "SOL",
    "HYPE",
    "XRP",
+   "PENGU",
    "ETH",
-   "PENGU"
+   "PEARL"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
+   "published": "2026-11-16T12:09:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N72fdaf46d4e7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T12:17:05.052448+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
+   "url": "https://www.coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+   "published": "2026-11-16T11:47:12+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N366e7dfafc88",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T12:17:05.052448+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
@@ -2865,14 +2901,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.045,
+   "sentiment": -0.073,
    "risk": 0.0,
    "events": [
     "market",
     "etf_flow"
    ],
-   "count": 15,
-   "last": "2026-11-16T11:03:14+00:00"
+   "count": 16,
+   "last": "2026-11-16T12:09:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -2896,8 +2932,8 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.479,
-   "risk": 0.236,
+   "sentiment": -0.474,
+   "risk": 0.226,
    "events": [
     "security"
    ],
