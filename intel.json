@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-16T17:12:58.826331+00:00",
+ "updated_at": "2026-11-16T17:42:28.538222+00:00",
  "market": {
-  "btc_dominance": 58.54,
-  "usdt_dominance": 7.87,
-  "mcap_change_24h": -1.05,
+  "btc_dominance": 58.59,
+  "usdt_dominance": 7.88,
+  "mcap_change_24h": -1.19,
   "trending": [
-   "MIHAO",
    "MACCA",
    "GATO",
+   "DACITYCOIN",
    "PENGU",
    "BTC",
    "LIT",
-   "HYPE",
+   "VVV",
    "SOL",
-   "ETH",
+   "SUI",
    "ZEC"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Privacy on Solana is ‘non-negotiable’ for institutional adoption, Mert Mumtaz says",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-16-privacy-solana-non-negotiable-institutional-adoption-mert-mumtaz-says-441363",
+   "published": "2026-11-16T17:22:19+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Na793d93bdfb8",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T17:42:28.538222+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Supreme Court rejects Custodia Bank’s bid for Fed master account",
+   "url": "https://www.theblock.co/news/regulation/2026-11-16-supreme-court-rejects-custodia-banks-bid-for-fed-master-account-441376",
+   "published": "2026-11-16T17:15:10+00:00",
+   "kind": "macro",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1375de52452e",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 7,
+   "sentiment": -0.3,
+   "risk": 0.5,
+   "first_seen": "2026-11-16T17:42:28.538222+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Boris Johnson backs tokenization months after likening bitcoin to a ‘Ponzi scheme’",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T17:12:58.826331+00:00",
    "notified": false
   },
@@ -3276,8 +3313,17 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.052,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 6,
+   "last": "2026-11-16T17:22:19+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.02,
+   "sentiment": -0.019,
    "risk": 0.0,
    "events": [
     "token_burn",
@@ -3287,15 +3333,6 @@
    "count": 19,
    "last": "2026-11-16T16:49:23+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.023,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 5,
-   "last": "2026-11-16T16:16:17+00:00"
-  },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -3304,7 +3341,7 @@
    "last": "2026-11-16T15:00:18+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.277,
+   "sentiment": -0.279,
    "risk": 0.2,
    "events": [
     "security"
