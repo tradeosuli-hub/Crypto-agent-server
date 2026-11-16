@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-16T16:43:25.127512+00:00",
+ "updated_at": "2026-11-16T17:12:58.826331+00:00",
  "market": {
-  "btc_dominance": 58.52,
-  "usdt_dominance": 7.9,
-  "mcap_change_24h": -1.46,
+  "btc_dominance": 58.54,
+  "usdt_dominance": 7.87,
+  "mcap_change_24h": -1.05,
   "trending": [
    "MIHAO",
+   "MACCA",
    "GATO",
+   "PENGU",
    "BTC",
    "LIT",
-   "PENGU",
-   "MACCA",
-   "SOL",
    "HYPE",
-   "ZEC",
-   "PEARL"
+   "SOL",
+   "ETH",
+   "ZEC"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Boris Johnson backs tokenization months after likening bitcoin to a ‘Ponzi scheme’",
+   "url": "https://www.theblock.co/news/regulation/2026-11-16-boris-johnson-backs-tokenization-months-after-bitcoin-to-ponzi-scheme-441368",
+   "published": "2026-11-16T16:49:23+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N186117e3a54c",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T17:12:58.826331+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
@@ -33,6 +53,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T16:43:25.127512+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T16:43:25.127512+00:00",
    "notified": false
   },
@@ -73,6 +95,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T16:43:25.127512+00:00",
    "notified": false
   },
@@ -3254,15 +3277,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.021,
+   "sentiment": -0.02,
    "risk": 0.0,
    "events": [
     "token_burn",
     "market",
     "etf_flow"
    ],
-   "count": 18,
-   "last": "2026-11-16T16:26:52+00:00"
+   "count": 19,
+   "last": "2026-11-16T16:49:23+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.023,
@@ -3281,7 +3304,7 @@
    "last": "2026-11-16T15:00:18+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.276,
+   "sentiment": -0.277,
    "risk": 0.2,
    "events": [
     "security"
