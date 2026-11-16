@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-16T10:48:31.284053+00:00",
+ "updated_at": "2026-11-16T11:18:03.209140+00:00",
  "market": {
-  "btc_dominance": 59.28,
-  "usdt_dominance": 8.0,
-  "mcap_change_24h": -3.46,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 7.99,
+  "mcap_change_24h": -3.68,
   "trending": [
    "MACCA",
+   "LIT",
    "GATO",
    "BTC",
-   "LIT",
-   "HYPE",
-   "PEARL",
+   "ASTER",
    "SOL",
+   "HYPE",
    "PENGU",
-   "ZEC",
-   "MON"
+   "TAO",
+   "ZEC"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
+   "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+   "published": "2026-11-16T11:03:14+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N0636cc1df71e",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T11:18:03.209140+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Singapore, Germany test cross-border FX settlement with CBDCs",
+   "url": "https://cointelegraph.com/news/singapore-german-central-banks-settlement-cbdcs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T10:49:12+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N4c2507fa94b5",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T11:18:03.209140+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Upbit parent Dunamu posts $14 million Q3 net loss as revenue falls 61%",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T10:48:31.284053+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T10:48:31.284053+00:00",
    "notified": false
   },
@@ -73,6 +111,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T10:48:31.284053+00:00",
    "notified": false
   },
@@ -2824,13 +2863,14 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.052,
+   "sentiment": -0.045,
    "risk": 0.0,
    "events": [
+    "market",
     "etf_flow"
    ],
-   "count": 14,
-   "last": "2026-11-16T10:39:05+00:00"
+   "count": 15,
+   "last": "2026-11-16T11:03:14+00:00"
   },
   "ETHUSDT": {
    "sentiment": 0.0,
@@ -2854,8 +2894,8 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.488,
-   "risk": 0.257,
+   "sentiment": -0.484,
+   "risk": 0.246,
    "events": [
     "security"
    ],
