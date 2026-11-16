@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-16T20:10:25.608106+00:00",
+ "updated_at": "2026-11-16T20:40:01.047392+00:00",
  "market": {
-  "btc_dominance": 58.63,
+  "btc_dominance": 58.69,
   "usdt_dominance": 7.86,
-  "mcap_change_24h": -1.32,
+  "mcap_change_24h": -1.33,
   "trending": [
    "MACCA",
    "GATO",
    "DACITYCOIN",
-   "SOL",
-   "PENGU",
-   "LIT",
    "BTC",
    "HYPE",
-   "INJ",
-   "SUI"
+   "SOL",
+   "LIT",
+   "PENGU",
+   "VVV",
+   "ETH"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case",
+   "url": "https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425",
+   "published": "2026-11-16T20:30:37+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nc7826edae999",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T20:40:01.047392+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Bitwise sees Solana reaching $1,100 by 2031 in bull case as onchain trading grows",
+   "url": "https://www.theblock.co/news/markets/2026-11-16-bitwise-solana-price-prediction-1100-2031-441407",
+   "published": "2026-11-16T20:27:32+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N04d9d2c3d1a7",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T20:40:01.047392+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Boris Johnson says UK must lead blockchain development despite crypto doubts",
+   "url": "https://cointelegraph.com/news/boris-johnson-uk-must-lead-blockchain-development-despite-crypto-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T20:18:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N30975b01017a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T20:40:01.047392+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
@@ -33,6 +89,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T20:10:25.608106+00:00",
    "notified": false
   },
@@ -3437,6 +3494,22 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 5,
+   "last": "2026-11-16T20:30:37+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.044,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 7,
+   "last": "2026-11-16T20:27:32+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.008,
    "risk": 0.0,
@@ -3448,24 +3521,8 @@
    "count": 19,
    "last": "2026-11-16T18:07:49+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.052,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 6,
-   "last": "2026-11-16T17:22:19+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-11-16T15:00:18+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.236,
+   "sentiment": -0.238,
    "risk": 0.2,
    "events": [
     "security"
