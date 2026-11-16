@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-16T08:20:20.995336+00:00",
+ "updated_at": "2026-11-16T08:50:10.005966+00:00",
  "market": {
-  "btc_dominance": 59.31,
-  "usdt_dominance": 7.99,
-  "mcap_change_24h": -2.91,
+  "btc_dominance": 59.27,
+  "usdt_dominance": 8.0,
+  "mcap_change_24h": -2.99,
   "trending": [
-   "BTC",
    "ASTER",
-   "PEARL",
+   "BTC",
    "PENGU",
-   "SKR",
-   "LINK",
-   "SOL",
+   "PEARL",
+   "HYPE",
    "LIT",
-   "PUMP",
-   "JUP"
+   "ZEC",
+   "VVV",
+   "SKR",
+   "EVAA"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
+   "url": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T08:27:39+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N9d5873865f65",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T08:50:10.005966+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T08:20:20.995336+00:00",
    "notified": false
   },
@@ -57,6 +78,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T08:20:20.995336+00:00",
    "notified": false
   },
@@ -2617,21 +2639,21 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.066,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 12,
+   "last": "2026-11-16T08:27:39+00:00"
+  },
   "ETHUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-11-16T08:18:03+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.09,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 11,
-   "last": "2026-11-16T07:51:15+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
@@ -2641,8 +2663,8 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.508,
-   "risk": 0.308,
+   "sentiment": -0.504,
+   "risk": 0.298,
    "events": [
     "security"
    ],
@@ -2658,7 +2680,7 @@
   },
   "SUIUSDT": {
    "sentiment": -0.2,
-   "risk": 0.135,
+   "risk": 0.129,
    "events": [
     "regulation"
    ],
