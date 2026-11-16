@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-16T10:19:00.614029+00:00",
+ "updated_at": "2026-11-16T10:48:31.284053+00:00",
  "market": {
-  "btc_dominance": 59.27,
-  "usdt_dominance": 8.03,
-  "mcap_change_24h": -3.73,
+  "btc_dominance": 59.28,
+  "usdt_dominance": 8.0,
+  "mcap_change_24h": -3.46,
   "trending": [
    "MACCA",
    "GATO",
    "BTC",
+   "LIT",
    "HYPE",
    "PEARL",
    "SOL",
-   "ASTER",
    "PENGU",
-   "MON",
-   "JCT"
+   "ZEC",
+   "MON"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Upbit parent Dunamu posts $14 million Q3 net loss as revenue falls 61%",
+   "url": "https://www.theblock.co/news/business/2026-11-16-upbit-parent-dunamu-q3-net-loss-440876",
+   "published": "2026-11-16T10:46:39+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb99087413076",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T10:48:31.284053+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
+   "url": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-16T10:39:05+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ne1712309d923",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T10:48:31.284053+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Vitalik Buterin backs higher gas costs for creating accounts and deploying smart contracts to help Ethereum scale",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-16-vitalik-buterin-backs-higher-gas-costs-for-creating-accounts-and-deploying-smart-contracts-to-help-ethereum-scale-440870",
+   "published": "2026-11-16T10:29:30+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N6792364b6ba1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T10:48:31.284053+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
@@ -2768,13 +2824,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.058,
+   "sentiment": -0.052,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 13,
-   "last": "2026-11-16T09:34:18+00:00"
+   "count": 14,
+   "last": "2026-11-16T10:39:05+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 4,
+   "last": "2026-11-16T10:29:30+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.0,
@@ -2782,13 +2845,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-16T09:05:02+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 3,
-   "last": "2026-11-16T08:18:03+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
@@ -2798,8 +2854,8 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.493,
-   "risk": 0.267,
+   "sentiment": -0.488,
+   "risk": 0.257,
    "events": [
     "security"
    ],
