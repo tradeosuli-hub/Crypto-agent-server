@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-16T12:17:05.052448+00:00",
+ "updated_at": "2026-11-16T12:46:34.725510+00:00",
  "market": {
-  "btc_dominance": 59.23,
-  "usdt_dominance": 8.05,
-  "mcap_change_24h": -4.1,
+  "btc_dominance": 59.25,
+  "usdt_dominance": 8.06,
+  "mcap_change_24h": -4.24,
   "trending": [
    "MACCA",
    "LIT",
    "GATO",
    "BTC",
-   "SOL",
    "HYPE",
-   "XRP",
+   "SOL",
    "PENGU",
-   "ETH",
-   "PEARL"
+   "ENA",
+   "ONDO",
+   "XRP"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Solana drops ‘mainnet beta’ label and adopts protocol version 1.0",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885",
+   "published": "2026-11-16T12:30:35+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nb2588e346939",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-16T12:46:34.725510+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T12:17:05.052448+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-16T12:17:05.052448+00:00",
    "notified": false
   },
@@ -155,7 +177,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
+   "title": "Live updates: Bitcoin holding weekend plunge as November losses deepen to 17%",
    "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
    "published": "2026-11-16T09:34:18+00:00",
    "kind": "news",
@@ -168,7 +190,7 @@
    "id": "Nc19994397ecc",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": -0.3,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-16T09:49:26.799065+00:00",
@@ -2900,8 +2922,17 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.128,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 2,
+   "last": "2026-11-16T12:30:35+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.073,
+   "sentiment": -0.095,
    "risk": 0.0,
    "events": [
     "market",
@@ -2917,13 +2948,6 @@
    "count": 4,
    "last": "2026-11-16T10:29:30+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-16T09:05:02+00:00"
-  },
   "ADAUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2932,8 +2956,8 @@
    "last": "2026-11-16T06:27:42+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.474,
-   "risk": 0.226,
+   "sentiment": -0.469,
+   "risk": 0.216,
    "events": [
     "security"
    ],
