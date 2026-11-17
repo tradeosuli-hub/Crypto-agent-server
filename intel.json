@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-17T21:18:43.179354+00:00",
+ "updated_at": "2026-11-17T21:48:15.030163+00:00",
  "market": {
-  "btc_dominance": 58.36,
-  "usdt_dominance": 7.94,
-  "mcap_change_24h": -3.59,
+  "btc_dominance": 58.41,
+  "usdt_dominance": 7.91,
+  "mcap_change_24h": -3.21,
   "trending": [
    "BTC",
-   "HYPE",
    "BP",
-   "PENGU",
-   "ZEC",
-   "BREV",
    "PEARL",
-   "NEAR",
-   "MON",
-   "ETH"
+   "PENGU",
+   "HYPE",
+   "VVV",
+   "LIT",
+   "ONDO",
+   "UNI",
+   "APT"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Nvidia tops estimates, issues strong guidance; shares rise",
+   "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
+   "published": "2026-11-17T21:25:50+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "TRX"
+   ],
+   "symbols": [
+    "TRXUSDT"
+   ],
+   "id": "Nf4fb60cc3786",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T21:48:15.030163+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins",
@@ -3152,9 +3172,16 @@
   }
  ],
  "symbols": {
+  "TRXUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-17T21:25:50+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.128,
-   "risk": 0.358,
+   "risk": 0.352,
    "events": [
     "etf_flow",
     "macro",
@@ -3175,7 +3202,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.175,
-   "risk": 0.751,
+   "risk": 0.741,
    "events": [
     "project",
     "security",
@@ -3185,7 +3212,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.278,
+   "sentiment": -0.279,
    "risk": 0.0,
    "events": [
     "etf_flow"
