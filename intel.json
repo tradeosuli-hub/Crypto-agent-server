@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-17T14:24:48.792541+00:00",
+ "updated_at": "2026-11-17T14:54:20.963569+00:00",
  "market": {
-  "btc_dominance": 58.48,
-  "usdt_dominance": 7.85,
-  "mcap_change_24h": -1.4,
+  "btc_dominance": 58.55,
+  "usdt_dominance": 7.84,
+  "mcap_change_24h": -1.35,
   "trending": [
    "GATO",
-   "BP",
-   "BTC",
-   "PEARL",
    "HYPE",
+   "BP",
+   "PEARL",
+   "BTC",
    "INJ",
-   "SOL",
-   "ZEC",
+   "PENGU",
+   "BREV",
    "LIT",
-   "VVV"
+   "QTC"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Solana Foundation takes majority interest in crypto data firm CoinGecko",
+   "url": "https://cointelegraph.com/news/coingecko-solana-foundation-majority-stake?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T14:45:49+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Ne0cb0179bad1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T14:54:20.963569+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Solana’s Trump memecoin launch tested infrastructure ahead of institutional push, Lily Liu says",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-17-solana-trump-memecoin-launch-tested-infrastructure-institutional-push-lily-liu-says-442132",
+   "published": "2026-11-17T14:27:35+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Ne388fcf8f43a",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T14:54:20.963569+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Bitwise launches ZDAY, its first non-crypto ETF, to bet on AI cyber defense",
@@ -33,6 +73,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T14:24:48.792541+00:00",
    "notified": false
   },
@@ -53,6 +94,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T14:24:48.792541+00:00",
    "notified": false
   },
@@ -394,7 +436,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds near $65,000 as tech bounces ahead of Nvidia earnings",
+   "title": "Live updates: Bitcoin holds near $65,000 as tech flattens out ahead of Nvidia earnings",
    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
    "published": "2026-11-17T10:33:26+00:00",
    "kind": "news",
@@ -2188,23 +2230,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Enterprise blockchain is going to come back from the dead",
-   "url": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-15T14:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2bed2cca4d10",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T14:37:47.053507+00:00",
-   "notified": false
-  },
-  {
    "source": "coindesk",
    "title": "Changing of Lagarde: How the candidates to be next ECB president view bitcoin, stablecoins and CBDCs",
    "url": "https://www.coindesk.com/policy/2026/11/14/changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
@@ -2898,9 +2923,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.022,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 11,
+   "last": "2026-11-17T14:45:49+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.121,
-   "risk": 0.429,
+   "risk": 0.424,
    "events": [
     "etf_flow",
     "macro",
@@ -2912,7 +2946,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.169,
-   "risk": 0.895,
+   "risk": 0.884,
    "events": [
     "project",
     "security",
@@ -2929,15 +2963,6 @@
    ],
    "count": 5,
    "last": "2026-11-17T11:36:07+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.03,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 9,
-   "last": "2026-11-17T11:29:51+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
