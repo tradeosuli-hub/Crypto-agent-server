@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-17T13:55:07.347044+00:00",
+ "updated_at": "2026-11-17T14:24:48.792541+00:00",
  "market": {
-  "btc_dominance": 59.24,
-  "usdt_dominance": 7.95,
-  "mcap_change_24h": -1.39,
+  "btc_dominance": 58.48,
+  "usdt_dominance": 7.85,
+  "mcap_change_24h": -1.4,
   "trending": [
    "GATO",
    "BP",
    "BTC",
-   "SOL",
-   "INJ",
-   "HYPE",
-   "LIT",
    "PEARL",
-   "PENGU",
+   "HYPE",
+   "INJ",
+   "SOL",
+   "ZEC",
+   "LIT",
    "VVV"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitwise launches ZDAY, its first non-crypto ETF, to bet on AI cyber defense",
+   "url": "https://www.theblock.co/news/markets/2026-11-17-bitwise-zday-ai-cyber-defense-etf-442062",
+   "published": "2026-11-17T14:00:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N88469f2821c7",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T14:24:48.792541+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Bernstein sees upside for bitcoin miners Riot and TeraWulf, citing discounts to implied AI data center values",
+   "url": "https://www.theblock.co/news/markets/2026-11-17-bernstein-sees-upside-for-bitcoin-miners-riot-and-terawulf-citing-discounts-to-implied-ai-data-center-values-442125",
+   "published": "2026-11-17T13:56:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nbb75eb1b225b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T14:24:48.792541+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin to $1M by 2030? ‘Almost certainly not,’ says Dragonfly’s Qureshi",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T13:55:07.347044+00:00",
    "notified": false
   },
@@ -2169,23 +2206,6 @@
   },
   {
    "source": "coindesk",
-   "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
-   "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
-   "published": "2026-11-15T14:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2b65f49987c7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T14:08:18.383358+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
    "title": "Changing of Lagarde: How the candidates to be next ECB president view bitcoin, stablecoins and CBDCs",
    "url": "https://www.coindesk.com/policy/2026/11/14/changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
    "published": "2026-11-15T07:00:00+00:00",
@@ -2879,20 +2899,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.125,
-   "risk": 0.435,
+   "sentiment": -0.121,
+   "risk": 0.429,
    "events": [
     "etf_flow",
     "macro",
     "token_burn",
     "market"
    ],
-   "count": 27,
-   "last": "2026-11-17T13:30:00+00:00"
+   "count": 28,
+   "last": "2026-11-17T13:56:18+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.168,
-   "risk": 0.905,
+   "sentiment": -0.169,
+   "risk": 0.895,
    "events": [
     "project",
     "security",
@@ -2911,7 +2931,7 @@
    "last": "2026-11-17T11:36:07+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.031,
+   "sentiment": 0.03,
    "risk": 0.0,
    "events": [
     "project"
