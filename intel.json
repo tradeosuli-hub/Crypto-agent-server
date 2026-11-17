@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-17T16:23:08.084420+00:00",
+ "updated_at": "2026-11-17T16:52:42.831862+00:00",
  "market": {
-  "btc_dominance": 58.45,
-  "usdt_dominance": 7.94,
-  "mcap_change_24h": -2.94,
+  "btc_dominance": 58.37,
+  "usdt_dominance": 7.98,
+  "mcap_change_24h": -3.52,
   "trending": [
-   "BP",
+   "GATO",
    "BTC",
    "SOL",
    "BREV",
-   "HYPE",
-   "UNI",
+   "BP",
    "PENGU",
-   "ZEC",
-   "VVV",
-   "TAO"
+   "HYPE",
+   "TAO",
+   "ETH",
+   "UNI"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
+   "url": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T16:39:43+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N34b5628fe9c1",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T16:52:42.831862+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Alpaca says tokenization network tops $10 billion in minting and redemption volume",
+   "url": "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
+   "published": "2026-11-17T16:35:07+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc788390af25a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T16:52:42.831862+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Anchorage, Kalshi Prime let institutions use custodied bitcoin as margin",
@@ -493,7 +529,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin and stocks rebound from session lows as Huang signals Nvidia return",
+   "title": "Live updates: Bitcoin and stocks continue slump, but Nvidia boosted as Huang signals possible return",
    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
    "published": "2026-11-17T10:33:26+00:00",
    "kind": "news",
@@ -506,7 +542,7 @@
    "id": "N922eeb9cebe7",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.2,
+   "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-17T10:57:29.558085+00:00",
@@ -2962,16 +2998,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.11,
-   "risk": 0.409,
+   "sentiment": -0.122,
+   "risk": 0.404,
    "events": [
     "etf_flow",
     "macro",
     "token_burn",
     "market"
    ],
-   "count": 29,
-   "last": "2026-11-17T15:53:25+00:00"
+   "count": 30,
+   "last": "2026-11-17T16:39:43+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.022,
@@ -2983,8 +3019,8 @@
    "last": "2026-11-17T14:45:49+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.17,
-   "risk": 0.854,
+   "sentiment": -0.171,
+   "risk": 0.843,
    "events": [
     "project",
     "security",
