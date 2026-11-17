@@ -1,25 +1,83 @@
 {
- "updated_at": "2026-11-17T11:27:02.165152+00:00",
+ "updated_at": "2026-11-17T11:56:38.628784+00:00",
  "market": {
-  "btc_dominance": 59.15,
-  "usdt_dominance": 8.01,
-  "mcap_change_24h": -2.75,
+  "btc_dominance": 59.22,
+  "usdt_dominance": 7.96,
+  "mcap_change_24h": -2.14,
   "trending": [
    "GATO",
    "BP",
-   "LIT",
-   "PI",
-   "EVAA",
    "BTC",
+   "LIT",
+   "EVAA",
    "SOL",
-   "PENGU",
-   "LYX",
-   "ETH"
+   "VVV",
+   "ETH",
+   "PI",
+   "INJ"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "US senators seek SEC answers on tokenized stock money laundering risks",
+   "url": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T11:36:26+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N693ac26c11ce",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-17T11:56:38.628784+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
+   "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+   "published": "2026-11-17T11:36:07+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Nf946f06d3374",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T11:56:38.628784+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
+   "url": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+   "published": "2026-11-17T11:29:51+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "Nb98a0b66f35b",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T11:56:38.628784+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "New DeFi-yield generation targets ‘scam-like’ bank accounts that keep all the interest",
@@ -33,6 +91,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T11:27:02.165152+00:00",
    "notified": false
   },
@@ -53,6 +112,7 @@
    "importance": 7,
    "sentiment": -0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T11:27:02.165152+00:00",
    "notified": false
   },
@@ -73,6 +133,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T11:27:02.165152+00:00",
    "notified": false
   },
@@ -2634,27 +2695,38 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.088,
-   "risk": 0.46,
+   "sentiment": -0.121,
+   "risk": 0.455,
    "events": [
     "etf_flow",
     "macro",
     "token_burn",
     "market"
    ],
-   "count": 24,
-   "last": "2026-11-17T11:18:18+00:00"
+   "count": 25,
+   "last": "2026-11-17T11:36:07+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.0,
+   "sentiment": -0.206,
    "risk": 0.0,
-   "events": [],
-   "count": 4,
-   "last": "2026-11-17T10:33:26+00:00"
+   "events": [
+    "etf_flow"
+   ],
+   "count": 5,
+   "last": "2026-11-17T11:36:07+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.031,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 9,
+   "last": "2026-11-17T11:29:51+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.226,
-   "risk": 0.956,
+   "risk": 0.946,
    "events": [
     "security",
     "etf_flow"
@@ -2668,15 +2740,6 @@
    "events": [],
    "count": 2,
    "last": "2026-11-17T06:54:49+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.037,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 8,
-   "last": "2026-11-17T05:45:00+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.6,
