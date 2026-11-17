@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-17T09:28:53.520113+00:00",
+ "updated_at": "2026-11-17T09:58:28.513556+00:00",
  "market": {
-  "btc_dominance": 59.16,
-  "usdt_dominance": 8.03,
-  "mcap_change_24h": -2.76,
+  "btc_dominance": 59.13,
+  "usdt_dominance": 8.0,
+  "mcap_change_24h": -2.46,
   "trending": [
    "BP",
-   "BTC",
    "SOL",
+   "LIT",
+   "BTC",
+   "EVAA",
+   "ETH",
+   "NEAR",
    "PENGU",
    "ZEC",
-   "NEAR",
-   "EVAA",
-   "LIT",
-   "PEARL",
    "HYPE"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "US judge clears brothers in $25M Ethereum MEV case after mistrial",
+   "url": "https://cointelegraph.com/news/us-judge-acquits-brothers-25m-ethereum-mev-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T09:30:05+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N35de3005531e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T09:58:28.513556+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
@@ -2451,18 +2471,18 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.272,
-   "risk": 0.997,
+   "sentiment": -0.246,
+   "risk": 0.987,
    "events": [
     "security",
     "etf_flow"
    ],
-   "count": 8,
-   "last": "2026-11-17T09:21:19+00:00"
+   "count": 9,
+   "last": "2026-11-17T09:30:05+00:00"
   },
   "BTCUSDT": {
    "sentiment": -0.028,
-   "risk": 0.481,
+   "risk": 0.476,
    "events": [
     "macro",
     "etf_flow",
@@ -2498,7 +2518,7 @@
    "last": "2026-11-17T05:02:05+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.064,
+   "sentiment": -0.065,
    "risk": 0.0,
    "events": [],
    "count": 4,
