@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-17T13:25:35.767606+00:00",
+ "updated_at": "2026-11-17T13:55:07.347044+00:00",
  "market": {
-  "btc_dominance": 59.23,
-  "usdt_dominance": 7.94,
-  "mcap_change_24h": -1.24,
+  "btc_dominance": 59.24,
+  "usdt_dominance": 7.95,
+  "mcap_change_24h": -1.39,
   "trending": [
    "GATO",
-   "SOL",
-   "HYPE",
    "BP",
-   "INJ",
-   "LIT",
    "BTC",
+   "SOL",
+   "INJ",
+   "HYPE",
+   "LIT",
+   "PEARL",
    "PENGU",
-   "AVAX",
-   "PEARL"
+   "VVV"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin to $1M by 2030? ‘Almost certainly not,’ says Dragonfly’s Qureshi",
+   "url": "https://cointelegraph.com/magazine/bitcoin-to-1m-by-2030-almost-certainly-not-says-dragonflys-qureshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T13:30:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na6a2578df4b4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T13:55:07.347044+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "ARK sells $85M in Nvidia shares ahead of chipmaker’s Q3 earnings results",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T13:25:35.767606+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T13:25:35.767606+00:00",
    "notified": false
   },
@@ -69,6 +91,7 @@
    "importance": 5,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T13:25:35.767606+00:00",
    "notified": false
   },
@@ -85,6 +108,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T13:25:35.767606+00:00",
    "notified": false
   },
@@ -101,6 +125,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T13:25:35.767606+00:00",
    "notified": false
   },
@@ -332,7 +357,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds near $64,000 as tech bounces ahead of Nvidia earnings",
+   "title": "Live updates: Bitcoin holds near $65,000 as tech bounces ahead of Nvidia earnings",
    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
    "published": "2026-11-17T10:33:26+00:00",
    "kind": "news",
@@ -2853,9 +2878,21 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.125,
+   "risk": 0.435,
+   "events": [
+    "etf_flow",
+    "macro",
+    "token_burn",
+    "market"
+   ],
+   "count": 27,
+   "last": "2026-11-17T13:30:00+00:00"
+  },
   "ETHUSDT": {
    "sentiment": -0.168,
-   "risk": 0.915,
+   "risk": 0.905,
    "events": [
     "project",
     "security",
@@ -2864,20 +2901,8 @@
    "count": 11,
    "last": "2026-11-17T13:02:56+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.13,
-   "risk": 0.44,
-   "events": [
-    "etf_flow",
-    "macro",
-    "token_burn",
-    "market"
-   ],
-   "count": 26,
-   "last": "2026-11-17T12:00:55+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.207,
+   "sentiment": -0.208,
    "risk": 0.0,
    "events": [
     "etf_flow"
