@@ -1,25 +1,109 @@
 {
- "updated_at": "2026-11-17T12:55:51.548350+00:00",
+ "updated_at": "2026-11-17T13:25:35.767606+00:00",
  "market": {
-  "btc_dominance": 59.22,
-  "usdt_dominance": 7.95,
-  "mcap_change_24h": -1.84,
+  "btc_dominance": 59.23,
+  "usdt_dominance": 7.94,
+  "mcap_change_24h": -1.24,
   "trending": [
    "GATO",
-   "BP",
    "SOL",
-   "BTC",
+   "HYPE",
+   "BP",
    "INJ",
    "LIT",
-   "HYPE",
+   "BTC",
    "PENGU",
-   "ETH",
-   "ZAMA"
+   "AVAX",
+   "PEARL"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "ARK sells $85M in Nvidia shares ahead of chipmaker’s Q3 earnings results",
+   "url": "https://cointelegraph.com/news/ark-crypto-stock-purchases-nvidia-staking-etf-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T13:12:10+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N19fa2c69c0dd",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T13:25:35.767606+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Stablecoin infrastructure firm Avenia raises $25 million in Series A extension",
+   "url": "https://www.theblock.co/news/deals/2026-11-17-avenia-funding-stablecoin-crypto-infrastructure-442119",
+   "published": "2026-11-17T13:08:34+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N13bd1894b9ff",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T13:25:35.767606+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
+   "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
+   "published": "2026-11-17T13:02:56+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N4f11c6cfd92a",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T13:25:35.767606+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Grvt launches RWA perpetuals with funding tied to traditional markets",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-17-grvt-launches-rwa-perpetuals-with-funding-tied-to-traditional-markets-442089",
+   "published": "2026-11-17T13:00:00+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc53d0aeabc99",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T13:25:35.767606+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
+   "url": "https://www.coindesk.com/markets/2026/11/17/decentralized-exchange-grvt-makes-commodity-trading-more-predictable-with-stable-funding-perps",
+   "published": "2026-11-17T13:00:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N664d0b263c2d",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T13:25:35.767606+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Revolut plans four blockchain-based funds for private markets, chair says",
@@ -33,6 +117,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T12:55:51.548350+00:00",
    "notified": false
   },
@@ -2768,9 +2853,20 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.168,
+   "risk": 0.915,
+   "events": [
+    "project",
+    "security",
+    "etf_flow"
+   ],
+   "count": 11,
+   "last": "2026-11-17T13:02:56+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.13,
-   "risk": 0.445,
+   "risk": 0.44,
    "events": [
     "etf_flow",
     "macro",
@@ -2797,16 +2893,6 @@
    ],
    "count": 9,
    "last": "2026-11-17T11:29:51+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.227,
-   "risk": 0.926,
-   "events": [
-    "security",
-    "etf_flow"
-   ],
-   "count": 10,
-   "last": "2026-11-17T10:20:37+00:00"
   },
   "ADAUSDT": {
    "sentiment": 0.0,
