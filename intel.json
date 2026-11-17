@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-17T19:20:21.528930+00:00",
+ "updated_at": "2026-11-17T19:49:56.232168+00:00",
  "market": {
-  "btc_dominance": 58.33,
+  "btc_dominance": 58.31,
   "usdt_dominance": 7.97,
-  "mcap_change_24h": -3.9,
+  "mcap_change_24h": -3.89,
   "trending": [
-   "BP",
-   "BREV",
-   "SOL",
    "BTC",
-   "PEARL",
-   "XRP",
    "PENGU",
-   "ALGO",
-   "VVV",
-   "QNT"
+   "SOL",
+   "HYPE",
+   "BP",
+   "XRP",
+   "BREV",
+   "NEAR",
+   "QNT",
+   "DRV"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade",
+   "url": "https://www.coindesk.com/markets/2026/11/17/coinbase-ceo-says-ai-agents-will-account-for-99-9-of-transactions-within-a-decade",
+   "published": "2026-11-17T19:45:57+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ncb9e5e1e82d9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T19:49:56.232168+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Jito’s Lucas Bruder says crypto builders need to ‘slow down’ and fix security weaknesses",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-17-jito-lucas-bruder-crypto-builders-need-slow-down-fix-security-weaknesses-442850",
+   "published": "2026-11-17T19:29:15+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf8b448376e22",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T19:49:56.232168+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Predictions platform Kalshi complies with order to halt Trump mention contracts",
@@ -33,6 +65,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T19:20:21.528930+00:00",
    "notified": false
   },
@@ -2407,23 +2440,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
-   "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
-   "published": "2026-11-15T19:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na672f528b431",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T19:32:51.865523+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Adjust The Contract Size of USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename The Ticker to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/0dc9c6bdb729413ba54ba68ca83403e1",
@@ -3135,8 +3151,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.125,
-   "risk": 0.378,
+   "sentiment": -0.126,
+   "risk": 0.373,
    "events": [
     "etf_flow",
     "macro",
@@ -3157,7 +3173,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.173,
-   "risk": 0.792,
+   "risk": 0.782,
    "events": [
     "project",
     "security",
@@ -3167,7 +3183,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.274,
+   "sentiment": -0.275,
    "risk": 0.0,
    "events": [
     "etf_flow"
