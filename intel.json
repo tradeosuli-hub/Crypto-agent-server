@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-17T16:52:42.831862+00:00",
+ "updated_at": "2026-11-17T17:22:14.111879+00:00",
  "market": {
-  "btc_dominance": 58.37,
-  "usdt_dominance": 7.98,
-  "mcap_change_24h": -3.52,
+  "btc_dominance": 58.35,
+  "usdt_dominance": 7.97,
+  "mcap_change_24h": -3.85,
   "trending": [
-   "GATO",
-   "BTC",
-   "SOL",
-   "BREV",
    "BP",
+   "BREV",
+   "PEARL",
+   "SOL",
+   "BTC",
+   "LIT",
    "PENGU",
    "HYPE",
-   "TAO",
-   "ETH",
-   "UNI"
+   "MON",
+   "XMR"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
+   "url": "https://www.coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
+   "published": "2026-11-17T17:00:05+00:00",
+   "kind": "macro",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N27483e25e497",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-17T17:22:14.111879+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T16:52:42.831862+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T16:52:42.831862+00:00",
    "notified": false
   },
@@ -529,7 +547,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin and stocks continue slump, but Nvidia boosted as Huang signals possible return",
+   "title": "Live updates: Bitcoin and stocks continue slump as Huang signals interest in returning to Nvidia",
    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
    "published": "2026-11-17T10:33:26+00:00",
    "kind": "news",
@@ -2998,8 +3016,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.122,
-   "risk": 0.404,
+   "sentiment": -0.123,
+   "risk": 0.399,
    "events": [
     "etf_flow",
     "macro",
@@ -3020,7 +3038,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.171,
-   "risk": 0.843,
+   "risk": 0.833,
    "events": [
     "project",
     "security",
@@ -3030,7 +3048,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.269,
+   "sentiment": -0.27,
    "risk": 0.0,
    "events": [
     "etf_flow"
