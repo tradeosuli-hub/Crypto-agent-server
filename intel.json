@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-17T06:31:08.509165+00:00",
+ "updated_at": "2026-11-17T07:00:37.919715+00:00",
  "market": {
-  "btc_dominance": 58.42,
-  "usdt_dominance": 7.89,
-  "mcap_change_24h": -0.96,
+  "btc_dominance": 58.43,
+  "usdt_dominance": 7.9,
+  "mcap_change_24h": -1.06,
   "trending": [
    "BP",
    "KAS",
-   "XMR",
-   "PENGU",
-   "PI",
-   "NEAR",
    "BTC",
-   "DOGE",
-   "JCT",
-   "SOL"
+   "NEAR",
+   "PI",
+   "EVAA",
+   "OP",
+   "PENGU",
+   "VVV",
+   "HYPE"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market",
+   "url": "https://www.coindesk.com/tech/2026/11/17/cardano-foundation-seeks-usd5-million-from-treasury-using-ada-price-33-above-market",
+   "published": "2026-11-17T06:54:49+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ADA"
+   ],
+   "symbols": [
+    "ADAUSDT"
+   ],
+   "id": "N7dbbc41db2fb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T07:00:37.919715+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme",
+   "url": "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T06:35:19+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfa585239ad75",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T07:00:37.919715+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Cathie Wood’s Ark Invest loads up on crypto stocks while selling $85 million in Nvidia",
+   "url": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
+   "published": "2026-11-17T06:35:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nba4a716fd58a",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T07:00:37.919715+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-18)",
@@ -33,6 +85,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T06:31:08.509165+00:00",
    "notified": false
   },
@@ -1621,44 +1674,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "RWA protocol stUSDT winds down 3 years after $2.3B TVL peak",
-   "url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-15T06:27:26+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N0371d9c90720",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T06:45:57.282808+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-   "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
-   "published": "2026-11-15T02:50:57+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N439321df3658",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T03:18:58.963469+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Recovery Update: Withdrawals Reopened for More Networks (2026-11-14)",
    "url": "https://www.binance.com/en/support/announcement/432646a7f7c34c2a85b69db99af32c16",
@@ -2365,6 +2380,13 @@
   }
  ],
  "symbols": {
+  "ADAUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 2,
+   "last": "2026-11-17T06:54:49+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.037,
    "risk": 0.0,
@@ -2382,7 +2404,7 @@
     "token_burn",
     "market"
    ],
-   "count": 21,
+   "count": 20,
    "last": "2026-11-17T05:37:23+00:00"
   },
   "XRPUSDT": {
@@ -2402,7 +2424,7 @@
    "last": "2026-11-16T20:45:47+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.057,
+   "sentiment": -0.058,
    "risk": 0.0,
    "events": [],
    "count": 4,
@@ -2414,13 +2436,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-16T13:00:00+00:00"
-  },
-  "ADAUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-16T06:27:42+00:00"
   }
  },
  "social": {},
