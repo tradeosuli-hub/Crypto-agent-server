@@ -1,25 +1,58 @@
 {
- "updated_at": "2026-11-17T14:54:20.963569+00:00",
+ "updated_at": "2026-11-17T15:24:05.286768+00:00",
  "market": {
-  "btc_dominance": 58.55,
-  "usdt_dominance": 7.84,
-  "mcap_change_24h": -1.35,
+  "btc_dominance": 58.51,
+  "usdt_dominance": 7.89,
+  "mcap_change_24h": -3.32,
   "trending": [
    "GATO",
-   "HYPE",
    "BP",
-   "PEARL",
-   "BTC",
-   "INJ",
    "PENGU",
-   "BREV",
+   "HYPE",
    "LIT",
-   "QTC"
+   "BREV",
+   "TAO",
+   "SOL",
+   "BTC",
+   "AVAX"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
+   "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
+   "published": "2026-11-17T15:11:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nf52a89b6ad60",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T15:24:05.286768+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T14:54:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-11-16T06:22:13.704211+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Solana Foundation takes majority interest in crypto data firm CoinGecko",
@@ -37,6 +70,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T14:54:20.963569+00:00",
    "notified": false
   },
@@ -57,6 +91,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T14:54:20.963569+00:00",
    "notified": false
   },
@@ -738,23 +773,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-17T06:31:08.509165+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T06:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T06:22:13.704211+00:00",
    "notified": false
   },
   {
@@ -2933,8 +2951,8 @@
    "last": "2026-11-17T14:45:49+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.121,
-   "risk": 0.424,
+   "sentiment": -0.122,
+   "risk": 0.419,
    "events": [
     "etf_flow",
     "macro",
@@ -2946,7 +2964,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.169,
-   "risk": 0.884,
+   "risk": 0.874,
    "events": [
     "project",
     "security",
@@ -2956,7 +2974,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.208,
+   "sentiment": -0.209,
    "risk": 0.0,
    "events": [
     "etf_flow"
