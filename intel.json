@@ -1,25 +1,81 @@
 {
- "updated_at": "2026-11-17T10:57:29.558085+00:00",
+ "updated_at": "2026-11-17T11:27:02.165152+00:00",
  "market": {
-  "btc_dominance": 59.18,
-  "usdt_dominance": 8.04,
-  "mcap_change_24h": -2.65,
+  "btc_dominance": 59.15,
+  "usdt_dominance": 8.01,
+  "mcap_change_24h": -2.75,
   "trending": [
    "GATO",
-   "DACITYCOIN",
    "BP",
    "LIT",
+   "PI",
    "EVAA",
    "BTC",
    "SOL",
-   "PI",
-   "PEARL",
+   "PENGU",
+   "LYX",
    "ETH"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "New DeFi-yield generation targets ‘scam-like’ bank accounts that keep all the interest",
+   "url": "https://www.coindesk.com/business/2026/11/16/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
+   "published": "2026-11-17T11:25:58+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N8c44755f843f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T11:27:02.165152+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
+   "url": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T11:18:18+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N4136aae98ace",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T11:27:02.165152+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
+   "url": "https://cointelegraph.com/markets/bitcoin-realized-loss-metric-beats-june-high-open-interest-eyes-2-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T11:14:05+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf16d89a680dd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T11:27:02.165152+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Former Robinhood engineer pleads guilty to wire fraud over trades ahead of crypto listing announcements",
@@ -33,6 +89,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T10:57:29.558085+00:00",
    "notified": false
   },
@@ -49,6 +106,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-11-17T10:57:29.558085+00:00",
    "notified": false
   },
@@ -71,6 +129,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T10:57:29.558085+00:00",
    "notified": false
   },
@@ -2575,16 +2634,16 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.021,
-   "risk": 0.465,
+   "sentiment": -0.088,
+   "risk": 0.46,
    "events": [
-    "macro",
     "etf_flow",
+    "macro",
     "token_burn",
     "market"
    ],
-   "count": 22,
-   "last": "2026-11-17T10:33:26+00:00"
+   "count": 24,
+   "last": "2026-11-17T11:18:18+00:00"
   },
   "NEARUSDT": {
    "sentiment": 0.0,
@@ -2594,8 +2653,8 @@
    "last": "2026-11-17T10:33:26+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.225,
-   "risk": 0.967,
+   "sentiment": -0.226,
+   "risk": 0.956,
    "events": [
     "security",
     "etf_flow"
