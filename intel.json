@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-17T15:24:05.286768+00:00",
+ "updated_at": "2026-11-17T15:53:38.356568+00:00",
  "market": {
-  "btc_dominance": 58.51,
-  "usdt_dominance": 7.89,
-  "mcap_change_24h": -3.32,
+  "btc_dominance": 58.48,
+  "usdt_dominance": 7.95,
+  "mcap_change_24h": -3.96,
   "trending": [
-   "GATO",
    "BP",
-   "PENGU",
-   "HYPE",
-   "LIT",
-   "BREV",
-   "TAO",
    "SOL",
+   "HYPE",
+   "BREV",
    "BTC",
-   "AVAX"
+   "PENGU",
+   "UNI",
+   "GATO",
+   "ZEC",
+   "VVV"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Anchorage, Kalshi Prime let institutions use custodied bitcoin as margin",
+   "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
+   "published": "2026-11-17T15:53:25+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N49350897c598",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T15:53:38.356568+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
@@ -33,6 +53,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T15:24:05.286768+00:00",
    "notified": false
   },
@@ -471,17 +492,15 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin holds near $65,000 as tech flattens out ahead of Nvidia earnings",
+   "title": "Live updates: Bitcoin gives up small gains as stocks again head lower",
    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
    "published": "2026-11-17T10:33:26+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC",
-    "NEAR"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
+    "BTCUSDT"
    ],
    "id": "N922eeb9cebe7",
    "kind_fa": "خبر",
@@ -2941,6 +2960,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.117,
+   "risk": 0.414,
+   "events": [
+    "etf_flow",
+    "macro",
+    "token_burn",
+    "market"
+   ],
+   "count": 29,
+   "last": "2026-11-17T15:53:25+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.022,
    "risk": 0.0,
@@ -2950,21 +2981,9 @@
    "count": 11,
    "last": "2026-11-17T14:45:49+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.122,
-   "risk": 0.419,
-   "events": [
-    "etf_flow",
-    "macro",
-    "token_burn",
-    "market"
-   ],
-   "count": 28,
-   "last": "2026-11-17T13:56:18+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": -0.169,
-   "risk": 0.874,
+   "sentiment": -0.17,
+   "risk": 0.864,
    "events": [
     "project",
     "security",
@@ -2974,12 +2993,12 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.209,
+   "sentiment": -0.268,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 5,
+   "count": 4,
    "last": "2026-11-17T11:36:07+00:00"
   },
   "ADAUSDT": {
