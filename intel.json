@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-17T15:53:38.356568+00:00",
+ "updated_at": "2026-11-17T16:23:08.084420+00:00",
  "market": {
-  "btc_dominance": 58.48,
-  "usdt_dominance": 7.95,
-  "mcap_change_24h": -3.96,
+  "btc_dominance": 58.45,
+  "usdt_dominance": 7.94,
+  "mcap_change_24h": -2.94,
   "trending": [
    "BP",
-   "SOL",
-   "HYPE",
-   "BREV",
    "BTC",
-   "PENGU",
+   "SOL",
+   "BREV",
+   "HYPE",
    "UNI",
-   "GATO",
+   "PENGU",
    "ZEC",
-   "VVV"
+   "VVV",
+   "TAO"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-17T15:53:38.356568+00:00",
    "notified": false
   },
@@ -492,7 +493,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin gives up small gains as stocks again head lower",
+   "title": "Live updates: Bitcoin and stocks rebound from session lows as Huang signals Nvidia return",
    "url": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
    "published": "2026-11-17T10:33:26+00:00",
    "kind": "news",
@@ -505,7 +506,7 @@
    "id": "N922eeb9cebe7",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": 0.2,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-17T10:57:29.558085+00:00",
@@ -2961,8 +2962,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.117,
-   "risk": 0.414,
+   "sentiment": -0.11,
+   "risk": 0.409,
    "events": [
     "etf_flow",
     "macro",
@@ -2983,7 +2984,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.17,
-   "risk": 0.864,
+   "risk": 0.854,
    "events": [
     "project",
     "security",
@@ -2993,7 +2994,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.268,
+   "sentiment": -0.269,
    "risk": 0.0,
    "events": [
     "etf_flow"
