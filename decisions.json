@@ -2427,7 +2427,7 @@
  {
   "id": "Dfdfcdb6190",
   "ts": "2026-11-17T13:39:12.834540+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "ENAUSDT",
   "direction": "short",
   "entry": 0.1169575,
@@ -2539,6 +2539,28 @@
    "دیوار solid · واکنش‌های گذشته 7",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-11-17T13:45:00+00:00"
+  "entered_at": "2026-11-17T13:45:00+00:00",
+  "outcome": "TP",
+  "exit": 0.11226044346639147,
+  "pnl_r": 1.144,
+  "closed_at": "2026-11-17T15:45:00+00:00",
+  "root_cause": {
+   "right": [
+    "structure",
+    "liquidity",
+    "volume",
+    "order_block",
+    "pattern",
+    "historical_memory"
+   ],
+   "wrong": [
+    "dominance",
+    "news"
+   ],
+   "silent": [
+    "social"
+   ],
+   "lesson_fa": "تأییدکننده‌های درست: structure، liquidity، volume، order_block، pattern، historical_memory · مخالفانی که اشتباه کردند: dominance، news"
+  }
  }
 ]
