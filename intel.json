@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-17T08:58:51.646395+00:00",
+ "updated_at": "2026-11-17T09:28:20.270631+00:00",
  "market": {
-  "btc_dominance": 58.37,
-  "usdt_dominance": 7.91,
-  "mcap_change_24h": -2.03,
+  "btc_dominance": 59.16,
+  "usdt_dominance": 8.03,
+  "mcap_change_24h": -2.76,
   "trending": [
    "BP",
-   "ZEC",
    "BTC",
-   "NEAR",
    "SOL",
-   "EVAA",
    "PENGU",
-   "BDX",
-   "VVV",
-   "PEARL"
+   "ZEC",
+   "NEAR",
+   "EVAA",
+   "LIT",
+   "PEARL",
+   "HYPE"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
+   "url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
+   "published": "2026-11-17T09:21:19+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N64e1acdfe314",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-17T09:28:20.270631+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+   "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T09:08:32+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Nb1513f1e5712",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T09:28:20.270631+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Grayscale says crypto pullback offers ‘compelling entry points’ as bitcoin falls to $64,000",
@@ -2408,9 +2448,19 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.272,
+   "risk": 0.998,
+   "events": [
+    "security",
+    "etf_flow"
+   ],
+   "count": 8,
+   "last": "2026-11-17T09:21:19+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.028,
-   "risk": 0.486,
+   "risk": 0.481,
    "events": [
     "macro",
     "etf_flow",
@@ -2445,15 +2495,8 @@
    "count": 1,
    "last": "2026-11-17T05:02:05+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 6,
-   "last": "2026-11-16T20:45:47+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.062,
+   "sentiment": -0.063,
    "risk": 0.0,
    "events": [],
    "count": 4,
