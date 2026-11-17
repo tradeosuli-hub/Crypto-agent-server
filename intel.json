@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-17T07:30:14.563175+00:00",
+ "updated_at": "2026-11-17T07:59:45.032885+00:00",
  "market": {
-  "btc_dominance": 58.42,
+  "btc_dominance": 58.44,
   "usdt_dominance": 7.88,
-  "mcap_change_24h": -1.24,
+  "mcap_change_24h": -1.2,
   "trending": [
    "BP",
-   "PI",
-   "NEAR",
-   "KAS",
-   "BTC",
    "EVAA",
+   "NEAR",
+   "ZEC",
+   "AERO",
+   "LIT",
+   "INJ",
+   "PENGU",
    "VVV",
-   "HYPE",
-   "TAO",
-   "SUI"
+   "BTC"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Grayscale says crypto pullback offers ‘compelling entry points’ as bitcoin falls to $64,000",
+   "url": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+   "published": "2026-11-17T07:39:17+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N6ef43831e84e",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T07:59:45.032885+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+   "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
+   "published": "2026-11-17T07:38:07+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ndf6e54f27c61",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-17T07:59:45.032885+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market",
@@ -2383,6 +2423,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.027,
+   "risk": 0.496,
+   "events": [
+    "macro",
+    "etf_flow",
+    "token_burn",
+    "market"
+   ],
+   "count": 22,
+   "last": "2026-11-17T07:39:17+00:00"
+  },
   "ADAUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2398,17 +2450,6 @@
    ],
    "count": 8,
    "last": "2026-11-17T05:45:00+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.02,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "token_burn",
-    "market"
-   ],
-   "count": 20,
-   "last": "2026-11-17T05:37:23+00:00"
   },
   "XRPUSDT": {
    "sentiment": 0.6,
@@ -2427,7 +2468,7 @@
    "last": "2026-11-16T20:45:47+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.059,
+   "sentiment": -0.06,
    "risk": 0.0,
    "events": [],
    "count": 4,
