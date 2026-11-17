@@ -1,25 +1,89 @@
 {
- "updated_at": "2026-11-17T17:22:14.111879+00:00",
+ "updated_at": "2026-11-17T17:51:45.294938+00:00",
  "market": {
-  "btc_dominance": 58.35,
-  "usdt_dominance": 7.97,
-  "mcap_change_24h": -3.85,
+  "btc_dominance": 58.33,
+  "usdt_dominance": 7.98,
+  "mcap_change_24h": -3.99,
   "trending": [
    "BP",
-   "BREV",
    "PEARL",
-   "SOL",
    "BTC",
-   "LIT",
-   "PENGU",
    "HYPE",
-   "MON",
-   "XMR"
+   "SOL",
+   "LIT",
+   "BREV",
+   "PENGU",
+   "INJ",
+   "VVV"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Druckenmiller says he is short copper, warns of economic weakness in 2027",
+   "url": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027",
+   "published": "2026-11-17T17:42:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N510b33224ac0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T17:51:45.294938+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Fomo pays creators $30 million, sharing ‘lion’s share’ of revenue, Se Yong Park says",
+   "url": "https://www.theblock.co/news/business/2026-11-17-fomo-pays-creators-30-million-sharing-lions-share-revenue-park-says-442332",
+   "published": "2026-11-17T17:41:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na90128425e60",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T17:51:45.294938+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
+   "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T17:39:41+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5acddaecac67",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-17T17:51:45.294938+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Everyone is Trading Tokenized Nvidia Derivatives",
+   "url": "https://www.theblock.co/newsletters/data-and-insights/2026-11-17-everyone-is-trading-tokenized-nvidia-derivatives-442818",
+   "published": "2026-11-17T17:15:23+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N3985ceab3709",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-17T17:51:45.294938+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
@@ -33,6 +97,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-11-17T17:22:14.111879+00:00",
    "notified": false
   },
@@ -3017,7 +3082,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.123,
-   "risk": 0.399,
+   "risk": 0.393,
    "events": [
     "etf_flow",
     "macro",
@@ -3038,7 +3103,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.171,
-   "risk": 0.833,
+   "risk": 0.823,
    "events": [
     "project",
     "security",
@@ -3048,7 +3113,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.27,
+   "sentiment": -0.271,
    "risk": 0.0,
    "events": [
     "etf_flow"
