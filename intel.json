@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T06:39:14.160694+00:00",
+ "updated_at": "2026-11-18T07:08:45.474825+00:00",
  "market": {
   "btc_dominance": 58.44,
-  "usdt_dominance": 7.88,
-  "mcap_change_24h": -2.84,
+  "usdt_dominance": 7.89,
+  "mcap_change_24h": -2.89,
   "trending": [
    "BTC",
-   "SOL",
-   "BREV",
-   "LIT",
-   "MON",
-   "VVV",
    "PEARL",
+   "VVV",
+   "BREV",
+   "SOL",
    "BDX",
-   "AKT",
-   "PENGU"
+   "RENDER",
+   "PENGU",
+   "LUNC",
+   "LIT"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T06:39:14.160694+00:00",
    "notified": false
   },
@@ -2620,27 +2621,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Cardano holders vote down $5 million bid to buy warehouse copper",
-   "url": "https://www.coindesk.com/markets/2026/11/16/cardano-holders-vote-down-usd5-million-bid-to-buy-warehouse-copper",
-   "published": "2026-11-16T06:27:42+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ADA"
-   ],
-   "symbols": [
-    "ADAUSDT"
-   ],
-   "id": "Na8755514927d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T06:51:41.811159+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -3243,7 +3223,7 @@
  "symbols": {
   "ETHUSDT": {
    "sentiment": -0.156,
-   "risk": 0.556,
+   "risk": 0.546,
    "events": [
     "project",
     "security",
@@ -3253,8 +3233,8 @@
    "last": "2026-11-18T05:30:10+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.127,
-   "risk": 0.26,
+   "sentiment": -0.126,
+   "risk": 0.255,
    "events": [
     "etf_flow",
     "macro",
@@ -3265,7 +3245,7 @@
    "last": "2026-11-18T04:34:21+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.065,
+   "sentiment": 0.063,
    "risk": 0.0,
    "events": [
     "market",
@@ -3275,7 +3255,7 @@
    "last": "2026-11-18T04:28:37+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.018,
+   "sentiment": 0.017,
    "risk": 0.0,
    "events": [
     "project"
@@ -3284,7 +3264,7 @@
    "last": "2026-11-17T14:45:49+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.311,
+   "sentiment": -0.31,
    "risk": 0.0,
    "events": [
     "etf_flow"
