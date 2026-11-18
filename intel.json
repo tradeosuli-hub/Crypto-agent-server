@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T01:14:55.024214+00:00",
+ "updated_at": "2026-11-18T01:44:25.005223+00:00",
  "market": {
-  "btc_dominance": 58.41,
-  "usdt_dominance": 7.88,
-  "mcap_change_24h": -2.33,
+  "btc_dominance": 58.39,
+  "usdt_dominance": 7.9,
+  "mcap_change_24h": -2.58,
   "trending": [
    "PENGU",
    "BTC",
+   "NEAR",
+   "PEARL",
    "QTC",
-   "LIT",
-   "SOL",
-   "PI",
-   "ONDO",
    "OP",
-   "XRP",
-   "PEARL"
+   "SOL",
+   "BP",
+   "VVV",
+   "BREV"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T01:14:55.024214+00:00",
    "notified": false
   },
@@ -3210,8 +3211,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.13,
-   "risk": 0.317,
+   "sentiment": -0.131,
+   "risk": 0.311,
    "events": [
     "etf_flow",
     "macro",
@@ -3232,7 +3233,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.178,
-   "risk": 0.669,
+   "risk": 0.659,
    "events": [
     "project",
     "security",
@@ -3242,7 +3243,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.31,
+   "sentiment": -0.311,
    "risk": 0.0,
    "events": [
     "etf_flow"
