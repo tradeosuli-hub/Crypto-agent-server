@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T20:27:29.321642+00:00",
+ "updated_at": "2026-11-18T20:57:06.178151+00:00",
  "market": {
-  "btc_dominance": 58.08,
-  "usdt_dominance": 8.07,
-  "mcap_change_24h": -3.88,
+  "btc_dominance": 58.01,
+  "usdt_dominance": 8.1,
+  "mcap_change_24h": -4.13,
   "trending": [
    "WASTED",
    "WSTAR",
-   "TRUMP",
    "LUCIA",
+   "TRUMP",
    "PEARL",
-   "BTC",
-   "SOL",
    "PENGU",
-   "PIEVERSE",
-   "ETH"
+   "BTC",
+   "ETH",
+   "LIT",
+   "BP"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -22,7 +22,23 @@
  "items": [
   {
    "source": "cointelegraph",
-   "title": "Binance says it won $6.5B worldwide freezing order after hack",
+   "title": "Bain Capital Crypto leads $110M Variational round at $1.5B valuation",
+   "url": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-18T20:32:06+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N53a143325f92",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T20:57:06.178151+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance says it obtained $6.5B worldwide freezing order after hack",
    "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-18T20:20:37+00:00",
    "kind": "security",
@@ -33,6 +49,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T20:27:29.321642+00:00",
    "notified": false
   },
@@ -2450,65 +2467,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case",
-   "url": "https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425",
-   "published": "2026-11-16T20:30:37+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Nc7826edae999",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T20:40:01.047392+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Bitwise sees Solana reaching $1,100 by 2031 in bull case as onchain trading grows",
-   "url": "https://www.theblock.co/news/markets/2026-11-16-bitwise-solana-price-prediction-1100-2031-441407",
-   "published": "2026-11-16T20:27:32+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N04d9d2c3d1a7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T20:40:01.047392+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Boris Johnson says UK must lead blockchain development despite crypto doubts",
-   "url": "https://cointelegraph.com/news/boris-johnson-uk-must-lead-blockchain-development-despite-crypto-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T20:18:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N30975b01017a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T20:40:01.047392+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -3110,38 +3068,38 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.072,
-   "risk": 0.46,
+   "sentiment": -0.069,
+   "risk": 0.454,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 27,
+   "count": 26,
    "last": "2026-11-18T18:27:52+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.017,
-   "risk": 0.269,
+   "sentiment": 0.02,
+   "risk": 0.258,
    "events": [
     "token_burn",
     "project",
     "security",
     "etf_flow"
    ],
-   "count": 11,
+   "count": 9,
    "last": "2026-11-18T17:05:04+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.174,
+   "sentiment": 0.185,
    "risk": 0.0,
    "events": [
     "token_burn"
    ],
-   "count": 7,
+   "count": 6,
    "last": "2026-11-18T13:42:37+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.034,
+   "sentiment": -0.031,
    "risk": 0.0,
    "events": [
     "market",
