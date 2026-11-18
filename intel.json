@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T22:55:15.228436+00:00",
+ "updated_at": "2026-11-18T23:24:47.668220+00:00",
  "market": {
-  "btc_dominance": 57.97,
-  "usdt_dominance": 8.13,
-  "mcap_change_24h": -5.23,
+  "btc_dominance": 58.0,
+  "usdt_dominance": 8.09,
+  "mcap_change_24h": -5.2,
   "trending": [
    "PEARL",
-   "WASTED",
-   "WSTAR",
    "BTC",
-   "TRUMP",
-   "SUI",
-   "MON",
-   "ETH",
    "PENGU",
-   "SOL"
+   "WASTED",
+   "MON",
+   "PI",
+   "BP",
+   "HYPE",
+   "SOL",
+   "ETH"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T22:55:15.228436+00:00",
    "notified": false
   },
@@ -2397,40 +2398,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
-   "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T22:54:57+00:00",
-   "kind": "macro",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N6681eca0306f",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T23:07:59.646260+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "German lawmakers back crypto freezes outside criminal cases",
-   "url": "https://cointelegraph.com/news/german-lawmakers-back-crypto-freezes-outside-criminal-cases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T22:46:44+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncc70a7b9a3b1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T23:07:59.646260+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -3032,8 +2999,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.027,
-   "risk": 0.217,
+   "sentiment": 0.03,
+   "risk": 0.207,
    "events": [
     "token_burn",
     "project",
@@ -3044,8 +3011,8 @@
    "last": "2026-11-18T21:57:35+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.066,
-   "risk": 0.434,
+   "sentiment": -0.065,
+   "risk": 0.429,
    "events": [
     "macro",
     "etf_flow"
@@ -3054,7 +3021,7 @@
    "last": "2026-11-18T18:27:52+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.188,
+   "sentiment": 0.189,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3063,7 +3030,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.295,
+   "sentiment": -0.294,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3072,7 +3039,7 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.019,
+   "sentiment": -0.015,
    "risk": 0.0,
    "events": [
     "market",
