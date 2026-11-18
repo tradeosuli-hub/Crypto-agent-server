@@ -1,25 +1,97 @@
 {
- "updated_at": "2026-11-18T04:11:45.906535+00:00",
+ "updated_at": "2026-11-18T04:41:15.911445+00:00",
  "market": {
-  "btc_dominance": 58.39,
-  "usdt_dominance": 7.91,
-  "mcap_change_24h": -3.38,
+  "btc_dominance": 58.4,
+  "usdt_dominance": 7.9,
+  "mcap_change_24h": -3.3,
   "trending": [
    "BREV",
-   "NEAR",
-   "VVV",
-   "SOL",
    "PEARL",
-   "BTC",
+   "NEAR",
+   "QTC",
+   "VVV",
+   "PI",
    "PENGU",
-   "BP",
-   "ICP",
-   "PI"
+   "BTC",
+   "ZEC",
+   "XRP"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin’s rare 12% crash through its 200-week average has a bullish track record",
+   "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
+   "published": "2026-11-18T04:34:21+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5645e63938ed",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T04:41:15.911445+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance Stock Options Trading API Is Now Live",
+   "url": "https://www.binance.com/en/support/announcement/5812611327db4325ad1e9989add711f7",
+   "published": "2026-11-18T04:30:02.447000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9a4f51adb1c3",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T04:41:15.911445+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "XRP whales moved $270 million during the selloff. The coins didn’t go to exchanges",
+   "url": "https://www.coindesk.com/markets/2026/11/18/xrp-whales-moved-usd270-million-during-the-selloff-the-coins-didn-t-go-to-exchanges",
+   "published": "2026-11-18T04:28:37+00:00",
+   "kind": "market",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N1740becdd44b",
+   "kind_fa": "جریان بازار",
+   "importance": 5,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T04:41:15.911445+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "World Bank Group taps Circle and Citi to test stablecoin-based fund disbursements",
+   "url": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
+   "published": "2026-11-18T04:21:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N490db46d22e5",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T04:41:15.911445+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Earn Yield Arena: Earn Up to 27% APR With This Week’s New Limited-Time Offers! (2026-11-18)",
@@ -33,6 +105,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T04:11:45.906535+00:00",
    "notified": false
   },
@@ -49,6 +122,7 @@
    "importance": 7,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T04:11:45.906535+00:00",
    "notified": false
   },
@@ -2741,23 +2815,6 @@
   },
   {
    "source": "binance",
-   "title": "Updates on Step Size for Spot Trading Pairs (2026-11-19)",
-   "url": "https://www.binance.com/en/support/announcement/326fabaa8cbb4a97a98c01f571ffcae7",
-   "published": "2026-11-12T03:00:09.790000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na3f99d64c661",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T01:50:07.536993+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)",
    "url": "https://www.binance.com/en/support/announcement/e7a88ff576b541608d0845f3b666ec66",
    "published": "2026-11-11T09:45:18.328000+00:00",
@@ -3235,16 +3292,26 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.134,
-   "risk": 0.286,
+   "sentiment": -0.15,
+   "risk": 0.281,
    "events": [
     "etf_flow",
     "macro",
     "token_burn",
     "market"
    ],
-   "count": 27,
-   "last": "2026-11-17T16:39:43+00:00"
+   "count": 28,
+   "last": "2026-11-18T04:34:21+00:00"
+  },
+  "XRPUSDT": {
+   "sentiment": 0.075,
+   "risk": 0.0,
+   "events": [
+    "market",
+    "listing"
+   ],
+   "count": 2,
+   "last": "2026-11-18T04:28:37+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.018,
@@ -3257,7 +3324,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.179,
-   "risk": 0.607,
+   "risk": 0.597,
    "events": [
     "project",
     "security",
@@ -3267,7 +3334,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.313,
+   "sentiment": -0.314,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3281,15 +3348,6 @@
    "events": [],
    "count": 2,
    "last": "2026-11-17T06:54:49+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "events": [
-    "listing"
-   ],
-   "count": 1,
-   "last": "2026-11-17T05:02:05+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
