@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T21:26:35.538993+00:00",
+ "updated_at": "2026-11-18T21:56:09.752146+00:00",
  "market": {
-  "btc_dominance": 57.99,
-  "usdt_dominance": 8.08,
-  "mcap_change_24h": -4.23,
+  "btc_dominance": 57.93,
+  "usdt_dominance": 8.1,
+  "mcap_change_24h": -4.44,
   "trending": [
    "WASTED",
    "WSTAR",
-   "LUCIA",
    "TRUMP",
    "PEARL",
    "PENGU",
    "BTC",
-   "ZEC",
-   "SOL",
-   "HYPE"
+   "MON",
+   "KAS",
+   "PIEVERSE",
+   "BP"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T21:26:35.538993+00:00",
    "notified": false
   },
@@ -818,15 +819,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin falls below $63,000, with Strategy’s STRC hitting lowest since August",
+   "title": "Live updates: Bitcoin falls below $63,000 as Anthropic prices IPO at $83, raising nearly $100 billion",
    "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
    "published": "2026-11-18T07:27:48+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "N98548b43dfdc",
    "kind_fa": "خبر",
@@ -3027,7 +3030,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.068,
-   "risk": 0.449,
+   "risk": 0.444,
    "events": [
     "macro",
     "etf_flow"
@@ -3036,8 +3039,8 @@
    "last": "2026-11-18T18:27:52+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.023,
-   "risk": 0.248,
+   "sentiment": 0.026,
+   "risk": 0.238,
    "events": [
     "token_burn",
     "project",
@@ -3048,7 +3051,7 @@
    "last": "2026-11-18T17:05:04+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.185,
+   "sentiment": 0.186,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3056,8 +3059,17 @@
    "count": 6,
    "last": "2026-11-18T13:42:37+00:00"
   },
+  "NEARUSDT": {
+   "sentiment": -0.297,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 2,
+   "last": "2026-11-18T07:27:48+00:00"
+  },
   "XRPUSDT": {
-   "sentiment": -0.028,
+   "sentiment": -0.025,
    "risk": 0.0,
    "events": [
     "market",
@@ -3065,15 +3077,6 @@
    ],
    "count": 2,
    "last": "2026-11-18T04:28:37+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 1,
-   "last": "2026-11-17T11:36:07+00:00"
   },
   "XAUTUSDT": {
    "sentiment": 0.0,
