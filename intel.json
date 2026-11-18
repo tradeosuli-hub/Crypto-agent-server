@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-18T16:00:46.331765+00:00",
+ "updated_at": "2026-11-18T16:30:15.746555+00:00",
  "market": {
-  "btc_dominance": 58.15,
-  "usdt_dominance": 8.03,
-  "mcap_change_24h": -3.66,
+  "btc_dominance": 58.05,
+  "usdt_dominance": 8.08,
+  "mcap_change_24h": -4.28,
   "trending": [
    "WSTAR",
    "PEARL",
    "TRUMP",
-   "PIEVERSE",
    "PENGU",
    "SOL",
    "BTC",
    "HYPE",
-   "TAO",
-   "MMT"
+   "PIEVERSE",
+   "BP",
+   "ETH"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/11/18/crypto-long-and-short-crypto-exchanges-shouldn-t-double-as-the-vault",
+   "published": "2026-11-18T16:02:54+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb91c67bf575e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T16:30:15.746555+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Variational raises $110 million at $1.5 billion valuation to expand onchain derivatives trading",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T16:00:46.331765+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T16:00:46.331765+00:00",
    "notified": false
   },
@@ -2529,40 +2547,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
-   "url": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
-   "published": "2026-11-16T15:54:11+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd43188b4b764",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T16:13:57.681065+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "German parliament proposes crypto seizures without criminal charges",
-   "url": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
-   "published": "2026-11-16T15:44:59+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9aa8dc21a68b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T16:13:57.681065+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -3164,18 +3148,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.093,
-   "risk": 0.448,
+   "sentiment": -0.092,
+   "risk": 0.442,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 27,
+   "count": 26,
    "last": "2026-11-18T15:38:38+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.001,
-   "risk": 0.361,
+   "sentiment": 0.001,
+   "risk": 0.351,
    "events": [
     "token_burn",
     "project",
@@ -3186,16 +3170,16 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.161,
+   "sentiment": 0.168,
    "risk": 0.0,
    "events": [
     "token_burn"
    ],
-   "count": 9,
+   "count": 8,
    "last": "2026-11-18T13:42:37+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.0,
+   "sentiment": -0.005,
    "risk": 0.0,
    "events": [
     "market",
