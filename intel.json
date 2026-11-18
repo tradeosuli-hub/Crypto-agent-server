@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-18T03:12:46.367967+00:00",
+ "updated_at": "2026-11-18T03:42:16.129494+00:00",
  "market": {
-  "btc_dominance": 58.38,
-  "usdt_dominance": 7.91,
-  "mcap_change_24h": -2.62,
+  "btc_dominance": 58.4,
+  "usdt_dominance": 7.89,
+  "mcap_change_24h": -2.41,
   "trending": [
    "BREV",
    "BTC",
    "NEAR",
-   "ETH",
-   "PEARL",
    "BP",
+   "PEARL",
+   "AVAX",
    "SOL",
-   "UNI",
-   "ICP",
-   "AVAX"
+   "PENGU",
+   "VVV",
+   "ETH"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Exchange Adds New bStocks Trading Pairs on Binance Spot/Convert - 2026-11-18",
+   "url": "https://www.binance.com/en/support/announcement/a3ffb6df9de942a9bb40e19f904041e6",
+   "published": "2026-11-18T03:30:27.391000+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nc1f30ac7e4ee",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T03:42:16.129494+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Coinbase AI defense blocks $4.7 million from being sent to deepfake Elon Musk scam",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T03:12:46.367967+00:00",
    "notified": false
   },
@@ -49,6 +66,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T03:12:46.367967+00:00",
    "notified": false
   },
@@ -65,6 +83,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T03:12:46.367967+00:00",
    "notified": false
   },
@@ -3067,23 +3086,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)",
-   "url": "https://www.binance.com/en/support/announcement/394e61b6f81e4a349272dcb9d78876d6",
-   "published": "2026-10-12T06:15:02.026000+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3fdee8cf40c7",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-12T06:30:27.403435+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
    "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
    "published": "2026-10-09T08:00:05.136000+00:00",
@@ -3239,7 +3241,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.134,
-   "risk": 0.296,
+   "risk": 0.291,
    "events": [
     "etf_flow",
     "macro",
@@ -3260,7 +3262,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.179,
-   "risk": 0.628,
+   "risk": 0.618,
    "events": [
     "project",
     "security",
@@ -3270,7 +3272,7 @@
    "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.312,
+   "sentiment": -0.313,
    "risk": 0.0,
    "events": [
     "etf_flow"
