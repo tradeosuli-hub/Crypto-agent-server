@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-18T11:04:56.089559+00:00",
+ "updated_at": "2026-11-18T11:34:42.252466+00:00",
  "market": {
   "btc_dominance": 59.06,
-  "usdt_dominance": 8.0,
-  "mcap_change_24h": -2.59,
+  "usdt_dominance": 8.02,
+  "mcap_change_24h": -2.3,
   "trending": [
    "PENGU",
    "MMT",
-   "LIT",
-   "BTC",
    "JCT",
+   "BTC",
    "BP",
-   "PIPPIN",
-   "PONS",
    "EVAA",
-   "PEARL"
+   "SOL",
+   "PIPPIN",
+   "LIT",
+   "PONS"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "TD Cowen tempers ether outlook, maintains Buy rating on Sharplink",
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-18-td-cowen-maintains-buy-rating-sharplink-442987",
+   "published": "2026-11-18T11:08:27+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N68b7779b57d8",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T11:34:42.252466+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
@@ -37,6 +57,7 @@
    "importance": 8,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-11-18T11:04:56.089559+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T11:04:56.089559+00:00",
    "notified": false
   },
@@ -2556,44 +2578,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
-   "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
-   "published": "2026-11-16T11:03:14+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N0636cc1df71e",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T11:18:03.209140+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Singapore, Germany test cross-border FX settlement with CBDCs",
-   "url": "https://cointelegraph.com/news/singapore-german-central-banks-settlement-cbdcs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T10:49:12+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4c2507fa94b5",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T11:18:03.209140+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -3177,9 +3161,20 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.138,
+   "risk": 0.454,
+   "events": [
+    "project",
+    "security",
+    "etf_flow"
+   ],
+   "count": 11,
+   "last": "2026-11-18T11:08:27+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.086,
-   "risk": 0.499,
+   "sentiment": -0.085,
+   "risk": 0.494,
    "events": [
     "macro",
     "etf_flow",
@@ -3189,7 +3184,7 @@
    "last": "2026-11-18T10:58:36+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.015,
+   "sentiment": 0.016,
    "risk": 0.0,
    "events": [
     "project"
@@ -3198,7 +3193,7 @@
    "last": "2026-11-18T08:41:16+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.206,
+   "sentiment": -0.205,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3206,19 +3201,8 @@
    "count": 3,
    "last": "2026-11-18T07:27:48+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.162,
-   "risk": 0.464,
-   "events": [
-    "project",
-    "security",
-    "etf_flow"
-   ],
-   "count": 10,
-   "last": "2026-11-18T05:30:10+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.04,
+   "sentiment": 0.037,
    "risk": 0.0,
    "events": [
     "market",
