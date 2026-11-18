@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T09:36:18.108677+00:00",
+ "updated_at": "2026-11-18T10:05:52.477696+00:00",
  "market": {
-  "btc_dominance": 58.42,
-  "usdt_dominance": 7.88,
-  "mcap_change_24h": -1.05,
+  "btc_dominance": 59.1,
+  "usdt_dominance": 7.98,
+  "mcap_change_24h": -2.27,
   "trending": [
-   "SOL",
    "MMT",
-   "PEARL",
-   "BTC",
-   "HYPE",
-   "LIT",
-   "ZEC",
+   "SOL",
    "PENGU",
-   "SUI",
-   "NEAR"
+   "BTC",
+   "PEARL",
+   "LIT",
+   "HYPE",
+   "NEAR",
+   "ZEC",
+   "KAS"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T09:36:18.108677+00:00",
    "notified": false
   },
@@ -49,6 +50,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T09:36:18.108677+00:00",
    "notified": false
   },
@@ -65,6 +67,7 @@
    "importance": 2,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T09:36:18.108677+00:00",
    "notified": false
   },
@@ -81,6 +84,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T09:36:18.108677+00:00",
    "notified": false
   },
@@ -2592,63 +2596,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Live updates: Bitcoin trades near $65,000 as Nasdaq closes with 2.5% loss",
-   "url": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
-   "published": "2026-11-16T09:34:18+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC",
-    "NEAR"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
-   ],
-   "id": "Nc19994397ecc",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T09:49:26.799065+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "DBS, JPMorgan launch instant tokenized deposit transfers between US and Singapore",
-   "url": "https://www.theblock.co/news/business/2026-11-16-dbs-jpmorgan-launch-tokenized-deposit-transfers-440854",
-   "published": "2026-11-16T09:26:39+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8959635c599b",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T09:49:26.799065+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
-   "url": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
-   "published": "2026-11-16T09:23:07+00:00",
-   "kind": "macro",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nef1d4da9302d",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T09:49:26.799065+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -3242,8 +3189,8 @@
    "last": "2026-11-18T08:41:16+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.105,
-   "risk": 0.229,
+   "sentiment": -0.104,
+   "risk": 0.224,
    "events": [
     "etf_flow",
     "macro",
@@ -3254,7 +3201,7 @@
    "last": "2026-11-18T08:09:23+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.209,
+   "sentiment": -0.208,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3264,7 +3211,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.158,
-   "risk": 0.495,
+   "risk": 0.485,
    "events": [
     "project",
     "security",
@@ -3274,7 +3221,7 @@
    "last": "2026-11-18T05:30:10+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.049,
+   "sentiment": 0.046,
    "risk": 0.0,
    "events": [
     "market",
