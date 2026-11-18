@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-18T06:09:44.108960+00:00",
+ "updated_at": "2026-11-18T06:39:14.160694+00:00",
  "market": {
-  "btc_dominance": 58.43,
+  "btc_dominance": 58.44,
   "usdt_dominance": 7.88,
-  "mcap_change_24h": -2.8,
+  "mcap_change_24h": -2.84,
   "trending": [
-   "BREV",
    "BTC",
    "SOL",
-   "BDX",
+   "BREV",
+   "LIT",
    "MON",
-   "TAO",
-   "EVAA",
-   "XRP",
+   "VVV",
    "PEARL",
+   "BDX",
+   "AKT",
    "PENGU"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "binance",
+   "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
+   "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
+   "published": "2026-11-18T06:15:24.513000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na71d05039405",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T06:39:14.160694+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Upgrades Spot Liquidity Provider Program (2026-11-16)",
@@ -33,6 +49,7 @@
    "importance": 5,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T06:09:44.108960+00:00",
    "notified": false
   },
@@ -2624,23 +2641,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Trump administration to name Nvidia, OpenAI and several others as AI national champions",
-   "url": "https://www.coindesk.com/markets/2026/11/16/trump-administration-to-name-nvidia-openai-and-several-others-as-u-s-ai-national-champions",
-   "published": "2026-11-16T06:01:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N390de9b30a2c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T06:22:13.704211+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -2774,27 +2774,6 @@
    "id": "N3492f0037bb0",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T01:50:07.536993+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Binance Earn: Dual Investment Supports HYPE",
-   "url": "https://www.binance.com/en/support/announcement/de935623913744e2810fab1a8e3446e5",
-   "published": "2026-11-12T08:30:15.508000+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "HYPE"
-   ],
-   "symbols": [
-    "HYPEUSDT"
-   ],
-   "id": "N408496a452f6",
-   "kind_fa": "خبر",
-   "importance": 4,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -3264,7 +3243,7 @@
  "symbols": {
   "ETHUSDT": {
    "sentiment": -0.156,
-   "risk": 0.567,
+   "risk": 0.556,
    "events": [
     "project",
     "security",
@@ -3275,7 +3254,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.127,
-   "risk": 0.265,
+   "risk": 0.26,
    "events": [
     "etf_flow",
     "macro",
@@ -3286,7 +3265,7 @@
    "last": "2026-11-18T04:34:21+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.068,
+   "sentiment": 0.065,
    "risk": 0.0,
    "events": [
     "market",
@@ -3305,7 +3284,7 @@
    "last": "2026-11-17T14:45:49+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.313,
+   "sentiment": -0.311,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3324,7 +3303,7 @@
    "sentiment": 0.0,
    "risk": 0.0,
    "events": [],
-   "count": 2,
+   "count": 1,
    "last": "2026-11-17T06:54:49+00:00"
   },
   "BNBUSDT": {
