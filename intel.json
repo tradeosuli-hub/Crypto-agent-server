@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-18T19:57:54.096205+00:00",
+ "updated_at": "2026-11-18T20:27:29.321642+00:00",
  "market": {
-  "btc_dominance": 58.04,
-  "usdt_dominance": 8.08,
-  "mcap_change_24h": -3.84,
+  "btc_dominance": 58.08,
+  "usdt_dominance": 8.07,
+  "mcap_change_24h": -3.88,
   "trending": [
-   "WSTAR",
    "WASTED",
+   "WSTAR",
+   "TRUMP",
    "LUCIA",
    "PEARL",
-   "TRUMP",
    "BTC",
    "SOL",
-   "BP",
    "PENGU",
+   "PIEVERSE",
    "ETH"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance says it won $6.5B worldwide freezing order after hack",
+   "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-18T20:20:37+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nb92d2a52c1f9",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-18T20:27:29.321642+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Binance obtains $6.5 billion freezing order from Abu Dhabi court in bid to recover stolen crypto",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T19:57:54.096205+00:00",
    "notified": false
   },
@@ -2492,23 +2509,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
-   "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T19:56:18+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N561bb9b93abe",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T20:10:25.608106+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -3111,7 +3111,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.072,
-   "risk": 0.465,
+   "risk": 0.46,
    "events": [
     "macro",
     "etf_flow"
@@ -3120,8 +3120,8 @@
    "last": "2026-11-18T18:27:52+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.014,
-   "risk": 0.279,
+   "sentiment": 0.017,
+   "risk": 0.269,
    "events": [
     "token_burn",
     "project",
@@ -3141,7 +3141,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.037,
+   "sentiment": -0.034,
    "risk": 0.0,
    "events": [
     "market",
