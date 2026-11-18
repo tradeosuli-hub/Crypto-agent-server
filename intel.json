@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-18T15:31:14.360852+00:00",
+ "updated_at": "2026-11-18T16:00:46.331765+00:00",
  "market": {
-  "btc_dominance": 58.24,
-  "usdt_dominance": 8.0,
-  "mcap_change_24h": -4.35,
+  "btc_dominance": 58.15,
+  "usdt_dominance": 8.03,
+  "mcap_change_24h": -3.66,
   "trending": [
    "WSTAR",
-   "TRUMP",
    "PEARL",
+   "TRUMP",
    "PIEVERSE",
    "PENGU",
    "SOL",
-   "MMT",
    "BTC",
    "HYPE",
-   "NEAR"
+   "TAO",
+   "MMT"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Variational raises $110 million at $1.5 billion valuation to expand onchain derivatives trading",
+   "url": "https://www.theblock.co/news/deals/2026-11-18-variational-raises-110-million-at-1-5-billion-valuation-to-expand-onchain-derivatives-trading-443445",
+   "published": "2026-11-18T15:51:42+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne5e190e999aa",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T16:00:46.331765+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
+   "url": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
+   "published": "2026-11-18T15:38:38+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb52217757428",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T16:00:46.331765+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T15:31:14.360852+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T15:31:14.360852+00:00",
    "notified": false
   },
@@ -525,7 +563,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin slides towards $63,000 as U.S. stocks fall and Nvidia erases gains",
+   "title": "Live updates: Bitcoin falls below $63,000, with Strategy’s STRC hitting lowest since August",
    "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
    "published": "2026-11-18T07:27:48+00:00",
    "kind": "news",
@@ -538,7 +576,7 @@
    "id": "N98548b43dfdc",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
+   "sentiment": -0.2,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-18T07:38:23.670670+00:00",
@@ -3126,18 +3164,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.08,
-   "risk": 0.453,
+   "sentiment": -0.093,
+   "risk": 0.448,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 26,
-   "last": "2026-11-18T14:04:50+00:00"
+   "count": 27,
+   "last": "2026-11-18T15:38:38+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.003,
-   "risk": 0.372,
+   "sentiment": -0.001,
+   "risk": 0.361,
    "events": [
     "token_burn",
     "project",
@@ -3148,7 +3186,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.16,
+   "sentiment": 0.161,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3157,7 +3195,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.005,
+   "sentiment": -0.0,
    "risk": 0.0,
    "events": [
     "market",
