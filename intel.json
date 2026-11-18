@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-18T08:37:19.494193+00:00",
+ "updated_at": "2026-11-18T09:06:49.825491+00:00",
  "market": {
   "btc_dominance": 58.43,
   "usdt_dominance": 7.88,
-  "mcap_change_24h": -2.7,
+  "mcap_change_24h": -2.79,
   "trending": [
    "BTC",
    "SOL",
    "MMT",
+   "LIT",
+   "ALGO",
+   "PEARL",
    "BDX",
-   "ETH",
-   "SYRUP",
-   "PI",
-   "TAO",
-   "CC",
-   "JUP"
+   "PENGU",
+   "VVV",
+   "QNT"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Hong Kong central bank explores agentic AI to detect crypto-related financial crime",
+   "url": "https://www.theblock.co/news/regulation/2026-11-18-hong-kong-agentic-ai-crypto-crime-442959",
+   "published": "2026-11-18T08:43:02+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N7144e477928c",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T09:06:49.825491+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "SOL comes out of Breakpoint 7% higher as Solana exits beta",
+   "url": "https://cointelegraph.com/markets/solana-sol-gains-7-percent-breakpoint-beta-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-18T08:41:16+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "SOL"
+   ],
+   "symbols": [
+    "SOLUSDT"
+   ],
+   "id": "N07367d4a76e0",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T09:06:49.825491+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
@@ -37,6 +73,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T08:37:19.494193+00:00",
    "notified": false
   },
@@ -85,13 +122,13 @@
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
    "published": "2026-11-18T06:15:24.513000+00:00",
-   "kind": "news",
+   "kind": "listing",
    "raw_symbols": [],
    "symbols": [],
    "id": "Na71d05039405",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.6,
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-18T06:39:14.160694+00:00",
@@ -2618,27 +2655,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
-   "url": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T08:27:39+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N9d5873865f65",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T08:50:10.005966+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -2755,6 +2771,26 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-15T01:50:07.536993+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Binance Earn: Dual Investment Supports HYPE",
+   "url": "https://www.binance.com/en/support/announcement/de935623913744e2810fab1a8e3446e5",
+   "published": "2026-11-12T08:30:15.508000+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "HYPE"
+   ],
+   "symbols": [
+    "HYPEUSDT"
+   ],
+   "id": "N408496a452f6",
+   "kind_fa": "خبر",
+   "importance": 4,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T09:06:49.825491+00:00",
    "notified": false
   },
   {
@@ -3065,23 +3101,6 @@
   },
   {
    "source": "binance",
-   "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
-   "url": "https://www.binance.com/en/support/announcement/927d3a7b5d6c43fb888e38f110005906",
-   "published": "2026-10-14T03:00:04.033000+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N4b3218d3f219",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-10-14T03:19:38.635154+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
    "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
    "url": "https://www.binance.com/en/support/announcement/56476c15963b4c0cb113ab0e22613c5c",
    "published": "2026-10-09T08:00:05.136000+00:00",
@@ -3218,9 +3237,18 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": 0.015,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 11,
+   "last": "2026-11-18T08:41:16+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.105,
-   "risk": 0.24,
+   "sentiment": -0.104,
+   "risk": 0.235,
    "events": [
     "etf_flow",
     "macro",
@@ -3231,7 +3259,7 @@
    "last": "2026-11-18T08:09:23+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.195,
+   "sentiment": -0.194,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3241,7 +3269,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.159,
-   "risk": 0.515,
+   "risk": 0.505,
    "events": [
     "project",
     "security",
@@ -3251,7 +3279,7 @@
    "last": "2026-11-18T05:30:10+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.055,
+   "sentiment": 0.052,
    "risk": 0.0,
    "events": [
     "market",
@@ -3259,15 +3287,6 @@
    ],
    "count": 2,
    "last": "2026-11-18T04:28:37+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.017,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 11,
-   "last": "2026-11-17T14:45:49+00:00"
   },
   "XAUTUSDT": {
    "sentiment": 0.0,
