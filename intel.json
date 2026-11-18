@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-18T08:07:52.922092+00:00",
+ "updated_at": "2026-11-18T08:37:19.494193+00:00",
  "market": {
-  "btc_dominance": 58.49,
-  "usdt_dominance": 7.87,
-  "mcap_change_24h": -2.18,
+  "btc_dominance": 58.43,
+  "usdt_dominance": 7.88,
+  "mcap_change_24h": -2.7,
   "trending": [
    "BTC",
    "SOL",
    "MMT",
-   "ETH",
-   "PEARL",
-   "PENGU",
    "BDX",
-   "HYPE",
-   "MON",
-   "BNB"
+   "ETH",
+   "SYRUP",
+   "PI",
+   "TAO",
+   "CC",
+   "JUP"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
+   "url": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-18T08:09:23+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N36637e882567",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T08:37:19.494193+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Google finds self-running AI hacking tool with Russian comments in its files",
@@ -33,6 +53,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T08:07:52.922092+00:00",
    "notified": false
   },
@@ -2618,48 +2639,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
-   "url": "https://www.coindesk.com/tech/2026/11/16/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
-   "published": "2026-11-16T08:18:03+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Ndff19a6269cc",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T08:20:20.995336+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
-   "url": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
-   "published": "2026-11-16T07:51:15+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N9aa2110251c8",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T08:20:20.995336+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -3240,8 +3219,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.119,
-   "risk": 0.245,
+   "sentiment": -0.105,
+   "risk": 0.24,
    "events": [
     "etf_flow",
     "macro",
@@ -3249,10 +3228,10 @@
     "market"
    ],
    "count": 27,
-   "last": "2026-11-18T07:27:48+00:00"
+   "last": "2026-11-18T08:09:23+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.196,
+   "sentiment": -0.195,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3261,18 +3240,18 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.155,
-   "risk": 0.525,
+   "sentiment": -0.159,
+   "risk": 0.515,
    "events": [
     "project",
     "security",
     "etf_flow"
    ],
-   "count": 12,
+   "count": 11,
    "last": "2026-11-18T05:30:10+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.058,
+   "sentiment": 0.055,
    "risk": 0.0,
    "events": [
     "market",
