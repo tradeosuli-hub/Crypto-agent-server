@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-11-18T07:08:45.474825+00:00",
+ "updated_at": "2026-11-18T07:38:23.670670+00:00",
  "market": {
-  "btc_dominance": 58.44,
-  "usdt_dominance": 7.89,
-  "mcap_change_24h": -2.89,
+  "btc_dominance": 58.42,
+  "usdt_dominance": 7.87,
+  "mcap_change_24h": -2.42,
   "trending": [
    "BTC",
    "PEARL",
-   "VVV",
+   "BDX",
+   "MMT",
    "BREV",
    "SOL",
-   "BDX",
-   "RENDER",
+   "PUMP",
    "PENGU",
-   "LUNC",
-   "LIT"
+   "EVAA",
+   "ETH"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live updates: Bitcoin stuck near $65,000 as popular 'basis trade' returns dry up",
+   "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
+   "published": "2026-11-18T07:27:48+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N98548b43dfdc",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T07:38:23.670670+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
@@ -3221,9 +3243,30 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.118,
+   "risk": 0.25,
+   "events": [
+    "etf_flow",
+    "macro",
+    "token_burn",
+    "market"
+   ],
+   "count": 28,
+   "last": "2026-11-18T07:27:48+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.197,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 4,
+   "last": "2026-11-18T07:27:48+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.156,
-   "risk": 0.546,
+   "sentiment": -0.155,
+   "risk": 0.536,
    "events": [
     "project",
     "security",
@@ -3232,20 +3275,8 @@
    "count": 12,
    "last": "2026-11-18T05:30:10+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.126,
-   "risk": 0.255,
-   "events": [
-    "etf_flow",
-    "macro",
-    "token_burn",
-    "market"
-   ],
-   "count": 27,
-   "last": "2026-11-18T04:34:21+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.063,
+   "sentiment": 0.06,
    "risk": 0.0,
    "events": [
     "market",
@@ -3262,15 +3293,6 @@
    ],
    "count": 11,
    "last": "2026-11-17T14:45:49+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.31,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
-   "last": "2026-11-17T11:36:07+00:00"
   },
   "XAUTUSDT": {
    "sentiment": 0.0,
