@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T13:03:21.599872+00:00",
+ "updated_at": "2026-11-18T13:33:07.178252+00:00",
  "market": {
-  "btc_dominance": 59.03,
+  "btc_dominance": 59.0,
   "usdt_dominance": 8.03,
-  "mcap_change_24h": -3.68,
+  "mcap_change_24h": -4.93,
   "trending": [
-   "MMT",
    "TRUMP",
+   "BTC",
+   "MMT",
    "PEARL",
    "PENGU",
-   "BTC",
    "HYPE",
-   "PIEVERSE",
    "BP",
-   "ARB",
-   "LIT"
+   "PIEVERSE",
+   "NEAR",
+   "SOL"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T13:03:21.599872+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 2,
    "sentiment": 0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T13:03:21.599872+00:00",
    "notified": false
   },
@@ -69,6 +71,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T13:03:21.599872+00:00",
    "notified": false
   },
@@ -2511,48 +2514,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "‘This dip could use a little orange’: Michael Saylor’s Strategy buys another 485 BTC for $33 million as bitcoin tumbles",
-   "url": "https://www.theblock.co/news/business/2026-11-16-this-dip-could-use-a-little-orange-michael-saylor-strategy-bitcoin-tumbles-440886",
-   "published": "2026-11-16T13:13:14+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nd582f54d888b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T13:16:05.021553+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Solana drops ‘beta’ label after more than six years",
-   "url": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years",
-   "published": "2026-11-16T13:03:16+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nbf5f256d61e9",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T13:16:05.021553+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -2592,40 +2553,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-16T13:45:36.563359+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
-   "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
-   "published": "2026-11-16T12:55:46+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc9fcdfa98911",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T13:16:05.021553+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "HKMA, Swift explore tokenized deposits for cross-border bank payments",
-   "url": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T12:54:51+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N22f0ab838003",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T13:16:05.021553+00:00",
    "notified": false
   },
   {
@@ -3213,19 +3140,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.079,
-   "risk": 0.478,
+   "sentiment": -0.089,
+   "risk": 0.473,
    "events": [
     "macro",
-    "etf_flow",
-    "token_burn"
+    "etf_flow"
    ],
-   "count": 27,
+   "count": 25,
    "last": "2026-11-18T12:53:34+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.14,
-   "risk": 0.423,
+   "sentiment": -0.139,
+   "risk": 0.413,
    "events": [
     "project",
     "security",
@@ -3242,7 +3168,7 @@
    "last": "2026-11-18T08:41:16+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.026,
+   "sentiment": 0.022,
    "risk": 0.0,
    "events": [
     "market",
@@ -3252,7 +3178,7 @@
    "last": "2026-11-18T04:28:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.338,
+   "sentiment": -0.337,
    "risk": 0.0,
    "events": [
     "etf_flow"
