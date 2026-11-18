@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-18T14:32:17.770962+00:00",
+ "updated_at": "2026-11-18T15:01:42.413153+00:00",
  "market": {
-  "btc_dominance": 58.26,
-  "usdt_dominance": 7.95,
-  "mcap_change_24h": -4.01,
+  "btc_dominance": 58.23,
+  "usdt_dominance": 7.98,
+  "mcap_change_24h": -4.22,
   "trending": [
    "TRUMP",
    "PENGU",
-   "BTC",
-   "PEARL",
    "MMT",
-   "HYPE",
+   "PEARL",
+   "BTC",
    "SOL",
-   "BDX",
+   "HYPE",
+   "PIEVERSE",
    "XRP",
-   "PI"
+   "ETH"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Backpack secures NFA approval, completing licensing stack for US derivatives launch",
+   "url": "https://www.theblock.co/news/business/2026-11-18-backpack-completes-regulatory-framework-us-entry-442980",
+   "published": "2026-11-18T14:49:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nccea917e0f58",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T15:01:42.413153+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T14:32:17.770962+00:00",
    "notified": false
   },
@@ -475,7 +492,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin lower even as Nasdaq rises on Nvidia relief",
+   "title": "Live updates: Bitcoin slides towards $63,000 as U.S. stocks fall and Nvidia erases gains",
    "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
    "published": "2026-11-18T07:27:48+00:00",
    "kind": "news",
@@ -2557,23 +2574,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Lighter recovers $5M after $10M exploit linked to compromised API keys",
-   "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T14:19:50+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc1bc8944499f",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T14:44:46.394362+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -3176,37 +3176,37 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.08,
-   "risk": 0.463,
+   "risk": 0.458,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 27,
+   "count": 26,
    "last": "2026-11-18T14:04:50+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.006,
-   "risk": 0.392,
+   "sentiment": -0.005,
+   "risk": 0.382,
    "events": [
     "token_burn",
     "project",
     "security",
     "etf_flow"
    ],
-   "count": 11,
+   "count": 10,
    "last": "2026-11-18T13:42:37+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.153,
+   "sentiment": 0.159,
    "risk": 0.0,
    "events": [
     "token_burn"
    ],
-   "count": 10,
+   "count": 9,
    "last": "2026-11-18T13:42:37+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.014,
+   "sentiment": 0.009,
    "risk": 0.0,
    "events": [
     "market",
@@ -3216,12 +3216,12 @@
    "last": "2026-11-18T04:28:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.335,
+   "sentiment": -0.4,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
-   "count": 2,
+   "count": 1,
    "last": "2026-11-17T11:36:07+00:00"
   },
   "XAUTUSDT": {
