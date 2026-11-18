@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-18T12:04:16.028660+00:00",
+ "updated_at": "2026-11-18T12:33:49.761999+00:00",
  "market": {
-  "btc_dominance": 59.05,
-  "usdt_dominance": 8.02,
-  "mcap_change_24h": -2.27,
+  "btc_dominance": 59.07,
+  "usdt_dominance": 8.01,
+  "mcap_change_24h": -3.44,
   "trending": [
-   "PENGU",
    "BTC",
+   "PENGU",
    "MMT",
-   "BP",
-   "JCT",
-   "PIEVERSE",
+   "ARB",
+   "PEARL",
    "PIPPIN",
-   "INJ",
-   "TAO",
-   "MON"
+   "XRP",
+   "MON",
+   "BP",
+   "HYPE"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Circle turns to DBS as banks build rival digital payment systems across Asia",
+   "url": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia",
+   "published": "2026-11-18T12:25:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N478a12905b31",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T12:33:49.761999+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
+   "published": "2026-11-18T12:15:00+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc5b36512878d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T12:33:49.761999+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
@@ -37,6 +73,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T12:04:16.028660+00:00",
    "notified": false
   },
@@ -266,17 +303,15 @@
   },
   {
    "source": "coindesk",
-   "title": "Live updates: Bitcoin stuck near $65,000 as popular 'basis trade' returns dry up",
+   "title": "Live updates: Bitcoin lower even as Nasdaq rises on Nvidia relief",
    "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
    "published": "2026-11-18T07:27:48+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC",
-    "NEAR"
+    "BTC"
    ],
    "symbols": [
-    "BTCUSDT",
-    "NEARUSDT"
+    "BTCUSDT"
    ],
    "id": "N98548b43dfdc",
    "kind_fa": "خبر",
@@ -2561,44 +2596,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
-   "published": "2026-11-16T12:09:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N72fdaf46d4e7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T12:17:05.052448+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
-   "url": "https://www.coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
-   "published": "2026-11-16T11:47:12+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N366e7dfafc88",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T12:17:05.052448+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -3183,19 +3180,19 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.091,
-   "risk": 0.489,
+   "sentiment": -0.082,
+   "risk": 0.483,
    "events": [
     "macro",
     "etf_flow",
     "token_burn"
    ],
    "count": 27,
-   "last": "2026-11-18T11:42:52+00:00"
+   "last": "2026-11-18T12:15:00+00:00"
   },
   "ETHUSDT": {
    "sentiment": -0.137,
-   "risk": 0.443,
+   "risk": 0.433,
    "events": [
     "project",
     "security",
@@ -3205,25 +3202,14 @@
    "last": "2026-11-18T11:08:27+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.016,
+   "sentiment": 0.0,
    "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 11,
+   "events": [],
+   "count": 10,
    "last": "2026-11-18T08:41:16+00:00"
   },
-  "NEARUSDT": {
-   "sentiment": -0.204,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
-   "last": "2026-11-18T07:27:48+00:00"
-  },
   "XRPUSDT": {
-   "sentiment": 0.033,
+   "sentiment": 0.03,
    "risk": 0.0,
    "events": [
     "market",
@@ -3231,6 +3217,15 @@
    ],
    "count": 2,
    "last": "2026-11-18T04:28:37+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.339,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 2,
+   "last": "2026-11-17T11:36:07+00:00"
   },
   "XAUTUSDT": {
    "sentiment": 0.0,
