@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-18T16:30:15.746555+00:00",
+ "updated_at": "2026-11-18T16:59:53.134383+00:00",
  "market": {
-  "btc_dominance": 58.05,
-  "usdt_dominance": 8.08,
-  "mcap_change_24h": -4.28,
+  "btc_dominance": 58.09,
+  "usdt_dominance": 8.11,
+  "mcap_change_24h": -4.51,
   "trending": [
    "WSTAR",
    "PEARL",
    "TRUMP",
    "PENGU",
-   "SOL",
-   "BTC",
    "HYPE",
+   "BTC",
+   "SOL",
    "PIEVERSE",
-   "BP",
-   "ETH"
+   "ETH",
+   "BP"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+   "url": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-18T16:34:20+00:00",
+   "kind": "macro",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nd50bd9ded053",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 8,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-18T16:59:53.134383+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Visa Direct to extend stablecoin prefunding for cross-border payouts to Asia-Pacific",
+   "url": "https://www.theblock.co/news/business/2026-11-18-visa-direct-extend-stablecoin-prefunding-cross-border-payouts-asia-pacific-443457",
+   "published": "2026-11-18T16:30:41+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9da5bac4f13e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T16:59:53.134383+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T16:30:15.746555+00:00",
    "notified": false
   },
@@ -2488,65 +2525,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
-   "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
-   "published": "2026-11-16T16:41:42+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ncada900cbfdb",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T16:43:25.127512+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
-   "url": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T16:26:52+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N77e33d3e8f01",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T16:43:25.127512+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "DeFi Development Corp. adds 9,482 SOL as CHAD dividend streak hits 31 days",
-   "url": "https://www.theblock.co/news/markets/2026-11-16-defi-development-solana-treasury-2-62-million-sol-441361",
-   "published": "2026-11-16T16:16:17+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "N5a6072e6f346",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T16:43:25.127512+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -3148,18 +3126,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.092,
-   "risk": 0.442,
+   "sentiment": -0.081,
+   "risk": 0.496,
    "events": [
     "macro",
     "etf_flow"
    ],
    "count": 26,
-   "last": "2026-11-18T15:38:38+00:00"
+   "last": "2026-11-18T16:34:20+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.001,
-   "risk": 0.351,
+   "sentiment": 0.003,
+   "risk": 0.341,
    "events": [
     "token_burn",
     "project",
@@ -3170,7 +3148,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.168,
+   "sentiment": 0.169,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3179,7 +3157,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.005,
+   "sentiment": -0.01,
    "risk": 0.0,
    "events": [
     "market",
