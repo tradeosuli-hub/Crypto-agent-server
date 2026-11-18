@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T23:24:47.668220+00:00",
+ "updated_at": "2026-11-18T23:54:14.376593+00:00",
  "market": {
-  "btc_dominance": 58.0,
-  "usdt_dominance": 8.09,
-  "mcap_change_24h": -5.2,
+  "btc_dominance": 58.11,
+  "usdt_dominance": 8.02,
+  "mcap_change_24h": -4.36,
   "trending": [
-   "PEARL",
-   "BTC",
-   "PENGU",
-   "WASTED",
-   "MON",
-   "PI",
    "BP",
-   "HYPE",
+   "PEARL",
+   "PENGU",
+   "MON",
+   "BTC",
+   "QTC",
    "SOL",
-   "ETH"
+   "WASTED",
+   "ETH",
+   "NEAR"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -2381,23 +2381,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "CFTC backs blockchain-based derivatives infrastructure as Backpack, tZERO win approvals",
-   "url": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
-   "published": "2026-11-16T23:27:15+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N3e6389e64045",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T23:37:30.742751+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -2999,8 +2982,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.03,
-   "risk": 0.207,
+   "sentiment": 0.032,
+   "risk": 0.2,
    "events": [
     "token_burn",
     "project",
@@ -3011,8 +2994,8 @@
    "last": "2026-11-18T21:57:35+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.065,
-   "risk": 0.429,
+   "sentiment": -0.064,
+   "risk": 0.424,
    "events": [
     "macro",
     "etf_flow"
@@ -3021,7 +3004,7 @@
    "last": "2026-11-18T18:27:52+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.189,
+   "sentiment": 0.19,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3030,7 +3013,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.294,
+   "sentiment": -0.293,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3039,7 +3022,7 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.015,
+   "sentiment": -0.012,
    "risk": 0.0,
    "events": [
     "market",
