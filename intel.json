@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-18T00:45:26.357345+00:00",
+ "updated_at": "2026-11-18T01:14:55.024214+00:00",
  "market": {
-  "btc_dominance": 58.42,
-  "usdt_dominance": 7.86,
-  "mcap_change_24h": -2.46,
+  "btc_dominance": 58.41,
+  "usdt_dominance": 7.88,
+  "mcap_change_24h": -2.33,
   "trending": [
    "PENGU",
    "BTC",
-   "SOL",
-   "XRP",
-   "PI",
    "QTC",
    "LIT",
-   "EVAA",
-   "XRD",
-   "AVAX"
+   "SOL",
+   "PI",
+   "ONDO",
+   "OP",
+   "XRP",
+   "PEARL"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "CFTC nominee questions public benefit of prediction markets as legal fight grows",
+   "url": "https://www.coindesk.com/policy/2026/11/17/nominee-says-u-s-cftc-must-think-hard-about-public-benefit-of-prediction-markets",
+   "published": "2026-11-18T00:46:25+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N54f052686070",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T01:14:55.024214+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T00:45:26.357345+00:00",
    "notified": false
   },
@@ -123,19 +140,15 @@
   },
   {
    "source": "coindesk",
-   "title": "Nvidia tops estimates, issues strong guidance; shares rise",
+   "title": "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
    "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
    "published": "2026-11-17T21:25:50+00:00",
    "kind": "news",
-   "raw_symbols": [
-    "TRX"
-   ],
-   "symbols": [
-    "TRXUSDT"
-   ],
+   "raw_symbols": [],
+   "symbols": [],
    "id": "Nf4fb60cc3786",
    "kind_fa": "خبر",
-   "importance": 3,
+   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -3196,16 +3209,9 @@
   }
  ],
  "symbols": {
-  "TRXUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-17T21:25:50+00:00"
-  },
   "BTCUSDT": {
    "sentiment": -0.13,
-   "risk": 0.322,
+   "risk": 0.317,
    "events": [
     "etf_flow",
     "macro",
@@ -3226,7 +3232,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.178,
-   "risk": 0.679,
+   "risk": 0.669,
    "events": [
     "project",
     "security",
