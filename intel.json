@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-18T18:58:34.732022+00:00",
+ "updated_at": "2026-11-18T19:28:16.522144+00:00",
  "market": {
-  "btc_dominance": 58.12,
-  "usdt_dominance": 8.02,
-  "mcap_change_24h": -3.21,
+  "btc_dominance": 58.05,
+  "usdt_dominance": 8.06,
+  "mcap_change_24h": -3.59,
   "trending": [
+   "WSTAR",
    "WASTED",
    "LUCIA",
    "TRUMP",
    "PEARL",
-   "PENGU",
    "BTC",
-   "QNT",
-   "HYPE",
    "BP",
-   "VVV"
+   "AERO",
+   "PENGU",
+   "SOL"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T18:58:34.732022+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T18:58:34.732022+00:00",
    "notified": false
   },
@@ -2491,57 +2493,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Solflare CEO says AI security reviews are essential, touts ‘bunker mode’ and MoneyGram deal",
-   "url": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
-   "published": "2026-11-16T18:59:21+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nf8d0d161b4be",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T19:11:03.863036+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
-   "url": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
-   "published": "2026-11-16T18:54:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N60f1cc93369f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T19:11:03.863036+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Winklevoss-backed Cypherpunk buys Zcash dip as mining debut delivers $2.6 million operating profit",
-   "url": "https://www.theblock.co/news/business/2026-11-16-winklevoss-cypherpunk-buys-zcash-dip-mining-debut-delivers-2-6-million-operating-profit-441392",
-   "published": "2026-11-16T18:43:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N1525a2484977",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T19:11:03.863036+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -3144,7 +3095,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.073,
-   "risk": 0.475,
+   "risk": 0.47,
    "events": [
     "macro",
     "etf_flow"
@@ -3153,8 +3104,8 @@
    "last": "2026-11-18T18:27:52+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.01,
-   "risk": 0.3,
+   "sentiment": 0.012,
+   "risk": 0.289,
    "events": [
     "token_burn",
     "project",
@@ -3165,7 +3116,7 @@
    "last": "2026-11-18T17:05:04+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.171,
+   "sentiment": 0.173,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3174,7 +3125,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.034,
+   "sentiment": -0.04,
    "risk": 0.0,
    "events": [
     "market",
