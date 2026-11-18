@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-18T05:10:47.089316+00:00",
+ "updated_at": "2026-11-18T05:40:16.038957+00:00",
  "market": {
-  "btc_dominance": 58.39,
-  "usdt_dominance": 7.91,
-  "mcap_change_24h": -3.46,
+  "btc_dominance": 58.42,
+  "usdt_dominance": 7.87,
+  "mcap_change_24h": -2.98,
   "trending": [
    "BREV",
    "PEARL",
-   "PENGU",
    "BTC",
-   "QTC",
-   "BP",
+   "PENGU",
    "BLESS",
+   "BDX",
+   "EVAA",
    "AKT",
-   "PI",
-   "PEPE"
+   "QTC",
+   "INJ"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
+   "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+   "published": "2026-11-18T05:30:10+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N020a15a1edf2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T05:40:16.038957+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ark Invest buys crypto stocks as it sells $85 million in Nvidia, Coinbase brings onchain loans to New York, and more",
+   "url": "https://www.theblock.co/newsletters/the-daily/2026-11-18-ark-invest-crypto-stocks-nvidia-coinbase-loans-new-york-crypto-news-442902",
+   "published": "2026-11-18T05:01:00+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N44deee5f335f",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T05:40:16.038957+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Notice of Removal of Spot Trading Pairs - 2026-11-20",
@@ -33,6 +69,7 @@
    "importance": 9,
    "sentiment": -0.8,
    "risk": 0.9,
+   "summary_fa": null,
    "first_seen": "2026-11-18T05:10:47.089316+00:00",
    "notified": false
   },
@@ -2601,27 +2638,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
-   "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
-   "published": "2026-11-16T05:01:17+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nec7074e20c51",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.1,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T05:23:02.894520+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -3260,9 +3276,20 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.157,
+   "risk": 0.577,
+   "events": [
+    "project",
+    "security",
+    "etf_flow"
+   ],
+   "count": 12,
+   "last": "2026-11-18T05:30:10+00:00"
+  },
   "BTCUSDT": {
    "sentiment": -0.128,
-   "risk": 0.276,
+   "risk": 0.27,
    "events": [
     "etf_flow",
     "macro",
@@ -3273,7 +3300,7 @@
    "last": "2026-11-18T04:34:21+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.072,
+   "sentiment": 0.07,
    "risk": 0.0,
    "events": [
     "market",
@@ -3290,17 +3317,6 @@
    ],
    "count": 11,
    "last": "2026-11-17T14:45:49+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.179,
-   "risk": 0.587,
-   "events": [
-    "project",
-    "security",
-    "etf_flow"
-   ],
-   "count": 11,
-   "last": "2026-11-17T13:02:56+00:00"
   },
   "NEARUSDT": {
    "sentiment": -0.314,
