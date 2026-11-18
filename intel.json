@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-18T11:34:42.252466+00:00",
+ "updated_at": "2026-11-18T12:04:16.028660+00:00",
  "market": {
-  "btc_dominance": 59.06,
+  "btc_dominance": 59.05,
   "usdt_dominance": 8.02,
-  "mcap_change_24h": -2.3,
+  "mcap_change_24h": -2.27,
   "trending": [
    "PENGU",
-   "MMT",
-   "JCT",
    "BTC",
+   "MMT",
    "BP",
-   "EVAA",
-   "SOL",
+   "JCT",
+   "PIEVERSE",
    "PIPPIN",
-   "LIT",
-   "PONS"
+   "INJ",
+   "TAO",
+   "MON"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
+   "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+   "published": "2026-11-18T11:42:52+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nca872d7b37d4",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T12:04:16.028660+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "TD Cowen tempers ether outlook, maintains Buy rating on Sharplink",
@@ -37,6 +57,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T11:34:42.252466+00:00",
    "notified": false
   },
@@ -3161,9 +3182,20 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.091,
+   "risk": 0.489,
+   "events": [
+    "macro",
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 27,
+   "last": "2026-11-18T11:42:52+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.138,
-   "risk": 0.454,
+   "sentiment": -0.137,
+   "risk": 0.443,
    "events": [
     "project",
     "security",
@@ -3171,17 +3203,6 @@
    ],
    "count": 11,
    "last": "2026-11-18T11:08:27+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.085,
-   "risk": 0.494,
-   "events": [
-    "macro",
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 26,
-   "last": "2026-11-18T10:58:36+00:00"
   },
   "SOLUSDT": {
    "sentiment": 0.016,
@@ -3193,7 +3214,7 @@
    "last": "2026-11-18T08:41:16+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.205,
+   "sentiment": -0.204,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3202,7 +3223,7 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.037,
+   "sentiment": 0.033,
    "risk": 0.0,
    "events": [
     "market",
