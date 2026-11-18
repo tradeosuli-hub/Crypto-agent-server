@@ -1,25 +1,77 @@
 {
- "updated_at": "2026-11-18T12:33:49.761999+00:00",
+ "updated_at": "2026-11-18T13:03:21.599872+00:00",
  "market": {
-  "btc_dominance": 59.07,
-  "usdt_dominance": 8.01,
-  "mcap_change_24h": -3.44,
+  "btc_dominance": 59.03,
+  "usdt_dominance": 8.03,
+  "mcap_change_24h": -3.68,
   "trending": [
-   "BTC",
-   "PENGU",
    "MMT",
-   "ARB",
+   "TRUMP",
    "PEARL",
-   "PIPPIN",
-   "XRP",
-   "MON",
+   "PENGU",
+   "BTC",
+   "HYPE",
+   "PIEVERSE",
    "BP",
-   "HYPE"
+   "ARB",
+   "LIT"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
+   "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
+   "published": "2026-11-18T12:53:34+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N7385bda8fbde",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T13:03:21.599872+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Tokenized Nvidia market cap surges 159% amid Jensen Huang’s exit",
+   "url": "https://cointelegraph.com/news/tokenized-nvidia-cap-rises-158-stock-loses-750b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-18T12:53:12+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nd8a0e243c5ae",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T13:03:21.599872+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
+   "url": "https://www.coindesk.com/markets/2026/11/18/bullish-beats-revenue-estimates-as-institutional-services-offset-sluggish-spot-crypto-volumes",
+   "published": "2026-11-18T12:41:09+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfe9984c7f4e3",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T13:03:21.599872+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Circle turns to DBS as banks build rival digital payment systems across Asia",
@@ -33,6 +85,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T12:33:49.761999+00:00",
    "notified": false
   },
@@ -53,6 +106,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-18T12:33:49.761999+00:00",
    "notified": false
   },
@@ -430,7 +484,7 @@
   },
   {
    "source": "coindesk",
-   "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+   "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months",
    "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
    "published": "2026-11-18T04:34:21+00:00",
    "kind": "news",
@@ -2575,27 +2629,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Solana drops ‘mainnet beta’ label and adopts protocol version 1.0",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885",
-   "published": "2026-11-16T12:30:35+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "SOL"
-   ],
-   "symbols": [
-    "SOLUSDT"
-   ],
-   "id": "Nb2588e346939",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T12:46:34.725510+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Will Support the Microsoft Corporation (MSFT) and Applied Materials, Inc. (AMAT) Cash Dividend Distribution via bStocks",
    "url": "https://www.binance.com/en/support/announcement/d1bc1b9ca8ab4bb9800b205162964aea",
@@ -3180,36 +3213,36 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.082,
-   "risk": 0.483,
+   "sentiment": -0.079,
+   "risk": 0.478,
    "events": [
     "macro",
     "etf_flow",
     "token_burn"
    ],
    "count": 27,
-   "last": "2026-11-18T12:15:00+00:00"
+   "last": "2026-11-18T12:53:34+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.137,
-   "risk": 0.433,
+   "sentiment": -0.14,
+   "risk": 0.423,
    "events": [
     "project",
     "security",
     "etf_flow"
    ],
-   "count": 11,
+   "count": 10,
    "last": "2026-11-18T11:08:27+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.0,
+   "sentiment": 0.011,
    "risk": 0.0,
    "events": [],
-   "count": 10,
+   "count": 9,
    "last": "2026-11-18T08:41:16+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.03,
+   "sentiment": 0.026,
    "risk": 0.0,
    "events": [
     "market",
@@ -3219,7 +3252,7 @@
    "last": "2026-11-18T04:28:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.339,
+   "sentiment": -0.338,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3240,13 +3273,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-17T06:54:49+00:00"
-  },
-  "BNBUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-16T13:00:00+00:00"
   }
  },
  "social": {},
