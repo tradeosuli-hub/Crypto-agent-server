@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-18T10:05:52.477696+00:00",
+ "updated_at": "2026-11-18T10:35:23.041240+00:00",
  "market": {
-  "btc_dominance": 59.1,
-  "usdt_dominance": 7.98,
-  "mcap_change_24h": -2.27,
+  "btc_dominance": 59.08,
+  "usdt_dominance": 8.0,
+  "mcap_change_24h": -2.53,
   "trending": [
    "MMT",
-   "SOL",
    "PENGU",
    "BTC",
-   "PEARL",
+   "SOL",
    "LIT",
-   "HYPE",
+   "PEARL",
+   "PIPPIN",
    "NEAR",
-   "ZEC",
-   "KAS"
+   "KAS",
+   "TIA"
   ],
   "fear_greed": 11,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
+   "url": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-18T10:31:20+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc2af4948e5d8",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-18T10:35:23.041240+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Strategy stock could plunge 76% to $23, chart analyst warns",
@@ -3179,6 +3199,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.098,
+   "risk": 0.219,
+   "events": [
+    "etf_flow",
+    "macro",
+    "token_burn",
+    "market"
+   ],
+   "count": 27,
+   "last": "2026-11-18T10:31:20+00:00"
+  },
   "SOLUSDT": {
    "sentiment": 0.015,
    "risk": 0.0,
@@ -3188,20 +3220,8 @@
    "count": 11,
    "last": "2026-11-18T08:41:16+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.104,
-   "risk": 0.224,
-   "events": [
-    "etf_flow",
-    "macro",
-    "token_burn",
-    "market"
-   ],
-   "count": 26,
-   "last": "2026-11-18T08:09:23+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.208,
+   "sentiment": -0.207,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3210,18 +3230,18 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.158,
-   "risk": 0.485,
+   "sentiment": -0.162,
+   "risk": 0.474,
    "events": [
     "project",
     "security",
     "etf_flow"
    ],
-   "count": 11,
+   "count": 10,
    "last": "2026-11-18T05:30:10+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.046,
+   "sentiment": 0.043,
    "risk": 0.0,
    "events": [
     "market",
