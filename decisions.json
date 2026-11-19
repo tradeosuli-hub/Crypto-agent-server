@@ -2566,7 +2566,7 @@
  {
   "id": "Da47504b701",
   "ts": "2026-11-18T23:54:51.297220+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "SOLUSDT",
   "direction": "long",
   "entry": 74.14671428571428,
@@ -2675,7 +2675,29 @@
    "دیوار solid · واکنش‌های گذشته 2",
    "پارامترها 9/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-11-19T03:45:00+00:00"
+  "entered_at": "2026-11-19T03:45:00+00:00",
+  "outcome": "SL",
+  "exit": 72.20328571428571,
+  "pnl_r": -1.0,
+  "closed_at": "2026-11-19T21:30:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "structure"
+   ],
+   "wrong": [
+    "liquidity",
+    "volume",
+    "news",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: liquidity، volume، news، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، structure"
+  }
  },
  {
   "id": "D3d2323e453",
@@ -2957,7 +2979,7 @@
  {
   "id": "D194907ab0c",
   "ts": "2026-11-19T15:11:58.529878+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "DOGEUSDT",
   "direction": "short",
   "entry": 0.05914685714285714,
@@ -3065,6 +3087,28 @@
    "دیوار solid · واکنش‌های گذشته 19",
    "پارامترها 6/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-11-19T15:15:00+00:00"
+  "entered_at": "2026-11-19T15:15:00+00:00",
+  "outcome": "TP",
+  "exit": 0.057715,
+  "pnl_r": 1.536,
+  "closed_at": "2026-11-19T21:15:00+00:00",
+  "root_cause": {
+   "right": [
+    "structure",
+    "liquidity",
+    "volume",
+    "order_block",
+    "pattern"
+   ],
+   "wrong": [
+    "dominance",
+    "news"
+   ],
+   "silent": [
+    "social",
+    "historical_memory"
+   ],
+   "lesson_fa": "تأییدکننده‌های درست: structure، liquidity، volume، order_block، pattern · مخالفانی که اشتباه کردند: dominance، news"
+  }
  }
 ]
