@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-19T08:16:46.213543+00:00",
+ "updated_at": "2026-11-19T08:46:13.377433+00:00",
  "market": {
-  "btc_dominance": 58.14,
-  "usdt_dominance": 7.95,
-  "mcap_change_24h": -3.93,
+  "btc_dominance": 58.13,
+  "usdt_dominance": 7.96,
+  "mcap_change_24h": -3.96,
   "trending": [
    "PEARL",
-   "BTC",
    "LUNC",
-   "VVV",
+   "BTC",
    "PENGU",
-   "SOL",
+   "VVV",
+   "HYPE",
    "IRYS",
-   "ETH",
-   "XRP",
-   "EVAA"
+   "SOL",
+   "MON",
+   "BP"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
+   "url": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T08:26:19+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1a6cd7c612ad",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T08:46:13.377433+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Singapore’s MAS issues $77 million in tokenized bills settled via CBDC",
+   "url": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562",
+   "published": "2026-11-19T08:25:35+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N467fb5e15e29",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T08:46:13.377433+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "BTCPay Server issues emergency update for 5 security flaws",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T08:16:46.213543+00:00",
    "notified": false
   },
@@ -53,6 +90,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T08:16:46.213543+00:00",
    "notified": false
   },
@@ -3103,18 +3141,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.05,
-   "risk": 0.336,
+   "sentiment": -0.091,
+   "risk": 0.331,
    "events": [
-    "macro",
-    "etf_flow"
+    "etf_flow",
+    "macro"
    ],
-   "count": 28,
-   "last": "2026-11-19T07:55:56+00:00"
+   "count": 29,
+   "last": "2026-11-19T08:26:19+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.32,
-   "risk": 0.945,
+   "sentiment": -0.321,
+   "risk": 0.935,
    "events": [
     "security",
     "token_burn",
@@ -3132,7 +3170,7 @@
    "last": "2026-11-19T03:40:48+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.21,
+   "sentiment": 0.209,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3141,7 +3179,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.298,
+   "sentiment": -0.299,
    "risk": 0.0,
    "events": [
     "etf_flow"
