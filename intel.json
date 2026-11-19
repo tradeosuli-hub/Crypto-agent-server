@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-19T12:42:33.209379+00:00",
+ "updated_at": "2026-11-19T13:12:03.073552+00:00",
  "market": {
-  "btc_dominance": 58.93,
-  "usdt_dominance": 8.05,
-  "mcap_change_24h": -3.14,
+  "btc_dominance": 58.14,
+  "usdt_dominance": 7.93,
+  "mcap_change_24h": -2.74,
   "trending": [
-   "WSTAR",
    "WASTED",
+   "TRUMP",
+   "WSTAR",
    "LUCIA",
    "PEARL",
-   "TRUMP",
    "PENGU",
    "SKY",
    "HYPE",
-   "EVAA",
-   "BTC"
+   "BTC",
+   "EVAA"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Hong Kong adds Hyperliquid to list of ‘suspicious’ crypto platforms",
+   "url": "https://cointelegraph.com/news/hyperliquid-hong-kong-regulators-alert-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T12:44:06+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N9dcc5787a220",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T13:12:03.073552+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
@@ -37,7 +53,28 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T12:42:33.209379+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "GTA VI publisher racks up nearly 3x Nvidia’s tokenized stock volume",
+   "url": "https://cointelegraph.com/news/gta-vi-launch-tokenized-ttwo-trade-triple-nvidia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T12:33:46+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "NEAR"
+   ],
+   "symbols": [
+    "NEARUSDT"
+   ],
+   "id": "N0d7e04752e16",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T13:12:03.073552+00:00",
    "notified": false
   },
   {
@@ -57,6 +94,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T12:42:33.209379+00:00",
    "notified": false
   },
@@ -2422,23 +2460,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Revolut plans four blockchain-based funds for private markets, chair says",
-   "url": "https://cointelegraph.com/news/revolut-four-blockchain-funds-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T12:24:20+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nc432808565a2",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T12:55:51.548350+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/3d3ab9f06baf40b993c45a115dcf576e",
@@ -3058,7 +3079,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.052,
-   "risk": 0.494,
+   "risk": 0.489,
    "events": [
     "etf_flow",
     "macro",
@@ -3068,14 +3089,14 @@
    "last": "2026-11-19T12:40:12+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.058,
+   "sentiment": -0.033,
    "risk": 0.0,
    "events": [],
-   "count": 2,
-   "last": "2026-11-19T10:48:26+00:00"
+   "count": 3,
+   "last": "2026-11-19T12:33:46+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.059,
+   "sentiment": -0.058,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -3095,14 +3116,13 @@
    "last": "2026-11-19T10:22:12+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.328,
-   "risk": 0.853,
+   "sentiment": -0.36,
+   "risk": 0.843,
    "events": [
     "security",
-    "token_burn",
-    "project"
+    "token_burn"
    ],
-   "count": 7,
+   "count": 6,
    "last": "2026-11-19T05:39:06+00:00"
   },
   "BNBUSDT": {
