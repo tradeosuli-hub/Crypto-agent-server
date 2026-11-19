@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-19T06:48:20.249298+00:00",
+ "updated_at": "2026-11-19T07:17:49.937810+00:00",
  "market": {
-  "btc_dominance": 58.08,
-  "usdt_dominance": 7.96,
-  "mcap_change_24h": -3.75,
+  "btc_dominance": 58.12,
+  "usdt_dominance": 7.95,
+  "mcap_change_24h": -3.48,
   "trending": [
    "PEARL",
-   "BTC",
-   "IRYS",
    "PENGU",
-   "SOL",
-   "ETH",
-   "NEAR",
+   "BTC",
    "LUNC",
-   "STONK",
-   "PONS"
+   "SOL",
+   "IRYS",
+   "VVV",
+   "KNTQ",
+   "XRP",
+   "HYPE"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-11-19T06:48:20.249298+00:00",
    "notified": false
   },
@@ -2524,61 +2525,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market",
-   "url": "https://www.coindesk.com/tech/2026/11/17/cardano-foundation-seeks-usd5-million-from-treasury-using-ada-price-33-above-market",
-   "published": "2026-11-17T06:54:49+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ADA"
-   ],
-   "symbols": [
-    "ADAUSDT"
-   ],
-   "id": "N7dbbc41db2fb",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T07:00:37.919715+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme",
-   "url": "https://cointelegraph.com/news/ex-robinhood-engineer-pleads-guilty-125k-crypto-trading-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T06:35:19+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfa585239ad75",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T07:00:37.919715+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Cathie Wood’s Ark Invest loads up on crypto stocks while selling $85 million in Nvidia",
-   "url": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
-   "published": "2026-11-17T06:35:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nba4a716fd58a",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T07:00:37.919715+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/77a8571f886c4f1ea665420330b96f58",
@@ -3163,8 +3109,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.052,
-   "risk": 0.352,
+   "sentiment": -0.053,
+   "risk": 0.347,
    "events": [
     "macro",
     "etf_flow"
@@ -3173,8 +3119,8 @@
    "last": "2026-11-19T06:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.317,
-   "risk": 0.976,
+   "sentiment": -0.318,
+   "risk": 0.966,
    "events": [
     "security",
     "token_burn",
@@ -3201,7 +3147,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.295,
+   "sentiment": -0.296,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3224,13 +3170,6 @@
    "events": [],
    "count": 1,
    "last": "2026-11-17T10:20:37+00:00"
-  },
-  "ADAUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-17T06:54:49+00:00"
   }
  },
  "social": {},
