@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-19T05:19:38.014623+00:00",
+ "updated_at": "2026-11-19T05:49:12.900163+00:00",
  "market": {
-  "btc_dominance": 58.13,
-  "usdt_dominance": 7.97,
-  "mcap_change_24h": -3.5,
+  "btc_dominance": 58.06,
+  "usdt_dominance": 7.99,
+  "mcap_change_24h": -3.72,
   "trending": [
-   "PENGU",
-   "BTC",
    "PEARL",
+   "BTC",
+   "PENGU",
    "IRYS",
    "KNTQ",
-   "VVV",
    "LIT",
+   "VVV",
    "HYPE",
-   "MON",
-   "JCT"
+   "SUI",
+   "CORE"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
+   "url": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
+   "published": "2026-11-19T05:39:06+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "Ne8ce5b6ae0a6",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-19T05:49:12.900163+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight",
+   "url": "https://cointelegraph.com/news/us-senators-genius-act-rules-favor-federal-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T05:27:45+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N966bd84ba9ce",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T05:49:12.900163+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
@@ -33,6 +69,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T05:19:38.014623+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T05:19:38.014623+00:00",
    "notified": false
   },
@@ -262,23 +300,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-18T22:25:42.535515+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-18T22:09:15+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-16T06:22:13.704211+00:00",
    "notified": false
   },
   {
@@ -3085,14 +3106,26 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.315,
+   "risk": 0.996,
+   "events": [
+    "security",
+    "token_burn",
+    "project",
+    "etf_flow"
+   ],
+   "count": 11,
+   "last": "2026-11-19T05:39:06+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.06,
-   "risk": 0.367,
+   "sentiment": -0.062,
+   "risk": 0.362,
    "events": [
     "macro",
     "etf_flow"
    ],
-   "count": 27,
+   "count": 26,
    "last": "2026-11-19T04:46:10+00:00"
   },
   "BNBUSDT": {
@@ -3102,29 +3135,17 @@
    "count": 1,
    "last": "2026-11-19T03:40:48+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": 0.017,
-   "risk": 0.2,
-   "events": [
-    "token_burn",
-    "project",
-    "security",
-    "etf_flow"
-   ],
-   "count": 10,
-   "last": "2026-11-18T21:57:35+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.198,
+   "sentiment": 0.214,
    "risk": 0.0,
    "events": [
     "token_burn"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.292,
+   "sentiment": -0.293,
    "risk": 0.0,
    "events": [
     "etf_flow"
