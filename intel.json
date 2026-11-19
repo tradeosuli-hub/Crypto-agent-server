@@ -1,25 +1,64 @@
 {
- "updated_at": "2026-11-19T13:42:06.733767+00:00",
+ "updated_at": "2026-11-19T14:11:36.626858+00:00",
  "market": {
-  "btc_dominance": 58.12,
-  "usdt_dominance": 7.94,
-  "mcap_change_24h": -2.8,
+  "btc_dominance": 58.18,
+  "usdt_dominance": 7.92,
+  "mcap_change_24h": -2.39,
   "trending": [
-   "WASTED",
    "TRUMP",
-   "LUCIA",
+   "WASTED",
    "WSTAR",
+   "LUCIA",
    "PEARL",
    "SKY",
    "PENGU",
-   "BTC",
    "PEPE",
-   "HYPE"
+   "BTC",
+   "LIT"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Bitcoin finance protocol Hashi goes live on Sui mainnet",
+   "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
+   "published": "2026-11-19T14:00:00+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "BTC",
+    "SUI"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "SUIUSDT"
+   ],
+   "id": "N6621a3441826",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T14:11:36.626858+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T13:48:14+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-11-19T06:18:46.519928+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Ethereum’s new DeFi security tool raises questions over censorship",
@@ -37,6 +76,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T13:42:06.733767+00:00",
    "notified": false
   },
@@ -486,23 +526,6 @@
    "id": "N9459c6cf5f83",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T06:18:46.519928+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-19T06:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2389,27 +2412,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin to $1M by 2030? ‘Almost certainly not,’ says Dragonfly’s Qureshi",
-   "url": "https://cointelegraph.com/magazine/bitcoin-to-1m-by-2030-almost-certainly-not-says-dragonflys-qureshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T13:30:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Na6a2578df4b4",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T13:55:07.347044+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/3d3ab9f06baf40b993c45a115dcf576e",
@@ -3027,26 +3029,36 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.037,
+   "risk": 0.479,
+   "events": [
+    "project",
+    "etf_flow",
+    "macro",
+    "token_burn"
+   ],
+   "count": 28,
+   "last": "2026-11-19T14:00:00+00:00"
+  },
+  "SUIUSDT": {
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "events": [
+    "project"
+   ],
+   "count": 1,
+   "last": "2026-11-19T14:00:00+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.309,
-   "risk": 0.832,
+   "sentiment": -0.31,
+   "risk": 0.822,
    "events": [
     "security",
     "token_burn"
    ],
    "count": 7,
    "last": "2026-11-19T13:30:00+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.053,
-   "risk": 0.484,
-   "events": [
-    "etf_flow",
-    "macro",
-    "token_burn"
-   ],
-   "count": 28,
-   "last": "2026-11-19T12:40:12+00:00"
   },
   "NEARUSDT": {
    "sentiment": -0.032,
@@ -3056,7 +3068,7 @@
    "last": "2026-11-19T12:33:46+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.057,
+   "sentiment": -0.056,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -3066,7 +3078,7 @@
    "last": "2026-11-19T10:22:12+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.101,
+   "sentiment": 0.1,
    "risk": 0.0,
    "events": [
     "etf_flow",
