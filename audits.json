@@ -80,5 +80,121 @@
     }
    }
   }
+ },
+ {
+  "ts": "2026-11-19T12:15:43.075994+00:00",
+  "level": 10,
+  "closed_total": 20,
+  "window": 10,
+  "tp": 4,
+  "sl": 6,
+  "win_rate": 0.4,
+  "sum_r": -0.314,
+  "accuracy_snapshot": {
+   "dominance": {
+    "neutral/up": {
+     "acc": 0.739,
+     "n": 4
+    },
+    "neutral/down": {
+     "acc": 0.5257,
+     "n": 12
+    },
+    "risk_on/up": {
+     "acc": 0.3612,
+     "n": 2
+    }
+   },
+   "structure": {
+    "neutral/up": {
+     "acc": 0.261,
+     "n": 4
+    },
+    "neutral/down": {
+     "acc": 0.4742,
+     "n": 12
+    },
+    "risk_on/up": {
+     "acc": 0.3612,
+     "n": 2
+    }
+   },
+   "liquidity": {
+    "neutral/up": {
+     "acc": 0.261,
+     "n": 4
+    },
+    "neutral/down": {
+     "acc": 0.4742,
+     "n": 12
+    },
+    "risk_on/up": {
+     "acc": 0.3612,
+     "n": 2
+    }
+   },
+   "volume": {
+    "neutral/up": {
+     "acc": 0.3693,
+     "n": 4
+    },
+    "neutral/down": {
+     "acc": 0.4205,
+     "n": 12
+    },
+    "risk_on/up": {
+     "acc": 0.5112,
+     "n": 2
+    }
+   },
+   "news": {
+    "neutral/up": {
+     "acc": 0.6468,
+     "n": 4
+    },
+    "neutral/down": {
+     "acc": 0.5132,
+     "n": 11
+    },
+    "risk_on/up": {
+     "acc": 0.6387,
+     "n": 2
+    }
+   },
+   "order_block": {
+    "neutral/up": {
+     "acc": 0.261,
+     "n": 4
+    },
+    "neutral/down": {
+     "acc": 0.4742,
+     "n": 12
+    },
+    "risk_on/up": {
+     "acc": 0.4887,
+     "n": 2
+    }
+   },
+   "pattern": {
+    "neutral/up": {
+     "acc": 0.261,
+     "n": 4
+    },
+    "neutral/down": {
+     "acc": 0.4742,
+     "n": 12
+    },
+    "risk_on/up": {
+     "acc": 0.3612,
+     "n": 2
+    }
+   },
+   "historical_memory": {
+    "neutral/down": {
+     "acc": 0.5193,
+     "n": 4
+    }
+   }
+  }
  }
 ]
