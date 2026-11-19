@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-19T09:45:22.181157+00:00",
+ "updated_at": "2026-11-19T10:14:54.745383+00:00",
  "market": {
   "btc_dominance": 58.89,
   "usdt_dominance": 8.04,
-  "mcap_change_24h": -3.49,
+  "mcap_change_24h": -3.52,
   "trending": [
    "PEARL",
    "BTC",
-   "IRYS",
    "PENGU",
-   "LUNC",
    "SOL",
-   "ETH",
-   "HYPE",
-   "SKY",
-   "DRV"
+   "IRYS",
+   "WASTED",
+   "LUNC",
+   "TAO",
+   "STRK",
+   "PI"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -2513,27 +2513,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "US judge clears brothers in $25M Ethereum MEV case after mistrial",
-   "url": "https://cointelegraph.com/news/us-judge-acquits-brothers-25m-ethereum-mev-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T09:30:05+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N35de3005531e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T09:58:28.513556+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/77a8571f886c4f1ea665420330b96f58",
@@ -3119,7 +3098,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.092,
-   "risk": 0.321,
+   "risk": 0.316,
    "events": [
     "etf_flow",
     "macro"
@@ -3128,8 +3107,8 @@
    "last": "2026-11-19T08:26:19+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.312,
-   "risk": 0.914,
+   "sentiment": -0.313,
+   "risk": 0.904,
    "events": [
     "security",
     "token_burn",
@@ -3146,7 +3125,7 @@
    "last": "2026-11-19T03:40:48+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.208,
+   "sentiment": 0.207,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3155,7 +3134,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.302,
+   "sentiment": -0.303,
    "risk": 0.0,
    "events": [
     "etf_flow"
