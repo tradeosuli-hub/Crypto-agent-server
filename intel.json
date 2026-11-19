@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-19T02:51:45.928264+00:00",
+ "updated_at": "2026-11-19T03:21:26.619745+00:00",
  "market": {
-  "btc_dominance": 58.0,
-  "usdt_dominance": 8.07,
-  "mcap_change_24h": -4.58,
+  "btc_dominance": 57.99,
+  "usdt_dominance": 8.09,
+  "mcap_change_24h": -4.82,
   "trending": [
+   "KNTQ",
    "PEARL",
-   "LINK",
-   "BP",
-   "CC",
-   "PENGU",
-   "LIT",
    "BTC",
+   "LIT",
+   "PENGU",
    "ETH",
+   "LINK",
    "HYPE",
-   "NEAR"
+   "KAS",
+   "LUNC"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Kraken parent Payward to acquire Tribe Capital to expand private-market offerings",
+   "url": "https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522",
+   "published": "2026-11-19T03:18:53+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N24f0ef4d3ad1",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T03:21:26.619745+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Standard Chartered, StraitsX, OCBC complete trial of tokenized deposit interoperability",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T02:51:45.928264+00:00",
    "notified": false
   },
@@ -3032,7 +3049,7 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": 0.023,
+   "sentiment": 0.022,
    "risk": 0.2,
    "events": [
     "token_burn",
@@ -3045,7 +3062,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.062,
-   "risk": 0.393,
+   "risk": 0.388,
    "events": [
     "macro",
     "etf_flow"
@@ -3054,7 +3071,7 @@
    "last": "2026-11-18T18:27:52+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.196,
+   "sentiment": 0.197,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3063,7 +3080,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.288,
+   "sentiment": -0.289,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3072,7 +3089,7 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.01,
+   "sentiment": 0.014,
    "risk": 0.0,
    "events": [
     "market",
