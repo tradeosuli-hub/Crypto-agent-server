@@ -1,25 +1,95 @@
 {
- "updated_at": "2026-11-19T10:14:54.745383+00:00",
+ "updated_at": "2026-11-19T10:44:30.271132+00:00",
  "market": {
-  "btc_dominance": 58.89,
+  "btc_dominance": 58.91,
   "usdt_dominance": 8.04,
   "mcap_change_24h": -3.52,
   "trending": [
+   "WASTED",
    "PEARL",
    "BTC",
    "PENGU",
    "SOL",
-   "IRYS",
-   "WASTED",
    "LUNC",
    "TAO",
-   "STRK",
-   "PI"
+   "VVV",
+   "IRYS",
+   "SUI"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Singapore settles $77.5 million tokenized bill sale in local CBDC",
+   "url": "https://www.coindesk.com/business/2026/11/19/singapore-settles-usd77-5-million-tokenized-bill-sale-in-local-cbdc",
+   "published": "2026-11-19T10:39:36+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N333c63914464",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T10:44:30.271132+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ant International launches protocol for real-time settlement between tokenized deposits and money market funds",
+   "url": "https://www.theblock.co/news/business/2026-11-19-ant-international-protocol-tokenized-assets-443586",
+   "published": "2026-11-19T10:39:29+00:00",
+   "kind": "listing",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ndb14668ccad5",
+   "kind_fa": "لیستینگ",
+   "importance": 6,
+   "sentiment": 0.6,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T10:44:30.271132+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
+   "url": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T10:32:05+00:00",
+   "kind": "project",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5f8a0d0c6536",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 4,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T10:44:30.271132+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
+   "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
+   "published": "2026-11-19T10:22:12+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "XRP",
+    "SOL"
+   ],
+   "symbols": [
+    "XRPUSDT",
+    "SOLUSDT"
+   ],
+   "id": "N8e56cb037955",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T10:44:30.271132+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Singapore settles $77.5M tokenized bill sale with wholesale CBDC",
@@ -2405,63 +2475,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
-   "url": "https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger",
-   "published": "2026-11-17T10:22:18+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7abecec3449e",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T10:27:57.651863+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Tether Capital invests $15 million in Nomad, eyes wider access to USDT and XAUT in Brazil",
-   "url": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
-   "published": "2026-11-17T10:20:37+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "XAUT",
-    "ETH"
-   ],
-   "symbols": [
-    "XAUTUSDT",
-    "ETHUSDT"
-   ],
-   "id": "N76e329de0314",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T10:27:57.651863+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Nvidia faces first earnings test without Jensen Huang as AI stocks slide",
-   "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-faces-first-earnings-test-without-jensen-huang-as-ai-stocks-slide",
-   "published": "2026-11-17T10:17:01+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N785251690dff",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T10:27:57.651863+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/3d3ab9f06baf40b993c45a115dcf576e",
@@ -2474,23 +2487,6 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T10:27:57.651863+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Google says hackers use AI agents to find and exploit software flaws",
-   "url": "https://cointelegraph.com/news/google-ai-agents-automated-cyberattacks-software-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T10:05:59+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2b827bd4ca57",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
    "summary_fa": null,
    "first_seen": "2026-11-17T10:27:57.651863+00:00",
    "notified": false
@@ -3096,25 +3092,45 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": -0.063,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "market"
+   ],
+   "count": 2,
+   "last": "2026-11-19T10:22:12+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": 0.1,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 6,
+   "last": "2026-11-19T10:22:12+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.092,
-   "risk": 0.316,
+   "sentiment": -0.094,
+   "risk": 0.311,
    "events": [
     "etf_flow",
     "macro"
    ],
-   "count": 29,
+   "count": 28,
    "last": "2026-11-19T08:26:19+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.313,
-   "risk": 0.904,
+   "sentiment": -0.323,
+   "risk": 0.894,
    "events": [
     "security",
     "token_burn",
     "project"
    ],
-   "count": 8,
+   "count": 7,
    "last": "2026-11-19T05:39:06+00:00"
   },
   "BNBUSDT": {
@@ -3124,39 +3140,14 @@
    "count": 1,
    "last": "2026-11-19T03:40:48+00:00"
   },
-  "SOLUSDT": {
-   "sentiment": 0.207,
-   "risk": 0.0,
-   "events": [
-    "token_burn"
-   ],
-   "count": 5,
-   "last": "2026-11-18T13:42:37+00:00"
-  },
   "NEARUSDT": {
-   "sentiment": -0.303,
+   "sentiment": -0.304,
    "risk": 0.0,
    "events": [
     "etf_flow"
    ],
    "count": 2,
    "last": "2026-11-18T07:27:48+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "events": [
-    "market"
-   ],
-   "count": 1,
-   "last": "2026-11-18T04:28:37+00:00"
-  },
-  "XAUTUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-17T10:20:37+00:00"
   }
  },
  "social": {},
