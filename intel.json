@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-19T12:13:00.585372+00:00",
+ "updated_at": "2026-11-19T12:42:33.209379+00:00",
  "market": {
-  "btc_dominance": 58.87,
-  "usdt_dominance": 8.04,
-  "mcap_change_24h": -3.05,
+  "btc_dominance": 58.93,
+  "usdt_dominance": 8.05,
+  "mcap_change_24h": -3.14,
   "trending": [
    "WSTAR",
    "WASTED",
    "LUCIA",
    "PEARL",
+   "TRUMP",
    "PENGU",
-   "BTC",
+   "SKY",
    "HYPE",
-   "LUNC",
-   "ZEC",
-   "EVAA"
+   "EVAA",
+   "BTC"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+   "url": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
+   "published": "2026-11-19T12:40:12+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N84b76442fef5",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T12:42:33.209379+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+   "published": "2026-11-19T12:20:39+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N1eb4dc18b52a",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T12:42:33.209379+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
@@ -37,6 +77,7 @@
    "importance": 8,
    "sentiment": 0.0,
    "risk": 0.5,
+   "summary_fa": null,
    "first_seen": "2026-11-19T12:13:00.585372+00:00",
    "notified": false
   },
@@ -53,6 +94,7 @@
    "importance": 6,
    "sentiment": 0.6,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T12:13:00.585372+00:00",
    "notified": false
   },
@@ -130,7 +172,7 @@
   },
   {
    "source": "coindesk",
-   "title": "‘Highly advanced’ quantum computers could crack financial encryption in five years",
+   "title": "Financial firms must act now as quantum computers grow ‘highly advanced,’ IOSCO warns",
    "url": "https://www.coindesk.com/tech/2026/11/19/banks-and-blockchains-lag-on-quantum-defense-as-encryption-risks-loom-watchdog-warns",
    "published": "2026-11-19T10:55:29+00:00",
    "kind": "news",
@@ -2397,61 +2439,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
-   "published": "2026-11-17T12:16:53+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N94d9edb0aed1",
-   "kind_fa": "جریان ETF",
-   "importance": 6,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T12:26:11.510357+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
-   "url": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
-   "published": "2026-11-17T12:00:55+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ncf18150afd5e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T12:26:11.510357+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Lighter reopens withdrawals after trader’s API key leak, returns about $5 million in USDC",
-   "url": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113",
-   "published": "2026-11-17T12:00:41+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne192c503efb1",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T12:26:11.510357+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/3d3ab9f06baf40b993c45a115dcf576e",
@@ -3070,15 +3057,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.018,
-   "risk": 0.499,
+   "sentiment": -0.052,
+   "risk": 0.494,
    "events": [
+    "etf_flow",
     "macro",
-    "token_burn",
-    "etf_flow"
+    "token_burn"
    ],
-   "count": 27,
-   "last": "2026-11-19T12:08:06+00:00"
+   "count": 29,
+   "last": "2026-11-19T12:40:12+00:00"
   },
   "NEARUSDT": {
    "sentiment": -0.058,
@@ -3088,7 +3075,7 @@
    "last": "2026-11-19T10:48:26+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.06,
+   "sentiment": -0.059,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -3098,7 +3085,7 @@
    "last": "2026-11-19T10:22:12+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.103,
+   "sentiment": 0.102,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -3108,8 +3095,8 @@
    "last": "2026-11-19T10:22:12+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.327,
-   "risk": 0.863,
+   "sentiment": -0.328,
+   "risk": 0.853,
    "events": [
     "security",
     "token_burn",
