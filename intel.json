@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-19T18:37:49.409977+00:00",
+ "updated_at": "2026-11-19T19:07:13.347656+00:00",
  "market": {
-  "btc_dominance": 58.11,
-  "usdt_dominance": 8.0,
-  "mcap_change_24h": -2.46,
+  "btc_dominance": 58.03,
+  "usdt_dominance": 8.05,
+  "mcap_change_24h": -3.14,
   "trending": [
    "WASTED",
-   "LUCIA",
    "TRUMP",
+   "LUCIA",
    "PEARL",
    "SKY",
    "BTC",
-   "HYPE",
    "PENGU",
-   "LIT",
-   "USDS"
+   "HYPE",
+   "USDS",
+   "EVAA"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Ripple’s Alderoty doubts Elizabeth Warren will ‘set crypto policy in this country,’ backs durable agency rules",
+   "url": "https://www.theblock.co/news/regulation/2026-11-19-ripple-alderoty-elizabeth-warren-wont-set-crypto-policy-backs-durable-agency-rules-444105",
+   "published": "2026-11-19T18:47:30+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "Nbfcbe20eb1ee",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T19:07:13.347656+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
@@ -37,6 +57,7 @@
    "importance": 5,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T18:37:49.409977+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-19T18:37:49.409977+00:00",
    "notified": false
   },
@@ -73,6 +95,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T18:37:49.409977+00:00",
    "notified": false
   },
@@ -93,6 +116,7 @@
    "importance": 3,
    "sentiment": -0.3,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T18:37:49.409977+00:00",
    "notified": false
   },
@@ -2950,9 +2974,19 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": -0.031,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "market"
+   ],
+   "count": 3,
+   "last": "2026-11-19T18:47:30+00:00"
+  },
   "ETHUSDT": {
-   "sentiment": -0.208,
-   "risk": 0.73,
+   "sentiment": -0.209,
+   "risk": 0.719,
    "events": [
     "project",
     "security",
@@ -2963,7 +2997,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.053,
-   "risk": 0.432,
+   "risk": 0.427,
    "events": [
     "project",
     "etf_flow",
@@ -2983,7 +3017,7 @@
    "last": "2026-11-19T14:00:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.047,
+   "sentiment": -0.046,
    "risk": 0.0,
    "events": [],
    "count": 2,
@@ -2996,18 +3030,8 @@
    "count": 1,
    "last": "2026-11-19T10:48:26+00:00"
   },
-  "XRPUSDT": {
-   "sentiment": -0.045,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "market"
-   ],
-   "count": 2,
-   "last": "2026-11-19T10:22:12+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.105,
+   "sentiment": 0.104,
    "risk": 0.0,
    "events": [
     "etf_flow",
