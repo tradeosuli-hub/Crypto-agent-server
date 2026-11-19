@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-19T11:13:59.230438+00:00",
+ "updated_at": "2026-11-19T11:43:29.113875+00:00",
  "market": {
-  "btc_dominance": 58.87,
-  "usdt_dominance": 8.05,
-  "mcap_change_24h": -3.34,
+  "btc_dominance": 58.9,
+  "usdt_dominance": 8.03,
+  "mcap_change_24h": -3.04,
   "trending": [
    "WASTED",
    "LUCIA",
    "PEARL",
    "BTC",
-   "VVV",
-   "IRYS",
    "PENGU",
+   "LUNC",
    "HYPE",
+   "IRYS",
    "SOL",
-   "SUI"
+   "ZEC"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -22,7 +22,43 @@
  "items": [
   {
    "source": "coindesk",
-   "title": "Anthropic’s $107 billion raise set to surpass Spacex’s IPO haul",
+   "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
+   "url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+   "published": "2026-11-19T11:30:00+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6cfb38a35e7b",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-19T11:43:29.113875+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
+   "url": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T11:19:58+00:00",
+   "kind": "token_burn",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N06e6f2311967",
+   "kind_fa": "سوزاندن توکن",
+   "importance": 6,
+   "sentiment": 0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T11:43:29.113875+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Anthropic’s $107 billion sale set to top SpaceX’s IPO as tokenized stocks gain traction",
    "url": "https://www.coindesk.com/markets/2026/11/19/anthropic-s-usd107-billion-raise-set-to-surpass-spacex-s-ipo-haul",
    "published": "2026-11-19T11:06:13+00:00",
    "kind": "news",
@@ -33,6 +69,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T11:13:59.230438+00:00",
    "notified": false
   },
@@ -49,6 +86,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T11:13:59.230438+00:00",
    "notified": false
   },
@@ -65,6 +103,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T11:13:59.230438+00:00",
    "notified": false
   },
@@ -87,6 +126,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T11:13:59.230438+00:00",
    "notified": false
   },
@@ -2435,65 +2475,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "New DeFi-yield generation targets ‘scam-like’ bank accounts that keep all the interest",
-   "url": "https://www.coindesk.com/business/2026/11/16/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
-   "published": "2026-11-17T11:25:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N8c44755f843f",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T11:27:02.165152+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
-   "url": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T11:18:18+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N4136aae98ace",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T11:27:02.165152+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
-   "url": "https://cointelegraph.com/markets/bitcoin-realized-loss-metric-beats-june-high-open-interest-eyes-2-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T11:14:05+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nf16d89a680dd",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T11:27:02.165152+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/3d3ab9f06baf40b993c45a115dcf576e",
@@ -3112,26 +3093,25 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.089,
-   "risk": 0.306,
+   "sentiment": -0.024,
+   "risk": 0.3,
    "events": [
+    "token_burn",
     "etf_flow",
     "macro"
    ],
-   "count": 29,
-   "last": "2026-11-19T10:48:26+00:00"
+   "count": 27,
+   "last": "2026-11-19T11:19:58+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.144,
+   "sentiment": -0.059,
    "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
+   "events": [],
+   "count": 2,
    "last": "2026-11-19T10:48:26+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.062,
+   "sentiment": -0.061,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -3141,18 +3121,18 @@
    "last": "2026-11-19T10:22:12+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.099,
+   "sentiment": 0.103,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "token_burn"
    ],
-   "count": 6,
+   "count": 5,
    "last": "2026-11-19T10:22:12+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.324,
-   "risk": 0.884,
+   "sentiment": -0.326,
+   "risk": 0.873,
    "events": [
     "security",
     "token_burn",
