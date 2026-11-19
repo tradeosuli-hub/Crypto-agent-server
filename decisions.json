@@ -2930,5 +2930,117 @@
    "دیوار solid · واکنش‌های گذشته 13",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ]
+ },
+ {
+  "id": "D194907ab0c",
+  "ts": "2026-11-19T15:11:58.529878+00:00",
+  "status": "open",
+  "symbol": "DOGEUSDT",
+  "direction": "short",
+  "entry": 0.05914685714285714,
+  "stop": 0.06007905619387762,
+  "targets": [
+   0.057715,
+   0.0574,
+   0.058337705612089535
+  ],
+  "rr1": 1.536,
+  "leverage": 1.0,
+  "regime": "neutral/down",
+  "wall_verdict": "solid",
+  "confidence": 0.2309,
+  "consensus_strength": 0.3809,
+  "weights": {
+   "dominance": 0.231637,
+   "structure": 0.220007,
+   "liquidity": 0.165005,
+   "volume": 0.10394,
+   "news": 0.114407,
+   "order_block": 0.110003,
+   "pattern": 0.055002
+  },
+  "votes": {
+   "dominance": {
+    "direction": "flat",
+    "strength": 0.3,
+    "silent": false,
+    "flags": [],
+    "note_fa": "خنثی"
+   },
+   "structure": {
+    "direction": "short",
+    "strength": 0.3,
+    "silent": false,
+    "flags": [],
+    "note_fa": "H4 اصلی · H1 تأیید · M15 ورود — short"
+   },
+   "liquidity": {
+    "direction": "short",
+    "strength": 1.0,
+    "silent": false,
+    "flags": [
+     "sweep_rejection"
+    ],
+    "note_fa": "شدوی پس‌زننده = برداشت نقدینگی + ریجکت"
+   },
+   "volume": {
+    "direction": "short",
+    "strength": 0.5,
+    "silent": false,
+    "flags": [],
+    "note_fa": "حجم (z=0.71)"
+   },
+   "news": {
+    "direction": "long",
+    "strength": 0.25,
+    "silent": false,
+    "flags": [],
+    "note_fa": "ترس شدید (10) — contrarian ملایم"
+   },
+   "order_block": {
+    "direction": "short",
+    "strength": 0.9,
+    "silent": false,
+    "flags": [
+     "wall_solid"
+    ],
+    "note_fa": "دیوار solid · 19 واکنش"
+   },
+   "pattern": {
+    "direction": "short",
+    "strength": 0.5,
+    "silent": false,
+    "flags": [
+     "history_rsi_div",
+     "ob_channel_align"
+    ],
+    "note_fa": "2 الگوی هم‌جهت"
+   },
+   "social": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "سوشال بی‌داده (Grok وصل نیست یا این ارز پوشش ندارد)"
+   },
+   "historical_memory": {
+    "direction": "flat",
+    "strength": 0.0,
+    "silent": true,
+    "flags": [],
+    "note_fa": "تجربهٔ کافی نیست (2/3)"
+   }
+  },
+  "objections": [
+   {
+    "fa": "ورود خلاف H4 خارج از لبهٔ کانال",
+    "penalty": 0.15
+   }
+  ],
+  "why_fa": [
+   "ماشهٔ شدوی پس‌زننده (short) · نفوذ 0.70 · نسبت شدو 4.33",
+   "دیوار solid · واکنش‌های گذشته 19",
+   "پارامترها 6/10 (قابل‌بررسی 8)"
+  ]
  }
 ]
