@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-19T08:46:13.377433+00:00",
+ "updated_at": "2026-11-19T09:15:50.340319+00:00",
  "market": {
-  "btc_dominance": 58.13,
-  "usdt_dominance": 7.96,
-  "mcap_change_24h": -3.96,
+  "btc_dominance": 58.15,
+  "usdt_dominance": 7.94,
+  "mcap_change_24h": -2.36,
   "trending": [
-   "PEARL",
-   "LUNC",
    "BTC",
-   "PENGU",
-   "VVV",
-   "HYPE",
+   "LUNC",
+   "PEARL",
    "IRYS",
-   "SOL",
-   "MON",
-   "BP"
+   "HYPE",
+   "PENGU",
+   "LIT",
+   "VVV",
+   "NEAR",
+   "SKY"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Singapore settles $77.5M tokenized bill sale with wholesale CBDC",
+   "url": "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T08:54:58+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nfa7b17ee6ec0",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T09:15:50.340319+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
@@ -37,6 +53,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T08:46:13.377433+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T08:46:13.377433+00:00",
    "notified": false
   },
@@ -3142,7 +3160,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.091,
-   "risk": 0.331,
+   "risk": 0.326,
    "events": [
     "etf_flow",
     "macro"
@@ -3151,15 +3169,14 @@
    "last": "2026-11-19T08:26:19+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.321,
-   "risk": 0.935,
+   "sentiment": -0.352,
+   "risk": 0.925,
    "events": [
     "security",
     "token_burn",
-    "project",
-    "etf_flow"
+    "project"
    ],
-   "count": 11,
+   "count": 10,
    "last": "2026-11-19T05:39:06+00:00"
   },
   "BNBUSDT": {
@@ -3179,7 +3196,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.299,
+   "sentiment": -0.3,
    "risk": 0.0,
    "events": [
     "etf_flow"
