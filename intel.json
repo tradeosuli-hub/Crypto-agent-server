@@ -1,25 +1,57 @@
 {
- "updated_at": "2026-11-19T04:50:05.709474+00:00",
+ "updated_at": "2026-11-19T05:19:38.014623+00:00",
  "market": {
-  "btc_dominance": 58.11,
+  "btc_dominance": 58.13,
   "usdt_dominance": 7.97,
-  "mcap_change_24h": -3.59,
+  "mcap_change_24h": -3.5,
   "trending": [
-   "PEARL",
    "PENGU",
-   "KNTQ",
    "BTC",
+   "PEARL",
    "IRYS",
-   "XRP",
+   "KNTQ",
+   "VVV",
+   "LIT",
    "HYPE",
-   "ENA",
-   "SUI",
-   "JTO"
+   "MON",
+   "JCT"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
+   "url": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T05:09:45+00:00",
+   "kind": "security",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na1e9abc9063c",
+   "kind_fa": "هک / امنیت",
+   "importance": 9,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-19T05:19:38.014623+00:00",
+   "notified": false
+  },
+  {
+   "source": "binance",
+   "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-20)",
+   "url": "https://www.binance.com/en/support/announcement/0d3b1632cf474b61afa7c04956005887",
+   "published": "2026-11-19T05:00:01.906000+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nde968b929918",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T05:19:38.014623+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
@@ -37,6 +69,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T04:50:05.709474+00:00",
    "notified": false
   },
@@ -2486,27 +2519,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
-   "url": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
-   "published": "2026-11-17T05:02:05+00:00",
-   "kind": "listing",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N6742f9b5d8e6",
-   "kind_fa": "لیستینگ",
-   "importance": 7,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T05:02:29.314510+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Introducing Binance Pay Later: Spend Without Selling Your Crypto and Enjoy 0% Interest Until the First of Next Month",
    "url": "https://www.binance.com/en/support/announcement/5f041987d1ca4252a3c59ad27eff3e28",
@@ -2600,23 +2612,6 @@
    "raw_symbols": [],
    "symbols": [],
    "id": "N35acf63c284b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-15T01:50:07.536993+00:00",
-   "notified": false
-  },
-  {
-   "source": "binance",
-   "title": "Introducing Binance Square Leaderboards: Discover Top Traders and Share Your Achievements",
-   "url": "https://www.binance.com/en/support/announcement/ab1542773b3b4b28b3722fc4299cd12c",
-   "published": "2026-11-12T12:00:14.811000+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N319326cabba7",
    "kind_fa": "خبر",
    "importance": 3,
    "sentiment": 0.0,
@@ -3091,8 +3086,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.059,
-   "risk": 0.372,
+   "sentiment": -0.06,
+   "risk": 0.367,
    "events": [
     "macro",
     "etf_flow"
@@ -3108,7 +3103,7 @@
    "last": "2026-11-19T03:40:48+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.018,
+   "sentiment": 0.017,
    "risk": 0.2,
    "events": [
     "token_burn",
@@ -3120,7 +3115,7 @@
    "last": "2026-11-18T21:57:35+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.199,
+   "sentiment": 0.198,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3129,7 +3124,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.291,
+   "sentiment": -0.292,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3138,13 +3133,12 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.026,
+   "sentiment": -0.3,
    "risk": 0.0,
    "events": [
-    "market",
-    "listing"
+    "market"
    ],
-   "count": 2,
+   "count": 1,
    "last": "2026-11-18T04:28:37+00:00"
   },
   "XAUTUSDT": {
