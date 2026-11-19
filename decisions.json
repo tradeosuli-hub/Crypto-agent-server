@@ -2813,7 +2813,7 @@
  {
   "id": "D4cd00d536d",
   "ts": "2026-11-19T10:49:12.216939+00:00",
-  "status": "open",
+  "status": "closed",
   "symbol": "PEPEUSDT",
   "direction": "short",
   "entry": 3.8085714285714287e-06,
@@ -2930,7 +2930,29 @@
    "دیوار solid · واکنش‌های گذشته 13",
    "پارامترها 8/10 (قابل‌بررسی 8)"
   ],
-  "entered_at": "2026-11-19T15:30:00+00:00"
+  "entered_at": "2026-11-19T15:30:00+00:00",
+  "outcome": "SL",
+  "exit": 3.865724857142857e-06,
+  "pnl_r": -1.0,
+  "closed_at": "2026-11-19T11:15:00+00:00",
+  "root_cause": {
+   "right": [
+    "dominance",
+    "volume",
+    "news",
+    "historical_memory"
+   ],
+   "wrong": [
+    "structure",
+    "liquidity",
+    "order_block",
+    "pattern"
+   ],
+   "silent": [
+    "social"
+   ],
+   "lesson_fa": "دپارتمان‌های هم‌جهت که اشتباه کردند: structure، liquidity، order_block، pattern · دپارتمان‌هایی که مخالف بودند و درست گفتند: dominance، volume، news، historical_memory"
+  }
  },
  {
   "id": "D194907ab0c",
