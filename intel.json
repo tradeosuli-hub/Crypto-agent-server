@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-19T04:20:35.513965+00:00",
+ "updated_at": "2026-11-19T04:50:05.709474+00:00",
  "market": {
-  "btc_dominance": 58.08,
-  "usdt_dominance": 7.99,
-  "mcap_change_24h": -3.8,
+  "btc_dominance": 58.11,
+  "usdt_dominance": 7.97,
+  "mcap_change_24h": -3.59,
   "trending": [
    "PEARL",
-   "KNTQ",
-   "XRP",
    "PENGU",
+   "KNTQ",
    "BTC",
+   "IRYS",
+   "XRP",
    "HYPE",
-   "LIT",
-   "AERO",
+   "ENA",
    "SUI",
-   "IRYS"
+   "JTO"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+   "url": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
+   "published": "2026-11-19T04:46:10+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Ncf1784ec19fd",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T04:50:05.709474+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Ledger expands hardware hack investigation to Germany, UAE as new cases emerge",
@@ -33,6 +53,7 @@
    "importance": 9,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T04:20:35.513965+00:00",
    "notified": false
   },
@@ -49,6 +70,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T04:20:35.513965+00:00",
    "notified": false
   },
@@ -3068,6 +3090,16 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.059,
+   "risk": 0.372,
+   "events": [
+    "macro",
+    "etf_flow"
+   ],
+   "count": 27,
+   "last": "2026-11-19T04:46:10+00:00"
+  },
   "BNBUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -3076,7 +3108,7 @@
    "last": "2026-11-19T03:40:48+00:00"
   },
   "ETHUSDT": {
-   "sentiment": 0.019,
+   "sentiment": 0.018,
    "risk": 0.2,
    "events": [
     "token_burn",
@@ -3087,18 +3119,8 @@
    "count": 10,
    "last": "2026-11-18T21:57:35+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.063,
-   "risk": 0.377,
-   "events": [
-    "macro",
-    "etf_flow"
-   ],
-   "count": 26,
-   "last": "2026-11-18T18:27:52+00:00"
-  },
   "SOLUSDT": {
-   "sentiment": 0.198,
+   "sentiment": 0.199,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3107,7 +3129,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.29,
+   "sentiment": -0.291,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -3116,7 +3138,7 @@
    "last": "2026-11-18T07:27:48+00:00"
   },
   "XRPUSDT": {
-   "sentiment": 0.022,
+   "sentiment": 0.026,
    "risk": 0.0,
    "events": [
     "market",
