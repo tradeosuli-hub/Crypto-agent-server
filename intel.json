@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-19T22:04:29.699414+00:00",
+ "updated_at": "2026-11-19T22:33:59.124969+00:00",
  "market": {
-  "btc_dominance": 57.83,
-  "usdt_dominance": 8.19,
-  "mcap_change_24h": -3.91,
+  "btc_dominance": 57.92,
+  "usdt_dominance": 8.14,
+  "mcap_change_24h": -3.21,
   "trending": [
    "WASTED",
-   "LUCIA",
-   "TRUMP",
    "BTC",
-   "PENGU",
-   "MON",
+   "LUCIA",
    "PEARL",
-   "SOL",
+   "TRUMP",
+   "VVV",
    "ETH",
-   "VVV"
+   "PENGU",
+   "HYPE",
+   "PUMP"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+   "url": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-19T22:25:18+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "HYPE"
+   ],
+   "symbols": [
+    "HYPEUSDT"
+   ],
+   "id": "Na5b340dbf30d",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-19T22:33:59.124969+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -2407,23 +2427,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Maple Finance CEO targets up to $15B in assets by the end of 2027",
-   "url": "https://cointelegraph.com/news/maple-finance-15b-assets-target-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-17T21:56:35+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N9e801a878f37",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T22:17:46.863118+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/3d3ab9f06baf40b993c45a115dcf576e",
@@ -2973,6 +2976,13 @@
   }
  ],
  "symbols": {
+  "HYPEUSDT": {
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "events": [],
+   "count": 1,
+   "last": "2026-11-19T22:25:18+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.033,
    "risk": 0.0,
@@ -2984,8 +2994,8 @@
    "last": "2026-11-19T18:47:30+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.214,
-   "risk": 0.658,
+   "sentiment": -0.215,
+   "risk": 0.648,
    "events": [
     "project",
     "security",
@@ -2996,7 +3006,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.057,
-   "risk": 0.396,
+   "risk": 0.391,
    "events": [
     "project",
     "etf_flow",
@@ -3023,7 +3033,7 @@
    "last": "2026-11-19T12:33:46+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.099,
+   "sentiment": 0.098,
    "risk": 0.0,
    "events": [
     "etf_flow",
