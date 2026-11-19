@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-19T06:18:46.519928+00:00",
+ "updated_at": "2026-11-19T06:48:20.249298+00:00",
  "market": {
   "btc_dominance": 58.08,
-  "usdt_dominance": 7.98,
-  "mcap_change_24h": -3.92,
+  "usdt_dominance": 7.96,
+  "mcap_change_24h": -3.75,
   "trending": [
    "PEARL",
    "BTC",
    "IRYS",
    "PENGU",
-   "LIT",
-   "HYPE",
-   "KNTQ",
-   "SUI",
-   "PI",
-   "ETH"
+   "SOL",
+   "ETH",
+   "NEAR",
+   "LUNC",
+   "STONK",
+   "PONS"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Fed's rate hike push may be a mistake. Here's why",
+   "url": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue",
+   "published": "2026-11-19T06:23:19+00:00",
+   "kind": "macro",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N5f17e72aad51",
+   "kind_fa": "کلان اقتصادی",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.5,
+   "first_seen": "2026-11-19T06:48:20.249298+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
@@ -37,6 +53,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T06:18:46.519928+00:00",
    "notified": false
   },
@@ -53,6 +70,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T06:18:46.519928+00:00",
    "notified": false
   },
@@ -73,6 +91,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T06:18:46.519928+00:00",
    "notified": false
   },
@@ -93,6 +112,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T06:18:46.519928+00:00",
    "notified": false
   },
@@ -3144,7 +3164,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.052,
-   "risk": 0.357,
+   "risk": 0.352,
    "events": [
     "macro",
     "etf_flow"
@@ -3153,8 +3173,8 @@
    "last": "2026-11-19T06:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.316,
-   "risk": 0.986,
+   "sentiment": -0.317,
+   "risk": 0.976,
    "events": [
     "security",
     "token_burn",
@@ -3172,7 +3192,7 @@
    "last": "2026-11-19T03:40:48+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.213,
+   "sentiment": 0.212,
    "risk": 0.0,
    "events": [
     "token_burn"
@@ -3181,7 +3201,7 @@
    "last": "2026-11-18T13:42:37+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.294,
+   "sentiment": -0.295,
    "risk": 0.0,
    "events": [
     "etf_flow"
