@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-19T14:11:36.626858+00:00",
+ "updated_at": "2026-11-19T14:41:13.949437+00:00",
  "market": {
-  "btc_dominance": 58.18,
+  "btc_dominance": 58.16,
   "usdt_dominance": 7.92,
-  "mcap_change_24h": -2.39,
+  "mcap_change_24h": -2.49,
   "trending": [
    "TRUMP",
    "WASTED",
-   "WSTAR",
    "LUCIA",
    "PEARL",
    "SKY",
+   "WSTAR",
    "PENGU",
-   "PEPE",
    "BTC",
-   "LIT"
+   "SOL",
+   "EVAA"
   ],
   "fear_greed": 10,
   "fear_greed_label": "Extreme Fear"
@@ -39,6 +39,7 @@
    "importance": 5,
    "sentiment": 0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-19T14:11:36.626858+00:00",
    "notified": false
   },
@@ -2374,44 +2375,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitwise launches ZDAY, its first non-crypto ETF, to bet on AI cyber defense",
-   "url": "https://www.theblock.co/news/markets/2026-11-17-bitwise-zday-ai-cyber-defense-etf-442062",
-   "published": "2026-11-17T14:00:00+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N88469f2821c7",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T14:24:48.792541+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Bernstein sees upside for bitcoin miners Riot and TeraWulf, citing discounts to implied AI data center values",
-   "url": "https://www.theblock.co/news/markets/2026-11-17-bernstein-sees-upside-for-bitcoin-miners-riot-and-terawulf-citing-discounts-to-implied-ai-data-center-values-442125",
-   "published": "2026-11-17T13:56:18+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nbb75eb1b225b",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-17T14:24:48.792541+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined ANTHROPICUSDT Pre-IPO Perp and Rename to USDⓈ-Margined ANTUSDT Pre-IPO Perp (2026-11-17)",
    "url": "https://www.binance.com/en/support/announcement/3d3ab9f06baf40b993c45a115dcf576e",
@@ -3031,7 +2994,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.037,
-   "risk": 0.479,
+   "risk": 0.473,
    "events": [
     "project",
     "etf_flow",
@@ -3051,8 +3014,8 @@
    "last": "2026-11-19T14:00:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.31,
-   "risk": 0.822,
+   "sentiment": -0.312,
+   "risk": 0.812,
    "events": [
     "security",
     "token_burn"
@@ -3061,14 +3024,14 @@
    "last": "2026-11-19T13:30:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.032,
+   "sentiment": -0.031,
    "risk": 0.0,
    "events": [],
    "count": 3,
    "last": "2026-11-19T12:33:46+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.056,
+   "sentiment": -0.055,
    "risk": 0.0,
    "events": [
     "etf_flow",
@@ -3078,13 +3041,13 @@
    "last": "2026-11-19T10:22:12+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.1,
+   "sentiment": 0.105,
    "risk": 0.0,
    "events": [
     "etf_flow",
     "token_burn"
    ],
-   "count": 5,
+   "count": 4,
    "last": "2026-11-19T10:22:12+00:00"
   },
   "BNBUSDT": {
