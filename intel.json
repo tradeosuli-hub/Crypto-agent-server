@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-20T21:13:35.247448+00:00",
+ "updated_at": "2026-11-20T21:43:13.384962+00:00",
  "market": {
-  "btc_dominance": 57.79,
-  "usdt_dominance": 8.62,
-  "mcap_change_24h": -8.44,
+  "btc_dominance": 57.83,
+  "usdt_dominance": 8.56,
+  "mcap_change_24h": -7.75,
   "trending": [
    "WASTED",
+   "TRUMP",
    "LUCIA",
    "CHUNKEE",
-   "TRUMP",
    "BTC",
    "HYPE",
    "PENGU",
    "PEARL",
-   "LINK",
-   "EVAA"
+   "ETH",
+   "SOL"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "DCG’s Zcash miner Fortitude clears vote for Nasdaq listing as ZEC retreats from all-time high",
+   "url": "https://www.theblock.co/news/business/2026-11-20-dcgs-zcash-miner-fortitude-clears-vote-nasdaq-listing-zec-retreats-all-time-high-444784",
+   "published": "2026-11-20T21:40:01+00:00",
+   "kind": "listing",
+   "raw_symbols": [
+    "ZEC"
+   ],
+   "symbols": [
+    "ZECUSDT"
+   ],
+   "id": "Nc1116129f80e",
+   "kind_fa": "لیستینگ",
+   "importance": 7,
+   "sentiment": 0.9,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T21:43:13.384962+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Rep. Casten seeks to curb prediction market insider trading with DOJ whistleblower program",
@@ -2257,23 +2277,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Ledger warns Berlin customers as hardware wallet tampering investigation expands",
-   "url": "https://cointelegraph.com/news/ledger-warns-berlin-customers-hardware-wallet-investigation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-18T21:13:58+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N77d23c397eec",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T21:26:35.538993+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2853,9 +2856,18 @@
   }
  ],
  "symbols": {
+  "ZECUSDT": {
+   "sentiment": 0.9,
+   "risk": 0.0,
+   "events": [
+    "listing"
+   ],
+   "count": 1,
+   "last": "2026-11-20T21:40:01+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.243,
-   "risk": 0.941,
+   "sentiment": -0.244,
+   "risk": 0.93,
    "events": [
     "security",
     "etf_flow",
@@ -2867,8 +2879,8 @@
    "last": "2026-11-20T18:22:39+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.557,
-   "risk": 0.798,
+   "sentiment": -0.558,
+   "risk": 0.788,
    "events": [
     "etf_flow",
     "security"
@@ -2877,8 +2889,8 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.322,
-   "risk": 0.798,
+   "sentiment": -0.323,
+   "risk": 0.788,
    "events": [
     "etf_flow",
     "security",
