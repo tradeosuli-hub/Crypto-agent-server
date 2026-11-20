@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-20T12:50:57.093068+00:00",
+ "updated_at": "2026-11-20T13:20:32.495601+00:00",
  "market": {
-  "btc_dominance": 58.11,
-  "usdt_dominance": 8.22,
-  "mcap_change_24h": -6.12,
+  "btc_dominance": 58.12,
+  "usdt_dominance": 8.23,
+  "mcap_change_24h": -6.21,
   "trending": [
    "WASTED",
    "LUCIA",
    "CHUNKEE",
-   "PEARL",
    "TRUMP",
    "BTC",
-   "HYPE",
-   "XMR",
+   "PEARL",
+   "G",
    "VVV",
-   "G"
+   "EVAA",
+   "KERNEL"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "ECB’s Largarde warns Europe could lose control of growing tokenized asset market",
+   "url": "https://www.coindesk.com/policy/2026/11/20/ecb-s-largarde-warns-europe-could-lose-control-of-growing-tokenized-asset-market",
+   "published": "2026-11-20T13:11:49+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Ne6ea1336b4c9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T13:20:32.495601+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
@@ -39,6 +55,7 @@
    "importance": 7,
    "sentiment": -0.4,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T12:50:57.093068+00:00",
    "notified": false
   },
@@ -2330,61 +2347,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
-   "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
-   "published": "2026-11-18T12:53:34+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N7385bda8fbde",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T13:03:21.599872+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Tokenized Nvidia market cap surges 159% amid Jensen Huang’s exit",
-   "url": "https://cointelegraph.com/news/tokenized-nvidia-cap-rises-158-stock-loses-750b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-18T12:53:12+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nd8a0e243c5ae",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T13:03:21.599872+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
-   "url": "https://www.coindesk.com/markets/2026/11/18/bullish-beats-revenue-estimates-as-institutional-services-offset-sluggish-spot-crypto-volumes",
-   "published": "2026-11-18T12:41:09+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nfe9984c7f4e3",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T13:03:21.599872+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2965,20 +2927,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.107,
-   "risk": 0.243,
+   "sentiment": -0.108,
+   "risk": 0.237,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 31,
+   "count": 30,
    "last": "2026-11-20T12:29:57+00:00"
   },
   "NEARUSDT": {
    "sentiment": -0.549,
-   "risk": 0.972,
+   "risk": 0.962,
    "events": [
     "etf_flow",
     "security"
@@ -2987,8 +2949,8 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.3,
-   "risk": 0.972,
+   "sentiment": -0.299,
+   "risk": 0.962,
    "events": [
     "etf_flow",
     "security",
@@ -2999,7 +2961,7 @@
    "last": "2026-11-20T12:12:29+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.04,
+   "sentiment": -0.039,
    "risk": 0.0,
    "events": [
     "etf_flow",
