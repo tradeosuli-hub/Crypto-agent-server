@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-20T03:59:20.429203+00:00",
+ "updated_at": "2026-11-20T04:28:49.712123+00:00",
  "market": {
-  "btc_dominance": 58.08,
-  "usdt_dominance": 8.13,
-  "mcap_change_24h": -3.5,
+  "btc_dominance": 58.01,
+  "usdt_dominance": 8.19,
+  "mcap_change_24h": -4.91,
   "trending": [
    "BTC",
    "NEAR",
    "PEARL",
-   "XRP",
-   "SKY",
-   "PENGU",
    "ANTHROPIC",
-   "EVAA",
-   "ZEC",
-   "PI"
+   "XRP",
+   "HYPE",
+   "SOL",
+   "PENGU",
+   "ETH",
+   "EVAA"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+   "url": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+   "published": "2026-11-20T04:24:05+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N857de012b600",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T04:28:49.712123+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
@@ -37,6 +53,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T03:59:20.429203+00:00",
    "notified": false
   },
@@ -57,6 +74,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T03:59:20.429203+00:00",
    "notified": false
   },
@@ -2900,7 +2918,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.048,
-   "risk": 0.335,
+   "risk": 0.33,
    "events": [
     "etf_flow",
     "project",
@@ -2918,18 +2936,17 @@
    "last": "2026-11-19T22:25:18+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.038,
+   "sentiment": 0.0,
    "risk": 0.0,
    "events": [
-    "etf_flow",
-    "market"
+    "etf_flow"
    ],
-   "count": 3,
+   "count": 2,
    "last": "2026-11-19T18:47:30+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.223,
-   "risk": 0.535,
+   "sentiment": -0.222,
+   "risk": 0.524,
    "events": [
     "project",
     "security",
