@@ -1,25 +1,89 @@
 {
- "updated_at": "2026-11-20T07:55:21.118535+00:00",
+ "updated_at": "2026-11-20T08:24:56.285112+00:00",
  "market": {
-  "btc_dominance": 57.96,
-  "usdt_dominance": 8.18,
-  "mcap_change_24h": -5.41,
+  "btc_dominance": 57.98,
+  "usdt_dominance": 8.16,
+  "mcap_change_24h": -5.24,
   "trending": [
    "BTC",
    "PEARL",
-   "EVAA",
-   "ETH",
-   "SKY",
-   "QTC",
+   "CARDS",
    "XMR",
-   "AAVE",
+   "QTC",
+   "MON",
+   "EVAA",
+   "NAORIS",
    "HYPE",
-   "CARDS"
+   "ETH"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "BlackRock’s IBIT loses record $541M amid Anthropic market debut",
+   "url": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T08:18:42+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N11a94c57b5b2",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T08:24:56.285112+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
+   "url": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million",
+   "published": "2026-11-20T08:04:40+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1d94719558f5",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T08:24:56.285112+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
+   "url": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T08:03:34+00:00",
+   "kind": "regulation",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N6d27e6fc6fea",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-20T08:24:56.285112+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Michael Saylor sees up to $7.5 billion in ‘natural demand’ for Strategy’s STRC preferred stock",
+   "url": "https://www.theblock.co/news/business/2026-11-20-michael-saylor-natural-demand-strategy-strc-444190",
+   "published": "2026-11-20T08:02:36+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Na19c888ba01e",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T08:24:56.285112+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Anthropic’s $81B IPO draws half the net retail buying of SpaceX’s",
@@ -2331,23 +2395,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Google finds self-running AI hacking tool with Russian comments in its files",
-   "url": "https://www.coindesk.com/tech/2026/11/18/google-finds-self-running-ai-hacking-tool-with-russian-comments-in-its-files",
-   "published": "2026-11-18T07:37:59+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N7a0a72614180",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T08:07:52.922092+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2966,15 +3013,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.073,
-   "risk": 0.294,
+   "sentiment": -0.074,
+   "risk": 0.289,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 32,
+   "count": 31,
    "last": "2026-11-20T06:12:15+00:00"
   },
   "HYPEUSDT": {
@@ -2994,8 +3041,8 @@
    "last": "2026-11-20T05:40:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.133,
-   "risk": 0.453,
+   "sentiment": -0.131,
+   "risk": 0.442,
    "events": [
     "project",
     "etf_flow",
