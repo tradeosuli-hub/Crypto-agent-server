@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-20T04:58:19.893249+00:00",
+ "updated_at": "2026-11-20T05:27:50.949238+00:00",
  "market": {
-  "btc_dominance": 58.0,
-  "usdt_dominance": 8.21,
-  "mcap_change_24h": -5.13,
+  "btc_dominance": 58.04,
+  "usdt_dominance": 8.2,
+  "mcap_change_24h": -5.43,
   "trending": [
    "BTC",
-   "ANTHROPIC",
-   "HYPE",
    "SOL",
-   "PEARL",
+   "INJ",
    "PENGU",
+   "PEARL",
+   "ETH",
    "XRP",
-   "EVAA",
-   "USDS",
-   "ETH"
+   "HYPE",
+   "XMR",
+   "ENA"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
+   "url": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
+   "published": "2026-11-20T05:20:51+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nb58f38cb7ed8",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T05:27:50.949238+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Ethereum’s next big upgrade is pushed into 2027 by apps it would break",
+   "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
+   "published": "2026-11-20T04:58:08+00:00",
+   "kind": "project",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N6429d534ac2d",
+   "kind_fa": "پروژه / آپدیت",
+   "importance": 5,
+   "sentiment": 0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T05:27:50.949238+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
@@ -41,6 +81,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T04:58:19.893249+00:00",
    "notified": false
   },
@@ -2882,38 +2923,38 @@
   }
  ],
  "symbols": {
-  "SOLUSDT": {
-   "sentiment": -0.07,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 4,
-   "last": "2026-11-20T04:28:52+00:00"
-  },
   "BTCUSDT": {
-   "sentiment": -0.065,
-   "risk": 0.325,
+   "sentiment": -0.062,
+   "risk": 0.319,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 30,
-   "last": "2026-11-20T04:28:52+00:00"
+   "count": 31,
+   "last": "2026-11-20T05:20:51+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.214,
-   "risk": 0.514,
+   "sentiment": -0.137,
+   "risk": 0.504,
    "events": [
-    "etf_flow",
     "project",
+    "etf_flow",
     "security",
     "token_burn"
    ],
-   "count": 9,
+   "count": 10,
+   "last": "2026-11-20T04:58:08+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": -0.069,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 4,
    "last": "2026-11-20T04:28:52+00:00"
   },
   "HYPEUSDT": {
