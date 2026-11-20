@@ -1,25 +1,98 @@
 {
- "updated_at": "2026-11-20T13:20:32.495601+00:00",
+ "updated_at": "2026-11-20T13:50:04.089638+00:00",
  "market": {
-  "btc_dominance": 58.12,
+  "btc_dominance": 58.13,
   "usdt_dominance": 8.23,
-  "mcap_change_24h": -6.21,
+  "mcap_change_24h": -6.26,
   "trending": [
    "WASTED",
-   "LUCIA",
-   "CHUNKEE",
    "TRUMP",
+   "CHUNKEE",
+   "LUCIA",
    "BTC",
    "PEARL",
    "G",
-   "VVV",
+   "HYPE",
    "EVAA",
-   "KERNEL"
+   "VVV"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides 13% after Nasdaq debut",
+   "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+   "published": "2026-11-20T13:35:33+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nc6ca582cfb53",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T13:50:04.089638+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
+   "url": "https://www.coindesk.com/tech/2026/11/20/bitcoin-bots-pounced-within-seconds-when-researchers-exposed-their-keys",
+   "published": "2026-11-20T13:30:22+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nf2761be173e2",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T13:50:04.089638+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Here’s what happened in crypto today",
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T13:29:58+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N043a2bf5f6f7",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "summary_fa": null,
+   "first_seen": "2026-11-19T06:18:46.519928+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
+   "url": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T13:21:39+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N13a905dddf0b",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T13:50:04.089638+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "ECB’s Largarde warns Europe could lose control of growing tokenized asset market",
@@ -33,6 +106,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T13:20:32.495601+00:00",
    "notified": false
   },
@@ -448,23 +522,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-20T06:26:50.323450+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Here’s what happened in crypto today",
-   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-20T06:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N043a2bf5f6f7",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T06:18:46.519928+00:00",
    "notified": false
   },
   {
@@ -2927,20 +2984,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.108,
-   "risk": 0.237,
+   "sentiment": -0.1,
+   "risk": 0.232,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 30,
-   "last": "2026-11-20T12:29:57+00:00"
+   "count": 32,
+   "last": "2026-11-20T13:35:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.549,
-   "risk": 0.962,
+   "sentiment": -0.55,
+   "risk": 0.952,
    "events": [
     "etf_flow",
     "security"
@@ -2949,25 +3006,23 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.299,
-   "risk": 0.962,
+   "sentiment": -0.322,
+   "risk": 0.952,
    "events": [
     "etf_flow",
     "security",
-    "project",
-    "token_burn"
+    "project"
    ],
-   "count": 10,
+   "count": 9,
    "last": "2026-11-20T12:12:29+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.039,
+   "sentiment": -0.073,
    "risk": 0.0,
    "events": [
-    "etf_flow",
-    "token_burn"
+    "etf_flow"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-11-20T12:12:29+00:00"
   },
   "HYPEUSDT": {
