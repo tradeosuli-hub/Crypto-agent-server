@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-20T21:43:13.384962+00:00",
+ "updated_at": "2026-11-20T22:12:47.492984+00:00",
  "market": {
-  "btc_dominance": 57.83,
-  "usdt_dominance": 8.56,
-  "mcap_change_24h": -7.75,
+  "btc_dominance": 57.87,
+  "usdt_dominance": 8.53,
+  "mcap_change_24h": -6.72,
   "trending": [
    "WASTED",
    "TRUMP",
-   "LUCIA",
-   "CHUNKEE",
    "BTC",
+   "CHUNKEE",
    "HYPE",
-   "PENGU",
+   "LUCIA",
    "PEARL",
+   "SOL",
    "ETH",
-   "SOL"
+   "AAVE"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
+   "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
+   "published": "2026-11-20T22:05:31+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N4e898d18ea5e",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-20T22:12:47.492984+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "DCG’s Zcash miner Fortitude clears vote for Nasdaq listing as ZEC retreats from all-time high",
@@ -37,6 +57,7 @@
    "importance": 7,
    "sentiment": 0.9,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T21:43:13.384962+00:00",
    "notified": false
   },
@@ -2856,6 +2877,18 @@
   }
  ],
  "symbols": {
+  "ETHUSDT": {
+   "sentiment": -0.301,
+   "risk": 0.777,
+   "events": [
+    "regulation",
+    "etf_flow",
+    "security",
+    "project"
+   ],
+   "count": 8,
+   "last": "2026-11-20T22:05:31+00:00"
+  },
   "ZECUSDT": {
    "sentiment": 0.9,
    "risk": 0.0,
@@ -2867,7 +2900,7 @@
   },
   "BTCUSDT": {
    "sentiment": -0.244,
-   "risk": 0.93,
+   "risk": 0.92,
    "events": [
     "security",
     "etf_flow",
@@ -2879,25 +2912,14 @@
    "last": "2026-11-20T18:22:39+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.558,
-   "risk": 0.788,
+   "sentiment": -0.559,
+   "risk": 0.777,
    "events": [
     "etf_flow",
     "security"
    ],
    "count": 4,
    "last": "2026-11-20T12:29:57+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.323,
-   "risk": 0.788,
-   "events": [
-    "etf_flow",
-    "security",
-    "project"
-   ],
-   "count": 8,
-   "last": "2026-11-20T12:12:29+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.075,
