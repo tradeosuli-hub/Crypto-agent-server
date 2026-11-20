@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-20T15:18:45.853632+00:00",
+ "updated_at": "2026-11-20T15:48:27.292222+00:00",
  "market": {
-  "btc_dominance": 58.0,
-  "usdt_dominance": 8.33,
-  "mcap_change_24h": -6.98,
+  "btc_dominance": 57.97,
+  "usdt_dominance": 8.47,
+  "mcap_change_24h": -8.47,
   "trending": [
    "WASTED",
    "TRUMP",
-   "LUCIA",
    "CHUNKEE",
-   "PEARL",
-   "G",
+   "LUCIA",
    "BTC",
+   "PEARL",
    "HYPE",
-   "LIT",
+   "G",
+   "SOL",
    "PENGU"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "DBS bets it can lose the deposit and keep the client",
+   "url": "https://cointelegraph.com/news/dbs-bets-it-can-lose-the-deposit-and-keep-the-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T15:32:30+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N46e91f50e244",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T15:48:27.292222+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Rep. Horsford sees opening for House vote on crypto tax bill before Congress ends",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T15:18:45.853632+00:00",
    "notified": false
   },
@@ -89,15 +106,17 @@
   },
   {
    "source": "coindesk",
-   "title": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides after Nasdaq debut",
+   "title": "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut",
    "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
    "published": "2026-11-20T13:35:33+00:00",
    "kind": "news",
    "raw_symbols": [
-    "BTC"
+    "BTC",
+    "NEAR"
    ],
    "symbols": [
-    "BTCUSDT"
+    "BTCUSDT",
+    "NEARUSDT"
    ],
    "id": "Nc6ca582cfb53",
    "kind_fa": "خبر",
@@ -469,7 +488,7 @@
   },
   {
    "source": "cointelegraph",
-   "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
+   "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
    "url": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "published": "2026-11-20T08:03:34+00:00",
    "kind": "regulation",
@@ -2332,40 +2351,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
-   "url": "https://www.coindesk.com/business/2026/11/18/hong-kong-wants-banks-to-use-ai-to-catch-crypto-crime-before-money-disappears",
-   "published": "2026-11-18T15:23:18+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Neb4c515e7f26",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T15:31:14.360852+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "StoneX cuts Bitdeer price target to $15 amid new US chip export controls",
-   "url": "https://www.theblock.co/news/markets/2026-11-18-stonex-cuts-bitdeer-price-target-to-15-amid-new-us-chip-export-controls-443440",
-   "published": "2026-11-18T15:16:54+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N560cbc57d832",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T15:31:14.360852+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2946,30 +2931,30 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.102,
-   "risk": 0.217,
+   "sentiment": -0.101,
+   "risk": 0.212,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 30,
+   "count": 29,
    "last": "2026-11-20T13:35:33+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.551,
-   "risk": 0.921,
+   "sentiment": -0.481,
+   "risk": 0.911,
    "events": [
     "etf_flow",
     "security"
    ],
-   "count": 4,
-   "last": "2026-11-20T12:29:57+00:00"
+   "count": 5,
+   "last": "2026-11-20T13:35:33+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.32,
-   "risk": 0.921,
+   "sentiment": -0.319,
+   "risk": 0.911,
    "events": [
     "etf_flow",
     "security",
