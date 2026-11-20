@@ -1,25 +1,67 @@
 {
- "updated_at": "2026-11-20T11:22:07.036413+00:00",
+ "updated_at": "2026-11-20T11:51:40.865409+00:00",
  "market": {
-  "btc_dominance": 58.05,
+  "btc_dominance": 58.09,
   "usdt_dominance": 8.18,
-  "mcap_change_24h": -4.38,
+  "mcap_change_24h": -4.39,
   "trending": [
    "WASTED",
    "CHUNKEE",
-   "TRUMP",
    "LUCIA",
+   "TRUMP",
    "BTC",
    "PEARL",
    "HYPE",
    "XMR",
-   "EVAA",
-   "SUI"
+   "ETH",
+   "XRP"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin drops for third straight day as Asian tech shares slide",
+   "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
+   "published": "2026-11-20T11:42:02+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nbef66a471b57",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T11:51:40.865409+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
+   "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T11:31:41+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "ETH",
+    "NEAR"
+   ],
+   "symbols": [
+    "ETHUSDT",
+    "NEARUSDT"
+   ],
+   "id": "Nbcc0246444e7",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-20T11:51:40.865409+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
@@ -33,6 +75,7 @@
    "importance": 6,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T11:22:07.036413+00:00",
    "notified": false
   },
@@ -2333,27 +2376,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "TD Cowen tempers ether outlook, maintains Buy rating on Sharplink",
-   "url": "https://www.theblock.co/news/ecosystems/2026-11-18-td-cowen-maintains-buy-rating-sharplink-442987",
-   "published": "2026-11-18T11:08:27+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "N68b7779b57d8",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T11:34:42.252466+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2934,8 +2956,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.073,
-   "risk": 0.258,
+   "sentiment": -0.078,
+   "risk": 0.253,
    "events": [
     "etf_flow",
     "project",
@@ -2943,14 +2965,28 @@
     "token_burn"
    ],
    "count": 30,
-   "last": "2026-11-20T10:29:10+00:00"
+   "last": "2026-11-20T11:42:02+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.37,
+   "risk": 0.993,
+   "events": [
+    "security",
+    "project",
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 9,
+   "last": "2026-11-20T11:31:41+00:00"
   },
   "NEARUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 2,
-   "last": "2026-11-20T10:29:10+00:00"
+   "sentiment": -0.621,
+   "risk": 0.993,
+   "events": [
+    "security"
+   ],
+   "count": 3,
+   "last": "2026-11-20T11:31:41+00:00"
   },
   "HYPEUSDT": {
    "sentiment": 0.0,
@@ -2967,18 +3003,6 @@
    ],
    "count": 3,
    "last": "2026-11-20T05:40:00+00:00"
-  },
-  "ETHUSDT": {
-   "sentiment": -0.123,
-   "risk": 0.381,
-   "events": [
-    "project",
-    "etf_flow",
-    "security",
-    "token_burn"
-   ],
-   "count": 8,
-   "last": "2026-11-20T04:58:08+00:00"
   },
   "SOLUSDT": {
    "sentiment": -0.068,
