@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-20T22:12:47.492984+00:00",
+ "updated_at": "2026-11-20T22:42:20.444437+00:00",
  "market": {
-  "btc_dominance": 57.87,
-  "usdt_dominance": 8.53,
-  "mcap_change_24h": -6.72,
+  "btc_dominance": 57.85,
+  "usdt_dominance": 8.52,
+  "mcap_change_24h": -6.64,
   "trending": [
-   "WASTED",
-   "TRUMP",
    "BTC",
+   "WASTED",
    "CHUNKEE",
-   "HYPE",
-   "LUCIA",
-   "PEARL",
+   "TRUMP",
    "SOL",
-   "ETH",
-   "AAVE"
+   "HYPE",
+   "PEARL",
+   "LIT",
+   "PENGU",
+   "XRP"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -37,6 +37,7 @@
    "importance": 8,
    "sentiment": -0.2,
    "risk": 0.6,
+   "summary_fa": null,
    "first_seen": "2026-11-20T22:12:47.492984+00:00",
    "notified": false
   },
@@ -2260,44 +2261,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Senators: Treasury must ensure ‘equal footing’ for stablecoin issuers in GENIUS Act implementation",
-   "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
-   "published": "2026-11-18T22:09:17+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Nbba1c31df577",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T22:25:42.535515+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
-   "url": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-18T21:57:35+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Ne9d97aa7ed26",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T22:25:42.535515+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2878,8 +2841,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.301,
-   "risk": 0.777,
+   "sentiment": -0.302,
+   "risk": 0.767,
    "events": [
     "regulation",
     "etf_flow",
@@ -2899,8 +2862,8 @@
    "last": "2026-11-20T21:40:01+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.244,
-   "risk": 0.92,
+   "sentiment": -0.245,
+   "risk": 0.91,
    "events": [
     "security",
     "etf_flow",
@@ -2913,7 +2876,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.559,
-   "risk": 0.777,
+   "risk": 0.767,
    "events": [
     "etf_flow",
     "security"
