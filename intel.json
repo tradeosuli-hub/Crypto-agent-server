@@ -1,25 +1,49 @@
 {
- "updated_at": "2026-11-20T04:28:49.712123+00:00",
+ "updated_at": "2026-11-20T04:58:19.893249+00:00",
  "market": {
-  "btc_dominance": 58.01,
-  "usdt_dominance": 8.19,
-  "mcap_change_24h": -4.91,
+  "btc_dominance": 58.0,
+  "usdt_dominance": 8.21,
+  "mcap_change_24h": -5.13,
   "trending": [
    "BTC",
-   "NEAR",
-   "PEARL",
    "ANTHROPIC",
-   "XRP",
    "HYPE",
    "SOL",
+   "PEARL",
    "PENGU",
-   "ETH",
-   "EVAA"
+   "XRP",
+   "EVAA",
+   "USDS",
+   "ETH"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+   "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
+   "published": "2026-11-20T04:28:52+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "SOL",
+    "BTC",
+    "ETH"
+   ],
+   "symbols": [
+    "SOLUSDT",
+    "BTCUSDT",
+    "ETHUSDT"
+   ],
+   "id": "N1edbff1ba71a",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T04:58:19.893249+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
@@ -33,6 +57,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T04:28:49.712123+00:00",
    "notified": false
   },
@@ -2257,27 +2282,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months",
-   "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record",
-   "published": "2026-11-18T04:34:21+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N5645e63938ed",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T04:41:15.911445+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Stock Options Trading API Is Now Live",
    "url": "https://www.binance.com/en/support/announcement/5812611327db4325ad1e9989add711f7",
@@ -2288,44 +2292,6 @@
    "id": "N9a4f51adb1c3",
    "kind_fa": "خبر",
    "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T04:41:15.911445+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "XRP whales moved $270 million during the selloff. The coins didn’t go to exchanges",
-   "url": "https://www.coindesk.com/markets/2026/11/18/xrp-whales-moved-usd270-million-during-the-selloff-the-coins-didn-t-go-to-exchanges",
-   "published": "2026-11-18T04:28:37+00:00",
-   "kind": "market",
-   "raw_symbols": [
-    "XRP"
-   ],
-   "symbols": [
-    "XRPUSDT"
-   ],
-   "id": "N1740becdd44b",
-   "kind_fa": "جریان بازار",
-   "importance": 5,
-   "sentiment": -0.3,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T04:41:15.911445+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "World Bank Group taps Circle and Citi to test stablecoin-based fund disbursements",
-   "url": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924",
-   "published": "2026-11-18T04:21:02+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N490db46d22e5",
-   "kind_fa": "خبر",
-   "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
    "summary_fa": null,
@@ -2916,9 +2882,19 @@
   }
  ],
  "symbols": {
+  "SOLUSDT": {
+   "sentiment": -0.07,
+   "risk": 0.0,
+   "events": [
+    "etf_flow",
+    "token_burn"
+   ],
+   "count": 4,
+   "last": "2026-11-20T04:28:52+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.048,
-   "risk": 0.33,
+   "sentiment": -0.065,
+   "risk": 0.325,
    "events": [
     "etf_flow",
     "project",
@@ -2926,7 +2902,19 @@
     "token_burn"
    ],
    "count": 30,
-   "last": "2026-11-20T03:33:22+00:00"
+   "last": "2026-11-20T04:28:52+00:00"
+  },
+  "ETHUSDT": {
+   "sentiment": -0.214,
+   "risk": 0.514,
+   "events": [
+    "etf_flow",
+    "project",
+    "security",
+    "token_burn"
+   ],
+   "count": 9,
+   "last": "2026-11-20T04:28:52+00:00"
   },
   "HYPEUSDT": {
    "sentiment": 0.0,
@@ -2944,17 +2932,6 @@
    "count": 2,
    "last": "2026-11-19T18:47:30+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.222,
-   "risk": 0.524,
-   "events": [
-    "project",
-    "security",
-    "token_burn"
-   ],
-   "count": 8,
-   "last": "2026-11-19T18:20:49+00:00"
-  },
   "SUIUSDT": {
    "sentiment": 0.2,
    "risk": 0.0,
@@ -2965,21 +2942,11 @@
    "last": "2026-11-19T14:00:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.046,
+   "sentiment": -0.047,
    "risk": 0.0,
    "events": [],
    "count": 2,
    "last": "2026-11-19T12:33:46+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": 0.078,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 3,
-   "last": "2026-11-19T10:22:12+00:00"
   },
   "BNBUSDT": {
    "sentiment": 0.0,
