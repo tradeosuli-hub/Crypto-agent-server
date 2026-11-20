@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-20T17:46:27.072178+00:00",
+ "updated_at": "2026-11-20T18:15:59.095100+00:00",
  "market": {
-  "btc_dominance": 57.88,
-  "usdt_dominance": 8.52,
-  "mcap_change_24h": -8.04,
+  "btc_dominance": 57.8,
+  "usdt_dominance": 8.54,
+  "mcap_change_24h": -8.14,
   "trending": [
    "WASTED",
    "TRUMP",
@@ -11,15 +11,35 @@
    "LUCIA",
    "BTC",
    "HYPE",
-   "PEARL",
    "ZEC",
-   "ETH",
-   "SOL"
+   "SOL",
+   "PENGU",
+   "ETH"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+   "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
+   "published": "2026-11-20T18:13:52+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Naa650f223215",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": -0.3,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T18:15:59.095100+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
@@ -2257,23 +2277,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
-   "url": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
-   "published": "2026-11-18T17:22:03+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N931551d044da",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T17:59:28.770142+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2854,20 +2857,20 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.14,
-   "risk": 0.191,
+   "sentiment": -0.148,
+   "risk": 0.186,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 29,
-   "last": "2026-11-20T16:55:51+00:00"
+   "count": 30,
+   "last": "2026-11-20T18:13:52+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.553,
-   "risk": 0.87,
+   "sentiment": -0.554,
+   "risk": 0.86,
    "events": [
     "etf_flow",
     "security"
@@ -2876,8 +2879,8 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.322,
-   "risk": 0.87,
+   "sentiment": -0.321,
+   "risk": 0.86,
    "events": [
     "etf_flow",
     "security",
