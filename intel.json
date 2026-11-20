@@ -1,25 +1,65 @@
 {
- "updated_at": "2026-11-20T03:29:48.026116+00:00",
+ "updated_at": "2026-11-20T03:59:20.429203+00:00",
  "market": {
-  "btc_dominance": 58.07,
-  "usdt_dominance": 8.15,
-  "mcap_change_24h": -3.66,
+  "btc_dominance": 58.08,
+  "usdt_dominance": 8.13,
+  "mcap_change_24h": -3.5,
   "trending": [
    "BTC",
-   "PEARL",
    "NEAR",
-   "ANTHROPIC",
-   "PENGU",
+   "PEARL",
    "XRP",
    "SKY",
+   "PENGU",
+   "ANTHROPIC",
    "EVAA",
-   "SUI",
-   "TAO"
+   "ZEC",
+   "PI"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+   "url": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T03:33:22+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Na2e9007a0c21",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T03:59:20.429203+00:00",
+   "notified": false
+  },
+  {
+   "source": "coindesk",
+   "title": "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
+   "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-hits-four-month-low-after-anthropic-s-ipo-as-tech-stocks-wilt",
+   "published": "2026-11-20T03:32:30+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nd856328f01cb",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T03:59:20.429203+00:00",
+   "notified": false
+  },
   {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined SNDKUSDT Perpetual Contract (2026-11-20)",
@@ -2858,6 +2898,18 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.048,
+   "risk": 0.335,
+   "events": [
+    "etf_flow",
+    "project",
+    "macro",
+    "token_burn"
+   ],
+   "count": 30,
+   "last": "2026-11-20T03:33:22+00:00"
+  },
   "HYPEUSDT": {
    "sentiment": 0.0,
    "risk": 0.0,
@@ -2877,7 +2929,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.223,
-   "risk": 0.545,
+   "risk": 0.535,
    "events": [
     "project",
     "security",
@@ -2885,18 +2937,6 @@
    ],
    "count": 8,
    "last": "2026-11-19T18:20:49+00:00"
-  },
-  "BTCUSDT": {
-   "sentiment": -0.058,
-   "risk": 0.34,
-   "events": [
-    "project",
-    "etf_flow",
-    "macro",
-    "token_burn"
-   ],
-   "count": 28,
-   "last": "2026-11-19T18:09:32+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.2,
@@ -2908,14 +2948,14 @@
    "last": "2026-11-19T14:00:00+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.045,
+   "sentiment": -0.046,
    "risk": 0.0,
    "events": [],
    "count": 2,
    "last": "2026-11-19T12:33:46+00:00"
   },
   "SOLUSDT": {
-   "sentiment": 0.08,
+   "sentiment": 0.078,
    "risk": 0.0,
    "events": [
     "etf_flow",
