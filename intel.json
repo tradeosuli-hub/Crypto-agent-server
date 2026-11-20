@@ -1,25 +1,47 @@
 {
- "updated_at": "2026-11-20T12:21:15.962826+00:00",
+ "updated_at": "2026-11-20T12:50:57.093068+00:00",
  "market": {
-  "btc_dominance": 58.08,
-  "usdt_dominance": 8.24,
-  "mcap_change_24h": -6.37,
+  "btc_dominance": 58.11,
+  "usdt_dominance": 8.22,
+  "mcap_change_24h": -6.12,
   "trending": [
    "WASTED",
    "LUCIA",
    "CHUNKEE",
    "PEARL",
-   "HYPE",
    "TRUMP",
    "BTC",
+   "HYPE",
    "XMR",
-   "G",
-   "VVV"
+   "VVV",
+   "G"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "theblock",
+   "title": "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
+   "url": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217",
+   "published": "2026-11-20T12:29:57+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "BTC",
+    "NEAR"
+   ],
+   "symbols": [
+    "BTCUSDT",
+    "NEARUSDT"
+   ],
+   "id": "N35842057bcef",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.4,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T12:50:57.093068+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
@@ -37,6 +59,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T12:21:15.962826+00:00",
    "notified": false
   },
@@ -59,6 +82,7 @@
    "importance": 7,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T12:21:15.962826+00:00",
    "notified": false
   },
@@ -2361,44 +2385,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Circle turns to DBS as banks build rival digital payment systems across Asia",
-   "url": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia",
-   "published": "2026-11-18T12:25:14+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N478a12905b31",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T12:33:49.761999+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
-   "published": "2026-11-18T12:15:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nc5b36512878d",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T12:33:49.761999+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2979,20 +2965,30 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.075,
-   "risk": 0.248,
+   "sentiment": -0.107,
+   "risk": 0.243,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 30,
-   "last": "2026-11-20T12:15:08+00:00"
+   "count": 31,
+   "last": "2026-11-20T12:29:57+00:00"
+  },
+  "NEARUSDT": {
+   "sentiment": -0.549,
+   "risk": 0.972,
+   "events": [
+    "etf_flow",
+    "security"
+   ],
+   "count": 4,
+   "last": "2026-11-20T12:29:57+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.301,
-   "risk": 0.983,
+   "sentiment": -0.3,
+   "risk": 0.972,
    "events": [
     "etf_flow",
     "security",
@@ -3011,15 +3007,6 @@
    ],
    "count": 4,
    "last": "2026-11-20T12:12:29+00:00"
-  },
-  "NEARUSDT": {
-   "sentiment": -0.622,
-   "risk": 0.983,
-   "events": [
-    "security"
-   ],
-   "count": 3,
-   "last": "2026-11-20T11:31:41+00:00"
   },
   "HYPEUSDT": {
    "sentiment": 0.0,
