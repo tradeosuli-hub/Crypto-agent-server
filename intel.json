@@ -1,25 +1,67 @@
 {
- "updated_at": "2026-11-20T11:51:40.865409+00:00",
+ "updated_at": "2026-11-20T12:21:15.962826+00:00",
  "market": {
-  "btc_dominance": 58.09,
-  "usdt_dominance": 8.18,
-  "mcap_change_24h": -4.39,
+  "btc_dominance": 58.08,
+  "usdt_dominance": 8.24,
+  "mcap_change_24h": -6.37,
   "trending": [
    "WASTED",
-   "CHUNKEE",
    "LUCIA",
-   "TRUMP",
-   "BTC",
+   "CHUNKEE",
    "PEARL",
    "HYPE",
+   "TRUMP",
+   "BTC",
    "XMR",
-   "ETH",
-   "XRP"
+   "G",
+   "VVV"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging",
+   "published": "2026-11-20T12:15:08+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N549f755ff4c9",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T12:21:15.962826+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
+   "url": "https://www.theblock.co/news/markets/2026-11-20-ark-buys-90-million-worth-of-anthropic-shares-on-debut-trims-ethereum-and-solana-staking-etf-holdings-444226",
+   "published": "2026-11-20T12:12:29+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "ETH",
+    "SOL"
+   ],
+   "symbols": [
+    "ETHUSDT",
+    "SOLUSDT"
+   ],
+   "id": "Nc81d803b459b",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T12:21:15.962826+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin drops for third straight day as Asian tech shares slide",
@@ -37,6 +79,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T11:51:40.865409+00:00",
    "notified": false
   },
@@ -59,6 +102,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T11:51:40.865409+00:00",
    "notified": false
   },
@@ -2355,27 +2399,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
-   "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
-   "published": "2026-11-18T11:42:52+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nca872d7b37d4",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": -0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T12:04:16.028660+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2956,8 +2979,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.078,
-   "risk": 0.253,
+   "sentiment": -0.075,
+   "risk": 0.248,
    "events": [
     "etf_flow",
     "project",
@@ -2965,23 +2988,33 @@
     "token_burn"
    ],
    "count": 30,
-   "last": "2026-11-20T11:42:02+00:00"
+   "last": "2026-11-20T12:15:08+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.37,
-   "risk": 0.993,
+   "sentiment": -0.301,
+   "risk": 0.983,
    "events": [
+    "etf_flow",
     "security",
     "project",
+    "token_burn"
+   ],
+   "count": 10,
+   "last": "2026-11-20T12:12:29+00:00"
+  },
+  "SOLUSDT": {
+   "sentiment": -0.04,
+   "risk": 0.0,
+   "events": [
     "etf_flow",
     "token_burn"
    ],
-   "count": 9,
-   "last": "2026-11-20T11:31:41+00:00"
+   "count": 4,
+   "last": "2026-11-20T12:12:29+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.621,
-   "risk": 0.993,
+   "sentiment": -0.622,
+   "risk": 0.983,
    "events": [
     "security"
    ],
@@ -3003,16 +3036,6 @@
    ],
    "count": 3,
    "last": "2026-11-20T05:40:00+00:00"
-  },
-  "SOLUSDT": {
-   "sentiment": -0.068,
-   "risk": 0.0,
-   "events": [
-    "etf_flow",
-    "token_burn"
-   ],
-   "count": 3,
-   "last": "2026-11-20T04:28:52+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.2,
