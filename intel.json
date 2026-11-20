@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-20T18:16:30.470527+00:00",
+ "updated_at": "2026-11-20T18:46:00.851387+00:00",
  "market": {
-  "btc_dominance": 57.8,
-  "usdt_dominance": 8.54,
-  "mcap_change_24h": -8.14,
+  "btc_dominance": 57.77,
+  "usdt_dominance": 8.52,
+  "mcap_change_24h": -7.93,
   "trending": [
    "WASTED",
-   "TRUMP",
    "CHUNKEE",
    "LUCIA",
+   "TRUMP",
    "BTC",
    "HYPE",
    "ZEC",
@@ -20,6 +20,62 @@
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims",
+   "url": "https://cointelegraph.com/news/sky-protocol-sees-2b-in-stablecoin-withdrawals-disputes-illicit-fund-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T18:37:10+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Nac720cd9fc54",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T18:46:00.851387+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
+   "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+   "published": "2026-11-20T18:22:39+00:00",
+   "kind": "security",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nde9f26cf344d",
+   "kind_fa": "هک / امنیت",
+   "importance": 10,
+   "sentiment": -0.9,
+   "risk": 1.0,
+   "first_seen": "2026-11-20T18:46:00.851387+00:00",
+   "notified": false
+  },
+  {
+   "source": "theblock",
+   "title": "JPMorgan says bitcoin price correction widens gap to estimated $86,000 production cost",
+   "url": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+   "published": "2026-11-20T18:17:39+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "Nbadbd3469a11",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T18:46:00.851387+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
@@ -2858,20 +2914,21 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.148,
-   "risk": 0.186,
+   "sentiment": -0.238,
+   "risk": 0.992,
    "events": [
+    "security",
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 30,
-   "last": "2026-11-20T18:13:52+00:00"
+   "count": 31,
+   "last": "2026-11-20T18:22:39+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.554,
-   "risk": 0.859,
+   "sentiment": -0.555,
+   "risk": 0.849,
    "events": [
     "etf_flow",
     "security"
@@ -2881,7 +2938,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.321,
-   "risk": 0.859,
+   "risk": 0.849,
    "events": [
     "etf_flow",
     "security",
