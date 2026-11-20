@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-20T18:46:00.851387+00:00",
+ "updated_at": "2026-11-20T19:15:28.775252+00:00",
  "market": {
-  "btc_dominance": 57.77,
-  "usdt_dominance": 8.52,
-  "mcap_change_24h": -7.93,
+  "btc_dominance": 57.61,
+  "usdt_dominance": 8.61,
+  "mcap_change_24h": -9.13,
   "trending": [
    "WASTED",
-   "CHUNKEE",
    "LUCIA",
-   "TRUMP",
+   "CHUNKEE",
    "BTC",
-   "HYPE",
    "ZEC",
-   "SOL",
-   "PENGU",
-   "ETH"
+   "HYPE",
+   "PEARL",
+   "ETH",
+   "ZRO",
+   "TAO"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T18:46:00.851387+00:00",
    "notified": false
   },
@@ -53,6 +54,7 @@
    "importance": 10,
    "sentiment": -0.9,
    "risk": 1.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T18:46:00.851387+00:00",
    "notified": false
   },
@@ -73,6 +75,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T18:46:00.851387+00:00",
    "notified": false
   },
@@ -2296,44 +2299,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Ondo to launch tokenized Anthropic stock on IPO day",
-   "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
-   "published": "2026-11-18T18:51:30+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na70070e0aa9c",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T18:58:34.732022+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
-   "url": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-18T18:27:52+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Ndb5a518d81b7",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T18:58:34.732022+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2914,8 +2879,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.238,
-   "risk": 0.992,
+   "sentiment": -0.239,
+   "risk": 0.982,
    "events": [
     "security",
     "etf_flow",
@@ -2928,7 +2893,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.555,
-   "risk": 0.849,
+   "risk": 0.839,
    "events": [
     "etf_flow",
     "security"
@@ -2937,8 +2902,8 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.321,
-   "risk": 0.849,
+   "sentiment": -0.32,
+   "risk": 0.839,
    "events": [
     "etf_flow",
     "security",
