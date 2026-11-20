@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-20T10:52:33.548289+00:00",
+ "updated_at": "2026-11-20T11:22:07.036413+00:00",
  "market": {
-  "btc_dominance": 58.11,
-  "usdt_dominance": 8.13,
-  "mcap_change_24h": -3.84,
+  "btc_dominance": 58.05,
+  "usdt_dominance": 8.18,
+  "mcap_change_24h": -4.38,
   "trending": [
    "WASTED",
    "CHUNKEE",
    "TRUMP",
    "LUCIA",
-   "XMR",
-   "PEARL",
-   "ZEC",
    "BTC",
+   "PEARL",
    "HYPE",
+   "XMR",
+   "EVAA",
    "SUI"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
+   "url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-20T10:54:38+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N1d0de952fbb2",
+   "kind_fa": "جریان ETF",
+   "importance": 6,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-20T11:22:07.036413+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Coinbase targets first-half 2027 for its own prediction market contracts",
@@ -33,6 +49,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T10:52:33.548289+00:00",
    "notified": false
   },
@@ -49,6 +66,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T10:52:33.548289+00:00",
    "notified": false
   },
@@ -71,6 +89,7 @@
    "importance": 3,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-20T10:52:33.548289+00:00",
    "notified": false
   },
@@ -2335,44 +2354,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-   "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
-   "published": "2026-11-18T10:58:36+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nf51d65222e43",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T11:04:56.089559+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
-   "url": "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-18T10:33:07+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N2074cf021cdc",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-18T11:04:56.089559+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-18)",
    "url": "https://www.binance.com/en/support/announcement/e881bca4de484755b172ec53141bd422",
@@ -2953,15 +2934,15 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.071,
-   "risk": 0.263,
+   "sentiment": -0.073,
+   "risk": 0.258,
    "events": [
     "etf_flow",
     "project",
     "macro",
     "token_burn"
    ],
-   "count": 31,
+   "count": 30,
    "last": "2026-11-20T10:29:10+00:00"
   },
   "NEARUSDT": {
@@ -2988,19 +2969,19 @@
    "last": "2026-11-20T05:40:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.121,
-   "risk": 0.391,
+   "sentiment": -0.123,
+   "risk": 0.381,
    "events": [
     "project",
     "etf_flow",
     "security",
     "token_burn"
    ],
-   "count": 9,
+   "count": 8,
    "last": "2026-11-20T04:58:08+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.069,
+   "sentiment": -0.068,
    "risk": 0.0,
    "events": [
     "etf_flow",
