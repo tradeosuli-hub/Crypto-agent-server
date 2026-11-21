@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-21T13:57:06.771813+00:00",
+ "updated_at": "2026-11-21T14:26:41.950792+00:00",
  "market": {
-  "btc_dominance": 58.04,
-  "usdt_dominance": 8.31,
-  "mcap_change_24h": -4.01,
+  "btc_dominance": 57.96,
+  "usdt_dominance": 8.36,
+  "mcap_change_24h": -4.92,
   "trending": [
    "WASTED",
    "TRUMP",
-   "CHUNKEE",
    "BTC",
+   "CHUNKEE",
    "HYPE",
-   "TAO",
-   "SUI",
-   "PEARL",
+   "LIT",
+   "PENGU",
    "SOL",
-   "LIT"
+   "PEARL",
+   "ETH"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -1631,29 +1631,6 @@
    "notified": false
   },
   {
-   "source": "theblock",
-   "title": "Bitcoin finance protocol Hashi goes live on Sui mainnet",
-   "url": "https://www.theblock.co/news/defi/2026-11-19-bitcoin-finance-protocol-hashi-goes-live-on-sui-mainnet-443608",
-   "published": "2026-11-19T14:00:00+00:00",
-   "kind": "project",
-   "raw_symbols": [
-    "BTC",
-    "SUI"
-   ],
-   "symbols": [
-    "BTCUSDT",
-    "SUIUSDT"
-   ],
-   "id": "N6621a3441826",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 5,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T14:11:36.626858+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "Ethereum’s new DeFi security tool raises questions over censorship",
    "url": "https://cointelegraph.com/magazine/ethereums-new-defi-security-tool-raises-questions-over-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -2344,8 +2321,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.258,
-   "risk": 0.582,
+   "sentiment": -0.257,
+   "risk": 0.576,
    "events": [
     "regulation",
     "etf_flow",
@@ -2356,18 +2333,17 @@
    "last": "2026-11-21T12:30:00+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.257,
-   "risk": 0.592,
+   "sentiment": -0.269,
+   "risk": 0.582,
    "events": [
     "security",
-    "etf_flow",
-    "project"
+    "etf_flow"
    ],
-   "count": 23,
+   "count": 22,
    "last": "2026-11-21T06:16:42+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.157,
+   "sentiment": -0.158,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2386,7 +2362,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.591,
-   "risk": 0.45,
+   "risk": 0.439,
    "events": [
     "etf_flow",
     "security"
@@ -2395,7 +2371,7 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.079,
+   "sentiment": -0.078,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2409,15 +2385,6 @@
    "events": [],
    "count": 2,
    "last": "2026-11-20T06:00:12.166000+00:00"
-  },
-  "SUIUSDT": {
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "events": [
-    "project"
-   ],
-   "count": 1,
-   "last": "2026-11-19T14:00:00+00:00"
   }
  },
  "social": {},
