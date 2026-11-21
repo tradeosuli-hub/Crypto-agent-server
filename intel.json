@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-21T11:59:18.294078+00:00",
+ "updated_at": "2026-11-21T12:28:43.761332+00:00",
  "market": {
-  "btc_dominance": 57.46,
-  "usdt_dominance": 8.59,
-  "mcap_change_24h": -7.84,
+  "btc_dominance": 57.51,
+  "usdt_dominance": 8.55,
+  "mcap_change_24h": -7.05,
   "trending": [
    "WASTED",
    "BTC",
-   "SUI",
    "HYPE",
+   "SUI",
    "SOL",
-   "ZEC",
    "TAO",
+   "ZEC",
+   "PEARL",
    "PENGU",
-   "ETH",
-   "PEARL"
+   "ETH"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -1751,44 +1751,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
-   "url": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
-   "published": "2026-11-19T12:08:06+00:00",
-   "kind": "macro",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N1c2121bcb134",
-   "kind_fa": "کلان اقتصادی",
-   "importance": 8,
-   "sentiment": 0.0,
-   "risk": 0.5,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T12:13:00.585372+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "US launches cybercrime center with TRM Labs to help trace crypto tied to scams",
-   "url": "https://www.theblock.co/news/regulation/2026-11-19-us-launches-cybercrime-center-with-trm-labs-to-help-trace-crypto-tied-to-scams-443599",
-   "published": "2026-11-19T11:55:06+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ne6f3e03c3b68",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T12:13:00.585372+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-20)",
    "url": "https://www.binance.com/en/support/announcement/0d3b1632cf474b61afa7c04956005887",
@@ -2420,19 +2382,18 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.248,
-   "risk": 0.633,
+   "sentiment": -0.253,
+   "risk": 0.623,
    "events": [
     "security",
     "etf_flow",
-    "project",
-    "macro"
+    "project"
    ],
-   "count": 26,
+   "count": 24,
    "last": "2026-11-21T06:16:42+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.156,
+   "sentiment": -0.157,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2442,7 +2403,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.275,
-   "risk": 0.49,
+   "risk": 0.48,
    "events": [
     "regulation",
     "etf_flow",
@@ -2463,7 +2424,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.557,
-   "risk": 0.49,
+   "risk": 0.48,
    "events": [
     "etf_flow",
     "security"
