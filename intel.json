@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-21T03:37:27.626113+00:00",
+ "updated_at": "2026-11-21T04:06:56.876662+00:00",
  "market": {
-  "btc_dominance": 57.74,
-  "usdt_dominance": 8.61,
-  "mcap_change_24h": -8.27,
+  "btc_dominance": 57.42,
+  "usdt_dominance": 8.8,
+  "mcap_change_24h": -10.28,
   "trending": [
-   "CHUNKEE",
    "BTC",
-   "HYPE",
-   "ETH",
-   "PEARL",
-   "PENGU",
-   "EVAA",
+   "CHUNKEE",
    "SOL",
+   "ETH",
+   "HYPE",
+   "NEAR",
    "XRP",
-   "BP"
+   "TAO",
+   "EVAA",
+   "PEARL"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -2138,27 +2138,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
-   "url": "https://www.coindesk.com/markets/2026/11/19/cz-says-tokenized-anthropic-is-coming-to-bnb-chain-on-ipo-day",
-   "published": "2026-11-19T03:40:48+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BNB"
-   ],
-   "symbols": [
-    "BNBUSDT"
-   ],
-   "id": "N484fbd093be6",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T03:51:02.966977+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Early Completion of Contract Size Adjustment on USDⓈ-Margined BITOUSDT Perpetual Contract (2026-11-19)",
    "url": "https://www.binance.com/en/support/announcement/712f5b2f99eb4a59ba91b085f7eb124b",
@@ -2756,8 +2735,8 @@
  ],
  "symbols": {
   "ETHUSDT": {
-   "sentiment": -0.315,
-   "risk": 0.665,
+   "sentiment": -0.316,
+   "risk": 0.654,
    "events": [
     "regulation",
     "etf_flow",
@@ -2777,8 +2756,8 @@
    "last": "2026-11-20T21:40:01+00:00"
   },
   "BTCUSDT": {
-   "sentiment": -0.253,
-   "risk": 0.807,
+   "sentiment": -0.254,
+   "risk": 0.797,
    "events": [
     "security",
     "etf_flow",
@@ -2791,7 +2770,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.565,
-   "risk": 0.665,
+   "risk": 0.654,
    "events": [
     "etf_flow",
     "security"
@@ -2832,13 +2811,6 @@
    ],
    "count": 1,
    "last": "2026-11-19T14:00:00+00:00"
-  },
-  "BNBUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [],
-   "count": 1,
-   "last": "2026-11-19T03:40:48+00:00"
   }
  },
  "social": {},
