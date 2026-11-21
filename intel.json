@@ -1,25 +1,41 @@
 {
- "updated_at": "2026-11-21T07:33:33.491399+00:00",
+ "updated_at": "2026-11-21T08:03:01.407209+00:00",
  "market": {
-  "btc_dominance": 57.61,
-  "usdt_dominance": 8.61,
-  "mcap_change_24h": -8.16,
+  "btc_dominance": 57.6,
+  "usdt_dominance": 8.63,
+  "mcap_change_24h": -8.24,
   "trending": [
    "BTC",
    "CHUNKEE",
    "ZEC",
-   "ETH",
+   "HYPE",
    "SUI",
    "PENGU",
-   "HYPE",
-   "GRAM",
-   "PEARL",
-   "VVV"
+   "ETH",
+   "VVV",
+   "MON",
+   "PEARL"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "cointelegraph",
+   "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
+   "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-21T07:51:47+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "N12f39d401fd9",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-21T08:03:01.407209+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
@@ -2663,8 +2679,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.236,
-   "risk": 0.725,
+   "sentiment": -0.239,
+   "risk": 0.715,
    "events": [
     "security",
     "etf_flow",
@@ -2672,7 +2688,7 @@
     "macro",
     "token_burn"
    ],
-   "count": 30,
+   "count": 29,
    "last": "2026-11-21T06:16:42+00:00"
   },
   "XRPUSDT": {
@@ -2685,8 +2701,8 @@
    "last": "2026-11-21T05:59:19+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.276,
-   "risk": 0.583,
+   "sentiment": -0.277,
+   "risk": 0.572,
    "events": [
     "regulation",
     "etf_flow",
@@ -2707,7 +2723,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.562,
-   "risk": 0.583,
+   "risk": 0.572,
    "events": [
     "etf_flow",
     "security"
@@ -2716,7 +2732,7 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.071,
+   "sentiment": -0.07,
    "risk": 0.0,
    "events": [
     "etf_flow"
