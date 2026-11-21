@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-11-21T08:03:01.407209+00:00",
+ "updated_at": "2026-11-21T08:32:32.604214+00:00",
  "market": {
-  "btc_dominance": 57.6,
-  "usdt_dominance": 8.63,
-  "mcap_change_24h": -8.24,
+  "btc_dominance": 57.55,
+  "usdt_dominance": 8.67,
+  "mcap_change_24h": -8.63,
   "trending": [
    "BTC",
    "CHUNKEE",
-   "ZEC",
    "HYPE",
+   "ZEC",
    "SUI",
+   "EVAA",
    "PENGU",
-   "ETH",
-   "VVV",
-   "MON",
+   "BNB",
+   "SOL",
    "PEARL"
   ],
   "fear_greed": 12,
@@ -33,6 +33,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-21T08:03:01.407209+00:00",
    "notified": false
   },
@@ -2010,44 +2011,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "BTCPay Server issues emergency update for 5 security flaws",
-   "url": "https://cointelegraph.com/news/btcpay-server-emergency-update-nginx-security-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-19T08:04:37+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N30367d156e10",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T08:16:46.213543+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut",
-   "url": "https://cointelegraph.com/markets/bitcoin-retests-62k-nasdaq-futures-anthropic-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-19T07:55:56+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N8518b8942c56",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T08:16:46.213543+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-20)",
    "url": "https://www.binance.com/en/support/announcement/0d3b1632cf474b61afa7c04956005887",
@@ -2679,8 +2642,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.239,
-   "risk": 0.715,
+   "sentiment": -0.235,
+   "risk": 0.705,
    "events": [
     "security",
     "etf_flow",
@@ -2688,11 +2651,11 @@
     "macro",
     "token_burn"
    ],
-   "count": 29,
+   "count": 28,
    "last": "2026-11-21T06:16:42+00:00"
   },
   "XRPUSDT": {
-   "sentiment": -0.132,
+   "sentiment": -0.133,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2702,7 +2665,7 @@
   },
   "ETHUSDT": {
    "sentiment": -0.277,
-   "risk": 0.572,
+   "risk": 0.562,
    "events": [
     "regulation",
     "etf_flow",
@@ -2722,8 +2685,8 @@
    "last": "2026-11-20T21:40:01+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.562,
-   "risk": 0.572,
+   "sentiment": -0.561,
+   "risk": 0.562,
    "events": [
     "etf_flow",
     "security"
