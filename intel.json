@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-21T10:30:43.088003+00:00",
+ "updated_at": "2026-11-21T11:00:14.956675+00:00",
  "market": {
-  "btc_dominance": 57.52,
-  "usdt_dominance": 8.63,
-  "mcap_change_24h": -7.87,
+  "btc_dominance": 57.47,
+  "usdt_dominance": 8.62,
+  "mcap_change_24h": -7.73,
   "trending": [
    "WASTED",
-   "CHUNKEE",
    "BTC",
+   "CHUNKEE",
    "HYPE",
    "SUI",
    "SOL",
-   "TAO",
-   "PENGU",
    "ZEC",
-   "PUMP"
+   "ETH",
+   "PENGU",
+   "TAO"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -1899,80 +1899,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Singapore settles $77.5 million tokenized bill sale in local CBDC",
-   "url": "https://www.coindesk.com/business/2026/11/19/singapore-settles-usd77-5-million-tokenized-bill-sale-in-local-cbdc",
-   "published": "2026-11-19T10:39:36+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N333c63914464",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T10:44:30.271132+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Ant International launches protocol for real-time settlement between tokenized deposits and money market funds",
-   "url": "https://www.theblock.co/news/business/2026-11-19-ant-international-protocol-tokenized-assets-443586",
-   "published": "2026-11-19T10:39:29+00:00",
-   "kind": "listing",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Ndb14668ccad5",
-   "kind_fa": "لیستینگ",
-   "importance": 6,
-   "sentiment": 0.6,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T10:44:30.271132+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
-   "url": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-19T10:32:05+00:00",
-   "kind": "project",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N5f8a0d0c6536",
-   "kind_fa": "پروژه / آپدیت",
-   "importance": 4,
-   "sentiment": 0.2,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T10:44:30.271132+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
-   "url": "https://www.coindesk.com/markets/2026/11/19/roundhill-scraps-solana-and-xrp-income-etfs-as-rival-funds-attract-just-usd12-million",
-   "published": "2026-11-19T10:22:12+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "XRP",
-    "SOL"
-   ],
-   "symbols": [
-    "XRPUSDT",
-    "SOLUSDT"
-   ],
-   "id": "N8e56cb037955",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T10:44:30.271132+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-20)",
    "url": "https://www.binance.com/en/support/announcement/0d3b1632cf474b61afa7c04956005887",
@@ -2604,8 +2530,8 @@
  ],
  "symbols": {
   "BTCUSDT": {
-   "sentiment": -0.234,
-   "risk": 0.664,
+   "sentiment": -0.233,
+   "risk": 0.654,
    "events": [
     "security",
     "etf_flow",
@@ -2613,7 +2539,7 @@
     "macro",
     "token_burn"
    ],
-   "count": 28,
+   "count": 27,
    "last": "2026-11-21T06:16:42+00:00"
   },
   "XRPUSDT": {
@@ -2626,8 +2552,8 @@
    "last": "2026-11-21T05:59:19+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.277,
-   "risk": 0.521,
+   "sentiment": -0.276,
+   "risk": 0.511,
    "events": [
     "regulation",
     "etf_flow",
@@ -2648,7 +2574,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.559,
-   "risk": 0.521,
+   "risk": 0.511,
    "events": [
     "etf_flow",
     "security"
