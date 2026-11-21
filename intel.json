@@ -1,20 +1,20 @@
 {
- "updated_at": "2026-11-21T05:06:08.003464+00:00",
+ "updated_at": "2026-11-21T05:35:37.456208+00:00",
  "market": {
-  "btc_dominance": 57.33,
+  "btc_dominance": 57.22,
   "usdt_dominance": 8.84,
-  "mcap_change_24h": -9.89,
+  "mcap_change_24h": -9.87,
   "trending": [
    "BTC",
    "CHUNKEE",
-   "TAO",
    "HYPE",
-   "ETH",
-   "SOL",
-   "PEARL",
-   "PENGU",
+   "TAO",
    "ZEC",
-   "FET"
+   "SOL",
+   "PUMP",
+   "ETH",
+   "XRP",
+   "LINK"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
@@ -37,6 +37,7 @@
    "importance": 3,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-21T05:06:08.003464+00:00",
    "notified": false
   },
@@ -2090,23 +2091,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
-   "url": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-19T05:09:45+00:00",
-   "kind": "security",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "Na1e9abc9063c",
-   "kind_fa": "هک / امنیت",
-   "importance": 9,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T05:19:38.014623+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-20)",
    "url": "https://www.binance.com/en/support/announcement/0d3b1632cf474b61afa7c04956005887",
@@ -2739,7 +2723,7 @@
  "symbols": {
   "BTCUSDT": {
    "sentiment": -0.241,
-   "risk": 0.777,
+   "risk": 0.766,
    "events": [
     "security",
     "etf_flow",
@@ -2751,8 +2735,8 @@
    "last": "2026-11-21T04:30:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.318,
-   "risk": 0.634,
+   "sentiment": -0.32,
+   "risk": 0.624,
    "events": [
     "regulation",
     "etf_flow",
@@ -2773,7 +2757,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.564,
-   "risk": 0.634,
+   "risk": 0.624,
    "events": [
     "etf_flow",
     "security"
