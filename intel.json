@@ -1,25 +1,61 @@
 {
- "updated_at": "2026-11-21T05:35:37.456208+00:00",
+ "updated_at": "2026-11-21T06:05:09.622779+00:00",
  "market": {
-  "btc_dominance": 57.22,
-  "usdt_dominance": 8.84,
-  "mcap_change_24h": -9.87,
+  "btc_dominance": 57.14,
+  "usdt_dominance": 8.92,
+  "mcap_change_24h": -11.03,
   "trending": [
    "BTC",
    "CHUNKEE",
    "HYPE",
-   "TAO",
    "ZEC",
+   "ETH",
    "SOL",
    "PUMP",
-   "ETH",
-   "XRP",
-   "LINK"
+   "PENGU",
+   "TAO",
+   "SUI"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+   "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+   "published": "2026-11-21T05:59:19+00:00",
+   "kind": "etf_flow",
+   "raw_symbols": [
+    "XRP"
+   ],
+   "symbols": [
+    "XRPUSDT"
+   ],
+   "id": "N59cd1d5801d0",
+   "kind_fa": "جریان ETF",
+   "importance": 7,
+   "sentiment": -0.2,
+   "risk": 0.0,
+   "first_seen": "2026-11-21T06:05:09.622779+00:00",
+   "notified": false
+  },
+  {
+   "source": "cointelegraph",
+   "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
+   "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-21T05:40:35+00:00",
+   "kind": "news",
+   "raw_symbols": [],
+   "symbols": [],
+   "id": "Naedb004d1e04",
+   "kind_fa": "خبر",
+   "importance": 2,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-21T06:05:09.622779+00:00",
+   "notified": false
+  },
   {
    "source": "theblock",
    "title": "JPMorgan says bitcoin’s price drop pressures miners, Senate passes ‘Death Bets Act’, and more",
@@ -2053,44 +2089,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
-   "url": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
-   "published": "2026-11-19T05:39:06+00:00",
-   "kind": "security",
-   "raw_symbols": [
-    "ETH"
-   ],
-   "symbols": [
-    "ETHUSDT"
-   ],
-   "id": "Ne8ce5b6ae0a6",
-   "kind_fa": "هک / امنیت",
-   "importance": 10,
-   "sentiment": -0.9,
-   "risk": 1.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T05:49:12.900163+00:00",
-   "notified": false
-  },
-  {
-   "source": "cointelegraph",
-   "title": "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight",
-   "url": "https://cointelegraph.com/news/us-senators-genius-act-rules-favor-federal-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-19T05:27:45+00:00",
-   "kind": "news",
-   "raw_symbols": [],
-   "symbols": [],
-   "id": "N966bd84ba9ce",
-   "kind_fa": "خبر",
-   "importance": 2,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T05:49:12.900163+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-20)",
    "url": "https://www.binance.com/en/support/announcement/0d3b1632cf474b61afa7c04956005887",
@@ -2721,9 +2719,18 @@
   }
  ],
  "symbols": {
+  "XRPUSDT": {
+   "sentiment": -0.131,
+   "risk": 0.0,
+   "events": [
+    "etf_flow"
+   ],
+   "count": 4,
+   "last": "2026-11-21T05:59:19+00:00"
+  },
   "BTCUSDT": {
-   "sentiment": -0.241,
-   "risk": 0.766,
+   "sentiment": -0.249,
+   "risk": 0.756,
    "events": [
     "security",
     "etf_flow",
@@ -2731,19 +2738,19 @@
     "macro",
     "token_burn"
    ],
-   "count": 32,
+   "count": 29,
    "last": "2026-11-21T04:30:00+00:00"
   },
   "ETHUSDT": {
-   "sentiment": -0.32,
-   "risk": 0.624,
+   "sentiment": -0.274,
+   "risk": 0.613,
    "events": [
     "regulation",
     "etf_flow",
     "security",
     "project"
    ],
-   "count": 8,
+   "count": 7,
    "last": "2026-11-20T22:05:31+00:00"
   },
   "ZECUSDT": {
@@ -2757,7 +2764,7 @@
   },
   "NEARUSDT": {
    "sentiment": -0.564,
-   "risk": 0.624,
+   "risk": 0.613,
    "events": [
     "etf_flow",
     "security"
@@ -2766,7 +2773,7 @@
    "last": "2026-11-20T12:29:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.073,
+   "sentiment": -0.072,
    "risk": 0.0,
    "events": [
     "etf_flow"
@@ -2780,15 +2787,6 @@
    "events": [],
    "count": 2,
    "last": "2026-11-20T06:00:12.166000+00:00"
-  },
-  "XRPUSDT": {
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "events": [
-    "etf_flow"
-   ],
-   "count": 3,
-   "last": "2026-11-20T05:40:00+00:00"
   },
   "SUIUSDT": {
    "sentiment": 0.2,
