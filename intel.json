@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-21T12:28:43.761332+00:00",
+ "updated_at": "2026-11-21T12:58:13.950985+00:00",
  "market": {
-  "btc_dominance": 57.51,
-  "usdt_dominance": 8.55,
-  "mcap_change_24h": -7.05,
+  "btc_dominance": 57.65,
+  "usdt_dominance": 8.52,
+  "mcap_change_24h": -6.67,
   "trending": [
    "WASTED",
    "BTC",
    "HYPE",
-   "SUI",
-   "SOL",
    "TAO",
+   "MON",
+   "SUI",
    "ZEC",
    "PEARL",
-   "PENGU",
-   "ETH"
+   "SOL",
+   "PENGU"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+   "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+   "published": "2026-11-21T12:30:00+00:00",
+   "kind": "regulation",
+   "raw_symbols": [
+    "ETH"
+   ],
+   "symbols": [
+    "ETHUSDT"
+   ],
+   "id": "N6082857bd291",
+   "kind_fa": "قانون‌گذاری",
+   "importance": 8,
+   "sentiment": -0.2,
+   "risk": 0.6,
+   "first_seen": "2026-11-21T12:58:13.950985+00:00",
+   "notified": false
+  },
   {
    "source": "cointelegraph",
    "title": "Here’s what happened in crypto today",
@@ -1688,27 +1708,6 @@
    "notified": false
   },
   {
-   "source": "coindesk",
-   "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
-   "url": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
-   "published": "2026-11-19T12:40:12+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N84b76442fef5",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T12:42:33.209379+00:00",
-   "notified": false
-  },
-  {
    "source": "cointelegraph",
    "title": "GTA VI publisher racks up nearly 3x Nvidia’s tokenized stock volume",
    "url": "https://cointelegraph.com/news/gta-vi-launch-tokenized-ttwo-trade-triple-nvidia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1727,27 +1726,6 @@
    "risk": 0.0,
    "summary_fa": null,
    "first_seen": "2026-11-19T13:12:03.073552+00:00",
-   "notified": false
-  },
-  {
-   "source": "coindesk",
-   "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
-   "published": "2026-11-19T12:20:39+00:00",
-   "kind": "etf_flow",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N1eb4dc18b52a",
-   "kind_fa": "جریان ETF",
-   "importance": 7,
-   "sentiment": -0.4,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T12:42:33.209379+00:00",
    "notified": false
   },
   {
@@ -2381,15 +2359,27 @@
   }
  ],
  "symbols": {
-  "BTCUSDT": {
+  "ETHUSDT": {
    "sentiment": -0.253,
-   "risk": 0.623,
+   "risk": 0.594,
+   "events": [
+    "regulation",
+    "etf_flow",
+    "security",
+    "project"
+   ],
+   "count": 8,
+   "last": "2026-11-21T12:30:00+00:00"
+  },
+  "BTCUSDT": {
+   "sentiment": -0.256,
+   "risk": 0.613,
    "events": [
     "security",
     "etf_flow",
     "project"
    ],
-   "count": 24,
+   "count": 23,
    "last": "2026-11-21T06:16:42+00:00"
   },
   "XRPUSDT": {
@@ -2401,18 +2391,6 @@
    "count": 3,
    "last": "2026-11-21T05:59:19+00:00"
   },
-  "ETHUSDT": {
-   "sentiment": -0.275,
-   "risk": 0.48,
-   "events": [
-    "regulation",
-    "etf_flow",
-    "security",
-    "project"
-   ],
-   "count": 7,
-   "last": "2026-11-20T22:05:31+00:00"
-  },
   "ZECUSDT": {
    "sentiment": 0.9,
    "risk": 0.0,
@@ -2423,17 +2401,17 @@
    "last": "2026-11-20T21:40:01+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.557,
-   "risk": 0.48,
+   "sentiment": -0.591,
+   "risk": 0.47,
    "events": [
     "etf_flow",
     "security"
    ],
-   "count": 4,
+   "count": 3,
    "last": "2026-11-20T12:29:57+00:00"
   },
   "SOLUSDT": {
-   "sentiment": -0.081,
+   "sentiment": -0.08,
    "risk": 0.0,
    "events": [
     "etf_flow"
