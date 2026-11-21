@@ -1,25 +1,45 @@
 {
- "updated_at": "2026-11-21T06:05:09.622779+00:00",
+ "updated_at": "2026-11-21T06:34:40.995567+00:00",
  "market": {
-  "btc_dominance": 57.14,
-  "usdt_dominance": 8.92,
-  "mcap_change_24h": -11.03,
+  "btc_dominance": 57.24,
+  "usdt_dominance": 8.87,
+  "mcap_change_24h": -10.71,
   "trending": [
-   "BTC",
    "CHUNKEE",
+   "BTC",
    "HYPE",
    "ZEC",
-   "ETH",
    "SOL",
-   "PUMP",
+   "ETH",
    "PENGU",
-   "TAO",
-   "SUI"
+   "LIT",
+   "SUI",
+   "TAO"
   ],
   "fear_greed": 12,
   "fear_greed_label": "Extreme Fear"
  },
  "items": [
+  {
+   "source": "coindesk",
+   "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+   "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+   "published": "2026-11-21T06:16:42+00:00",
+   "kind": "news",
+   "raw_symbols": [
+    "BTC"
+   ],
+   "symbols": [
+    "BTCUSDT"
+   ],
+   "id": "N5c48c1a28f49",
+   "kind_fa": "خبر",
+   "importance": 3,
+   "sentiment": 0.0,
+   "risk": 0.0,
+   "first_seen": "2026-11-21T06:34:40.995567+00:00",
+   "notified": false
+  },
   {
    "source": "coindesk",
    "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
@@ -37,6 +57,7 @@
    "importance": 7,
    "sentiment": -0.2,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-21T06:05:09.622779+00:00",
    "notified": false
   },
@@ -53,6 +74,7 @@
    "importance": 2,
    "sentiment": 0.0,
    "risk": 0.0,
+   "summary_fa": null,
    "first_seen": "2026-11-21T06:05:09.622779+00:00",
    "notified": false
   },
@@ -2026,69 +2048,6 @@
    "notified": false
   },
   {
-   "source": "cointelegraph",
-   "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
-   "url": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-19T06:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N9459c6cf5f83",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T06:18:46.519928+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Sygnum sees bitcoin carry trades beating Treasury bills in 2027 as funding recovers",
-   "url": "https://www.theblock.co/news/markets/2026-11-19-sygnum-bitcoin-carry-trades-beating-treasury-bills-2027-443547",
-   "published": "2026-11-19T06:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "N6b69083ab7e1",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T06:18:46.519928+00:00",
-   "notified": false
-  },
-  {
-   "source": "theblock",
-   "title": "Binance gets $6.5 billion freezing order, CryptoQuant says bitcoin is in a ‘value zone’, and more",
-   "url": "https://www.theblock.co/newsletters/the-daily/2026-11-19-binance-gets-6-5-billion-freezing-order-cryptoquant-says-bitcoin-is-in-a-value-zone-and-more-443511",
-   "published": "2026-11-19T06:00:00+00:00",
-   "kind": "news",
-   "raw_symbols": [
-    "BTC"
-   ],
-   "symbols": [
-    "BTCUSDT"
-   ],
-   "id": "Nbc3fde8f1d7e",
-   "kind_fa": "خبر",
-   "importance": 3,
-   "sentiment": 0.0,
-   "risk": 0.0,
-   "summary_fa": null,
-   "first_seen": "2026-11-19T06:18:46.519928+00:00",
-   "notified": false
-  },
-  {
    "source": "binance",
    "title": "Updates on Tick Size for Multiple USDⓈ-M Perpetual Futures Contracts (2026-11-20)",
    "url": "https://www.binance.com/en/support/announcement/0d3b1632cf474b61afa7c04956005887",
@@ -2719,6 +2678,19 @@
   }
  ],
  "symbols": {
+  "BTCUSDT": {
+   "sentiment": -0.236,
+   "risk": 0.746,
+   "events": [
+    "security",
+    "etf_flow",
+    "project",
+    "macro",
+    "token_burn"
+   ],
+   "count": 30,
+   "last": "2026-11-21T06:16:42+00:00"
+  },
   "XRPUSDT": {
    "sentiment": -0.131,
    "risk": 0.0,
@@ -2728,22 +2700,9 @@
    "count": 4,
    "last": "2026-11-21T05:59:19+00:00"
   },
-  "BTCUSDT": {
-   "sentiment": -0.249,
-   "risk": 0.756,
-   "events": [
-    "security",
-    "etf_flow",
-    "project",
-    "macro",
-    "token_burn"
-   ],
-   "count": 29,
-   "last": "2026-11-21T04:30:00+00:00"
-  },
   "ETHUSDT": {
-   "sentiment": -0.274,
-   "risk": 0.613,
+   "sentiment": -0.275,
+   "risk": 0.603,
    "events": [
     "regulation",
     "etf_flow",
@@ -2763,8 +2722,8 @@
    "last": "2026-11-20T21:40:01+00:00"
   },
   "NEARUSDT": {
-   "sentiment": -0.564,
-   "risk": 0.613,
+   "sentiment": -0.563,
+   "risk": 0.603,
    "events": [
     "etf_flow",
     "security"
